@@ -115,10 +115,14 @@ yesterday = datetime.now() - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
 
 for index, row in urls_df.iterrows():
+  group = row["group"]
   media_en = row['media_en']
   base_url = row['url']
   params = {'year': year, 'month': month, 'day': day, 'page': 1}
   article_links = []
+  
+  if group not in ["a"]:　# group指定 "a"グループをスクレイプ　, "b", "c", "s"
+      continue
 
   # ニュース記事のリンクを収集する
   while True:
