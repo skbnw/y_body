@@ -121,7 +121,7 @@ for index, row in urls_df.iterrows():
   params = {'year': year, 'month': month, 'day': day, 'page': 1}
   article_links = []
   
-  if group not in ["a"]:　# group指定 "a"グループをスクレイプ　, "b", "c", "s"
+  if group in ["a"]:
       continue
 
   # ニュース記事のリンクを収集する
