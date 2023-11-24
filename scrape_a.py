@@ -8,6 +8,7 @@ from datetime import datetime
 import pytz
 import concurrent.futures
 import boto3
+import time
 
 # 環境変数からAWSの認証情報を取得
 aws_access_key_id = os.environ['AWS_ACCESS_KEY_ID']
