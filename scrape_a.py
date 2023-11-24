@@ -127,7 +127,7 @@ def process_url(row):
     # 空のリストを初期状態として設定
     article_links = []
 
-    if group == 'a':
+    if group == 'b':
         has_more_pages = True
         current_page = 1
         while has_more_pages:
