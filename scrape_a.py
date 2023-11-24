@@ -189,7 +189,7 @@ if __name__ == "__main__":
         json.dump(list(progress), file)
     upload_to_s3(progress_file_path, 'ynews-articles', progress_s3_key)
 
-    # その他のメインスクリプトの実行
+    # メインスクリプトの実行
     csv_file_path = 'url/media_url_group.csv'
     urls_df = pd.read_csv(csv_file_path)
 
