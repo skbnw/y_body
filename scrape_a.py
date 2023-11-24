@@ -10,6 +10,7 @@ import concurrent.futures
 import boto3
 import time
 import logging
+from botocore.exceptions import ClientError
 
 # 環境変数からAWSの認証情報を取得
 aws_access_key_id = os.environ['AWS_ACCESS_KEY_ID']
@@ -153,7 +154,7 @@ def process_url(row):
 def download_from_s3(bucket, object_name, file_path):
     try:
         s3.download_file(bucket, object_name, file_path)
-    except boto3.exceptions.S3DownloadFailedError as e:
+    except ClientError as e:
         logging.error(e)
         return False
     return True
