@@ -9,6 +9,7 @@ import pytz
 import concurrent.futures
 import boto3
 import time
+import logging
 
 # 環境変数からAWSの認証情報を取得
 aws_access_key_id = os.environ['AWS_ACCESS_KEY_ID']
@@ -23,7 +24,6 @@ def minify_text(text):
     text = text.replace('\n', '\\n')
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
-
 
 def fetch_full_article(url):
     full_text = ''
@@ -103,24 +103,20 @@ def save_article_as_json(url, media_en, progress):
 
             with open(file_path, 'w', encoding='utf-8') as file:
                 json.dump(output_data, file, ensure_ascii=False, indent=2)
+              
+            # S3にアップロード
+            s3_key = os.path.join(folder_name, filename)
+            upload_to_s3(file_path, "ynews-articles", s3_key)
 
-            print(f"File saved as {file_path}")
+            # ローカルファイルの削除
+            os.remove(file_path)
+
             progress.add(url)
             with open('progress.json', 'w', encoding='utf-8') as progress_file:
                 json.dump(list(progress), progress_file)
             print(f"File saved and progress updated for {url}")
     else:
         print(f"JSON-LD data not found or invalid for URL: {url}")
-
-# 進行状況を読み込むか、新しいセットを作成
-if os.path.exists('progress.json'):
-    with open('progress.json', 'r', encoding='utf-8') as progress_file:
-        progress = set(json.load(progress_file))
-else:
-    progress = set()
-
-csv_file_path = 'url/media_url_group.csv'
-urls_df = pd.read_csv(csv_file_path)
 
 def process_url(row):
     media_en = row['media_en']
@@ -154,38 +150,61 @@ def process_url(row):
     # ここでリスト（空のリストも含む）を返す
     return [(link, media_en) for link in article_links]
 
-# URLリストの生成
-all_urls = []
-for index, row in urls_df.iterrows():
-    all_urls.extend(process_url(row))
-
-# ThreadPoolExecutorを使用して並行処理
-with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-    future_to_url = {executor.submit(save_article_as_json, url, media_en, progress): (url, media_en) for url, media_en in all_urls}
-    for future in concurrent.futures.as_completed(future_to_url):
-        url, media_en = future_to_url[future]
-        try:
-            future.result()
-            print(f"Completed processing {url}")
-        except Exception as e:
-            print(f"{url} processing generated an exception: {e}")
-
-
 def upload_to_s3(file_path, bucket, object_name=None):
-    # ファイルをS3にアップロードする機能
     if object_name is None:
         object_name = os.path.basename(file_path)
 
     try:
-        response = s3.upload_file(file_path, bucket, object_name)
-    except ClientError as e:
+        s3.upload_file(file_path, bucket, object_name)
+    except boto3.exceptions.S3UploadFailedError as e:
+        logging.error(e)
+        return False
+    return True
+
+def upload_to_s3(file_path, bucket, object_name=None):
+    if object_name is None:
+        object_name = os.path.basename(file_path)
+
+    try:
+        s3.upload_file(file_path, bucket, object_name)
+    except boto3.exceptions.S3UploadFailedError as e:
         logging.error(e)
         return False
     return True
 
 if __name__ == "__main__":
-    # メインスクリプトの実行
+    # progress.jsonの読み込み
+    progress_file_path = 'progress.json'
+    progress_s3_key = 'progress.json'
+    if download_from_s3('ynews-articles', progress_s3_key, progress_file_path):
+        with open(progress_file_path, 'r', encoding='utf-8') as file:
+            progress = set(json.load(file))
+    else:
+        progress = set()
 
+    # その他の処理...
+
+    # progress.jsonの保存とアップロード
+    with open(progress_file_path, 'w', encoding='utf-8') as file:
+        json.dump(list(progress), file)
+    upload_to_s3(progress_file_path, 'ynews-articles', progress_s3_key)
+
+    # その他のメインスクリプトの実行
     csv_file_path = 'url/media_url_group.csv'
     urls_df = pd.read_csv(csv_file_path)
-    scrape_articles(urls_df)
+
+    # URLリストの生成と処理
+    all_urls = []
+    for index, row in urls_df.iterrows():
+        all_urls.extend(process_url(row))
+
+    # ThreadPoolExecutorを使用して並行処理
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        future_to_url = {executor.submit(save_article_as_json, url, media_en, progress): (url, media_en) for url, media_en in all_urls}
+        for future in concurrent.futures.as_completed(future_to_url):
+            url, media_en = future_to_url[future]
+            try:
+                future.result()
+                print(f"Completed processing {url}")
+            except Exception as e:
+                print(f"{url} processing generated an exception: {e}")
