@@ -9,20 +9,20 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: Step Name
+      - name: Checkout
         uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.8'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
 
-    - name: Install dependencies
-      run: |
-        pip install pandas requests beautifulsoup4 pytz boto3
+      - name: Install dependencies
+        run: |
+          pip install pandas requests beautifulsoup4 pytz boto3
 
-    - name: Run scraper
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      run: python scrape_a.py
+      - name: Run scraper
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: python scrape_a.py
