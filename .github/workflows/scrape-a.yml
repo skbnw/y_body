@@ -1,4 +1,4 @@
-name: Scheduled Ynews Scraping a
+name: Scheduled Ynews Scraping A
 
 on:
   schedule:
