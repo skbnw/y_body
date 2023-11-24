@@ -21,6 +21,8 @@ s3 = boto3.client('s3',
                   aws_access_key_id=aws_access_key_id,
                   aws_secret_access_key=aws_secret_access_key)
 
+progress_file_name = 'progress-c.json'
+
 def minify_text(text):
     text = text.replace('\n', '\\n')
     text = re.sub(r'\s+', ' ', text)
@@ -127,7 +129,7 @@ def process_url(row):
     # 空のリストを初期状態として設定
     article_links = []
 
-    if group == 'b':
+    if group == 'c':
         has_more_pages = True
         current_page = 1
         while has_more_pages:
@@ -172,15 +174,13 @@ def upload_to_s3(file_path, bucket, object_name=None):
 
 if __name__ == "__main__":
     # progress.jsonの読み込み
-    progress_file_path = 'progress.json'
-    progress_s3_key = 'progress.json'
+    progress_file_path = progress_file_name
+    progress_s3_key = progress_file_name
     if download_from_s3('ynews-articles', progress_s3_key, progress_file_path):
         with open(progress_file_path, 'r', encoding='utf-8') as file:
             progress = set(json.load(file))
     else:
         progress = set()
-
-    # その他の処理...
 
     # progress.jsonの保存とアップロード
     with open(progress_file_path, 'w', encoding='utf-8') as file:
