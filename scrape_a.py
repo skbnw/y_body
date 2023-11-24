@@ -21,7 +21,7 @@ s3 = boto3.client('s3',
                   aws_access_key_id=aws_access_key_id,
                   aws_secret_access_key=aws_secret_access_key)
 
-progress_file_name = 'progress-d.json'
+progress_file_name = 'progress-a.json'
 
 def minify_text(text):
     text = text.replace('\n', '\\n')
@@ -129,7 +129,7 @@ def process_url(row):
     # 空のリストを初期状態として設定
     article_links = []
 
-    if group == 'd':
+    if group == 'a':
         has_more_pages = True
         current_page = 1
         while has_more_pages:
