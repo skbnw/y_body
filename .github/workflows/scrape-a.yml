@@ -1,0 +1,27 @@
+name: Scheduled News Scraping
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 毎日 UTC 0時（JST 9時）に実行
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install dependencies
+      run: |
+        pip install pandas requests beautifulsoup4 pytz boto3
+
+    - name: Run scraper
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      run: python code.py
