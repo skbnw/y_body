@@ -150,13 +150,10 @@ def process_url(row):
     # ここでリスト（空のリストも含む）を返す
     return [(link, media_en) for link in article_links]
 
-def upload_to_s3(file_path, bucket, object_name=None):
-    if object_name is None:
-        object_name = os.path.basename(file_path)
-
+def download_from_s3(bucket, object_name, file_path):
     try:
-        s3.upload_file(file_path, bucket, object_name)
-    except boto3.exceptions.S3UploadFailedError as e:
+        s3.download_file(bucket, object_name, file_path)
+    except boto3.exceptions.S3DownloadFailedError as e:
         logging.error(e)
         return False
     return True
