@@ -101,7 +101,7 @@ if os.path.exists('progress.json'):
 else:
   progress = set()
 
-csv_file_path = 'url/media_url_group.csv'
+csv_file_path = 'url/media_url_group_test.csv'
 urls_df = pd.read_csv(csv_file_path)
 
 yesterday = datetime.now() - timedelta(days=1)
