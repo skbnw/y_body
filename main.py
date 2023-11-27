@@ -125,7 +125,7 @@ for index, row in urls_df.iterrows():
 
         params['page'] += 1
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=5) as executor:
         future_to_link = {executor.submit(process_article_link, link, media_en, media_jp, progress): link for link in article_links}
         for future in as_completed(future_to_link):
             article_info = future.result()
