@@ -1,5 +1,4 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import json
 import os
 import re
 import random
@@ -8,7 +7,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pytz  # pytz ライブラリをインポート
+import pytz
 
 def minify_text(text):
     text = text.replace('\n', '\\n')
@@ -55,10 +54,7 @@ def fetch_full_article(url):
 
     return minify_text(full_text), json_ld_data
 
-def process_article_link(link, media_en, media_jp, progress):
-    if link in progress:
-        return None
-
+def process_article_link(link, media_en, media_jp):
     article_text, json_ld_data = fetch_full_article(link)
     if json_ld_data:
         str_count = len(article_text)
@@ -87,12 +83,6 @@ def save_articles_to_csv(article_data, media_en, yesterday):
     df.to_csv(filename, index=False)
     print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-if os.path.exists('progress.json'):
-    with open('progress.json', 'r', encoding='utf-8') as progress_file:
-        progress = set(json.load(progress_file))
-else:
-    progress = set()
-
 csv_file_path = 'url/media_url_group.csv'
 urls_df = pd.read_csv(csv_file_path)
 
@@ -102,7 +92,7 @@ yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
 
 for index, row in urls_df.iterrows():
-    if row['group'] != 'a':  # グループ 'a' のみを対象とする
+    if row['group'] != 'a': 
         continue
     media_en = row['media_en']
     media_jp = row['media_jp']
@@ -126,15 +116,10 @@ for index, row in urls_df.iterrows():
         params['page'] += 1
 
     with ThreadPoolExecutor(max_workers=5) as executor:
-        future_to_link = {executor.submit(process_article_link, link, media_en, media_jp, progress): link for link in article_links}
+        future_to_link = {executor.submit(process_article_link, link, media_en, media_jp): link for link in article_links}
         for future in as_completed(future_to_link):
             article_info = future.result()
             if article_info:
                 article_data.append(article_info)
-                progress.add(future_to_link[future])
 
     save_articles_to_csv(article_data, media_en, yesterday)
-
-# 進捗ファイルの保存
-with open('progress.json', 'w', encoding='utf-8') as progress_file:
-    json.dump(list(progress), progress_file)
