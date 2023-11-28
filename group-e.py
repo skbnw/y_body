@@ -87,12 +87,6 @@ def save_articles_to_csv(article_data, media_en, yesterday):
     df.to_csv(filename, index=False)
     print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-if os.path.exists('progress.json'):
-    with open('progress.json', 'r', encoding='utf-8') as progress_file:
-        progress = set(json.load(progress_file))
-else:
-    progress = set()
-
 csv_file_path = 'url/media_url_group.csv'
 urls_df = pd.read_csv(csv_file_path)
 
@@ -134,7 +128,3 @@ for index, row in urls_df.iterrows():
                 progress.add(future_to_link[future])
 
     save_articles_to_csv(article_data, media_en, yesterday)
-
-# 進捗ファイルの保存
-with open('progress.json', 'w', encoding='utf-8') as progress_file:
-    json.dump(list(progress), progress_file)
