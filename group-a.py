@@ -1,3 +1,4 @@
+import json 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
 import re
@@ -7,7 +8,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pytz
+import pytz 
 
 def minify_text(text):
     text = text.replace('\n', '\\n')
@@ -86,7 +87,6 @@ def save_articles_to_csv(article_data, media_en, yesterday):
 csv_file_path = 'url/media_url_group.csv'
 urls_df = pd.read_csv(csv_file_path)
 
-# UTCからJST (日本標準時) に変換
 tokyo_timezone = pytz.timezone('Asia/Tokyo')
 yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
