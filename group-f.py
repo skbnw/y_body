@@ -102,7 +102,7 @@ yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
 
 for index, row in urls_df.iterrows():
-    if row['group'] != 'a':  # グループ 'a' のみを対象とする
+    if row['group'] != 'f': 
         continue
     media_en = row['media_en']
     media_jp = row['media_jp']
