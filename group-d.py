@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pytz  # pytz ライブラリをインポート
+import pytz 
 
 def minify_text(text):
     text = text.replace('\n', '\\n')
@@ -102,7 +102,7 @@ yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
 
 for index, row in urls_df.iterrows():
-    if row['group'] != 'a':  # グループ 'a' のみを対象とする
+    if row['group'] != 'd': 
         continue
     media_en = row['media_en']
     media_jp = row['media_jp']
