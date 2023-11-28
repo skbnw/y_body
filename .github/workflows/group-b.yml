@@ -2,7 +2,7 @@ name: Scheduled Ynews Scraping B
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 毎日0時に実行
+    - cron: '0 11 * * *'  
   workflow_dispatch:
 
 jobs:
@@ -27,7 +27,7 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        run: python main.py
+        run: python group-b.py
 
       - name: Set Git Config
         run: |
