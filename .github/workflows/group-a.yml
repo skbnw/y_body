@@ -16,8 +16,8 @@ jobs:
       
       - name: Create directory
         run: |
-          current_date=$(date +'%Y_%m%d') # 現在の年月日を 'yyyy_mmdd' 形式で取得
-          folder_name="html-mediaALL_a_${current_date}" # フォルダ名の設定
+          current_date=$(date +'%Y_%m%d') 
+          folder_name="html-mediaALL_a_${current_date}" 
           mkdir -p $folder_name # フォルダ作成
 
       - name: Install dependencies
