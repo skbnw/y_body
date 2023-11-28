@@ -82,7 +82,7 @@ def save_articles_to_csv(article_data, media_en, yesterday):
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
-    filename = os.path.join(folder_name, f"{yesterday.strftime('%Y_%m%d')}_{media_en}.csv")
+    filename = os.path.join(folder_name, f"{yesterday.strftime('%Y-%m%d')}-{media_en}.csv")
     df = pd.DataFrame(article_data)
     df.to_csv(filename, index=False)
     print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
@@ -102,7 +102,7 @@ yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
 
 for index, row in urls_df.iterrows():
-    if row['group'] != 'b':  # グループ 'a' のみを対象とする
+    if row['group'] != 'a':  # グループ 'a' のみを対象とする
         continue
     media_en = row['media_en']
     media_jp = row['media_jp']
