@@ -1,0 +1,719 @@
+﻿num,group,media_jp,media_en,url
+1,g01,共同通信,kyodonews,https://news.yahoo.co.jp/media/kyodonews
+2,g01,読売新聞オンライン,yom,https://news.yahoo.co.jp/media/yom
+3,g01,TBS NEWS DIG Powered by JNN,jnn,https://news.yahoo.co.jp/media/jnn
+4,g01,スポニチアネックス,spnannex,https://news.yahoo.co.jp/media/spnannex
+5,g02,時事通信,jij,https://news.yahoo.co.jp/media/jij
+6,g03,朝日新聞デジタル,asahi,https://news.yahoo.co.jp/media/asahi
+7,g03,テレビ朝日系（ANN）,ann,https://news.yahoo.co.jp/media/ann
+8,g03,tenki.jp,tenki,https://news.yahoo.co.jp/media/tenki
+9,g03,毎日新聞,mai,https://news.yahoo.co.jp/media/mai
+10,g03,オリコン,oric,https://news.yahoo.co.jp/media/oric
+11,g04,スポーツ報知,sph,https://news.yahoo.co.jp/media/sph
+12,g04,日テレNEWS,nnn,https://news.yahoo.co.jp/media/nnn
+13,g04,ウェザーマップ,wmap,https://news.yahoo.co.jp/media/wmap
+14,g04,産経新聞,san,https://news.yahoo.co.jp/media/san
+15,g04,デイリースポーツ,dal,https://news.yahoo.co.jp/media/dal
+16,g04,日刊スポーツ,nksports,https://news.yahoo.co.jp/media/nksports
+17,g04,ロイター,reut,https://news.yahoo.co.jp/media/reut
+18,g04,Full-Count,fullcount,https://news.yahoo.co.jp/media/fullcount
+19,g04,MBSニュース,mbsnews,https://news.yahoo.co.jp/media/mbsnews
+20,g04,FNNプライムオンライン（フジテレビ系）,fnn,https://news.yahoo.co.jp/media/fnn
+21,g05,ABEMA TIMES,abema,https://news.yahoo.co.jp/media/abema
+22,g05,FNNプライムオンライン,fnnprimev,https://news.yahoo.co.jp/media/fnnprimev
+23,g05,Yahoo!ニュース オリジナル 特集,ytokushup,https://news.yahoo.co.jp/media/ytokushup
+24,g05,ENCOUNT,encount,https://news.yahoo.co.jp/media/encount
+25,g05,文春オンライン,bunshun,https://news.yahoo.co.jp/media/bunshun
+26,g05,HBCニュース北海道,hbcv,https://news.yahoo.co.jp/media/hbcv
+27,g05,Bloomberg,bloom_st,https://news.yahoo.co.jp/media/bloom_st
+28,g05,静岡放送（SBS）,sbsv,https://news.yahoo.co.jp/media/sbsv
+29,g05,中国新聞デジタル,chugoku,https://news.yahoo.co.jp/media/chugoku
+30,g05,読売テレビ,ytv,https://news.yahoo.co.jp/media/ytv
+31,g05,ITmedia NEWS,zdn_n,https://news.yahoo.co.jp/media/zdn_n
+32,g05,スポーツナビ,spnaviv,https://news.yahoo.co.jp/media/spnaviv
+33,g05,RKB毎日放送,rkbv,https://news.yahoo.co.jp/media/rkbv
+34,g05,ＡＦＰ＝時事,jij_afp,https://news.yahoo.co.jp/media/jij_afp
+35,g05,BSS山陰放送,bss,https://news.yahoo.co.jp/media/bss
+36,g05,ｔｙｓテレビ山口,tys,https://news.yahoo.co.jp/media/tys
+37,g05,NEWSポストセブン,pseven,https://news.yahoo.co.jp/media/pseven
+38,g05,くるまのニュース,kurumans,https://news.yahoo.co.jp/media/kurumans
+39,g05,東洋経済オンライン,toyo,https://news.yahoo.co.jp/media/toyo
+40,g05,弁護士ドットコムニュース,bengocom,https://news.yahoo.co.jp/media/bengocom
+41,g06,ITmedia ビジネスオンライン,zdn_mkt,https://news.yahoo.co.jp/media/zdn_mkt
+42,g06,ウェザーニュース,weather,https://news.yahoo.co.jp/media/weather
+43,g06,CBCテレビ,cbc,https://news.yahoo.co.jp/media/cbc
+44,g06,OBS大分放送,obsnews,https://news.yahoo.co.jp/media/obsnews
+45,g06,ナショナル ジオグラフィック日本版,nknatiogeo,https://news.yahoo.co.jp/media/nknatiogeo
+46,g06,ねとらぼ,it_nlab,https://news.yahoo.co.jp/media/it_nlab
+47,g06,女性自身,jisin,https://news.yahoo.co.jp/media/jisin
+48,g06,tennis365.net,tennisnet,https://news.yahoo.co.jp/media/tennisnet
+49,g06,オトナンサー,otonans,https://news.yahoo.co.jp/media/otonans
+50,g06,47NEWS,yonnana,https://news.yahoo.co.jp/media/yonnana
+51,g06,読売新聞（ヨミドクター）,yomidr,https://news.yahoo.co.jp/media/yomidr
+52,g06,関西テレビ,kantele,https://news.yahoo.co.jp/media/kantele
+53,g06,withnews,withnews,https://news.yahoo.co.jp/media/withnews
+54,g06,サンケイスポーツ,sanspo,https://news.yahoo.co.jp/media/sanspo
+55,g06,西スポWEB OTTO！,nishispo,https://news.yahoo.co.jp/media/nishispo
+56,g06,BBC News,bbc,https://news.yahoo.co.jp/media/bbc
+57,g06,ＫＲＹ山口放送,kry,https://news.yahoo.co.jp/media/kry
+58,g06,STVニュース北海道,stv,https://news.yahoo.co.jp/media/stv
+59,g06,SOCCER DIGEST Web,sdigestw,https://news.yahoo.co.jp/media/sdigestw
+60,g06,Yahoo!ニュース,yjnews,https://news.yahoo.co.jp/media/yjnews
+61,g06,J-CASTニュース,jct,https://news.yahoo.co.jp/media/jct
+62,g06,北海道新聞,doshin,https://news.yahoo.co.jp/media/doshin
+63,g06,MRO北陸放送,mrov,https://news.yahoo.co.jp/media/mrov
+64,g06,RSK山陽放送,rsk,https://news.yahoo.co.jp/media/rsk
+65,g06,河北新報,khks,https://news.yahoo.co.jp/media/khks
+66,g06,京都新聞,kyt,https://news.yahoo.co.jp/media/kyt
+67,g06,千葉日報オンライン,chibatopi,https://news.yahoo.co.jp/media/chibatopi
+68,g06,チューリップテレビ,tuliptv,https://news.yahoo.co.jp/media/tuliptv
+69,g06,琉球新報,ryu,https://news.yahoo.co.jp/media/ryu
+70,g06,シネマトゥデイ,flix,https://news.yahoo.co.jp/media/flix
+71,g06,週刊女性PRIME,jprime,https://news.yahoo.co.jp/media/jprime
+72,g06,モデルプレス,mdpr,https://news.yahoo.co.jp/media/mdpr
+73,g06,リアルサウンド,realsound,https://news.yahoo.co.jp/media/realsound
+74,g06,IBC岩手放送,ibciwatev,https://news.yahoo.co.jp/media/ibciwatev
+75,g06,NBS長野放送,nbstv,https://news.yahoo.co.jp/media/nbstv
+76,g06,神戸新聞NEXT,kobenext,https://news.yahoo.co.jp/media/kobenext
+77,g06,Yahoo!ニュース オリジナル Voice,ynewstalk,https://news.yahoo.co.jp/media/ynewstalk
+78,g06,テレ東BIZ,tvtnews,https://news.yahoo.co.jp/media/tvtnews
+79,g06,SmartFLASH,flash,https://news.yahoo.co.jp/media/flash
+80,g06,信濃毎日新聞デジタル,shinmai,https://news.yahoo.co.jp/media/shinmai
+81,g07,KSB瀬戸内海放送,ksbv,https://news.yahoo.co.jp/media/ksbv
+82,g07,TNCテレビ西日本,tncv,https://news.yahoo.co.jp/media/tncv
+83,g07,沖縄タイムス,okinawat,https://news.yahoo.co.jp/media/okinawat
+84,g07,下野新聞SOON,soon,https://news.yahoo.co.jp/media/soon
+85,g07,テレビユー福島,tuf,https://news.yahoo.co.jp/media/tuf
+86,g07,Hint-Pot,hintpot,https://news.yahoo.co.jp/media/hintpot
+87,g07,THE ANSWER,theanswer,https://news.yahoo.co.jp/media/theanswer
+88,g07,中日スポーツ,chuspo,https://news.yahoo.co.jp/media/chuspo
+89,g07,西日本新聞,nishinp,https://news.yahoo.co.jp/media/nishinp
+90,g07,南日本新聞,minami,https://news.yahoo.co.jp/media/minami
+91,g07,CNN.co.jp,cnn,https://news.yahoo.co.jp/media/cnn
+92,g07,帝国データバンク,teikokudb,https://news.yahoo.co.jp/media/teikokudb
+93,g07,日本農業新聞,agrinews,https://news.yahoo.co.jp/media/agrinews
+94,g07,FBS福岡放送,fbsnews,https://news.yahoo.co.jp/media/fbsnews
+95,g07,khb東日本放送,khbv,https://news.yahoo.co.jp/media/khbv
+96,g07,RBC琉球放送,rbc,https://news.yahoo.co.jp/media/rbc
+97,g07,ＳＢＣ信越放送,sbc,https://news.yahoo.co.jp/media/sbc
+98,g07,静岡朝日テレビ,satvv,https://news.yahoo.co.jp/media/satvv
+99,g07,プレジデントオンライン,president,https://news.yahoo.co.jp/media/president
+100,g07,北海道ニュースUHB,hokkaibun,https://news.yahoo.co.jp/media/hokkaibun
+101,g07,ITmedia Mobile,zdn_m,https://news.yahoo.co.jp/media/zdn_m
+102,g07,高校生新聞オンライン,koukousei,https://news.yahoo.co.jp/media/koukousei
+103,g07,GOAL,goal,https://news.yahoo.co.jp/media/goal
+104,g07,RONSPO,ronspo,https://news.yahoo.co.jp/media/ronspo
+105,g07,聯合ニュース,yonh,https://news.yahoo.co.jp/media/yonh
+106,g07,東スポWEB,tospoweb,https://news.yahoo.co.jp/media/tospoweb
+107,g07,ABCニュース,asahibc,https://news.yahoo.co.jp/media/asahibc
+108,g07,FRIDAY,friday,https://news.yahoo.co.jp/media/friday
+109,g07,デイリー新潮,shincho,https://news.yahoo.co.jp/media/shincho
+110,g07,東洋経済education×ICT,toyoedu,https://news.yahoo.co.jp/media/toyoedu
+111,g07,日刊自動車新聞,netdenjd,https://news.yahoo.co.jp/media/netdenjd
+112,g07,ハフポスト日本版,huffpost,https://news.yahoo.co.jp/media/huffpost
+113,g07,AERA dot.,sasahi,https://news.yahoo.co.jp/media/sasahi
+114,g07,MBC南日本放送,mbcnews,https://news.yahoo.co.jp/media/mbcnews
+115,g07,ＮＳＴ新潟総合テレビ,nsttv,https://news.yahoo.co.jp/media/nsttv
+116,g07,OHK岡山放送,ohk,https://news.yahoo.co.jp/media/ohk
+117,g07,Web東奥,webtoo,https://news.yahoo.co.jp/media/webtoo
+118,g07,秋田テレビ,akt,https://news.yahoo.co.jp/media/akt
+119,g07,茨城新聞クロスアイ,ibaraki,https://news.yahoo.co.jp/media/ibaraki
+120,g07,カナロコ by 神奈川新聞,kana,https://news.yahoo.co.jp/media/kana
+121,g08,岐阜新聞Ｗｅｂ,gifuweb,https://news.yahoo.co.jp/media/gifuweb
+122,g08,テレビ愛知,tvaichi,https://news.yahoo.co.jp/media/tvaichi
+123,g08,東海テレビ,tokai,https://news.yahoo.co.jp/media/tokai
+124,g08,まいどなニュース,maidonans,https://news.yahoo.co.jp/media/maidonans
+125,g08,ラジトピ　ラジオ関西トピックス,raditopi,https://news.yahoo.co.jp/media/raditopi
+126,g08,FASHIONSNAP,fashions,https://news.yahoo.co.jp/media/fashions
+127,g08,PC Watch,imppcw,https://news.yahoo.co.jp/media/imppcw
+128,g08,音楽ナタリー,natalien,https://news.yahoo.co.jp/media/natalien
+129,g08,よろず～ニュース,yorozuns,https://news.yahoo.co.jp/media/yorozuns
+130,g08,MANTANWEB,mantan,https://news.yahoo.co.jp/media/mantan
+131,g08,Medical DOC,medicald,https://news.yahoo.co.jp/media/medicald
+132,g08,Merkmal,merkmal,https://news.yahoo.co.jp/media/merkmal
+133,g08,ゲキサカ,gekisaka,https://news.yahoo.co.jp/media/gekisaka
+134,g08,ニュースイッチ,newswitch,https://news.yahoo.co.jp/media/newswitch
+135,g08,乗りものニュース,norimono,https://news.yahoo.co.jp/media/norimono
+136,g08,日刊ゲンダイDIGITAL,nkgendai,https://news.yahoo.co.jp/media/nkgendai
+137,g08,NBC長崎放送,nbcv,https://news.yahoo.co.jp/media/nbcv
+138,g08,テレビ高知,kutv,https://news.yahoo.co.jp/media/kutv
+139,g08,Yahoo!ニュース オリジナル THE PAGE,wordleaf,https://news.yahoo.co.jp/media/wordleaf
+140,g08,NewsPicks ＋ｄ,npicksd,https://news.yahoo.co.jp/media/npicksd
+141,g08,あなたの静岡新聞,at_s,https://news.yahoo.co.jp/media/at_s
+142,g08,現代ビジネス,gendaibiz,https://news.yahoo.co.jp/media/gendaibiz
+143,g08,集英社オンライン,shueisha,https://news.yahoo.co.jp/media/shueisha
+144,g08,中央日報日本語版,cnippou,https://news.yahoo.co.jp/media/cnippou
+145,g08,東京商工リサーチ,biz_shoko,https://news.yahoo.co.jp/media/biz_shoko
+146,g08,BASKET COUNT,basket,https://news.yahoo.co.jp/media/basket
+147,g08,BUSINESS INSIDER JAPAN,binsider,https://news.yahoo.co.jp/media/binsider
+148,g08,Daiichi-TV（静岡第一テレビ）,sdt,https://news.yahoo.co.jp/media/sdt
+149,g08,Forbes JAPAN,forbes,https://news.yahoo.co.jp/media/forbes
+150,g08,HTB北海道ニュース,htbv,https://news.yahoo.co.jp/media/htbv
+151,g08,ＫＫＴ熊本県民テレビ,kkt,https://news.yahoo.co.jp/media/kkt
+152,g08,MRT宮崎放送,mrt,https://news.yahoo.co.jp/media/mrt
+153,g08,RCC中国放送,rccv,https://news.yahoo.co.jp/media/rccv
+154,g08,RKK熊本放送,rkk,https://news.yahoo.co.jp/media/rkk
+155,g08,tbc東北放送,tbcv,https://news.yahoo.co.jp/media/tbcv
+156,g08,TOSテレビ大分,tos,https://news.yahoo.co.jp/media/tos
+157,g08,UTYテレビ山梨,utyv,https://news.yahoo.co.jp/media/utyv
+158,g08,WEBザテレビジョン,the_tv,https://news.yahoo.co.jp/media/the_tv
+159,g08,あいテレビ,itv,https://news.yahoo.co.jp/media/itv
+160,g08,秋田朝日放送,aab,https://news.yahoo.co.jp/media/aab
+161,g09,九州朝日放送,kbcv,https://news.yahoo.co.jp/media/kbcv
+162,g09,熊本日日新聞,kumanichi,https://news.yahoo.co.jp/media/kumanichi
+163,g09,佐賀新聞,saga,https://news.yahoo.co.jp/media/saga
+164,g09,佐賀ニュース サガテレビ,sagatv,https://news.yahoo.co.jp/media/sagatv
+165,g09,山陰中央新報,saninchuo,https://news.yahoo.co.jp/media/saninchuo
+166,g09,山陽新聞デジタル,sanyo,https://news.yahoo.co.jp/media/sanyo
+167,g09,食品新聞,shokuhin,https://news.yahoo.co.jp/media/shokuhin
+168,g09,仙台放送,oxv,https://news.yahoo.co.jp/media/oxv
+169,g09,ツギノジダイ,tsugino,https://news.yahoo.co.jp/media/tsugino
+170,g09,テレビ新広島,tssv,https://news.yahoo.co.jp/media/tssv
+171,g09,テレビユー山形,tuy,https://news.yahoo.co.jp/media/tuy
+172,g09,十勝毎日新聞　電子版,kachimai,https://news.yahoo.co.jp/media/kachimai
+173,g09,奈良新聞デジタル,naranp,https://news.yahoo.co.jp/media/naranp
+174,g09,南海放送,rnb,https://news.yahoo.co.jp/media/rnb
+175,g09,日刊新周南,sshunan,https://news.yahoo.co.jp/media/sshunan
+176,g09,日本海テレビ,nkt,https://news.yahoo.co.jp/media/nkt
+177,g09,福島中央テレビ,fct,https://news.yahoo.co.jp/media/fct
+178,g09,福島民友新聞,minyu,https://news.yahoo.co.jp/media/minyu
+179,g09,北國新聞社,hokkoku,https://news.yahoo.co.jp/media/hokkoku
+180,g09,abn長野朝日放送,abn,https://news.yahoo.co.jp/media/abn
+181,g09,ＡＴＶ青森テレビ,atv,https://news.yahoo.co.jp/media/atv
+182,g09,ITmedia PC USER,zdn_pc,https://news.yahoo.co.jp/media/zdn_pc
+183,g09,ケータイ Watch,impktw,https://news.yahoo.co.jp/media/impktw
+184,g09,エンタメNEXT,entame,https://news.yahoo.co.jp/media/entame
+185,g09,ウォール・ストリート・ジャーナル日本版,wsj,https://news.yahoo.co.jp/media/wsj
+186,g09,ふたまん＋,futaman,https://news.yahoo.co.jp/media/futaman
+187,g09,マイナビニュース,mynavin,https://news.yahoo.co.jp/media/mynavin
+188,g09,CHANTO WEB,chanto,https://news.yahoo.co.jp/media/chanto
+189,g09,FOOTBALL ZONE,soccermzw,https://news.yahoo.co.jp/media/soccermzw
+190,g09,fumufumu news,fumufumun,https://news.yahoo.co.jp/media/fumufumun
+191,g09,Impress Watch,impress,https://news.yahoo.co.jp/media/impress
+192,g09,KAI-YOU.net,kaiyou,https://news.yahoo.co.jp/media/kaiyou
+193,g09,magacol,magacol,https://news.yahoo.co.jp/media/magacol
+194,g09,MOVIE WALKER PRESS,mvwalk,https://news.yahoo.co.jp/media/mvwalk
+195,g09,netkeiba.com,kiba,https://news.yahoo.co.jp/media/kiba
+196,g09,Number Web,number,https://news.yahoo.co.jp/media/number
+197,g09,OTONA SALONE,otonas,https://news.yahoo.co.jp/media/otonas
+198,g09,PHILE WEB,phileweb,https://news.yahoo.co.jp/media/phileweb
+199,g09,Rallys,rallysv,https://news.yahoo.co.jp/media/rallysv
+200,g09,telling，,telling,https://news.yahoo.co.jp/media/telling
+201,g09,Tennis Classic,tennisc,https://news.yahoo.co.jp/media/tennisc
+202,g09,THE DIGEST,thedigest,https://news.yahoo.co.jp/media/thedigest
+203,g09,＠BAILA,baila,https://news.yahoo.co.jp/media/baila
+204,g09,アニメージュプラス,animage,https://news.yahoo.co.jp/media/animage
+205,g09,映画ナタリー,nataliee,https://news.yahoo.co.jp/media/nataliee
+206,g09,月刊陸上競技,getsuriku,https://news.yahoo.co.jp/media/getsuriku
+207,g09,好書好日,bookasahi,https://news.yahoo.co.jp/media/bookasahi
+208,g09,ソトラバ,sotolover,https://news.yahoo.co.jp/media/sotolover
+209,g09,超WORLDサッカー！,usoccer,https://news.yahoo.co.jp/media/usoccer
+210,g09,日経クロストレンド,nkctrend,https://news.yahoo.co.jp/media/nkctrend
+211,g10,日経ビジネス,business,https://news.yahoo.co.jp/media/business
+212,g10,ベースボールチャンネル,baseballc,https://news.yahoo.co.jp/media/baseballc
+213,g10,TSKさんいん中央テレビ,tsk,https://news.yahoo.co.jp/media/tsk
+214,g10,テレビ静岡NEWS,sut,https://news.yahoo.co.jp/media/sut
+215,g10,センバツLIVE！,senbatsuf,https://news.yahoo.co.jp/media/senbatsuf
+216,g10,AFPBB News,afpbbnewsv,https://news.yahoo.co.jp/media/afpbbnewsv
+217,g10,AP通信,aptsushinv,https://news.yahoo.co.jp/media/aptsushinv
+218,g10,BuzzFeed Japan,bfj,https://news.yahoo.co.jp/media/bfj
+219,g10,Yahoo! JAPAN SDGs,yjsdgs,https://news.yahoo.co.jp/media/yjsdgs
+220,g10,Yahoo! JAPAN クリエイターズプログラム,ycreatp,https://news.yahoo.co.jp/media/ycreatp
+221,g10,Yahoo!ニュース オリジナル RED Chair,redchair,https://news.yahoo.co.jp/media/redchair
+222,g10,大手小町（読売新聞）,otekomachi,https://news.yahoo.co.jp/media/otekomachi
+223,g10,テレ東プラス,tvtplus,https://news.yahoo.co.jp/media/tvtplus
+224,g10,福岡ふかぼりメディアささっとー,sasatto,https://news.yahoo.co.jp/media/sasatto
+225,g10,CNS（China News Service）,clc_cnsv,https://news.yahoo.co.jp/media/clc_cnsv
+226,g10,GLOBE＋,globeplus,https://news.yahoo.co.jp/media/globeplus
+227,g10,JBpress,jbpressz,https://news.yahoo.co.jp/media/jbpressz
+228,g10,NewsPicks,newspicksn,https://news.yahoo.co.jp/media/newspicksn
+229,g10,Wedge（ウェッジ）,wedge,https://news.yahoo.co.jp/media/wedge
+230,g10,朝日新聞EduA,edua,https://news.yahoo.co.jp/media/edua
+231,g10,朝日新聞 SDGs ACTION！,asahisdgs,https://news.yahoo.co.jp/media/asahisdgs
+232,g10,朝日新聞デジタルマガジン＆［and］,asahiand,https://news.yahoo.co.jp/media/asahiand
+233,g10,韓国経済新聞,kedglobal,https://news.yahoo.co.jp/media/kedglobal
+234,g10,クーリエ・ジャポン,courrier,https://news.yahoo.co.jp/media/courrier
+235,g10,新潮社 フォーサイト,fsight,https://news.yahoo.co.jp/media/fsight
+236,g10,朝鮮日報日本語版,chosun,https://news.yahoo.co.jp/media/chosun
+237,g10,創,tsukuru,https://news.yahoo.co.jp/media/tsukuru
+238,g10,日刊工業新聞電子版,nkogyo,https://news.yahoo.co.jp/media/nkogyo
+239,g10,日刊産業新聞,sangyo,https://news.yahoo.co.jp/media/sangyo
+240,g10,日本海事新聞,tjmd,https://news.yahoo.co.jp/media/tjmd
+241,g10,日本食糧新聞,nissyoku,https://news.yahoo.co.jp/media/nissyoku
+242,g10,ニューズウィーク日本版,newsweek,https://news.yahoo.co.jp/media/newsweek
+243,g10,ハンギョレ新聞,hankyoreh,https://news.yahoo.co.jp/media/hankyoreh
+244,g10,福井新聞ＯＮＬＩＮＥ,fukui,https://news.yahoo.co.jp/media/fukui
+245,g10,福祉新聞,fukushi,https://news.yahoo.co.jp/media/fukushi
+246,g10,36Kr Japan,krjapan,https://news.yahoo.co.jp/media/krjapan
+247,g10,4years.,fyears,https://news.yahoo.co.jp/media/fyears
+248,g10,8760 by postseven,hnrm,https://news.yahoo.co.jp/media/hnrm
+249,g10,AERA STYLE MAGAZINE,asmasahi,https://news.yahoo.co.jp/media/asmasahi
+250,g10,AFPBB News 写真特集,afpbbnewsp,https://news.yahoo.co.jp/media/afpbbnewsp
+251,g10,ALBA TV,golfnettv,https://news.yahoo.co.jp/media/golfnettv
+252,g10,All About,nallabout,https://news.yahoo.co.jp/media/nallabout
+253,g10,ALL REVIEWS,allreview,https://news.yahoo.co.jp/media/allreview
+254,g10,AMP［アンプ］,ampreview,https://news.yahoo.co.jp/media/ampreview
+255,g10,ananweb,ananweb,https://news.yahoo.co.jp/media/ananweb
+256,g10,AskDoctors,askdoctor,https://news.yahoo.co.jp/media/askdoctor
+257,g10,AUTO BILD JAPAN Web,autobild,https://news.yahoo.co.jp/media/autobild
+258,g10,AUTOCAR JAPAN,autocar,https://news.yahoo.co.jp/media/autocar
+259,g10,Auto Messe Web,amweb,https://news.yahoo.co.jp/media/amweb
+260,g10,Aviation Wire,awire,https://news.yahoo.co.jp/media/awire
+261,g10,AV Watch,impavw,https://news.yahoo.co.jp/media/impavw
+262,g10,BARKS,bark,https://news.yahoo.co.jp/media/bark
+263,g10,Baseball Geeks,geeksv,https://news.yahoo.co.jp/media/geeksv
+264,g10,BCN,bcn,https://news.yahoo.co.jp/media/bcn
+265,g10,BE-PAL.NET,bepal,https://news.yahoo.co.jp/media/bepal
+266,g10,Bezzy,bezzy,https://news.yahoo.co.jp/media/bezzy
+267,g10,Billboard JAPAN,exp,https://news.yahoo.co.jp/media/exp
+268,g10,Book Bang,bookbang,https://news.yahoo.co.jp/media/bookbang
+269,g10,BOOKSTAND,webhon,https://news.yahoo.co.jp/media/webhon
+270,g10,CNA秋田ケーブルテレビ,cnaakita,https://news.yahoo.co.jp/media/cnaakita
+271,g10,DIAMOND SIGNAL,dsignal,https://news.yahoo.co.jp/media/dsignal
+272,g10,DIAMOND ハーバード・ビジネス・レビュー,dhbrn,https://news.yahoo.co.jp/media/dhbrn
+273,g10,eat愛媛朝日テレビ,eat,https://news.yahoo.co.jp/media/eat
+274,g10,FBC 福井放送,fbc,https://news.yahoo.co.jp/media/fbc
+275,g10,GLOBIS知見録,globisv,https://news.yahoo.co.jp/media/globisv
+276,g10,HAB北陸朝日放送,hab,https://news.yahoo.co.jp/media/hab
+277,g10,HOME広島ホームテレビ,hometvv,https://news.yahoo.co.jp/media/hometvv
+278,g10,IAT岩手朝日テレビ,iat,https://news.yahoo.co.jp/media/iat
+279,g10,JRT四国放送,jrt,https://news.yahoo.co.jp/media/jrt
+280,g10,J-WAVE NEWS,jwave,https://news.yahoo.co.jp/media/jwave
+281,g11,KAB熊本朝日放送,kab,https://news.yahoo.co.jp/media/kab
+282,g11,KBS京都（京都放送）,kbs,https://news.yahoo.co.jp/media/kbs
+283,g11,KFB福島放送,kfb,https://news.yahoo.co.jp/media/kfb
+284,g11,KKB鹿児島放送,kkbv,https://news.yahoo.co.jp/media/kkbv
+285,g11,KOREA WAVE,clc_korea,https://news.yahoo.co.jp/media/clc_korea
+286,g11,KTNテレビ長崎,ktn,https://news.yahoo.co.jp/media/ktn
+287,g11,ＫＹＴ鹿児島読売テレビ,kytnews,https://news.yahoo.co.jp/media/kytnews
+288,g11,MONEY PLUS,moneyplus,https://news.yahoo.co.jp/media/moneyplus
+289,g11,NEWSつくば,newstkb,https://news.yahoo.co.jp/media/newstkb
+290,g11,ＯＡＢ大分朝日放送,oabv,https://news.yahoo.co.jp/media/oabv
+291,g11,RKC高知放送,rkckochi,https://news.yahoo.co.jp/media/rkckochi
+292,g11,Science Portal,sportal,https://news.yahoo.co.jp/media/sportal
+293,g11,sippo,sippo,https://news.yahoo.co.jp/media/sippo
+294,g11,TeNYテレビ新潟,teny,https://news.yahoo.co.jp/media/teny
+295,g11,THE EV TIMES,evtimes,https://news.yahoo.co.jp/media/evtimes
+296,g11,TKUテレビ熊本,tku,https://news.yahoo.co.jp/media/tku
+297,g11,TOKYO HEADLINE WEB,theadline,https://news.yahoo.co.jp/media/theadline
+298,g11,TOKYO MX,tokyomxv,https://news.yahoo.co.jp/media/tokyomxv
+299,g11,TSCテレビせとうち,tsc,https://news.yahoo.co.jp/media/tsc
+300,g11,tvkニュース（テレビ神奈川）,tvkv,https://news.yahoo.co.jp/media/tvkv
+301,g11,UX新潟テレビ21,niigatatvv,https://news.yahoo.co.jp/media/niigatatvv
+302,g11,yab山口朝日放送,yabv,https://news.yahoo.co.jp/media/yabv
+303,g11,YBC山形放送,ybc,https://news.yahoo.co.jp/media/ybc
+304,g11,YBS山梨放送,ybs,https://news.yahoo.co.jp/media/ybs
+305,g11,YTS山形テレビ,yts,https://news.yahoo.co.jp/media/yts
+306,g11,青森放送,rab,https://news.yahoo.co.jp/media/rab
+307,g11,アジアプレス・ネットワーク,asiap,https://news.yahoo.co.jp/media/asiap
+308,g11,あたらしい経済,neweco,https://news.yahoo.co.jp/media/neweco
+309,g11,奄美新聞,amami,https://news.yahoo.co.jp/media/amami
+310,g11,石川テレビ,ishikawa,https://news.yahoo.co.jp/media/ishikawa
+311,g11,伊豆新聞,izunp,https://news.yahoo.co.jp/media/izunp
+312,g11,伊勢新聞,isenp,https://news.yahoo.co.jp/media/isenp
+313,g11,岩手日日新聞社,iwanichi,https://news.yahoo.co.jp/media/iwanichi
+314,g11,岩手日報,iwatenpv,https://news.yahoo.co.jp/media/iwatenpv
+315,g11,岩手めんこいテレビ,nmit,https://news.yahoo.co.jp/media/nmit
+316,g11,宇部日報,ubenippo,https://news.yahoo.co.jp/media/ubenippo
+317,g11,愛媛新聞ONLINE,ehime,https://news.yahoo.co.jp/media/ehime
+318,g11,大分合同新聞,mjikenbo,https://news.yahoo.co.jp/media/mjikenbo
+319,g11,大阪日日新聞,osknichi,https://news.yahoo.co.jp/media/osknichi
+320,g11,沖縄テレビOTV,otv,https://news.yahoo.co.jp/media/otv
+321,g11,沖縄ニュースQAB,qab,https://news.yahoo.co.jp/media/qab
+322,g11,会社四季報オンライン,shikihos,https://news.yahoo.co.jp/media/shikihos
+323,g11,鹿児島ニュースＫＴＳ,kts,https://news.yahoo.co.jp/media/kts
+324,g11,紀伊民報,agara,https://news.yahoo.co.jp/media/agara
+325,g11,北日本新聞,kitanihon,https://news.yahoo.co.jp/media/kitanihon
+326,g11,北日本放送,knb,https://news.yahoo.co.jp/media/knb
+327,g11,教育新聞,kyobun,https://news.yahoo.co.jp/media/kyobun
+328,g11,ぎふチャンDIGITAL,gifuchan,https://news.yahoo.co.jp/media/gifuchan
+329,g11,群馬テレビ,gtv,https://news.yahoo.co.jp/media/gtv
+330,g11,健康産業新聞,kenkoshin,https://news.yahoo.co.jp/media/kenkoshin
+331,g11,幻冬舎ゴールドオンライン,gonline,https://news.yahoo.co.jp/media/gonline
+332,g11,高知さんさんテレビ,newskss,https://news.yahoo.co.jp/media/newskss
+333,g11,埼玉新聞,saitama,https://news.yahoo.co.jp/media/saitama
+334,g11,さくらんぼテレビ,sakuranbo,https://news.yahoo.co.jp/media/sakuranbo
+335,g11,サンテレビ,suntvv,https://news.yahoo.co.jp/media/suntvv
+336,g11,サンデー毎日×週刊エコノミストOnline,economist,https://news.yahoo.co.jp/media/economist
+337,g11,市民タイムスWEB,shimint,https://news.yahoo.co.jp/media/shimint
+338,g11,食品産業新聞社ニュースWEB,ssnp,https://news.yahoo.co.jp/media/ssnp
+339,g11,上毛新聞,jomo,https://news.yahoo.co.jp/media/jomo
+340,g11,政治山,seijiyama,https://news.yahoo.co.jp/media/seijiyama
+341,g11,選挙ドットコム,senkyocom,https://news.yahoo.co.jp/media/senkyocom
+342,g11,税理士ドットコム,zeiricom,https://news.yahoo.co.jp/media/zeiricom
+343,g11,相続会議,souzoku,https://news.yahoo.co.jp/media/souzoku
+344,g11,丹波新聞,tanba,https://news.yahoo.co.jp/media/tanba
+345,g11,ダイヤモンド・オンライン,diamond,https://news.yahoo.co.jp/media/diamond
+346,g11,ダイヤモンド・ザイ,dzai,https://news.yahoo.co.jp/media/dzai
+347,g11,ダイヤモンド不動産研究所,diamondf,https://news.yahoo.co.jp/media/diamondf
+348,g11,チバテレ,chibatele,https://news.yahoo.co.jp/media/chibatele
+349,g11,ちばとぴ！ニュース,chibach,https://news.yahoo.co.jp/media/chibach
+350,g11,中央公論,chuokou,https://news.yahoo.co.jp/media/chuokou
+351,g12,中央社フォーカス台湾,ftaiwan,https://news.yahoo.co.jp/media/ftaiwan
+352,g12,中海テレビ放送,chukaiv,https://news.yahoo.co.jp/media/chukaiv
+353,g12,中京テレビＮＥＷＳ,ctv,https://news.yahoo.co.jp/media/ctv
+354,g12,中部経済新聞,chukei,https://news.yahoo.co.jp/media/chukei
+355,g12,鉄鋼新聞,tekkou,https://news.yahoo.co.jp/media/tekkou
+356,g12,鉄道コム,tetsucom,https://news.yahoo.co.jp/media/tetsucom
+357,g12,テレQ（TVQ九州放送）,tvq,https://news.yahoo.co.jp/media/tvq
+358,g12,テレ玉,teletama,https://news.yahoo.co.jp/media/teletama
+359,g12,テレビ岩手ニュース,tvi,https://news.yahoo.co.jp/media/tvi
+360,g12,テレビ愛媛,ebc,https://news.yahoo.co.jp/media/ebc
+361,g12,テレビ大阪ニュース,tvosaka,https://news.yahoo.co.jp/media/tvosaka
+362,g12,テレビ金沢,ktk,https://news.yahoo.co.jp/media/ktk
+363,g12,テレビ信州,tsb,https://news.yahoo.co.jp/media/tsb
+364,g12,テレビ東京スポーツ,tvtokyos,https://news.yahoo.co.jp/media/tvtokyos
+365,g12,テレビ北海道,tvh,https://news.yahoo.co.jp/media/tvh
+366,g12,テレビ和歌山,wakayamav,https://news.yahoo.co.jp/media/wakayamav
+367,g12,電波新聞デジタル,dempad,https://news.yahoo.co.jp/media/dempad
+368,g12,デーリー東北新聞社,dtohoku,https://news.yahoo.co.jp/media/dtohoku
+369,g12,東方新報,clc_toho,https://news.yahoo.co.jp/media/clc_toho
+370,g12,徳島新聞,tokushimav,https://news.yahoo.co.jp/media/tokushimav
+371,g12,とちぎテレビ,tochitele,https://news.yahoo.co.jp/media/tochitele
+372,g12,苫小牧民報,tomamin,https://news.yahoo.co.jp/media/tomamin
+373,g12,富山テレビ,bbt,https://news.yahoo.co.jp/media/bbt
+374,g12,トラベル Watch,imptrw,https://news.yahoo.co.jp/media/imptrw
+375,g12,トラベルボイス,travelv,https://news.yahoo.co.jp/media/travelv
+376,g12,ドライバーWeb,driverweb,https://news.yahoo.co.jp/media/driverweb
+377,g12,長崎国際テレビ,nib,https://news.yahoo.co.jp/media/nib
+378,g12,長崎新聞,nagasaki,https://news.yahoo.co.jp/media/nagasaki
+379,g12,長崎文化放送,ncctv,https://news.yahoo.co.jp/media/ncctv
+380,g12,長野日報,naganonp,https://news.yahoo.co.jp/media/naganonp
+381,g12,奈良テレビ放送,tvn,https://news.yahoo.co.jp/media/tvn
+382,g12,南海日日新聞,nankainn,https://news.yahoo.co.jp/media/nankainn
+383,g12,ニッポン放送,nshaberu,https://news.yahoo.co.jp/media/nshaberu
+384,g12,日本海新聞,nihonkai,https://news.yahoo.co.jp/media/nihonkai
+385,g12,日本の人事部,biz_jinji,https://news.yahoo.co.jp/media/biz_jinji
+386,g12,日本ファクトチェックセンター,jfactc,https://news.yahoo.co.jp/media/jfactc
+387,g12,函館新聞デジタル,hakoshin,https://news.yahoo.co.jp/media/hakoshin
+388,g12,広島テレビ　ニュース,htv,https://news.yahoo.co.jp/media/htv
+389,g12,ビジネス＋IT,biz_plus,https://news.yahoo.co.jp/media/biz_plus
+390,g12,ファイナンシャルフィールド,ffield,https://news.yahoo.co.jp/media/ffield
+391,g12,ファンファン福岡,fanfun,https://news.yahoo.co.jp/media/fanfun
+392,g12,福井テレビ,ftb,https://news.yahoo.co.jp/media/ftb
+393,g12,福島テレビ,ftv,https://news.yahoo.co.jp/media/ftv
+394,g12,福島民報,fminpo,https://news.yahoo.co.jp/media/fminpo
+395,g12,フジテレビュー！！,fujitv,https://news.yahoo.co.jp/media/fujitv
+396,g12,ブラジル日報,nikkey,https://news.yahoo.co.jp/media/nikkey
+397,g12,報道写真ギャラリーBEHIND,behindp,https://news.yahoo.co.jp/media/behindp
+398,g12,房日新聞,bonichi,https://news.yahoo.co.jp/media/bonichi
+399,g12,マカオ新聞,macau,https://news.yahoo.co.jp/media/macau
+400,g12,マネーの達人,manetatsun,https://news.yahoo.co.jp/media/manetatsun
+401,g12,マネーポストWEB,moneypost,https://news.yahoo.co.jp/media/moneypost
+402,g12,三重テレビ放送,mietvv,https://news.yahoo.co.jp/media/mietvv
+403,g12,みなと新聞,minatos,https://news.yahoo.co.jp/media/minatos
+404,g12,ミヤギテレビ,mmt,https://news.yahoo.co.jp/media/mmt
+405,g12,宮古毎日新聞,miyako,https://news.yahoo.co.jp/media/miyako
+406,g12,宮崎日日新聞,miyazaki,https://news.yahoo.co.jp/media/miyazaki
+407,g12,宮崎ニュースUMK,umk,https://news.yahoo.co.jp/media/umk
+408,g12,みんかぶマガジン,minkabu,https://news.yahoo.co.jp/media/minkabu
+409,g12,みんなの経済新聞ネットワーク,minkei,https://news.yahoo.co.jp/media/minkei
+410,g12,メ?テレ（名古屋テレビ）,nbn,https://news.yahoo.co.jp/media/nbn
+411,g12,八重山日報,yaeyamanp,https://news.yahoo.co.jp/media/yaeyamanp
+412,g12,山形新聞,yamagatan,https://news.yahoo.co.jp/media/yamagatan
+413,g12,夕刊三重,yomotto,https://news.yahoo.co.jp/media/yomotto
+414,g12,リクナビNEXTジャーナル,rikunabin,https://news.yahoo.co.jp/media/rikunabin
+415,g12,両丹日日新聞,rtn,https://news.yahoo.co.jp/media/rtn
+416,g12,ABA青森朝日放送,aba,https://news.yahoo.co.jp/media/aba
+417,g12,ABS秋田放送,absakita,https://news.yahoo.co.jp/media/absakita
+418,g12,BBCびわ湖放送,bbcbiwakov,https://news.yahoo.co.jp/media/bbcbiwakov
+419,g12,ＢＳＮ新潟放送,ohbsn,https://news.yahoo.co.jp/media/ohbsn
+420,g12,CanCam.jp,cancam,https://news.yahoo.co.jp/media/cancam
+421,g12,dancyu,dancyu,https://news.yahoo.co.jp/media/dancyu
+422,g12,DIGIDAY［日本版］,digiday,https://news.yahoo.co.jp/media/digiday
+423,g12,EDN Japan,it_edn,https://news.yahoo.co.jp/media/it_edn
+424,g12,FASHION BOX,fbox,https://news.yahoo.co.jp/media/fbox
+425,g12,FASHION TECH NEWS,fashiontn,https://news.yahoo.co.jp/media/fashiontn
+426,g12,ITmedia エンタープライズ,zdn_ep,https://news.yahoo.co.jp/media/zdn_ep
+427,g12,ITmedia マーケティング,biz_it_mk,https://news.yahoo.co.jp/media/biz_it_mk
+428,g12,Pen Online,penonline,https://news.yahoo.co.jp/media/penonline
+429,g12,Tarzan Web,tarzanweb,https://news.yahoo.co.jp/media/tarzanweb
+430,g12,VOCE,voce,https://news.yahoo.co.jp/media/voce
+431,g13,VOGUE JAPAN,vogue,https://news.yahoo.co.jp/media/vogue
+432,g13,WIRED.jp,wired,https://news.yahoo.co.jp/media/wired
+433,g13,ZDNET Japan,zdnet,https://news.yahoo.co.jp/media/zdnet
+434,g13,アスキー,ascii,https://news.yahoo.co.jp/media/ascii
+435,g13,ウィメンズヘルス,womensh,https://news.yahoo.co.jp/media/womensh
+436,g13,ギズモード・ジャパン,giz,https://news.yahoo.co.jp/media/giz
+437,g13,健康産業速報,kenkosoku,https://news.yahoo.co.jp/media/kenkosoku
+438,g13,コスモポリタン,cosmopoli,https://news.yahoo.co.jp/media/cosmopoli
+439,g13,ダンスニュースメディアサイト Dews,dewsv,https://news.yahoo.co.jp/media/dewsv
+440,g13,電ファミニコゲーマー,denfami,https://news.yahoo.co.jp/media/denfami
+441,g13,ファミ通.com,famitsu,https://news.yahoo.co.jp/media/famitsu
+442,g13,ほ・とせなNEWS,hotosena,https://news.yahoo.co.jp/media/hotosena
+443,g13,ルアマガ＋,tsuriplus,https://news.yahoo.co.jp/media/tsuriplus
+444,g13,オルタナ,alterna,https://news.yahoo.co.jp/media/alterna
+445,g13,お笑いナタリー,natalieo,https://news.yahoo.co.jp/media/natalieo
+446,g13,音楽と人,ongakuto,https://news.yahoo.co.jp/media/ongakuto
+447,g13,韓国TVドラマガイドONLINE,ktvguide,https://news.yahoo.co.jp/media/ktvguide
+448,g13,食べログマガジン,tabelog,https://news.yahoo.co.jp/media/tabelog
+449,g13,チケットぴあ,pia,https://news.yahoo.co.jp/media/pia
+450,g13,YAMAKEI ONLINE（ヤマケイオンライン）,yamakei,https://news.yahoo.co.jp/media/yamakei
+451,g13,ウエルスアドバイザー,biz_mos,https://news.yahoo.co.jp/media/biz_mos
+452,g13,ウォーカープラス,tkwalk,https://news.yahoo.co.jp/media/tkwalk
+453,g13,ウオッチライフニュース,watchlife,https://news.yahoo.co.jp/media/watchlife
+454,g13,カンパラプレス,kanpara,https://news.yahoo.co.jp/media/kanpara
+455,g13,コミックナタリー,nataliec,https://news.yahoo.co.jp/media/nataliec
+456,g13,サライ.jp,seraijp,https://news.yahoo.co.jp/media/seraijp
+457,g13,サンキュ！,thankyu,https://news.yahoo.co.jp/media/thankyu
+458,g13,シェアーズカフェ・オンライン,scafe,https://news.yahoo.co.jp/media/scafe
+459,g13,食楽web,syokuraku,https://news.yahoo.co.jp/media/syokuraku
+460,g13,じゃらんニュース,jalan,https://news.yahoo.co.jp/media/jalan
+461,g13,女子SPA！,jspa,https://news.yahoo.co.jp/media/jspa
+462,g13,ステージナタリー,natalies,https://news.yahoo.co.jp/media/natalies
+463,g13,スポチュニティコラム,spport,https://news.yahoo.co.jp/media/spport
+464,g13,東京バーゲンマニア,tkybgmnv,https://news.yahoo.co.jp/media/tkybgmnv
+465,g13,なかまぁる,nakamaaru,https://news.yahoo.co.jp/media/nakamaaru
+466,g13,ハルメク365,halmek,https://news.yahoo.co.jp/media/halmek
+467,g13,フィガロジャポン,figaro,https://news.yahoo.co.jp/media/figaro
+468,g13,婦人画報,fujingaho,https://news.yahoo.co.jp/media/fujingaho
+469,g13,婦人公論.jp,fujinjp,https://news.yahoo.co.jp/media/fujinjp
+470,g13,ベストカーWeb,bestcar,https://news.yahoo.co.jp/media/bestcar
+471,g13,マイナビ子育て,kosodate,https://news.yahoo.co.jp/media/kosodate
+472,g13,毎日キレイ,maikirei,https://news.yahoo.co.jp/media/maikirei
+473,g13,みんなの趣味の園芸,shumien,https://news.yahoo.co.jp/media/shumien
+474,g13,メシ通,mesitsu,https://news.yahoo.co.jp/media/mesitsu
+475,g13,モダンリビング,mliving,https://news.yahoo.co.jp/media/mliving
+476,g13,モーサイ,mcyclist,https://news.yahoo.co.jp/media/mcyclist
+477,g13,ヨガジャーナルオンライン,yogajol,https://news.yahoo.co.jp/media/yogajol
+478,g13,ライフハッカー・ジャパン,biz_lifeh,https://news.yahoo.co.jp/media/biz_lifeh
+479,g13,リセマム,resemom,https://news.yahoo.co.jp/media/resemom
+480,g13,25ansウエディング,vingtcinqw,https://news.yahoo.co.jp/media/vingtcinqw
+481,g13,25ans（ヴァンサンカン）,vingtcinq,https://news.yahoo.co.jp/media/vingtcinq
+482,g13,2.5ジゲン！！,ntgjigen,https://news.yahoo.co.jp/media/ntgjigen
+483,g13,BRAVO MOUNTAIN,bravom,https://news.yahoo.co.jp/media/bravom
+484,g13,CAPA CAMERA WEB,capa,https://news.yahoo.co.jp/media/capa
+485,g13,carview！,carv,https://news.yahoo.co.jp/media/carv
+486,g13,Casa BRUTUS.com,casabrutus,https://news.yahoo.co.jp/media/casabrutus
+487,g13,CDジャーナル,cdj,https://news.yahoo.co.jp/media/cdj
+488,g13,CGTN Japanese,clc_cgtn,https://news.yahoo.co.jp/media/clc_cgtn
+489,g13,CGWORLD.jp,cgworld,https://news.yahoo.co.jp/media/cgworld
+490,g13,CHUKYO TV SPORTS,ctvg,https://news.yahoo.co.jp/media/ctvg
+491,g13,cinemacafe.net,cine,https://news.yahoo.co.jp/media/cine
+492,g13,CINEMORE,cinemore,https://news.yahoo.co.jp/media/cinemore
+493,g13,CINRA,cinranet,https://news.yahoo.co.jp/media/cinranet
+494,g13,CNET Japan,cnetj,https://news.yahoo.co.jp/media/cnetj
+495,g13,CoCoKARAnext,cocokara,https://news.yahoo.co.jp/media/cocokara
+496,g13,CoinDesk JAPAN,coindesk,https://news.yahoo.co.jp/media/coindesk
+497,g13,CREA WEB,creaweb,https://news.yahoo.co.jp/media/creaweb
+498,g13,DAZN News,dazn,https://news.yahoo.co.jp/media/dazn
+499,g13,Domani,domani,https://news.yahoo.co.jp/media/domani
+500,g13,EdTechZine,sh_ed,https://news.yahoo.co.jp/media/sh_ed
+501,g14,EE Times Japan,it_eetimes,https://news.yahoo.co.jp/media/it_eetimes
+502,g14,e!Golf,egolf,https://news.yahoo.co.jp/media/egolf
+503,g14,ELLE DIGITAL,elleonline,https://news.yahoo.co.jp/media/elleonline
+504,g14,ELLEgirl,ellegirl,https://news.yahoo.co.jp/media/ellegirl
+505,g14,ENGINE WEB,engine,https://news.yahoo.co.jp/media/engine
+506,g14,ESSE-online,esse,https://news.yahoo.co.jp/media/esse
+507,g14,E-TALENTBANK,etalent,https://news.yahoo.co.jp/media/etalent
+508,g14,Fav-Log by ITmedia,it_favlog,https://news.yahoo.co.jp/media/it_favlog
+509,g14,FINDERS,finders,https://news.yahoo.co.jp/media/finders
+510,g14,FINEBOYS Online,fineboys,https://news.yahoo.co.jp/media/fineboys
+511,g14,FINEPLAY,fineplayv,https://news.yahoo.co.jp/media/fineplayv
+512,g14,FITNESS LOVE,fitlove,https://news.yahoo.co.jp/media/fitlove
+513,g14,footballista,fballista,https://news.yahoo.co.jp/media/fballista
+514,g14,FORZA STYLE,forza,https://news.yahoo.co.jp/media/forza
+515,g14,FUNQ,eipub,https://news.yahoo.co.jp/media/eipub
+516,g14,Game Spark,gamespav,https://news.yahoo.co.jp/media/gamespav
+517,g14,GetNavi web,getnavi,https://news.yahoo.co.jp/media/getnavi
+518,g14,GINGER,gingerweb,https://news.yahoo.co.jp/media/gingerweb
+519,g14,GINZA,ginza,https://news.yahoo.co.jp/media/ginza
+520,g14,GISELe,gisele,https://news.yahoo.co.jp/media/gisele
+521,g14,GOETHE,goethe,https://news.yahoo.co.jp/media/goethe
+522,g14,GQ JAPAN,gqjapan,https://news.yahoo.co.jp/media/gqjapan
+523,g14,Hanako Web,hanako,https://news.yahoo.co.jp/media/hanako
+524,g14,Harper’s BAZAAR（ハーパーズ バザー）,bazaar,https://news.yahoo.co.jp/media/bazaar
+525,g14,Hello，Coaching！,biz_coacha,https://news.yahoo.co.jp/media/biz_coacha
+526,g14,HOMINIS（ホミニス）,hominis,https://news.yahoo.co.jp/media/hominis
+527,g14,HONZ,nhonz,https://news.yahoo.co.jp/media/nhonz
+528,g14,HugKum,hugkum,https://news.yahoo.co.jp/media/hugkum
+529,g14,IGN JAPAN,ignjapan,https://news.yahoo.co.jp/media/ignjapan
+530,g14,IMA ONLINE,imaonline,https://news.yahoo.co.jp/media/imaonline
+531,g14,J SPORTS,jsportsv,https://news.yahoo.co.jp/media/jsportsv
+532,g14,Kstyle,kstylens,https://news.yahoo.co.jp/media/kstylens
+533,g14,kufura,kufura,https://news.yahoo.co.jp/media/kufura
+534,g14,LEE,lee,https://news.yahoo.co.jp/media/lee
+535,g14,LEON.JP,leon,https://news.yahoo.co.jp/media/leon
+536,g14,LIMO,toushin,https://news.yahoo.co.jp/media/toushin
+537,g14,LINE NEWS,linenews,https://news.yahoo.co.jp/media/linenews
+538,g14,Lmaga.jp,lmaga,https://news.yahoo.co.jp/media/lmaga
+539,g14,m3.com,mthree,https://news.yahoo.co.jp/media/mthree
+540,g14,MAQUIA　ONLINE,maquia,https://news.yahoo.co.jp/media/maquia
+541,g14,Marisol,marisol,https://news.yahoo.co.jp/media/marisol
+542,g14,Medical Note,medical,https://news.yahoo.co.jp/media/medical
+543,g14,MEGABRASIL,mbrasiln,https://news.yahoo.co.jp/media/mbrasiln
+544,g14,Meiji.net,meijinet,https://news.yahoo.co.jp/media/meijinet
+545,g14,MEN’S CLUB,mensplus,https://news.yahoo.co.jp/media/mensplus
+546,g14,MEN’S NON-NO WEB,mensnonno,https://news.yahoo.co.jp/media/mensnonno
+547,g14,MINKEITV,minkeiv,https://news.yahoo.co.jp/media/minkeiv
+548,g14,MLB.jp,mlb,https://news.yahoo.co.jp/media/mlb
+549,g14,MONOist,it_monoist,https://news.yahoo.co.jp/media/it_monoist
+550,g14,MonoMax Web,monomax,https://news.yahoo.co.jp/media/monomax
+551,g14,MORE,dmore,https://news.yahoo.co.jp/media/dmore
+552,g14,MotorFan,motorfan,https://news.yahoo.co.jp/media/motorfan
+553,g14,motorsport.com 日本版,msportcom,https://news.yahoo.co.jp/media/msportcom
+554,g14,MusicVoice,musicv,https://news.yahoo.co.jp/media/musicv
+555,g14,my caddie,ism,https://news.yahoo.co.jp/media/ism
+556,g14,NBA Rakuten,nrakuten,https://news.yahoo.co.jp/media/nrakuten
+557,g14,netkeirin,nkeirin,https://news.yahoo.co.jp/media/nkeirin
+558,g14,NET ViVi,netvivi,https://news.yahoo.co.jp/media/netvivi
+559,g14,NFL公式サイト日本語版,nfljapan,https://news.yahoo.co.jp/media/nfljapan
+560,g14,nippon.com,nipponcom,https://news.yahoo.co.jp/media/nipponcom
+561,g14,NNA,nna,https://news.yahoo.co.jp/media/nna
+562,g14,nobico（のびこ）,phpfamily,https://news.yahoo.co.jp/media/phpfamily
+563,g14,non-no Web,nonno,https://news.yahoo.co.jp/media/nonno
+564,g14,Nosweb.jp,nosweb,https://news.yahoo.co.jp/media/nosweb
+565,g14,note,note,https://news.yahoo.co.jp/media/note
+566,g14,NRI研究員の時事解説,nrin,https://news.yahoo.co.jp/media/nrin
+567,g14,Numero TOKYO,numero,https://news.yahoo.co.jp/media/numero
+568,g14,OCEANS,oceans,https://news.yahoo.co.jp/media/oceans
+569,g14,octane.jp,octane,https://news.yahoo.co.jp/media/octane
+570,g14,Oggi.jp,oggi,https://news.yahoo.co.jp/media/oggi
+571,g14,OKMusic,okm,https://news.yahoo.co.jp/media/okm
+572,g14,otocoto,otocoto,https://news.yahoo.co.jp/media/otocoto
+573,g14,OTOKOMAE,otokomae,https://news.yahoo.co.jp/media/otokomae
+574,g14,OurAge,ourage,https://news.yahoo.co.jp/media/ourage
+575,g14,PHPオンライン衆知,php_s,https://news.yahoo.co.jp/media/php_s
+576,g14,PHPオンライン衆知（THE21）,php_t,https://news.yahoo.co.jp/media/php_t
+577,g14,PHPオンライン衆知（Voice）,voice,https://news.yahoo.co.jp/media/voice
+578,g14,PHPオンライン衆知（歴史街道）,php_r,https://news.yahoo.co.jp/media/php_r
+579,g14,QJWeb クイック・ジャパン ウェブ,qjweb,https://news.yahoo.co.jp/media/qjweb
+580,g14,REAL SPORTS,realspo,https://news.yahoo.co.jp/media/realspo
+581,g15,Reライフ.net,relifenet,https://news.yahoo.co.jp/media/relifenet
+582,g15,Rolling Stone Japan,rolling,https://news.yahoo.co.jp/media/rolling
+583,g15,Safari Online,safariweb,https://news.yahoo.co.jp/media/safariweb
+584,g15,SAL,fsal,https://news.yahoo.co.jp/media/fsal
+585,g15,ScanNetSecurity,scan,https://news.yahoo.co.jp/media/scan
+586,g15,S Cawaii,scawaii,https://news.yahoo.co.jp/media/scawaii
+587,g15,SOCCER KING,soccerk,https://news.yahoo.co.jp/media/soccerk
+588,g15,sorae 宇宙へのポータルサイト,sorae_jp,https://news.yahoo.co.jp/media/sorae_jp
+589,g15,SPAIA AI競馬,spaia,https://news.yahoo.co.jp/media/spaia
+590,g15,SPUR.JP,spur,https://news.yahoo.co.jp/media/spur
+591,g15,SUUMOジャーナル,suumoj,https://news.yahoo.co.jp/media/suumoj
+592,g15,TechTargetジャパン,zdn_tt,https://news.yahoo.co.jp/media/zdn_tt
+593,g15,THE FIRST TIMES,mnet,https://news.yahoo.co.jp/media/mnet
+594,g15,The News Lens Japan,newslens,https://news.yahoo.co.jp/media/newslens
+595,g15,THE NIKKEI MAGAZINE,nikkeisty,https://news.yahoo.co.jp/media/nikkeisty
+596,g15,theWORLD（ザ・ワールドWeb）,theworldw,https://news.yahoo.co.jp/media/theworldw
+597,g15,T JAPAN web,tjapan,https://news.yahoo.co.jp/media/tjapan
+598,g15,Tokyo Art Beat,tartbeat,https://news.yahoo.co.jp/media/tartbeat
+599,g15,TOKYO FM＋,tokyofm,https://news.yahoo.co.jp/media/tokyofm
+600,g15,TopNews,fliv,https://news.yahoo.co.jp/media/fliv
+601,g15,TV LIFE web,tvlife,https://news.yahoo.co.jp/media/tvlife
+602,g15,UchuBiz,uchubiz,https://news.yahoo.co.jp/media/uchubiz
+603,g15,VAGUE,vague,https://news.yahoo.co.jp/media/vague
+604,g15,VICTORY,victory,https://news.yahoo.co.jp/media/victory
+605,g15,VITUP!,vitup,https://news.yahoo.co.jp/media/vitup
+606,g15,WATCHNAVI Salon,watchnavi,https://news.yahoo.co.jp/media/watchnavi
+607,g15,WEB CARTOP,wcartop,https://news.yahoo.co.jp/media/wcartop
+608,g15,webCG,webcg,https://news.yahoo.co.jp/media/webcg
+609,g15,Web eclat,eclat,https://news.yahoo.co.jp/media/eclat
+610,g15,WEB UOMO,webuomo,https://news.yahoo.co.jp/media/webuomo
+611,g15,webオートバイ,autoby,https://news.yahoo.co.jp/media/autoby
+612,g15,webスポルティーバ,sportiva,https://news.yahoo.co.jp/media/sportiva
+613,g15,Web担当者Forum,webtan,https://news.yahoo.co.jp/media/webtan
+614,g15,webマガジン mi-mollet,mimollet,https://news.yahoo.co.jp/media/mimollet
+615,g15,Webマガジン コロカル,colocal,https://news.yahoo.co.jp/media/colocal
+616,g15,Webモーターマガジン,mmagazine,https://news.yahoo.co.jp/media/mmagazine
+617,g15,WEBヤングマシン,webym,https://news.yahoo.co.jp/media/webym
+618,g15,with online,withonline,https://news.yahoo.co.jp/media/withonline
+619,g15,WWDJAPAN.com,wwdjapan,https://news.yahoo.co.jp/media/wwdjapan
+620,g15,アスリートマガジンWEB,hathlete,https://news.yahoo.co.jp/media/hathlete
+621,g15,＠ＤＩＭＥ,dime,https://news.yahoo.co.jp/media/dime
+622,g15,＠IT,zdn_ait,https://news.yahoo.co.jp/media/zdn_ait
+623,g15,アニメ！アニメ！,anmanmv,https://news.yahoo.co.jp/media/anmanmv
+624,g15,アフロ,storyfulv,https://news.yahoo.co.jp/media/storyfulv
+625,g15,＆GP,andgp,https://news.yahoo.co.jp/media/andgp
+626,g15,いぬのきもち WEB MAGAZINE,inumag,https://news.yahoo.co.jp/media/inumag
+627,g15,医療介護ＣＢニュース,cbn,https://news.yahoo.co.jp/media/cbn
+628,g15,インサイド,isd,https://news.yahoo.co.jp/media/isd
+629,g15,イージースポーツ,elevenspo,https://news.yahoo.co.jp/media/elevenspo
+630,g15,イーファイト,gbr,https://news.yahoo.co.jp/media/gbr
+631,g15,映画.com,eiga,https://news.yahoo.co.jp/media/eiga
+632,g15,エンタメOVO,tvfan,https://news.yahoo.co.jp/media/tvfan
+633,g15,男の隠れ家デジタル,kkrgd,https://news.yahoo.co.jp/media/kkrgd
+634,g15,おとなの週末,matomeshi,https://news.yahoo.co.jp/media/matomeshi
+635,g15,オートスポーツweb,rcg,https://news.yahoo.co.jp/media/rcg
+636,g15,オーヴォ,ovo,https://news.yahoo.co.jp/media/ovo
+637,g15,家庭画報.com,kateigaho,https://news.yahoo.co.jp/media/kateigaho
+638,g15,感染症・予防接種ナビ,kansensho,https://news.yahoo.co.jp/media/kansensho
+639,g15,キネマ旬報WEB,kinejun,https://news.yahoo.co.jp/media/kinejun
+640,g15,教育とICT Online,kyoikuict,https://news.yahoo.co.jp/media/kyoikuict
+641,g15,教員養成セミナー,kyousemi,https://news.yahoo.co.jp/media/kyousemi
+642,g15,クウネル・サロン,kunel,https://news.yahoo.co.jp/media/kunel
+643,g15,クックパッドニュース,cookpadn,https://news.yahoo.co.jp/media/cookpadn
+644,g15,クランクイン！,crankinn,https://news.yahoo.co.jp/media/crankinn
+645,g15,くるくら,parkblog,https://news.yahoo.co.jp/media/parkblog
+646,g15,クロワッサンオンライン,crssntv,https://news.yahoo.co.jp/media/crssntv
+647,g15,グルメ Watch,impgrw,https://news.yahoo.co.jp/media/impgrw
+648,g15,競馬のおはなし,keibana,https://news.yahoo.co.jp/media/keibana
+649,g15,月刊糖尿病ライフ さかえ,sakae,https://news.yahoo.co.jp/media/sakae
+650,g15,月刊バスケットボール,nbpvbball,https://news.yahoo.co.jp/media/nbpvbball
+651,g15,月刊バレーボール,getsuv,https://news.yahoo.co.jp/media/getsuv
+652,g15,高校サッカードットコム,kksoccer,https://news.yahoo.co.jp/media/kksoccer
+653,g15,高校野球ドットコム,hbnippon,https://news.yahoo.co.jp/media/hbnippon
+654,g15,講談社　JOSEISHI.NET,kjn,https://news.yahoo.co.jp/media/kjn
+655,g15,ゴルフ総合サイト ALBA Net,alba,https://news.yahoo.co.jp/media/alba
+656,g15,ゴルフダイジェスト・オンライン（GDO）,gdo,https://news.yahoo.co.jp/media/gdo
+657,g15,ゴルフネットワーク,golfnw,https://news.yahoo.co.jp/media/golfnw
+658,g15,ゴング格闘技,gkakutogi,https://news.yahoo.co.jp/media/gkakutogi
+659,g15,サッカー批評Web,soccerh,https://news.yahoo.co.jp/media/soccerh
+660,g15,サッカーマガジンWeb,soccerm,https://news.yahoo.co.jp/media/soccerm
+661,g16,ザ・プレーヤーズ・トリビューン ジャパン,tptj,https://news.yahoo.co.jp/media/tptj
+662,g16,週刊SPA!,sspa,https://news.yahoo.co.jp/media/sspa
+663,g16,週刊金曜日,kinyobi,https://news.yahoo.co.jp/media/kinyobi
+664,g16,週刊ベースボールONLINE,baseballo,https://news.yahoo.co.jp/media/baseballo
+665,g16,就職ジャーナル,sjournal,https://news.yahoo.co.jp/media/sjournal
+666,g16,週プレNEWS,playboyz,https://news.yahoo.co.jp/media/playboyz
+667,g16,新R25,srnijugo,https://news.yahoo.co.jp/media/srnijugo
+668,g16,スマートジャパン,biz_it_sj,https://news.yahoo.co.jp/media/biz_it_sj
+669,g16,ソーシャル・イノベーション・ニュース,socialinv,https://news.yahoo.co.jp/media/socialinv
+670,g16,たまひよONLINE,tamahiyo,https://news.yahoo.co.jp/media/tamahiyo
+671,g16,ダ・ヴィンチWeb,davincin,https://news.yahoo.co.jp/media/davincin
+672,g16,超！アニメディア,choani,https://news.yahoo.co.jp/media/choani
+673,g16,釣りビジョン マガジン,fvision,https://news.yahoo.co.jp/media/fvision
+674,g16,テニスマガジンONLINE,tennismagv,https://news.yahoo.co.jp/media/tennismagv
+675,g16,デビュー,devi,https://news.yahoo.co.jp/media/devi
+676,g16,日経BizGate,nkbizgate,https://news.yahoo.co.jp/media/nkbizgate
+677,g16,日経xwoman,woman,https://news.yahoo.co.jp/media/woman
+678,g16,日経グッデイ,gooday,https://news.yahoo.co.jp/media/gooday
+679,g16,日本経済新聞 電子版,nikkei,https://news.yahoo.co.jp/media/nikkei
+680,g16,ニュースソクラ,socra,https://news.yahoo.co.jp/media/socra
+681,g16,ねこのきもち WEB MAGAZINE,nekomag,https://news.yahoo.co.jp/media/nekomag
+682,g16,ネットショップ担当者フォーラム,netshop,https://news.yahoo.co.jp/media/netshop
+683,g16,バイクのニュース,bikeno,https://news.yahoo.co.jp/media/bikeno
+684,g16,バスケットボールキング,bballk,https://news.yahoo.co.jp/media/bballk
+685,g16,バスケットボールスピリッツ,bbspirits,https://news.yahoo.co.jp/media/bbspirits
+686,g16,バトル・ニュース,battlen,https://news.yahoo.co.jp/media/battlen
+687,g16,バド×スピ！／バドミントン・マガジン,badspi,https://news.yahoo.co.jp/media/badspi
+688,g16,バレーボールマガジン,vbm,https://news.yahoo.co.jp/media/vbm
+689,g16,ひとシネマ,hitoc,https://news.yahoo.co.jp/media/hitoc
+690,g16,美術手帖,btecho,https://news.yahoo.co.jp/media/btecho
+691,g16,美的.com,biteki,https://news.yahoo.co.jp/media/biteki
+692,g16,ビデオニュース・ドットコム,videonewsv,https://news.yahoo.co.jp/media/videonewsv
+693,g16,ぴあ,piaeigat,https://news.yahoo.co.jp/media/piaeigat
+694,g16,フットボールチャンネル,footballc,https://news.yahoo.co.jp/media/footballc
+695,g16,ベネッセ教育情報,benesseks,https://news.yahoo.co.jp/media/benesseks
+696,g16,ベースボールキング,baseballk,https://news.yahoo.co.jp/media/baseballk
+697,g16,北陸新幹線で行こう！　北陸・信越観光ナビ,hokuriku,https://news.yahoo.co.jp/media/hokuriku
+698,g16,マクール,macour,https://news.yahoo.co.jp/media/macour
+699,g16,マグミクス,magmix,https://news.yahoo.co.jp/media/magmix
+700,g16,みんなのゴルフダイジェスト,minnagolf,https://news.yahoo.co.jp/media/minnagolf
+701,g16,ラグビーリパブリック（ラグビーマガジン）,rugbyrp,https://news.yahoo.co.jp/media/rugbyrp
+702,g16,旅行読売,ryokoyom,https://news.yahoo.co.jp/media/ryokoyom
+703,g16,歴史人,rekishin,https://news.yahoo.co.jp/media/rekishin
+704,g16,レスキューナウニュース,rescuenow,https://news.yahoo.co.jp/media/rescuenow
+705,g16,レタスクラブ,lettucec,https://news.yahoo.co.jp/media/lettucec
+706,g16,ロケーションジャパン,locationj,https://news.yahoo.co.jp/media/locationj
+707,g16,BBM Sports,bbmv,https://news.yahoo.co.jp/media/bbmv
+708,g16,馬トク報知,umatokuh,https://news.yahoo.co.jp/media/umatokuh
+709,g16,スポーティングニュース,sporting,https://news.yahoo.co.jp/media/sporting
+710,g16,卓球王国,worldtt,https://news.yahoo.co.jp/media/worldtt
+711,g16,テレ朝POST,asapostv,https://news.yahoo.co.jp/media/asapostv
+712,g16,東スポ競馬,tspkeiba,https://news.yahoo.co.jp/media/tspkeiba
+713,g16,道新スポーツ,dospo,https://news.yahoo.co.jp/media/dospo
+714,g16,プロレスTODAY,proresut,https://news.yahoo.co.jp/media/proresut
+715,g16,夕刊フジ,ykf,https://news.yahoo.co.jp/media/ykf
+716,g16,優馬,umakeiba,https://news.yahoo.co.jp/media/umakeiba
+717,g16,レスポンス,rps,https://news.yahoo.co.jp/media/rps
+718,g16,ワールドジェットスポーツマガジン,wjsm,https://news.yahoo.co.jp/media/wjsm
