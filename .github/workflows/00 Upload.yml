@@ -1,4 +1,4 @@
-name: 00 Upload
+name: 01 Upload
 
 on:
   schedule:
