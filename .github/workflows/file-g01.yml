@@ -2,7 +2,7 @@ name: Schedule g01
 
 on:
   schedule:
-    - cron: '0 16 * * *' 
+    - cron: '00 16 * * *' 
   workflow_dispatch:
 
 jobs:
@@ -39,11 +39,7 @@ jobs:
 
       - name: Commit and push csv files
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git add .
-            git commit -m "Update csv files - $(date +'%Y-%m-%d')"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          git add .
+          git commit -m "Update csv files - $(date +'%Y-%m-%d')"
+          git push
         working-directory: ${{ github.workspace }}
