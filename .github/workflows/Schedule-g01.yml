@@ -2,7 +2,7 @@ name: Schedule g01
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # UTC時間の16:00に実行（日本時間の午前1時）
+    - cron: '0 16 * * *' 
   workflow_dispatch:
 
 jobs:
@@ -14,10 +14,11 @@ jobs:
         with:
           python-version: '3.8'
       
-      - name: Create directory
+      - name: Create directory for the previous day
         run: |
           current_date=$(date +'%Y_%m%d') 
-          folder_name="html-mediaALL_a_${current_date}" 
+          yesterday=$(date -d "yesterday" +'%Y_%m%d')
+          folder_name="${yesterday}"
           mkdir -p $folder_name
 
       - name: Install dependencies
