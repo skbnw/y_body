@@ -1,0 +1,45 @@
+name: Schedule g03
+
+on:
+  schedule:
+    - cron: '40 16 * * *' 
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      
+      - name: Create directory for the previous day
+        run: |
+          current_date=$(date +'%Y_%m%d') 
+          yesterday=$(date -d "yesterday" +'%Y_%m%d')
+          folder_name="${yesterday}"
+          mkdir -p $folder_name
+
+      - name: Install dependencies
+        run: pip install pandas requests beautifulsoup4 pytz boto3
+      
+      - name: Run scraper
+        run: python py/file-g03.py
+
+      - name: Set Git Config
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+        working-directory: ${{ github.workspace }}
+
+      - name: Pull remote changes
+        run: git pull origin main
+        working-directory: ${{ github.workspace }}
+
+      - name: Commit and push csv files
+        run: |
+          git add .
+          git commit -m "Update csv files - $(date +'%Y-%m-%d')"
+          git push
+        working-directory: ${{ github.workspace }}
