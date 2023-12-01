@@ -7,7 +7,6 @@ on:
 jobs:
   process-directories:
     runs-on: ubuntu-latest
-    environment: yreader
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
