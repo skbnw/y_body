@@ -2,15 +2,15 @@ name: Schedule g01
 
 on:
   schedule:
-    - cron: '0 16 * * *' 
+    - cron: '0 16 * * *'  # UTC時間の16:00に実行（日本時間の午前1時）
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3  # 最新バージョンに更新
+      - uses: actions/setup-python@v3  # 最新バージョンに更新
         with:
           python-version: '3.8'
       
@@ -39,7 +39,11 @@ jobs:
 
       - name: Commit and push csv files
         run: |
-          git add .
-          git commit -m "Update csv files - $(date +'%Y-%m-%d')"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Update csv files - $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit"
+          fi
         working-directory: ${{ github.workspace }}
