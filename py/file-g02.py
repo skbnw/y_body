@@ -74,8 +74,10 @@ def save_articles_to_csv(article_data, folder_name, media_en):
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
-    # 前日の日付を取得
-    yesterday = datetime.now() - timedelta(days=1)
+    # 日本時間で前日の日付を取得
+    tokyo_timezone = pytz.timezone('Asia/Tokyo')
+    yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
+    
     # ファイル名の形式を yyyy-mmdd-media_en.csv に修正
     filename = f"{yesterday.strftime('%Y-%m%d')}-{media_en}.csv"
     filepath = os.path.join(folder_name, filename)
@@ -83,6 +85,7 @@ def save_articles_to_csv(article_data, folder_name, media_en):
     df = pd.DataFrame(article_data)
     df.to_csv(filepath, index=False)
     print(f"CSV file saved as {filepath}")
+
 
 def get_article_links(base_url, params, timeout_duration=30):
     article_links = []
