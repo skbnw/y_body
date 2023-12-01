@@ -9,11 +9,8 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v3 # アクションを最新バージョンに更新
+      - uses: actions/setup-python@v3 # アクションを最新バージョンに更新
         with:
           python-version: '3.8'
 
