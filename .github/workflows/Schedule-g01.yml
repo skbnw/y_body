@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v3  # 最新バージョンに更新
         with:
           python-version: '3.8'
-      
+          
       - name: Create directory for the previous day
         run: |
           current_date=$(date +'%Y_%m%d') 
