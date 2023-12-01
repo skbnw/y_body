@@ -1,0 +1,54 @@
+name: Schedule g01
+
+on:
+  schedule:
+    - cron: '0 16 * * *'  # UTC時間の16:00に実行（日本時間の午前1時）
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Create directory for the previous day
+        run: |
+          current_date=$(date +'%Y_%m%d')
+          yesterday=$(date -d "yesterday" +'%Y_%m%d')
+          folder_name="${yesterday}"
+          mkdir -p $folder_name
+          echo "Created directory for the previous day: $folder_name"
+
+      - name: Install dependencies
+        run: |
+          pip install pandas requests beautifulsoup4 pytz boto3
+          echo "Installed dependencies"
+
+      - name: Run scraper
+        run: |
+          python py/file-g01.py
+        env:
+          FOLDER_NAME: ${{ env.folder_name }}
+
+      - name: Set Git Config
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Pull remote changes
+        run: git pull origin main
+
+      - name: Commit and push csv files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Update csv files - $(date +'%Y-%m-%d')"
+            git push
+          else
+            echo "No changes to commit"
