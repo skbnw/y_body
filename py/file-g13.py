@@ -1,6 +1,6 @@
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from requests.exceptions import Timeout
+from requests.exceptions import Timeout, RequestException
 import os
 import re
 import random
@@ -21,23 +21,24 @@ def fetch_full_article(url, timeout_duration=30):
     json_ld_data = None
     current_page_num = 1
     is_first_page = True
-    last_successful_fetch_time = datetime.now()
+    start_time = datetime.now()
+    images = []
+    links = []
 
     while True:
         current_url = f"{url}?page={current_page_num}"
         try:
             response = requests.get(current_url, timeout=10)
-            last_successful_fetch_time = datetime.now()
             if response.status_code == 404 and not is_first_page:
                 break
             response.raise_for_status()
-        except (requests.RequestException, Timeout) as e:
+        except (RequestException, Timeout) as e:
             print(f"Error or timeout at {current_url}: {e}")
-            return None, None
+            return None, None, None, None
 
-        if (datetime.now() - last_successful_fetch_time).seconds > timeout_duration:
-            print(f"Fetching process stopped for more than {timeout_duration} seconds at {current_url}")
-            return None, None  # 長時間応答がない場合にNoneを返す
+        if (datetime.now() - start_time).total_seconds() > timeout_duration:
+            print(f"Total fetching time exceeded timeout at {current_url}")
+            return None, None, None, None
 
         soup = BeautifulSoup(response.text, 'html.parser')
         if is_first_page:
@@ -54,14 +55,19 @@ def fetch_full_article(url, timeout_duration=30):
         article_body = soup.find('div', {'class': 'article_body'})
         if article_body:
             full_text += '\n' + article_body.get_text('\n', strip=True)
-        current_page_num += 1
+            images.extend([img['src'] for img in article_body.find_all('img') if img.get('src')])
+            links.extend([a['href'] for a in article_body.find_all('a') if a.get('href')])
 
+        current_page_num += 1
         time.sleep(random.uniform(2, 5))
 
-    return minify_text(full_text), json_ld_data
+    return minify_text(full_text), json_ld_data, images, links
 
 def process_article_link(link, media_en, media_jp, timeout_duration):
-    article_text, json_ld_data = fetch_full_article(link, timeout_duration)
+    if 'image/0000' in link:
+        return None
+
+    article_text, json_ld_data, images, links = fetch_full_article(link, timeout_duration)
     if article_text and json_ld_data:
         str_count = len(article_text)
         return {
@@ -74,7 +80,9 @@ def process_article_link(link, media_en, media_jp, timeout_duration):
             "media_en": media_en,
             "media_jp": media_jp,
             "str_count": str_count,
-            "body": article_text
+            "body": article_text,
+            "images": images,
+            "external_links": links
         }
     else:
         return None
@@ -89,6 +97,38 @@ def save_articles_to_csv(article_data, media_en, yesterday):
     df.to_csv(filename, index=False)
     print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
+def get_article_links(base_url, params, timeout_duration=30):
+    article_links = []
+    current_page_num = 1
+    params = params.copy()
+
+    while True:
+        params['page'] = current_page_num
+        try:
+            response = requests.get(base_url, params=params, timeout=timeout_duration)
+            if response.status_code == 404:
+                break
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            links = [a['href'] for a in soup.select('a.newsFeed_item_link') if '/images/' not in a['href']]
+            links = [link for link in links if 'image/0000' not in link]
+
+            if not links:
+                break
+
+            article_links.extend(links)
+            current_page_num += 1
+
+            time.sleep(random.uniform(2, 5))
+
+        except (requests.RequestException, requests.Timeout) as e:
+            print(f"Error or timeout at {base_url}: {e}")
+            break
+
+    return article_links
+
+# メインのスクレイピング処理
 csv_file_path = 'url/url_group.csv'
 urls_df = pd.read_csv(csv_file_path)
 
@@ -101,30 +141,14 @@ timeout_duration = 30
 for index, row in urls_df.iterrows():
     if row['group'] != 'g13':
         continue
+
     media_en = row['media_en']
     media_jp = row['media_jp']
     base_url = row['url']
     params = {'year': year, 'month': month, 'day': day, 'page': 1}
-    article_links = []
+    article_links = get_article_links(base_url, params, timeout_duration)
     article_data = []
 
-    while True:
-        try:
-            response = requests.get(base_url, params=params, timeout=10)
-            if response.status_code != 200:
-                break
-
-            soup = BeautifulSoup(response.text, 'html.parser')
-            articles = soup.select('li > a:has(div.newsFeed_item_text)')
-            for article in articles:
-                link = article.get('href')
-                if link:
-                    article_links.append(link)
-
-            params['page'] += 1
-        except Timeout:
-            print(f"Timeout occurred while fetching from base URL: {base_url}")
-            continue
     with ThreadPoolExecutor(max_workers=5) as executor:
         future_to_link = {executor.submit(process_article_link, link, media_en, media_jp, timeout_duration): link for link in article_links}
         for future in as_completed(future_to_link):
