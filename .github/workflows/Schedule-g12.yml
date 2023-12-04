@@ -40,7 +40,6 @@ jobs:
       - name: Commit and push csv files
         run: |
           git add .
-          git diff --staged --exit-code || exit 0
           git commit -m "Update csv files - $(date +'%Y-%m-%d')"
           git push
         working-directory: ${{ github.workspace }}
