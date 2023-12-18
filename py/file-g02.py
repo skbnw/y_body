@@ -121,7 +121,7 @@ def get_article_links(base_url, params, timeout_duration=30):
 tokyo_timezone = pytz.timezone('Asia/Tokyo')
 yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
-folder_name = yesterday.strftime('%Y_%m%d')
+folder_name = os.path.join('data_body', yesterday.strftime('%Y_%m%d'))
 
 # 指定されたURLとメディア情報
 base_url = "https://news.yahoo.co.jp/media/jij"
