@@ -88,7 +88,7 @@ def process_article_link(link, media_en, media_jp, timeout_duration):
         return None
 
 def save_articles_to_csv(article_data, media_en, yesterday):
-    folder_name = f"{yesterday.strftime('%Y_%m%d')}"
+    folder_name = os.path.join('data_body', yesterday.strftime('%Y_%m%d'))
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
 
