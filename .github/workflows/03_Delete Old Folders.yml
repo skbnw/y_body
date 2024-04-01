@@ -27,4 +27,5 @@ jobs:
           echo "Deleted folder: $folder_name"
         else
           echo "Folder not found: $folder_name"
+          exit 1
         fi
