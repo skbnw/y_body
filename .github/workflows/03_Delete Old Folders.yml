@@ -15,14 +15,22 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+      with:
+        node-version: '20'
 
     - name: Delete old folders
       run: |
         cutoff_date=$(date -d "${{ github.event.inputs.cutoff_days }} days ago" +%Y_%m%d)
+        echo "Cutoff date: $cutoff_date"
+        
         for folder in */; do
-          folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}' | head -n 1)
-          if [[ "$folder_date" < "$cutoff_date" ]]; then
-            rm -rf "$folder"
-            echo "Deleted folder: $folder"
+          if [[ -d "$folder" ]]; then
+            folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}' | head -n 1)
+            if [[ -n "$folder_date" && "$folder_date" < "$cutoff_date" ]]; then
+              rm -rf "$folder"
+              echo "Deleted folder: $folder"
+            else
+              echo "Skipping folder: $folder"
+            fi
           fi
         done
