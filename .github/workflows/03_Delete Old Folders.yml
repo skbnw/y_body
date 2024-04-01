@@ -1,36 +1,30 @@
 name: 03 Delete Old Folders
 
-name: Delete Old Folders
+name: Delete Specified Folder
 
 on:
   workflow_dispatch:
     inputs:
-      cutoff_days:
-        description: 'Number of days to keep folders'
+      folder_name:
+        description: 'Name of the folder to delete'
         required: true
-        default: '30'
 
 jobs:
-  delete_old_folders:
+  delete_specified_folder:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Delete old folders
+    - name: Delete specified folder
       run: |
-        cutoff_date=$(date -d "${{ github.event.inputs.cutoff_days }} days ago" +%Y_%m%d)
-        echo "Cutoff date: $cutoff_date"
+        folder_name="${{ github.event.inputs.folder_name }}"
+        echo "Folder to delete: $folder_name"
 
-        for folder in */; do
-          if [[ -d "$folder" ]]; then
-            folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}')
-            if [[ -n "$folder_date" && "$folder_date" < "$cutoff_date" ]]; then
-              rm -rf "$folder"
-              echo "Deleted folder: $folder"
-            else
-              echo "Skipping folder: $folder"
-            fi
-          fi
-        done
+        if [[ -d "$folder_name" ]]; then
+          rm -rf "$folder_name"
+          echo "Deleted folder: $folder_name"
+        else
+          echo "Folder not found: $folder_name"
+        fi
