@@ -16,19 +16,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
-
     - name: Delete old folders
       run: |
-        cutoff_date=$(date -d "${{ github.event.inputs.cutoff_days }} days ago" +%Y_%m%d)
+        cutoff_date=$(date -d "${{ github.event.inputs.cutoff_days }} days ago" +%Y-%m-%d)
         echo "Cutoff date: $cutoff_date"
-        
+
         for folder in */; do
           if [[ -d "$folder" ]]; then
-            folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}' | head -n 1)
+            folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}' | sed 's/_/-/')
             if [[ -n "$folder_date" && "$folder_date" < "$cutoff_date" ]]; then
               rm -rf "$folder"
               echo "Deleted folder: $folder"
