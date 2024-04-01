@@ -1,5 +1,7 @@
 name: 03 Delete Old Folders
 
+name: Delete Old Folders
+
 on:
   workflow_dispatch:
     inputs:
@@ -18,12 +20,12 @@ jobs:
 
     - name: Delete old folders
       run: |
-        cutoff_date=$(date -d "${{ github.event.inputs.cutoff_days }} days ago" +%Y-%m-%d)
+        cutoff_date=$(date -d "${{ github.event.inputs.cutoff_days }} days ago" +%Y_%m%d)
         echo "Cutoff date: $cutoff_date"
 
         for folder in */; do
           if [[ -d "$folder" ]]; then
-            folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}' | sed 's/_/-/')
+            folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}')
             if [[ -n "$folder_date" && "$folder_date" < "$cutoff_date" ]]; then
               rm -rf "$folder"
               echo "Deleted folder: $folder"
