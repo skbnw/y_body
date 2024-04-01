@@ -1,4 +1,4 @@
-name: Delete Old Folders
+name: 03 Delete Old Folders
 
 on:
   workflow_dispatch:
