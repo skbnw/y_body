@@ -6,6 +6,7 @@ on:
       folder_name:
         description: 'Name of the folder to delete'
         required: true
+        default: '2024_0301'
 
 jobs:
   delete_specified_folder:
