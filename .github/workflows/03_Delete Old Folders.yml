@@ -1,0 +1,28 @@
+name: Delete Old Folders
+
+on:
+  workflow_dispatch:
+    inputs:
+      cutoff_months:
+        description: 'Number of months to keep folders'
+        required: true
+        default: '1'
+
+jobs:
+  delete_old_folders:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Delete old folders
+      run: |
+        cutoff_date=$(date -d "${{ github.event.inputs.cutoff_months }} months ago" +%Y_%m)
+        for folder in */; do
+          folder_date=$(echo "$folder" | grep -oE '[0-9]{4}_[0-9]{4}' | head -n 1)
+          if [[ "$folder_date" < "$cutoff_date" ]]; then
+            rm -rf "$folder"
+            echo "Deleted folder: $folder"
+          fi
+        done
