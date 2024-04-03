@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Log start of workflow
+      run: echo "Start of workflow"
+
     - name: Checkout repository
       uses: actions/checkout@v4
 
@@ -31,6 +34,9 @@ jobs:
           echo "Folder not found: $folder_name"
         fi
 
+    - name: Log before delete specified folder
+      run: echo "Before deleting specified folder"
+
     - name: Delete specified folder
       run: |
         folder_name="${{ github.event.inputs.folder_name }}"
@@ -42,3 +48,6 @@ jobs:
         else
           echo "Folder not found: $folder_name"
         fi
+
+    - name: Log end of workflow
+      run: echo "End of workflow"
