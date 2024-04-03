@@ -16,6 +16,21 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Check if folder exists
+      run: |
+        folder_name="${{ github.event.inputs.folder_name }}"
+        echo "Folder to check: $folder_name"
+        if [[ -d "$folder_name" ]]; then
+          echo "Folder exists: $folder_name"
+        else
+          echo "Folder not found: $folder_name"
+        fi
+
     - name: Delete specified folder
       run: |
         folder_name="${{ github.event.inputs.folder_name }}"
