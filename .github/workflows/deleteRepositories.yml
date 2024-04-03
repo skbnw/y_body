@@ -1,0 +1,29 @@
+name: 04 Delete Repositories
+
+on:
+  workflow_dispatch:
+
+jobs:
+  delete_repositories:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Read .env file
+      run: |
+        source ./.env
+
+    - name: Read delete_target.txt file
+      id: read-delete-target
+      run: |
+        cat delete_target.txt
+
+    - name: Delete repositories
+      run: |
+        while read line; do
+          reponame="$USER_NAME/$line"
+          gh repo delete --repo "$reponame" --confirm
+          echo "Deleted $reponame"
+        done < delete_target.txt
