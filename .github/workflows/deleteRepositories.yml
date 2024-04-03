@@ -8,25 +8,16 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub トークンを使用
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Read .env file
+    - name: Read delete_target.txt file and delete repositories
       run: |
-        source ./.env
-
-    - name: Read delete_target.txt file
-      id: read-delete-target
-      run: |
-        cat delete_target.txt
-
-    - name: Delete repositories
-      run: |
-        while read line; do
-          reponame="$USER_NAME/$line"
+        while IFS= read -r line; do
+          reponame="${line%%[[:space:]]}"
           gh repo delete "$reponame" --yes
           echo "Deleted $reponame"
-        done < delete_target.txt
+        done < <(tr -d '\r' < delete_target.txt)
