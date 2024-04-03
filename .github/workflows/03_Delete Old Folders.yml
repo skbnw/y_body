@@ -28,11 +28,7 @@ jobs:
       run: |
         folder_name="${{ github.event.inputs.folder_name }}"
         echo "Folder to check: $folder_name"
-        if [[ -d "$folder_name" ]]; then
-          echo "Folder exists: $folder_name"
-        else
-          echo "Folder not found: $folder_name"
-        fi
+        ls -la "$folder_name" || true
 
     - name: Log before delete specified folder
       run: echo "Before deleting specified folder"
