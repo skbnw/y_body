@@ -1,0 +1,17 @@
+name: 03 Delete Folder and Its Contents
+
+on:
+  workflow_dispatch:
+
+jobs:
+  delete_folder_and_contents:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Delete folder and its contents
+      run: |
+        rm -rf y_body/2024_0216
+        echo "Deleted folder and its contents"
