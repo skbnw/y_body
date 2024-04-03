@@ -7,6 +7,9 @@ jobs:
   delete_repositories:
     runs-on: ubuntu-latest
 
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub トークンを使用
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
