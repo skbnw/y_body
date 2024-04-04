@@ -1,29 +1,30 @@
-name: 03 Delete Specified Folder
+name: 03 Bulk Folder Deletion
 
 on:
   workflow_dispatch:
     inputs:
-      folder_name:
-        description: 'Name of the folder to delete'
+      folders_to_delete:
+        description: 'Folders to delete (comma-separated)'
         required: true
-        default: '2024_0301'
+        default: ''
 
 jobs:
-  delete_specified_folder:
+  bulk_folder_deletion:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4 # Node.js 20を使用するためにバージョンを更新
+      uses: actions/checkout@v3
 
-    - name: Delete specified folder
+    - name: Delete specified folders
       run: |
-        folder_name="${{ github.event.inputs.folder_name }}"
-        echo "Folder to delete: $folder_name"
-
-        if [[ -d "$folder_name" ]]; then
-          rm -rf "$folder_name"
-          echo "Deleted folder: $folder_name"
-        else
-          echo "Folder not found: $folder_name"
-        fi
+        folders="${{ github.event.inputs.folders_to_delete }}"
+        IFS=',' read -ra folder_array <<< "$folders"
+        for folder in "${folder_array[@]}"; do
+          if [ -d "$folder" ]; then
+            rm -rf "$folder"
+            echo "Deleted folder: $folder"
+          else
+            echo "Folder not found: $folder"
+          fi
+        done
