@@ -6,6 +6,7 @@ on:
       folder_name:
         description: 'Name of the folder to delete'
         required: true
+        default: '2024_0301'
 
 jobs:
   delete_specified_folder:
@@ -13,7 +14,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4 # Node.js 20を使用するためにバージョンを更新
 
     - name: Delete specified folder
       run: |
