@@ -8,14 +8,16 @@ from yahoo_news_article_scraper import get_article_links, scrape_yahoo_news_arti
 
 def save_articles_to_csv(article_data, media_en, yesterday):
     folder_name = f"{yesterday.strftime('%Y_%m%d')}"
-    if not os.path.exists(folder_name):
-        os.makedirs(folder_name)
-
-    filename = os.path.join(folder_name, f"{yesterday.strftime('%Y-%m%d')}-{media_en}.csv")
-    df = pd.DataFrame(article_data)
-    df.to_csv(filename, index=False)
-    print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Number of articles saved: {len(article_data)}")
+    try:
+        if not os.path.exists(folder_name):
+            os.makedirs(folder_name)
+        filename = os.path.join(folder_name, f"{yesterday.strftime('%Y-%m%d')}-{media_en}.csv")
+        df = pd.DataFrame(article_data)
+        df.to_csv(filename, index=False)
+        print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+        print(f"Number of articles saved: {len(article_data)}")
+    except Exception as e:
+        print(f"Error saving CSV: {e}")
 
 # メインのスクレイピング処理
 csv_file_path = 'url/url_group.csv'
@@ -38,16 +40,28 @@ for index, row in urls_df.iterrows():
     base_url = row['url']
     print(f"Processing {media_en} ({media_jp})")
     params = {'year': year, 'month': month, 'day': day, 'page': 1}
+    
     article_links = get_article_links(base_url, params, timeout_duration)
+    if not article_links:
+        print(f"No article links found for {media_en} on {yesterday.strftime('%Y-%m-%d')}")
+        continue
+
     print(f"Found {len(article_links)} total links")
     article_data = []
 
     with ThreadPoolExecutor(max_workers=5) as executor:
         future_to_link = {executor.submit(scrape_yahoo_news_article, link, media_en, media_jp, timeout_duration): link for link in article_links}
+        completed = 0
+        total = len(future_to_link)
         for future in as_completed(future_to_link):
-            article_info = future.result()
-            if article_info:
-                article_data.append(article_info)
+            try:
+                article_info = future.result()
+                if article_info:
+                    article_data.append(article_info)
+                completed += 1
+                print(f"Completed {completed}/{total} articles.")
+            except Exception as e:
+                print(f"Error processing link {future_to_link[future]}: {e}")
 
     save_articles_to_csv(article_data, media_en, yesterday)
 

@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import time
 import random
 from datetime import datetime
-
 def get_article_links(base_url, params, timeout_duration=60):
     article_links = []
     current_page_num = 1
@@ -25,21 +24,19 @@ def get_article_links(base_url, params, timeout_duration=60):
 
             soup = BeautifulSoup(response.text, 'html.parser')
             print(f"Page content length: {len(response.text)}")
+
+            # 新しいセレクタを確認する
             links = [a['href'] for a in soup.select('a.newsFeed_item_link') if '/images/' not in a['href']]
-            links = [link for link in links if 'image/0000' not in link]
-
-            print(f"Found {len(links)} links on page {current_page_num}")
-            print(f"Sample links: {links[:3]}")  # 最初の3つのリンクを表示
-
             if not links:
                 print(f"No links found on page {current_page_num}. Stopping.")
                 print(f"Page content: {response.text[:1000]}")  # ページの最初の1000文字を表示
                 break
 
             article_links.extend(links)
+            print(f"Found {len(links)} links on page {current_page_num}")
             current_page_num += 1
 
-            time.sleep(random.uniform(2, 5))
+            time.sleep(random.uniform(2, 5))  # 過負荷を避けるためにスリープを追加
 
         except requests.RequestException as e:
             print(f"Error or timeout at {base_url}: {e}")
@@ -64,10 +61,13 @@ def scrape_yahoo_news_article(url, media_en, media_jp, timeout_duration=60):
         soup = BeautifulSoup(response.text, 'html.parser')
         print(f"Article content length: {len(response.text)}")
         
-        title = soup.select_one('h1.headline').text.strip() if soup.select_one('h1.headline') else ''
+        title = soup.select_one('h1.headline').text.strip() if soup.select_one('h1.headline') else 'No Title'
         content = ' '.join([p.text for p in soup.select('div.article_body p:not(.readmore)')])
         date_str = soup.select_one('time')['datetime'] if soup.select_one('time') else ''
         date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S%z").strftime("%Y-%m-%d %H:%M:%S") if date_str else ''
+        
+        if not title or not content:
+            print(f"Warning: Article at {url} has missing title or content.")
         
         article_info = {
             'title': title,
