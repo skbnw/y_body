@@ -1,85 +1,80 @@
 import requests
 from bs4 import BeautifulSoup
-import json
-import re
 import time
 import random
 from datetime import datetime
-from requests.exceptions import RequestException, Timeout
 
-def minify_text(text):
-    text = text.replace('\n', '\\n')
-    text = re.sub(r'\s+', ' ', text)
-    return text.strip()
-
-def fetch_full_article(url, timeout_duration=30):
-    full_text = ''
-    json_ld_data = None
+def get_article_links(base_url, params, timeout_duration=60):
+    article_links = []
     current_page_num = 1
-    is_first_page = True
-    start_time = datetime.now()
-    images = []
-    links = []
+    params = params.copy()
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
 
     while True:
-        current_url = f"{url}?page={current_page_num}"
+        params['page'] = current_page_num
         try:
-            response = requests.get(current_url, timeout=10)
-            if response.status_code == 404 and not is_first_page:
+            print(f"Fetching links from {base_url} with params: {params}")
+            response = requests.get(base_url, params=params, headers=headers, timeout=timeout_duration)
+            if response.status_code == 404:
+                print(f"Page not found (404) for {base_url}")
                 break
             response.raise_for_status()
-        except (RequestException, Timeout) as e:
-            print(f"Error or timeout at {current_url}: {e}")
-            return None, None, None, None
 
-        if (datetime.now() - start_time).total_seconds() > timeout_duration:
-            print(f"Total fetching time exceeded timeout at {current_url}")
-            return None, None, None, None
+            soup = BeautifulSoup(response.text, 'html.parser')
+            links = [a['href'] for a in soup.select('a.newsFeed_item_link') if '/images/' not in a['href']]
+            links = [link for link in links if 'image/0000' not in link]
 
+            print(f"Found {len(links)} links on page {current_page_num}")
+
+            if not links:
+                print(f"No links found on page {current_page_num}. Stopping.")
+                break
+
+            article_links.extend(links)
+            current_page_num += 1
+
+            time.sleep(random.uniform(2, 5))
+
+        except requests.RequestException as e:
+            print(f"Error or timeout at {base_url}: {e}")
+            if 'response' in locals():
+                print(f"Response status code: {response.status_code}")
+                print(f"Response content: {response.text[:500]}")
+            break
+
+    return article_links
+
+def scrape_yahoo_news_article(url, media_en, media_jp, timeout_duration=60):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    
+    try:
+        print(f"Scraping article: {url}")
+        response = requests.get(url, headers=headers, timeout=timeout_duration)
+        response.raise_for_status()
+        
         soup = BeautifulSoup(response.text, 'html.parser')
-        if is_first_page:
-            script_tag = soup.find('script', type='application/ld+json')
-            if script_tag:
-                try:
-                    json_ld_data = json.loads(script_tag.string)
-                    if not isinstance(json_ld_data, dict):
-                        json_ld_data = {}
-                except json.JSONDecodeError:
-                    json_ld_data = {}
-            is_first_page = False
-
-        article_body = soup.find('div', {'class': 'article_body'})
-        if article_body:
-            full_text += '\n' + article_body.get_text('\n', strip=True)
-            images.extend([img['src'] for img in article_body.find_all('img') if img.get('src')])
-            links.extend([a['href'] for a in article_body.find_all('a') if a.get('href')])
-
-        current_page_num += 1
-        time.sleep(random.uniform(2, 5))
-
-    return minify_text(full_text), json_ld_data, images, links
-
-def process_article_link(link, media_en, media_jp, timeout_duration):
-    article_text, json_ld_data, images, links = fetch_full_article(link, timeout_duration)
-    if article_text and json_ld_data:
-        str_count = len(article_text)
-        return {
-            "headline": json_ld_data.get("headline"),
-            "mainEntityOfPage": json_ld_data.get("mainEntityOfPage", {}).get("@id"),
-            "image": json_ld_data.get("image"),
-            "datePublished": json_ld_data.get("datePublished"),
-            "dateModified": json_ld_data.get("dateModified"),
-            "author": json_ld_data.get("author", {}).get("name"),
-            "media_en": media_en,
-            "media_jp": media_jp,
-            "str_count": str_count,
-            "body": article_text,
-            "images": images,
-            "external_links": links
+        
+        title = soup.select_one('h1.headline').text.strip() if soup.select_one('h1.headline') else ''
+        content = ' '.join([p.text for p in soup.select('div.article_body p:not(.readmore)')])
+        date_str = soup.select_one('time')['datetime'] if soup.select_one('time') else ''
+        date = datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S%z").strftime("%Y-%m-%d %H:%M:%S") if date_str else ''
+        
+        article_info = {
+            'title': title,
+            'content': content,
+            'date': date,
+            'url': url,
+            'media_en': media_en,
+            'media_jp': media_jp
         }
-    else:
+        
+        print(f"Successfully scraped article: {title}")
+        return article_info
+    
+    except requests.RequestException as e:
+        print(f"Error scraping article {url}: {e}")
         return None
-
-# この関数を使用して記事をスクレイプします
-def scrape_yahoo_news_article(url, media_en, media_jp, timeout_duration=30):
-    return process_article_link(url, media_en, media_jp, timeout_duration)
