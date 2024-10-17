@@ -11,11 +11,13 @@ import requests
 from bs4 import BeautifulSoup
 import pytz
 
+# ニュース記事をコンパクトにする
 def minify_text(text):
     text = text.replace('\n', '\\n')
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
+# 記事の本文を取得する
 def fetch_full_article(url, timeout_duration=30):
     full_text = ''
     json_ld_data = None
@@ -63,6 +65,7 @@ def fetch_full_article(url, timeout_duration=30):
 
     return minify_text(full_text), json_ld_data, images, links
 
+# 記事リンクから情報を処理する
 def process_article_link(link, media_en, media_jp, timeout_duration):
     if 'image/0000' in link:
         return None
@@ -87,6 +90,7 @@ def process_article_link(link, media_en, media_jp, timeout_duration):
     else:
         return None
 
+# 記事データをCSVに保存する
 def save_articles_to_csv(article_data, media_en, yesterday):
     folder_name = f"{yesterday.strftime('%Y_%m%d')}"
     if not os.path.exists(folder_name):
@@ -97,36 +101,43 @@ def save_articles_to_csv(article_data, media_en, yesterday):
     df.to_csv(filename, index=False)
     print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
-def get_article_links(base_url, params, timeout_duration=30):
-    article_links = []
-    current_page_num = 1
-    params = params.copy()
-
+# Yahooニュースから記事リンクを取得する
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    urls = []
+    page = 1
+    
     while True:
-        params['page'] = current_page_num
+        url = f"{base_url}?page={page}"
         try:
-            response = requests.get(base_url, params=params, timeout=timeout_duration)
-            if response.status_code == 404:
-                break
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.text, 'html.parser')
-            links = [a['href'] for a in soup.select('a.newsFeed_item_link') if '/images/' not in a['href']]
-            links = [link for link in links if 'image/0000' not in link]
-
-            if not links:
+            response = requests.get(url, headers=headers, timeout=timeout_duration)
+            soup = BeautifulSoup(response.content, 'html.parser')
+            
+            news_items = soup.select('.newsFeed_item')
+            if not news_items:
                 break
 
-            article_links.extend(links)
-            current_page_num += 1
+            for item in news_items:
+                date_time = item.find('time').text.strip()
+                match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_time)
+                if match:
+                    month, day, hour, minute = map(int, match.groups())
+                    article_date = datetime(2024, month, day, hour, minute)
 
-            time.sleep(random.uniform(2, 5))
+                    if article_date.date() == target_date.date():
+                        article_url = item.find('a')['href']
+                        urls.append(article_url)
+                    elif article_date.date() < target_date.date():
+                        return urls
+            page += 1
 
         except (requests.RequestException, requests.Timeout) as e:
-            print(f"Error or timeout at {base_url}: {e}")
+            print(f"Error or timeout at {url}: {e}")
             break
 
-    return article_links
+    return urls
 
 # メインのスクレイピング処理
 csv_file_path = 'url/url_group.csv'
@@ -136,8 +147,6 @@ tokyo_timezone = pytz.timezone('Asia/Tokyo')
 yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
 year, month, day = yesterday.year, yesterday.month, yesterday.day
 
-timeout_duration = 30
-
 for index, row in urls_df.iterrows():
     if row['group'] != 'g04':
         continue
@@ -145,15 +154,18 @@ for index, row in urls_df.iterrows():
     media_en = row['media_en']
     media_jp = row['media_jp']
     base_url = row['url']
-    params = {'year': year, 'month': month, 'day': day, 'page': 1}
-    article_links = get_article_links(base_url, params, timeout_duration)
+    
+    # 記事リンクを取得する
+    article_links = get_yahoo_news_urls(base_url, yesterday)
     article_data = []
 
+    # スクレイピングを並列処理で実行
     with ThreadPoolExecutor(max_workers=5) as executor:
-        future_to_link = {executor.submit(process_article_link, link, media_en, media_jp, timeout_duration): link for link in article_links}
+        future_to_link = {executor.submit(process_article_link, link, media_en, media_jp, 30): link for link in article_links}
         for future in as_completed(future_to_link):
             article_info = future.result()
             if article_info:
                 article_data.append(article_info)
 
+    # CSVに保存
     save_articles_to_csv(article_data, media_en, yesterday)
