@@ -17,19 +17,23 @@ def get_article_links(base_url, params, timeout_duration=60):
         try:
             print(f"Fetching links from {base_url} with params: {params}")
             response = requests.get(base_url, params=params, headers=headers, timeout=timeout_duration)
+            print(f"Response status code: {response.status_code}")
             if response.status_code == 404:
                 print(f"Page not found (404) for {base_url}")
                 break
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, 'html.parser')
+            print(f"Page content length: {len(response.text)}")
             links = [a['href'] for a in soup.select('a.newsFeed_item_link') if '/images/' not in a['href']]
             links = [link for link in links if 'image/0000' not in link]
 
             print(f"Found {len(links)} links on page {current_page_num}")
+            print(f"Sample links: {links[:3]}")  # 最初の3つのリンクを表示
 
             if not links:
                 print(f"No links found on page {current_page_num}. Stopping.")
+                print(f"Page content: {response.text[:1000]}")  # ページの最初の1000文字を表示
                 break
 
             article_links.extend(links)
@@ -54,9 +58,11 @@ def scrape_yahoo_news_article(url, media_en, media_jp, timeout_duration=60):
     try:
         print(f"Scraping article: {url}")
         response = requests.get(url, headers=headers, timeout=timeout_duration)
+        print(f"Response status code: {response.status_code}")
         response.raise_for_status()
         
         soup = BeautifulSoup(response.text, 'html.parser')
+        print(f"Article content length: {len(response.text)}")
         
         title = soup.select_one('h1.headline').text.strip() if soup.select_one('h1.headline') else ''
         content = ' '.join([p.text for p in soup.select('div.article_body p:not(.readmore)')])
@@ -65,7 +71,7 @@ def scrape_yahoo_news_article(url, media_en, media_jp, timeout_duration=60):
         
         article_info = {
             'title': title,
-            'content': content,
+            'content': content[:100] + '...',  # コンテンツの最初の100文字だけを表示
             'date': date,
             'url': url,
             'media_en': media_en,
@@ -73,8 +79,11 @@ def scrape_yahoo_news_article(url, media_en, media_jp, timeout_duration=60):
         }
         
         print(f"Successfully scraped article: {title}")
+        print(f"Article info: {article_info}")
         return article_info
     
     except requests.RequestException as e:
         print(f"Error scraping article {url}: {e}")
+        if 'response' in locals():
+            print(f"Response content: {response.text[:500]}")
         return None

@@ -50,3 +50,5 @@ for index, row in urls_df.iterrows():
                 article_data.append(article_info)
 
     save_articles_to_csv(article_data, media_en, yesterday)
+
+print("Scraping process completed.")
