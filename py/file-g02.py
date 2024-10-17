@@ -9,11 +9,13 @@ import re
 import time
 import random
 
+# テキストをコンパクトにする関数
 def minify_text(text):
     text = text.replace('\n', '\\n')
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
+# 記事の詳細を取得する関数
 def fetch_full_article(url, timeout_duration=30):
     full_text = ''
     json_ld_data = None
@@ -23,7 +25,7 @@ def fetch_full_article(url, timeout_duration=30):
     while True:
         current_url = f"{url}?page={current_page_num}"
         try:
-            response = requests.get(current_url, timeout=10)
+            response = requests.get(current_url, timeout=timeout_duration)
             if response.status_code == 404 and not is_first_page:
                 break
             response.raise_for_status()
@@ -33,6 +35,7 @@ def fetch_full_article(url, timeout_duration=30):
 
         soup = BeautifulSoup(response.text, 'html.parser')
         if is_first_page:
+            # 記事のメタデータを取得（JSON-LDから）
             script_tag = soup.find('script', type='application/ld+json')
             if script_tag:
                 try:
@@ -43,6 +46,7 @@ def fetch_full_article(url, timeout_duration=30):
                     json_ld_data = {}
             is_first_page = False
 
+        # 記事本文を取得
         article_body = soup.find('div', {'class': 'article_body'})
         if article_body:
             full_text += '\n' + article_body.get_text('\n', strip=True)
@@ -51,6 +55,7 @@ def fetch_full_article(url, timeout_duration=30):
 
     return minify_text(full_text), json_ld_data
 
+# 各記事のリンクを処理
 def process_article_link(link, media_en, media_jp, timeout_duration):
     article_text, json_ld_data = fetch_full_article(link, timeout_duration)
     if article_text and json_ld_data:
@@ -70,6 +75,7 @@ def process_article_link(link, media_en, media_jp, timeout_duration):
     else:
         return None
 
+# 記事データをCSVに保存
 def save_articles_to_csv(article_data, folder_name, media_en):
     if not os.path.exists(folder_name):
         os.makedirs(folder_name)
@@ -86,7 +92,7 @@ def save_articles_to_csv(article_data, folder_name, media_en):
     df.to_csv(filepath, index=False)
     print(f"CSV file saved as {filepath}")
 
-
+# 記事のリンクを取得
 def get_article_links(base_url, params, timeout_duration=30):
     article_links = []
     current_page_num = 1
@@ -101,6 +107,8 @@ def get_article_links(base_url, params, timeout_duration=30):
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # クラスを指定してリンクを取得
             links = [a['href'] for a in soup.select('a.newsFeed_item_link') if '/images/' not in a['href']]
 
             if not links:
