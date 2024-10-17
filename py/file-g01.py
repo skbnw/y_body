@@ -13,10 +13,15 @@ def save_articles_to_csv(article_data, media_en, yesterday):
             os.makedirs(folder_name)
             print(f"Created directory: {folder_name}")
         filename = os.path.join(folder_name, f"{yesterday.strftime('%Y-%m%d')}-{media_en}.csv")
-        df = pd.DataFrame(article_data)
-        df.to_csv(filename, index=False)
-        print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-        print(f"Number of articles saved: {len(article_data)}")
+        
+        if article_data:
+            df = pd.DataFrame(article_data)
+            df.to_csv(filename, index=False)
+            print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            print(f"Number of articles saved: {len(article_data)}")
+        else:
+            print(f"No article data to save for {media_en} on {yesterday.strftime('%Y-%m-%d')}")
+    
     except Exception as e:
         print(f"Error saving CSV: {e}")
 
