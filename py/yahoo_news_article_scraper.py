@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import random
 from datetime import datetime
+
 def get_article_links(base_url, params, timeout_duration=60):
     article_links = []
     current_page_num = 1
