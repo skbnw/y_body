@@ -5,6 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 import re
+import time
 
 # 作業日（実行日）の前日を設定
 TARGET_DATE = datetime.now() - timedelta(days=1)
@@ -23,10 +24,7 @@ EXPECTED_CLASSES = {
 
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
-    # フォーマット例: '2024-1121'
-    save_dir_name = target_date.strftime('%Y-%m%d')  
-    base_dir = Path('./y_body')  # ベースディレクトリ
-    save_dir = base_dir / save_dir_name
+    save_dir = Path(target_date.strftime('%Y-%m%d'))  # フォーマット例: 2024-1120
     save_dir.mkdir(parents=True, exist_ok=True)
     return save_dir
 
@@ -89,46 +87,40 @@ def fetch_full_article(url, timeout_duration=30):
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=5):
+def get_yahoo_news_urls(base_url, timeout_duration=30, max_pages=10):
     """Yahooニュースから複数ページの記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    urls = []
-    current_page = 1
+    urls = []  # すべてのページのURLを収集するリスト
+    current_page = 1  # 最初のページから開始
 
-    while current_page <= max_pages:
+    while current_page <= max_pages:  # 最大ページ数までループ
         try:
             # ページURLの生成
-            if current_page == 1:
-                current_url = base_url
-            else:
-                current_url = f"{base_url}?page={current_page}"  # ページネーション用URL（例）
+            current_url = f"{base_url}?page={current_page}" if current_page > 1 else base_url
 
+            # ページのリクエスト
             response = requests.get(current_url, headers=headers, timeout=timeout_duration)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # デバッグ用: 各ページのHTMLを保存
-            with open(f'debug_{current_page}.html', 'w', encoding='utf-8') as f:
-                f.write(soup.prettify())
-
             # 記事リンクの取得
             news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
-            if not news_items:
+            if not news_items:  # 次ページがない場合は終了
                 print(f"No links found on page {current_page} for base URL: {base_url}")
-                break  # 次ページがない場合は終了
+                break
 
             for item in news_items:
                 url = item.get('href')
                 if url and "yahoo.co.jp" in url:
                     urls.append(url)
 
-            # スリープを追加
+            # スリープを追加（1.5～3秒のランダムな間隔）
             time.sleep(random.uniform(1.5, 3))
 
             print(f"Page {current_page}: Found {len(news_items)} links")
-            current_page += 1
+            current_page += 1  # 次のページへ進む
 
         except Exception as e:
             print(f"Error fetching news URLs on page {current_page} from {base_url}: {e}")
