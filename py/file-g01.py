@@ -9,109 +9,93 @@ from datetime import datetime, timedelta
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-import pytz
+from pathlib import Path
+
+# 作業日（実行日）の前日を設定
+TARGET_DATE = datetime.now() - timedelta(days=1)
+
+# スクレイピング対象グループを限定 (group1 から group4)
+TARGET_GROUPS = ['group1', 'group2', 'group3', 'group4']
 
 # HTML構造の定義
 EXPECTED_CLASSES = {
-    "news_link": "sc-1gg21n8-0",  # ニュースリンクのクラス
-    "title_container": "sc-3ls169-0",  # タイトルコンテナのクラス
-    "time": "sc-ioshdi-1",  # 時間表示のクラス
+    "news_link": "cDTGMJ",          # ニュースリンクのクラス
+    "content_div": "iiJVBF",        # コンテンツ全体を含むdivのクラス
+    "title_div": "dHAJpi",          # タイトルを含むdivのクラス
+    "time": "faCsgc",               # 時間表示のクラス
     "article_body": "article_body"  # 記事本文のクラス
 }
 
-class HTMLStructureError(Exception):
-    """HTML構造の変更を検出した際に発生する例外"""
-    pass
+def create_save_directory(target_date):
+    """保存ディレクトリを作成する"""
+    base_dir = Path(r"C:\Users\skbnw\Documents\GitHub\99_bodyBackup\articles")
+    date_dir = target_date.strftime('%Y%m%d')
+    save_dir = base_dir / date_dir
+    save_dir.mkdir(parents=True, exist_ok=True)
+    return save_dir
 
-def minify_text(text):
-    """ニュース記事をコンパクトにする"""
-    text = text.replace('\n', '\\n')
-    text = re.sub(r'\s+', ' ', text)
-    return text.strip()
+def save_articles_to_csv(article_data, media_en, target_date):
+    """記事データをCSVに保存する"""
+    if not article_data:
+        return
+
+    save_dir = create_save_directory(target_date)
+    filename = f"{target_date.strftime('%Y%m%d')}-{media_en}.csv"
+    file_path = save_dir / filename
+
+    columns = [
+        "headline",
+        "mainEntityOfPage",
+        "image",
+        "datePublished",
+        "dateModified",
+        "author",
+        "media_en",
+        "media_jp",
+        "str_count",
+        "body",
+        "images",
+        "external_links"
+    ]
+
+    df = pd.DataFrame(article_data)
+    df = df[columns]
+    df.to_csv(file_path, index=False, encoding="CP932", errors="ignore")
+    print(f"Articles saved as {file_path} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 def fetch_full_article(url, timeout_duration=30):
     """記事の本文を取得する"""
     full_text = ''
     json_ld_data = None
-    current_page_num = 1
-    is_first_page = True
-    start_time = datetime.now()
-    images = []
-    links = []
-
-    while True:
-        current_url = f"{url}?page={current_page_num}"
-        try:
-            response = requests.get(current_url, timeout=10)
-            if response.status_code == 404 and not is_first_page:
-                break
-            response.raise_for_status()
-        except (RequestException, Timeout) as e:
-            print(f"Error or timeout at {current_url}: {e}")
-            return None, None, None, None
-
-        if (datetime.now() - start_time).total_seconds() > timeout_duration:
-            print(f"Total fetching time exceeded timeout at {current_url}")
-            return None, None, None, None
-
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    try:
+        response = requests.get(url, headers=headers, timeout=timeout_duration)
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
-        if is_first_page:
-            script_tag = soup.find('script', type='application/ld+json')
-            if script_tag:
-                try:
-                    json_ld_data = json.loads(script_tag.string)
-                    if not isinstance(json_ld_data, dict):
-                        json_ld_data = {}
-                except json.JSONDecodeError:
+
+        script_tag = soup.find('script', type='application/ld+json')
+        if script_tag:
+            try:
+                json_ld_data = json.loads(script_tag.string)
+                if not isinstance(json_ld_data, dict):
                     json_ld_data = {}
-            is_first_page = False
+            except json.JSONDecodeError:
+                json_ld_data = {}
 
         article_body = soup.find('div', {'class': EXPECTED_CLASSES["article_body"]})
         if article_body:
-            full_text += '\n' + article_body.get_text('\n', strip=True)
-            images.extend([img['src'] for img in article_body.find_all('img') if img.get('src')])
-            links.extend([a['href'] for a in article_body.find_all('a') if a.get('href')])
+            full_text = article_body.get_text('\n', strip=True)
 
-        current_page_num += 1
-        time.sleep(random.uniform(2, 5))
+        return minify_text(full_text), json_ld_data
+    except Exception as e:
+        print(f"Error fetching article {url}: {e}")
+        return None, None
 
-    return minify_text(full_text), json_ld_data, images, links
-
-def process_article_link(link, media_en, media_jp, timeout_duration):
-    """記事リンクから情報を処理する"""
-    if 'image/0000' in link:
-        return None
-
-    article_text, json_ld_data, images, links = fetch_full_article(link, timeout_duration)
-    if article_text and json_ld_data:
-        str_count = len(article_text)
-        return {
-            "headline": json_ld_data.get("headline"),
-            "mainEntityOfPage": json_ld_data.get("mainEntityOfPage", {}).get("@id"),
-            "image": json_ld_data.get("image"),
-            "datePublished": json_ld_data.get("datePublished"),
-            "dateModified": json_ld_data.get("dateModified"),
-            "author": json_ld_data.get("author", {}).get("name"),
-            "media_en": media_en,
-            "media_jp": media_jp,
-            "str_count": str_count,
-            "body": article_text,
-            "images": images,
-            "external_links": links
-        }
-    else:
-        return None
-
-def save_articles_to_csv(article_data, media_en, yesterday):
-    """記事データをCSVに保存する"""
-    folder_name = f"{yesterday.strftime('%Y_%m%d')}"
-    if not os.path.exists(folder_name):
-        os.makedirs(folder_name)
-
-    filename = os.path.join(folder_name, f"{yesterday.strftime('%Y-%m%d')}-{media_en}.csv")
-    df = pd.DataFrame(article_data)
-    df.to_csv(filename, index=False)
-    print(f"CSV file saved as {filename} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+def minify_text(text):
+    """テキストを簡潔化する"""
+    return re.sub(r'\s+', ' ', text).strip()
 
 def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
     """Yahooニュースから記事リンクを取得する"""
@@ -120,96 +104,79 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
     }
     urls = []
     page = 1
-    
-    while True:
-        url = f"{base_url}?page={page}"
+    max_pages = 5
+
+    while page <= max_pages:
+        current_url = f"{base_url}?page={page}"
         try:
-            response = requests.get(url, headers=headers, timeout=timeout_duration)
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # 新しいHTML構造に対応
-            news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
+
+            news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
             if not news_items:
                 break
 
             for item in news_items:
-                time_element = item.find('time', class_=re.compile(EXPECTED_CLASSES["time"]))
-                if not time_element:
-                    continue
-                    
-                date_time = time_element.text.strip()
-                match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_time)
-                if match:
-                    month, day, hour, minute = map(int, match.groups())
-                    article_date = datetime(2024, month, day, hour, minute)
-
-                    if article_date.date() == target_date.date():
-                        article_url = item.get('href')
-                        if article_url:
-                            urls.append(article_url)
-                    elif article_date.date() < target_date.date():
-                        return urls
+                url = item.get('href')
+                if url:
+                    urls.append(url)
             page += 1
-
-        except (requests.RequestException, requests.Timeout) as e:
-            print(f"Error or timeout at {url}: {e}")
-            break
-        except HTMLStructureError as e:
-            print(f"\n警告: HTMLの構造が変更されました！")
-            print(f"エラー内容: {str(e)}")
-            print("スクレイピングを中止します。HTML構造の確認が必要です。")
+        except Exception as e:
+            print(f"Error on page {page}: {e}")
             break
 
     return urls
 
-def main():
-    """メインのスクレイピング処理"""
-    csv_file_path = 'url/url_group.csv'
-    urls_df = pd.read_csv(csv_file_path)
+def process_group(group, urls_df, target_date):
+    """グループごとの処理を行う"""
+    print(f"Processing group: {group}")
+    group_data = urls_df[urls_df['group'] == group]
 
-    tokyo_timezone = pytz.timezone('Asia/Tokyo')
-    yesterday = datetime.now(tokyo_timezone) - timedelta(days=1)
-    year, month, day = yesterday.year, yesterday.month, yesterday.day
+    if group_data.empty:
+        print(f"No URLs found for group {group}")
+        return
 
-    for index, row in urls_df.iterrows():
-        if row['group'] != 'g01':
-            continue
-
+    for _, row in group_data.iterrows():
         media_en = row['media_en']
         media_jp = row['media_jp']
         base_url = row['url']
-        
-        try:
-            # 記事リンクを取得する
-            article_links = get_yahoo_news_urls(base_url, yesterday)
-            if not article_links:
-                print(f"No articles found for {media_jp}")
-                continue
 
-            article_data = []
+        article_links = get_yahoo_news_urls(base_url, target_date)
+        article_data = []
 
-            # スクレイピングを並列処理で実行
-            with ThreadPoolExecutor(max_workers=5) as executor:
-                future_to_link = {
-                    executor.submit(process_article_link, link, media_en, media_jp, 30): link 
-                    for link in article_links
-                }
-                for future in as_completed(future_to_link):
-                    try:
-                        article_info = future.result()
-                        if article_info:
-                            article_data.append(article_info)
-                    except Exception as e:
-                        print(f"Error processing article: {e}")
+        for link in article_links:
+            article_text, json_ld_data = fetch_full_article(link)
+            if article_text and json_ld_data:
+                article_data.append({
+                    "headline": json_ld_data.get("headline", ""),
+                    "mainEntityOfPage": json_ld_data.get("mainEntityOfPage", {}).get("@id", ""),
+                    "image": json_ld_data.get("image", ""),
+                    "datePublished": json_ld_data.get("datePublished", ""),
+                    "dateModified": json_ld_data.get("dateModified", ""),
+                    "author": json_ld_data.get("author", {}).get("name", ""),
+                    "media_en": media_en,
+                    "media_jp": media_jp,
+                    "str_count": len(article_text),
+                    "body": article_text,
+                    "images": [],
+                    "external_links": []
+                })
 
-            # CSVに保存
-            if article_data:
-                save_articles_to_csv(article_data, media_en, yesterday)
-            else:
-                print(f"No valid articles found for {media_jp}")
+        save_articles_to_csv(article_data, media_en, target_date)
 
-        except Exception as e:
-            print(f"Error processing {media_jp}: {e}")
+def main():
+    """メインの処理"""
+    print(f"Starting scraping for date: {TARGET_DATE.strftime('%Y-%m-%d')}")
+
+    # URLリストの読み込み
+    csv_file_path = r"C:\Users\skbnw\Documents\GitHub\99_bodyBackup\url\url_group.csv"
+    urls_df = pd.read_csv(csv_file_path)
+
+    for group in TARGET_GROUPS:
+        process_group(group, urls_df, TARGET_DATE)
+
+    print("\nAll processing completed!")
 
 if __name__ == "__main__":
     main()
