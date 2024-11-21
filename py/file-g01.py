@@ -9,13 +9,13 @@ import re
 # 作業日（実行日）の前日を設定
 TARGET_DATE = datetime.now() - timedelta(days=1)
 
-# スクレイピング対象グループを限定 (group1 から group4), 'group3', 'group4'
-TARGET_GROUPS = ['group1', 'group2']
+# スクレイピング対象グループを限定
+TARGET_GROUPS = ['g01', 'g02']  # 必要に応じてグループを追加
 
 # HTML構造の定義
 EXPECTED_CLASSES = {
-    "news_link": "cDTGMJ",          # ニュースリンクのクラス
-    "article_body": "article_body"  # 記事本文のクラス
+    "news_link": "newsFeed_item_link",  # Yahooニュースリンクのクラス（調整が必要）
+    "article_body": "article_body"     # 記事本文のクラス（調整が必要）
 }
 
 def create_save_directory(target_date):
@@ -85,7 +85,7 @@ def fetch_full_article(url, timeout_duration=30):
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def get_yahoo_news_urls(base_url, timeout_duration=30):
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
     """Yahooニュースから記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -99,7 +99,7 @@ def get_yahoo_news_urls(base_url, timeout_duration=30):
         news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
         for item in news_items:
             url = item.get('href')
-            if url:
+            if url and "yahoo.co.jp" in url:
                 urls.append(url)
     except Exception as e:
         print(f"Error fetching news URLs: {e}")
@@ -120,7 +120,7 @@ def process_group(group, urls_df, target_date):
         media_jp = row['media_jp']
         base_url = row['url']
 
-        article_links = get_yahoo_news_urls(base_url)
+        article_links = get_yahoo_news_urls(base_url, target_date)
         article_data = []
 
         for link in article_links:
