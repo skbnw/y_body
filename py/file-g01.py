@@ -14,9 +14,13 @@ TARGET_GROUPS = ['g01', 'g02']  # 必要に応じてグループを追加
 
 # HTML構造の定義
 EXPECTED_CLASSES = {
-    "news_link": "newsFeed_item_link",  # Yahooニュースリンクのクラス（調整が必要）
-    "article_body": "article_body"     # 記事本文のクラス（調整が必要）
+    "news_link": "cDTGMJ",          # ニュースリンクのクラス
+    "content_div": "iiJVBF",        # コンテンツ全体を含むdivのクラス
+    "title_div": "dHAJpi",          # タイトルを含むdivのクラス
+    "time": "faCsgc",               # 時間表示のクラス
+    "article_body": "article_body"   # 記事本文のクラス
 }
+
 
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
