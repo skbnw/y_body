@@ -89,14 +89,13 @@ def fetch_full_article(url, timeout_duration=30):
         return None, None
 
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
-    """Yahooニュースから記事リンクを取得する"""
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
+    """Yahooニュースから複数ページの記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     urls = []
     page = 1
-    max_pages = 20
 
     target_month = target_date.month
     target_day = target_date.day
@@ -121,13 +120,6 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
 
             if not news_items:
                 print(f"No news items found on page {page}, checking HTML structure...")
-                # HTMLの構造をファイルに保存（デバッグ用）
-                save_dir = Path('yahoo_news_data') / target_date.strftime('%Y%m%d')
-                save_dir.mkdir(parents=True, exist_ok=True)
-                debug_file = save_dir / f"debug_page_{page}.html"
-                with open(debug_file, 'w', encoding='utf-8') as f:
-                    f.write(soup.prettify())
-                print(f"Saved HTML structure to {debug_file}")
                 break
 
             found_target_date = False
