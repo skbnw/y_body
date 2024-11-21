@@ -1,3 +1,4 @@
+import random 
 import json
 from datetime import datetime, timedelta
 import pandas as pd
@@ -5,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 import re
+import time
 
 # 作業日（実行日）の前日を設定
 TARGET_DATE = datetime.now() - timedelta(days=1)
@@ -23,9 +25,7 @@ EXPECTED_CLASSES = {
 
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
-    base_dir = Path('./y_body')  # ベースフォルダ
-    date_dir = target_date.strftime('%Y-%m%d')  # フォーマット例: 2024-1120
-    save_dir = base_dir / date_dir
+    save_dir = Path(target_date.strftime('%Y-%m%d'))  # フォーマット例: 2024-1120
     save_dir.mkdir(parents=True, exist_ok=True)
     return save_dir
 
@@ -88,34 +88,79 @@ def fetch_full_article(url, timeout_duration=30):
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
-    """Yahooニュースから記事リンクを取得する"""
+
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
+    """Yahooニュースから複数ページの記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     urls = []
-    try:
-        response = requests.get(base_url, headers=headers, timeout=timeout_duration)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
+    page = 1
 
-        # 記事リンクの取得
-        news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
-        for item in news_items:
-            url = item.get('href')
-            if url and "yahoo.co.jp" in url:
-                urls.append(url)
-        
-        # スリープを追加
-        time.sleep(random.uniform(1.5, 3))
+    target_month = target_date.month
+    target_day = target_date.day
 
-        if not urls:
-            print(f"No links found for base URL: {base_url}")
+    print(f"\nLooking for articles from: {target_date.strftime('%Y-%m-%d')}")
 
-    except Exception as e:
-        print(f"Error fetching news URLs from {base_url}: {e}")
+    while page <= max_pages:
+        current_url = f"{base_url}?page={page}"
+        try:
+            # リクエストを送信
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response.raise_for_status()
 
+            # ページの解析
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # デバッグ情報の出力
+            print(f"\nChecking page {page}")
+
+            # 記事リンクの取得
+            news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
+
+            if not news_items:
+                print(f"No news items found on page {page}, checking HTML structure...")
+                break
+
+            found_target_date = False
+            found_older_date = False
+
+            for item in news_items:
+                time_element = item.find("time", recursive=True)
+                if not time_element:
+                    continue
+
+                date_text = time_element.text.strip()
+                print(f"Found date: {date_text}")  # デバッグ出力
+
+                match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
+                if match:
+                    month, day, hour, minute = map(int, match.groups())
+
+                    if month == target_month and day == target_day:
+                        article_url = item.get('href')
+                        if article_url:
+                            print(f"Found article: {article_url}")
+                            urls.append(article_url)
+                            found_target_date = True
+                    elif month < target_month or (month == target_month and day < target_day):
+                        found_older_date = True
+                        print(f"Found older date: {month}/{day}")
+
+            if found_older_date and not found_target_date:
+                print("Found older articles, stopping search")
+                return urls
+
+            page += 1
+            time.sleep(random.uniform(2, 4))
+
+        except Exception as e:
+            print(f"Error on page {page}: {str(e)}")
+            break
+
+    print(f"Total {len(urls)} URLs found for base URL: {base_url}")
     return urls
+
 
 
 def process_group(group, urls_df, target_date):
@@ -132,7 +177,8 @@ def process_group(group, urls_df, target_date):
         media_jp = row['media_jp']
         base_url = row['url']
 
-        article_links = get_yahoo_news_urls(base_url, target_date)
+        # target_date を明示的に渡す
+        article_links = get_yahoo_news_urls(base_url, target_date, max_pages=10)
         article_data = []
 
         for link in article_links:
@@ -154,6 +200,7 @@ def process_group(group, urls_df, target_date):
                 })
 
         save_articles_to_csv(article_data, media_en, target_date)
+
 
 def main():
     """メインの処理"""
