@@ -1,34 +1,26 @@
 import json
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from requests.exceptions import Timeout, RequestException
-import os
-import re
-import random
-import time
 from datetime import datetime, timedelta
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
+import re
 
 # 作業日（実行日）の前日を設定
 TARGET_DATE = datetime.now() - timedelta(days=1)
 
-# スクレイピング対象グループを限定 (group1 から group4)
-TARGET_GROUPS = ['group1', 'group2', 'group3', 'group4']
+# スクレイピング対象グループを限定 (group1 から group4), 'group3', 'group4'
+TARGET_GROUPS = ['group1', 'group2']
 
 # HTML構造の定義
 EXPECTED_CLASSES = {
     "news_link": "cDTGMJ",          # ニュースリンクのクラス
-    "content_div": "iiJVBF",        # コンテンツ全体を含むdivのクラス
-    "title_div": "dHAJpi",          # タイトルを含むdivのクラス
-    "time": "faCsgc",               # 時間表示のクラス
     "article_body": "article_body"  # 記事本文のクラス
 }
 
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
-    base_dir = Path(r"C:\Users\skbnw\Documents\GitHub\99_bodyBackup\articles")
+    base_dir = Path('./scraped_articles')  # リポジトリ内の保存先
     date_dir = target_date.strftime('%Y%m%d')
     save_dir = base_dir / date_dir
     save_dir.mkdir(parents=True, exist_ok=True)
@@ -60,8 +52,8 @@ def save_articles_to_csv(article_data, media_en, target_date):
 
     df = pd.DataFrame(article_data)
     df = df[columns]
-    df.to_csv(file_path, index=False, encoding="CP932", errors="ignore")
-    print(f"Articles saved as {file_path} at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    df.to_csv(file_path, index=False, encoding="utf-8")
+    print(f"Articles saved as {file_path}")
 
 def fetch_full_article(url, timeout_duration=30):
     """記事の本文を取得する"""
@@ -88,43 +80,29 @@ def fetch_full_article(url, timeout_duration=30):
         if article_body:
             full_text = article_body.get_text('\n', strip=True)
 
-        return minify_text(full_text), json_ld_data
+        return re.sub(r'\s+', ' ', full_text).strip(), json_ld_data
     except Exception as e:
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def minify_text(text):
-    """テキストを簡潔化する"""
-    return re.sub(r'\s+', ' ', text).strip()
-
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
+def get_yahoo_news_urls(base_url, timeout_duration=30):
     """Yahooニュースから記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     urls = []
-    page = 1
-    max_pages = 5
+    try:
+        response = requests.get(base_url, headers=headers, timeout=timeout_duration)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.content, 'html.parser')
 
-    while page <= max_pages:
-        current_url = f"{base_url}?page={page}"
-        try:
-            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'html.parser')
-
-            news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
-            if not news_items:
-                break
-
-            for item in news_items:
-                url = item.get('href')
-                if url:
-                    urls.append(url)
-            page += 1
-        except Exception as e:
-            print(f"Error on page {page}: {e}")
-            break
+        news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
+        for item in news_items:
+            url = item.get('href')
+            if url:
+                urls.append(url)
+    except Exception as e:
+        print(f"Error fetching news URLs: {e}")
 
     return urls
 
@@ -142,7 +120,7 @@ def process_group(group, urls_df, target_date):
         media_jp = row['media_jp']
         base_url = row['url']
 
-        article_links = get_yahoo_news_urls(base_url, target_date)
+        article_links = get_yahoo_news_urls(base_url)
         article_data = []
 
         for link in article_links:
@@ -169,8 +147,7 @@ def main():
     """メインの処理"""
     print(f"Starting scraping for date: {TARGET_DATE.strftime('%Y-%m-%d')}")
 
-    # URLリストの読み込み
-    csv_file_path = r"C:\Users\skbnw\Documents\GitHub\99_bodyBackup\url\url_group.csv"
+    csv_file_path = './url_group.csv'  # リポジトリ内の相対パス
     urls_df = pd.read_csv(csv_file_path)
 
     for group in TARGET_GROUPS:
