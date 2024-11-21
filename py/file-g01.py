@@ -21,11 +21,10 @@ EXPECTED_CLASSES = {
     "article_body": "article_body"   # 記事本文のクラス
 }
 
-
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
-    base_dir = Path('./scraped_articles')  # リポジトリ内の保存先
-    date_dir = target_date.strftime('%Y%m%d')
+    base_dir = Path('./y_body')  # ベースフォルダ
+    date_dir = target_date.strftime('%Y-%m%d')  # フォーマット例: 2024-1120
     save_dir = base_dir / date_dir
     save_dir.mkdir(parents=True, exist_ok=True)
     return save_dir
@@ -100,15 +99,24 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
 
+        # 記事リンクの取得
         news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
         for item in news_items:
             url = item.get('href')
             if url and "yahoo.co.jp" in url:
                 urls.append(url)
+        
+        # スリープを追加
+        time.sleep(random.uniform(1.5, 3))
+
+        if not urls:
+            print(f"No links found for base URL: {base_url}")
+
     except Exception as e:
-        print(f"Error fetching news URLs: {e}")
+        print(f"Error fetching news URLs from {base_url}: {e}")
 
     return urls
+
 
 def process_group(group, urls_df, target_date):
     """グループごとの処理を行う"""
