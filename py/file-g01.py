@@ -147,7 +147,7 @@ def main():
     """メインの処理"""
     print(f"Starting scraping for date: {TARGET_DATE.strftime('%Y-%m-%d')}")
 
-    csv_file_path = ''url/url_group.csv'  # リポジトリ内の相対パス
+    csv_file_path = 'url/url_group.csv'  # リポジトリ内の相対パス
     urls_df = pd.read_csv(csv_file_path)
 
     for group in TARGET_GROUPS:
