@@ -101,7 +101,7 @@ def get_yahoo_news_urls(base_url, timeout_duration=30, max_pages=10):
             current_url = f"{base_url}?page={current_page}" if current_page > 1 else base_url
 
             # ページのリクエスト
-            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)  # 秒数で指定
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
 
