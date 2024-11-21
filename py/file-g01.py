@@ -86,33 +86,52 @@ def fetch_full_article(url, timeout_duration=30):
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
-    """Yahooニュースから記事リンクを取得する"""
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=5):
+    """Yahooニュースから複数ページの記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     urls = []
-    try:
-        response = requests.get(base_url, headers=headers, timeout=timeout_duration)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
+    current_page = 1
 
-        # 記事リンクの取得
-        news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
-        for item in news_items:
-            url = item.get('href')
-            if url and "yahoo.co.jp" in url:
-                urls.append(url)
-        
-        # スリープを追加
-        time.sleep(random.uniform(1.5, 3))
+    while current_page <= max_pages:
+        try:
+            # ページURLの生成
+            if current_page == 1:
+                current_url = base_url
+            else:
+                current_url = f"{base_url}?page={current_page}"  # ページネーション用URL（例）
 
-        if not urls:
-            print(f"No links found for base URL: {base_url}")
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
 
-    except Exception as e:
-        print(f"Error fetching news URLs from {base_url}: {e}")
+            # デバッグ用: 各ページのHTMLを保存
+            with open(f'debug_{current_page}.html', 'w', encoding='utf-8') as f:
+                f.write(soup.prettify())
 
+            # 記事リンクの取得
+            news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
+            if not news_items:
+                print(f"No links found on page {current_page} for base URL: {base_url}")
+                break  # 次ページがない場合は終了
+
+            for item in news_items:
+                url = item.get('href')
+                if url and "yahoo.co.jp" in url:
+                    urls.append(url)
+
+            # スリープを追加
+            time.sleep(random.uniform(1.5, 3))
+
+            print(f"Page {current_page}: Found {len(news_items)} links")
+            current_page += 1
+
+        except Exception as e:
+            print(f"Error fetching news URLs on page {current_page} from {base_url}: {e}")
+            break
+
+    print(f"Total {len(urls)} URLs found for base URL: {base_url}")
     return urls
 
 
