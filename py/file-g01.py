@@ -87,13 +87,14 @@ def fetch_full_article(url, timeout_duration=30):
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def get_yahoo_news_urls(base_url, timeout_duration=30, max_pages=10):
+def get_yahoo_news_urls(base_url, max_pages=10):
     """Yahooニュースから複数ページの記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    urls = []  # すべてのページのURLを収集するリスト
-    current_page = 1  # 最初のページから開始
+    timeout_duration = 30  # タイムアウト秒数として明示的に設定
+    urls = []
+    current_page = 1
 
     while current_page <= max_pages:  # 最大ページ数までループ
         try:
@@ -107,7 +108,7 @@ def get_yahoo_news_urls(base_url, timeout_duration=30, max_pages=10):
 
             # 記事リンクの取得
             news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
-            if not news_items:  # 次ページがない場合は終了
+            if not news_items:
                 print(f"No links found on page {current_page} for base URL: {base_url}")
                 break
 
@@ -120,7 +121,7 @@ def get_yahoo_news_urls(base_url, timeout_duration=30, max_pages=10):
             time.sleep(random.uniform(1.5, 3))
 
             print(f"Page {current_page}: Found {len(news_items)} links")
-            current_page += 1  # 次のページへ進む
+            current_page += 1
 
         except Exception as e:
             print(f"Error fetching news URLs on page {current_page} from {base_url}: {e}")
@@ -128,6 +129,7 @@ def get_yahoo_news_urls(base_url, timeout_duration=30, max_pages=10):
 
     print(f"Total {len(urls)} URLs found for base URL: {base_url}")
     return urls
+
 
 
 def process_group(group, urls_df, target_date):
