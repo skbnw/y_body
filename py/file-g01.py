@@ -88,44 +88,82 @@ def fetch_full_article(url, timeout_duration=30):
         print(f"Error fetching article {url}: {e}")
         return None, None
 
-def get_yahoo_news_urls(base_url, max_pages=10):
-    """Yahooニュースから複数ページの記事リンクを取得する"""
+
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
+    """Yahooニュースから記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    timeout_duration = 30  # タイムアウト秒数として明示的に設定
     urls = []
-    current_page = 1  # 最初のページから開始
+    page = 1
+    max_pages = 20
 
-    while current_page <= max_pages:  # 最大ページ数までループ
+    target_month = target_date.month
+    target_day = target_date.day
+
+    print(f"\nLooking for articles from: {target_date.strftime('%Y-%m-%d')}")
+
+    while page <= max_pages:
+        current_url = f"{base_url}?page={page}"
         try:
-            # ページURLの生成
-            current_url = f"{base_url}?page={current_page}" if current_page > 1 else base_url
-
-            # ページのリクエスト
+            # リクエストを送信
             response = requests.get(current_url, headers=headers, timeout=timeout_duration)
             response.raise_for_status()
+
+            # ページの解析
             soup = BeautifulSoup(response.content, 'html.parser')
 
+            # デバッグ情報の出力
+            print(f"\nChecking page {page}")
+
             # 記事リンクの取得
-            news_items = soup.find_all("a", class_=EXPECTED_CLASSES["news_link"])
+            news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
+
             if not news_items:
-                print(f"No links found on page {current_page} for base URL: {base_url}")
+                print(f"No news items found on page {page}, checking HTML structure...")
+                # HTMLの構造をファイルに保存（デバッグ用）
+                save_dir = Path('yahoo_news_data') / target_date.strftime('%Y%m%d')
+                save_dir.mkdir(parents=True, exist_ok=True)
+                debug_file = save_dir / f"debug_page_{page}.html"
+                with open(debug_file, 'w', encoding='utf-8') as f:
+                    f.write(soup.prettify())
+                print(f"Saved HTML structure to {debug_file}")
                 break
 
+            found_target_date = False
+            found_older_date = False
+
             for item in news_items:
-                url = item.get('href')
-                if url and "yahoo.co.jp" in url:
-                    urls.append(url)
+                time_element = item.find("time", recursive=True)
+                if not time_element:
+                    continue
 
-            # スリープを追加（1.5～3秒のランダムな間隔）
-            time.sleep(random.uniform(1.5, 3))
+                date_text = time_element.text.strip()
+                print(f"Found date: {date_text}")  # デバッグ出力
 
-            print(f"Page {current_page}: Found {len(news_items)} links")
-            current_page += 1
+                match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
+                if match:
+                    month, day, hour, minute = map(int, match.groups())
+
+                    if month == target_month and day == target_day:
+                        article_url = item.get('href')
+                        if article_url:
+                            print(f"Found article: {article_url}")
+                            urls.append(article_url)
+                            found_target_date = True
+                    elif month < target_month or (month == target_month and day < target_day):
+                        found_older_date = True
+                        print(f"Found older date: {month}/{day}")
+
+            if found_older_date and not found_target_date:
+                print("Found older articles, stopping search")
+                return urls
+
+            page += 1
+            time.sleep(random.uniform(2, 4))
 
         except Exception as e:
-            print(f"Error fetching news URLs on page {current_page} from {base_url}: {e}")
+            print(f"Error on page {page}: {str(e)}")
             break
 
     print(f"Total {len(urls)} URLs found for base URL: {base_url}")
