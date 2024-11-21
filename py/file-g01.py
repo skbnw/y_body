@@ -10,7 +10,7 @@ import re
 TARGET_DATE = datetime.now() - timedelta(days=1)
 
 # スクレイピング対象グループを限定
-TARGET_GROUPS = ['g01', 'g02']  # 必要に応じてグループを追加
+TARGET_GROUPS = ['g01']  # 必要に応じてグループを追加
 
 # HTML構造の定義
 EXPECTED_CLASSES = {
@@ -23,7 +23,7 @@ EXPECTED_CLASSES = {
 
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
-    base_dir = Path('./y_body')  # ベースフォルダ
+    # base_dir = Path('./y_body')  # ベースフォルダ
     date_dir = target_date.strftime('%Y-%m%d')  # フォーマット例: 2024-1120
     save_dir = base_dir / date_dir
     save_dir.mkdir(parents=True, exist_ok=True)
