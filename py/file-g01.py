@@ -177,8 +177,8 @@ def process_group(group, urls_df, target_date):
         media_jp = row['media_jp']
         base_url = row['url']
 
-        # ページループを含む関数を呼び出し
-        article_links = get_yahoo_news_urls(base_url, max_pages=10)  # max_pages を明示的に整数で指定
+        # target_date を明示的に渡す
+        article_links = get_yahoo_news_urls(base_url, target_date, max_pages=10)
         article_data = []
 
         for link in article_links:
@@ -200,6 +200,7 @@ def process_group(group, urls_df, target_date):
                 })
 
         save_articles_to_csv(article_data, media_en, target_date)
+
 
 def main():
     """メインの処理"""
