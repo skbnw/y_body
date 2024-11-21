@@ -94,7 +94,7 @@ def get_yahoo_news_urls(base_url, max_pages=10):
     }
     timeout_duration = 30  # タイムアウト秒数として明示的に設定
     urls = []
-    current_page = 1
+    current_page = 1  # 最初のページから開始
 
     while current_page <= max_pages:  # 最大ページ数までループ
         try:
@@ -102,7 +102,7 @@ def get_yahoo_news_urls(base_url, max_pages=10):
             current_url = f"{base_url}?page={current_page}" if current_page > 1 else base_url
 
             # ページのリクエスト
-            response = requests.get(current_url, headers=headers, timeout=timeout_duration)  # 秒数で指定
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
 
@@ -146,7 +146,8 @@ def process_group(group, urls_df, target_date):
         media_jp = row['media_jp']
         base_url = row['url']
 
-        article_links = get_yahoo_news_urls(base_url, target_date)
+        # ページループを含む関数を呼び出し
+        article_links = get_yahoo_news_urls(base_url, max_pages=10)  # max_pages を明示的に整数で指定
         article_data = []
 
         for link in article_links:
