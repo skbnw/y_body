@@ -23,9 +23,7 @@ EXPECTED_CLASSES = {
 
 def create_save_directory(target_date):
     """保存ディレクトリを作成する"""
-    # base_dir = Path('./y_body')  # ベースフォルダ
-    date_dir = target_date.strftime('%Y-%m%d')  # フォーマット例: 2024-1120
-    save_dir = base_dir / date_dir
+    save_dir = target_date.strftime('%Y-%m%d')  # フォーマット例: 2024-1120
     save_dir.mkdir(parents=True, exist_ok=True)
     return save_dir
 
