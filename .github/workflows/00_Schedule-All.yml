@@ -1,7 +1,5 @@
 name: 00_Schedule-All
 
-name: Schedule-All
-
 on:
   workflow_dispatch:  # 手動実行トリガー
 
