@@ -1,7 +1,7 @@
 import time
 import subprocess
 
-# 実行するPythonスクリプトをリスト化
+# 実行するPythonスクリプトのリスト
 scripts = [
     "file-g01.py",
     "file-g02.py",
@@ -21,7 +21,7 @@ scripts = [
     "file-g16.py",
 ]
 
-# スクリプトを順次実行
+# 各スクリプトを順次実行
 for script in scripts:
     try:
         print(f"Running {script}...")
@@ -31,3 +31,4 @@ for script in scripts:
     except subprocess.CalledProcessError as e:
         print(f"Error occurred while running {script}: {e}")
         break
+
