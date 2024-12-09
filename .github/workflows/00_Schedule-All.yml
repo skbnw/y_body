@@ -5,7 +5,7 @@ on:
     - cron: "*/5 * * * *"  # 5分ごとに開始
 
 jobs:
-  scrape:
+  run-scripts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -19,5 +19,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Execute all scripts
+      - name: Execute all scripts sequentially
         run: python y_body/py/run_all_scripts.py
