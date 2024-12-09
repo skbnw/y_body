@@ -16,16 +16,18 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install -r y_body/py/requirements.txt
+        run: pip install -r ./y_body/py/requirements.txt
 
       - name: Execute file-g01.py
-        run: python /home/runner/work/y_body/py/file-g01.py
+        run: python ./y_body/py/file-g01.py
 
       - name: Wait 5 minutes before file-g02.py
         run: sleep 300
 
       - name: Execute file-g02.py
-        run: python /home/runner/work/y_body/py/file-g02.py
+        run: python ./y_body/py/file-g02.py
+
+      # 他のスクリプトも同様に続く
 
         
       # アーティファクトとして保存
