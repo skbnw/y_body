@@ -1,4 +1,4 @@
-name: Schedule-All
+name: 00_Schedule-All
 
 on:
   schedule:
