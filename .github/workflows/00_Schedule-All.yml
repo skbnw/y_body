@@ -16,97 +16,17 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r y_body/py/requirements.txt
 
       - name: Execute file-g01.py
-        run: python y_body/py/file-g01.py
+        run: python /home/runner/work/y_body/py/file-g01.py
 
       - name: Wait 5 minutes before file-g02.py
         run: sleep 300
 
       - name: Execute file-g02.py
-        run: python y_body/py/file-g02.py
+        run: python /home/runner/work/y_body/py/file-g02.py
 
-      - name: Wait 5 minutes before file-g03.py
-        run: sleep 300
-
-      - name: Execute file-g03.py
-        run: python y_body/py/file-g03.py
-
-      - name: Execute file-g04.py
-        run: python y_body/py/file-g04.py
-
-      - name: Wait 5 minutes before file-g05.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g05.py
-        run: python y_body/py/file-g05.py
-
-      - name: Wait 5 minutes before file-g06.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g06.py
-        run: python y_body/py/file-g06.py
-
-      - name: Wait 5 minutes before file-g07.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g07.py
-        run: python y_body/py/file-g07.py
-
-      - name: Wait 5 minutes before file-g08.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g08.py
-        run: python y_body/py/file-g08.py
-
-      - name: Wait 5 minutes before file-g09.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g09.py
-        run: python y_body/py/file-g09.py
-
-      - name: Wait 5 minutes before file-g10.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g10.py
-        run: python y_body/py/file-g10.py
-
-      - name: Wait 5 minutes before file-g11.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g11.py
-        run: python y_body/py/file-g11.py
-
-      - name: Wait 5 minutes before file-g12.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g12.py
-        run: python y_body/py/file-g12.py
-
-      - name: Wait 5 minutes before file-g13.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g13.py
-        run: python y_body/py/file-g13.py
-
-      - name: Wait 5 minutes before file-g14.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g14.py
-        run: python y_body/py/file-g14.py
-
-      - name: Wait 5 minutes before file-g15.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g15.py
-        run: python y_body/py/file-g15.py
-
-      - name: Wait 5 minutes before file-g16.py
-        run: sleep 300  # 5分待機
-
-      - name: Execute file-g16.py
-        run: python y_body/py/file-g16.py
         
       # アーティファクトとして保存
       - name: Upload generated files
