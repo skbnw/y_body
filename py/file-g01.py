@@ -97,7 +97,7 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
     urls = []
     page = 1
 
-    # ターゲット日付の開始と終了を設定
+    # ターゲット日付の範囲を設定
     target_date_start = target_date.replace(hour=0, minute=0, second=0, microsecond=0)
     target_date_end = target_date.replace(hour=23, minute=59, second=59, microsecond=999999)
 
@@ -117,6 +117,8 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
                 print(f"No news items found on page {page}, stopping search.")
                 break
 
+            found_target_date = False
+
             for item in news_items:
                 time_element = item.find("time", recursive=True)
                 if not time_element:
@@ -129,19 +131,23 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
                 match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
                 if match:
                     month, day, hour, minute = map(int, match.groups())
-                    # 年を計算（1月の記事でターゲット日が12月の場合、前年とみなす）
+                    # 年を計算（1月でターゲット日が12月の場合、前年とみなす）
                     year = target_date.year if month == target_date.month else target_date.year - 1
                     article_date = datetime(year, month, day, hour, minute)
 
-                    # ターゲット日付の範囲内か確認
                     if target_date_start <= article_date <= target_date_end:
                         article_url = item.get('href')
                         if article_url:
                             print(f"Found article: {article_url}")
                             urls.append(article_url)
+                        found_target_date = True
                     elif article_date < target_date_start:
-                        print(f"Found older date: {article_date}, stopping search.")
-                        return urls
+                        print(f"Found older date: {article_date}, skipping this page.")
+                        break
+
+            if not found_target_date:
+                print(f"No articles found for target date on page {page}, stopping search.")
+                break
 
             page += 1
             time.sleep(random.uniform(2, 4))
@@ -152,6 +158,7 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
 
     print(f"Total {len(urls)} URLs found for date: {target_date.strftime('%Y-%m-%d')}")
     return urls
+
 
 
 def process_group(group, urls_df, target_date):
