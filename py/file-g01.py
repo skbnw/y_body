@@ -129,7 +129,8 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
                 match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
                 if match:
                     month, day, hour, minute = map(int, match.groups())
-                    year = target_date.year if month >= target_date.month else target_date.year - 1
+                    # 年を計算（1月の記事でターゲット日が12月の場合、前年とみなす）
+                    year = target_date.year if month == target_date.month else target_date.year - 1
                     article_date = datetime(year, month, day, hour, minute)
 
                     # ターゲット日付の範囲内か確認
@@ -151,6 +152,7 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
 
     print(f"Total {len(urls)} URLs found for date: {target_date.strftime('%Y-%m-%d')}")
     return urls
+
 
 def process_group(group, urls_df, target_date):
     """グループごとの処理を行う"""
