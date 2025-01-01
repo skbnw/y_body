@@ -97,8 +97,7 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
     urls = []
     page = 1
 
-    target_month = target_date.month
-    target_day = target_date.day
+    target_date_only = target_date.date()  # ターゲット日付を date オブジェクトに変換
 
     print(f"\nLooking for articles from: {target_date.strftime('%Y-%m-%d')}")
 
@@ -112,7 +111,6 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
             # ページの解析
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # デバッグ情報の出力
             print(f"\nChecking page {page}")
 
             # 記事リンクの取得
@@ -131,21 +129,25 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
                     continue
 
                 date_text = time_element.text.strip()
-                print(f"Found date: {date_text}")  # デバッグ出力
+                print(f"Found date: {date_text}")
 
+                # 正規表現で日付を抽出して datetime オブジェクトに変換
                 match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
                 if match:
                     month, day, hour, minute = map(int, match.groups())
+                    # 年を計算
+                    year = target_date.year if month >= target_date.month else target_date.year - 1
+                    article_date = datetime(year, month, day, hour, minute).date()
 
-                    if month == target_month and day == target_day:
+                    if article_date == target_date_only:
                         article_url = item.get('href')
                         if article_url:
                             print(f"Found article: {article_url}")
                             urls.append(article_url)
                             found_target_date = True
-                    elif month < target_month or (month == target_month and day < target_day):
+                    elif article_date < target_date_only:
                         found_older_date = True
-                        print(f"Found older date: {month}/{day}")
+                        print(f"Found older date: {article_date}")
 
             if found_older_date and not found_target_date:
                 print("Found older articles, stopping search")
@@ -160,8 +162,6 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
 
     print(f"Total {len(urls)} URLs found for base URL: {base_url}")
     return urls
-
-
 
 def process_group(group, urls_df, target_date):
     """グループごとの処理を行う"""
