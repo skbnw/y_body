@@ -90,38 +90,32 @@ def fetch_full_article(url, timeout_duration=30):
 
 
 def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
-    """Yahooニュースから複数ページの記事リンクを取得する"""
+    """Yahooニュースから特定日付の記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     urls = []
     page = 1
 
-    target_date_only = target_date.date()  # ターゲット日付を date オブジェクトに変換
+    # ターゲット日付の開始と終了を設定
+    target_date_start = target_date.replace(hour=0, minute=0, second=0, microsecond=0)
+    target_date_end = target_date.replace(hour=23, minute=59, second=59, microsecond=999999)
 
     print(f"\nLooking for articles from: {target_date.strftime('%Y-%m-%d')}")
 
     while page <= max_pages:
         current_url = f"{base_url}?page={page}"
         try:
-            # リクエストを送信
             response = requests.get(current_url, headers=headers, timeout=timeout_duration)
             response.raise_for_status()
-
-            # ページの解析
             soup = BeautifulSoup(response.content, 'html.parser')
 
             print(f"\nChecking page {page}")
 
-            # 記事リンクの取得
             news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
-
             if not news_items:
-                print(f"No news items found on page {page}, checking HTML structure...")
+                print(f"No news items found on page {page}, stopping search.")
                 break
-
-            found_target_date = False
-            found_older_date = False
 
             for item in news_items:
                 time_element = item.find("time", recursive=True)
@@ -131,27 +125,22 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
                 date_text = time_element.text.strip()
                 print(f"Found date: {date_text}")
 
-                # 正規表現で日付を抽出して datetime オブジェクトに変換
+                # 日付を解析して datetime オブジェクトに変換
                 match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
                 if match:
                     month, day, hour, minute = map(int, match.groups())
-                    # 年を計算
                     year = target_date.year if month >= target_date.month else target_date.year - 1
-                    article_date = datetime(year, month, day, hour, minute).date()
+                    article_date = datetime(year, month, day, hour, minute)
 
-                    if article_date == target_date_only:
+                    # ターゲット日付の範囲内か確認
+                    if target_date_start <= article_date <= target_date_end:
                         article_url = item.get('href')
                         if article_url:
                             print(f"Found article: {article_url}")
                             urls.append(article_url)
-                            found_target_date = True
-                    elif article_date < target_date_only:
-                        found_older_date = True
-                        print(f"Found older date: {article_date}")
-
-            if found_older_date and not found_target_date:
-                print("Found older articles, stopping search")
-                return urls
+                    elif article_date < target_date_start:
+                        print(f"Found older date: {article_date}, stopping search.")
+                        return urls
 
             page += 1
             time.sleep(random.uniform(2, 4))
@@ -160,7 +149,7 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10
             print(f"Error on page {page}: {str(e)}")
             break
 
-    print(f"Total {len(urls)} URLs found for base URL: {base_url}")
+    print(f"Total {len(urls)} URLs found for date: {target_date.strftime('%Y-%m-%d')}")
     return urls
 
 def process_group(group, urls_df, target_date):
