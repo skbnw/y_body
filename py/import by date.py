@@ -9,7 +9,7 @@ import re
 import time
 
 # 特定の日付を指定
-TARGET_DATE = datetime.strptime('2024/12/30', '%Y/%m/%d')
+TARGET_DATE = datetime.strptime('2024/12/31', '%Y/%m/%d')
 
 # スクレイピング対象グループ
 TARGET_GROUPS = [
