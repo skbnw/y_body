@@ -58,35 +58,54 @@ def save_articles_to_csv(article_data, media_en, target_date):
     df.to_csv(file_path, index=False, encoding="utf-8")
     print(f"Articles saved as {file_path}")
 
-def fetch_full_article(url, timeout_duration=30):
-    """記事の本文を取得する"""
-    full_text = ''
-    json_ld_data = None
+def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=10):
+    """
+    記事の本文を複数ページに対応して取得する
+    """
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    try:
-        response = requests.get(url, headers=headers, timeout=timeout_duration)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
+    full_text = ''
+    json_ld_data = None
+    page = 1
 
-        script_tag = soup.find('script', type='application/ld+json')
-        if script_tag:
-            try:
-                json_ld_data = json.loads(script_tag.string)
-                if not isinstance(json_ld_data, dict):
-                    json_ld_data = {}
-            except json.JSONDecodeError:
-                json_ld_data = {}
+    while page <= max_pages:
+        current_url = f"{base_url}?page={page}"
+        print(f"Fetching article page {page} from URL: {current_url}")
+        try:
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response.raise_for_status()
 
-        article_body = soup.find('div', {'class': EXPECTED_CLASSES["article_body"]})
-        if article_body:
-            full_text = article_body.get_text('\n', strip=True)
+            soup = BeautifulSoup(response.text, 'html.parser')
 
-        return re.sub(r'\s+', ' ', full_text).strip(), json_ld_data
-    except Exception as e:
-        print(f"Error fetching article {url}: {e}")
-        return None, None
+            # JSON-LD データを取得（最初のページのみ）
+            if page == 1:
+                script_tag = soup.find('script', type='application/ld+json')
+                if script_tag:
+                    try:
+                        json_ld_data = json.loads(script_tag.string)
+                    except json.JSONDecodeError:
+                        print("Error decoding JSON-LD data.")
+
+            # 記事本文を取得して結合
+            article_body = soup.find('div', {'class': EXPECTED_CLASSES["article_body"]})
+            if article_body:
+                full_text += article_body.get_text('\n', strip=True) + '\n'
+
+            # 次ページに進む準備
+            next_page_link = soup.find("a", text=re.compile("次へ"))
+            if not next_page_link:
+                print("No more pages for this article.")
+                break
+
+            page += 1
+            time.sleep(random.uniform(1, 2))  # ページ遷移間にスリープ
+        except Exception as e:
+            print(f"Error fetching article page {page} from URL {current_url}: {e}")
+            break
+
+    return full_text.strip(), json_ld_data
+
 
 
 def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
