@@ -9,7 +9,7 @@ import re
 import time
 
 # 特定の日付を指定
-TARGET_DATE = datetime.strptime('2024/12/30', '%Y/%m/%d')
+TARGET_DATE = datetime.strptime('2025/01/01', '%Y/%m/%d')
 
 # スクレイピング対象グループ
 TARGET_GROUPS = [
@@ -71,26 +71,57 @@ def save_articles_to_csv(article_data, media_en, target_date):
     except Exception as e:
         print(f"Error saving articles for {media_en}: {e}")
 
-def fetch_full_article(url, timeout_duration=30):
-    """記事の本文を取得する"""
+def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=10):
+    """
+    記事の本文を複数ページに対応して取得する
+    """
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
-    try:
-        response = requests.get(url, headers=headers, timeout=timeout_duration)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
+    full_text = ''
+    json_ld_data = None
+    page = 1
 
-        script_tag = soup.find('script', type='application/ld+json')
-        json_ld_data = json.loads(script_tag.string) if script_tag else {}
-        article_body = soup.find('div', {'class': EXPECTED_CLASSES["article_body"]})
-        return article_body.get_text(strip=True) if article_body else '', json_ld_data
-    except Exception as e:
-        print(f"Error fetching article {url}: {e}")
-        return None, None
+    while page <= max_pages:
+        current_url = f"{base_url}?page={page}"
+        print(f"Fetching article page {page} from URL: {current_url}")
+        try:
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response.raise_for_status()
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
-    """Yahooニュースから指定日付の記事リンクを取得する"""
+            soup = BeautifulSoup(response.text, 'html.parser')
+
+            # JSON-LD データを取得（最初のページのみ）
+            if page == 1:
+                script_tag = soup.find('script', type='application/ld+json')
+                if script_tag:
+                    try:
+                        json_ld_data = json.loads(script_tag.string)
+                    except json.JSONDecodeError:
+                        print("Error decoding JSON-LD data.")
+
+            # 記事本文を取得して結合
+            article_body = soup.find('div', {'class': EXPECTED_CLASSES["article_body"]})
+            if article_body:
+                full_text += article_body.get_text('\n', strip=True) + '\n'
+
+            # 次ページに進む準備
+            next_page_link = soup.find("a", text=re.compile("次へ"))
+            if not next_page_link:
+                print("No more pages for this article.")
+                break
+
+            page += 1
+            time.sleep(random.uniform(1, 2))  # ページ遷移間にスリープ
+        except Exception as e:
+            print(f"Error fetching article page {page} from URL {current_url}: {e}")
+            break
+
+    return full_text.strip(), json_ld_data
+
+
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
+    """Yahooニュースから指定日付の記事リンクを取得する（ページ番号インクリメント方式）"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
@@ -101,33 +132,39 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30):
     month = target_date.month
     day = target_date.day
 
-    # 日付をクエリパラメータに追加
-    current_url = f"{base_url}?year={year}&month={month:02d}&day={day:02d}"
-    print(f"Fetching articles from URL: {current_url}")
+    page = 1  # 初期ページ番号
+    while page <= max_pages:
+        current_url = f"{base_url}?year={year}&month={month}&day={day}&page={page}"
+        print(f"Fetching page {page} from URL: {current_url}")
+        try:
+            response = requests.get(current_url, headers=headers, timeout=timeout_duration)
+            response.raise_for_status()
 
-    try:
-        response = requests.get(current_url, headers=headers, timeout=timeout_duration)
-        response.raise_for_status()
+            soup = BeautifulSoup(response.content, 'html.parser')
 
-        soup = BeautifulSoup(response.content, 'html.parser')
-        news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
+            # 記事リンクを取得
+            news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
+            print(f"Found {len(news_items)} articles on page {page}.")
+            
+            if not news_items:
+                print("No articles found on the current page. Stopping pagination.")
+                break
 
-        if not news_items:
-            print("No articles found on the specified date.")
-            return urls
+            for item in news_items:
+                article_url = item.get('href')
+                if article_url and article_url not in urls:
+                    urls.append(article_url)
+                    print(f"Found article URL: {article_url}")
 
-        print(f"Found {len(news_items)} articles.")
-        for item in news_items:
-            article_url = item.get('href')
-            if article_url:
-                print(f"Found article URL: {article_url}")
-                urls.append(article_url)
-
-    except Exception as e:
-        print(f"Error while fetching articles from URL {current_url}: {e}")
+            page += 1  # 次のページへ進む
+            time.sleep(random.uniform(1, 2))  # ページ間のスリープ
+        except Exception as e:
+            print(f"Error fetching page {page} from URL {current_url}: {e}")
+            break
 
     print(f"Total {len(urls)} articles found for date {target_date.strftime('%Y-%m-%d')}.\n")
     return urls
+
 
 def process_group(group, urls_df, target_date):
     """グループごとの処理を行う"""
@@ -149,7 +186,7 @@ def process_group(group, urls_df, target_date):
 
         for link in article_links:
             print(f"Fetching full article from: {link}")
-            article_text, json_ld_data = fetch_full_article(link)
+            article_text, json_ld_data = fetch_full_article_with_pagination(link)
             if article_text and json_ld_data:
                 print(f"Article fetched successfully. Length: {len(article_text)} characters.")
                 article_data.append({
