@@ -1,0 +1,205 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Intelが「Core Ultraプロセッサ（シリーズ2）」のラインアップを一気に拡大　ノートPC向けを中心にデスクトップPC向けや組み込み用も（ITmedia PC USER）,https://news.yahoo.co.jp/articles/c7c805e328c93653bac8b303c3e76a18a9b7a77e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000093-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T23:05:09+09:00,2025-01-06T23:05:09+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,2590,"Core Ultraプロセッサ（シリーズ2）がフルラインアップに
+Intelは1月6日（米国太平洋時間）、NPUを統合したCPU／SoC「Core Ultraプロセッサ（シリーズ2）」の追加ラインアップを発表した。今回発表された製品の多くは、企業向けセキュリティ／管理機能「Intel vProプラットフォーム」にも対応している。
+【画像】Core Ultra 200HXプロセッサのラインアップ
+Core Ultra 200Vプロセッサ（薄型ノートPC向け：メモリ統合）
+2024年9月に発表された薄型ノートPC向けSoC「Core Ultra 200Vプロセッサ」（開発コード名：Lunar Lake）については、従来のラインアップを継続する。ただし、以下のモデルについて、新たにIntel vPro Enterprise対応が行われる。
+
+・16GBメモリ搭載モデル
+・Core Ultra 5 236V
+・Core Ultra 7 266V
+
+32GBメモリ搭載モデル
+
+・Core Ultra 5 238V
+・Core Ultra 7 268V
+・Core Ultra 9 288V
+
+　Core Ultra 200VプロセッサのIntel vPro Enterprise対応では、以下の新要素や機能改善が盛り込まれている。
+
+・NPUを活用したエンドポイントセキュリティの再設計
+・150超のシリコンベースの攻撃からの緩和策を実装
+・「MITRE ATT&CK」で検証済み
+
+Windows 11のセキュリティ機能への最適化
+
+・30個のシリコンベースのセキュリティ機能に対応（既存要素を含む）
+
+「Intel Partner Security Engine（IPSE）」を搭載
+
+・IPSEを通して「Microsoft Pluton」も利用可能
+
+　上記SoCを搭載するvPro対応ノートPCは、1月6日（米国太平洋時間）から順次PCメーカーを通して発売される予定だ。
+Core Ultra 200Hプロセッサ（パフォーマンス重視ノートPC向け）
+「Core Ultra 200Hプロセッサ」（開発コード名：Arrow Lake-H）はCore Ultraプロセッサ（シリーズ1）のHシリーズの後継モデルで、パフォーマンス重視のノートPC向けCPUとなる。搭載製品は、PCメーカーを通して2月から順次発売される予定だ。
+
+　主な特徴は以下の通りとなる。
+
+・CPUコア：最大16基（ハイパースレッディング非対応）
+・パフォーマンスコア（Pコア）：Lion Cove（開発コード名）×最大6基
+・高効率コア（Eコア）：Skymont（開発コード名）×8基
+・ローパワーアイランドEコア（LP Eコア）：Skymont×2基
+
+GPUコア：Intel Arc Graphics（Xe-LPG＋アーキテクチャ×最大8基）
+
+・先代比で最大15％のグラフィックスパフォーマンス向上
+・AI処理のピーク性能は最大77TOPS
+
+NPU：NPU3（第3世代）
+
+・単体で11TOPSの処理に対応
+・CPUやGPUを合わせたAI処理のピーク性能は先代比で最大25％向上
+
+対応メモリ：DDR5-6400／LPDDR5X-8400
+
+・DDR5規格時は最大96GBまで搭載可能
+・LPDDR5／LPDDR5X規格時は最大64GBまで搭載可能（CAMM2対応）
+
+PCI Expressバス
+
+・PCI Express 5.0：8レーン（GPUまたはSSDでの利用を想定）
+・PCI Express 4.0：8レーン（SSDやその他機器の接続を想定）
+
+USBバス／Serial ATAバス
+
+・Thunderbolt 4（USB4）：最大4ポート
+・Thunderbolt 5を搭載する場合はPCI Expressバスに別チップを実装
+
+USB 3.2 Gen 2：最大2ポート
+
+USB 2.0：最大10ポート
+
+Serial ATA 3.0：最大2ポート
+
+ネットワークポート
+
+・無線：Wi-Fi 6E／7（規格はPCメーカーの設定次第）＋Bluetooth 5.4
+・有線：1000BASE-Tポート
+
+ラインアップ
+
+　Core Ultra 200Hプロセッサのラインアップは以下の通りだ（★印が付いているものはvPro Enterpriseに対応）。
+
+・Core Ultra 5 225H
+・CPUコア：計14基
+・Pコア：4基（1.7GHz～4.9GHz）
+・Eコア＋LP Eコア：10基
+・スマートキャッシュ（L3キャッシュ）：18MB
+
+GPUコア：7基（最大63TOPS）
+
+基本消費電力（PBP）：28W
+
+最大ターボパワー（MTP）：60W
+
+Core Ultra 7 235H★
+
+・CPUコア：計14基
+・Pコア：4基（2.4GHz～5GHz）
+・Eコア＋LP Eコア：10基
+・スマートキャッシュ（L3キャッシュ）：18MB
+
+GPUコア：8基（最大74TOPS）
+
+基本消費電力（PBP）：28W
+
+最大ターボパワー（MTP）：60W
+
+Core Ultra 7 255H
+
+・CPUコア：計16基
+・Pコア：6基（2GHz～5.1GHz）
+・Eコア＋LP Eコア：10基
+・スマートキャッシュ（L3キャッシュ）：24MB
+
+GPUコア：8基（最大74TOPS）
+
+基本消費電力（PBP）：28W
+
+最大ターボパワー（MTP）：60W
+
+Core Ultra 7 265H★
+
+・CPUコア：計16基
+・Pコア：6基（2.2GHz～5.3GHz）
+・Eコア＋LP Eコア：10基
+・スマートキャッシュ（L3キャッシュ）：24MB
+
+GPUコア：8基（最大75TOPS）
+
+基本消費電力（PBP）：28W
+
+最大ターボパワー（MTP）：60W
+
+Core Ultra 9 285H★
+
+・CPUコア：計16基
+・Pコア：6基（2.9GHz～5.4GHz）
+・Eコア＋LP Eコア：10基
+・スマートキャッシュ（L3キャッシュ）：24MB
+
+GPUコア：8基（最大77TOPS）
+
+基本消費電力（PBP）：45W
+
+最大ターボパワー（MTP）：115W",[],[]
+GMKtecがIntel N150搭載ミニPC「GMKtec G2 Plus N150」を販売開始（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3c2fb344fafd65d8567aa3983b6a2467ab8cfe84,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000069-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T17:54:17+09:00,2025-01-06T17:54:17+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,494,"「GMKtec G2 Plus N150」
+中国GMK Technology（GMKtec）はこのほど、Intel N150を搭載したミニデスクトップPC「GMKtec G2 Plus N150」を発表、販売を開始した。Amazon.co.jp販売価格は2万9900円（1月7日までのキャンペーン価格は2万2421円、税込み）。
+【画像】Amazon.co.jpで2万9900円で販売されるIntel N150搭載のミニデスクトップPC「GMKtec G2 Plus N150」
+本体サイズ87（幅）×87（奥行き）×39.5（高さ）mm、重量204gの小型筐体を採用するデスクトップPCで、プロセッサとしてIntel N150（最大3.6GHz）を搭載しているのが特徴だ。
+
+　メモリはLPDDR5 12GB、ストレージは512GB SATA SSDを内蔵。ギガビット対応有線LAN×2、Wi-Fi 6無線LAN、Bluetooth 5.2をサポート、映像出力はHDMI×2、DisplayPort×1を備えている。OSはWindows 11 Proだ。
+ITmedia PC USER",[],[]
+PFU、お得な限定セットも用意した「PFUダイレクト新春初売り」が実施中（ITmedia PC USER）,https://news.yahoo.co.jp/articles/fd330232422802a50145e8389b230799a5c2b996,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000068-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T17:52:29+09:00,2025-01-06T17:52:29+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,740,"「PFUダイレクト新春初売り」
+PFUは1月6日、同社Web直販にて数量限定アイテムなどを販売する「PFUダイレクト新春初売り」を開始した。実施期間は2025年1月6日～1月13日だ。
+【画像】10個限定「たかしまてつをイラスト（2025年の干支 巳）入り タイピングベッド」。ほのぼのとした画風は、見ているだけで癒やされる
+今回のセールでは、イラストレーターのたかしまてつをさんが手掛けるへびをモチーフにしたイラストを描いたウッドパームレストを10個限定で販売する。価格は4950円だ（税込み、以下同様）。
+
+　この他、同社製キーボード「HHKB」シリーズや「RICOH Light Monitor」「ScanSnap」などを割引価格で購入できる“2025年福袋セット”各種も用意される。価格は「HHKB Studio - Monitor セット（HHKB Studio + RICOH Light Monitor 150BW＋風呂敷）」が11万円、「HHKB 3色団子 セット（HHKB Professional HYBRID Type-S 日/無刻印 雪 + キートップセット桜+ キートップセット山葵）」が4万3800円、「HHKB Professional Classic セット（HHKB Professional Classic 英/無刻印＋キートップセット英 中央印字 墨）」が2万4800円、「亀甲名栗木製レスト&ルーフ セット」が3万5000円、「ScanSnap iX1600断裁機 セット（ScanSnap iX1600 + 断裁機 200DX + Pfeiffer Monitor Platform）」が7万9800円だ。
+ITmedia PC USER",[],[]
+MSI、240Hz駆動対応のQD-OLED搭載27型4Kディスプレイなど最新ゲーミングディスプレイ製品を「CES 2025」に出展（ITmedia PC USER）,https://news.yahoo.co.jp/articles/b5182b020634a5a94983cacc14b559c4645b70d2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000067-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T17:50:33+09:00,2025-01-06T17:50:33+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,572,"「CES 2025」で発表予定のディスプレイ
+エムエスアイコンピュータージャパンはこのほど、米ラスベガスで1月7日～10日にかけて開催される「CES 2025」に同社最新ゲーミングディスプレイ製品の展示を実施する。
+【画像】MSIは「CES 2025」でG-SYNC Compatibleを採用した複数のディスプレイを発表する
+今回の発表では、240Hz駆動対応のQD-OLEDパネル採用27型4Kディスプレイ「MPG 272URX QD-OLED」、500Hz駆動対応のQD-OLEDパネル採用27型WQHDディスプレイ「MPG 272QR QD-OLED X50」、240Hz駆動対応の32型4Kディスプレイ「MPG 322URX QD-OLED」が公開。いずれもG-SYNC Compatibleに対応するほか、計80Gbpsの広帯域幅を実現する最新規格のDisplayPort 2.1a（UHBR20）をサポートしているのが特徴となっている。
+
+　この他、Mini LEDテクノロジーを採用し4K/160Hz表示と1080p/320Hz表示の切り替え利用が可能な「MPG 274URDFW E16M」や、各種AI機能を利用できるゲーム向け最適化機能「AI Navigator」などの紹介も行われる予定だ。
+ITmedia PC USER",[],[]
+ユカイ工学、熱冷ましロボット「猫舌ふーふー」などユニークなプロダクト2製品を発表（ITmedia PC USER）,https://news.yahoo.co.jp/articles/c7ed31216cf474c6e60b67f83618c533092366a5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000066-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T17:48:33+09:00,2025-01-06T17:48:33+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,388,"「猫舌ふーふー」
+ユカイ工学は1月6日、ユニークな機能を備えた小型ロボット2製品「猫舌ふーふー」「みるみ」の発表を行った。ともに2025年1月7日から米ラスベガスで開催される「CES 2025」で公開、それぞれ2025年夏/2025年秋口にクラウドファンディングが開始される予定だ。
+【画像】こちらは手のひらサイズのぬいぐるみ型ロボット「みるみ」。カバンやリュックに抱きつかせて持ち運べる
+「猫舌ふーふー」は、カップなど食器のフチに引っ掛けて利用できる“熱冷まし”機能に特化した小型ロボットで、小型のファンで冷却を行うことが可能。定量の風で冷ますモードの他、風の量をランダムで変化させる「フーリズム」モードも利用できる。
+
+　「みるみ」は手のひらサイズのぬいぐるみ型ロボットで、人感センサーを内蔵して目や首の動きで“チラ見”する動作を楽しめる。
+ITmedia PC USER",[],[]
+デスクトップPCこそ「Thunderbolt 4」が便利　実は導入ハードル低く、ケーブル類がスッキリ（ITmedia PC USER）,https://news.yahoo.co.jp/articles/876e90d92d30597c809711b8646c40ee1cddfa00,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000063-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T17:25:09+09:00,2025-01-06T17:25:09+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,1213,"デスクトップPCでもThunderbolt 4を導入すれば、ケーブルをまとめられる
+最大40Gbpsのデータ転送速度を持つ規格「Thunderbolt 4」は、ドッキングステーションとの接続や給電、映像転送といった用途が多いことから、ノートPCで活用される印象が強い。
+【画像で見る】Thunderbolt 4ドックを導入することで、ケーブル配線が非常にシンプルな環境に落ち着いた
+一方で、デスクトップPCでは「あらかじめThunderbolt 4に対応したマザーボードを用意する必要がある」という先入観から、Thunderbolt 4に対応したハイエンド製品を選択した人しか恩恵が得られないと思いがちだ。しかし、実はデスクトップPCにこそ、Thunderbolt 4がもたらす恩恵は大きい。
+
+　そこで今回は、デスクトップPCにおけるThunderbolt 4の導入効果や、「実は導入ハードルが低い」ことについて紹介しよう。
+Thunderboltとは？
+まずはThunderboltとはどのような規格なのか、簡単に概要を紹介しよう。Thunderboltは、光ファイバーケーブル1本で周辺機器などを接続する「Light Peak」というIntelが提唱した規格を基に、PCと周辺機器を接続することを目的にAppleとIntelが共同開発した規格だ。
+
+　現時点で第5世代目の「Thunderbolt 5」までがリリースされている。コネクターはThunderboltからThunderbolt 2まではMini DisplayPortで、Thunderbolt 3からThunderbolt 5はUSB Type-Cが採用されている。
+
+　もともと、主にApple製品で採用されていた「FireWire」の後継ということ、そしてコネクターが当初はMini DisplayPortだったということもあって、Mac向けのインタフェースというイメージが強かった。しかし、コネクターがUSB Type-Cに変わったThunderbolt 3からは、Windowsでも搭載製品が増えてきたこともあり、Thunderboltの存在感が徐々に増してきた。
+
+　Windowsでも採用製品が増えたThunderbolt 3からThunderbolt 4は、最大40Gbpsの転送速度を実現している。1本のケーブルを接続するだけで、周辺機器を1つにまとめるだけでなく、映像出力まで行えるという大きな特徴を持つ。
+
+　そして最新のThunderbolt 5は転送速度が最大80Gbps（非同期通信時は最大120Gbps）と、Thunderbolt 4と比較して大幅な性能向上が見られる。ただし、Thunderbolt 5は対応機種や周辺機器がまだ少ない。本記事では比較的安価に環境が構築できるThunderbolt 4の導入を基に取り上げたい。",[],[]
+14型（16：10）×2で実用性が増したサンコーの2画面モバイルディスプレイ「DMAC24HBK」を試す（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3e0525bd6314c4197483c4c8df874b084a88f370,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250106-00000033-zdn_pc-000-1-view.jpg?exp=10800,2025-01-06T12:00:18+09:00,2025-01-06T12:00:18+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,1199,"サンコーのデュアルディスプレイ「DMAC24HBK」
+サンコーの「Mac/Windows両対応 上下2画面拡張ポータブルモニター」（DMAC24HBK）は、14型の画面を2つ連結させたモバイルディスプレイだ。PCと1本のケーブルでつないだ状態で、2画面にそれぞれ別の内容を表示したり、あるいは連結させて1つの大画面として使ったりと、マルチなスタイルで使える逸品だ。
+【写真】3画面全てに異なる内容を表示するマルチディスプレイモード
+同社は2024年、本製品と同じ2画面タイプの15.6型モデルを発売済みだが、本製品とは画面サイズ以外にどのような違いがあるのだろうか。メーカーから実機を借用したので、レビューをお届けする。
+画面は14型×2で重量は約1.2kgへと軽量化
+まずは基本的な仕様をざっと押さえておこう。1画面あたりのサイズは14型で、従来モデル「DUALDPHBK」は15.6型だったので、一回り小さくなったことになる。画面解像度は1920×1200ピクセル、アスペクト比は従来の16：9から16：10と、縦方向に長くなっているのが特徴だ。
+
+　ノングレアのIPSパネルを採用しており、コントラスト比は1500：1、リフレッシュレートは最大60Hz、輝度は400±20ニトだ。視野角はメーカーサイトや説明書では水平／垂直ともに89度とされているが、おそらく上下／左右89度＝水平／垂直では178度の誤植だろう。タッチ操作には対応しない。
+
+　本製品はこれら2つの画面が上下にヒンジで連結されており、背面の一体型スタンドを立てて設置できる。完全にまっすぐに伸ばすと高さが40cmを超えるため、軽く折り曲げて角度をつけた方が安定して立てられる。こういった基本的な特徴は、従来モデルと同様だ。
+HDMIとUSB Type-Cでの接続をサポート
+接続方式はHDMIとUSB Type-Cだ。USB Type-Cポートは3基あり、1基は給電不要な特殊な接続方法でのみ使用する。イヤフォンジャックは搭載しない。また従来モデルで背面にあったVESAマウント穴は、本製品では省略されている。
+
+　重量は公称値で約1.3kg、実測では1.231kgだった。本製品よりも一回り大きい15.6型モデルは公称値が1.585kgだったので、サイズがコンパクトになった分、順当に軽くなっている。バッグに入れて持ち歩くことも十分可能な重さだ。
+
+　付属品はUSB Type-Cケーブルが2本と、USB Standard-A→USB Type-Cケーブルが1本、HDMIケーブルが1本、さらにACアダプターと、従来に比べてUSB Type-Cケーブルが1本増えている。持ち歩きのためのポーチ類は付属しないが、14型のノートPCほぼそのままのサイズゆえ、ノートPC向けとして市販されている保護カバーがそのまま使えるはずだ。",[],[]
