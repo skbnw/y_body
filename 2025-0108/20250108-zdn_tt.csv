@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+パスワードに代わる「パスキー」が“一段と安全”なのはなぜか（TechTargetジャパン）,https://news.yahoo.co.jp/articles/191748e6e5242a4c63d6658350958d8af0dbe459,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250108-00000130-zdn_tt-000-1-view.jpg?exp=10800,2025-01-08T23:00:11+09:00,2025-01-08T23:00:11+09:00,TechTargetジャパン,zdn_tt,TechTargetジャパン,1068,"（写真：TechTargetジャパン）
+認証関連の業界団体FIDO Allianceは2024年10月、パスワードを使わない認証方法「パスキー」（Passkey）の安全性を高めるための2つの新しい仕様を発表した。FIDO AllianceにはGoogleやMicrosoft、Appleなどが参加し、パスキーの普及に取り組んでいる。新しい仕様は以下の2つだ。
+
+・「Credential Exchange Format」（CXF）
+・「Credential Exchange Protocol」（CXP）
+
+　これらの仕様により、何がどう良くなるのか。注意点は何か。
+CXF、CXPのメリットとリスクとは
+パスキーは、パスワードに代わるデジタル認証情報だ。パスワードを使用せずに、顔や指紋といった生体認証を使ってシステムへのアクセスを管理できる。近年、ソーシャルエンジニアリング（人の心理を巧みに操って意図通りの行動をさせる詐欺手法）によってパスワードが流出する事案が後を絶たない。その背景には、人間の言葉遣いを模倣できる生成AI（人工知能）の普及がある。生成AIによってフィッシングメールの精度が高まり、標的がだまされやすくなっている。パスキーを使用すれば、パスワードが流出する恐れがなくなる。
+
+　今回、FIDO Allianceが発表したCredential Exchange FormatとCredential Exchange Protocolは、プロバイダー間でパスキーのクレデンシャル（資格情報）を交換する際にデータの標準形式を定義し、セキュリティを確保する。ユーザーはパスキーのクレデンシャルをプロバイダー間で安全に移動できるようになるという。FIDO Alliance委員長のニック・スティール氏は「新しい仕様によってパスキー移動時のセキュリティを高め、ユーザー企業にとってより使いやすくしたい」と話す。
+
+　スティール氏によれば、新しい仕様はセキュリティプロトコル「TLS」（Transport Layer Security）と同じ仕組みを採用してデータを暗号化する。暗号化には、インポート先のプロバイダーだけが暗号化を解除できる「ディフィー・ヘルマン鍵共有法」（DH法）を使用するという。加えて、アカウントを所有する企業の承認がある場合に限ってプロバイダーが資格情報を移動できるようにする機能も備えている。新しい仕様の草案の公開は、2025年第1四半期（1月～3月）になる見込みだ。正式版の公開時期は未定だという。",[],[]
