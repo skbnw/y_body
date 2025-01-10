@@ -87,6 +87,7 @@ def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=
     page = 1
 
     while page <= max_pages:
+        # ページ番号を含むURLを生成
         current_url = f"{base_url}?page={page}"
         print(f"Fetching article page {page} from URL: {current_url}")
         try:
@@ -108,15 +109,13 @@ def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=
             article_body = soup.find('div', {'class': EXPECTED_CLASSES["article_body"]})
             if article_body:
                 full_text += article_body.get_text('\n', strip=True) + '\n'
-
-            # 次ページに進む準備
-            next_page_link = soup.find("a", text=re.compile("次へ"))
-            if not next_page_link:
-                print("No more pages for this article.")
+            else:
+                print(f"No article body found on page {page}. Stopping.")
                 break
 
+            # ページ数を増加して次のリクエストへ
             page += 1
-            time.sleep(random.uniform(1, 2))  # ページ遷移間にスリープ
+            time.sleep(random.uniform(1, 2))  # ページ間にスリープを挟む
         except Exception as e:
             print(f"Error fetching article page {page} from URL {current_url}: {e}")
             break
