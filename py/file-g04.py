@@ -17,8 +17,8 @@ TARGET_DATE = datetime.now(JST) - timedelta(days=1)
 
 # スクレイピング対象グループ
 TARGET_GROUPS = [
-    # # 'g01', 'g02', 'g03', 'g04',
-    # # 'g05', 'g06', 'g07', 'g08',
+    # 'g01', 'g02', 'g03', 'g04',
+    # 'g05', 'g06', 'g07', 'g08',
     # 'g09', 'g10', 'g11', 'g12',
     'g13', 'g14', 'g15', 'g16'
 ]
@@ -240,3 +240,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
