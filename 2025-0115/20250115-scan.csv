@@ -1,0 +1,12 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+プラネックス製 コンセント直挿型無線LANルータ MZK-DP300N に XSS の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/a88f5f3d94aac02b701c62d01a1f31bf475033cc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-01-15T08:00:09+09:00,2025-01-15T08:00:09+09:00,ScanNetSecurity,scan,ScanNetSecurity,489,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月8日、プラネックス製MZK-DP300Nにおけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の石井健太郎氏が報告を行っている。影響を受けるシステムは以下の通り。
+MZK-DP300N ファームウェアバージョン 1.05およびそれ以前
+プラネックスコミュニケーションズ株式会社が提供する無線LANルータMZK-DP300Nには、クロスサイトスクリプティングの脆弱性が存在し、攻撃者が当該製品にログインし機器設定に細工をした場合、当該製品にログインした状態のユーザが細工されたURLにアクセスすると、ユーザのウェブブラウザ上で任意のスクリプトを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+「セコム安否確認サービス」スマートフォン端末GPS機能活用、現在地判定による安否確認（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0f970d9f45193033eb94e20a4c727d32aa7178dc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250115-00000001-scan-000-1-view.jpg?exp=10800,2025-01-15T08:00:03+09:00,2025-01-15T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,446,"サービスイメージ
+セコムトラストシステムズ株式会社は1月10日、「セコム安否確認サービス」に「安否報告アプリ」による安否確認の新機能を提供すると発表した。
+「セコム安否確認サービス」は、災害が発生した場合に、あらかじめ登録された従業員の勤務地や居住地の情報をもとに安否確認対象となる従業員を選定し、安否確認通知を行うが、2024年1月1日に発生した能登半島地震では、年末年始の休暇を利用して帰省や旅行をしていた従業員もおり、安否確認がスムーズに進まないケースがあった。
+新機能では、スマートフォン端末のGPS機能を利用し、地震発生時の位置情報をもとに「安否報告アプリ」で従業員の現在地を判定して安否確認を行うことで、あらかじめ登録された勤務地や居住地から離れた外出先で大きな地震が発生した場合でも、対象従業員に安否確認通知が届き、安否報告を行うことができる。
+新機能は、「安否報告アプリ」のオプション機能として無償で提供される。
+ScanNetSecurity ScanNetSecurity",[],[]
