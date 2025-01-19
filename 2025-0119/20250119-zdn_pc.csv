@@ -1,0 +1,66 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Qualcommが廉価版SoC「Snapdragon X」を発表／Google Workspaceが3月から値上げ　追加料金なしでGeminiが利用可能に（ITmedia PC USER）,https://news.yahoo.co.jp/articles/387c3aa87ce690e855c5ce039d799271c69b0470,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250119-00000052-zdn_pc-000-1-view.jpg?exp=10800,2025-01-19T06:05:09+09:00,2025-01-19T06:05:09+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,3797,"Quaicommが廉価版となるPC向けプロセッサ「Snapdragon X」を発表した
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、1月12日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】CreativeがTGIFと提携し、サラウンドサウンドシステム搭載ゲーミングチェアを発表した
+Qualcommが廉価版SoC「Snapdragon X」を発表
+Qualcommは1月7日（米国時間）、PC向けプロセッサ「Snapdragon X」シリーズの4番目のプラットフォームとなる「Snapdragon X」を発表した。CPUコアを8コアに抑えつつも、Copilot+ PCの要件を満たす45TOPSのNPUを搭載しており、600ドル台のCopilot+ PCを実現できるとしている。
+
+　Snapdragon Xシリーズはこれまで、最上位で12コアの「Snapdragon X Elite」、10コアの「Snapdragon X Plus 10-core」、8コアの「Snapdragon X Plus 8-core」がリリースされている。Snapdragon Xは、その中でも最廉価版となり、マルチコア最大クロックは3.0GHzに抑えられ、ブーストには非対応となる。
+
+　Snapdragon Xを搭載したデバイスは、2025年初頭にAcer、ASUSTeK Computer（ASUS）、Dell、HP、Lenovoなどからリリースされるという。
+Google Workspaceが3月から値上げ　追加料金なしでGeminiが利用可能に
+Googleは1月16日、企業・組織向けサービス「Google Workspace」の価格改定を発表した。新規ユーザーは既に新価格が適用されており、既存ユーザーについては、3月17日以降の請求から適用となる。
+
+　改定後の価格は下記の通り（年間プランの月額）。
+
+・Business Starter：680円→800円
+・Business Standard：1360円→1600円
+・Business Plus：2040円→2500円
+
+　この価格改定にあわせ、従来は月額2260円が必要だった「Gemini Business」アドオンが廃止され、Business StandardとBusiness Plusでは、追加料金不要でGeminiの機能が利用可能となる。このため、これまでアドオンを契約していた人にとっては大幅な値下げとなる。
+
+　なお、Budiness Starterでは、GmailでのみGeminiを利用可能となっている。
+PhisonがPCIe 5.0対応SSDコントローラを発表　毎秒14.5GBの転送速度を実現
+Phison Electronicsは1月7日（米国時間）、CES 2025でTSMCの6nmプロセスに基づいて構築され、毎秒14.5GBの読み書き速度を実現する「PS5028-E28 PCIe Gen5 SSDコントローラ」を発表した。
+
+　プレスリリース上では、リリース時期などの詳細については触れられていない、なお、CESでは毎秒10GBを超えるパフォーマンスを実現する世界初のDRAMレスPCIe Gen5 SSD コントローラ「PS5031-E31T PCIe Gen5 SSD コントローラ」も発表されている。Micronがリリースするコンシューマー向けSSD「Crucial P510 SSD」に採用されるという。
+
+　他にも、世界初のネイティブUSB4 SoC「PS2251-21」 や、世界最高容量をうたう122.88TBの「Pascari D205V エンタープライズ SSD」も発表された。
+MINISFORUMがCopilot+ PC認証のミニデスクトップPC「AI X1 Pro」を3月に発売
+MINISFORUMは1月13日、AMD Ryzen AI 9 HX 370プロセッサを搭載するミニPC「AI X1 Pro」を発表した。3月初旬に発売する。価格は未発表だが、メールアドレスを登録すると、8000円引きのクーポンを入手できる。
+
+　AMD Ryzen AI 9 HX 370プロセッサは、最大50TPOSのNPUを備えている。ミニPCながらCopilot+ PCの要件を満たしており、ミニPCとしては世界初のCopilot+ PCをうたっている。
+
+　メモリは最大96GBで、ストレージはM.2 2280 PCIe4.0を3スロット搭載している。OCuLinkポートやUSB 4×2、指紋認証センサーなども備えている。
+クリエイティブがTGIFと提携したゲーミングチェアを発表
+Creative Technologyが、ゲーミングギアを手掛けるTGIF Gamingと提携し、サラウンドスピーカーを搭載したゲーミングチェア「T0 Aurenaゲーミングチェアスピーカーシステム」をCES 2025にて発表した。2025年第2四半期に発売される予定だ。
+
+　CreativeのSoundBlaster CMSS3D+テクノロジーを採用しており、「ゲームや映画に命を吹き込む豊かで多次元的なオーディオ」を実現しているという。「TGIFの専門的に設計された人間工学に基づいたゲーミングチェアでくつろぎながら、一人称シューティングゲームの足音の正確さから映画のサウンドトラックの映画のような深みまで、あらゆる瞬間を鮮明なディテールで感じることができる」としている。
+MicrosoftがWindowsの月例セキュリティ更新プログラムを公開
+Microsoftは1月14日（現地時間）、現在サポートしているWindows 11およびWindows 10の全バージョンに対し、月例セキュリティ更新プログラムの配信を開始した。
+
+　Windows 11 24H2向けは「KB5050009」、Windows 11 23H2／22H2向けは「KB5050021」、Windows 10（22H2／21H2向け）は「KB5049981」、Windows 10（1809向け）は「KB5050008」となる。
+
+　本更新プログラムでは、CVE番号ベースで159件の脆弱（ぜいじゃく）性に対応した。このうち深刻度を「Critical（緊急）」と評価しているのは以下の12件だ。
+
+・CVE-2025-21385：Microsoft Purviewの情報漏えいの脆弱性
+・CVE-2025-21380：Azure Marketplace SaaSリソースの情報漏えいの脆弱性
+・CVE-2025-21294：Microsoftダイジェスト認証のリモートでコードが実行される脆弱性
+・CVE-2025-21296：BranchCacheのリモートでコードが実行される脆弱性
+・CVE-2025-21297：Windows リモートデスクトップサービスのリモートでコードが実行される脆弱性
+・CVE-2025-21354：Microsoft Excelのリモートでコードが実行される脆弱性
+・CVE-2025-21311：Windows NTLM V1 Elevation of Privilege Vulnerability
+・CVE-2025-21295：SPNEGO Extended Negotiation（NEGOEX）Security Mechanism Remote Code Execution Vulnerability
+・CVE-2025-21298：Windows OLEのリモートでコードが実行される脆弱性
+・CVE-2025-21309：Windows リモートデスクトップサービスのリモートでコードが実行される脆弱性
+・CVE-2025-21362：Microsoft Excelのリモートでコードが実行される脆弱性
+・CVE-2025-21307：Windows Reliable Multicast Transport Driver（RMCAST）のリモートでコードが実行される脆弱性
+
+　また、以下の3件は深刻度は「Important（重要）」ながら、既に悪用の事実を確認済みとなっている。
+
+・CVE-2025-21333：Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability 
+・CVE-2025-21334：Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
+・CVE-2025-21335：Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability
+
+　既に攻撃手法が知られている脆弱性も含まれており、できるだけ早めのアップデートを心掛けたい。
+ITmedia PC USER",[],[]
