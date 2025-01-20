@@ -1,0 +1,23 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Linux Ratfor にスタックベースのバッファオーバーフローの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0dd9dae181dcc75a648448127c326f2d25fcc275,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-01-20T08:00:15+09:00,2025-01-20T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,559,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月15日、Linux Ratforにおけるスタックベースのバッファオーバーフローの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。NTTセキュリティホールディングス株式会社/NTT社会情報研究所の川古谷裕平氏が報告を行っている。影響を受けるシステムは以下の通り。
+Linux Ratfor 1.06およびそれ以前
+The Dimensional Gateが提供するLinux Ratforには、スタックベースのバッファオーバーフローの脆弱性が存在し、第三者によって細工されたファイルを当該ソフトウェアで処理した場合、任意のコードを実行され、ユーザー環境の情報取得や改ざんが行われたり、ユーザー環境が使用不可にされたりする可能性がある。
+JVNでは、The Dimensional Gateが提供する情報をもとに最新バージョンにアップデートするよう呼びかけている。なお、The Dimensional Gateでは本脆弱性の対策として「Linux Ratfor 1.07」をリリースしている。
+ScanNetSecurity ScanNetSecurity",[],[]
+rsync に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/080366b4c7e2e07556afda01db22512ff9a17b60,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-01-20T08:00:11+09:00,2025-01-20T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,758,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月15日、rsyncにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+rsync バージョン 3.3.0 およびそれ以前
+rsyncには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・ヒープベースのバッファオーバーフロー（CVE-2024-12084）
+□システム上で任意のコードが実行されたり、rsyncサービスを停止されたりする
+・メモリバッファエラー（CVE-2024-12085）
+□システム上のメモリ情報が漏えいする
+・エラー処理の不備（CVE-2024-12086）
+□ rsyncを用いて悪意のあるサーバにアクセスした際、システム上のファイル情報が不正に取得される
+・パストラバーサル（CVE-2024-12087）
+□--inc-recursive オプションが有効となっている際に、目的のディレクトリ外のパスに任意のファイルを書き込まれる
+・パストラバーサル（CVE-2024-12088）
+□--safe-links オプションによる保護を回避され、目的のディレクトリ外のパスに任意のファイルを書き込まれる
+・シンボリックリンク処理時の競合状態（CVE-2024-12747）
+□権限を昇格された状態で目的のディレクトリ外のパスにアクセスされる
+JVNでは、開発者が提供する情報をもとに最新バージョンにアップデートするよう呼びかけている。なお、一連の脆弱性を修正したバージョン3.4.0がリリースされている。
+ScanNetSecurity ScanNetSecurity",[],[]
