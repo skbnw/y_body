@@ -1,0 +1,15 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+サイバーセキュリティ特集 ～ NICT『情報通信研究機構研究報告』公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/17ba28b2dd95c20ff1e87a554606a95619fa54b4,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250127-00000001-scan-000-1-view.jpg?exp=10800,2025-01-27T08:00:12+09:00,2025-01-27T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,884,"5-3「Co-Nexus S: 高度 SOC 人材育成及び国産脅威情報の生成と共有」
+国立研究開発法人情報通信研究機構（NICT）は1月、『情報通信研究機構研究報告』Vol.70 No. 2「サイバーセキュリティ特集」を公開した。
+同報告はNICTにおける研究成果を研究分野ごとにとりまとめたもので、1月に公開されたVol.70 No. 2では、サイバーセキュリティに関する研究成果を230ページに及ぶPDFまたは電子ブックで公開している。同報告の項目は下記の通り。
+1：緒言 サイバーセキュリティ研究所概要
+　2：サイバーセキュリティ技術
+　3：セキュリティ基盤技術
+　4：サイバーセキュリティに関する人材育成
+　5：サイバーセキュリティネクサス
+　6：IoT機器のセキュリティ対策
+　7：サイバーセキュリティ研究所誌上発表論文一覧
+5-3「Co-Nexus S: 高度 SOC 人材育成及び国産脅威情報の生成と共有」では、久保正樹氏、神宮真人氏、piyokango氏がCo-Nexus S で実施する高度SOC人材育成及び脅威情報の生成・共有に関する活動について概説している。
+CYNEXのCo-Nexus Sでは、1年間の準備期間を経て2022年から本格的に高度SOC人材育成を開始し、並行してCYNEX 解析チームで、ライブネット分析、ダークネット分析、アーティファクト解析、脅威情報の収集と分析を行い、多様化するサイバー攻撃の脅威に対応するための分析技術を磨くことで、脅威情報の共有を推進し、ノウハウをSOC人材育成を通じて社会に還元している。
+5-4「Co-Nexus E: 国産セキュリティ製品の検証と実用化支援」では、安部小百合氏が令和3（2021）年度から令和5（2023）年度にCo-Nexus Eで実施した「マルウェア検知技術・侵入対策ソフトウェア」「WAF（Web Application Firewall）」「セキュリティデータ提供サービス」の検証に関しての概要を報告している。
+ScanNetSecurity ScanNetSecurity",[],[]
