@@ -1,6 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-WordPress 用プラグイン Simple Image Sizes に XSS の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ea8a30481680ee1da7780d84b4ffb845257ba593,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-01-30T08:00:03+09:00,2025-01-30T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,516,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月28日、WordPress用プラグインSimple Image Sizesにおけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。日本工学院八王子専門学校の佐藤芽生氏が報告を行っている。影響を受けるシステムは以下の通り。
-Simple Image Sizes 3.2.3およびそれ以前のバージョン
-Raheが提供するWordPress用プラグインSimple Image Sizesには、格納型クロスサイトスクリプティングの脆弱性が存在し、管理者権限でログインし、当該製品の設定画面にアクセスしているユーザーのウェブブラウザ上で、任意のスクリプトを実行される可能性がある。
-JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお開発者は、本脆弱性を修正したバージョン Simple Image Sizes 3.2.4 をリリースしている。
-ScanNetSecurity ScanNetSecurity",[],[]
