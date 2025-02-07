@@ -1,0 +1,32 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+受付4月30日まで 北海道警察でサイバー犯罪捜査官を募集（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d38c9286dfc9929b38876656d5f2ca928217093b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-02-07T08:00:22+09:00,2025-02-07T08:00:22+09:00,ScanNetSecurity,scan,ScanNetSecurity,655,"北海道警察は1月31日、サイバー犯罪捜査官の採用について発表した。
+サイバー犯罪捜査官は、警察本部のサイバー犯罪対策課等で警察官としてサイバー犯罪の捜査を始めとするサイバー事案への対処やサイバーセキュリティ対策の業務に従事し、採用時の階級は幹部警察官である巡査部長となる。
+受験資格は2026年4月1日基準で、情報処理の促進に関する法律（昭和45年法律第90号）に基づき実施する試験により取得する資格のうち、下記のいずれかの資格を有し、民間企業等で情報システムの開発、保守・運用等のコンピュータ関連業務に3年以上従事した職歴を有する、または前述の事項に準ずる資格・職歴を有する25歳以上35歳以下の者。
+ネットワークスペシャリスト
+情報処理安全確保支援士（旧情報セキュリティスペシャリスト）
+ITストラテジスト
+システムアーキテクト
+プロジェクトマネージャ
+データベーススペシャリスト
+エンベデッドシステムスペシャリスト
+ITサービスマネージャ
+システム監査技術者
+応用情報技術者
+申込受付は2月3日から4月30日までで、第1次選考が5月25日に、第2次選考が7月中旬から下旬に行われ、最終合格発表は8月中旬を予定している。採用予定人数は2名程度で、採用予定年月日は2025年10月1日以降。
+採用後には、北海道警察学校に入校し、法学や警察実務などの警察官としての基礎を学び、その後は警察署での職場研修で捜査実習など捜査員としての基礎を学習する。
+ScanNetSecurity ScanNetSecurity",[],[]
+3D CAD データ流出防止も ～ 情報漏えい対策ソフト「パイレーツバスター AWP Ver.13.0」3 月発売（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d0e541299f7089957539399d6cb4cb6d94c5149a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250207-00000003-scan-000-1-view.jpg?exp=10800,2025-02-07T08:00:16+09:00,2025-02-07T08:00:16+09:00,ScanNetSecurity,scan,ScanNetSecurity,778,"「パイレーツバスター AWP」イメージ
+株式会社ティエスエスリンクは2月3日、情報漏えい対策ソフト「パイレーツバスター AWP Ver.13.0」および、XVLファイル（3D CAD図面）の社外流出を防止する新製品「XVL Player保護オプション」を3月に発売すると発表した。
+「パイレーツバスター AWP」は、Webシステムで共有する機密情報の不正利用を防ぐセキュリティ対策ソフトで、ブラウザに表示されるPDFやMicrosoft Officeファイル（Word、Excel、PowerPoint）のダウンロード（保存）、印刷、コピー、画面キャプチャーを禁止する。Webシステムにフィルタ型サーバを組み合わせる構成のため、既存のWebシステムをカスタマイズする必要がなく、あらゆるWebシステムへの導入が可能。保護対象となるのは、ブラウザに表示されるHTML、PDF、TIFF、画像、動画などで、有償のオプションでMicrosoft Office、DocuWorks、XVLの保護には有償のオプションが必要となる。
+新製品となる「XVL Player保護オプション」では、Webシステム上で共有するXVLファイル（3D CAD図面）のダウンロード（保存）、印刷、コピー、画面キャプチャを禁止するとともにXVLファイルを暗号化することで強固なセキュリティを実現、製造業の企業からの「3D CADで作成した技術情報データの社外流出も防止したい」という要望に応える。
+「パイレーツバスター AWP Ver.13.0」は100ユーザーの基本パッケージが100万円から、「XVL Player保護オプション」は100ユーザーが40万円からとなっている。評価版は、3月の発売日から無償で提供される。
+ScanNetSecurity ScanNetSecurity",[],[]
+理研が過去使用していたドメインの不適切なウェブサイトへ注意喚起（ScanNetSecurity）,https://news.yahoo.co.jp/articles/88986d5941e18609cb4cab7074e6d26152e03759,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-02-07T08:00:12+09:00,2025-02-07T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,234,"国立研究開発法人理化学研究所（理研）は2月3日、過去に使用していたドメインを用いた第三者による不適切なウェブサイトへの注意喚起を発表した。
+理研によると、2018年3月まで使用していたドメインをURLに含むウェブサイト（  ）が、理研と全く関係のない第三者により運営され、理研の名称や情報が無断で転載されていることが判明したという。
+理研では、当該サイトは理研と無関係のため、注意するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+WordPress 用プラグイン Activity Log WinterLock に CSRF の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/695046777bcf65c60945276d0d31d81cfc63dacc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-02-07T08:00:08+09:00,2025-02-07T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,509,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月4日、WordPress用プラグインActivity Log WinterLockにおけるクロスサイトリクエストフォージェリの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。吉川健司氏が報告を行っている。影響を受けるシステムは以下の通り。
+Activity Log WinterLock 1.2.5より前のバージョン
+SWITが提供するWordPress用プラグインActivity Log WinterLockには、クロスサイトリクエストフォージェリの脆弱性が存在し、当該製品にログインした状態のユーザが細工されたページにアクセスした場合、ログデータが削除される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお開発者は、本脆弱性を修正したバージョン Activity Log WinterLock 1.2.5 をリリースしている。
+ScanNetSecurity ScanNetSecurity",[],[]
