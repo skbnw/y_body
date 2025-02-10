@@ -1,0 +1,18 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Defense Platform Home Edition に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/9cd1ae7e55edd862c1be9293148dcc9d46443aba,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-02-10T08:00:15+09:00,2025-02-10T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,1090,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月5日、Defense Platform Home Editionにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の塚本泰三氏が報告を行っている。影響を受けるシステムは以下の通り。
+Defense Platform Home Edition Ver.3.9.51.x およびそれ以前のバージョン
+ハミングヘッズ株式会社が提供するDefense Platform Home Editionには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・特定プロセスにおけるメッセージ処理の不備（CVE-2025-20094）
+□当該製品が動作するWindowsシステムの特定プロセスに細工したメッセージを送信された場合、SYSTEM権限で任意のコードを実行される
+・不適切な権限管理（CVE-2025-22890）
+□特定の操作を実行することで、当該製品が動作するWindowsシステムのSYSTEM権限を取得される
+・特定プロセスにおけるメッセージ処理の不備（CVE-2025-22894）
+□当該製品が動作するWindowsシステムの特定プロセスに細工したメッセージを送信された場合、当該システム内の任意のファイルを改ざんされ、SYSTEM権限で任意のDLLを実行される
+・DeviceIoControlにおけるバッファオーバーフロー（CVE-2025-23236）
+□特定の操作を実行することで、当該製品が動作するWindowsシステムのSYSTEM権限を取得される
+・DeviceIoControlにおけるNULLポインタ参照（CVE-2025-24483）
+□当該製品が動作するWindowsシステムに細工したデータを入力した場合、ブルースクリーン（BSOD）エラーが引き起こされ、サービス運用妨害（DoS）状態を引き起こされる
+・DPprd.sysおよびDPavd.sysにおける引数インジェクション（CVE-2025-24845）
+□当該製品が動作するWindowsシステムに細工したデータを入力した場合、ブルースクリーン（BSOD）エラーが引き起こされ、サービス運用妨害（DoS）状態を引き起こされる
+JVNでは、開発者が提供する情報をもとに最新版にアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
