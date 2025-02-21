@@ -1,0 +1,33 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Movable Type に複数の XSS の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/249c2b981850b623b9a84f71d335659684cb8440,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-02-21T08:00:16+09:00,2025-02-21T08:00:16+09:00,ScanNetSecurity,scan,ScanNetSecurity,1302,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月19日、Movable Typeにおける複数のクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。小岩井乳業株式会社のイ ボムソク氏が報告を行っている。影響を受けるシステムは以下の通り。
+Movable Type
+　8.4.1 およびそれ以前（8.4.x系）
+　8.0.5 およびそれ以前（8.0.x系）
+Movable Type Advanced
+　8.4.1 およびそれ以前（8.4.x系）
+　8.0.5 およびそれ以前（8.0.x系）
+Movable Type Premium 2.06 およびそれ以前（2.x系）
+Movable Type Premium (Advanced Edition) 2.06 およびそれ以前（2.x系）
+Movable Type クラウド版 8.4.1 およびそれ以前（8.x系）
+Movable Type Premium クラウド版 2.06 およびそれ以前（2.x系）
+シックス・アパート株式会社が提供するMovable Typeには、下記の影響を受ける可能性がある複数のクロスサイトスクリプティングの脆弱性が存在する。
+・MTブロックエディタのカスタムブロック編集画面における格納型クロスサイトスクリプティング（CVE-2025-22888）
+□当該製品の管理画面にアクセスしたユーザのウェブブラウザ上で、任意のスクリプトを実行される
+・MTブロックエディタのHTML編集モードにおける格納型クロスサイトスクリプティング（CVE-2025-24841）
+※リッチテキストエディタとしてTinyMCE6を使用している場合
+□当該製品の管理画面にアクセスしたユーザのウェブブラウザ上で、任意のスクリプトを実行される
+・ユーザ情報編集画面における反射型クロスサイトスクリプティング（CVE-2025-25054）
+※多要素認証プラグインが有効な場合
+□当該製品の管理画面にログインした状態で細工されたページにアクセスした場合、ユーザのウェブブラウザ上で任意のスクリプトを実行される
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお開発者は、本脆弱性を修正した下記のバージョンをリリースしている。
+Movable Type
+　8.4.2（8.4系）
+　8.0.6（8.0系）
+Movable Type Advanced
+　8.4.2（8.4系）
+　8.0.6（8.0系）
+Movable Type Premium 2.07（2.x系）
+Movable Type Premium (Advanced Edition) 2.07（2.x系）
+Movable Type クラウド版 8.5.0（8.x系）
+Movable Type Premium クラウド版 2.07（2.x系）
+ScanNetSecurity ScanNetSecurity",[],[]
