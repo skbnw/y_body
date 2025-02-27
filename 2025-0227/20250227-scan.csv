@@ -1,0 +1,7 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+NTTデータ先端技術「INTELLILINK AIセキュリティ診断 for LLMアプリケーション」提供（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0912cca684341c88d7e32acb78f26ffdfa4a9a4c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250227-00000001-scan-000-1-view.jpg?exp=10800,2025-02-27T08:00:13+09:00,2025-02-27T08:00:13+09:00,ScanNetSecurity,scan,ScanNetSecurity,703,"「INTELLILINK AIセキュリティ診断 for LLMアプリケーション」の概要図
+株式会社NTTデータ先端技術は2月25日、最新のOWASP Top 10 for LLM Applications 2025に基づき診断を行う「INTELLILINK AIセキュリティ診断 for LLMアプリケーション」を提供すると発表した。
+「INTELLILINK AIセキュリティ診断 for LLMアプリケーション」は、NTTデータ先端技術の技術者が自動診断ツールや手動操作を用いて顧客のLLMアプリケーションに対し包括的なセキュリティ診断を実施、稼働中のLLMアプリケーションに疑似攻撃を仕掛けた結果と、LLMを使ったシステムのセキュリティ設定や運用状況などのヒアリング結果に基づきレビューと分析を行い、分析結果や推奨対策を報告する。
+同サービスでは、自動ツールを使用し効率的で広範囲の診断を実施するとともに、診断員による手動操作も併用することで、自動ツールでの診断が困難な脆弱性にも対応、リモートでの疑似攻撃による診断を行う他、リモートから確認できない一部項目に関しては、セキュリティ対策状況に関するヒアリングを実施し評価する。
+同サービスは、OpenAIやHugging Faceといった主要なLLMに対応し、診断項目はLLMに特化したセキュリティリスクとその対策をリスト化し最新のセキュリティ課題に対応するための重要な指針となっている「OWASP Top 10 for LLM Applications 2025」をベースとしている。
+ScanNetSecurity ScanNetSecurity",[],[]
