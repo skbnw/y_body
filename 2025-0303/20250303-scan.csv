@@ -1,0 +1,40 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+センチュリー・システムズ製産業用ルータ「FutureNet ASシリーズ」およびプロトコル変換器「FutureNet FAシリーズ」に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/65d69838cae717d7f02302ea0e996d5658b8aa17,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-03T08:00:03+09:00,2025-03-03T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,2066,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月28日、センチュリー・システムズ製産業用ルータ「FutureNet ASシリーズ」およびプロトコル変換器「FutureNet FAシリーズ」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏と神野亮氏が報告を行っている。影響を受けるシステムは以下の通り。
+・CVE-2025-24846
+FutureNet AS-250/S ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/F-SC ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/F-KO ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/NL ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/KL ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/KL Rev2 ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-250/L ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-M250/L ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-M250/KL ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-M250/NL ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-P250/NL ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-P250/KL ファームウェア Version 2.6.4 およびそれ以前
+FutureNet AS-210/U4 ファームウェア Version 2.6.4 およびそれ以前
+・CVE-2025-25280
+FutureNet AS-250/S ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/F-SC ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/F-KO ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/NL ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/KL ファームウェア Version 1.14.0 およびそれ以前
+FutureNet AS-250/KL Rev2 ファームウェア Version 2.6.6 およびそれ以前
+FutureNet AS-250/L ファームウェア Version 2.6.6 およびそれ以前
+FutureNet AS-M250/L ファームウェア Version 3.0.0 およびそれ以前
+FutureNet AS-M250/KL ファームウェア Version 3.0.0 およびそれ以前
+FutureNet AS-M250/NL ファームウェア Version 3.0.0 およびそれ以前
+FutureNet AS-P250/NL ファームウェア Version 2.6.6 およびそれ以前
+FutureNet AS-P250/KL ファームウェア Version 2.6.6 およびそれ以前
+FutureNet AS-210/U4 ファームウェア Version 2.6.6 およびそれ以前
+FutureNet FA-210 ファームウェア Version 1.1.9 およびそれ以前
+FutureNet FA-215 ファームウェア Version 1.0.1 およびそれ以前
+センチュリー・システムズ株式会社が提供する産業用ルータ「FutureNet ASシリーズ」およびプロトコル変換器「FutureNet FAシリーズ」には、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・認証回避（CVE-2025-24846）
+□細工されたリクエストにより認証なしでMACアドレス等の機器情報を窃取される
+・バッファオーバーフロー（CVE-2025-25280）
+□細工されたリクエストにより当該機器を再起動される
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+なお、本件の影響を受ける製品群の一部はすでにサポートが終了しており、開発者はサポートを終了した製品の使用停止と後続製品への移行を推奨している。
+ScanNetSecurity ScanNetSecurity",[],[]
