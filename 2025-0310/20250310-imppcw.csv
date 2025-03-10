@@ -1,0 +1,76 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+サンワサプライ、鍵付きでいたずら防止もできるコンセントカバー（PC Watch）,https://news.yahoo.co.jp/articles/dfd755cb6abffb8601ea5c6fc3071dc7922a9921,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250310-00000120-imppcw-000-1-view.jpg?exp=10800,2025-03-10T15:23:03+09:00,2025-03-10T15:23:03+09:00,PC Watch,imppcw,PC Watch,224,"写真：PC Watch
+サンワサプライは、鍵付きのコンセントカバー「TAP-KJCV3」を発売した。直販価格は4,950円。
+【画像】コンセントでの使用イメージ
+汎用サイズのコンセントカバーで、類似サイズの空調操作パネルにも取り付け可能。鍵付きでいたずらや盗電を防止できる。電気工事は不要で、透明カバーにより内部の状況を確認しやすい。下部にはA型のメタルモールを接続できる。
+
+　本体サイズは154×178×28mm。
+PC Watch,稲津 定晃",[],[]
+AMD新ドライバ「Adrenalin Edition 25.3.1」がRadeon RX 9070対応。eGPU不具合も解決か（PC Watch）,https://news.yahoo.co.jp/articles/1fe3f929c312c458b29ae6086c53550761b37dd7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250310-00000112-imppcw-000-2-view.jpg?exp=10800,2025-03-10T14:53:20+09:00,2025-03-10T16:23:42+09:00,PC Watch,imppcw,PC Watch,2498,"写真：PC Watch
+AMDは6日(現地時間)、Radeon用ドライバ「AMD Software: Adrenaline Edition 25.3.1」を公開した。新GPUの対応だけでなく、多くの機能強化が盛り込まれた大型アップデートとなっているのがトピックだ。
+【画像】「BIOSベースのファームウェア構成のTPMプラットフォーム検証プロファイルを構成する」でPCR 2を外せば良い
+25.3.1では新発売された「Radeon RX 9070 XT」および「Radeon RX 9070」のほかに、「Radeon RX 7650 GRE」、「Ryzen AI Max+ 395」、「Ryzen AI 5 340/7 350(PRO含む)」、「Ryzen 9 9955HX/9850HX/9955HX3D」への対応が謳われている。
+
+　また、新機能としては、Radeon RX 9070シリーズで使える「AMD Fidelity FX Super Resolution 4(FSR 4)」、およびフレーム生成を改善した「AMD Fluid Motion Frames 2.1」への対応が謳われている。このほか、AMDソフトウェアの更新/管理を行なうインストーラ「AMD Install Manager」、ゲーム/ビデオのシャープ化を行なう「Radeon Image Sharpening 2」に対応した。
+
+　Radeon RX 9070シリーズではさらに、GPUで高速化されたテキスト/画像生成AI機能の「AMD Chat」、AIによりテキスト抽出/画像解析を行なってゲーム内の画質改善を図る「AMD Image Inspector」が利用できる。
+
+　ゲーム対応としては「FragPunk」および「Split Fiction」に対応。また、Radeon RX 7000シリーズでは、Windows Subsystem for Linux(WSL 2)上でAMD ROCm対応ソフトウェアをハードウェアで実行できるようになり、デュアルブートする必要がなくなった。さらに、「Adobe Lightroom」のAIエンハンスディテール、デノイズなどが高速化した。
+
+　開発者向けには、可読マシン語命令セットアーキテクチャ(ISAs)仕様をアップデートし、RDNA 4およびRDNA 3.5を追加。ストリーミング配信を没入型の体験へと変換できるというオープンソースフレームワーク「AMD Advanced Interactive Streaming(AIS) SDK」および「AMD Advanced Media Framework(AMF) SDK」のアップデートも行なった。なお、Radeon開発者ツールスイート(RDTS)のRadeon RX 9000シリーズのサポートは近日中に行なわれる。
+
+　最後にリリースノートに記述がないものだが、GPDによれば、このバージョンでRyzen AI 7 HX 370を使用したデバイスに、Radeon RX 7600M XTを搭載したeGPUドック「GPD G1」を接続した場合、内蔵ディスプレイで正しくeGPUが使われない問題が解決したという。
+
+　実際に編集部にあった環境「GPD Pocket 4」および「GPD DUO」に、GMKtec製のeGPU「AD-GP1」をUSB4経由で接続したところ、いずれもRadeon RX 7600M XTの使用率が上がり(従来は50%程度に留まる)正しく動作することが確認できた(ちなみにGPD Pocket 4はUSB4接続性を改善するBIOSもリリースしている)。
+
+USB4接続は解決したが、OCuLink接続ではまだ一工夫必要か
+
+　余談だが、上記の今回の検証はUSB4経由で行なっている。Radeon RX 7600M XTを搭載したeGPU製品は、USB4のほかにOCuLinkでも接続できる製品が多いのだが、OCuLink接続ではBitLocker解除画面が表示されたり、PINのリセットが求められたりする。しかしこれはドライバの不具合ではなく、Windows 11およびBitLocker(Windows 11 Homeではストレージの暗号化)の正しい仕様だ。
+
+　というのもの、Radeon RX 7600M XTにはOS起動前にGPUを認識させるためのUEFI BIOSが搭載されているのだが、悪意のある攻撃者であれば、このUEFI BIOSに改ざんを加え、OS起動以前に攻撃を仕掛けることが可能になるからだ。それを防ぐために、Windows 11およびBitLockerでハードウェアの変更を検出して弾くようになっている。しかしこれではGPUの抜き差しの度に回復キーの入力が必要となり大変だ。
+
+　Windows 11 Proであれば、ローカルグループポリシーエディタでBitLockerの暗号化キーに使うPCRバンクの値を変更し、回避することができる。PCRバンクはざっくり言ってしまえば、今の構成情報などを保管しておく場所であり、BitLockerはそのPCRバンクの情報をもとに暗号化キーを生成、ハードウェアなどの変更があった際に検出して起動を防ぐ。そのため、ここで拡張カードやホットプラグ可能なハードウェアデータを保管する「PCR 2」のチェックを外せば良いようだ。
+
+　ただ、GPD DUOやGPD Pocket 4はそもそもWindows 11 Homeで、BitLockerではない上に、ローカルグループポリシーエディタも用意されていない。このため解決方法は今のところ不明だ(ちなみにOCuLink接続ではこのドライバを用いてもGPD DUOでは性能が出なかった)。
+
+【16時16分訂正】Windows 11 Homeを搭載したGPD DUO実機を用いてOCuLinkで検証しましたところうまく動作しなかったため、一部記述を変更・追記しました。
+PC Watch,劉 尭",[],[]
+現実空間に情報を重ねて表示できる透過型XRグラス「dynaEdge XR1」（PC Watch）,https://news.yahoo.co.jp/articles/5659d15c35e2badedf6f88436d8aea5403f4a3e7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250310-00000109-imppcw-000-1-view.jpg?exp=10800,2025-03-10T14:37:04+09:00,2025-03-10T14:37:04+09:00,PC Watch,imppcw,PC Watch,921,"写真：PC Watch
+Dynabookは、透過型XRグラス「dynaEdge XR1」および専用コントローラ「dynaEdge C1」の受注を開始した。価格はどちらもオープンプライス。
+【画像】dynaEdge C1
+dynaEdge XR1は、透過型の光学モジュールを採用し、現実空間の上に情報を重ねて表示できるデバイス。両眼型で広い表示領域を確保したとする。ディスプレイは片目1,920×1,080ドット、視野角が約45度、輝度が最大1,000cd/平方mとなっている。
+
+　インターフェイスにUSB Type-Cを備え、専用コントローラのdynaEdge C1やPCなど、さまざまな機器と接続して利用できる。独自の技術により、かけ心地にも配慮したとする。1,300万画カメラやステレオスピーカー、マイクなど各種センサーも内蔵している。
+
+　また、PCに専用アプリをインストールすることで、仮想デスクトップを使ったマルチディスプレイを実現する「dynaEdgeワークスペース」にも対応する。
+
+　本体サイズは展開時が約163.6×53.5×173.8mm、折りたたみ時が約153.5×53.5×47mm、重量は約89g。
+
+　dynaEdge C1は、dynaEdge XR1と接続することでAI機能などを利用可能にする専用コントローラ。ボタンとタッチパッドにより簡単な操作が行なえるほか、バッテリも内蔵している。
+
+　主な機能として、カメラやスマートフォンとの連携のほか、AIアシスト機能を搭載。会話の文字起こしや翻訳などを行なう「会話アシスト」、風景の中のオブジェクトなどを解説する「ビューサーチ」、カメラで撮影した資料などを文字認識してAIが要約する「ドキュメント要約」といったAI機能を利用できる。
+
+　オクタコアのArmベースSoCを内蔵し、無線機能としてWi-Fi 6やBluetooth 5.2を搭載。インターフェイスはUSB Type-C 2基で、モノラルスピーカーや加速度センサー、ジャイロセンサー、コンパスなども備える。
+
+　本体サイズは約65×112×27.2mm、重量は約222g。
+PC Watch,宇都宮 充",[],[]
+TP-Link、2台で最大420平方mをカバーできるWi-Fi 6メッシュルーター（PC Watch）,https://news.yahoo.co.jp/articles/71cf608d7a610d880758b3cbfade40455ccb81ef,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250310-00000067-imppcw-000-1-view.jpg?exp=10800,2025-03-10T11:57:07+09:00,2025-03-10T11:57:07+09:00,PC Watch,imppcw,PC Watch,428,"写真：PC Watch
+ティーピーリンクジャパンは、Wi-Fi 6メッシュルーター「Deco X3000」をAmazonで3月16日に発売する。価格は単体が1万1,800円、2台セットが2万800円。
+
+　予約受け付けは開始しており、16日までクーポンコード「X1TP03」または「X2TP03」を入力することでいずれも20%オフで購入できる。
+
+　Deco X3000は、5GHz帯で2,402Mbps、2.4GHz帯で574Mbpsの通信速度を提供するWi-Fi 6ルーター。1台で最大230平方m、2台使用で最大420平方mの範囲をカバーし、150台以上の端末と接続できるという。
+
+　最適なWi-Fi環境を構築するAIメッシュ機能や、セキュリティ機能「TP-Link HomeShield」を搭載する。インターフェイスはGigabit Ethernet 3基。本体サイズは110×110×114mm。保証期間は3年間。
+PC Watch,浅井 淳志",[],[]
+16コア/128MB L3キャッシュ搭載の「Ryzen 9 9950X3D」、発売日決定（PC Watch）,https://news.yahoo.co.jp/articles/aeb0bb207aac5d334f5047738e71738d13215131,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250310-00000049-imppcw-000-3-view.jpg?exp=10800,2025-03-10T10:19:47+09:00,2025-03-10T11:03:36+09:00,PC Watch,imppcw,PC Watch,670,"写真：PC Watch
+AMDのJack Huynh氏(SVP & GM, Computing & Graphics)は、自身のX(旧Twitter)において、3D V-Cacheを採用した16コアのRyzen 9 9950X3Dおよび12コアのRyzen 9 9900X3Dを12日に発売すると発表した。価格はそれぞれ699ドル、599ドル。
+【この記事に関する別の画像を見る】
+3D V-Cacheを採用したZen 5世代のCPUとして、Ryzen 7 9800X3Dが先行発売していたが、8コアのCPUであり、ゲーム性能は高いながらも、総合的な演算性能ではRyzen 9 9950Xや9900Xなどに劣る場面もあった。今回はその不足を補える。
+
+　Ryzen 9 9950X3Dは16コア/32スレッドで、ベースクロックが4.3GHz、最大ブーストクロックが5.7GHz、L1キャッシュが1,280KB、L2キャッシュが16MB、L3キャッシュが128MB、デフォルトTDPが170W。
+
+　Ryzen 9 9900X3Dは12コア/24スレッドで、ベースクロックが4.34Hz、最大ブーストクロックが5.5GHz、L1キャッシュが960KB、L2キャッシュが12MB、L3キャッシュが128MB、デフォルトTDPが120W。
+
+　いずれもCPUコアはTSMC 4nm FinFET、I/OダイはTSMC 6nm FinFETで製造される。最大動作温度は95℃で、オーバークロックにも対応。ソケットはAM5。
+PC Watch,劉 尭",[],[]
