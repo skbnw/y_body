@@ -1,0 +1,58 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+YouTubeが低価格帯プラン「Premium Lite」を正式発表／セキュリティ強化などを行った「Google Chrome 134」公開（ITmedia PC USER）,https://news.yahoo.co.jp/articles/962ab815f3c8e89b111245e88842e73190d20cab,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250309-00000076-zdn_pc-000-1-view.jpg?exp=10800,2025-03-09T06:05:08+09:00,2025-03-09T06:05:08+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,3203,"（写真：ITmedia PC USER）
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、3月2日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】YouTubeが、「Premium Lite」プランを正式発表した
+YouTubeが低価格帯プラン「Premium Lite」を正式発表
+Google傘下のYouTubeは3月5日、米国ユーザー向けに低価格帯プラン「Premium Lite」のパイロット版を提供開始した。月額は通常のPremiumプランが13.99ドルのところ、7.99ドルとなっている。
+
+　Premium Liteは、ゲーム、コメディー、料理、学習など、ほとんどの動画ジャンルで広告が表示されない低価格プランだ。ただし、Premiumプランで利用できるオフライン再生やバックグラウンド再生には対応しない。
+
+　既にパイロット版の提供を始めていたタイ、ドイツ、オーストラリアでは、今後数週間以内に、全てのユーザーに対してPremium Liteの提供を開始するという。
+セキュリティ強化などを行った「Google Chrome 134」公開
+Googleは3月4日、デスクトップ向け「Google Chrome」の安定チャネルをアップデートした。Windows／Mac向けは「v134.0.6998.35／36」、Linux向けは「v134.0.6998.35」で順次展開する。
+
+　このバージョンでは、14件の脆弱（ぜいじゃく）性が修正されているという。CVE番号が公開されているのは以下の9件で、カッコ内は最大深刻度だ。
+
+・CVE-2025-1914（High）：Out of bounds read in V8.
+・CVE-2025-1915（Medium）：Improper Limitation of a Pathname to a Restricted Directory in DevTools.
+・CVE-2025-1916（Medium）：Use after free in Profiles.
+・CVE-2025-1917（Medium）：Inappropriate Implementation in Browser UI.
+・CVE-2025-1918（Medium）：Out of bounds read in PDFium.
+・CVE-2025-1919（Medium）：Out of bounds read in Media.
+・CVE-2025-1921（Medium）：Inappropriate Implementation in Media Stream.
+・CVE-2025-1922（Low）：Inappropriate Implementation in Selection.
+・CVE-2025-1923（Low）：Inappropriate Implementation in Permission Prompts.
+
+　セキュリティ面以外では、ダイアログの閉じ方をより細かく制御できるようになった他、共有ストレージにWeb Locks APIのサポートを追加、さらにLLMを活用した不正な通知のオンデバイス検出（Android向け）などの機能を追加している。
+「CrystalMark Retro」の最新β版公開　「CrystalMarkDB」も始動
+統合ベンチマークソフト「CrystalMark Retro」の最新β版となる「CrystalMark Retro 2.0 Beta4」が3月3日にリリースされた。ベンチマーク結果を投稿できる「CrystalMarkDB」の始動も開発元がアナウンスしている。
+
+　CrystalMark Retroは、32bit（x86）、64bit（x64／ARM64）、メニーコア、多言語（48言語以上）に対応した総合ベンチマークソフトだ。CPU、ディスク、2Dグラフィックス（GDI）、3Dグラフィックス（OpenGL）の性能を1クリックで測定できる。
+
+　CrystalMark Retro 2.0 Beta4では、Postボタンが追加され、ベンチマーク結果をCrystalMarkDBに登録できるようになっている。CrystalMarkDBでは、OSやディスプレイの解像度などで検索できる他、CPUやディスクのスコアによってソートを行える。なお、CrystalMarkDBはまだテスト段階で、正式リリース時には全データを削除する可能性があるという。
+「Microsoft PowerToys」の最新版v0.89.0登場
+Microsoftは3月5日、パワーユーザー向けの公式ユーティリティーツール「PowerToys」の最新版となるバージョン0.89.0をリリースした。本バージョンでは「高度な貼り付け（Advanced Paste）」で、メディアトランスコーディングのサポートが追加されている。
+
+　高度な貼り付けは、クリップボードの内容を任意の形式に変換して貼り付けが行えるツールだ。これまで、コピーしたテキストをJSONやMarkdownで貼りつけたり、ビットマップをPNGで張り付けたりといったことが可能だった。
+
+　本バージョンでは、メディアトランスコーディングのサポートが追加され、動画やオーディオファイルをmp3やmp4（H.264／AAC）に変換して貼り付けることが可能になった。
+
+　この他、NET 9のアップデート後にサムネイルを読み込む際にクラッシュしてしまう問題を修正した。さらにFancyZones、Image Resizerおよび設定全体のアクセシビリティーの向上などを行っている。
+クラシック版「Microsoft Outlook」アプリで新たな問題　回避策をアナウンス
+Microsoftは3月4日、クラシック版「Microsoft Outlook」アプリが、連絡先をデータソースとして差し込み印刷を開始すると、Microsoft Wordの初期化時にハングする不具合があると明らかにした。
+
+　この問題については、OutlookチームとWordチームが調査中だ。修正までの回避策として、以下の内容が案内されている。
+
+・WordでCOMアドインを無効にする
+・管理者権限でOutlookアプリを起動する
+・Outlookではなく、Wordで差し込み印刷を開始する
+・連絡先をCSVでエクスポートし、Excelで差し込み印刷を実行する
+「Windows Subsystem for Android」がサポート終了
+Microsoftは、「Windows Subsystem for Android」のサポートを3月5日に終了した。
+
+　Windows Subsystem for Android（WSA）は、Windows 11リリース時に主要機能の1つとして発表されていたもの。Windows 11上でAndroidアプリを動作させることができるようにする仕組みだ。
+
+　当初は米国のみで提供されていたが、2022年8月から日本でも利用可能となっていた。WSAではGoogle Playが利用できるわけではなく、Amazonアプリストアからアプリをインストールする仕組みだった。
+
+　Amazonアプリストアは、既に2024年3月からMicrosoft Storeでダウンロードできなくなっている。なお、インストール済みのアプリに関してはすぐに使えなくなることはないが、今後WSAのサポートは行われないため、徐々に動作しなくなっていくと考えられる。
+ITmedia PC USER",[],[]

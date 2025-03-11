@@ -1,0 +1,34 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+"CTF 開催報告、1,060 名 NECグループ社員参加 累計 9,200 名（ScanNetSecurity）",https://news.yahoo.co.jp/articles/e34fa680d002cc6e34ab1900a9c063669b47c9e9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-10T08:00:11+09:00,2025-03-10T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,755,"日本電気株式会社（NEC）は3月6日、2月26日に「NECセキュリティスキルチャレンジ2024」の表彰式を実施したと発表した。
+「NECセキュリティスキルチャレンジ」は、セキュリティの素養を持つ人材を発掘育成することを目的に、NECがグループ全社員向けに毎年開催しているCTF（Capture the Flag）形式でのオンラインコンテストで、第10回目となる今回の参加者は1,060名で、累計で約9,200名の社員が自主的に参加している。
+競技期間は2024年11月1日から11月29日、競技形式はオンラインで、セキュリティ業務に携わっていない社員747名、セキュリティ業務に従事もしくはCTF競技経験者のエキスパート313名が参加した。
+出題数は全51問で、出題ジャンルは「ネットワーク」、「Web」、「ペンテスト」、「事故調査」、「防御・コンテナ」、「クラウド」、「バイナリ/Pwn」、「OSINT/MISC」に新設の「セキュリティアウェアネス」。
+同コンテストで出題する問題は、顧客に提供する製品・システム・サービスのセキュリティ実装やインシデントレスポンスを担当するNECのエンジニアが中心となり作成しており、従来の暗号化通信の解析やペネトレーションテストなどの技術的な問題に加え、今回は新たに「セキュリティアウェアネス」のカテゴリを新設し、サイバーセキュリティダッシュボードの活用や不審なメール受信時の社内の報告手順、クラウドストレージのアクセス権設定など、日常業務に関係した問題も出題している。新カテゴリの問題作成には、CISO配下でNECグループのサイバーセキュリティ対策を推進するCISO統括オフィスのエンジニアも参加している。
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache Tomcat に複数の脆弱性、対策を強化したバージョンをリリース（ScanNetSecurity）,https://news.yahoo.co.jp/articles/2e91fefce81487b7a8d08fb65360a20fa7695772,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-10T08:00:08+09:00,2025-03-10T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,1000,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月7日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+Apache Tomcat 11.0.0-M1から11.0.1まで
+Apache Tomcat 10.1.0-M1から10.1.33まで
+Apache Tomcat 9.0.0.M1から9.0.97まで
+The Apache Software Foundationが提供するApache Tomcatには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+なお、特定の条件下にてCVE-2024-50379の脆弱性の回避に追加の構成が必要となるため、CVE-2024-56337が採番された旨をJVNでは2024年12月24日に追加で公表している。
+・ケースセンシティブでないファイルシステムで、読み取り専用の初期化パラメーターreadonlyにfalseを設定し、初期設定のサーブレットが書き込み可能な場合、同一のファイルのロード中に同時に読み取りとアップロードを行うと、Tomcatのケースセンシティビティのチェックを回避する問題（CVE-2024-50379、CVE-2024-56337）
+□アップロードされたファイルがJSPとして取り扱われリモートでコードを実行される
+・初期設定でローカルホストのみアクセス可能なexamples Webアプリケーションで、アップロードされるデータに制限を設けていない問題（CVE-2024-54677）
+□サービス運用妨害（DoS）攻撃を受ける
+JVNでは、開発者が提供する情報をもとに下記のバージョンへアップデートするよう呼びかけている。
+Apache Tomcat 11.0.2およびそれ以降
+Apache Tomcat 10.1.34およびそれ以降
+Apache Tomcat 9.0.98およびそれ以降
+また、CVE-2024-56337への対策を強化した下記のバージョンがリリースされている。
+Apache Tomcat 11.0.5
+Apache Tomcat 9.0.102
+ScanNetSecurity ScanNetSecurity",[],[]
+RemoteView の Agent（Windows版）に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/bd9b4215aafa3f09ee26b5f5b26ef5f01392cd64,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-10T08:00:03+09:00,2025-03-10T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,715,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月7日、RemoteViewのAgent（Windows版）における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の安里悠矢氏が報告を行っている。影響を受けるシステムは以下の通り。
+RemoteView Agent（Windows版）v8.1.5.2より前のバージョン
+RSUPPORT株式会社のローカルPCからリモートPCの遠隔操作を提供する製品 RemoteView は、リモートPC上にRemoteView Agentをインストールし、ローカルPCからクラウドサービス経由でリモートPCを操作するが、RemoteView Agentのインストールに関連して下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・サービスのアクセス権が不適切（CVE-2025-22447）
+□リモートPC上で、管理者権限を持たないユーザーがLocalSystem権限で任意のコマンドを実行する
+・フォルダのアクセス権が不適切（CVE-2025-24864）
+□リモートPC上で、管理者権限を持たないユーザーがLocalSystem権限で任意のコマンドを実行する
+本脆弱性は2月13日にリリースされた「RemoteView Agent（Windows版）v8.1.5.2」で修正されており、「自動アップデート」機能で修正済みバージョンにアップデートされる。
+ScanNetSecurity ScanNetSecurity",[],[]
