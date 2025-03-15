@@ -1,0 +1,63 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+悪用の事実を確認済みの脆弱性が 6 件 ～ マイクロソフトが 3 月のセキュリティ情報公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/b08f7221e40ab86d96d5b2d1711afcdf420ab5c0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-14T08:00:17+09:00,2025-03-14T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,1065,"独立行政法人 情報処理推進機構（IPA）は3月12日、「Microsoft 製品の脆弱性対策について(2025年3月)」を発表した。一般社団法人 JPCERT コーディネーションセンター（JPCERT/CC）も「2025年3月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2025年3月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v24H2, v23H2, v22H2
+Windows 10 v22H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019 , 2016 (Server Core installation を含む)
+Microsoft Office
+Microsoft .NET
+Microsoft Visual Studio
+Microsoft Azure
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また「Windows Win32 カーネル サブシステムの特権の昇格の脆弱性（CVE-2025-24983）」「Windows NTFS の情報漏えいの脆弱性（CVE-2025-24984）」「Windows FAST FAT ファイル システム ドライバーのリモートでコードが実行される脆弱性（CVE-2025-24985）」「Windows NTFS の情報漏えいの脆弱性（CVE-2025-24991）」「Windows NTFS のリモートでコードが実行される脆弱性（CVE-2025-24993）」「Microsoft 管理コンソールのセキュリティ機能バイパスの脆弱性（CVE-2025-26633）」については、Microsoft 社が「悪用の事実を確認済み」と公表しており、被害拡大のおそれがあるため、至急、修正プログラムを適用するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+3D CAD 図面社外流出防止オプションほか ～ 情報漏えい対策ソフト「パイレーツバスター AWP Ver.13.0」発売（ScanNetSecurity）,https://news.yahoo.co.jp/articles/1fe341b773a7e033ac67e4464da26d90406570e3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250314-00000003-scan-000-1-view.jpg?exp=10800,2025-03-14T08:00:13+09:00,2025-03-14T08:00:13+09:00,ScanNetSecurity,scan,ScanNetSecurity,833,"「パイレーツバスター AWP」イメージ
+株式会社ティエスエスリンクは3月10日、情報漏えい対策ソフト「パイレーツバスター AWP Ver.13.0」および、XVLファイル（3D CAD図面）の社外流出を防止する新製品「XVL Player保護オプション」を同日から発売すると発表した。
+「パイレーツバスター AWP」は、Webシステムで共有する機密情報の不正利用を防ぐセキュリティ対策ソフトで、ブラウザに表示されるPDFやMicrosoft Officeファイル（Word、Excel、PowerPoint）のダウンロード（保存）、印刷、コピー、画面キャプチャーを禁止する。Webシステムにフィルタ型サーバを組み合わせる構成のため、Webシステムの特別なカスタマイズが不要で、あらゆるWebシステムへの導入が可能。保護対象となるのは、ブラウザに表示されるHTML、PDF、TIFF、画像、動画などで、有償のオプションでMicrosoft Office、DocuWorks、XVLの保護にも対応する。
+新製品となる「XVL Player保護オプション」は、Webシステム上で共有するXVLファイル（3D CAD図面）のダウンロード（保存）、印刷、コピー、画面キャプチャを禁止するとともにXVLファイルを暗号化することで強固なセキュリティを実現する。
+本来、Webシステム上でXVLファイルを利用する場合、Microsoft Edge/Google Chromeではダウンロードして利用する運用しかできなかったが、同オプションではブラウザに直接XVLファイルを表示できるため、利便性が向上する。
+「パイレーツバスター AWP Ver.13.0」は100ユーザーの基本パッケージが100万円から、「XVL Player保護オプション」は100ユーザーが40万円からとなっている。無償の評価版も提供されている。
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache Tomcat partial PUT にリモートコード実行、情報漏えいや改ざんの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/2c05ad07565f8a4a65cb8363491420584b10ccf8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-14T08:00:09+09:00,2025-03-14T08:00:09+09:00,ScanNetSecurity,scan,ScanNetSecurity,1028,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月11日、Apache Tomcat partial PUTにおけるリモートコード実行、情報漏えいや改ざんの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+Apache Tomcat 11.0.0-M1から11.0.2まで
+Apache Tomcat 10.1.0-M1から10.1.34まで
+Apache Tomcat 9.0.0.M1から9.0.98まで
+Apache Tomcatのpartial PUTの元の実装では、ユーザーが指定したファイル名とパスを基にパス区切り文字を「.」に置き換えた一時ファイルが使用されており、特定の条件下で、リモートコード実行、セキュリティ上重要なファイルの表示やコンテンツ挿入の可能性がある。
+下記のすべての条件が成立する場合、セキュリティ上重要なファイルの表示やコンテンツ挿入の可能性がある。
+・デフォルトサーブレットの書き込みが有効（デフォルトで無効）
+・partial PUTをサポート（デフォルトで有効）
+・セキュリティ上重要なアップロード対象のURLが、パブリックアップロード対象URLのサブディレクトリである
+・攻撃者がアップロードされるセキュリティ上重要なファイルの名前を知っている
+・セキュリティ上重要なファイルがpartial PUTでアップロードされる
+下記のすべての条件が成立する場合、リモートコード実行の可能性がある。
+・デフォルトサーブレットの書き込みが有効（デフォルトで無効）
+・partial PUTをサポート（デフォルトで有効）
+・アプリケーションがデフォルトのストレージロケーションでTomcatのファイルベースのセッション永続性を使用している
+・アプリケーションに、デシリアライゼーション攻撃に利用される可能性のあるライブラリが含まれている
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお、本脆弱性は下記のバージョンで修正されている。
+Apache Tomcat 11.0.3以降
+Apache Tomcat 10.1.35以降
+Apache Tomcat 9.0.99以降
+ScanNetSecurity ScanNetSecurity",[],[]
+Adobe Acrobat および Reader に脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/336ceafe577233a809e62760f213fc19d6078074,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-03-14T08:00:03+09:00,2025-03-14T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,852,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月12日、Adobe Acrobat および Reader の脆弱性について発表した。影響を受けるシステムは以下の通り。
+・Acrobat DC(Continuous)
+25.001.20428 およびそれ以前のバージョン (Windows)
+25.001.20428 およびそれ以前のバージョン (macOS)
+・Acrobat Reader DC(Continuous)
+25.001.20428 およびそれ以前のバージョン (Windows)
+25.001.20428 およびそれ以前のバージョン (macOS)
+・Acrobat 2024(Classic 2024)
+24.001.30225 およびそれ以前のバージョン (Windows)
+24.001.30225 およびそれ以前のバージョン (macOS)
+・Acrobat 2020(Classic 2020)
+20.005.30748 およびそれ以前のバージョン (Windows)
+20.005.30748 およびそれ以前のバージョン (macOS)
+・Acrobat Reader 2020(Classic 2020)
+20.005.30748 およびそれ以前のバージョン (Windows)
+20.005.30748 およびそれ以前のバージョン (macOS)
+アドビでは日本時間3月12日に、Adobe AcrobatおよびAdobe Acrobat Readerの脆弱性情報を公開している。脆弱性を悪用したコンテンツをユーザーが開いた場合、任意のコードが実行されるなどの可能性がある。
+IPAおよびJPCERT/CCでは、Adobe AcrobatおよびAdobe Acrobat Readerを最新のバージョンに更新するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
