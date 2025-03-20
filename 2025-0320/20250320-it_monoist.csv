@@ -1,0 +1,16 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+NVIDIAのGPUは「Blackwell Ultra」から「Rubin」へ、シリコンフォトニクスも採用（MONOist）,https://news.yahoo.co.jp/articles/95d5a69c08b05fea050ae797dbe4b3c59f411d96,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250320-00000054-it_monoist-000-1-view.jpg?exp=10800,2025-03-20T06:45:11+09:00,2025-03-20T06:45:11+09:00,MONOist,it_monoist,MONOist,1773,"（写真：MONOist）
+NVIDIAは2025年3月18日（現地時間）、米国サンノゼで開催中のユーザーイベント「GTC（GPU Technology Conference） 2025」（開催期間：同年3月17～21日）の基調講演において同社のGPUアーキテクチャのロードマップを発表した。同年後半に現行の「Blackwell」の強化版である「Blackwell Ultra」を投入した後、2026年後半に新世代となる「Rubin」、2027年後半にその強化版「Rubin Ultra」と1年ごとに最新技術を展開し、加速度的に進むAI（人工知能）技術の進化をけん引していく方針である。
+【NVIDIAのGPUアーキテクチャのロードマップ】
+NVIDIA 創業者兼CEOのジェンスン・フアン（Jensen Huang）氏は「かつてのLLM（大規模言語モデル）と比べて、より進化したエージェントAIで用いられるリーズニングモデル（Reasoning Model）は正しい答えを導き出すためにより多くのトークンと計算処理性能を要求する」と語る。
+
+　Blackwell Ultraは、このようなさらなるAI処理性能への要求を満たすべく開発された。Blackwellと同様に2チップ構成であり、搭載メモリもHBM3eで変わらないものの、メモリ容量はBlackwellの192GBから1.5倍の288GBに増えた。FP4（4ビット浮動小数点演算）／Denseの推論実行におけるAI処理性能は15PFLOPSとなっている。
+
+　AIサーバ向けに展開されるBlackwellは、GPU×72個とCPUの「Grace」×36個をインターコネクトであるNVLinkで接続した「GB200 NVL72」を1台のサーバラックを構成する基本単位としている。Blackwell Ultraでは同様の構成で名称は「GB300 NVL72」となる。GB300 NVL72のAI処理性能は、FP4／Denseの推論実行で1.1EFLOPS、FP8（8ビット浮動小数点演算）の学習で0.36EFLOPSと、GB200 NVL72の1.5倍になっている。
+
+　2026年後半に登場するRubinでは、GPUに加えて組み合わせて使用するCPUも「Vera」に刷新される。GPUは2チップ構成を継承する一方で、搭載メモリもHBM4に進化する。メモリ容量はBlackwell Ultraと同様に288GBとなる。AI処理性能（FP4）は、Blackwell Ultraの15PFLOPSから約2.6倍の50PFLOPSと大幅に向上する見込み。CPUのVeraは、Armベースのカスタムコアを88個集積し、176スレッド動作となる。1台のサーバラックを構成する基本単位は「Vera Rubin NVL144」となり、AI処理性能はFP4の推論実行で3.6EFLOPS、FP8の学習で1.2EFLOPSとなり、GB300 NVL72の3.3倍を想定している。
+
+　2027年後半にはRubinの強化版の「Rubin Ultra」を投入する。Rubin UltraはGPUが4チップ構成とさらに巨大になる。メモリはHBM4eで、容量も1TBに到達する。AI処理性能（FP4）は、Rubinの2倍の100PFLOPSだ。1台のサーバラックを構成する基本単位は「Rubin Ultra NVL576」で、AI処理性能はFP4の推論実行で15EFLOPS、FP8の学習で5EFLOPS。Vera Rubin NVL144の4倍以上になる見込みだ。
+
+　また、AIサーバを複数接続してAI処理性能を高めていくためには、GPUアーキテクチャだけでなくインターコネクトの進化も必要になる。高速インターコネクトを使うことによる消費電力の増大という課題に対応するため、シリコンフォトニクスICを採用したインターコネクトを発表した。イーサネットスイッチの「NVIDIA Spectrum-X」とInfinibandスイッチの「NVIDIA Quantum-X」で、帯域幅が1.6TPSで、電力効率が3.5倍、シグナルインテグリティーが63倍、耐久性が10倍など大幅な性能向上を果たしているという。
+MONOist",[],[]
