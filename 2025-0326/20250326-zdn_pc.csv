@@ -1,0 +1,83 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「Windows 11 2024 Update（バージョン24H2）」の既知の不具合まとめ【2025年3月26日現在】（ITmedia PC USER）,https://news.yahoo.co.jp/articles/c362e21401bb0da9cab0b275dc33fd5a16b1cfa3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250326-00000129-zdn_pc-000-1-view.jpg?exp=10800,2025-03-26T17:40:08+09:00,2025-03-26T17:40:08+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,2227,"Windows 11（バージョン24H2）の既知の不具合をまとめた
+Microsoftが2024年10月1日（米国太平洋時間、以下同）から順次配信している最新のOSアップデート「Windows 11 2024 Update（バージョン24H2）」だが、本バージョンの導入によって不具合が発生する可能性がある環境では、「セーフガードホールド」と呼ばれる機能でアップデートの配信が見送られている場合がある。
+【画像】Windows 11 2024 Updateの一般向け最新ビルド
+この記事では、Windows 11 2024 Updateにおいて2025年3月26日時点で発生／解消した既知の問題をまとめる。なお、2025年3月5日時点で報告されていた既知の問題や、解消した問題については別の記事で紹介している。
+
+　また今回は、過去のバージョンで新たに発生した、解決済みの「既知の問題」についても紹介する。
+「AutoCAD 2022」が起動しない（解消）
+本バージョンにバージョンアップした一部の環境において、Autodeskの2D／3D CADアプリ「AutoCAD 2022」がエラーメッセージを出して起動できないトラブルが発生していた。
+
+　本件については、Autodeskが配信を開始したアップデートプログラムを適用することで解消する。適用後、48時間以内にセーフガードホールドが解消される。
+「Asphalt 8」で例外エラーが発生する（解消）
+本バージョンを導入すると、Gameloftのカーレーシングゲーム「Asphalt 8（アスファルト8）」で例外エラーが発生し、アプリが応答しなくなる場合がある問題が発生していた。
+
+　Microsoftによると、本件は3月19日までに解決し、セーフガードホールドも解除されたという。ただし、サポート情報ではどうやって解決したかは明記されていない。
+2025年1月の更新で「リモートデスクトップ」に問題が生じる（おおむね解消）
+本バージョン向けの2025年1月プレビュー更新（KB5050094）以降の更新プログラムを適用すると、「リモートデスクトップ接続」アプリにおいて以下の問題が生じることがあると報告された。
+
+・セッションに接続するとすぐにフリーズしてしまう
+・意図せずセッションが切断されてしまう
+
+セッションに接続するとすぐにフリーズしてしまう
+
+　上記のうち、セッションに接続するとすぐにフリーズしてしまう問題については2025年2月のプレビュー更新プログラム（KD5052093）を適用することで解決する。ただし、本バージョンとコアプログラムを共有している「Windows Server 2025」については近日中の解決を見込んでいる。
+
+意図せずセッションが切断されてしまう
+
+　意図せずセッションが切断されてしまう問題については、本バージョンで稼働するクライアントデバイス（PC）から「Windows Server 2016」以前のバージョンで稼働するリモートデスクトップにアクセスした場合に発生するという（多くの場合、接続から65秒で切断される）。
+
+　この問題は、2025年3月のセキュリティ更新（KB5053598）を適用すると大幅に緩和される。
+
+　この更新で問題が解消しない場合は、「Known Issue Rollback（KIR）」を利用すると、本問題の原因となっている部分のみをロールバックすることで問題を解消できる。
+タスクバーの「Outlook」をクリックしてもウィンドウが前面に出ない
+本バージョンが適用されているPCにおいて、Microsoft Officeに内包されている「Outlook」アプリを起動していると、別のアプリが前面にある状態でタスクバーのOutlookアイコンをクリックしても、Outlookアプリが前面に表示されないことがある問題が発生している。
+
+　この問題が発生している場合、タスクバーのOutlookアイコンをクリックするとウィンドウが後面に表示され、Outlookアイコンが通知動作（5回光る）をするという。他のアプリのウィンドウを最小化または移動すれば、操作は継続可能だ。
+
+　現在、MicrosoftのWindows開発チームがこの問題の原因を調査している。
+【過去バージョン】USBプリンタが予期せず動作し謎の文字列を印刷してしまう（解決済み）
+Windows 11（バージョン22H2／23H2）をインストールしたPCに「2025年1月のプレビュー更新（KB5050092）」以降の更新プログラムを適用すると、USBプリンタが予期せず動作し、不思議な文字列を印刷してしまうことがある問題が発生した。
+
+　この問題は、以下の条件を“全て”満たす環境で発生する可能性があり、特にPCよりも後にプリンタの電源を入れた場合、あるいはプリンタをいったん外して再接続した場合に起こりやすいという。
+
+・「USB Print」と「IPP（Internet Printing Protocol） over USB」の両方に対応するUSBプリンタを使っていること
+・プリントスプーラーがIPPで印刷指示を出していること
+
+　この問題は「2025年3月のセキュリティ更新（KB5053657）」で解消した。
+ITmedia PC USER",[],[]
+MetaMoJi、リアルタイム学習支援サービス「MetaMoJi ClassRoom 3」を大幅アップデート（ITmedia PC USER）,https://news.yahoo.co.jp/articles/842ffafbc753cbc9e04390721c38707f786aa14a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250326-00000123-zdn_pc-000-1-view.jpg?exp=10800,2025-03-26T16:45:56+09:00,2025-03-26T16:45:56+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,324,"「MetaMoJi ClassRoom 3」
+MetaMoJiは3月26日、同社が提供すリアルタイム学習支援サービス「MetaMoJi ClassRoom 3」（Web版）の機能強化を発表、本日提供を開始した。
+【画像】「MetaMoJi ClassRoom 3」の新機能である「投票機能」のイメージ
+今回の機能強化では、Microsoft/GoogleアカウントにログインすることでMetaMoJiにも自動ログインできるシングルサインオンに対応した。
+
+　またノート操作機能の強化や用紙フォーマットの追加、イラスト/記号などの利用機能なども新たに実装。さまざまな教科で利用できるオリジナル教材の追加も行われている。
+ITmedia PC USER",[],[]
+Razer、高密度フォームクッションを採用したゲーミングチェア「Razer Iskur V2 X Fabric」に新色のグレーモデルを追加（ITmedia PC USER）,https://news.yahoo.co.jp/articles/c0c6a6fea8bf45d4e3c40d04c052e3c33d10b558,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250326-00000122-zdn_pc-000-1-view.jpg?exp=10800,2025-03-26T16:42:07+09:00,2025-03-26T16:42:07+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,550,"「Razer Iskur V2 X Fabric（Light Gray）」
+米Razerは、同社製ゲーミングチェア「Razer Iskur V2 X Fabric」のラインアップに新色のグレーモデル「Razer Iskur V2 X Fabric（Light Gray）」を追加、3月28日に発売する。予想実売価格は5万9950円だ（税込み、以下同様）。
+【画像】白猫になれるネコミミタイプのゲーミングヘッドセット「Razer Kraken Kitty V2」。この他、Bluetooth接続タイプもある
+下半身を安定する高密度フォームクッションを採用したエルゴノミクスデザインのゲーミングチェアで、152度までのリクライニングに対応。汗のこもりや蒸れを防ぐ多層ファブリック設計となっているのも特徴だ。
+
+　この他、“ネコミミ”をモチーフにしたデザインを採用するゲーミングヘッドセットに新色モデルを追加、3月28日に販売を開始する。有線モデルの「Razer Kraken Kitty V2」にはホワイト、Bluetooth接続モデルの「Razer Kraken Kitty V2 BT」にはブラック/ホワイトのカラーモデルを用意。予想実売価格はいずれも1万6980円。
+ITmedia PC USER",[],[]
+MSI、16型ゲーミングノート「Vector 16 HX AI」「Stealth A16 AI＋」にGeForce RTX 5070 Ti Laptop搭載モデルを追加（ITmedia PC USER）,https://news.yahoo.co.jp/articles/1ed7e8eb3e66d20d689bdf97777f83f1aab7ba00,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250326-00000121-zdn_pc-000-1-view.jpg?exp=10800,2025-03-26T16:39:44+09:00,2025-03-26T16:39:44+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,588,"「Vector 16 HX AIシリーズ」
+エムエスアイコンピュータージャパンはこのほど、同社製16型ゲーミングノートPC計2シリーズのラインアップにGeForce RTX 5070 Ti Laptopを採用したバリエーション構成モデルを追加した。
+【画像】こちらは「Stealth A16 AI＋シリーズ」
+Core Ultra 9 275HXを搭載する16型ゲーミングノートPC「Vector 16 HX AI」の追加ラインアップとしては、GeForce RTX 5070 Ti Laptopとメモリ32GB/1TB SSDを内蔵する「Vector-16-HX-AI-A2XWHG-0853JP」と、GeForce RTX 5070 Ti Laptopとメモリ64GB/1TB SSDを内蔵する「Vector-16-HX-AI-A2XWHG-0251JP」の2構成を用意した。予想実売価格はそれぞれ36万3800円、43万4800円だ（税込み）。
+
+　Ryzen AI 7 350を搭載する16型ゲーミングノートPC「Stealth A16 AI＋」シリーズには、GeForce RTX 5070 Ti Laptopとメモリ32GB/1TB SSD「Stealth-A16-AI+A3HWHG-6459JP」が追加された。価格はオープンだ。
+ITmedia PC USER",[],[]
+アイ・オー、Type-C接続に対応したスタンダード27型WQHD液晶ディスプレイ　多機能スタンドモデルも用意（ITmedia PC USER）,https://news.yahoo.co.jp/articles/0ec5b0bc32f4806a7434a16ff2fec95371a90d97,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250326-00000120-zdn_pc-000-1-view.jpg?exp=10800,2025-03-26T16:38:12+09:00,2025-03-26T16:38:12+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,448,"「LCD-CQ270SAシリーズ」
+アイ・オー・データ機器は3月26日、WQHD表示に対応した27型液晶ディスプレイ「LCD-CQ270SA」「LCD-CQ270SA-F」シリーズを発表、4月中旬から順次出荷を開始する。価格はオープン、予想実売価格はLCD-CQ270SAシリーズが3万8280円から、LCD-CQ270SA-Fシリーズが4万1580円から（ともに税込み）。
+【画像】こちらはフリースタイルスタンドを採用した「LCD-CQ270SA-Fシリーズ」
+ともに2560×1440ピクセル表示に対応したAASパネルを備えた27型液晶ディスプレイで、最大リフレッシュレート100Hz、応答速度4ms（中間域）を実現した。
+
+　LCD-CQ270SAは固定式スタンドを、LCD-CQ270SA-Fは高さ調整やピボットにも対応した“フリースタイルスタンド”を採用。映像入力はHDMI×1、DisplayPort×1、USB Type-C×1の3系統を利用可能だ。
+ITmedia PC USER",[],[]
+サンワ、コンパクトに持ち運べるスライドカバー筐体を採用したBluetoothマウス（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3f7b45eaa6aa36455bc19ad5b8adee2ab706bfa9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250326-00000117-zdn_pc-000-1-view.jpg?exp=10800,2025-03-26T16:11:06+09:00,2025-03-26T16:11:06+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,309,"「MA-BBS526シリーズ」
+サンワサプライは3月26日、小型設計の静音Bluetoothマウス「MA-BBS526」シリーズを発表、販売を開始した。カラーバリエーションはブラックとレッドの2タイプを用意、価格は5060円だ（税込み）。
+【画像】「MA-BBS526シリーズ」のカラーバリエーションはブラックとレッドの2色
+Bluetooth 5.2接続に対応したワイヤレスマウスで、最大解像度4000dpiの光学式センサーを搭載。コンパクトに持ち運べるスライドカバー式筐体を採用している。
+
+　側面2ボタンを含む計5ボタンを内蔵、クリック音を抑制した静音設計となっているのも特徴だ。
+ITmedia PC USER",[],[]
