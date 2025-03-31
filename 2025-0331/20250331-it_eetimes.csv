@@ -1,0 +1,18 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+AIブームで脚光を浴びるHBM　販売台数は2035年に15倍に（EE Times Japan）,https://news.yahoo.co.jp/articles/749fdf3e9a414bbbfb2af8d0547b87f2b54e773c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250331-00000076-it_eetimes-000-1-view.jpg?exp=10800,2025-03-31T18:30:12+09:00,2025-03-31T18:30:12+09:00,EE Times Japan,it_eetimes,EE Times Japan,1446,"広帯域幅メモリはキャッシュとメインメモリの間に「ニアメモリ」を作り出す［クリックで拡大］ 出所：IDTechEx
+HBM（広帯域幅メモリ）が再び脚光を浴びている。米国カリフォルニア州サンノゼで2025年3月17～21日（米国時間）に開催されたイベント「GTC（GPU Technology Conference）2025」では、SK hynixがAIサーバ向けの12層HBM3Eデバイスを展示した。同社は現在開発中の12層HBM4も披露し、2025年後半に量産するための準備作業が完了したことを明かした。
+HBM販売台数の成長予測［クリックで拡大］ 出所：IDTechEx
+もう1つの大手メモリメーカーであるMicron Technology（以下、Micron）は、AIおよび高性能コンピューティング（HPC）アプリケーションにおいて同社のHBMチップの需要が非常に強いことを示唆している。同社のCBO（最高業務責任者）であるSumit Sadana氏は、Reutersの取材に対して「2025年分の当社のHBMチップはもう完売した」と述べている。
+
+　HBMは基本的に、ロジックダイの上にDRAMダイを垂直積層した3D構造で、シリコン貫通電極（TSV）のような先進パッケージング技術を活用し、プロセッサとの相互接続にはシリコンインターポーザーを使用している。HPC／AIワークロードなどの並列コンピューティング環境に非常に適すると実証されている。
+
+　それは、HBMがGPUやAIアクセラレーターの各種コアからの複数のメモリ要件を同時に処理して、ワークロードの並列処理をサポートできるからだ。実際にHBMは、データ集約型のHPC／AIワークロードのメモリボトルネックを解消するための主な手段となっている。HBMがなければ、メモリボトルネックのためにAIプロセッサが十分に活用されなくなってしまうのだ。
+2035年までに販売台数は15倍に
+HBMデバイスに関して非常に重要なのが、AIアクセラレーターの性能を向上するための継続的な開発だ。既存世代のHBM3Eデバイスは、マイクロバンプやアンダーフィルに熱圧縮を適用して、DRAMダイを集積する。MicronやSamsung Electronics、SK hynixなどのHBMメーカーは、HBM4デバイスへの移行を進めていて、出入力の向上や低消費電力化、熱放散の向上、電極の減寸などを実現すべく、Cu-Cu接合によるハイブリッドボンディングなどの先進パッケージング技術を採用している。
+
+　市場調査会社IDTechExのレポート「Hardware for HPC, Data Centers, and AI 2025-2035: Technologies, Markets, Forecasts（2025～2035年のHPC／データセンター／AI向けハードウェア：技術／市場／予測」では、AI／HPCワークロードに対応したHBMデバイスの主要な開発と動向について調査が行われている。HBMの販売台数は、2035年までに2024年の15倍に増加する見込みだという。
+
+　HBMは2024年、AIプロセッサのメモリの壁を打ち破ることが可能な技術として大きな注目を集めた。その傾向はHBM4メモリデバイスの登場によって2025年以降も続いていくとみられる。
+
+※米国 EE Timesの記事を翻訳／編集したものです。
+EE Times Japan",[],[]
