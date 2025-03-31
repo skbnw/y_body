@@ -1,0 +1,55 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「NVIDIAアプリ」でAIアシスタント「Project G-Assist」が利用可能に／Arm版Windows向けのGoogle ドライブアプリが正式版に（ITmedia PC USER）,https://news.yahoo.co.jp/articles/2f051c4ad3716df004d51c5171cc859f001e9f45,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250330-00000077-zdn_pc-000-1-view.jpg?exp=10800,2025-03-30T06:05:08+09:00,2025-03-30T06:05:08+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,2942,"NVIDIAアプリでAIアシスタント「Project G-Assist」が利用可能になった
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、3月23日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】Arm版のWindowsで使えるGoogle ドライブアプリが正式版としてリリースされた
+NVIDIAアプリでAIアシスタント「Project G-Assist」が利用可能に
+NVIDIAは3月25日、NVIDIAアプリをアップデートし、実験的なAIアシスタント「Project G-Assist」を公開した。NVIDIAアプリのDiscoverセクションからダウンロードできる。
+
+　Project G-Assistは、以下の要件を全て満たすデスクトップPCで利用できる。
+
+・GeForce RTX 30／40／50シリーズのデスクトップGPU
+・12GB以上のグラフィックスメモリ
+・Intel Pentium G シリーズ、Core i3／i5／i7 以上、またはAMD FX、Ryzen 3／5／7／9／Threadripper以上のプロセッサ
+・Windows 11またはWindows 10
+
+　Project G-Assistは、ローカルで動作するSmall Language Model（SLM）を使用する。システムのボトルネックや電力効率の向上、ゲーム設定の最適化、GPUのオーバークロックといった設定を音声またはプロンプトによる自然言語でやりとりできる。
+
+　NVIDIAアプリの最新版では、他にもDLSSオーバーライドの機能拡張やディスプレイのスケーリング、ディスプレイの色の設定などが行えるようになった。
+Arm版Google ドライブアプリが正式版に
+Googleは3月24日、Arm版のWindowsで使えるGoogle ドライブアプリの一般提供を開始した。
+
+　SnapdragonのようなArmベースのプロセッサを搭載するWindows 11 PCで利用できる。これまでβ版として提供されていたが、今回で正式リリースとなった。β版ユーザーは正式版に自動で更新される。
+
+　なお、利用にはMicrosoft WebView2が必要だ。通常はWindows 11に含まれるが、削除している場合などにはインストールを促される。
+Googleが最新AIモデル「Gemini 2.5」を発表
+Gogoleは3月25日、最新のAIモデル「Gemini 2.5」を発表した。同モデルを使った「Gemini 2.5 Pro Experimental」は、既にGemini AI StudioおよびGemini Advancedユーザー向けのGeminiアプリで利用できる。
+
+　Gemini2.5は、応答する前に考えを推論し、パフォーマンス精度を向上させる思考モデルだ。大幅に強化された基本モデルと改善されたポストトレーニングを組み合わせることで、新しいレベルのパフォーマンスを実現している。今後、これらの思考機能を全てのモデルに直接組み込むことで、より複雑な問題に対処できるようにするという。
+
+　Gemini 2.5 Proは現在、100万トークンのコンテキストウィンドウを搭載しているが、近日中に200万トークンに対応する予定だ。前世代よりも優れたパフォーマンスを発揮し、テキスト、オーディオ、画像、ビデオ、さらにはコードリポジトリ全体など、さまざまな情報ソースからの複雑な問題を処理できるとしている。
+Windows 11／10の3月プレビューパッチが公開
+Microsoftは3月25日、Windows 11 23H2および22H2、Windows 10 22H2向けに2025年3月度の非セキュリティプレビュー更新プログラムをリリースした。Windows 11 24H2向けも3月27日（現地時間）にリリースされている。
+
+　Windows 11のバージョン24H2向けが「KB5053656」、23H2および22H2向けが「KB5053657」、Windows 10のバージョン 22H2向けが「KB5053643」となる。
+
+　Windows 11のバージョン24H2では、以下の機能が追加されている。
+
+・AMDおよびIntelプロセッサ搭載のCopilot＋ PCで、ライブキャプションとリアルタイム翻訳機能が利用可能になる。44を超える言語を英語に翻訳できる
+・Copilot+ PCでは、セマンティックインデックスモデルを搭載して改良されたWindows Searchにより、Windows 11全体でドキュメント／写真／設定を簡単に見つけられるようになる
+・ゲームパッドのキーボードレイアウトが、Windows 11のタッチキーボードで利用できるようになった。これにはボタンアクセラレータ（例：バックスペースの場合はXボタン、スペースバーの場合はYボタン）が含まれる
+・タスクバーに新しいシステムトレイアイコンが導入され、Windows 11の絵文字やその他のパネルの見つけやすさが向上した。この変更は少数のデバイスから展開される
+Windows版「Google Chrome」にゼロデイ脆弱（ぜいじゃく）性悪用を確認
+Googleは3月25日、Windowsのデスクトップ向けChromeブラウザの安定チャネルで「134.0.6998.177/.178」の配信を開始した。拡張安定チャネルも「134.0.6998.178」に更新される。
+
+　このアップデートでは、1件のセキュリティ修正が含まれている。
+
+・CVE-2025-2783：Incorrect handle provided in unspecified circumstances in Mojo on Windows.
+
+　深刻度は「High」だが、Googleはこの脆弱（ぜいじゃく）性の悪用を確認済みとのことで、早急なアップデートが必要だ。既にインストールされている場合は自動で更新されるが、Chromeのメニューから「ヘルプ」→「Google Chromeについて」を選択すれば手動でも更新できる。
+推論性能を証明した「DeepSeek-V3-0324」が登場
+DeepSeekは3月25日、推論パフォーマンスの向上やフロントエンド開発スキルの向上、よりスマートなツール使用機能を備えた「DeepSeek-V3-0324」をリリースした。
+
+　DeepSeekが公開したベンチマーク結果によると、「MIMLU-Pro」「GPQA Diamond」ではGPT-4.5に及ばないが、「MATH-500」「AIME 2024」「LiveCodeBench」では競合を上回る結果となった。
+
+　なお、複雑ではない推論タスクの場合は「DeepThink」をオフにし、V3の使用が推奨されている。DeepSeek-R1と同様にMITライセンスの下でリリースされている。
+ITmedia PC USER",[],[]

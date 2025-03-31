@@ -1,0 +1,21 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+アスターの「Astar zkEVM」、3/31でネットワーク停止（あたらしい経済）,https://news.yahoo.co.jp/articles/da01ed5380c9c8c1b3c8aaf8091a1a3b3d139a57,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250330-00010000-neweco-000-1-view.jpg?exp=10800,2025-03-30T15:33:23+09:00,2025-03-30T15:33:23+09:00,あたらしい経済,neweco,あたらしい経済,1100,"Astar zkEVMが3/31でネットワーク停止
+※写真はイメージです
+Startale Group（スターテイルグループ）開発のEthereum（イーサリアム）レイヤー2ネットワーク「Astar zkEVM」が、明日3月31日に停止する。
+
+これにより「Astar zkEVM」上の全てのアセットの引き出しおよび流動性解除ができなくなる。そのため、これらの対応を3/30までに行うよう、公式Xよりユーザーへ向けたアナウンスがされている。
+
+なお「Astar zkEVM」のネットワーク停止は4月1日に予定されていたが、前倒しされた。公式発表ではこの日付変更の具体的理由までは明言されていない。
+
+ネットワーク停止における具体的な対応は「Astar zkEVM」に対応したDEX（分散型取引所）およびDeFi（分散型金融）のQuickswap（クイックスワップ）VeryLong Swap（ベリロンスワップ）、Arthswap（アースワップ）、Bifrost（バイフロスト）、c14にて供給している流動性の解除。
+
+そして「Astar zkEVM」上のASTR、DOT、ETH、DAI、 MATIC、 USDC、USDT、WBTC、wsETHなどのアセットをAstar Portal（アスターポータル）を使用してEthereumやAstar EVMなどにブリッジすることだ。
+
+これら対応について不明点がある場合は、AstarのDiscordにて問い合わせが可能である。
+
+ 「Astar zkEVM」のネットワーク停止は、SONY Group（ソニーグループ）とStartale Groupによる合弁会社、Sony Block Solutions Labs（ソニーブロックソリューションラボ）開発のブロックチェーン「Soneium（ソニューム）」へ「Astar zkEVM」を移行する計画「Astar Evolution Phase 1」のもと行われた。
+
+なお同計画は昨年8月に発表されていた。この移行は、エンタテインメント、ゲーム、金融、コンシューマー・エレクトロニクスの分野で豊富な経験を持つグローバル・テクノロジー・リーダーであるソニーグループとの戦略的提携を意味するという。
+
+このことについてStartale Groupは、「Astar zkEVM」を「Soneium」に移行することで、ソニーの広範なユーザータッチポイントを活用し、Web3技術をこれまで以上に幅広いユーザーに提供し、ASTRにまつわるエコシステムを構築できると伝えられていた。
+大津賀新也（幻冬舎 あたらしい経済）",[],[]
