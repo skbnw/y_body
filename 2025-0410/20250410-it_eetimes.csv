@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「次世代のFPGA開発者を育成」　Alteraが学生支援プログラムを開始（EE Times Japan）,https://news.yahoo.co.jp/articles/f8fe7adc21abddebd4e19232f29227b19fe09d6a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250410-00000059-it_eetimes-000-1-view.jpg?exp=10800,2025-04-10T18:30:12+09:00,2025-04-10T18:30:12+09:00,EE Times Japan,it_eetimes,EE Times Japan,801,"「Altera University」イメージ［クリックで拡大］出所：Altera
+Alteraは2025年4月8日（米国時間）、FPGAの学習体験を支援する学生向けプログラム「Altera University」を開始した。同プログラムでは、大学教員や研究者、学生を対象に、カリキュラムやソフトウェアツール、プログラマブルハードウェアへのアクセスを提供する。
+「AIとロジックの知識を備えた次世代開発者を育成」
+Altera 製品管理・マーケティング責任者であるDeepali Trehan氏は、同プログラムの目的について「これから開発の前線で活躍できる、AIとロジックの両方の知識を備えた次世代のFPGA開発者を育成する」としている。
+
+　Altera Universityで利用できるコースは、デジタルロジック、デジタルシステム、コンピュータ構成、そして組み込みシステムに焦点を当てたものだ。カリキュラム、チュートリアル、ラボ演習は、アカデミアと実際の開発のギャップを埋めることを目的に設計されている。AIに関するカリキュラムも含まれていて、業界トレンドやAIワークフローにおけるFPGAの使用例について理解を深めることができるという。
+
+　FPGA開発に必要なツールも提供する。FPGA開発ソフトウェア「Quartus Prime」やAI推論に対応した「FPGA AI Suite」および関連ツール、FPGA向けシミュレーターツール、RISC-V対応の「Nios V」などが利用できる。
+
+　さらに、AlteraのFPGAや「Agilex 7」ベースの開発キットなどの割引購入も可能だ。
+
+　Alteraは「Altera Universityを通じて、大学教員は最先端のプログラマブルソリューションを活用し、学生に実社会での経験を積ませることができる」としている。
+EE Times Japan",[],[]
