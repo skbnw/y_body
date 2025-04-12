@@ -1,7 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-WinRAR にシンボリックリンクベースの「Mark of the Web」チェックバイパスの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/6cb31ffd63c51df45ec0afafa5103c6fff96c5d3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-04-10T08:00:12+09:00,2025-04-10T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,495,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は4月3日、WinRARにおけるシンボリックリンクベースの「Mark of the Web」チェックバイパスの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の島峰泰平氏が報告を行っている。影響を受けるシステムは以下の通り。
-WinRAR 7.11より前のバージョン
-RARLABが提供するWinRARには、実行可能ファイルを指すシンボリックリンクを開く際、ファイルに対するセキュリティ警告機能である「Mark of the Web」をバイパスできる脆弱性が存在し、第三者が細工したシンボリックリンクを当該製品上で開くと、任意のコードを実行される可能性がある。
-なお、Windowsの初期設定では、管理者のみがシンボリックリンクを作成できる。
-JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
-ScanNetSecurity ScanNetSecurity",[],[]
