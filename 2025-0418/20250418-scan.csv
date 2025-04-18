@@ -1,0 +1,11 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Oracle Java に脆弱性、セキュリティ更新プログラムの適用を呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0d12c963c99e69c40c7c2e0e1e92fc918d35d67b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-04-18T08:00:10+09:00,2025-04-18T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,450,"独立行政法人情報処理推進機構（IPA）は4月16日、Oracle Java の脆弱性対策について発表した。影響を受けるシステムはサポートされている以下の Oracle 製品。
+Oracle Java SE 24
+Oracle Java SE 21.0.6
+Oracle Java SE 17.0.14
+Oracle Java SE 11.0.26
+Oracle Java SE 8 Update 441-perf
+Oracle Java SE 8 Update 441
+Oracle 社では日本時間4月16日に、Oracle Java に関するセキュリティ更新プログラムを公表している。
+これらの脆弱性を悪用された場合、アプリケーションプログラムが異常終了したり、攻撃者にパソコンを制御されるなど様々な被害が発生するおそれがあり、攻撃された場合の影響が大きいため、IPAでは早急にセキュリティ更新プログラムを適用するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
