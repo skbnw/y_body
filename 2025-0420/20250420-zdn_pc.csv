@@ -1,0 +1,55 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+OpenAIが新しい推論モデル「o3」「o4-mini」をリリース／Razerがゲーミングプラットフォーム「Razer PC Remote Play」を正式発表（ITmedia PC USER）,https://news.yahoo.co.jp/articles/c38bf8f164b974e0f037785efae40e1f55a673c5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250420-00000059-zdn_pc-000-1-view.jpg?exp=10800,2025-04-20T06:05:09+09:00,2025-04-20T06:05:09+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,3111,"OpenAIが新しい推論モデル「OpenAI o3」「o4-mini」をリリースした
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、4月13日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】NVIDIAが米国内でAIスパコンの製造に向けて動きだした
+OpenAIが新しい推論モデル「o3」「o4-mini」をリリース
+OpenAIは4月16日、新しい推論モデル「OpenAI o3」「o4-mini」をリリースした。ユーザーからの質問に対し、より長く考えるようにトレーニングされたoシリーズの最新モデルで、これまでにリリースされた中で最も賢いモデルだという。
+
+　OpenAI o3はコーディング、数学、科学、視覚認識などの分野に強い最も強力な推論モデルだ。Codeforces、SWE-bench、MMMUなどのベンチマークで、新たな「SOTA」（state of the art：最高性能）を樹立した。
+
+　多面的な分析を必要とし、答えがすぐには明らかでない可能性のある複雑なクエリに最適としている。専門家による評価では、o3は難しい実際のタスクでOpenAI o1よりも重大なエラーが20％少なく、特にプログラミング、ビジネス／コンサルティング、創造的なアイデア創出などの分野で優れているという。
+
+　OpenAI o4-miniは、高速でコスト効率の高い推論に最適化された小型モデルだ。特に数学、コーディング、視覚タスクに優れているとのこと。Python インタープリタにアクセスした場合、AIME 2025で99.5％のスコアを記録している。
+
+　専門家による評価では、o4-miniは非STEMタスクやデータサイエンスなどの分野でも前身のo3-miniを上回る性能を発揮している。
+
+　ChatGPT Plus、Pro、Teamユーザーは、4月16日からo1、o3-mini、o3-mini-highに代わり、o3、o4-mini、o4-mini-highが表示されている。また、今後数週間以内にOpenAI o3-proもリリース予定となっている。
+Razerがゲーミングプラットフォーム「Razer PC Remote Play」を正式発表
+Razerは4月10日、PCゲームをモバイルデバイスに直接ストリーミングできるゲーミングプラットフォーム「Razer PC Remote Play」を正式に発表した。
+
+　CES 2025でβ版が発表されていたが、正式リリースにあたりインタフェースを刷新した。iOSおよびAndroidに対応した全てのモバイルゲーミングコントローラーにも対応している。また、iPadではキーボード、マウス、トラックパッドもサポートし、AndroidとRazer Kishi Ultraコントローラーの組み合わせでは、触覚フィードバックもサポートされるなど、機能が充実している。
+
+　Razer PC Remote Playは、発表時点で以下のプラットフォームやOSをサポートしている。
+
+・Steam、Epic Games、PC Game Passなど 
+・iOS 18およびAndroid 14以上  
+・Windows 10／11
+
+　モバイル向けのRazer PC Remote Playは、App StoreとGoogle Playからダウンロードできる。
+Zen 1～5のRyzenプロセッサに脆弱性
+AMDは4月7日、同社のCPUにマイクロコード署名検証の脆弱（ぜいじゃく）性「CVE-2024-36347」が見つかったと発表した。もともとは3月5日にZen 1～4プロセッサを対象として情報が公開されていたが、4月7日にZen 5も対象になると修正された。
+
+　この脆弱性を利用すると、システム管理者権限を持つ攻撃者が悪意のあるCPUマイクロコードパッチをロードできる可能性があるとのこと。なお、AMDでは攻撃が発生したとの報告は受けていないという。
+
+　対象となるCPUは、サーバ向けのEPYCシリーズや、デスクトップ向けのRyzen 3000～9000シリーズ、モバイル向けのRyzen 3000～9000シリーズ、Ryzen AI＋MAXやRyzen AI 300シリーズなど多岐にわたる。
+
+　既にOEM経由で、脆弱性に対応するマイクロコードが配布されているので、早めに適用した方がいいだろう。
+AMDが次世代EPYC（Venice）をTSMC 2nmプロセスで製造すると発表
+AMDは4月14日、次世代AMD EPYCプロセッサ（開発コード名：Venice）が、TSMCの最先端2nm（N2）プロセス技術でテープアウトされたと発表した。
+
+　AMDとTSMCの長年にわたる半導体製造パートナーシップの成果だと説明している。AMDデータセンターCPUロードマップの実行においても大きな前進であり、「Venice」は2026年の発売に向けて順調に進んでいるという。
+
+　あわせてAMDは、アリゾナ州にあるTSMCの新製造施設で第5世代AMD EPYCの製造と検証が成功したことも発表した。同社は米国での製造へのコミットメントを強調している。
+NVIDIAが米国内でAIスパコンを製造　工場の設計／建設に着手
+NVIDIAは4月14日、米国内でAIスーパーコンピュータを製造する工場の設計と建設に着手したと発表した。大手製造パートナーと協力し、アリゾナ州で NVIDIA Blackwellチップを、テキサス州でAIスパコンを製造およびテストするための100万平方フィート（約9万2903m2）超の製造スペースを開設する。今後12～15カ月で量産体制が整うとしている。
+
+　NVIDIAは、アリゾナ州におけるパッケージングおよびテスト業務に関して、AmkorおよびSPILと提携している。さらに今後4年間で、TSMC、Foxconn、Wistron、Amkor、SPILとの提携を通じて、米国で最大5000億ドル規模のAIインフラを構築する計画だ。
+
+　また、NVIDIAはAIスパコンをAI処理を唯一の目的として構築された新しいタイプのデータセンターとなる「AIファクトリー」の中核と位置付けている。今後数年間で、数十ギガワットのAIファクトリーが建設され、数十万人規模の雇用創出と数兆ドル規模の経済効果を期待しているという。
+「Stable Diffusion」が「Radeon」「Ryzen AI」に最適化 で最大3.8倍高速化
+Stability AIは4月16日、AMDと提携し、Radeon GPUおよびRyzen AI APUに最適化された「Stable Diffusion」を発表した。
+
+　AMDと共同で行った取り組みにより、ONNXランタイムでサポートされている、あらゆる環境に統合できる高速モデルセットを実現した。Stable Diffusion SDXL 1.0およびSDXL Turboは、ベースのPyTorchモデルと比較して最大3.8倍の推論速度を実現する。
+
+　AMD向けに最適化されたStable Diffusionモデルは、Hugging Faceで公開されており、「_amdgpu」というサフィックスが付いている。エンドユーザーは、Amuse 3.0を使用してAMD向けに最適化されたモデルを試すことも可能だ。
+ITmedia PC USER",[],[]
