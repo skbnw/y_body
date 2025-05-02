@@ -1,0 +1,138 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+パソコン工房、ハイエンドGPUも選べるミドルタワークリエイター向けPC（PC Watch）,https://news.yahoo.co.jp/articles/0173acc9cf7c913b8be6063cf95d5d04ef0f1254,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000015-imppcw-000-1-view.jpg?exp=10800,2025-05-02T17:43:07+09:00,2025-05-02T17:43:07+09:00,PC Watch,imppcw,PC Watch,808,"写真：PC Watch
+パソコン工房を運営するユニットコムは、クリエイター向けのSENSE∞より、ミドルタワーケース採用の「SENSE∞ F-Class」を発売した。
+
+　ケースは最大長410mmのビデオカードや最大360mのラジエータを搭載可能なほか、前面に140mmファン3基、背面に120mmファン1基を標準で装備。大型の高性能パーツを装着できるスペースとエアフローを確保した。また、天面にはマグネット式防塵フィルタも備える。
+
+　構成例として「SENSE-F189-265F-SSX」の場合、Core Ultra 7 265F、32GBメモリ、1TB NVMe SSD、GeForce RTX 5060 Ti(16GB)、750W 80PLUS Bronze電源、Windows 11 Homeなどを搭載し、価格は26万9,800円。
+
+　「SENSE-F1B6-LCR99X-SGX」の場合、Ryzen 9 9900X、32GBメモリ、1TB NVMe SSD、Radeon RX 9070、850W 80PLUS Gold電源、Windows 11 Homeなどを搭載し、価格は33万4,800円。
+
+　「SENSE-F1B6-LCR99W-VKX」の場合、Ryzen 9 9950X、32GBメモリ、1TB NVMe SSD、GeForce RTX 5080、1,000W 80PLUS Platinum電源、Windows 11 Homeなどを搭載し、価格は46万9,800円。
+
+　「SENSE-F189-LC285K-XKX」の場合、Core Ultra 9 285K、64GBメモリ、1TB NVMe SSD、GeForce RTX 5090、1,200W 80PLUS Platinum電源、Windows 11 Homeなどを搭載し、価格は73万9,800円。
+PC Watch,宇都宮 充",[],[]
+Microsoft、大規模モデル並みの推論性能を実現する新たな軽量AIモデル（PC Watch）,https://news.yahoo.co.jp/articles/41258b5c77e29097d3617fd21f88c6c5425ed55e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000014-imppcw-000-1-view.jpg?exp=10800,2025-05-02T17:34:08+09:00,2025-05-02T17:34:08+09:00,PC Watch,imppcw,PC Watch,1013,"写真：PC Watch
+Microsoftは4月30日、Phi-4ベースの小規模な推論AIモデル「Phi-4-reasoning」、「Phi-4-reasoning-plus」、「Phi-4-mini-reasoning」を発表した。
+【画像】Phi-4-reasoning、Phi-4-reasoning-plusの数学/科学ベンチマークの結果
+蒸留や強化学習、高品質なデータなどを活用し、性能とサイズのバランスの優れたモデルを実現したのが特徴。モデルサイズを抑えながら、大規模モデルに匹敵する推論性能を発揮できるとしており、リソースの限られたデバイスでも複雑な推論タスクを効率よく実行できるという。
+
+　Phi-4-reasoningは、140億パラメータのオープンウェイト推論モデルで、OpenAI o3-miniによる生成データなどを用いた教師ありファインチューニング(Supervised fine-tuning)により推論性能を高めた。また、このPhi-4-reasoningをベースに強化学習を適用し、より回答の精度を高めたモデルがPhi-4-reasoning-plusとなる。
+
+　どちらも、数学的推論の性能を測るベンチマークにおいて、DeepSeek-R1-Distill-Llama-70BやOpenAI o1-miniなどより高いスコアを達成。AIME 2025においては、6,710億パラメータのDeepSeek-R1よりも優れたスコアを発揮したという。
+
+　さらに、よりコンパクトな38億パラメータのPhi-4-mini-reasoningを用意。DeepSeek-R1による生成データなどを用いてファインチューニングされており、計算リソースが限られ、低遅延性が求められるエッジやモバイルデバイスなどでの利用に好適とする。
+
+　こちらは数学ベンチマークにおいて、パラメータ数が2倍のDeepSeek-R1-Distill-Llama-8Bなどより優れた性能を実現したとしている。
+
+　今回発表した3種類のモデルはHugging Faceで公開しているほか、このうちPhi-4-reasoningとPhi-4-mini-resoningは、Phi Silicaプラットフォーム向けの低ビット最適化を実施し、Copilot+ PCのNPU上でも実行可能になる予定だという。
+PC Watch,宇都宮 充",[],[]
+背景変更やオブジェクトの置き換えなど、GeminiでAI画像編集が可能に（PC Watch）,https://news.yahoo.co.jp/articles/1c02ca37717711d18a6de5a4f599044c8f70ea9d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000013-imppcw-000-1-view.jpg?exp=10800,2025-05-02T16:13:07+09:00,2025-05-02T16:13:07+09:00,PC Watch,imppcw,PC Watch,389,"写真：PC Watch
+Googleは30日、GeminiでAI画像編集ができる機能の提供を段階的に開始した。AIで生成した画像だけでなく、スマートフォンやPCから画像をアップロードして編集することもできる。
+
+　2025年初頭からAI Studioを通じて先行提供していた機能がGemini向けにも展開されたかたち。背景の変更やオブジェクトの置き換え、要素の追加などさまざまな画像編集をAIの力を使って行なえる。
+
+　たとえば自分の写真をアップロードして髪色だけを変えるといったことも可能。また、Geminiに物語を書いてもらい、その内容に沿った画像を生成してもらうといった、テキストと画像を組み合わせた使い方もできるという。
+
+　なお、AI編集後の画像にはSynthIDによるデジタル透かしが埋め込まれ、AIによる手が加わったことが記録される。
+PC Watch,宇都宮 充",[],[]
+総務省、携帯電話の偽基地局に注意喚起。フィッシング狙うSMSなど確認（PC Watch）,https://news.yahoo.co.jp/articles/3f13c1719a1eb4959574dbf776c83a5883736e95,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000012-imppcw-000-1-view.jpg?exp=10800,2025-05-02T14:31:09+09:00,2025-05-02T14:31:09+09:00,PC Watch,imppcw,PC Watch,455,"写真：PC Watch
+総務省は5月2日、都内など一部の都市にて、不法無線局の疑いがある無線機器(いわゆる偽基地局)により、スマートフォンや携帯電話への混信事案が発生しているとして、注意喚起を行なった。
+
+　同省では、偽基地局からの混信により、携帯電話が圏外となったり、フィッシング詐欺など不審なSMSを受信したりするといった事象が発生していると説明。フィッシング詐欺は昨今手口が巧妙化しており、怪しいSMSなどのリンクをクリックしたり、個人情報を入力したりしないよう、注意を促している。
+
+　偽基地局に関しては4月中旬頃から、都市部などで正規の基地局を装った違法な電波が確認され、携帯電話の通信サービスに影響を与えているとの報告がSNS上で話題となっていた。これに対し、4月15日の総務大臣記者会見では、SNS上での投稿内容の真偽や具体的な内容に対しては言及しなかったものの、携帯電話サービスへの混信事案は発生を把握しており、関係機関と連携して対応にあたっていると説明していた。
+PC Watch,宇都宮 充",[],[]
+TSUKUMO、新型コンパクトケース採用のGeForce RTX 5070搭載ゲーミングPC（PC Watch）,https://news.yahoo.co.jp/articles/bec5d0d210eb3ae297b7dcc0cdeb037753751675,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000011-imppcw-000-1-view.jpg?exp=10800,2025-05-02T14:05:09+09:00,2025-05-02T14:05:09+09:00,PC Watch,imppcw,PC Watch,383,"写真：PC Watch
+ヤマダデンキはTSUKUMOブランドのG-GEARから、コンパクトなゲーミングPC「G-GEAR mini」の新モデルを発売した。
+
+　従来モデルからケースを刷新し、コンパクトながら高性能なPCパーツも搭載できるよう内部レイアウトを最適化。加えて、ツールレスで取り外せる前面/側面パネル、天面配置のインターフェイス部、2.5インチドライブの増設対応などを特徴としている。
+
+　例として「GI7A-G251B/CP1」の場合、Ryzen 7 9800X3D、32GBメモリ、2TB PCIe 4.0 SSD、GeForce RTX 5070、850W 80PLUS Gold電源、ASRock製マザーボード(B650M Pro RS WiFi)、Windows 11 Homeなどを搭載。価格は30万9,980円。
+PC Watch,宇都宮 充",[],[]
+ソースネクスト、CD-Rから強制的にデータを読み込むアプリ（PC Watch）,https://news.yahoo.co.jp/articles/5d9bef1e3552783a20f59074273065d85119706b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000010-imppcw-000-1-view.jpg?exp=10800,2025-05-02T13:29:07+09:00,2025-05-02T13:29:07+09:00,PC Watch,imppcw,PC Watch,470,"写真：PC Watch
+ソースネクストは、劣化した光学メディアからデータを読み込んで保存できる「B's ディスク・セーブ」を発売した。DL版のみ用意しており実売価格は4,950円。
+【画像】破損したデータも強制的に読み込める
+CDやDVD、Blu-rayなどの光学メディアからデータを強制的に読み込んで保存できるアプリケーション。光学ディスク作成ツールの「B's Recorder GOLD 21」から読み出し機能を切り出し、単体購入できるようにした製品となる。CD-RやDVD-Rなど個人で作成した番組録画データや写真/動画データのバックアップなどを現行のメディアに移行する用途を想定している。
+
+　主な機能としてはメディアの劣化状態を判定する「劣化判定ツール」や、メディアの劣化によって破損しているファイルを開ける状態で読み出す「修復バックアップ」などが利用できる。メディアの劣化状態によっては読み込めない場合もあるとしている。
+
+　対応OSはWindows 11/10。製品の利用には光学ドライブが必須。
+PC Watch,関根 慎一",[],[]
+LinuxでWindowsゲームが楽しめる「Proton」が互換性向上&バグ修正多数を実施（PC Watch）,https://news.yahoo.co.jp/articles/37d4728a44505f7bbc72985f22eb2b1f1a51a8a7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000009-imppcw-000-1-view.jpg?exp=10800,2025-05-02T13:05:09+09:00,2025-05-02T13:05:09+09:00,PC Watch,imppcw,PC Watch,458,"写真：PC Watch
+Valveは、Linux上でWindowsのゲームを動かすためのレイヤー「Proton」の最新版「Proton 10.0-1(beta)」をGithubで公開した。
+
+　ProtonはValveのLinuxゲーム機「Steam Deck」にも使われている互換レイヤーで、Linux上でWindowsゲームを動かすことができる。
+
+　Proton 10.0-1(beta)では、1月に正式リリースされたWindows互換レイヤー「wine-10.0」をベースとしたほか、DirectXをVulkanに変換するレイヤー「DXVK」も2.6.1になるなど、多くの改善が図られた。
+
+　また、「Grand Theft Auto V Enhanced」のランチャーがハングアップする問題やAMD GPUで一部ゲームがクラッシュする問題、一部ゲームにおけるビデオ再生時の修正を行ない、これまでProton Experimentalでしか動作しなかったゲームの実行が可能になった。
+PC Watch,劉 尭",[],[]
+ヤマト運輸、宅急便の運賃を10月に値上げ（PC Watch）,https://news.yahoo.co.jp/articles/3e144837e694f21fe7cd0c5326bd169d130baa70,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000008-imppcw-000-1-view.jpg?exp=10800,2025-05-02T12:17:08+09:00,2025-05-02T12:17:08+09:00,PC Watch,imppcw,PC Watch,414,"写真：PC Watch
+ヤマト運輸は、10月1日から宅急便の届出運賃を改定する。外部環境の変化を反映し、2023年からは年度ごとに運賃を見直しているが、今回もその一環として実施される。
+【画像】運賃の一例(関東→関東の場合)
+対象となるのは、120サイズから200サイズまでの宅急便およびゴルフ宅急便キャディバッグ規格、スキー宅急便板規格。宅急便コンパクトや60サイズ～100サイズについては、現時点で改定は行なわれない見込み。
+
+　なお、沖縄県発着分は改定の対象外となる。法人契約顧客については、出荷数量やオペレーション負荷などを踏まえ、今後も個別に協議を進めるとしている。
+
+　改定例として、関東圏内同一地帯配送の場合、120サイズは現行の1,850円から2,040円へと190円の値上げ、200サイズでは750円増の4,470円となる。改定率の目安は約3.5%で、サイズや配送先によって変動する。
+PC Watch,劉 尭",[],[]
+ポメラに透明筐体の250台限定カラー「DM250XY Crystal Neon Yellow」（PC Watch）,https://news.yahoo.co.jp/articles/72a41999523e42a9744e9b272e0b7c38fdf0d19c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000007-imppcw-000-1-view.jpg?exp=10800,2025-05-02T12:15:08+09:00,2025-05-02T12:15:08+09:00,PC Watch,imppcw,PC Watch,498,"写真：PC Watch
+キングジムは、デジタルメモ端末「ポメラ」の限定モデル「DM250XY Crystal Neon Yellow」の抽選販売を12日正午まで実施している。250台限定で、価格は6万280円。
+【この記事に関する別の画像を見る】
+ネオンイエローカラーの透明筐体を採用した特別仕様のモデル。キングジム公式Xアカウントなどのユーザーアンケートで最も人気があった「透明」カラーの実現に向けて検討した結果生まれたという。性能/機能面の仕様はベースモデルの「DM250」と同じ。
+
+　購入にはキングジム直販ECサイトへの登録が必要。当落の連絡はEメール。初期不良については返金で対応するとしており、転売禁止を明言している。
+
+　DM250は2022年7月発売。1,024×600ドットの7型液晶やキーピッチ17mmのJIS配列日本語キーボードを搭載。1.3GBの内蔵ストレージやWi-Fi 4、Bluetooth 4.2などを備えている。
+
+　なお透明筐体を採用したポメラの限定モデルは、2023年の「DM250X Crystal」など過去にも存在している。
+PC Watch,関根 慎一",[],[]
+JAPANNEXT、モニター上部に設置するライト4種。湾曲対応も（PC Watch）,https://news.yahoo.co.jp/articles/d79adf0787fdc6a7de235178ef165489e13efce0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000006-imppcw-000-1-view.jpg?exp=10800,2025-05-02T12:09:08+09:00,2025-05-02T12:09:08+09:00,PC Watch,imppcw,PC Watch,707,"写真：PC Watch
+JAPANNEXTは、モニター上部に設置するモニターライト4機種を発売した。いずれもUSBで給電するタイプとなっている。
+【画像】JN-ML-S425R
+「JN-ML-R450R」は湾曲モニターに沿うアーチ形状を採用したモデルで、価格は1万2,980円。明るさは最大275lm。無段階もしくは4段階プリセットによる色温度調整が可能。周辺光に合わせて輝度を自動調整する機能を備え、リモコンも付属する。演色評価数は95以上。本体サイズは450×120×130mm、重量は0.4kg。
+
+　「JN-ML-S425R」は周囲を照らす背面LEDを搭載したモデルで、価格は1万1,980円。明るさは最大275lm。5段階プリセットによる色温度調整が可能なほか、周辺光に合わせて輝度を自動調整する機能も備え、リモコンが付属する。演色評価数は95以上。本体サイズは425×103×157mm、重量は0.6kg。
+
+　「JN-ML-S400R」は本体操作で輝度や色温度を変更できるモデルで、価格は9,980円。明るさは最大255lm。色温度は無段階もしくは4種類のプリセット。周辺光に合わせて輝度を自動調整する機能も備え、リモコンが付属する。演色評価数は97以上。本体サイズは390×80×105mm、重量は0.3kg。
+
+　「JN-ML-S400-BL」は背面にRGBライティングを搭載したゲーミング環境向けモデルで、価格は7,980円。明るさは最大180lm。色温度は3種類のプリセットから選べる。演色評価数は95以上。本体サイズは400×110×115mm、重量は0.3kg。
+PC Watch,劉 尭",[],[]
+"Xbox Series X/Sが最大2万1,000円の値上げ（PC Watch）",https://news.yahoo.co.jp/articles/e9a229d8e502ba6b851138b1cf03e6c90fd868c6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000005-imppcw-000-1-view.jpg?exp=10800,2025-05-02T12:01:11+09:00,2025-05-02T12:01:11+09:00,PC Watch,imppcw,PC Watch,392,"写真：PC Watch
+Microsoftは、Xbox Series X/Sの価格改定を発表した。新価格は5月1日より適用されており、すべて値上げが実施される。
+
+　国内でもすでに新価格が適用されており、Xbox Series Sで最大1万8,000円、Xbox Series Xで最大2万1,000円ほどの値上げが行なわれた。各製品の新旧価格は以下の通り。
+
+・Xbox Series S(512GB) : 4万4,578円→6万2,480円
+・Xbox Series S(1TB) : 4万9,978円→6万7,480円
+・Xbox Series X デジタルエディション : 5万9,978円→7万9,980円
+・Xbox Series X : 6万6,978円→8万7,980円
+
+　合わせて、一部を除くコントローラ製品の値上げも実施されている。
+PC Watch,宇都宮 充",[],[]
+2万980円のUSB Type-C搭載23.8型ゲーミングモニター（PC Watch）,https://news.yahoo.co.jp/articles/ecaf98b506127eefb25e330071e6b2605c05cc36,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000004-imppcw-000-1-view.jpg?exp=10800,2025-05-02T11:42:08+09:00,2025-05-02T11:42:08+09:00,PC Watch,imppcw,PC Watch,395,"写真：PC Watch
+JAPANNEXTは、65W給電対応のUSB Type-Cポートを備えた23.8型ゲーミングモニター「JN-IPS238G120F-C6」を発売した。価格は2万980円。
+
+　主な仕様は、パネルが非光沢IPS(HIS)、解像度が1,920×1,080ドット、リフレッシュレートが120Hz、表示色数が1,677万色、色域がsRGB、応答速度が中間色8ms/MPRT 0.5ms、輝度が350cd/平方m、コントラスト比が1,200:1、視野角が上下/左右ともに178度。
+
+　インターフェイスはUSB Type-C(65W給電対応)、DisplayPort 1.2、HDMI 1.4、音声出力。2W+2Wのステレオスピーカーも内蔵する。
+
+　スタンドは-5～15度のチルトに対応。本体サイズは542×151×403mm、重量は約2.6kg。
+PC Watch,劉 尭",[],[]
+賢いAIノート「NotebookLM」が待望のモバイルアプリ化（PC Watch）,https://news.yahoo.co.jp/articles/f2db43acf7f42e545a94dbe98dfc6e2b623de7d1,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000003-imppcw-000-1-view.jpg?exp=10800,2025-05-02T11:35:10+09:00,2025-05-02T11:35:10+09:00,PC Watch,imppcw,PC Watch,301,"写真：PC Watch
+アップロードした資料などに対してLLMで質問して答えを引き出したりできる「NotebookLM」のAndroid/iOS版が近日中に公開される。現在アプリストアで事前登録することができ、利用可能になった際に自動的にダウンロードされる。
+
+　NotebookLMは、研究論文や取材記録、参照文献など複雑な資料をアップロードするとAIがそれを自動的に解釈し、ユーザーの質問や指示に対応し、理解や執筆をサポートする。昨年(2024年)には日本でもサービス展開している。
+
+　今回、ユーザーからアプリ版の要望が多く寄せられたためアプリ版をリリースするに至った。
+PC Watch,劉 尭",[],[]
+新型Surfaceが5月6日に発表？Microsoftが予告（PC Watch）,https://news.yahoo.co.jp/articles/bfc3e084b24870954028a6206cf74f3ac8314420,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-02T11:26:08+09:00,2025-05-02T11:26:08+09:00,PC Watch,imppcw,PC Watch,190,"Microsoftは2日、Surfaceに関する新情報を5月6日に発表すると予告した。
+
+　Microsoft Surfaceの公式Xアカウントにて予告されたもの。あわせて投稿された画像では、水面のような背景とともにCopilot+ PCのロゴが描かれており、製品のシルエットなどは明らかにされていないものの、新たなAI PC製品が投入されるようだ。
+PC Watch,宇都宮 充",[],[]
+ガチくんに! 第368回 本気の手料理でガチくんの誕生日をお祝い（PC Watch）,https://news.yahoo.co.jp/articles/791adf42fd1db51ff5dab75471375ee63dcfe548,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250502-00000001-imppcw-000-1-view.jpg?exp=10800,2025-05-02T06:00:10+09:00,2025-05-02T06:00:10+09:00,PC Watch,imppcw,PC Watch,269,"写真：PC Watch
+※毎週木曜日にプロ格闘ゲームプレイヤーであるガチくんをパーソナリティに迎え、ストリートファイター6攻略企画「ガチくんに!」をTwitchで配信しています。レギュラー出演者はカワノ、ぷげら、奥村茉実。ここでは当日放送したおおまかな内容を紹介するとともに、YouTubeにアップロードしたアーカイブの動画を掲載しています。
+
+　4月24日の配信は、ガチくんの誕生日企画となるお料理回。ぷげらさん、さはらさん、奥村さんの3人で、ガチくんに本気の手料理を振る舞っていただきました。
+PC Watch,PC Watch編集部",[],[]
