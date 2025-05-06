@@ -1,0 +1,153 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+【盃がすぐに空いて困っちゃう】どしっとした日本酒に合いまくる「牛肉の西京漬け」のつくり方（dancyu）,https://news.yahoo.co.jp/articles/ff2332fe86c03950700b8c67e3af9d61f28927e6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250505-00009683-dancyu-000-1-view.jpg?exp=10800,2025-05-05T11:00:00+09:00,2025-05-05T11:00:00+09:00,dancyu,dancyu,dancyu,3045,"写真：dancyu
+甘味を効かせた味噌漬け牛肉は、旨味が濃いどっしりとした日本酒と相性抜群！春餅で巻いて召し上がれ。料理家の先輩きじまりゅうたさんと、後輩吉田愛さん。同じお題で、それぞれが自慢のつまみをつくってもらいました！
+【写真を見る】【盃がすぐに空いて困っちゃう】どしっとした日本酒に合いまくる「牛肉の西京漬け」のつくり方
+■お題「春餅はつまみだ。」
+
+【吉田】春餅には甘辛い味が合うのかなと思い、白味噌とみりんで甘味を効かせた味噌漬けの焼き肉にしてみました。りゅうたさんが用意してくれた薬味と一緒に巻いて食べても◎。
+
+
+■“牛肉の西京漬け”のつくり方
+
+
+◇材料 (2人分)
+春餅：適量（※）
+牛肉：200ｇ（焼き肉用）
+A ：
+・ 白味噌：大さじ2
+・ みりん：大さじ1
+・ 醤油：小さじ1
+・ 七味唐辛子：少々
+
+/* --- 商品リスト全体のスタイル --- */
+.product-container {
+display: flex; /* 子要素(商品アイテム)を横並びにする */
+flex-wrap: wrap; /* 画面幅に応じて折り返す */
+gap: 20px; /* 商品アイテム間の隙間 (上下左右) */
+/* justify-content: center; */ /* アイテムを中央揃えにしたい場合 */
+/* justify-content: flex-start; */ /* アイテムを左揃えにしたい場合 (デフォルト) */
+margin-bottom: 20px; /* リスト全体の下に余白 */
+}
+/* --- 個々の商品アイテムのスタイル --- */
+.product-item {
+border: 1px solid
+#ccc
+; /* 枠線 */
+padding: 15px; /* 内側の余白 */
+width: 230px; /* 各商品アイテムの基本幅 (サイトに合わせて調整可) */
+text-align: center; /* 中身を中央揃え */
+font-family: sans-serif; /* 基本フォント */
+box-sizing: border-box; /* paddingとborderをwidthに含める */
+display: flex; /* アイテム内の要素を縦に並べる準備 */
+flex-direction: column; /* アイテム内の要素を縦方向に配置 */
+justify-content: space-between; /* アイテム内の要素(特にボタン)を上下に配置 */
+}
+/* --- 商品画像のスタイル --- */
+.product-item img {
+max-width: 50%; /* 画像がアイテム幅を超えないように */
+height: auto; /* 高さを自動調整 */
+border: none; /* 枠線なし */
+margin-bottom: 10px; /* 画像の下に余白 */
+}
+/* --- 商品名リンクのスタイル --- */
+.product-item .product-name {
+display: block; /* ブロック要素として扱う */
+margin-bottom: 15px; /* 商品名の下に余白 */
+font-weight: bold; /* 太字 */
+color:
+#0F1111
+; /* 文字色 */
+text-decoration: none; /* 下線なし */
+flex-grow: 1; /* ボタンが下に配置されるようにスペースを埋める */
+}
+.product-item .product-name:hover {
+text-decoration: underline; /* ホバー時に下線を表示 (任意) */
+}
+/* --- ボタン風リンクのスタイル --- */
+.product-item .amazon-button {
+display: inline-block; /* インラインブロック要素 */
+padding: 8px 15px; /* ボタン内の余白 */
+background-color:
+#FFD814
+; /* ボタン背景色 (Amazon風) */
+color:
+#0F1111
+; /* ボタン文字色 */
+border-radius: 8px; /* ボタンの角丸 */
+text-decoration: none; /* 下線なし */
+font-size: 14px; /* 文字サイズ */
+font-weight: bold; /* 太字 */
+border: 1px solid
+#FCD200
+; /* ボタン枠線 */
+box-shadow: 0 2px 5px rgba(213,217,217,.5); /* ボタンの影 */
+margin-top: auto; /* 上に他の要素があれば下に配置 */
+transition: background-color 0.2s ease; /* ホバー効果用 */
+}
+.product-item .amazon-button:hover {
+background-color:
+#F7CA00
+; /* ホバー時の背景色 (少し濃く) */
+}
+/* --- (任意) スマホ表示などで幅を調整する場合のメディアクエリ --- */
+@media (max-width: 560px) { /* 画面幅が560px以下の場合 */
+.product-item {
+/* 画面幅いっぱいの50%からgapの半分(10px)を引いた幅 = 2列表示 */
+width: calc(50% - 10px); 
+}
+}
+@media (max-width: 400px) { /* 画面幅が400px以下の場合 */
+.product-item {
+/* 1列表示 */
+width: 100%;
+}
+}
+
+ 
+ 
+
+
+
+
+【西京白みそ】
+
+
+Amazonで詳細を見る
+
+ 
+
+
+
+
+
+【本みりん】
+
+
+Amazonで詳細を見る
+
+
+
+
+
+（1）下ごしらえ
+ジッパー付き保存袋（または厚手のポリ袋）にAを入れて混ぜ、牛肉を加えてもみ混ぜ、15分ほど漬ける。
+
+（2）焼く
+ホットプレートを180℃に熱し、①を並べて肉に火が通るまで焼く。春餅の皮で巻いて食べる。
+---------------
+――教える人
+
+
+「きじまりゅうた　料理研究家」
+祖母も母も料理研究家という家庭で生まれ育ち、自身も同じ道へ。左党の血もしっかり受け継いでいる。家飲みはもちろん、気のおけない仲間との外飲みも大好き。つまみ系著書に『毎日絶品！「サバ缶」おつまみ』（青春出版社）などがある。
+
+
+
+「吉田 愛　料理研究家」
+料理家のアシスタントや和食店での修業を経て、料理家として独立。佳肴がありそうな居酒屋を発見すると、一人でも果敢に暖簾をくぐる行動派。大の日本酒党で唎酒師の資格を持つ。つまみ系著書に『温故知新和食つまみ』（成美堂出版）。
+
+---------------
+この記事は『四季dancyu　2024春』に掲載したものです。
+
+文：佐々木香織　写真：伊藤徹也
+佐々木 香織",[],[]
