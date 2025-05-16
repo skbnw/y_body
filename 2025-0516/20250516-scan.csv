@@ -1,0 +1,62 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+a-blog cms に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/edb186a61ccf4742a1ed7abdc8134e88fab5d190,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-16T08:00:21+09:00,2025-05-16T08:00:21+09:00,ScanNetSecurity,scan,ScanNetSecurity,1274,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は5月14日、a-blog cmsにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。Viettel Cyber Securityのhaidv35（Dinh Viet Hai）氏とVCSLab of Viettel Cyber Securityのvcth4nh（Vu Chi Thanh）氏が報告を行っている。影響を受けるシステムは以下の通り。
+・CVE-2025-27566、CVE-2025-32999
+a-blog cms Ver. 3.1.43より前のバージョン（Ver. 3.1.x系）
+a-blog cms Ver. 3.0.47より前のバージョン（Ver. 3.0.x系）
+※すでにサポートが終了しているa-blog cms Ver. 2.11以前のバージョンも本脆弱性の影響を受ける
+・CVE-2025-36560、CVE-2025-41429
+a-blog cms Ver. 3.1.43およびそれ以前のバージョン（Ver. 3.1.x系）
+a-blog cms Ver. 3.0.47およびそれ以前のバージョン（Ver. 3.0.x系）
+a-blog cms Ver. 2.11.75およびそれ以前のバージョン（Ver. 2.11.x系）
+a-blog cms Ver. 2.10.63およびそれ以前のバージョン（Ver. 2.10.x系）
+a-blog cms Ver. 2.9.52およびそれ以前のバージョン（Ver. 2.9.x系）
+a-blog cms Ver. 2.8.85およびそれ以前のバージョン（Ver. 2.8.x系）
+※すでにサポートが終了しているa-blog cms Ver. 2.7.x以前のバージョンも本脆弱性の影響を受ける
+有限会社アップルップルが提供するa-blog cmsには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・パストラバーサル（CVE-2025-27566）
+→サーバー上の任意のファイルを取得されたり削除されたりする
+・クロスサイトスクリプティング（CVE-2025-32999）
+→当該製品にログインしているユーザーのウェブブラウザ上で任意のスクリプトを実行される
+・サーバサイドリクエストフォージェリ（CVE-2025-36560）
+→細工したリクエストを処理することで機微な情報にアクセスされる
+　CVE-2025-41429と組み合わせることで、正規ユーザーのセッションを乗っ取られる
+・ログ出力内容の不十分な無害化（CVE-2025-41429）
+→CVE-2025-36560と組み合わせることで、正規ユーザーのセッションを乗っ取られる
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+アイ・オー・データ製ネットワーク接続ハードディスク「HDL-Tシリーズ」に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/f8b7b62562f42e59b1c551121ed26136a912d7c7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-16T08:00:18+09:00,2025-05-16T08:00:18+09:00,ScanNetSecurity,scan,ScanNetSecurity,648,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は5月14日、アイ・オー・データ製ネットワーク接続ハードディスク「HDL-Tシリーズ」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏と神野亮氏が報告を行っている。影響を受けるシステムは以下の通り。
+HDL-Tシリーズファームウェア Ver.1.21およびそれ以前
+また、対象製品は以下の通り。
+HDL-TC1
+HDL-TC500
+HDL-T1NV
+HDL-T1WH
+HDL-T2NV
+HDL-T2WH
+HDL-T3NV
+HDL-T3WH
+株式会社アイ・オー・データ機器が提供するネットワーク接続ハードディスク「HDL-Tシリーズ」には、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・OSコマンドインジェクション（CVE-2025-32002）
+→遠隔の攻撃者によって認証無しで任意のOSコマンドを実行される
+・重要な機能に対する認証欠如（CVE-2025-32738）
+→遠隔の攻撃者によって認証無しで当該製品の設定を変更される
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。本脆弱性は「HDL-Tシリーズファームウェア Ver.1.22」で修正されている。
+ScanNetSecurity ScanNetSecurity",[],[]
+悪用の事実を確認済みの脆弱性が 5 件 ～ マイクロソフト 5 月のセキュリティ情報公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/303979eb65340bc63b09621152f0d25b8d43ea11,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-16T08:00:14+09:00,2025-05-16T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,1097,"独立行政法人 情報処理推進機構（IPA）は5月14日、「Microsoft 製品の脆弱性対策について(2025年5月)」を発表した。一般社団法人 JPCERT コーディネーションセンター（JPCERT/CC）も「2025年5月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2025年5月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v24H2, v23H2
+Windows 10 v22H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019 , 2016 (Server Core installation を含む)
+Remote Desktop client for Windows Desktop
+Microsoft Office
+Microsoft SharePoint
+Microsoft .NET
+Microsoft Visual Studio
+Microsoft Azure
+Microsoft Defender
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また「スクリプトエンジンのメモリ破損の脆弱性（CVE-2025-30397）」「Microsoft DWM Coreライブラリの特権の昇格の脆弱性（CVE-2025-30400）」「Windows共通ログファイルシステムドライバーの特権の昇格の脆弱性（CVE-2025-32701）」「Windows共通ログファイルシステムドライバーの特権の昇格の脆弱性（CVE-2025-32706）」「WinSock用Windows Ancillary Function Driverの特権の昇格の脆弱性（CVE-2025-32709）」については、Microsoft 社が「悪用の事実を確認済み」と公表しており、被害拡大のおそれがあるため、至急、修正プログラムを適用するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
