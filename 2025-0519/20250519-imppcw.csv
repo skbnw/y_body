@@ -1,0 +1,340 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Intel、GPUを最大8つ束ねてAI性能を高める「Project Battlematrix」（PC Watch）,https://news.yahoo.co.jp/articles/3e783248e980671fc04d1a564e38e5229bf5ab0a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000017-imppcw-000-1-view.jpg?exp=10800,2025-05-19T19:30:13+09:00,2025-05-19T19:30:13+09:00,PC Watch,imppcw,PC Watch,2094,"写真：PC Watch
+Intelは、COMPUTEX TAIPEI 2025において、Xe2アーキテクチャに基づく最新GPUとなる開発コードネーム「Battlemage」に基づいたプロ向け製品「Intel Arc Pro B」シリーズを発表した。
+【画像】Project Battlematrix
+Arc Pro Bシリーズの詳細に関しては別記事が詳しいため、そちらをご参照いただきたいが、Arc Pro BシリーズをスケールアップしてAI推論に利用する取り組みとなる「Project Battlematrix」の開発意向表明を行なった。
+
+　Project Battlematrixでは、1つのシステムに最大8つのArc Pro BシリーズのGPUを搭載して、最大192GBのVRAMを搭載している1つのGPUにスケールアップして利用することができる。IntelはProject Battlematrixを実現するソフトウェアを現在開発中で、具体的な時期などは現時点では明らかではないが、最終的に公開していく計画だ。
+
+■ ワークステーション用のB60を利用して、AI推論を引き上げるProject Battlematrix
+
+　生成AIが普及して利用が進んできたことが、開発者にとっての興味が、“学習(ラーニング)時の性能”だけでなく、“推論時(インファレンス)の性能”にも広がりつつある。生成AIはモデルのサイズなどが大きくなってきており、学習したモデルを利用してアプリケーションを実行する時(つまり推論時)に必要な処理能力が学習に匹敵するようになってきているからだ。
+
+　そのため、半導体メーカー各社は推論向けの半導体ソリューションに力を入れており、従来の学習はGPU、推論はCPUという棲み分けから、推論でもGPUを使う例が増えている。
+
+　今回Intelが開発意向表明を行なったProject Battlematrix、誤解を恐れずに言えば、クライアントワークステーション用として販売されるArc Pro Bを複数束ねて、1つの大きなGPUとして利用するというソフトウェアスタックだ。
+
+　AI用の半導体では、こうしたソリューションは別に珍しいものではなく、たとえば学習用のNVIDIA GPU(B200、H200などなど)は、NVLinkというNVIDIAのチップ間インターコネクトを利用して接続され、CUDAなどのソフトウェアスタックにより、8つのGPUを1つのGPUとして扱うことができる。こうしたやり方を“スケールアップ”と呼ぶ。
+
+　ちなみにさらに大規模な場合にはネットワークコントローラで機器同士を接続することで、数千個や数万個といったGPUを1つのGPUとして扱えるようにするやり方を“スケールアウト”と呼んでいる。
+
+　Project Battlematrixでは、スケールアップにチップ間の接続としてPCIe 5.0という標準のバスアーキテクチャを利用するが、最大で8つまでのArc Pro Bシリーズを1つのGPUとして活用することが可能になる。
+
+　Arc Pro Bシリーズの上位グレードになるB60は、VRAMが24GBとこのクラスのカードとして大容量メモリを搭載しているので、それが8つ束ねられると、最大192GBのVRAMを利用することが可能になり、NVIDIAのB200に匹敵する巨大なVRAMを利用することが可能になる。
+
+■ 比較的ローコストなB60を複数使用してそれなりに高性能なシステムを構築できるのがメリット
+
+　Intel製品の場合、メモリがNVIDIA B200のように広帯域幅のHBMではなくGDDR6だし、チップ間の接続もNVLinkのような広帯域インターコネクトではなく標準のPCIe 5.0だ。そのため性能面ではそれらと比べようもないが、低コストで構築できるのはメリットだ。
+
+　必要な要件は、システム側がPCIe 5.0に対応しているXeonプロセッサであることぐらいなので、現在ワークステーションとして利用しているPCを転用することができるし、AI専用のGPUに比べれば安価なArc Bシリーズを利用して構築できるのはコスト面での効果が大きいと言える。
+
+　今回Intelは、4枚のB60を、Xeonを搭載したワークステーションに挿して、実際にAI推論アプリケーションを実行するデモを行なった。4枚のB60はVRAMが96GB(24GB×4)となるので、より大規模なAI推論アプリケーションを実行することができていた。
+
+　Intelによれば、PCIeスロットの数にも制限があるため、8つの場合には1つのカードに2つのGPUが搭載されているデュアルGPUカードを利用して実現するという(なお現時点ではそのB60のデュアルカードがいつリリースされるのかなどの情報はない)。
+
+　Project Battlematrixは現在開発中で、開発が完了し次第順次公開されていく計画とのことだった。
+PC Watch,笠原 一輝",[],[]
+Yes！最大VRAM 24GB。LLMに効くプロ向けGPU「Intel Arc Pro B」（PC Watch）,https://news.yahoo.co.jp/articles/5a649b191c49c3708872ee575ca1df18f1c910df,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000016-imppcw-000-1-view.jpg?exp=10800,2025-05-19T19:30:12+09:00,2025-05-19T19:30:12+09:00,PC Watch,imppcw,PC Watch,2388,"写真：PC Watch
+IntelはCOMPUTEX TAIPEI 2025に出展し、会場のブースや台北市内のホテルなどで同社の顧客などを対象にしたさまざまなイベントを行なっている。
+【画像】BattlemageのBMG-G21のダイとパッケージ
+そうした中で、最新GPUアーキテクチャ「Xe2」を採用したワークステーション向けGPU「インテルArc Pro B」シリーズ(以下Arc Pro B)を発表した。一般消費者向けのArc Bシリーズにも採用されている開発コードネーム「Battlemage」を採用した製品で、上位版のB60とB50の製品が用意されている。特に上位版のB60は、VRAMが24GBでAI推論の需要に応えた仕様となっている。
+
+　現在OEMメーカーなどにサンプル出荷が開始されており、第3四半期に市場に出回る見通しだとIntelは説明している。
+
+■ Xe2「Battlemage」のワークステーション版となるArc Pro Bシリーズ
+
+　IntelのGPUは、以前は内蔵GPU専用になっていたが、2020年に投入したインテル第11世代Core(開発コードネーム:Tiger Lake)の統合GPUとなるXe-LPに、統合型CPUから単体GPUまで伸縮可能なアーキテクチャを採用した「Xeアーキテクチャ」を導入した。
+
+　その後Xeアーキテクチャは、「インテルArc A」シリーズ(以下Arc A)として単体GPUに採用され、一般消費者向けに販売。その後プロフェッショナルワークステーション向けに「インテルArc Pro A」シリーズ(以下Arc Pro A)として発表され投入され、単体GPUへと広がりを見せた。
+
+　そして、昨年(2024年)の9月に発表された「Core Ultra 200V」(開発コードネーム:Lunar Lake)では、Xeアーキテクチャの第2世代となるXe2アーキテクチャの統合GPUが内蔵され、CPUと合わせて大きな性能向上を実現した。
+
+　Xe2は、その後開発コードネーム「Battlemage」として開発された単体GPUにも採用され、昨年の12月に「インテルArc B」シリーズ(以下Arc B)として発表され、製品が市場に投入されている。
+
+　今回発表されたArc Pro Bシリーズは、Arc Bシリーズと同じBattlemageベースで、ダイは「BMG-G21」が採用されており、2つのSKU(B50、B60)はBMG-G21から派生する形で実現されている。
+
+　B60はBMG-G21のフルスペックのダイになり、一般消費者向けのB580に相当する製品となる。B580との最大の差別化ポイントはVRAMで、B580が12GBであるのに対して、B60は24GBと2倍の容量が搭載されている。
+
+　B50はBMG-G21のフルスペックからXe2コアが4つ減らされており、それに合わせてXMXのエンジン数も減っている。一般消費者向けの下位モデルとなるB560は、フルスペックから2つ減らされているので、B50は一般消費者向けモデルには該当する製品がないことになる。B560と比べると演算器は少ないが、メモリは16GBと、B560の10GBより多くなっている。
+
+　提供されるドライバは2種類で、ゲームタイトルのDay0対応(新しいAAAタイトルがリリースされると行なわれるアップデートのこと)が行なわれる一般消費者向けのドライバは随時アップデートが行なわれ、ISV認証(プロ用のアプリケーションで必要となるソフトウェアベンダーが認証すること)に対応したプロ用のドライバは四半期に1度アップデートが行なわれる。Arc Pro Bシリーズは、どちらかのドライバから1つを選んで使うことが可能だ。
+
+■ 世代間の性能向上幅は最大3倍、メモリが増えていることがアドバンテージ
+
+　Intelが公開したデータによれば、前世代のIntel Arc Pro A50(6GB)と、今回発表されたIntel Arc Pro B50(16GB)を比較した場合、性能では最大3倍の向上が見込め、平均すると性能では2.3倍、電力効率では2.4倍の改善が期待できるという。
+
+　競合他社との比較では、「NVIDIA RTX A1000」(8GB、Intelの調査では市場価格が409ドル)との比較では性能では上回っており、かつ価格はB50が299ドルと、むしろ安くなっており、価格性能比が高いとIntelはアピールしている。
+
+　B60と、競合他社製品となるNVIDIA RTX 2000 Ada 16GB、NVIDIA GeForce RTX 5060 Ti 16GBとで比較すると、メモリ16GBを使い切れないLLMでは、NVIDIA側の性能が高くなるものの、負荷が高いパラメータ数が多いLLMではメモリの制限がくることで、24GBメモリを搭載しているB60が上回ると説明している。なお、IntelはB60の価格に関しては現時点では何も言及していない。
+
+　B60はASRock、GUNNIR、MAXSUN、SPARKLE、ONIX、senao、LannerなどのOEMメーカーから販売される計画。B50に関してはOEMメーカーに関しての言及はなかったが、COMPUTEXではIntelブランドとみられるボードが展示されていた。
+
+　Arc Pro Bは現在顧客向けにサンプル出荷が行なわれており、第3四半期に提供開始される予定。ただし、出荷時点ではすべての機能がサポートされるわけではなく、第4四半期に予定されているドライバアップデートなどでフル機能が使えるようになる形で提供されるとIntelは説明した。
+PC Watch,笠原 一輝",[],[]
+キオクシア、2.5インチで最大容量61.44TBのエンタープライズ向けSSD（PC Watch）,https://news.yahoo.co.jp/articles/25367d5567651f2330a61523adbeebfee6846f67,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000015-imppcw-000-1-view.jpg?exp=10800,2025-05-19T18:25:07+09:00,2025-05-19T18:25:07+09:00,PC Watch,imppcw,PC Watch,800,"写真：PC Watch
+キオクシアは、AI、マシンラーニング、ハイパフォーマンスコンピューティング向けのNVMe SSD「KIOXIA CM9シリーズ」を発表した。試作品は22日までラスベガスで開催されるDell Technologies Worldで参考展示される。
+
+　CMOS directly Bonded to Array(CBA)技術を活用した第8世代BiCS FLASH TLCフラッシュメモリを採用している。メモリセルの制御を担うCMOS回路とメモリセルアレイを別々のウェハで作り込み、メモリセルアレイ側のウェハを反転させて2枚のウェハを貼り合わせる技術で、フラッシュメモリの速度向上、高密度化、および消費電力の低減を実現し、SSDの性能向上に貢献するとしている。
+
+　前世代機の「KIOXIA CM7」シリーズと比較して、ランダムライトで約65%、ランダムリードで約55%、シーケンシャルライトで約95%の性能向上を実現。消費電力1Wあたりの性能も向上し、シーケンシャルリードで約55%、シーケンシャルライトで約75%の効率改善を達成したという。
+
+　転送速度は、最大リードが14.8GB/s、最大ライトが11GB/s、ランダム性能(4KiB)がQD512で3,400KIOPS、QD32で800KIOPS。
+
+　インターフェイスはPCIe 5.0/NVMe 2.0/NVMe-MI 1.2c/OCP Datacenter NVMe SSD 2.5で、フォームファクタは2.5インチおよびEDSFF(E3.S)、デュアルポートに対応。2.5インチモデルの最大容量は61.44TB、E3.Sモデルは最大30.72TBとなっている。1DWPD(Drive Write Per Day)のリードインテンシブモデルと3DWPDのミックスユースモデルを用意する。
+PC Watch,稲津 定晃",[],[]
+ヤマト運輸、システムエラーで電子マネーなど一部支払い方法が利用不可に（PC Watch）,https://news.yahoo.co.jp/articles/733bbca4b8143cf3f759667d1e650ef96bb407d7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000014-imppcw-000-1-view.jpg?exp=10800,2025-05-19T16:57:07+09:00,2025-05-19T16:57:07+09:00,PC Watch,imppcw,PC Watch,261,"写真：PC Watch
+ヤマト運輸は19日、12時30分時点の情報として、一部サービスにおける支払い方法が利用できなくなっていると発表した。原因はシステムエラーによるもの。
+
+　具体的には、「宅急便運賃」および「資材の購入」、「宅急便コレクト決済」において電子マネーでの支払いができず、宅急便コレクト決済ではクレジットカードによる支払いも不可になっている。
+
+　このため、現金(宅急便コレクト決済はこの手段のみ)、もしくはコード決済、「にゃんPay」といった代替手段を利用するよう呼びかけている。
+PC Watch,劉 尭",[],[]
+300兆桁の「最も正確な円周率の値」が算出。最後の桁は……（PC Watch）,https://news.yahoo.co.jp/articles/699cb81a965a02fad12de96eee54ebf37d1e3c4c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000013-imppcw-000-1-view.jpg?exp=10800,2025-05-19T16:09:07+09:00,2025-05-19T16:09:07+09:00,PC Watch,imppcw,PC Watch,592,"写真：PC Watch
+テクノロジー専門のYouTubeチャンネルを運営するLinus Media Groupは、300兆桁の円周率を計算し、「最も正確な円周率の値」としてギネス世界記録を樹立した。
+【この記事に関する別の画像を見る】
+円周率は3.14から始まる無限かつ規則性のない数(無理数)であることから、その計算は演算処理のベンチマークとして使われるが、今回、これまでのギネス世界記録(62兆桁)を約5倍上回る300兆桁に達した。円周率300兆桁目は「5」だった。
+
+　今回の計算にはマルチスレッドで円周率を計算する「y-cruncher」というソフトウェアが使われている(バージョンv0.8.5.9543)。CPUはAMD EPYC 9684X(192コア/SMTオフ)、メモリは3TB、OSはUbuntu 22.04で、かかった時間は225日だった。
+
+　計算にあたって、キオクシアの30.72TBのNVMe対応エンタープライスSSD「CM」シリーズ、および15.36TBのNVMeデータセンターSSD「CD」シリーズが使われ、総容量2.2PBに達した。デュアルCPUのコンピュートサーバーに接続され、ネットワークに接続されたストレージ環境において、7カ月半に渡って一度も故障することなく演算処理を行ない、性能/耐久性/品質の高さを証明したという。
+PC Watch,劉 尭",[],[]
+GeForce RTX 5060が販売開始。DOOM新作は6月にパストレ対応へ（PC Watch）,https://news.yahoo.co.jp/articles/2fb8c71261a04eff62168fb36b24d549a22a4fb8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000012-imppcw-000-1-view.jpg?exp=10800,2025-05-19T15:00:09+09:00,2025-05-19T15:00:09+09:00,PC Watch,imppcw,PC Watch,976,"写真：PC Watch
+NVIDIAは19日、COMPUTEX TAIPEI 2025にあわせ、コンシューマ向け製品に関する各種アップデートを発表した。
+【画像】AAAタイトルを含むさまざまなゲームで100fps以上でのプレイを実現
+GPU製品では、ミドルクラスGPU「GeForce RTX 5060」が19日に登場。上位のGeForce RTX 5060 Tiとともに発表されていたが、今回販売が始まったかたち。主要メーカーより採用製品が順次投入され、価格はデスクトップ向けビデオカードが299ドル(国内では5万5,800円)から、搭載ノートPCが1,099ドルから。
+
+　DLSS 4の活用により、フルHD/最高設定で100fps以上を発揮できるなど、AAAタイトルを含むさまざまなゲームタイトルを快適にプレイ可能。モバイル向けでは、Max-Qデザインにより、厚さ14.9mmの薄型設計やより長時間のバッテリ駆動を実現できるとしている。また、GPUラインナップのさらなる拡充により、幅広いゲーマーがBlackwellアーキテクチャによる恩恵を受けやすくなるという。
+
+　また、1月にGeForce RTX 50シリーズとともに投入されたDLSS 4は、すでに125以上のゲームおよびアプリで利用可能になっていると説明。DLSS 3のときと比べても急速に採用が拡大しているとアピールした。
+
+　先日発売された「DOOM:The Dark Ages」では、DLSS 4をサポートしているのに加え、6月にはパストレーシングとDLSS Ray Reconstructionに対応予定であることがアナウンスされた。より正確で高品質な光の表現が可能になるとしている。
+
+　そのほか、古いゲームの高画質化やレイトレーシング対応を実現するプラットフォーム「RTX Remix」のアップデートとして、「Portal with RTX」がDLSS 4やRTX Neural Radiance Cache(ニューラルネットワークでパストレーシングを支援する技術)を新たにサポートした。また、ゲーム用Modの公開サイト「ModDB」において、5万ドル以上の賞金を用意する「RTX Remix Mod Contest」も実施する予定だという。
+PC Watch,宇都宮 充",[],[]
+Wooting、入力遅延0.125msのゲーミングキーボード「60HE V2」（PC Watch）,https://news.yahoo.co.jp/articles/ed4af27ba81057eea73284a1f6668b20049e976c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000011-imppcw-000-1-view.jpg?exp=10800,2025-05-19T13:56:07+09:00,2025-05-19T13:56:07+09:00,PC Watch,imppcw,PC Watch,764,"写真：PC Watch
+Wootingは、有線ゲーミングキーボード「60HE V2」を発表した。発売時期は2025年第4四半期。価格は未発表。
+
+　ラピッドトリガー採用の60%キーボードで、2022年に発売した「60HE」の後継モデル。最大8,000Hzのポーリングレートをサポートし、公称の入力遅延は0.125ms。キースイッチはLekkerのTikkenでアクチュエーションポイントは0.1～4mm。押下耐久性は約1億回。
+
+　筐体はアルミ製。右のAltキー下にある穴に専用の器具を差し込むことでキーボード部分を簡単に着脱できる。清掃など手入れの負担が少ないほか、Wootingがオプションとして用意している60HE用交換ケースへの着脱も想定している。筐体の側面には着脱式のストラップホルダーを装着可能。
+
+　そのほか詳細な仕様は公開していないが、現行モデルと方針が同じであればインターフェイスは有線のみでUSB Type-C接続になることが予想できる。
+
+The Wooting 60HE v2 has been revealed!
+Available Q4 2025
+
+⚡️True 8Khz polling
+✨Aluminium case
+🤤New switches: Lekker Tikken
+💨Rapid trigger
+💯Everything you expect from a Wooting keyboard
+
+Learn more about the 60HE v2 on our website: https://t.co/z1XNmWLkQp pic.twitter.com/9G91m6MwOo
+
+— Wooting (@WootingKB) May 16, 2025
+PC Watch,関根 慎一",[],[]
+GB202ベースのGPUサーバー「RTX PRO Server」（PC Watch）,https://news.yahoo.co.jp/articles/ecef089ab6a14015c0d0c3087945d179a3ae8725,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000008-imppcw-000-2-view.jpg?exp=10800,2025-05-19T13:45:11+09:00,2025-05-19T15:00:33+09:00,PC Watch,imppcw,PC Watch,1506,"写真：PC Watch
+NVIDIAは、COMPUTEX TAIPEI 2025に出展し、最新製品などをアピールしている。イベント開始に先立って、5月19日にはNVIDIA CEO ジェンスン・フアン氏が基調講演を行ない新製品を発表した。
+【画像】NVIDIA RTX PRO 6000 Blackwell Server Edition GPU(写真提供:NVIDIA)
+この中で3月に開催したGTC 25で発表した、「NVIDIA RTX PRO 6000 Blackwell Server Edition GPU」を採用したエンタープライズサーバー向け製品「RTX PRO Server」を発表した。
+
+■ GB202ベースのRTX PROから構成されているRTX PRO Server
+
+　RTX PRO Serverは、GTC 25で発表したサーバー向けのRTX PRO製品となる「NVIDIA RTX PRO 6000 Blackwell Server Edition GPU」を搭載したエンタープライズ向けのサーバー製品となる。
+
+　サーバー仕様のBlackwell GPUというと、B200やB100のようなHPC向けの製品(SXMと呼ばれる形状になる)を思い浮かべるかもしれないが、RTX PRO 6000 Blackwell Server Edition GPUは、それとは別のラインになる。
+
+　RTX PRO 6000 Blackwell Server Edition GPUのダイは「GeForce RTX 5090」などに採用されているGB202がベースになっており、メモリもHBMではなくGDDR7になっていること、形状がPCI Express拡張カードであることなど、基本的にはRTX PRO(以前はQuadroと呼ばれていたワークステーション向けシリーズ)の派生品という位置づけになっている。
+
+　RTX PRO Serverは、大企業のデータセンターや、クラウドサービスプロバイダーのデータセンターなどに設置して、AIエージェントのようなAI推論を実行するアプリケーションを動作させる環境として利用したり、RTX PROという高いグラフィックス描画性能を持つ製品の系譜を引くこともあり、デジタルツインのアプリケーションなどを活用する環境として利用することが想定されている。
+
+　また、エンタープライズAIファクトリー向けのサーバー製品の参照デザインとして「NVIDIA Enterprise AI Factory validated design」を定義し、今回発表されたRTX PRO Serverはそれに準拠していることなども同時に明らかにした。
+
+　このほか、「NVIDIA RTX PRO Blackwell Laptop GPU」の出荷時期を明らかにした。SKUとしては下記を用意しており、5月中にDell、HP、Lenovo、RazorのOEMメーカー各社から搭載したノートPCが発売される見通しだ。
+
+・NVIDIA RTX PRO 5000 Blackwell
+・NVIDIA RTX PRO 4000 Blackwell
+・NVIDIA RTX PRO 3000 Blackwell
+・NVIDIA RTX PRO 2000 Blackwell
+・NVIDIA RTX PRO 1000 Blackwell
+・NVIDIA RTX PRO 500 Blackwell
+
+【14時55分訂正】タイトルに誤りがあったため訂正しました。
+PC Watch,笠原 一輝",[],[]
+NVIDIAのAI向けミニPC「DGX Spark」がAcer、GIGABYTE、MSIからも。7月出荷（PC Watch）,https://news.yahoo.co.jp/articles/b4d26b13762e72a326b3672ffc6ca4ecd8ce0895,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000010-imppcw-000-2-view.jpg?exp=10800,2025-05-19T13:45:11+09:00,2025-05-19T13:50:32+09:00,PC Watch,imppcw,PC Watch,1046,"写真：PC Watch
+NVIDIAは、5月20日より展示がスタートする世界最大級のコンピュータ見本市COMPUTEX TAIPEI 2025に出展し、最新製品などを顧客などに説明する。イベントのスタートに先立って、5月19日にはNVIDIA CEO ジェンスン・フアン氏が基調講演を行ない、新製品を紹介した。
+【画像】1月のCESでDGX Spark(当時はProject DIGITS)を見せるジェンスン・フアンCEO(1月のCESで撮影)
+この中で、3月に開催したGTC 25で発表されたAI開発向けのミニPCとなる「NVIDIA DGX Spark」、ワークステーションPCとなる「NVIDIA DGX Station」についてアップデートした。
+
+■ DGX Sparkは7月から出荷開始、OEMにはAcer、GIGABYTE、MSIが加わる
+
+　3月のGTC 25で正式に発表されたDGX Sparkは、1月のCESで「Project DIGITS」として紹介されたAI開発者向けのミニPCとなる。DGX Sparkには「GB10 Grace Blackwell Superchip」がSoCとして搭載されており、Coretex-X295が10コア、Cortex-A725が10コアという20コアCPUと、FP4演算時で1PFLOPSの性能を発揮するBlackwell GPUから構成されている。
+
+　それに対してDGX StationはGPUに「NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip」というGB300ベースのGPU、Grace CPUという構成のマザーボードを採用したタワー型のワークステーションPCになる。
+
+　今回発表されたのは、両製品を提供する予定の追加OEMメーカー。DGX Sparkは3月のGTCの時点で明らかになっていたASUS、Dell Technologies、HP、Lenovoの4社に加えて、Acer、GIGABYTE、MSIの台湾のOEMメーカー3社が追加され、7月から出荷が開始されることが明らかになった。
+
+　また、DGX Stationは3月発表時点のASUS、BOXX、Dell、HP、Lambda Labs、Supermicroに加えてGIGABYTE、MSIからも提供されると明らかにされ、本日よりNVIDIAのWebサイトで予約が開始される。
+PC Watch,笠原 一輝",[],[]
+富士通のArm CPU「MONAKA」がNVLink Fusionを採用。Qualcommもデータセンター再参入へ（PC Watch）,https://news.yahoo.co.jp/articles/ab542e32577ca3ff3c4ac522fcec33cc4b7cc95e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000009-imppcw-000-1-view.jpg?exp=10800,2025-05-19T13:45:10+09:00,2025-05-19T13:45:10+09:00,PC Watch,imppcw,PC Watch,1896,"写真：PC Watch
+NVIDIAは、COMPUTEX TAIPEI 2025に参加し、最新製品などを顧客などに説明している。開催に先立って、5月19日にはNVIDIA CEO ジェンスン・フアン氏による基調講演が行なわれ、新製品などが紹介された。
+【画像】Qualcomm CEO クリスチアーノ・アーモン氏(昨年10月のSnapdragon Summitで撮影)
+その中で、データセンター向けCPU/GPUのチップ間インターコネクト「NVLink」をNVIDIAのパートナー企業に公開する「NVLink Fusion」を発表したが、そのNVLink Fusionを採用する計画のCPUパートナー企業として、富士通とQualcommを発表した。
+
+■ 富士通のArm CPU MONAKAがNVLink Fusionに対応
+
+　今回のNVIDIAのNVLink Fusionの発表で注目に値するのは、CPUにNVLink Fusionを活用するCPUベンダーに富士通とQualcommが入っていることだ。
+
+　富士通は、2026年にTSMC 2nmで製造されるArmプロセッサとなる「MONAKA」を提供開始することを計画しており、NVLink Fusionのパートナー企業に入っているということは、そのMONAKAにNVLink Fusionのコントローラが入ることを意味する。
+
+　ニュースリリースの中で、富士通 執行役員副社長 兼 CTO ヴィヴェック マハジャン氏は「富士通MONAKAは電力効率に特化した2nmのArmプロセッサで、当社の技術をNVIDIAのアーキテクチャに直接接続することは、世界をリードするコンピュータ技術を通じてAIの進化を推進するという当社のビジョンにおける記念碑的な一歩であり、スケーラブルでソブリン要件を満たし、持続可能な新しいクラスのAIシステムへの道を開くものだ」と述べ、MONAKAでNVLink Fusionの実装を行なうと述べている。
+
+　富士通としては、GPUやTPUのようなAIアクセラレータといった製品を持っていないため、GPU/AIアクセラレータを主力事業とするNVIDIAとは補完関係にあり、今回のような提携に至ったと考えられるだろう。
+
+　なお、2025年前半にウェハのサンプル製造を開始すると明らかにしており、その意味では既にMONAKAにはNVLink Fusionのコントローラが内蔵されている、あるいはチップレットとしてパッケージ上に実装されている、といった形で実現される可能性が高い。
+
+　NVLink Fusion対応により、富士通およびそのOEMメーカーは、CPUはMONAKAを採用し、GPUにはBlackwell(B200など)を搭載したシステムを構築することが可能になる。同様のArm+Blackwell GPUとしては、NVIDIA自身のGB200もあるが、MONAKA+B200などのシステムにより、AIスーパーコンピュータの新しい選択肢が登場する可能性があり、今後の富士通からの発表にも期待したいところだ。
+
+■ Qualcomm、データセンター向けに再参入
+
+　もう1つの注目はQualcommだ。
+
+　Qualcommは現状、データセンター向けのCPUは製品展開していない。同社2017年に1度データセンター向けのArm CPU「Centriq」を発表して参入を表明したものの、半年後にそれを撤回して撤退しているという前歴もあり、これまでデータセンター向けのCPUにはあまり興味がないと考えられていた。
+
+　しかし、最近同社 CEO クリスチアーノ・アーモン氏が、決算説明会でデータセンター向け事業に参入を匂わすなど、同社がデータセンター向けCPUに参入することはかなり確率が高いと見られてきた。
+
+　NVIDIAのニュースリリースの中で、アーモン氏は「QualcommのカスタムCPUとNVIDIAのAIプラットフォームの組み合わせはデータセンター向けのインフラとして強力で効果的だ。今後ハイパフォーマンスでエネルギー効率の高いデータセンターにビジョンを提供していく」と述べており、Qualcommはもう一度データセンター向けCPU事業に参入する方針であることは明らかだろう。
+
+　なお、Qualcommのアーモン氏は、本日15時(日本時間、台湾時間14時)からCOMPUTEX 2025のQualcomm基調講演に登場する予定で、そこで正式な発表があると思われる。
+PC Watch,笠原 一輝",[],[]
+NVIDIA、CPU/GPUチップ間接続「NVLink」を半オープン化（PC Watch）,https://news.yahoo.co.jp/articles/b7933c8f5c93977bc88045c8b0a830439b1cb3a6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000007-imppcw-000-1-view.jpg?exp=10800,2025-05-19T13:45:10+09:00,2025-05-19T13:45:10+09:00,PC Watch,imppcw,PC Watch,2105,"写真：PC Watch
+NVIDIAは、5月20日より展示がスタートする世界最大級のコンピュータ見本市COMPUTEX TAIPEI 2025に出展し、最新製品などを顧客などに説明している。イベントのスタートに先立って、5月19日にはNVIDIA CEO ジェンスン・フアン氏が基調講演を行ない、新製品を紹介。
+【画像】NVLinkのスイッチ(NVLink Switch、2024年のGTC 24で撮影)
+この中で、これまでプロプライエタリだったインターコネクト「NVLink」を、他社にも限定で公開する「NVLink Fusion」を発表した。
+
+■ NVIDIAの強みの1つになっているNVLinkだが、これまではプロプライエタリだった
+
+　NVIDIAのデータセンター向け半導体の競合他社に対する強みはいくつかある。よく知られている通り、CUDAをベースにしたソフトウェア開発環境はその1つで、AI向け、自動車向け、ロボット向け……と産業別に領域特化型のソフトウェア開発キットを提供していることは同社最大の強みだ。
+
+　それはCPUとGPU向けに提供しているチップ間インターコネクト「NVLink」も同様だ。AI開発の現場では、GPUをサーバー機器内で8基、あるいはラック内で最大72基までスケールアップしているが、ソフトウェアから見るとNVLinkで接続されているGPUが1つのGPUとして見え、AI学習時などGPUの処理能力が必要とされるシーンで性能を強化することができるからだ。
+
+　73基以上の構成にしたい場合には、InfiniBandやEthernetなどの高速なネットワーク(400GB/sや800GB/sなど)を利用して、数千基から数万基などにスケールアウトの構成を取ることもできる(簡単に言えば、ラックとラックをそうした高速ネットワークで接続して複数のGPUを1つのGPUとして扱うことができる)。
+
+　スケールアウトは数百基から数万基といった大規模なAIスーパーコンピュータ(最近の流行の言い方をするとポッド)を構築するのに便利だが、チップ間インターコネクトに比べると遅延などが発生しやすく、帯域幅も十分ではないため性能の低下を招きやすい。そのため、できるだけスケールアップで拡張し、その限界を超えた後はネットワークでスケールアウトする、そうした使い方が一般的だ。
+
+　NVIDIAがBlackwell世代(GB200やB200など)で導入したNVLinkは2種類あり、最大8基までスケールアップできるものと、最大72基までスケールアップするものがある。いずれも1.8TB/sの帯域を実現している。前者は「DGX-B200」などのGPUを8基搭載しているサーバー機器で利用され、後者は「GB200 NVL72」などGPUを72基搭載しているラック規模のサーバー機器で利用されている。
+
+　ただし、このNVLinkはプロプライエタリ(知的所有権で保護されている仕様のこと)で、過去にIBMのCPUに対してライセンスが提供されたという例外はあるが、基本的にはNVIDIAのCPUとGPU専用のインターコネクトになってきた。
+
+■ NVLink Fusionの採用にはNVIDIA CPUないしはNVIDIA GPUが条件に
+
+　今回NVIDIAはその方針を大転換し、NVLinkのライセンスをパートナーに対して提供することを前提とした新しいNVLink Fusionを発表した。技術的には現行のNVLinkと同等で、大きな違いはないが、門外不出だったNVLinkのライセンスとコントローラなどの設計データを提供する。
+
+　提供を受けるのは、カスタムシリコン向けがMediaTek、Marvell、Alchip、Astera Labs、CPU向けが富士通とQualcommとなり、NVLinkのコントローラなどの設計データをシリコンに統合する際に利用するEDAツールを提供するパートナーとして、SynopsysとCadence、NVLink Fusionを統合するCPUパートナーとして富士通とQualcommを挙げている。
+
+　これらのパートナー企業がNVLink Fusionを利用できるのは、AIアクセラレータにNVLink Fusionを利用する場合にはNVIDIA CPU、CPUにNVLink Fusionを利用する場合にはNVIDIA GPUと組み合わせる必要がある。
+
+　このため、NVIDIAの競合他社がNVLink Fusionを活用して、自社のCPUとGPUの接続に利用するという使い方は現状ではできない。そうしたことを考えると、実際には「限定的オープン」、あるいは「半オープン」という表現が現状では正しい表現になるだろう。
+
+　NVLink Fusionはデータセンター向けAI半導体で競合となるAMDやIntelなどが、業界団体を作ってオープンな規格として提唱している「UALink」への対抗策として打ち出す狙いがあるものと考えられる。
+PC Watch,笠原 一輝",[],[]
+量子コンピュータの国内開発拠点G-QuAT落成式に石破茂総理が出席（PC Watch）,https://news.yahoo.co.jp/articles/64c7996ae4d5d595d40208f7c69467dbac527375,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000006-imppcw-000-1-view.jpg?exp=10800,2025-05-19T12:39:08+09:00,2025-05-19T12:39:08+09:00,PC Watch,imppcw,PC Watch,580,"写真：PC Watch
+産業技術総合研究所(産総研)は18日、「量子・AI融合技術ビジネス開発グローバル研究センター(G-QuAT)」の落成式を開催した。
+
+　G-QuATは、量子技術の社会実装および産業化を推進する目的で2023年に設立された研究開発拠点。量子コンピューティングと古典コンピューティング技術の相互補完的利用による高度な計算技術の確立と社会実装を目標に、量子コンピューターの活用ユースケース創出、量子デバイスおよび部材/素材評価方法の開発、人材育成などを行なっている。
+
+　落成式には石破茂内閣総理大臣も出席し、施設の視察や関係者との対談、会見を行なった。石破総理は会見の中で量子コンピュータについて「新しい産業の柱」であり、また経済安全保障上においても重要な技術であるとの認識を明らかにした。そのうえで、ハードウェア、OS、アプリケーションの各分野に対するスタートアップ支援や、量子コンピュータに関連する人材育成プログラムの開発/実施を推進するとの方針を表明している。
+
+　具体的には、G-QuATに対するスタートアップ/中小企業の入居者数を現在の5倍にすること、量子コンピュータのユーザー企業とスタートアップのマッチング、国際連携の強化を挙げている。このほかAI分野における量子コンピュータの活用にも言及した。
+PC Watch,関根 慎一",[],[]
+COMPUTEX 2025がまもなく開幕。AIやロボティクスにフォーカス（PC Watch）,https://news.yahoo.co.jp/articles/93cfcb400909636be110340a5f93e83c0e9cf0ed,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000005-imppcw-000-1-view.jpg?exp=10800,2025-05-19T12:17:07+09:00,2025-05-19T12:17:07+09:00,PC Watch,imppcw,PC Watch,548,"写真：PC Watch
+コンピュータ関連の大型見本市「COMPUTEX TAIPEI 2025」が20日開幕する。会場は例年と同じく台北南港展覽館(Taipei Nangang Exhibition Center)、会期は5月20日～23日。このうち23日は一般公開日となっている。
+【画像】メイン会場の1つである台北南港展覽館。写真は2号館
+主催のTaiwan External Trade Development Council(TAITRA)によれば、今年は約1,400の出展者が参加し、約4,800の展示ブースが設けられる予定だという。
+
+　開幕前日の本日19日には、Global Press Conferenceが行なわれ、TAITRAのチェアマンを務めるJames C.F. Huang氏が講演。COMPUTEX 2025におけるフォーカスエリアが、AIとロボディクス、次世代技術、未来のモビリティの3つであると説明した。
+
+　なお、Global Press Conferenceに続き、NVIDIAの基調講演がTaipei Music Centerにて実施されるなど、報道関係者向けのイベントはすでにスタートしている。本誌では順次情報をお伝えしていく。
+PC Watch,宇都宮 充",[],[]
+宝鐘マリンさん、TikTok LIVEで配信開始早々に性的コンテンツ判定を受ける（PC Watch）,https://news.yahoo.co.jp/articles/715c676bbe7bade5188160579006b435750a5118,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000004-imppcw-000-2-view.jpg?exp=10800,2025-05-19T11:48:07+09:00,2025-05-19T11:55:32+09:00,PC Watch,imppcw,PC Watch,514,"写真：PC Watch
+VTuberの宝鐘マリンさんは18日、TikTokでのライブ配信開始後すぐ配信に視聴制限がかかったと報告した。理由は「性的な内容を含むコンテンツ」。
+
+　宝鐘マリンさんによると5月18日21時ごろ開始したTikTok LIVEで、開始早々に視聴対象者を制限する旨の通知を受け取ったという(配信自体は続行した)。具体的に何をもって性的なコンテンツと判定されたかについては言及していない。この日はTikTok LIVEにおける2度目の配信だった。
+
+　TikTokのコミュニティガイドラインでは、性的コンテンツとして主に年齢制限のかかる内容を「成人のセミヌード」「性的な撮影方法や性的な行為をしている成人の表示」「性的な製品の表示」と明示している。また、この判定基準に該当する動画やライブ配信は「おすすめ」フィードの表示対象外となる。
+
+まだ挨拶しかしてないのにこれになったhttps://t.co/s9kmLZ9Jko pic.twitter.com/2nM00XxmzZ
+
+— 宝鐘マリン🏴‍☠️＠ホロライブ3期生 (@houshoumarine) May 18, 2025
+PC Watch,関根 慎一",[],[]
+"6,016×3,384ドットの31.5型や折りたたみ式2画面など、新型モニターがAcerから（PC Watch）",https://news.yahoo.co.jp/articles/010139e7ddc3be9d577b647fd0b97fec4e332493,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000003-imppcw-000-1-view.jpg?exp=10800,2025-05-19T10:55:09+09:00,2025-05-19T10:55:09+09:00,PC Watch,imppcw,PC Watch,893,"写真：PC Watch
+Acerは、5月20日より開催されるCOMPUTEX TAIPEI 2025に先駆け、報道関係者向けのメディアラウンジを開設。モニター関連では、6K対応のクリエイター向け31.5型や、23.8型2枚構成のデュアルモニターなどを展示していた。なお、ゲーミングブランドのモニターについては別記事で紹介しているので、あわせてご覧いただきたい。
+【画像】画面を寝かせることもできる
+クリエイター向けのProCreatorブランドからは、31.5型6K「PE320QXT」が展示。6,016×3,384ドットと非常に高解像度なIPSパネルを採用し、色域はAdobe RGB 99%、DCI-P3 99%をカバーする。
+
+　また、ペン入力にも対応するほか、手書き入力がしやすいよう、画面を寝かせるように角度調整できる点も特徴。画面上部には800万画素Webカメラやマイクアレイも装備している。
+
+　主な仕様は、表示色数が10億7,000万色、中間色応答速度が4ms、輝度が400cd/平方m、コントラスト比が最大1億:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2.1 2基、DisplayPort 1.4、USB Type-C(映像入力/90W給電対応)、音声出力などを装備。2基のUSBハブも備える。
+
+　同じくProCreatorでは、有機ELパネル採用製品として、31.5型4K(3,840×2,160ドット)有機EL搭載の「PE320QK X」や16型2,880×1,800ドットモバイルモニター「PE160WU」も展示していた。
+
+　またモバイルモニター製品では、折りたためる2画面タイプの製品として、23.8型フルHD(1,920×1,080ドット)が2枚の「PD243Y E」や、15.6型フルHDが2枚の「PD163QT」を展示。
+
+　どちらも画面を内側にして折りたたむことができる設計で、背面にはキックスタンドを装備。VESAマウントも設けており、モニタースタンドを使った設置にも対応している。
+PC Watch,宇都宮 充",[],[]
+Acer、有機EL採用ゲーミング製品を複数展示。最大144Hzの“27型モバイルモニター”も（PC Watch）,https://news.yahoo.co.jp/articles/b52c1c6b433dd74d48258fbd9bfc1e6b96c1a723,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000002-imppcw-000-1-view.jpg?exp=10800,2025-05-19T10:47:12+09:00,2025-05-19T10:47:12+09:00,PC Watch,imppcw,PC Watch,1968,"写真：PC Watch
+Acerは、5月20日より開催されるCOMPUTEX TAIPEI 2025に先駆け、報道関係者向けのメディアラウンジを開設。ゲーミング関連では、ペン付きでクリエイティブな用途にも対応できる14.5型ゲーミングノートや、有機ELパネル搭載モニターなどが展示されていた。
+【画像】天板
+■ PREDATORブランド
+
+　PREDATORブランドでは、ペン入力もできる14.5型ノート「PREDATOR TRITON 14 AI」をはじめ、ゲーミングPCや有機ELモニターが展示されていた。
+
+　PREDATOR TRITON 14 AIは、ゲーミングだけでなくクリエイターによる使用も想定した14.5型ノート。付属のペンにより、タッチパッド部分をペンタブのように使えるのが大きな特徴。なお、ディスプレイ部分はタッチ操作には対応するが、ペン入力は行なえない。
+
+　CPUにCore Ultra 9 288Vを搭載可能で、Copilot+ PCにも準拠。そのほか、最大32GBメモリ、最大2TB PCIe 4.0 SSD、最大GeForce RTX 5070 Laptop GPU、14.5型2,880×1,800ドット/タッチ対応有機EL、Windows 11などを装備。
+
+　本体サイズは321.79×221×11.05〜17.31mm、重量は1.6kg。
+
+　加えてゲーミングPCでは、Core Ultra 9 285Hや32GBメモリ、GeForce RTX 5070 Laptop GPUなど搭載可能な14.5型ノート「PREDATOR HELIOS NEO 14 AI」、Core Ultra 7 265F、32GBメモリ、GeForce RTX 5070など搭載可能なデスクトップ「PREDATOR ORION 3000」も並んでいた。
+
+　また、新型の26.5型有機ELゲーミングモニターも2機種展示。「PREDATOR X27U F5」は、WQHD(2,560×1,440ドット)/500Hz対応で、映像入力端子としてHDMI 2.1 2基、DisplayPort 1.4 2基、USB Type-C(映像入力/65W給電対応)を装備。USBハブ機能も備える。
+
+　「PREDATOR X27 X」は、4K(3,840×2,160ドット)/240Hz対応で、映像入力端子としてHDMI 2.1 2基、DisplayPort 1.4を装備する。
+
+　どちらもパネルはQD-OLED(量子ドット有機EL)で、表示色数が10億7,000万色、中間色応答速度が0.03ms、ピーク時輝度が1,000cd/平方m、コントラスト比が150万:1、視野角が上下/左右ともに178度、色域がDCI-P3 99%などとなっており、FreeSync Premium Proもサポートする。
+
+■ NITROブランド
+
+　NITROブランドでは、キックスタンド内蔵で屋内での移動もしやすい27型ゲーミングモニター「PG271K」などを展示していた。
+
+　PG271Kは、27型4K IPSパネルを搭載したゲーミングモニター。USB Type-C電源で駆動するほか、キックスタンドも備えており、超大型のモバイルモニターとして、シーンに応じて移動させて使うことができる。
+
+　パネルは4K/72HzとフルHD(1,920×1,080ドット)/144Hzの2つ表示モードに対応。表示コンテンツにあわせて切り替えられる。
+
+　主な仕様は、表示色数が10億7,000万色、中間色応答速度が最大0.5ms、輝度が250cd/平方m、コントラスト比が最大1億:1、視野角が上下/左右ともに178度、色域がDCI-P3 95%など。
+
+　インターフェイスは、HDMI 2.0、USB Type-C 2基、音声出力などを備える。
+
+　そのほかモニター製品では、Google TV搭載のスマートゲーミングモニターとして、3,440×1,330ドット/240Hz対応の34型湾曲ウルトラワイド「NITRO GA341CUR W0」、4K/165Hz対応の31.5型「NITRO GA321QK P」を展示していた。
+
+　さらにゲーミングノートPC製品では、16型の「NITRO 16S AI」、「NITRO V 16S AI」、「NITRO 16 AI」、18型の「NITRO 18 AI」も展示。ともに最大でCPUにはRyzen AI 9 365、GPUにはGeForce RTX 5070 Ti Laptop GPU(NITRO 16S AIはRTX 5070 Laptop GPU)まで搭載可能となっている。
+PC Watch,宇都宮 充",[],[]
+Acer、1kg切りのCore Ultra搭載軽量モバイルノート（PC Watch）,https://news.yahoo.co.jp/articles/67e490802e92f79cf8881ec76e277f2573416253,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250519-00000001-imppcw-000-1-view.jpg?exp=10800,2025-05-19T10:42:11+09:00,2025-05-19T10:42:11+09:00,PC Watch,imppcw,PC Watch,932,"写真：PC Watch
+Acerは、5月20日より開催されるCOMPUTEX TAIPEI 2025に先駆け、報道関係者向けのメディアラウンジを開設。ノートPC製品では、新たな軽量モバイルノートなどを展示した。
+【この記事に関する別の画像を見る】
+プレミアムノートのSwiftシリーズでは、1kg切りの軽量設計が特徴の14型モバイルノート「Swift Edge 14 AI」を展示。CPUは最大でCore Ultra 9 288Vを搭載、最大21時間のバッテリ駆動(動画再生時)を実現し、MIL-STD 810H基準を満たした。
+
+　主な仕様は、最大32GBメモリ、最大1TB PCIe 4.0 SSD、14型2,880×1,800ドット/タッチ対応有機EL、Windows 11 Homeなどを搭載。
+
+　インターフェイスは、Thunderbolt 4 2基、USB 2基、Wi-Fi 7、Bluetooth 5.4、1080p IR対応Webカメラ、音声入出力などを備える。
+
+　本体サイズは313.7×229.2×9.3〜16.6mm、重量は0.99kg。
+
+　加えてSwiftシリーズでは、最大でCore Ultra 9 285Hを搭載する14型「Swift X 14」、Ryzen AI 9 365搭載の14型「Swift X 14 AI」、Core Ultra 7 258V搭載の14型「Swift Go 14 AI」および16型「Swift Go 16 AI」が展示されていた。
+
+　ともに有機ELディスプレイを採用。Swift Go 14 AI/16 AIでは、タッチパッド部分にマルチコントロール機能を備え、メディアの再生操作やWeb会議時のミュートやカメラのオン/オフ切り替えなども行なえる。
+
+　また、スタンダードノートのAspireシリーズでは、14型「Aspire 14 AI」および16型「Aspire 16 AI」を展示。どちらの機種もCPUは、Core Ultraシリーズ2(Lunar Lake)、Ryzen AI 300シリーズ、Snapdragon X X1-26-100の3種類を用意している。
+PC Watch,宇都宮 充",[],[]
