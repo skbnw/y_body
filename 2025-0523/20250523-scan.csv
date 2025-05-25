@@ -1,0 +1,13 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+PayPay カードの一部サービスで SMS 認証廃止、今後は生体認証かパスコード認証が必要に（ScanNetSecurity）,https://news.yahoo.co.jp/articles/b3d5161a6a336a398198c537bb082d51428fd22d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-23T08:00:16+09:00,2025-05-23T08:00:16+09:00,ScanNetSecurity,scan,ScanNetSecurity,265,"PayPayカード株式会社は5月19日、一部サービスでのSMS認証の廃止について発表した。
+同社ではセキュリティ強化の一環として、PayPayアプリの一部サービスでSMS認証による本人確認を廃止し、5月19日から対象サービスを利用する際は生体認証（指紋・顔）、またはパスコード認証が必要となる。
+対象サービスは、カード情報の確認、顧客情報の確認と変更、家族カードの顧客情報の確認と変更。
+同社では、生体認証・パスコードが未設定の場合は必ず設定するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+診断レポートを即時発行「WebSite Scouter ネットワーク診断サービス」提供開始（ScanNetSecurity）,https://news.yahoo.co.jp/articles/4c03768c3b9caee71c2f6e383ae323ccc5fb7271,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250523-00000001-scan-000-1-view.jpg?exp=10800,2025-05-23T08:00:12+09:00,2025-05-23T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,652,"「WebSite Scouter ネットワーク診断サービス」イメージ
+さくらインターネット株式会社は5月20日、情報資産を守るセキュリティマーケットプレイス「さくらのサイバーセキュリティ」の第2弾として「WebSite Scouter ネットワーク診断サービス」を5月27日から提供開始すると発表した。
+「さくらのサイバーセキュリティ」は、デジタル化された個人情報や企業の重要データを守り、安心安全にインターネットを利用するためのサイバーセキュリティサービスのマーケットプレイス。
+「さくらのサイバーセキュリティ」の第2弾として提供する「WebSite Scouter ネットワーク診断サービス」は、ネットワーク、OS、ミドルウェアをWeb上で診断できるサービスで、顧客の利用したいタイミングに合わせたスケジュール設定が可能で、診断終了後に即時診断レポートを発行する。
+同サービスでは、CVSS/CVEに準拠した検査エンジンでシステムのセキュリティ対策のレベルを診断。約140,000件の診断項目を保有し、検査対象ごとにセキュリティリスクを検証し、個々に発見された脆弱性に対しての評価を「緊急・重大・高・中・低」にて分類した上で、その影響を記載したレポートを提供する。
+同サービスは、「ネットワーク診断サービス 診断1回」プランが88,000円からの提供で、提供開始を記念し基本プラン利用料が最大50％OFFとなるキャンペーンも実施される。
+ScanNetSecurity ScanNetSecurity",[],[]

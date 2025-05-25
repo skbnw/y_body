@@ -1,0 +1,13 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+イーロン・マスクの米政府効率化省を皮肉るランサムウェア（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0eab7fbcd1e19bea3c959f6abd7985a4f1bb3623,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-22T08:00:03+09:00,2025-05-22T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,1155,"Netskope Japan株式会社は5月19日、Netskopeの調査研究部門 Netskope Threat Labs が企業ネットワークを段階的に侵害する高度なランサムウェア「DOGE Big Balls」を発見したと発表した。
+「DOGE Big Balls」は、既存のFogランサムウェアから派生した新たな亜種で、システムへの侵入から暗号化実行まで複数のカスタムツールと特殊技術を組み合わせた攻撃を行う。「DOGE Big Balls」という名称は、米国の政府効率化部門（Department of Government Efficiency、DOGE）を皮肉る挑発的な意図で付けられており、ランサムウェアのペイロードには身代金を要求するメッセージをはじめとする複数の箇所に、著名な公人の名前やYouTube動画を引用した政治的声明や挑発的なコメントが含まれている。
+Netskope Threat Labs では、「DOGE Big Balls」が横方向への移動、権限昇格、認証情報窃取を実行するためのカスタムツールとオープンソースツールを含む攻撃の各段階で使用する多様なツールを特定している。また、脆弱性のあるドライバを悪用する機能、ランサムウェアペイロード、Havoc Demonペイロードも発見している。
+Netskope Threat Labs によると、「DOGE Big Balls」による攻撃はMSIファイルから始まり、エンコードされたPowerShellスクリプトを実行して、Windowsのスタートアップフォルダやスケジュールタスクを通じて感染の継続性を確保、主な感染スクリプトは複数のツールをダウンロードし、セキュリティ対策を無効化しながらネットワーク全体へと感染を拡大させるという。攻撃に使用される主な手法は下記の通り。
+・セキュリティ検知を回避するための高度なAMSIバイパス技術
+・Mimikatzおよびそれに類似するツールによるパスワードなどの認証情報の窃取
+・SMB、PsExec、窃取したKerberosチケットなど複数の手法を用いたラテラルムーブメント（ホスト間移動）
+・ドメインコントローラーへの攻撃と管理者アカウント作成による権限昇格
+・ZeroTierネットワークソフトウェアによるリモート接続の確保
+・追加の収益源としての暗号資産マイニングの実行
+攻撃者はツールキットを継続的に改良しており、Netlifyサービス上でホストしているペイロードを頻繁に更新、最新版ではドメイン管理者を標的にするための特殊なスクリプトや、侵害したシステムへのアクセスを維持するための仕組みが新たに追加されている。
+ScanNetSecurity ScanNetSecurity",[],[]
