@@ -1,8 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-OpenAI、ブラウザ操作エージェント「Operator」がo3ベースに強化（Impress Watch）,https://news.yahoo.co.jp/articles/13c802a7ceafc68b432e203f64acb8965691e904,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250525-00000001-impress-000-1-view.jpg?exp=10800,2025-05-25T12:06:32+09:00,2025-05-25T12:06:32+09:00,Impress Watch,impress,Impress Watch,452,"写真：Impress Watch
-OpenAIは23日、AIがブラウザを操作し、タスクを実行するAIエージェント「Operator」のモデルを「OpenAI o3」ベースとして強化した。
-【この記事に関する別の画像を見る】
-Operatorは、1月に研究プレビューとして、Computer Using Agent(CUA)モデルとしてサービス開始。Webを利用してユーザーのタスクを実行できるエージェント型モデルとして、独自のブラウザがWebページを表示し、人間がタイプ、クリック、スクロールするなどと同様の操作をAIが代行する。従来はGPT-4oベースだったが、o3ベースとすることで、より正確な操作が可能となり、タスクの成功率が向上する。また、回答はより明確で詳細かつ構造化されるという。
-
-OperatorはChatGPT Pro(200ドル)ユーザー向けに提供される。なお、Operatorは、コーディング環境やターミナルへのネイティブアクセスは備えていない、
-Impress Watch,編集部",[],[]
