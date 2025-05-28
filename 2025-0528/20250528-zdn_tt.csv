@@ -1,0 +1,19 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+“普通のアプリ”が危ない？　世界を揺るがす新型スパイウェアの正体（TechTargetジャパン）,https://news.yahoo.co.jp/articles/a4125c51f28af8ffef1f70f6f1f880482dcfbaa2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250528-00000053-zdn_tt-000-1-view.jpg?exp=10800,2025-05-28T20:00:11+09:00,2025-05-28T20:00:11+09:00,TechTargetジャパン,zdn_tt,TechTargetジャパン,1182,"（写真：TechTargetジャパン）
+英国のセキュリティに関する政府機関である「国家サイバーセキュリティセンター」（NCSC）や、米国の情報セキュリティ機関である「米国家安全保障局」（NSA）、米国の法執行機関である「米連邦捜査局」（FBI）は、スパイウェア「Moonshine」と「BadBazaar」を使った攻撃活動について注意を呼び掛けている。攻撃活動には、中国政府が関わっているとみられる。攻撃者の手口とはどのようなものなのか。
+攻撃の手口と、被害を避けるための対策はこれだ
+MoonshineとBadBazaarは、中国の情報機関が関心を寄せるとみられる人物やコミュニティー（特に台湾やチベット、ウイグル自治区のコミュニティーや「法輪功」という宗教団体のメンバー）のモバイルデバイスで検出されている。NCSCをはじめとするセキュリティ機関によると、欧米で活動している香港出身の民主化活動家や中国政府の活動を批判する英国のジャーナリストなども今後は標的にされる可能性がある。
+
+　MoonshineとBadBazaarは共に、正当なアプリケーションに見せかけて、モバイルデバイスのマイクやカメラ、位置情報、メッセージ、写真などにひそかにアクセスするトロイの木馬型スパイウェアだ。「われわれは世界各国のパートナーと協力し、MoonshineとBadBazaarの被害者に対して被害を抑えるための情報を提供することに尽力している」と、NCSCオペレーションディレクターのポール・チチェスター氏は述べる。
+
+　米国、英国、オーストラリアなどの国々で機密情報を共有する枠組み「Five Eyes」によると、MoonshineとBadBazaarによってトロイの木馬化されたアプリケーションには、Microsoftのテキストチャット・テレビ電話ツール「Skype」（2025年5月5日に廃止）や、Metaのメッセージングアプリケーション「WhatsApp」が含まれている。
+
+　NCSCはMoonshineとBadBazaarによる被害を避けるために、以下のことを推奨している。
+
+・公式の安全なストア以外からはアプリケーションをダウンロードしない
+・インストール済みアプリケーションとそのアクセス権限を定期的に確認する
+・疑わしいメッセージやファイルを受け取った場合は、必ず通報する
+・ソーシャルメディア利用時に、共有されたファイルやリンクに不審な点がないかどうかを確認する
+
+本記事は米国Informa TechTargetの記事「NCSC issues warning over Chinese Moonshine and BadBazaar spyware」を翻訳・編集したものです。一部、翻訳作業に生成AIを活用しています。
+TechTargetジャパン",[],[]
