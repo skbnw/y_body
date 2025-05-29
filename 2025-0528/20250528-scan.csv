@@ -1,0 +1,25 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+BIND 9 にサービス拒否の脆弱性、DNSサーバ管理者にアップグレードを呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/a59c1b3791c2e23dde26d5f478acca46a0777a49,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-28T08:00:20+09:00,2025-05-28T08:00:20+09:00,ScanNetSecurity,scan,ScanNetSecurity,404,"独立行政法人情報処理推進機構（IPA）は5月23日、BIND 9の脆弱性対策について発表した。影響を受けるシステムは以下の通り。
+BIND 9.20.0から9.20.8まで
+BIND 9.21.0から9.21.7まで
+ISC（Internet Systems Consortium）では、BIND 9におけるサービス拒否の脆弱性（CVE-2025-40775）が確認されたと公表しており、悪用された場合は遠隔の第三者によって、当該製品が異常終了する可能性がある。
+脆弱性を悪用した攻撃はまだ確認されていないが、今後攻撃が発生する可能性があるため、IPAでは、DNSサーバ管理者にアップグレードを実施するよう呼びかけている。製品開発者は、本脆弱性を修正した下記のパッチバージョンをリリースしている。
+BIND 9.20.9
+BIND 9.21.8
+ScanNetSecurity ScanNetSecurity",[],[]
+ISC BIND に不正な TSIG を含む DNSメッセージの不適切な処理の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/317abecbd69337bc0830829866c42c700495af75,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-05-28T08:00:15+09:00,2025-05-28T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,962,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は5月22日、ISC BINDにおける不正なTSIGを含むDNSメッセージの不適切な処理の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+BIND 9.20.0から9.20.8まで
+BIND 9.21.0から9.21.7まで
+※BIND 9.18.0より前のバージョンは影響有無の確認をしていない
+ISC（Internet Systems Consortium）が提供するISC BINDは、受信したDNSメッセージにトランザクション署名（TSIG）が含まれる場合、常にそれをチェックしているが、TSIGのアルゴリズムフィールドに不正な値が含まれる場合、アサーションエラーが発生し、直ちに処理が中止される脆弱性（CVE-2025-40775）が存在する。
+想定される影響としては、遠隔の攻撃者によって細工されたメッセージを送信された場合、namedが異常終了する可能性がある。
+JVNでは、開発者が提供する情報をもとに最新のパッチバージョンにアップグレードするよう呼びかけている。なお本脆弱性は、下記のバージョンで修正されている。
+9.20.9
+9.21.8
+株式会社日本レジストリサービス（JPRS）でも5月22日に、BIND 9.20.xの脆弱性（DNSサービスの停止）について（CVE-2025-40775）発表している。
+JPRSでは、ISCが脆弱性の深刻度（Severity）を「高（High）」と評価していることを挙げ、本脆弱性は、下記の理由から広い範囲での適切な緊急対策が必要となるとしている。
+・外部から該当する問い合わせパケットを一つ送りつけるだけで、namedを異常終了させられること
+・フルリゾルバー及び権威DNSサーバーの双方が対象となること
+・TSIGを設定・利用していない場合も対象となること
+・namedの設定ファイル（named.conf）によるアクセスコントロール（ACL）や設定オプションの変更では、影響を回避・軽減できないこと
+ScanNetSecurity ScanNetSecurity",[],[]

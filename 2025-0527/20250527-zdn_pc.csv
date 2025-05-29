@@ -1,0 +1,105 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+AI PCに搭載されたNPUが使える動画／写真編集ソフトの動作デモを動画でチェック（ITmedia PC USER）,https://news.yahoo.co.jp/articles/966d00a0f79bd8bf5a52eb31f104418d4674d97f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000068-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T23:00:11+09:00,2025-05-27T23:00:11+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,622,"デル・テクノロジーズの新モデル
+サイバーリンクは5月27日、同日に行われたデル・テクノロジーズの製品発表会の中で、動画編集ソフト「PowerDirector」および画像編集ソフト「PhotoDirector 2025 Ultra」に搭載した、NPUを利用するAI編集機能のデモを行った。
+【写真】NPUによるAI処理に対応している「AI 背景除去」と「AI ボディエフェクト」
+NPU（Neural-network Processing Unit：AIプロセッサ）は、プロセッサに統合されたAI処理に特化した演算ユニットだ。IntelのCore Ultraシリーズや、AMDのRyzen AIシリーズに搭載されている。以下の動画では、処理の実行時にNPUが動作していることを画面右下のタスクマネージャーウィンドウで確認できる。
+
+　動画編集ソフトのPowerDirectorでは、「AI 背景除去」および「AI ボディエフェクト」がNPUによるAI処理に対応している。
+
+　画像編集ソフトのPhotoDirector 2025 Ultraでは、「AI 画像拡大」「AI ノイズ除去」がNPUによるAI処理に対応している。
+
+　いずれも処理にNPUを利用することで、CPUやGPUを使った場合よりも省電力で実行できるというメリットが生まれる。今後もさまざまなソフトウェアでNPUが使えるようになることを期待したい。
+ITmedia PC USER",[],[]
+パナソニック コネクト、Core Ultra（シリーズ2）を搭載した12.4型モバイルノート「SC」を発表（ITmedia PC USER）,https://news.yahoo.co.jp/articles/48479d26c168b619d296f9e9d18537151aae207a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000067-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T22:20:53+09:00,2025-05-27T22:20:53+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,813,"「SCシリーズ」
+パナソニック コネクトは5月27日、同社製モバイルノートPC「レッツノート」シリーズのラインアップにCore Ultra（シリーズ2）搭載の新モデル「SC」を追加、6月17日（Panasonic Store Plus）/6月20日（店頭）に販売を開始する。店頭向けモデルとしては搭載CPUやメモリ/ストレージの差異などで「CF-SC6ADTCR」「CF-SC6ADMCR」「CF-SC6BDPCR」の3型番モデルを用意。予想実売価格はそれぞれ29万5000円前後、33万円前後、41万円前後の見込みだ（税込み）。
+【画像】こちらは法人向けモデルの14型モバイルノートPC「FCシリーズ」
+アスペクト比3：2となる1920×1280ピクセル表示対応の12.4型液晶ディスプレイを備えたモバイルノートPCで、プロセッサとしてCore Ultra 5 225U/同 7 255Hの搭載に対応。MIL規格準拠の耐衝撃性能を実現、各種ポートにも高耐久仕様の部材が用いられている。
+
+　独自の省電力機能となる「Maxperformer」を採用、内蔵バッテリー駆動時間は動画再生時で約12.7時間～アイドル時で約34.6時間となっている。着脱式バッテリーを採用し任意のバッテリー交換にも対応。PC作業を行いつつバッテリーの充電を優先できる「充電優先モード」を搭載しており、PCを利用しつつ30分間の充電で4.6時間駆動が可能な高速充電を利用可能だ。
+
+　この他、個人店頭/Panasonic Store Plus向けモデルとして2in1設計の12.4型モバイルノートPC「QR」の新モデルも合わせて発売が開始される。
+
+　また法人向けモデルとして、12.4型モバイルノートPC「SC」、14型モバイルノートPC「FC」の2機種を発表、それぞれ2025年6月/2025年秋頃に受注を開始する。
+ITmedia PC USER",[],[]
+デル、Core Ultra 7／9を搭載した16型ゲーミングノート「Alienware 16X Aurora」（ITmedia PC USER）,https://news.yahoo.co.jp/articles/1c988d9792d049938a0a8dc091ea54b00d690fe0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000066-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T22:19:05+09:00,2025-05-27T22:19:05+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,634,"「Alienware 16X Auroraゲーミングノートブック」
+デル・テクノロジーズは、Core Ultra＋GeForce RTX 50シリーズの搭載に対応した16型ゲーミングノートPC「Alienware 16X Auroraゲーミングノートブック」を発表、販売を開始した。価格は27万9000円から（税込み、以下同様）。
+【画像】こちらはエントリークラスの「Alienware 16 Auroraゲーミングノートブック」
+2560×1600ピクセル表示/240Hz駆動対応の16型ディスプレイを備えたノートPCで、プロセッサとしてCore Ultra 7 255HX/同 9 275HX、グラフィックスコアとしてGeForce RTX 5060/同 5070の搭載に対応した。
+
+　メモリはDDR5 16GB/32GB、ストレージは1TB NVMe SSDを内蔵。ギガビット対応有線LAN、Wi-Fi 7対応無線LAN、Thunderbolt 4 Type-Cポート、HDMI 2.1出力なども利用できる。OSはWindows 11 Homeだ。
+
+　この他、Core 5-210H/同 7-240HとGeForce RTX 3050～同 5060の搭載に対応したエントリークラスの16型ゲーミングノートPC「Alienware 16 Auroraゲーミングノートブック」も合わせて販売を開始した。価格は14万9000円から。
+ITmedia PC USER",[],[]
+Razer、「Minecraft」コラボデザインを採用したゲーミングデバイス4製品を発売（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3f65b92687d77d76d5b94c9e0d9e41e8fefc7295,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000065-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T22:17:30+09:00,2025-05-27T22:17:30+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,683,"発表されたゲーミングデバイス「Razer|Minecraftコレクション」シリーズ
+Razerは5月27日、ゲーム「Minecraft」とのコラボレーションデザインを採用するゲーミングデバイス「Razer|Minecraftコレクション」シリーズを発表、6月27日に発売する（予約受付は本日開始）。
+【画像】ゲーム内アイテムをアンロックできるという特典が付属する
+いずれも同社製ゲーミングデバイスをベースに、Minecraftをイメージしたイラストが全面にあしらわれているのが特徴だ。製品ラインアップは有線ゲーミングマウス「Razer Cobra Minecraft Edition」、ゲーミングキーボード「Razer BlackWidow V4 X Minecraft Edition」、ゲーミングヘッドセット「Razer Kraken V4 X Minecraft Edition」、ゲーミングマウスパッド「Razer Gigantus V2 Minecraft Edition」の4製品を投入。いずれもゲーム内アイテムを利用可能な特典が付属する。
+
+　予想実売価格はRazer Cobra Minecraft Editionが1万480円、Razer BlackWidow V4 X Minecraft Editionが2万9980円、Razer Kraken V4 X Minecraft Editionが1万7480円、Razer Gigantus V2 Minecraft Editionが4990円だ（いずれも税込み）。
+ITmedia PC USER",[],[]
+パナソニックEWネットワークス、全ポート10Gbpsに対応した「オール10Gスイッチングハブ」を発表（ITmedia PC USER）,https://news.yahoo.co.jp/articles/5f6207f376302f1e2a3641d16d2b844e6135e3be,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000064-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T22:14:57+09:00,2025-05-27T22:14:57+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,425,"「XA-AML8TFPoE++」
+パナソニックEWネットワークスは5月27日、10Gbps対応ポートを10基備えるスイッチングLANハブ「オール10Gスイッチングハブ」を発表、2026年1月21日に発売する。
+【画像】Wi-Fi 7接続に対応したクラウド管理対応の無線LANアクセスポイント「AIRRECT AP-7410」
+10ポート/20ポート搭載スイッチングLANハブで、全ポートを10Gbpsとしているのが特徴。PoE給電や接続機器の再起動が行えるオートリブート機能、雷サージ（耐性10kV）などを備えた高機能設計モデル2タイプ「XA-AML8TFPoE++」「XA-AML16TFPoE++」を用意した。
+
+　また、10Gbps集約用のスイッチングハブ「XA-AM16T」、Wi-Fi 7接続に対応したクラウド管理対応の無線LANアクセスポイント「AIRRECT AP-7410」も合わせて提供が開始される。
+ITmedia PC USER",[],[]
+HighPoint、NVMe SSDを4基装着可能な高機能RAIDカード（ITmedia PC USER）,https://news.yahoo.co.jp/articles/784f5f3efb87308cdf64501b6af33b6ed9b40e4b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000063-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T22:12:30+09:00,2025-05-27T22:12:30+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,385,"「Rocket 7604A」
+アスクは5月27日、HighPoint製となるNVMe SSD対応RAIDカード「Rocket 7604A」の取り扱いを発表、順次販売を開始する。
+【画像】PCI Express 5.0 x16接続に対応した内蔵型RAIDカード「Rocket 7604A」
+PCI Express 5.0 x16接続に対応した内蔵型RAIDカードで、M.2 NVMe SSDを最大4枚装着できRAID 0/1/10構成を選択可能となっている。
+
+　PCI ExpressスイッチチップにBroadcom製「PEX89048」を搭載しており、各M.2スロットがPCI Express 5.0 x4接続をサポート。最大で計56GB/sの高パフォーマンスを実現。安定した動作が可能なファン内蔵型ヒートシンクを備えているのも特徴だ。
+ITmedia PC USER",[],[]
+デル、コスパ重視のゲーミングノートPC「Alienware 16X Aurora」を発売　Gシリーズ後継（ITmedia PC USER）,https://news.yahoo.co.jp/articles/fd032c0ed276f847271e8a341eabc97457e2d071,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000056-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T17:53:19+09:00,2025-05-27T17:53:19+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,1835,"左から発表会に参加したインテルの佐藤義和氏（営業本部長）、デル・テクノロジーズの松原大氏（ジャパンコンシューマー&リテール アソートメントプランナー兼コンサルタント）、サイバーリンクの今澤浩之氏（マーケティング ディレクター）
+デル・テクノロジーズは5月27日、ゲーミングPCブランド「Alienware」の新モデルとして、「Alienware 16X Aurora ゲーミングノートブック」「Alienware 16 Aurora ゲーミングノートブック」の2製品を発売した。コストパフォーマンスを重視した旧「Dell G」ブランドの後継モデルだ。
+【画像で見る】「Alienware 16X Aurora」の前面
+Alienware 16X Aurora
+Alienware 16X Aurora ゲーミングノートブック（AC16251）は、16型ディスプレイ（2560×1600ピクセル、リフレッシュレート240Hz、500ニト）、最大64GBのDDR5メモリ、グラフィックス機能としてNVIDIA GeForce RTX 50シリーズ Laptop GPU（5050／5060／5070）を搭載する。TDP＋TGP（Total Graphics Power）は155Wで、プロセッサはIntel Core Ultra 9（275HX）またはUltra 7（255HX）から選択できる。
+
+　本体サイズは約356.98（幅）×265.43（奥行き）×19.2～32.4（高さ）mm、重さは約2.66kgだ。価格（税込、送料込）は以下の通り。
+
+・Ultra 7 255HX／16GB／1TB／RTX 5060：27万9000円
+・Ultra 7 255HX／32GB／1TB／RTX 5060：30万9000円
+・Ultra 9 275HX／32GB／1TB／RTX 5060：33万9000円
+・Ultra 9 275HX／32GB／1TB／RTX 5070：38万9000円
+Alienware 16 Aurora
+Alienware 16 Aurora ゲーミングノートブック（AC16250）は、より手頃なエントリーモデルに位置付けられる。16型ディスプレイ（2560×1600ピクセル、リフレッシュレート120Hz、300ニト）最大32GBのDDR5メモリ、グラフィックス機能としてミドルレンジのLaptop GPUシリーズ（3050／4050／4060／5050／5060）を搭載する。低価格を実現するため、TDP＋TGP（Total Graphics Power）は115Wに抑えられている。プロセッサはIntel Core 5（210H）またはCore 7（240H）から選択できる。
+
+　本体サイズは約356.98（幅）×265.43（奥行き）×18.6～22.7（高さ）mm、重さは約2.66kgとなっている。価格は下記の通りだ。
+
+・Core 5 210H／16GB／512GB／RTX 3050：14万9000円
+・Core 7 210H／16GB／1TB／RTX 4060：17万9800円
+・Core 7 210H／16GB／1TB／RTX 5050：19万9000円（7月発売予定）
+・Core 7 210H／32GB／1TBB／RTX 5060：23万9000円
+両モデル共通で高い静音性の冷却システムを採用
+両モデル共通で、冷却システムに静音性の高い2つ超薄型ブレードファンと「Cryo-Chamber」と呼ばれる排気構造を採用し、効率的な熱管理を実現しているという。同ブランド最上位のArea 51シリーズと基本構造は同一だが、ファンの数が4→2に減っている。
+
+　ワイヤレス機能はWi-Fi 7、Bluetooth 5.4に対応する他、インタフェースにはHDMI出力、USB 3.2 Standard-A×2基、USB 3.2 Type-C×2基（AC16251は1基がThunderbolt 4となる）、イヤフォンジャック、1000BASE-TのLANポートを搭載する。
+
+　5月28日から7月22日の期間中にAlienware 16X AuroraまたはAlienware 16 Auroraを購入すると、抽選で60人にAlienwareバックパックをプレゼントするキャンペーンも実施する。
+ITmedia PC USER",[],[]
+デュアル？　いいえトリプルチェンバーです　新型PCケースもお目見えしたCORSAIRブース（ITmedia PC USER）,https://news.yahoo.co.jp/articles/9811cca854676705f6f29b403582556b36af6109,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250527-00000024-zdn_pc-000-1-view.jpg?exp=10800,2025-05-27T12:05:08+09:00,2025-05-27T12:05:08+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,1589,"トリプルチェンバー構造の「AIR 5400」
+PCケースや水冷クーラー、メモリーなどを手掛けるCORSAIRは、COMPUTEX TAIPEI 2025の会期中にハイアットホテルの特別ブースで新製品の展示を行った。その中の一部を紹介しよう。
+【画像で見る】このタッチ対応の液晶ディスプレイは単品販売も予定されている
+トリプルチェンバー採用の「AIR 5400」
+「AIR 5400」は、従来モデルの電源部とマザー部を分けたデュアルチェンバー構造からさらに進化し、水冷のラジエ－ター部分をセパレートすることでトリプルチェンバーとしたATXケースだ。
+
+　どのような構造になっているかといえば、フロント部分の右側に水冷クーラーのファンとラジエ－ターが取り付けられている、ここまでは従来のケースと同様だが、このラジエ－ターから抜けて暖かくなった空気もそのまま外に出すダクトのような構造が追加されている。これにより、CPUの熱を冷やす風はケース内部を通らず、またラジエ－ターを抜けた暖かい空気もケース内部に入らない。
+
+　もちろんそれ以外にも、ボトムファンからダイレクトにグラフィックスカードに当たる透明なダクトなどもあり、見た目とパフォーマンスの両立を図ったケースといえる。発売は今夏を予定している。
+タッチ対応の液晶ディスプレイも取り付けられる「Frame 5000D」
+「Frame 5000D」は、既に販売済みの「Frame 4000」シリーズよりも一回り大きいATXケースだ。420mmラジエーターのサポートや140mmファンを最大10基取り付けられる。このFrameシリーズはフレームが交換可能で、さまざまなオプションが登場する予定となっている。今回はサイドパネルの交換オプションとしてタッチ対応の液晶ディスプレイを取り付けていた。この液晶パネルは単品で販売予定だという。
+
+　タッチ対応の液晶ディスプレイは「XENEON EDGE」という製品で、画面サイズは横長の14.5型（2560×720ピクセル）、5点マルチタッチ操作に対応している。モニターの下や上に置き、サブディスプレイとして使える。
+
+　CORSAIRはレーシングシミュレーターのブランド「FANATEC」の展示もしているが、ステアリングコントローラーの横に操作ボタンとしてXENEON EDGEを配置していた。また同社の配信機材ブランド「Elgato」では、バーチャルStream Deckの表示ディスプレイとして使えることもアピールしていた。
+ラインが美しい「Frame 4500X」
+「Frame 4500X」は曲面ガラスを使ったピラーレスATXケースで、この曲面に合わせて上部から右下に向かってラインを複数描いたようなデザインが施されている。曲面ガラスを使ったケースが増える中でも、個性をしっかりと出していた。
+オリジナルが作れる「STREAM DECK Module」
+配信やデスクトップのドレスアップなどによく使われるショートカットキーデバイス「Stream Deck」のモジュール版が登場する。ハードウェアのガワをなくし、主に表示部分のみを販売するという試みで、他のさまざまなハードウェアに組み込んで使える。一部ユーザーが「通常の製品を分解して、通常では設置できないような場所に組み込んでいる」という声を受けて商品化したという。
+
+　タッチパネルの液晶と組み合わせて1つにしたり、木枠でケースを作ったりなど、かなり自由度が増す。CADデータも公開されているので、製品発売前にケースを作っておくことも可能とのこと。
+
+　その他にも横にコネクターを配置した電源HX SHIFTの最新モデルの展示や、コンセプトとしてフル水冷対応のOPEN FRAMEの展示も行っていた。
+ITmedia PC USER",[],[]
