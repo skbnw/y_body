@@ -1,0 +1,73 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「Gemini in Chrome」搭載のGoogle Chrome 137が登場／AIチャットbot「Copilot for Gaming」が早期プレビュー版として登場（ITmedia PC USER）,https://news.yahoo.co.jp/articles/42ab29fb2a656ce42157beaceff2eb0cf40fb71e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250601-00000012-zdn_pc-000-1-view.jpg?exp=10800,2025-06-01T06:05:08+09:00,2025-06-01T06:05:08+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,3912,"Googleがデスクトップ版Chromeブラウザの最新版をリリースした
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、5月25日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】モバイル向けのXbox betaアプリで、「Copilot for Gaming」の早期プレビューが開始された
+「Gemini in Chrome」を使えるGoogle Chrome 137が登場
+Googleは5月27日、デスクトップ向けChromeブラウザの安定チャネルをアップデートした。WindowsおよびmacOS向けに「137.0.7151.55」「137.0.7151.56」、Linux向けに「137.0.7151.55」を展開している。
+
+　本バージョンでは、Google I/Oで発表されていたChrome in Geminiが利用可能になった。実際にはChrome in Geminiは21日あたりからBetaやDev、Canaryチャネルでは展開されていたようだが、Chrome 137がChrome in Geminiを利用できる初の安定版となる。
+
+　ただし、利用できるのは米国のGoogle AI ProおよびUltraサブスクリプションユーザーのみだ。
+
+　また、このアップデートには脆弱（ぜいじゃく）性への対処を含む11件のセキュリティ修正が含まれており、CVE番号が公開されているのは以下の8件となる。カッコ内は深刻度だ。
+
+・CVE-2025-5063: Use after free in Compositing.（High）
+・CVE-2025-5280：Out of bounds write in V8.（High）
+・CVE-2025-5064：Inappropriate implementation in Background Fetch API.（Medium）
+・CVE-2025-5065：Inappropriate implementation in FileSystemAccess API.（Medium）
+・CVE-2025-5066：Inappropriate implementation in Messages.（Medium）
+・CVE-2025-5281：Inappropriate implementation in BFCache.（Medium）
+・CVE-2025-5283：Use after free in libvpx.（Medium）
+・CVE-2025-5067：Inappropriate implementation in Tab Strip.（Low）
+AIチャットbot「Copilot for Gaming」の早期プレビュー版が登場
+Microsoftは5月28日、AIチャットbot「Copilot for Gaming」の早期プレビューをiOSおよびAndroid向けのXboxアプリのβ版（Xbox beta）で提供を始めた。
+
+　Copilot for Gamingは、プレイしているXboxのアクティビティーを把握しており、興味のあるゲームに関する質問に答えたり、プレイ履歴や実績に基づいて質問に答えたりできる。「Minecraftで剣を作るのに必要な材料」や「ボスを倒すコツ」などにも答えてくれるとのこと。
+
+　Xbox betaで提供されるCopilot for Gamingの早期プレビューは、米国、オーストラリア、ニュージーランド、日本、シンガポール、その他の地域で、18歳以上のプレイヤーを対象に英語で提供されている。なお、Windows PCのGame Barでも間もなく提供予定とのことだ。
+Microsoftが5月度非セキュリティプレビューパッチをリリース
+Microsoftは5月27～28日、Windows 11向けに2025年5月度の非セキュリティプレビュー更新プログラムをリリースした。Windows 11 バージョン 24H2向けが「KB5058499」、23H2およびWindows 10 バージョン22H2向けが「KB5058481」となる。
+
+　Windows11 24H2向けの更新プログラムでは、以下のような機能が追加されている。
+
+・Clik to Doの新アクション「Ask Copilot」：テキストまたは画像をハイライト表示すると、Click To Doに「Ask Copilot」オプションが表示され、その内容についてCopilotに質問できる
+・個人設定から、「Windows＋C」や「Copilot」キーのカスタマイズが可能に
+・「設定」→「システム」→「バージョン情報」ページにあらたにFAQセクションを追加
+・「設定」→「アクセシビリティ」→「マウス」および「マウス ポインターとタッチ」でマウス設定に簡単にアクセスできるように
+・スマートフォン（iOS および Android）で作業または閲覧していたOneDriveファイルをWindows 11でシームレスに再開できるようになる。PCのロックを解除する5分以内に操作していたファイルが対象
+
+　非セキュリティプレビュー更新プログラムは、月例のセキュリティ更新プログラムに先駆けて変更内容をプレビューする目的のものだ。適用は必須ではなく、オプションを有効にしていなければ自動でアップデートされない。アップデートしなかった場合、基本的には翌月のセキュリティ更新プログラムと同時に適用される。
+Windows向け更新プログラムを定例外で公開
+MicrosoftがWindows 10／11、Windows Server 2022／2025の一部バージョンに対して、定例外（Out-of-band：OOB）の更新プログラムをリリースした。
+
+　Hyper-Vで実行されている機密仮想マシンが予期せず応答または再起動を断続的に停止する問題を修正したとのこと。主にAzureの機密VMに影響するとのことだ。
+
+　なお、この問題の影響を受けていない場合、この定例外（OOB）更新プログラムをインストールする必要はない。
+
+　当初、Windows Server 2022にのみ更新プログラムが提供されていたが、その後、他のWindows向けにもリリースされた。OOBがリリースされているのは以下のWindowsバージョンとなる。
+
+・Windows 11 バージョン 24H2（KB5061977）
+・Windows Server 2025（KB5061977）
+・Windows Server 2022（KB5061906）
+・Windows 10 バージョン 22H2（KB5061979）
+・Windows 10 Enterprise LTSC 2021（KB5061979）
+・Windows 10 Enterprise LTSC 2019 および Windows Server 2019（KB5061978）
+GeForce RTX 5060シリーズで画面が映らない不具合　更新ツールを公開
+NVIDIAは5月23日、GeForce RTX 5060シリーズのグラフィックスカードで、再起動時に画面が真っ暗になる場合があるとして、ファームウェアの更新ツールの提供を開始した。
+
+　NVIDIAによると、一部のレガシーマザーボードでGeForce RTX 5060 Ti、GeForce RTX 5060を利用すると、再起動時に画面が真っ暗になることがあるという。アップデートは症状が発生した場合にのみ適用するようにとのことだ。
+
+　なお、再起動中に画面が真っ暗になってしまい、ツールが実行できない場合には、以下の回避先を試してほしいとしている。
+
+・起動する前にシステムの電源を完全に切る
+・マザーボードベンダーの最新のSBIOSを使用していることを確認する 
+・UEFIブートモードであり、Legacy/CSMではないことを確認する 
+・代替グラフィックスソース（セカンダリーカードまたは統合グラフィック）を使用して起動する 
+・システムの電源を入れたら、グラフィックスドライバがインストールされたオペレーティングシステムが読み込まれるまで待つ
+Operaが生成AI機能を統合したWebブラウザ「Opera Neon」を発表
+Operaは5月28日、生成AI機能を統合したAIエージェントブラウザ「Opera Neon」を発表した。現在はα版だが、招待制で利用することが可能だ。将来的にはサブスクリプションベースでの提供となり、価格などの詳細は近日中に発表するとしている。
+
+　Opera Neonは、AIエージェントがネイティブに統合されており、Webを検索したり、表示しているページに関する質問に答えたりするなど、AIチャットに期待される機能のほとんどにアクセスできるとしている。
+
+　また、単にチャットを利用するだけではなく、ユーザーに代わってWebをナビゲートしたり、フォームへの入力、ホテルの予約、ショッピングなど、日常的なWebタスクを自動化したりできるとのこと。クラウドにホストされた仮想マシン内で動作するAI エージェントを採用しており、ユーザーがオフラインになっても作業を継続できるともしている。
+ITmedia PC USER",[],[]
