@@ -1,0 +1,178 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+サンワサプライ、縦にも横にも”間”にも挿せる電源タップをMakuakeで先行発売（PC Watch）,https://news.yahoo.co.jp/articles/962ba940979209f2aed2099019e4df4173271417,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000015-imppcw-000-1-view.jpg?exp=10800,2025-06-04T18:03:09+09:00,2025-06-04T18:03:09+09:00,PC Watch,imppcw,PC Watch,450,"写真：PC Watch
+サンワサプライは、ACアダプタやプラグを縦/横どちらの向きでも挿し込める「車輪差し構造」を採用した電源タップ「700-TAP082」シリーズと「700-TAP083」シリーズを6月5日12時より「Makuake」にて先行販売を開始する。
+【この記事に関する別の画像を見る】
+従来の電源タップでは難しかった大型ACアダプタの接続問題を独特の車輪差し構造により解決。並んでいるコンセントの間の部分も活用できるため、隙間を有効に利用できるのが特徴だ。
+
+　700-TAP082シリーズは雷ガードを搭載したACコンセントのみのモデル。700-TAP083シリーズはUSB Type-CとUSB Type-Aを1基ずつ搭載しており、USB Type-Cは最大33WのPD充電に対応している。
+
+　カラーはブラック/ホワイトの2色、コード長は1.5m/3mの2タイプで、合計8機種をラインナップ。
+
+　価格や仕様などの詳細は6月5日12時より公表される予定。
+PC Watch,稲津 定晃",[],[]
+操作はフィルムなのに中身はデジタルなカメラ「YASHICA FX-D」（PC Watch）,https://news.yahoo.co.jp/articles/306d9212d908407ed4cdfaa9fb83c4a0e1f78511,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000014-imppcw-000-1-view.jpg?exp=10800,2025-06-04T17:25:10+09:00,2025-06-04T17:25:10+09:00,PC Watch,imppcw,PC Watch,936,"写真：PC Watch
+クラウドファンディングのKickstarterにて、フィルムカメラのように撮影できるデジタルフィルムシミュレーションカメラ「YASHICA FX-D」シリーズの出資募集が行なわれている。期間は日本時間7月1日の7時42分まで。現時点での最小出資価格は4,541香港ドルとなっている。なお今後価格は変動する予定。
+【この記事に関する別の画像を見る】
+往年の35mmフィルムカメラ「YASHICA FX-3」からインスピレーションを得た製品で、アナログ体験を尊重したデジタルカメラ。Ruby 60s、Sapphire 70s、Golden 80s、400、MONO 400、B&W 400の6パターンのフィルムシミュレーションを搭載し、フィルム時代の色調や撮影感覚を再現するという。
+
+　フィルムカメラでは当たり前だったマニュアルでのフィルム巻き上げ操作を導入することで、シャッターチャンスを「儀式」にできるとしている。通常のデジタルカメラモードもあり、高画質な写真のほか、4K/30fpsでの動画撮影も可能だ。
+
+　ラインナップは「FX-D 100」、「FX-D 300」、「FX-D S300」3機種となっている。いずれのモデルも比率4:3の2.8型LCDディスプレイを搭載している。
+
+　FX-D 100はコンパクトで直感的な操作性、1,300万画素のソニーIMX458センサーを搭載したベースモデル。3倍光学ズームレンズを搭載し、焦点距離は35mmフルサイズ換算で25mm～76mm、絞りはF1.6～2.8、フォーカス範囲は広角が0.5mから、望遠が1mからとなっている。
+
+　FX-D 300はセンサーサイズ1/1.56型の5,000万画素CMOSセンサーを搭載したプロフェッショナルモデル。35mmフルサイズ換算で24mmの単焦点標準レンズを搭載し、フォーカスはビルドイン、レンズ径は49mm、絞りはF1.8となっている。
+
+　FX-D S300は、FX-D 300にEVFを搭載した最上位モデル。性能はFX-D 300と同等で、EVFは0.32型OLED、解像度は144万ドット、画角は100%となっている。
+PC Watch,稲津 定晃",[],[]
+OBS最新ベータ、Arm版Windowsに対応。VALORANTのキャプチャ問題も修正（PC Watch）,https://news.yahoo.co.jp/articles/945f0d448a70c8368e3f9755fc92ab55fa4ca96a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000013-imppcw-000-1-view.jpg?exp=10800,2025-06-04T15:54:07+09:00,2025-06-04T15:54:07+09:00,PC Watch,imppcw,PC Watch,387,"写真：PC Watch
+ライブ配信ソフト「OBS Studio」の最新ベータ版「31.1 Beta 1」にて、Arm版Windowsがサポートされた。現時点ではフル機能は利用できず、実験的な実装だとしている。
+
+　それ以外の機能追加としては、プレビューのズームコントロール、macOS(Apple Silicon搭載機)やLinuxにおけるマルチトラックビデオ、マルチトラックビデオにおけるストリーム遅延のサポートなどが実装された。
+
+　変更点としては、ゲームキャプチャフックのシグネチャが更新され、アンチチートソフト「Vanguard」を採用するRiot Games製ゲーム(VALORANT、League of Legends)におけるゲームキャプチャの問題が修正された。ソースリストやドックツールバーなどの表示の調整なども行なわれている。
+PC Watch,宇都宮 充",[],[]
+Glorious、ラピッドトリガー対応でカスタム可能なゲーミングキーボード（PC Watch）,https://news.yahoo.co.jp/articles/bd59f0e55ce2811842c55a0f9df97e3c4375d672,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000012-imppcw-000-1-view.jpg?exp=10800,2025-06-04T15:51:09+09:00,2025-06-04T15:51:09+09:00,PC Watch,imppcw,PC Watch,941,"写真：PC Watch
+アスクは、Glorious製のゲーミングキーボード「GMMK 3 PRO HE」シリーズ、「GMMK 3 HE 100%」シリーズを6日に発売する。
+【画像】GMMK 3 PRO HE 65% Prebuilt Wired Black US
+GMMK 3 PRO HEシリーズおよびGMMK 3 HE 100%シリーズは、どちらもラピッドトリガー対応のキースイッチ「Glorious Fox HE Linear」を搭載したモデル。このうち前者は上位モデルにあたり、アルミ製筐体を採用する。
+
+　キーキャップや外装、内部のスイッチプレートなど、さまざまなパーツを交換できる点も特徴で、ユーザー好みのカスタマイズキーボードを作ることができる。
+
+　そのほか共通の仕様として、キースイッチはMX Charry互換(3ピン/5ピン)、Glorious HEに対応。ポーリングレートは最大8,000Hzで、RGB LEDバックライトも備える。接続はUSB有線。各モデルのキー配列やカラー、実売予想価格は以下の通り。
+
+・GMMK 3 PRO HE 75% Prebuilt Wired Black US : 80キー英語配列/ブラック、6万4,800円前後
+・GMMK 3 PRO HE 65% Prebuilt Wired Black US : 65キー英語配列/ブラック、6万800円前後
+・GMMK 3 PRO HE 65% Prebuilt Wired Silver US : 65キー英語配列/シルバー、6万800円前後
+・GMMK 3 HE 100% Prebuilt Wired Black US :104キー英語配列/ブラック、4万800円前後
+・GMMK 3 HE 100% Prebuilt Wired White US :104キー英語配列/ホワイト、4万800円前後
+
+　また、既存モデルの新色となる「GMMK 3 PRO 100% Silver」も6日に発売。104キー英語配列の有線ゲーミングキーボードで、シルバーカラーの本体を採用している。ラピッドトリガーには非対応。実売予想価格は6万800円前後の見込み。
+PC Watch,宇都宮 充",[],[]
+あのCDリッピングソフト「CD2WAV32」が20年ぶりに更新。Windows 11に正式対応（PC Watch）,https://news.yahoo.co.jp/articles/a6dde9bcf5ac2410218759b7f74e44d954aa9d48,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000011-imppcw-000-1-view.jpg?exp=10800,2025-06-04T14:51:09+09:00,2025-06-04T14:51:09+09:00,PC Watch,imppcw,PC Watch,655,"写真：PC Watch
+CDリッピングソフト「CD2WAV32」の最新版「CD2WAV32 for Windows11 Revision 4.00jp」が5月31日に公開された。作者がブログで配布した最後のパッチから約16年ぶり、最後の正式バージョンアップから約20年ぶりの更新だとしており、多くの変更が加えられている。なお、Windows 11バージョン24H2のみが正式な対応OSとなる。
+
+　主な変更としては、コンパイラが最新のDelphi 12.1 Community Editionとなり、コモンコントロールなどのGUIがWindows 11ベースのものとなったほか、ファイラー関連でファイルサイズなどが32bit処理だったのを64bitベースに修正。内部処理やID3Tag関連の文字コードもUnicodeベースに置き換えた。
+
+　さらに、外付けドライブを起動後に接続しても使えるよう、CDドライブが存在しない状態でも起動できる仕様に変更。Media Foundation APIによるエンコードを既定とし、WMA形式もDLLなしで生成可能となった。
+
+　作者のもろぼし☆らむ氏によれば、ゴールデンウィークにメインマシンをWindows 11に入れ替え、Delphi 12.1 Community EditionをPCに導入。その際、サンプルとして本ソフトのプロジェクトを読み込ませたところ、修正の手が止まらなくなってしまい、今回の最新版リリースにつながったのだという。
+PC Watch,宇都宮 充",[],[]
+Microsoft、テキストから動画を生成する「Bing Video Creator」を無料提供（PC Watch）,https://news.yahoo.co.jp/articles/5423da92a42f8fa35fb19d5fe41ac74129bdea9a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000009-imppcw-000-1-view.jpg?exp=10800,2025-06-04T13:23:07+09:00,2025-06-04T13:23:07+09:00,PC Watch,imppcw,PC Watch,761,"写真：PC Watch
+Microsoftは6月2日(米国時間)、テキストから短い動画を自動生成できる新サービス「Bing Video Creator」を全ユーザー向けに無料で提供開始した。既にBingモバイルアプリで提供を開始し、今後はデスクトップ版およびCopilot Searchでも展開される予定。
+
+　この機能はOpenAIの「Sora」をベースとしている。Bing Video Creatorの使用方法だが、Bingモバイルアプリの右下のメニューから「Video Creator」を選ぶか、検索バーに「～のビデオを作成」と入力する。すると入力に基づいて5秒のショート動画が生成される。プロンプトには具体的な状況や動作、スタイルなどを詳細に記述することで、より理想的な結果が得られるとしている。
+
+　初期は縦長(9:16)フォーマットに対応し、今後は横長(16:9)も追加。また、最大3本まで生成をキューに登録可能。生成が完了すると通知が届き、動画はダウンロードやURLでのSNS共有ができる。作品は最大90日間保存されるため、プロンプトのダウンロードや共有、改良するのに十分な時間が得られるという。
+
+　生成速度は「高速」と「標準」の2種類で、選択が可能。当初は10回分の高速生成権が付与される。それを使い切った場合に高速生成を使いたい場合は、1作品につき100 Microsoft Rewardsポイント(Bing検索などで貯まる)を利用する。
+
+　なお、有害もしくは安全ではないビデオの生成を防ぐため、Soraに実装された保護機能に加え、追加の保護も組み込んだという。加えて、C2PA準拠のコンテンツクレデンシャルを付加し、コンテンツの資格情報と来歴が判別できるようになっている。
+PC Watch,劉 尭",[],[]
+ASUS、MIL-STD-810H準拠の15.6型Chromebook（PC Watch）,https://news.yahoo.co.jp/articles/6b2221ceb4447c3091c7a5a0860e56f3b8f73616,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000010-imppcw-000-1-view.jpg?exp=10800,2025-06-04T13:21:09+09:00,2025-06-04T13:21:09+09:00,PC Watch,imppcw,PC Watch,475,"写真：PC Watch
+ASUSは4日、15.6型Chromebook「Chromebook CX15(CX1505CKA)」を発売した。メモリ容量が8GB、4GBの2モデルを用意しており、価格は前者が4万9,800円、後者が4万5,800円。
+
+　60Hz駆動の15.6型フルHD(1,920×1,080ドット)液晶ディスプレイを搭載。CPUはCeleron N4500でストレージは64GB eMMC。92万画素Webカメラには物理シャッターを備えている。
+
+　筐体の3割に再生プラスチックを使用。180度開くヒンジやMIL-STD-810H準拠のテストにクリアした堅牢性も特徴。Google One AIプレミアムやYouTube Premiumの3カ月利用権も付属する。
+
+　インターフェイスはHDMI、USB 3.2 Gen 1 Type-C、USB 3.2 Gen 1、Wi-Fi 6、Bluetooth 5.4、音声入出力など。
+
+　本体サイズは359.5×232.2×20.1mm。重量は約1.59kg。
+PC Watch,関根 慎一",[],[]
+"FRONTIER、4万9,800円でWindows 11 Pro搭載の10.1型2in1（PC Watch）",https://news.yahoo.co.jp/articles/533a92ab3566d29be2fdb599d4da11010ee26104,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000008-imppcw-000-1-view.jpg?exp=10800,2025-06-04T12:58:08+09:00,2025-06-04T12:58:08+09:00,PC Watch,imppcw,PC Watch,417,"写真：PC Watch
+FRONTIERは、Windows 11 Pro標準の10.1型着脱式2in1「FRT280P」を発売した。価格は4万9,800円。
+
+　FRT280Pは、Celeron J4125、8GBメモリ、128GB eMMC、10.1型1,920×1,200ドットIPSディスプレイ、Windows 11 Proなどを搭載。ディスプレイは10点マルチタッチ対応で、学習用途などにも好適とする。
+
+　インターフェイスは、USB 3.2 Gen 1 Type-C、USB 3.2 Gen 1、USB 2.0、Wi-Fi 5、Bluetooth 5.0、Mini HDMI、音声入出力などを備える。
+
+　本体がサイズが約260×174×11mmで重量が約650g、キーボードを含むサイズが約260×174×22mm、キーボードの重量が約500g。バッテリ駆動時間は約2.1時間(動画再生時)。
+PC Watch,宇都宮 充",[],[]
+MSI、水冷Core Ultra 7/GeForce RTX 5070搭載のゲーミングPC（PC Watch）,https://news.yahoo.co.jp/articles/e55304a23ac14d33dbcfc41459014ffc98ce1864,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000007-imppcw-000-1-view.jpg?exp=10800,2025-06-04T12:45:08+09:00,2025-06-04T12:45:08+09:00,PC Watch,imppcw,PC Watch,631,"写真：PC Watch
+エムエスアイコンピュータージャパン(MSI)は、GeForce RTX 5070(12GB)を搭載したゲーミングPC「MPG Infinite X3 AI 2NVP7-090JP」を6月6日に発売する。価格はオープンプライスで、実売予想価格は42万8,000円前後の見込み。
+
+　CPUクーラーに360mmラジエータを備えた簡易水冷を採用し、エアフローに配慮した筐体を採用するなど、高負荷時でも高性能を維持できるという。またRGBライティングやRGB対応ファンを搭載し、独自のMystic Lightにより、色/発光パターンの変更が可能。
+
+　主な仕様は、CPUがCore Ultra 7 265K、メモリが32GB、チップセットがIntel Z890、ストレージが1TB M.2 NVMe、ビデオカードがGeForce RTX 5070、OSはWindows 11 Pro。電源は850Wの80PLUS Gold対応。
+
+　インターフェイスはUSB 3.2 Gen 2 Type-C 2基、USB 3.2 Gen 2、USB 3.2 Gen 1 3基、USB 2.0 4基、Wi-Fi 6E、Bluetooth 5.3、5Gigabit Ethernet、DisplayPort 2.1b 3基、HDMI 2.1b、音声入出力など。
+
+　本体サイズは235.1×481.3×485mm、重量は約13.88kg。
+PC Watch,劉 尭",[],[]
+ANSHIJAPAN、55型透明OLEDモニターを製品化。Windows 11搭載（PC Watch）,https://news.yahoo.co.jp/articles/57f4339326632f12cf9dfa67a3485b223ac8c136,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000006-imppcw-000-1-view.jpg?exp=10800,2025-06-04T12:34:09+09:00,2025-06-04T12:34:09+09:00,PC Watch,imppcw,PC Watch,427,"写真：PC Watch
+ANSHIJAPANは、Windows 11搭載PCが一体となった透明OLEDモニター「ANSHI AIR」の製品化を発表した。販売開始時期は2025年末の予定。
+【この記事に関する別の画像を見る】
+工業製品の設計/試作/量産化などを手掛ける有限会社スワニーと提携して開発し製品。モニター自体の発表は2024年12月だが、今回製品化が発表された。55型のコンセプトモデルを用意しており、カスタマイズモデルの展開やOEM/ODMの受付を始めている。
+
+　性能の詳細について具体的な数値などは公表していないが、台座から画面が伸びるような形状をしており、モニター部分は厚さ4mmの強化ガラス製。Core i7のCPU、16GBメモリ、512GBストレージを搭載し、OSにWindows 11を採用している。また静電容量式のタッチ操作に対応するほか、USB Type-Cポートやスピーカーを備えているという。
+PC Watch,関根 慎一",[],[]
+Android版Photoshopアプリ公開。ベータ中は無料でフル機能使える（PC Watch）,https://news.yahoo.co.jp/articles/45068c1fc65ec1d6ab44ae25d57f5eee795fa42f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000005-imppcw-000-1-view.jpg?exp=10800,2025-06-04T12:11:09+09:00,2025-06-04T12:11:09+09:00,PC Watch,imppcw,PC Watch,557,"写真：PC Watch
+Adobeは、写真編集ツール「Photoshop」のAndroid版アプリを提供開始した。Gooogle Playストアから入手できる。現時点ではベータ版となっており、ベータ期間中は全機能を無料で利用できるとしている。iOS版アプリは先行して2月に公開されていたが、今回Android版の提供も始まったかたち。対応環境は、OSがAndroid 11以降、メモリが6GB以上(推奨8GB以上)。
+
+　レイヤーやマスク、AIを使った生成塗りつぶしなど、PC版Photoshopが持つ主要な画像編集およびデザイン機能を搭載。外出先での創作活動に活用できるとしている。リリース時点で利用できる機能は以下の通り。
+
+・選択、レイヤー、マスクなどを使った画像の合成やブレンド
+・タップ選択ツールを使った画像の一部削除や置き換え
+・スポット修復ブラシなどによる画像の修正
+・生成塗りつぶしなどAdobe Fireflyベースの生成AI機能
+・Adobe Stockを使ったコンテンツ制作
+・オブジェクト選択ツールや自動選択ツールによる正確な範囲選択
+・削除ツールやコピースタンプツールによる高度な修正機能
+・高度なブレンドモードや調整レイヤーによるレイヤー効果のコントロール
+PC Watch,宇都宮 充",[],[]
+CrowdStrikeの悲劇は、もう繰り返さない。Windows 11に新しい回復機能実装へ（PC Watch）,https://news.yahoo.co.jp/articles/d6a4ee1f4f31da587462d531e44dd9462a0c3cae,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000004-imppcw-000-1-view.jpg?exp=10800,2025-06-04T11:49:08+09:00,2025-06-04T11:49:08+09:00,PC Watch,imppcw,PC Watch,1327,"写真：PC Watch
+Microsoftは6月2日、Windows 11 Insider Preview「ビルド26200.5622」をDevチャネル向けに順次提供開始した。新たな回復機能となる「Quick Machine Recovery」がDevチャネルでも段階的に利用可能となるほか、Click to Doの新アクション追加などが実施されている。
+【画像】ネットワークへの接続が可能となる
+Quick Machine Recoveryは、2024年11月に開催された「Ignite 2024」で発表された、より安全で安定的なWindowsの動作を目指す同社の取り組み「Windows Resiliency Initiative」の1つとして導入されるもの。2024年7月に発生したCrowdStrike製品による大規模障害の教訓から生まれた機能で、2025年3月にはBetaチャネル向けに先行実装されていたが、今回Devチャネル向けにも展開が始まったかたち。
+
+　Quick Machine Recoveryは、従来のスタートアップ修復で使われるWinRE(Windows Recovery Environment)を基盤としており、特にOS起動に関する大規模な障害が発生した際などでも、Microsoft側で即座に対応し、Windows Updateを介した修正を展開できる仕組みとなっている。
+
+　具体的には、正常に起動できない重大な障害が発生すると、デバイスはWinREに移行。ネットワークに接続して、Microsoftの回復サービスと通信できる状態になる。Microsoft側では、障害が起きているデバイスからクラッシュデータを受け取って分析し、原因を特定。また、これが広範囲な障害だと判明した場合、社内で即座に対策チームが設置され、修正パッチの準備が進められる。
+
+　その後対策パッチはWindows Updateを経由して展開され、デバイスはこれを適用して障害から回復する。その時すぐに解決策が見つからない場合でも、システムを一定間隔で解決策の検索の再試行を繰り返す「自動修復」オプションも用意されている。
+
+　設定アプリには専用のページも設けられ、システム→回復の中からアクセス可能。Quick Machine Recovery機能の有効/無効化のほか(無効の場合は従来と同じローカルでのスタートアップ修復)、自動修復やその頻度、必要な修復を適用する際の再起動のタイミングなどを設定できる。
+
+　なお、Homeエディションではクラウド経由での修復がデフォルトでオンになるが自動修復はオフ、ProおよびEnterpriseエディションではいずれもオフとなっており、組織がニーズに合わせて構成する。
+
+　これ以外にも、ビルド26200.5622ではAI機能「Click to Do」の「Draft with Copilot in Word」(Copilotを使ってWordで下書きを作成)のアクションが加わったほか、ウィジェット内で複数のダッシュボードが利用可能となるなど、機能追加や改善が行なわれている。
+PC Watch,宇都宮 充",[],[]
+高性能PCなどが最大8万円オフになる、マウスの「夏先取りセール」（PC Watch）,https://news.yahoo.co.jp/articles/f6bb90e0d9db43bdcb7bce36ff1ba0b1fec83291,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000003-imppcw-000-1-view.jpg?exp=10800,2025-06-04T11:42:09+09:00,2025-06-04T11:42:09+09:00,PC Watch,imppcw,PC Watch,654,"写真：PC Watch
+マウスコンピューターは、ECサイトにおいて対象のPC製品が最大8万円オフになる「夏先取りセール」を6月25日まで開催する。
+
+　8万円値引きの対象となっているのは、「DAIV FM-A9G90」というハイエンドのクリエイター向けPCで、通常価格109万9,800円のところ101万9,800円になる。主な仕様としてCPUにRyzen 9 9950X、メモリ128GB、ストレージに4TB NVMe SSD(WD_BLACK SN850X)、ビデオカードにGeForce RTX 5090(32GB)、OSにWindows 11 Homeなどを搭載する。
+
+　また、Ryzen 7 9700X/Radeon RX 9070 XTを搭載したゲーミングデスクトップ「G TUNE FG-A7A7X」は通常41万9,800円のところ35万9,800円、Ryzen 5 8500Gを搭載したデスクトップ「mouse SH-A5U01」は通常11万9,900円のところ10万9,800円となる。
+
+　ノートPCでは例として、Core i7-13650HXとGeForce RTX 4050 Laptop GPUを搭載したクリエイター向けの「DAIV R6-I7G50SR-A」が通常価格25万9,800円のところ23万9,800円、Ryzen 7 8845HSを搭載した「mouse B5-A7A01SR-A」は16万9,800円のところ16万4,800円となっている。
+PC Watch,劉 尭",[],[]
+Philips、2万円台で120Hz表示/65W給電USB Type-C付き液晶モニター（PC Watch）,https://news.yahoo.co.jp/articles/f990cae2a7d18981cdc49b79232d24fc651a23c1,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250604-00000002-imppcw-000-2-view.jpg?exp=10800,2025-06-04T11:16:07+09:00,2025-06-04T13:15:32+09:00,PC Watch,imppcw,PC Watch,1680,"写真：PC Watch
+MMD Singapore Pteは、120Hz表示対応でUSB Type-Cポートを搭載した液晶モニター「24E1N2300AE/11」、「27E1N2300AE/11」、「27E1N2600AE/11」の3モデルを6月中旬に発売する。価格はすべてオープンプライス。
+【画像】27E1N2300AE/11
+いずれも120Hzのリフレッシュレートを持つ非光沢IPSパネルを採用。Adaptive Syncも対応する。また、最大65Wの給電が可能なUSB Type-Cポートを備え、ケーブル1本でデバイスに電源を供給しつつ映像を映し出せる。
+
+　24E1N2300AE/11は23.8型で、実売予想価格は2万1,800円前後の見込み。主な仕様は、解像度が1,920×1,080ドット(フルHD)、表示色数が約1,677万色、色域がAdobe RGB 87.82%、DCI-P3 81.39%、sRGB 102.66%、NTSC 89.36%、中間色応答速度が4ms(MPRT応答速度は1ms)、輝度が300cd/平方m、コントラスト比が1,500:1、視野角は上下/左右ともに178度。
+
+　インターフェイスはHDMI 1.4、USB Type-Cで、2ポートのUSB 3.2 Gen 1ハブ、2W+2Wのステレオスピーカーも内蔵。スタンドは-5～20度のチルト、100mmの昇降をサポート。本体サイズは542×187×442mm、重量は4.68kg。
+
+　27E1N2300AE/11は27型で、実売予想価格は2万3,800円前後の見込み。主な仕様は、解像度がフルHD、表示色数が約1,677万色、色域がAdobe RGB 86.85%、DCI-P3 80.49%、sRGB 101.80%、NTSC 88.37%、中間色応答速度が4ms(MPRT応答速度は1ms)、輝度が300cd/平方m、コントラスト比が1,500:1、視野角は上下/左右ともに178度。
+
+　インターフェイスはHDMI 1.4、USB Type-Cで、2ポートのUSB 3.2 Gen 1ハブ、2W+2Wのステレオスピーカーも内蔵。スタンドは-5～20度のチルト、100mmの昇降をサポート。本体サイズは617×220×483mm、重量は5.85kg。
+
+　27E1N2600AE/11は27型で、実売予想価格は2万9,800円前後の見込み。主な仕様は、解像度が2,560×1,440ドット(WQHD)、表示色数が約1,677万色、色域がAdobe RGB 86.85%、DCI-P3 80.49%、sRGB 101.80%、NTSC 88.37%、中間色応答速度が4ms(MPRT応答速度は1ms)、輝度が350cd/平方m、コントラスト比が1,500:1、視野角は上下/左右ともに178度。
+
+　インターフェイスはHDMI 2.0、USB Type-Cで、2ポートのUSB 3.2 Gen 1ハブ、2W+2Wのステレオスピーカーも内蔵。スタンドは-5～20度のチルト、100mmの昇降をサポート。本体サイズは617×220×483mm、重量は5.75kg。
+
+　このほか、EVNIAブランドの3,440×1,440ドット表示対応湾曲34型モニター「34M2C3500L/11」を6月下旬に発売する。価格はオープンプライスで、実売予想価格は3万9,800円前後の見込み。
+
+　主な仕様は、パネルが非光沢VA、解像度が3,440×1,440ドット、表示色数が約10億7,000万色、色域がAdobe RGB 90%、DCI-P3 94%、sRGB 125%、NTSC 105％、中間色応答速度が1ms、輝度が300cd/平方m、コントラスト比が4,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスはHDMI 2.0 2基、DisplayPort 1.4。本体サイズは808×215×464mm、重量は12.67kg。
+PC Watch,劉 尭",[],[]
+Nintendo Switch 2のプロセッサをジェンスン・フアンCEOが自らアピール（PC Watch）,https://news.yahoo.co.jp/articles/02088da8b4db445a8e08ecd62b2b40ac8b95c546,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-04T11:05:09+09:00,2025-06-04T11:05:09+09:00,PC Watch,imppcw,PC Watch,401,"YouTubeのNintendo公式チャンネルにおいて、「Creator's Voice特別編」として、新ゲーム機「Nintendo Switch 2」に搭載されているカスタムプロセッサについてNVIDIAのジェンスン・フアンCEOが自ら紹介するビデオが公開された。
+
+　ビデオ内ではこのカスタムプロセッサの具体的なスペックについて触れていないが、「携帯機史上もっとも高度なグラフィックス」を実現したとしており、フルハードウェアレイトレーシング、広いダイナミックレンジ、互換性を維持するためのアーキテクチャ、リアルタイムで映像をシャープにする専用のAIプロセッサ、そして低消費電力といった要素を盛り込んだことをアピールした。
+
+　また、Nintendo Switch 2はただの新しいゲーム機ではなく、故岩田氏が描いたビジョンにふさわしい新しい章の始まりであるとも語っている。
+PC Watch,劉 尭",[],[]
