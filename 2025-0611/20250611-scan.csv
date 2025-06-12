@@ -1,0 +1,17 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+自社開発ツールで Active Directory の基本のセキュリティを担保 ～ MBSD「AD Security Baseline Check」（ScanNetSecurity）,https://news.yahoo.co.jp/articles/a705fcfaf243d6595b02931833afc5ee35109dba,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-11T08:00:14+09:00,2025-06-11T10:51:48+09:00,ScanNetSecurity,scan,ScanNetSecurity,504,"三井物産セキュアディレクション株式会社（MBSD）は6月9日、「AD Security Baseline Check」の提供を6月から開始すると発表した。
+同サービスは、MBSDが開発した専用ツールを用いて顧客自身で調査を実行し、その結果をMBSDのセキュリティエンジニアが解析・報告することで、Active Directory（AD）環境のセキュリティ状態を迅速かつ効率的に診断するもの。顧客自身が専用ツールを実行するだけで調査を行うことができ、従来のペネトレーションテストと比較して、事前準備や社内調整にかかる負担を大幅に軽減でき、業務やシステム環境への影響も最小限に抑えることが可能になる。
+同サービスの調査対象は、ペネトレーションテストで検出される頻度が高く、機械的な診断によって把握可能な代表的なセキュリティ項目に限定しており、下記の内容を中心に診断する。
+・パスワード関連の設定不備
+・ADサーバの構成ミスやポリシーの不適切な設定
+・パッチマネジメントの不備
+・不適切なネットワーク制御
+・アクセス制御に関する問題
+ScanNetSecurity 高橋 潤哉（ Junya Takahashi ）",[],[]
+企業がクラウドを使う理由「災害時バックアップ」が大幅増加 ～ 総務省 通信利用動向調査（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ff6eb4f09131ecca3f2532af707cafe0cc0764ee,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250611-00000001-scan-000-1-view.jpg?exp=10800,2025-06-11T08:00:03+09:00,2025-06-11T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,489,"クラウドサービスを利用する理由
+総務省は5月30日、2024年8月末の世帯及び企業における情報通信サービスの利用状況等について調査した「通信利用動向調査」の結果を取りまとめ発表した。
+【画像全3枚】
+調査結果によると、クラウドサービスを利用している企業の割合は増加傾向が続き、2024年は8割を超えている。利用する理由について尋ねたところ、「災害時のバックアップとして利用できるから」が2023年の36.8％から40.2％と増加率が大きく伸びている。
+インターネット利用時の不安について尋ねたところ、利用者の71.8％が何らかの不安を感じていることが明らかになった。年齢階層別に見ると、13～39歳の各年齢階層で不安を感じている人が前年に比べて大きく増加している。
+不安の具体的な内容について年齢階層別に見ると、どの階層も「個人情報やインターネット利用履歴の漏えい」が最も高い結果となり、他には「コンピュータウイルスに感染していないか」「架空請求やインターネットを利用した詐欺にあわないか」が上位に挙げられている。
+ScanNetSecurity ScanNetSecurity",[],[]
