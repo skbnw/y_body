@@ -1,7 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-アップデートナビに意図しないエンドポイントとの通信を拒否しない脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/4205dc8fad9c53f3adb4272d92b0bf358e7d36a8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-16T08:00:03+09:00,2025-06-16T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,549,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月12日、アップデートナビにおける意図しないエンドポイントとの通信を拒否しない脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ラックの吉越舟氏が報告を行っている。影響を受けるシステムは以下の通り。
-アップデートナビ V1.4 L10からL33まで
-アップデートナビ インストールサービス Service 1.2.0091から1.2.0125まで
-富士通クライアントコンピューティング株式会社が提供するアップデートナビには、意図しないエンドポイントとの通信を拒否しない脆弱性（CVE-2025-35978）が存在し、ユーザー権限を取得したローカルの攻撃者によって、悪意あるデータを送信された場合、任意のレジストリを書き換えられたり、任意のコードを実行されたりする可能性がある。
-JVNでは、開発者が提供する情報をもとにアプリを最新版へアップデートするよう呼びかけている。なお、当該製品が起動していて、インターネットに接続している場合は自動アップデートが適用される。
-ScanNetSecurity ScanNetSecurity",[],[]
