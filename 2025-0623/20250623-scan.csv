@@ -1,0 +1,19 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+自社SaaSに「Reckoner」を組み込んで利用できる「Reckoner Embedded」提供開始（ScanNetSecurity）,https://news.yahoo.co.jp/articles/e2f14208c3cc2cf09f1021f8ca0d11149a73c746,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-23T08:00:12+09:00,2025-06-23T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,696,"株式会社スリーシェイクは6月18日、自社で提供するSaaSに「Reckoner」を組み込んで利用できる新プラン「Reckoner Embedded」の提供を開始したと発表した。
+「Reckoner」は、データの集約・加工・連携をノーコードで実行できるクラウド型データ連携ツールで、kintone、Salesforce、Google BigQuery、SmartHRなど100種以上の多種多様なSaaSと連携し、データ運用の効率化とデータ活用の高度化を支援する。
+「Reckoner Embedded」は、「Reckoner」が提供する100種以上の連携コネクタやデータ加工機能を活用し、自社サービス上で外部システムとのデータ連携を構築・提供できるOEM型のサービスで、SaaS提供企業は新たな開発を行うことなく、自社サービスに外部システムとのデータ連携機能を実装できる。
+「Reckoner Embedded」は、下記の特徴を持つ。
+1.ノーコード構築
+非エンジニアでも使える直感的なUIとノーコード設計で、開発部門の工数をかけることなく、現場主導で連携機能を構築・提供することが可能。
+2.高い拡張性と柔軟性
+SaaSデータとの連携はAPIに限らず、CSVやデータベースなど多様な形式にも対応し、現場に適した柔軟な設計を実現。
+3.省力化テンプレート
+よく利用される連携パターンをテンプレート化し、設定作業の負担を軽減。
+4.初期費用不要・低コスト
+フルクラウドSaaSのため、インフラの準備や保守は不要。月額制で導入が容易。
+ScanNetSecurity ScanNetSecurity",[],[]
+KAON 製 KCM3100 に代替パスを使用した認証回避の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/3d9bc64e821705f1984dcaf17ce643aaf1646e9b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-23T08:00:08+09:00,2025-06-23T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,398,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月18日、KAON製KCM3100における代替パスを使用した認証回避の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。松村波彦氏が報告を行っている。影響を受けるシステムは以下の通り。
+KAON KCM3100 Ver1.4.2およびそれ以前
+KAONが提供するWi-Fi対応ゲートウェイ「KCM3100」には、代替パスを使用した認証回避の脆弱性（CVE-2025-51381）が存在し、製品のLAN側ネットワークから当該製品の認証を回避する攻撃を受ける可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
