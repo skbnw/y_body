@@ -1,0 +1,62 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+iroha Board に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/fe69a32e95053eb8ce3df420e9c0b70fd6f408fc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-30T08:00:17+09:00,2025-06-30T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,551,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月26日、iroha Boardにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の東内裕二氏が報告を行っている。影響を受けるシステムは以下の通り。
+iroha Board v0.10.12およびそれ以前のバージョン
+株式会社いろはソフトが提供するiroha Boardには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・強制ブラウジング（CVE-2025-41404）
+→当該製品にログイン可能な攻撃者によって、非公開に設定しているコンテンツを閲覧される
+・クロスサイトリクエストフォージェリ（CVE-2025-48497）
+→当該製品にログインした状態のユーザが、細工されたページにアクセスした場合、任意の学習履歴を登録させられる
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。開発者は、本脆弱性を修正した「iroha Board v0.10.13」をリリースしている。
+ScanNetSecurity ScanNetSecurity",[],[]
+Okta、AI エージェント セキュリティ強化支援プロトコル「Cross App Access」発表（ScanNetSecurity）,https://news.yahoo.co.jp/articles/3347c01572de090ad3ec94bcc9345db919c80d3d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250630-00000003-scan-000-1-view.jpg?exp=10800,2025-06-30T08:00:11+09:00,2025-06-30T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,709,"「Cross App Access」イメージ
+Okta Japan株式会社は6月24日、AIエージェントのセキュリティ強化を支援する新しいプロトコル「Cross App Access」を発表した。
+OAuthの拡張として設計された「Cross App Access」は、エージェント主導の連携とアプリ間の連携に対し、どのアプリが接続しているのか、AIエージェントがどの情報にアクセスできるのかITチームの判断を可能にする。
+Oktaは独立系ソフトウェアベンダー（ISV）と協力し、2025年第3四半期に一部のOkta Platform顧客向けの機能として「Cross App Access」を提供予定で、ISVのエンタープライズ顧客は自社のAIツールを他のアプリやデータと効果的に接続でき、繰り返し表示される認可同意画面を排除することで、エンドユーザーにシームレスな体験を提供する。さらに、エージェントのアクセスを管理することで、セキュリティとコンプライアンスを向上させることが可能になる。
+Okta Platformのチーフプロダクトオフィサー Arnab Bose氏は「Cross App Access により、Oktaはエンタープライズ全体におけるエージェントの連携に対して監視と制御を提供できることを嬉しく思います。プロトコルは、それを支えるエコシステムがあってこそ力を発揮するものです。私たちはソフトウェア業界全体と協力し、すべてのアプリに対する安全かつ標準化されたアクセスをエージェントに提供することに尽力していきます。」とコメントしている。
+ScanNetSecurity ScanNetSecurity",[],[]
+ティービーアイ製ネットワークレコーダおよびAHDレコーダに複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/248b3ce2bd0eba87c114be4b701d4152e785dee1,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-30T08:00:08+09:00,2025-06-30T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,1299,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月27日、ティービーアイ製ネットワークレコーダおよびAHDレコーダにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏と神野亮氏が報告を行っている。影響を受けるシステムは以下の通り。
+XRN-410SN/TE ファームウェアバージョン Ver2.47b_220119153805およびそれ以前
+XRN-810SN/TE ファームウェアバージョン Ver2.47b_220119153805およびそれ以前
+XRN-1610SN/TE ファームウェアバージョン Ver2.47b_210516234524およびそれ以前
+PRN-4011N/TE ファームウェアバージョン Ver2.51p_231208081715およびそれ以前
+HRX-421FN/TE ファームウェアバージョン Ver3.05.62およびそれ以前
+HRX-821/TE ファームウェアバージョン Ver3.05.62およびそれ以前
+HRX-1621/TE ファームウェアバージョン Ver3.05.62およびそれ以前
+HRX-435FN/TE ファームウェアバージョン Ver5.31.72およびそれ以前
+HRX-835/TE ファームウェアバージョン Ver5.31.72およびそれ以前
+HRX-1635/TE ファームウェアバージョン Ver5.31.72およびそれ以前
+XRN-425SFN/TE ファームウェアバージョン Ver5.31.32およびそれ以前
+XRN-426S ファームウェアバージョン Ver5.33.12およびそれ以前
+XRN-820S/TE ファームウェアバージョン Ver5.34.12およびそれ以前
+XRN-1620S/TE ファームウェアバージョン Ver5.34.12およびそれ以前
+XRN-3210R/TE ファームウェアバージョン Ver5.34.12およびそれ以前
+XRN-6410R/TE ファームウェアバージョン Ver5.34.12およびそれ以前
+XRN-6410DR/TE ファームウェアバージョン Ver5.34.12およびそれ以前
+株式会社ティービーアイが提供するネットワークレコーダおよびAHDレコーダには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・OSコマンドインジェクション（CVE-2025-36529）
+→当該機器にログインした第三者によって、任意のOSコマンドを実行される
+・バッファオーバーフロー（CVE-2025-41418）
+→細工されたリクエストを処理することで、CGIプロセスが異常終了する
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+開発者は、管理者パスワードを推測されにくいものに変更することを推奨している。
+ScanNetSecurity ScanNetSecurity",[],[]
+複数の Apache 製品にサービス運用妨害（DoS）の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ee2a790a788e7605505dfdd52c0d91862fc716f7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-06-30T08:00:03+09:00,2025-06-30T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,1041,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月26日、複数のApache製品におけるサービス運用妨害（DoS）の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。NTTデータグループ TERASOLUNA Framework セキュリティチームが報告を行っている。影響を受けるシステムは以下の通り。
+・CVE-2025-48976
+Apache Commons FileUpload 1.0から1.6より前
+Apache Commons FileUpload 2.0.0-M1から2.0.0-M4より前
+・CVE-2025-48988
+※TomcatはCommons FileUploadのフォークを含むため、下記のバージョンではCVE-2025-48976の影響も受ける。
+Apache Tomcat 11.0.0-M1から11.0.7まで
+Apache Tomcat 10.1.0-M1から10.1.41まで
+Apache Tomcat 9.0.0.M1から9.0.105まで
+The Apache Software Foundationが提供する複数のApache製品には、制限または調整なしのリソースの割り当て（CVE-2025-48976、CVE-2025-48988）の脆弱性が存在する。
+想定される影響としては、制限が不十分なマルチパートヘッダーへのリソースの割り当てによってサービス運用妨害（DoS）状態となる（CVE-2025-48976）、制限あるいは調整のないリソースの割り当てによってサービス運用妨害（DoS）状態となる（CVE-2025-48988）といった影響を受ける可能性がある。
+JVNでは、開発者が提供する情報をもとに下記のバージョンへアップデートするよう呼びかけている。
+・CVE-2025-48976
+Apache Commons FileUpload 1.6およびそれ以降
+Apache Commons FileUpload 2.0.0-M4およびそれ以降
+・CVE-2025-48988
+Apache Tomcat 11.0.8およびそれ以降
+Apache Tomcat 10.1.42およびそれ以降
+Apache Tomcat 9.0.106およびそれ以降
+ScanNetSecurity ScanNetSecurity",[],[]
