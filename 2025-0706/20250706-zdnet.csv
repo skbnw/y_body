@@ -1,0 +1,72 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「Gemini CLI」を「Linux」で使用するには--インストール手順を解説（ZDNET Japan）,https://news.yahoo.co.jp/articles/8321c064c17e7910fd5f69eb1c4ce20a97085ed7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250706-35235129-zdnet-000-1-view.jpg?exp=10800,2025-07-06T07:00:00+09:00,2025-07-06T07:00:00+09:00,ZDNET Japan,zdnet,ZDNET Japan,2182,"提供：Jack Wallen / Elyse Betters Picaro / ZDNET
+ついに、「Linux」のコマンドラインにも人工知能（AI）が浸透してきた。「Ollama」のようなツールのおかげで、この現実はもはや避けられないものになっている。AIはすでに現実のものとなっており、今後、姿を消すことは決してない。
+
+　だからといって、LinuxのターミナルでAIを使うことが必須になったわけではない。AIが利用可能になったというだけのことだ。すでにAIの恩恵を受けており、Linuxのコマンドラインインターフェース（CLI）を頻繁に使用する人は、AIとCLIを組み合わせることで、生産性を大幅に高められる。
+
+　そう、強力な「Gemini」のAIをLinuxのターミナルで直接利用できるのだ。
+
+　「Gemini CLI」は、ローカルにインストールできるツールで、コンテンツ生成や問題解決、ディープリサーチ、さらにはタスク管理など、幅広いタスクに使用できる。当初は開発者による使用を想定していたが、ウェブブラウザーやサードパーティーのGUIを使わずにAIにアクセスしたいエンドユーザーも利用可能だ。
+
+　Gemini CLIの欠点は、インストールが少し難しいことだ。そこで、本記事では、Gemini CLIのインストール方法について解説したい。
+
+Gemini CLIを「Ubuntu」にインストールする方法
+
+　必要なのは、Ubuntu Linux（またはUbuntuベースのディストリビューション）の実行中のインスタンス、sudo権限を持つユーザー、有効なGoogleアカウントだけだ。Gemini CLIを初めて実行する前に、デフォルトのウェブブラウザーでGoogleアカウントにログインしていることを確認してほしい。
+
+1. ターミナルウィンドウを開く
+
+　まず、デフォルトのターミナルウィンドウアプリを開く。
+
+2. 「Node.js」をインストールする
+
+　次に、Node.jsをインストールする（Gemini CLIはNode.jsのパッケージマネージャー「npm」でインストールされるため）。Node.jsをインストールするには、以下のコマンドを実行する。
+
+sudo apt-get install nodejs -y
+
+3. npmをインストールする
+
+　次に、以下のコマンドでnpmをインストールする。
+
+sudo apt-get install npm -y
+
+4. Gemini CLIをインストールする
+
+　npmでGemini CLIをインストールする方法を解説したドキュメントをいくつか見かけたが、それらの方法を実行しても、多くの場合、「gemini: command not found」（geminiコマンドが見つかりません）というエラーメッセージが表示されてしまう。Gemini CLIを正しくインストールする唯一の確実な方法は、以下のコマンドを使うことだ。
+
+sudo npm install -g @google/gemini-cli
+
+　これで、Geminiを実行できるようになる。
+
+　Geminiを実行しようとしてエラーが発生した場合は、最新バージョンのNode.jsをインストールする必要があるかもしれない。これは、以下のコマンドで実行可能だ。
+
+curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
+sudo -E bash nodesource_setup.sh
+sudo apt-get install nodejs -y
+
+　上記のコマンドを実行した後、以下のコマンドでnpmを再インストールする必要がある。
+
+sudo apt-get install npm -y
+Geminiを初めて実行する際の手順
+
+1. Geminiを実行する
+
+　まず、以下のコマンドでGeminiを実行する必要がある。
+
+gemini
+
+2. テーマを選択する
+
+　テーマを選択するよう促される。Geminiはcursesベースのアプリケーションなので、矢印キーを使ってテーマを選択し、キーボードの「Enter」キーを押す。
+
+3. 認証方法を選択する
+
+　そう、Googleアカウントでログインする必要がある。他の認証方法（「Gemini API Key」や「Vertex AI」）もあるが、Googleアカウントを使うのが最も簡単だ。「Googleでログイン」が選択されていることを確認して、キーボードの「Enter」キーを押す。
+
+4. 認証する
+
+　キーボードの「Enter」キーを押すと、デフォルトのウェブブラウザーが開くので、使用したいGoogleアカウントを選択する。認証が完了すると、ターミナルウィンドウがGeminiプロンプトに変わり、最初のクエリーを入力できるようになる。
+
+　Gemini CLIツールをLinuxにインストールする手順の解説は、以上である。強力なAIをターミナルで思う存分活用してほしい。
+
+この記事は海外Ziff Davis発の記事を朝日インタラクティブが日本向けに編集したものです。",[],[]
