@@ -1,0 +1,13 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「Cursor」のエージェント機能がWebとモバイル環境に対応（＠IT）,https://news.yahoo.co.jp/articles/918f67fd1a8484c8f85c1038095a9c739d932ad7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250708-00000003-zdn_ait-000-1-view.jpg?exp=10800,2025-07-08T08:00:12+09:00,2025-07-08T08:00:12+09:00,＠IT,zdn_ait,＠IT,898,"Cursor Agentがコーディングやリサーチタスクを実行している様子をカンバン形式で表示（提供：Anysphere）
+Anysphereは2025年6月30日（米国時間）、AI（人工知能）コーディングエディタ「Cursor」のエージェント機能「Cursor Agent」をWebとモバイル環境でも利用可能にしたと発表した。コードの記述、バグ修正、新機能の実装、リポジトリの操作といった作業を、デスクトップPCに限らずWebブラウザやスマートフォンからも実施できるようになる。
+コードの変更内容（diff）の確認や、エージェントとのやりとりや指示内容（conversation）、プルリクエストの作成やレビューをWeb上で実施できる（提供：Anysphere）
+PCとモバイルで作業を引き継げる
+AnysphereによるとCursor Agentは、ユーザーの指示に応じてコードを生成するだけでなく、プルリクエストの作成や修正内容の差分表示、複数エージェントの同時実行などで開発業務を幅広く支援するという。
+
+　Cursor Agentは「PWA」（Progressive Web App）としても提供されており、iOSやAndroid端末にアプリケーションとしてインストールすることも可能だ。同社は「こうした仕組みによって、ユーザーがPCの前にいなくてもバグ修正、新機能の実装、コードベースに関する複雑な質問への回答といったタスクをバックグラウンドで進められるようになった」と説明している。
+
+　「Slack」との連携も強化されている。Slack上で「@Cursor」と呼び掛けることでエージェントが起動し、指示したタスクを実行する。また、エージェントがタスクを完了した際に、その結果や進捗（しんちょく）をSlack上に自動で通知させることも可能だ。
+
+　Anysphereは「Cursor AgentをWebに持ち込むことで、エージェントとのコラボレーションがチームメンバーとの作業と同じくらい簡単になった。どこにいても強力なコーディングパートナーと一緒に作業できる」と述べている。
+＠IT",[],[]
