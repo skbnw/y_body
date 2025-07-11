@@ -1,0 +1,25 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+体験・品質・セキュリティ を一貫して最適化「デジタルサービス事業者向け品質支援ソリューション」エーアイセキュリティラボとヴェス（ScanNetSecurity）,https://news.yahoo.co.jp/articles/63ee179ac4d5209350fbb9ae24946b31870ba0e2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250711-00000002-scan-000-1-view.jpg?exp=10800,2025-07-11T08:00:19+09:00,2025-07-11T08:00:19+09:00,ScanNetSecurity,scan,ScanNetSecurity,528,"株式会社エーアイセキュリティラボと株式会社ヴェスが新たなアライアンスを締結
+株式会社エーアイセキュリティラボは7月7日、株式会社ヴェスと新たなアライアンスを締結したと発表した。
+ヴェスでは、開発からテストまでソフトウェアの第三者検証を通じて企業の品質向上を支援しており、アライアンスの締結で「デジタルサービス事業者向け品質支援ソリューション」を提供する。
+デジタルサービスを展開する多くの企業では、ユーザー体験・業務品質・セキュリティといった各分野で個別に改善活動が行われているが、それぞれの取り組みが部門ごとで分断されているため課題の本質が見えにくく、全体としての最適化につながっていないケースがある。
+同ソリューションでは、デジタルサービス全体の改善活動を社内で一貫して実行できる体制づくりを支援、部門の垣根を越えて情報を可視化・共有することで、各フェーズの課題を多面的に捉えることができると同時に、継続的な改善活動を実現する。
+セキュリティ領域では、エーアイセキュリティラボが提供するクラウド型Webアプリケーション脆弱性診断ツール「AeyeScan」が、脆弱性対策の内製化を支援する。
+ScanNetSecurity ScanNetSecurity",[],[]
+マイクロソフト 7 月のセキュリティ情報公開、セキュリティ更新プログラムの適用を呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/4470364c61827484dfacd4bcd463f7feb7e29e4c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-11T08:00:16+09:00,2025-07-11T08:00:16+09:00,ScanNetSecurity,scan,ScanNetSecurity,883,"独立行政法人 情報処理推進機構（IPA）は7月9日、「Microsoft 製品の脆弱性対策について(2025年7月)」を発表した。一般社団法人 JPCERT コーディネーションセンター（JPCERT/CC）も「2025年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2025年7月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v24H2, v23H2
+Windows 10 v22H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019 , 2016 (Server Core installation を含む)
+Remote Desktop client for Windows Desktop
+Microsoft Office
+Microsoft SharePoint
+Microsoft SQL Server
+Microsoft Visual Studio
+Microsoft Azure
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また、「Microsoft SQL Server の情報漏えいの脆弱性（CVE-2025-49719）」については、Microsoft 社が更新プログラムが公開されるよりも前に脆弱性の詳細が一般へ公開されていることを確認しており、更新プログラムの適用を早急に行よう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
