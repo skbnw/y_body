@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「AI利用＝クラウド移行」に潜む、SAPの人工知能戦略の落とし穴（TechTargetジャパン）,https://news.yahoo.co.jp/articles/2b0d57132825018e9e6292ee884ca76ab9b906e5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250712-00000030-zdn_tt-000-1-view.jpg?exp=10800,2025-07-12T20:00:12+09:00,2025-07-12T20:00:12+09:00,TechTargetジャパン,zdn_tt,TechTargetジャパン,1356,"（写真：TechTargetジャパン）
+SAPのオンプレミス型ERP（統合基幹業務システム）「SAP ERP Central Component」（以下、ECC）は2027年に保守サポートが終了する。SAPはユーザー組織に対しクラウド移行を促しており、同社の人工知能（AI）技術を利用するためにもクラウド移行を“条件”としているという声もある。この戦略は成功するのか。ERPの業界アナリストが指摘する、SAPが「変えなければいけないこと」を取り上げる。
+
+　ERPの付加価値を高めるために、AI技術は重要な役割を果たす。ERPは企業にとって、ビジネス成果を生み出すために有用なデータを数多く保持している。AI技術を使ってそれらのデータを分析すれば、新サービスを創出したり顧客満足度を高めたりすることことにつながる可能性がある。ERPの業界アナリストは、SAPがユーザー組織に高度なAI技術の機能を提供すれば、他のERPベンダーとの優位性を高められるとみている。
+
+　SAPのAI技術を利用するには、ERPをクラウドに移行する必要がある。同社は、クラウド移行支援サービス「Rise with SAP」を通じてユーザー組織にクラウドへの移行を推奨している。しかし、ITコンサルティングを手掛けるEnterprise Applications Consultingのジョシュア・グリーンバウム氏はRise with SAPに関して、「SAPの関心はユーザー組織の利益向上ではなく、SAPの利益向上にある」と指摘する。
+
+　SAPはECCの次世代版ERPである「SAP S/4HANA」（以下、S/4HANA）の中で、パブリッククラウド向けのERPサービス「S/4HANA Cloud Public Edition」を提供している。ユーザー組織の中には、メインのERPとしてECCを運用しながら、S/4HANA Cloud Public Editionを導入し、ビジネスを支援する生成AI機能「Joule」といったSAPのAI技術を活用しているところもある。このようにオンプレミスとクラウドサービスの両面でERPの機能を提供するSAPの手法についてグリーンバウム氏は「（本格的なクラウド移行が難しい）ユーザー組織の問題を解決する賢い戦略だが、Rise with SAPの仕組みには含まれていないので、別の方法で実施する必要がある」と述べる。
+
+　調査会社Constellation Researchのアナリスト、ホルガー・ミュラー氏は、「SAPのAI技術をユーザー組織がどれだけスムーズに使えるかが、同社のERPを選ぶ決め手になる」と予測する。現在、SAPの大きな課題は、まだクラウド移行していないユーザー組織にAI技術をどう提供するかだと同氏は指摘する。「SAPは『AI技術利用＝クラウド移行』という姿勢を和らげる必要がある」（ミュラー氏）
+
+本記事は米国Informa TechTargetの記事「SAP's challenge ahead is making a case for cloud migrations」を翻訳・編集したものです。一部、翻訳作業に生成AIを活用しています。
+TechTargetジャパン",[],[]
