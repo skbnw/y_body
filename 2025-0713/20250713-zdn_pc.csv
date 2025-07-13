@@ -1,0 +1,64 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+xAIが最新AIモデル「Grok 4」を発表／Bluetoothメッシュネットワークを使ったアプリ「bitchat」公開（ITmedia PC USER）,https://news.yahoo.co.jp/articles/b29e56578319fe769739fe7b07c16f71c633c498,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250713-00000009-zdn_pc-000-1-view.jpg?exp=10800,2025-07-13T06:05:08+09:00,2025-07-13T06:05:08+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,3763,"MicrosoftがEdgeブラウザのパフォーマンス改善を報告している
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、7月6日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】GoogleがAIアシスタントGeminiのWear OSへの展開を開始した
+xAIが最新AIモデル「Grok 4」を発表
+xAIは7月9日、最新のAIモデル「Grok 4」を発表した。イーロン・マスク氏は、「世界で最も強力なAIモデル」だとしている。
+
+　ライブストリーミングで発表された内容によると、Grok 4は「Humanity's Last Exam（HLE）」において、競合モデルを上回る25.4%のスコアを記録している。高性能モデルとなる「Grok 4 Heavy」では、スコアが44.4%に達したとのこと。
+
+　Humanity's Last Exam（HLE）は、AIの最先端能力を測るために設計されたベンチマークテストで、100を超える専門分野にわたる2500問の難問で構成されている。これまでGoogle DeepMindのGemini 2.5 Proが21.6%でトップだったが、Grok 4はこれを大きく上回る結果となった。
+
+　Grok 4は、XではXプレミアムプラス（月額5003円）で利用できる。Grok単体では、SuperGrokプラン（月額30ドル）および新設されたSuperGrok Heavyプラン（月額300ドル）で利用可能だ。
+Bluetoothメッシュネットワークを使ったアプリ「bitchat」公開
+Twitter（現X）元CEOのジャック・ドーシー氏は7月7日、Bluetoothメッシュネットワークを使ったメッセージングアプリ「bitchat」をGitHubで公開した。
+
+　bitchatは、Bluetooth LEメッシュネットワーク上で動作する分散型のP2Pメッセージングアプリだ。BLEで動作するので、インターネットインフラに依存せず、ネットワーク障害や検閲にも耐性を持つ、一時的に暗号化された通信を実現するとしている。分散型でサーバが存在しないので、メッセージはデバイスのメモリにのみ存在することになる。
+
+　ドーシー氏は以前から分散型プラットフォームに注力しており、分散型SNSのBlueskyの立ち上げに関わった他、分散型プロトコル「Nostr」を支援している。
+
+　なお、bitchatはAppleのTestFlightで公開されたが、すぐに上限に達した。アプリは現在、App Storeでレビュー中とのことだ。
+スマートウォッチ向けOS「Wear OS」でGeminiが利用可能に
+Googleは7月9日、Wear OS向けにAIアシスタント「Gemini」の展開を開始したと発表した。Samsungが同日発表したGalaxy Watch 8の他、Pixel WatchやOPPO、OnePlus、XiaomiのWear OS搭載スマートウォッチで利用できるようになる。
+
+　スマートウォッチのGeminiは、「Hey Google」と呼び掛ける他、スマートウォッチのサイドボタン長押しなどで起動できる。GmailやGoogleカレンダーなどのGoogleサービスと連携し、メールの要約やカレンダーへのイベント追加などを音声で行えるようにもなる。音声メモやリマインダーの設定も可能だ。
+「Microsoft Edge」の挙動が高速化　平均で40％も短縮
+Microsoftは7月7日、Microsoft Edgeブラウザにおける過去数カ月の取り組みの結果、300ms未満のFirst Contentful Paint（FCP）を達成したと報告した。
+
+　FCPは、Webページを開いたときに 最初に視覚的なコンテンツ（文字や画像など）がブラウザに表示されるまでの時間を示す指標のこと。業界調査によると、FCPが300～400ms以上かかると、ユーザーが遅いと感じる可能性があることから、300msという目標を定められた。
+
+　この目標を達成したことで、ページがほぼ瞬時に表示されるようになったという。なお、FCPの向上だけではなく、2月の報告時点から、読み込み時間が平均で40%大幅に短縮され、設定や読み上げ機能、画面分割など、13のブラウザ機能において応答性の大幅な向上を実現したとしている。
+
+　取り組みはこれで終了ではなく、今後数カ月以内に、印刷プレビューや拡張機能など、さらに多くの機能でパフォーマンスのさらなる向上を目指していくという。
+Microsoftが月例のセキュリティ更新プログラムをリリース
+Microsoftは7月8日、現在サポートしているWindows 11およびWindows 10の全バージョンに対し、月例セキュリティ更新プログラムの配信を開始した。
+
+　Windows 11 24H2向けは「KB5062553」、Windows 11 23H2／22H2向けは「KB5062552」、Windows 10 22H2／21H2向けは「KB5062554」、Windows 10 1809向けは「KB5062557」となる。
+
+　本更新プログラムでは、CVE番号ベースで130件の脆弱（ぜいじゃく）性に対応した。このうち深刻度を「Critical（緊急）」と評価しているのは以下の14件だ。
+
+・CVE-2025-36357：L1 データ キューでの一時スケジューラ攻撃
+・CVE-2024-36350：ストア キューでの一時スケジューラ攻撃
+・CVE-2025-49717：Microsoft SQL Server のリモートコードが実行される脆弱性
+・CVE-2025-49735：Windows KDC プロキシ サービス（KPSSVC）のリモートでコードが実行される脆弱性
+・CVE-2025-47980：Windows Imaging Componentの情報漏えいの脆弱性
+・CVE-2025-47981：SPNEGO Extended Negotiation（NEGOEX）Security Mechanism Remote Code Execution Vulnerability
+・CVE-2025-48822：Windows Hyper-V 個別デバイスの割り当て（DDA）のリモートでコードが実行される脆弱性
+・CVE-2025-49697：Microsoft Office のリモートコードが実行される脆弱性
+・CVE-2025-49698：Microsoft Word のリモートでコードが実行される脆弱性
+・CVE-2025-49695：Microsoft Office のリモートコードが実行される脆弱性
+・CVE-2025-49703：Microsoft Word のリモートでコードが実行される脆弱性
+・CVE-2025-49704：Microsoft SharePoint のリモートコードが実行される脆弱性
+・CVE-2025-49696：Microsoft Office のリモートコードが実行される脆弱性
+・CVE-2025-49702：Microsoft Office のリモートコードが実行される脆弱性
+
+　特に「CVE-2025-47981：SPNEGO Extended Negotiation（NEGOEX）Security Mechanism Remote Code Execution Vulnerability」は、CVSSスコアが9.8と高く、注意が必要だ。
+
+　また、「CVE-2025-49719：Microsoft SQL Server の情報漏えいの脆弱性」に関しては、深刻度は「Important（重要）」ながら、更新プログラムのリリースよりも前に脆弱性の詳細が公開されていることを確認しているという。
+ソースネクストがWindows 10 EOS後も一部で製品サポートを継続
+ソースネクストは7月3日、10月14日に予定されているWindows 10のサポート終了後も、同OS向けのサポートを当面の間、継続すると発表した。
+
+　ソースネクストでは、これまでWindows 10のサポート終了と同時に同OS向け製品のサポートを終了するとしていたが、Window 10で同社製品を利用しているユーザーが多いこと、MicrosoftがWindows 10の拡張セキュリティ更新プログラム（ESU）を開始し、一定条件を満たす個人ユーザーには無償で提供することなどを考慮し、同OS向け製品のサポートを延長するという。
+
+　ただし、Windows 10に起因する問題に関しては対応できない可能性があるとのことだ。また、ESUを利用せずにWindows 10を使い続けるのは危険なため、同OSの継続利用を推奨するものではなく、状況により予告なくサポートを終了する場合もあるとしている。
+ITmedia PC USER",[],[]
