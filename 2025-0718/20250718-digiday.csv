@@ -1,0 +1,22 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+【今週の数字】モダンリテール編（7/11〜7/17）： 週5億人の選択がGoogleの屋台骨を揺さぶる ほか（DIGIDAY［日本版］）,https://news.yahoo.co.jp/articles/44678b6a7a91a7a78bb0da72f52a24e58ed57574,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-18T10:11:02+09:00,2025-07-18T10:11:02+09:00,DIGIDAY［日本版］,digiday,DIGIDAY［日本版］,884,".ad-wrapper,.advertisement,
+#header
+-ad-wrapper {display:none !important}
+
+「Numbers to know」は、モダンリテールが注目するニュース（7月11日（金）〜7月17日（木））を数字とともにご紹介します。
+
+5億人
+週5億人の選択がGoogleの屋台骨を揺さぶる
+ChatGPTのアクティブユーザーが、Google広告に“圧”をかける日
+ChatGPTを手がける米OpenAIが、近く新たなウェブブラウザーを発表する。Chromeに代わる“対話型”の新ブラウザーは、検索結果をクリックするのではなく、ChatGPTのようにユーザーとの対話を通じて情報を取得する設計。AIエージェント「Operator」と連携すれば、予約やフォーム入力なども代行できるという。もしChatGPTの週5億人のユーザーが新ブラウザーに流入すれば、Googleの広告収益（売上の約75％を占める）にも影響を及ぼす可能性がある（ロイター）。
+
+1700回
+GPTBotは読むだけで返さない
+OpenAIのGPTBotは、1,700回もWebページをクロールしておきながら、そのページにユーザーを送るのはたった1回。一方Googleは14回に1回は送客しており、この非対称性は歴然だ。クラウドフレアはこうした“読み逃げ型”AIに対抗すべく、AIクローラーを一括で遮断できる「レッドボタン」機能を提供開始。パブリッシャーは、ただ情報を取られるだけの時代に「待った」をかけはじめた（）。
+
+241億ドル
+米オンライン消費が拡大　けん引役はAmazonセール
+Amazonの「プライムデー」により、米オンライン消費は前年比30.3％増の241億ドルに達した。だが派手な数字の裏で、実際に売れていたのは3分の2が20ドル未満の商品。家電や高額商品は敬遠され、食器用洗剤や紙皿といった日用品の“お得買い”が中心だった。物価上昇と不安定な経済の中、消費者の慎重さが浮き彫りになっている（Bloomberg）。
+
+編集部
+編集部",[],[]
