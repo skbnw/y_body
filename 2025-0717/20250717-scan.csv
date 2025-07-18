@@ -1,0 +1,60 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「セコム安否確認サービス」とクラウド人事労務ソフト「SmartHR」がサービス連携（ScanNetSecurity）,https://news.yahoo.co.jp/articles/05edb998e31621ecc52deae24daf504599f5562a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250717-00000004-scan-000-1-view.jpg?exp=10800,2025-07-17T08:00:15+09:00,2025-07-17T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,686,"「セコム安否確認サービス」と「SmartHR」連携の概要
+セコムトラストシステムズ株式会社は7月15日、「セコム安否確認サービス」を含む複数のサービスと株式会社SmartHRのクラウド人事労務ソフト「SmartHR」が、同日からサービス連携を開始すると発表した。
+セコムトラストシステムズが2004年9月に提供を開始した「セコム安否確認サービス」は、2025年3月末時点で9,300社850万人が利用する危機管理サービス。
+SmartHRが提供する「SmartHR」は、採用情報の管理から雇用契約や入社手続き、勤怠・給与計算などの多様な労務手続きをペーパーレス化し、データとして蓄積するクラウド人事労務ソフト。「SmartHR」に溜まった従業員データを活用した「人事評価」「従業員サーベイ」「配置シミュレーション」「スキル管理」などのタレントマネジメント機能で最適な人員配置や人材育成を後押しし、データに基づく人的資本経営を支援する。
+災害時の安否確認・被災状況の把握を通じて事業継続を支援する「セコム安否確認サービス」では、外部サービスとの連携を拡大しており、社員情報の自動更新などの効率化を通じて、より安定した危機管理体制の構築を支援している。
+「セコム安否確認サービス」と「SmartHR」でAPI連携を行うことで、「SmartHR」に登録された社員情報を「セコム安否確認サービス」に自動的に反映することが可能となり、連携を行うことで情報の整合性が保たれ、二重管理が不要となり、業務効率向上につながる。
+ScanNetSecurity ScanNetSecurity",[],[]
+情報処理学会「サイバーとフィジカルが融合する未来を支えるコンピュータセキュリティ技術」論文募集（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d734ce6da60d757c9fd211b9aadf111dac41b1f2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-17T08:00:12+09:00,2025-07-17T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,450,"一般社団法人情報処理学会は7月8日、サイバーとフィジカルが融合する未来を支えるコンピュータセキュリティ技術についての論文を広く募集すると発表した。
+本特集号「サイバーとフィジカルが融合する未来を支えるコンピュータセキュリティ技術」では、サイバー・フィジカルシステムにおける攻撃・防御技術、AIに対する攻撃、AIを活用したシステム防御、プライバシー保護、サイバー攻撃による物理的影響の評価とその緩和策、ユーザブルセキュリティや社会科学的考察まで、広範囲のサイバーとフィジカル融合時代を支えるセキュリティ技術に関する研究論文を広く募集している。
+投稿締切は2025年11月28日で、特集号予定は2026年9月号としている。なお、査読手続きについては通常の論文誌投稿論文と同一だが、特集号編集期限の関係上、著者への照会期間は通常（8週間）より短縮される。
+論文の執筆要領は「情報処理学会論文誌（IPSJ Journal）」原稿執筆案内に依る。
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache Tomcat に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0198b50d514659ab0857fef5faa9824ebab717b5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-17T08:00:08+09:00,2025-07-17T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,812,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月14日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+・CVE-2025-52434
+Apache Tomcat 9.0.0.M1から9.0.106まで
+・CVE-2025-52520、CVE-2025-53506
+Apache Tomcat 11.0.0-M1から11.0.8まで
+Apache Tomcat 10.1.0-M1から10.1.42まで
+Apache Tomcat 9.0.0.M1から9.0.106まで
+The Apache Software FoundationのApache Tomcatには、サービス運用妨害（DoS）状態にされる可能性がある複数の脆弱性が存在する。
+・接続終了時の競合状態により、APR/Nativeコネクタ使用時にJVMがクラッシュする（CVE-2025-52434）
+・特定の構成においてファイルアップロード時に整数オーバーフローが発生し、サイズ制限を回避される（CVE-2025-52520）
+・HTTP/2クライアントが初期設定の最大ストリーム数を無視し、同時に多数のストリームを開こうとすることで、サーバーのリソースを枯渇させる（CVE-2025-53506）
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。本脆弱性は、下記のバージョンで修正されている。
+Apache Tomcat 11.0.9およびそれ以降
+Apache Tomcat 10.1.43およびそれ以降
+Apache Tomcat 9.0.107およびそれ以降
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache HTTP Server 2.4 に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/544cb52fd0e2b98e90208aed03c9152caec6b569,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-17T08:00:03+09:00,2025-07-17T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,1447,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月14日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+・CVE-2024-42516、CVE-2024-43204、CVE-2024-43394、CVE-2024-47252
+Apache HTTP Server 2.4.0から2.4.63
+・CVE-2025-23048
+Apache HTTP Server 2.4.35から2.4.63
+・CVE-2025-49630
+Apache HTTP Server 2.4.26から2.4.63
+・CVE-2025-49812
+Apache HTTP Server 2.4.63およびそれ以前
+・CVE-2025-53020
+Apache HTTP Server 2.4.17から2.4.63
+The Apache Software FoundationのApache HTTP Server 2.4系には、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・Apache HTTP Serverのコア機能におけるHTTPレスポンス分割の問題（CVE-2024-42516）
+　Apache HTTP Server 2.4.59で修正された不具合（CVE-2023-38709）に対する不十分な修正に対応
+→HTTPレスポンスを分割し、任意のヘッダーなどを挿入される
+・mod_proxyがロードされたApache HTTP Serverにおけるサーバサイドリクエストフォージェリ（CVE-2024-43204）
+→攻撃者が指定するURLへアウトバウンドプロキシリクエストを送信される
+・Windows用Apache HTTP Serverにおけるサーバサイドリクエストフォージェリ（CVE-2024-43394）
+→悪意のあるサーバーにNTLMハッシュが漏えいする
+・mod_sslにおける、ユーザー指定のデータのエスケープが不十分な問題（CVE-2024-47252）
+→クライアントから提供されたデータに対してエスケープ処理が実施されないままログファイルに表示される
+・特定のmod_ssl構成において、信頼されたクライアントによるアクセス制御のバイパスが可能な問題（CVE-2025-23048）
+→別のバーチャルホストにアクセスされる
+・特定のプロキシ構成において、信頼できないクライアントによる意図的に発生可能なアサーションエラー（CVE-2025-49630）
+→サービス運用妨害（DoS）状態にされる
+・特定のmod_ssl構成において、中間者攻撃者によるTLSアップグレード攻撃が可能な問題（CVE-2025-49812）
+→HTTP セッションを乗っ取られる
+・有効期間後のメモリ解放の欠如（CVE-2025-53020）
+→メモリが開放されないことでサービス運用妨害（DoS）状態につながる
+The Apache Software Foundationでは脆弱性に対応したApache HTTP Server 2.4.64を公開しており、JVNでは、最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
