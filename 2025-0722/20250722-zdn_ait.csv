@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+業務利用でも無料に　Element LabsがローカルAIツールキット「LM Studio」の利用規約を変更（＠IT）,https://news.yahoo.co.jp/articles/75220313bb38d2b26c20c92718ace8ade89ddf22,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250722-00000004-zdn_ait-000-1-view.jpg?exp=10800,2025-07-22T08:00:16+09:00,2025-07-22T08:00:16+09:00,＠IT,zdn_ait,＠IT,1124,"リリース
+Element Labsは2025年7月8日（米国時間）、大規模言語モデル（LLM）をローカルにダウンロードして実行できるローカルAI（人工知能）ツールキット「LM Studio」を、企業や組織でも無料で利用できるようにしたと発表した。
+
+　LM Studioはこれまで、個人利用は無料だったが、企業や組織で利用する場合は商用ライセンスを取得する必要があった。Element Labsは、利用規約を更新してこの要件を廃止し、企業や組織でのビジネス利用については無料とした。
+なぜ業務利用でも無料に？
+Element Labsは、2023年5月にLM Studioをリリースした直後に、業務利用に商用ライセンス取得を義務付ける利用規約を設定した。だが、その後約2年が経過し、商用ライセンス要件が職場でのLM Studio導入の高い障壁となっていると考え、今回の措置を講じたと同社は説明している。
+
+　Element Labsでは、LM Studioを「新しいオープンソースモデルを試す最初の場」と位置付けている。アプリケーション本体に加え、ローカルAIアプリケーションを構築できる「LM Studio SDK」、LM StudioやこのSDK（ソフトウェア開発キット）で作成したものを共有できるWebページ「LM Studio Hub」も提供している。企業や組織がチーム用の「パブリックHub組織」を作成し、職場などでLM Studioと組み合わせて無料で利用する方法も「近いうちに導入する」としている。
+
+　一方、AIモデルやMCP（Model Context Protocol）の使用に対するきめ細かな制御や、チーム内で共有される各種のアーティファクト（プリセット、設定など）のアクセス制御、プライベートなHub組織、SSO（シングルサインオン）機能などが必要な企業や組織のために、LM Studioの「Enterprise」プランも提供している。Element Labsによると、既にグローバル企業、大学など、多くの企業や組織がEnterpriseプランを利用しているという。2025年7月中には、チーム内でさまざまなアーティファクトをプライベートに共有できるシンプルなセルフサービス型の「Teams」プランも導入する計画だ。
+
+　なお、LM StudioのGUI（グラフィカルユーザーインタフェース）アプリケーションはオープンソースではないが、コマンドラインツールの「lms」「Core SDK」、Appleの機械学習フレーム「MLX」のLM Studioの推論エンジンは、全てMITライセンスのオープンソースとなっている。
+＠IT",[],[]
