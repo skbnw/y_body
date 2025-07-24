@@ -1,0 +1,30 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Android アプリ「region PAY」にログファイルへの機微な情報の出力の脆弱性、最新版へのアップデートを呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/4733038f1d37099cd4585e7ac85ca702358cfd0e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-24T08:00:32+09:00,2025-07-24T08:00:32+09:00,ScanNetSecurity,scan,ScanNetSecurity,461,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月22日、Androidアプリ「region PAY」にログファイルへの機微な情報の出力の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。久保尚希氏が報告を行っている。影響を受けるシステムは以下の通り。
+Androidアプリ「region PAY」1.5.28より前のバージョン
+株式会社ギフトパッドが提供するAndroidアプリ「region PAY」には、ログファイルへの機微な情報の出力の脆弱性（CVE-2025-52580）が存在し、アプリのログを取得可能な攻撃者にユーザの機微な情報を取得される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。本脆弱性は「Android アプリ「region PAY」1.5.28」で修正されている。
+ScanNetSecurity ScanNetSecurity",[],[]
+エレコム製無線LANルータに複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/bef367a905ececf4ea08d0049d3e8437e5c7175b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-24T08:00:28+09:00,2025-07-24T08:00:28+09:00,ScanNetSecurity,scan,ScanNetSecurity,550,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月22日、エレコム製無線LANルータにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏が報告を行っている。影響を受けるシステムは以下の通り。
+WRC-BE36QS-B v1.1.3およびそれ以前のバージョン
+WRC-W701-B v1.1.3およびそれ以前のバージョン
+エレコム株式会社が提供する無線LANルータには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・ドキュメント化されていないデバッグ機能を有効化される問題（CVE-2025-46267）
+→当該製品のWeb管理画面にログイン可能な攻撃者によって、デバッグ機能を有効化される
+・Web管理画面におけるOSコマンドインジェクション（CVE-2025-53472）
+→当該製品のWeb管理画面にログイン可能な攻撃者によって、任意のOSコマンドを実行される
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+「CraftCMS」の脆弱性（CVE-2025-32432）を狙った攻撃 新たに観測 ～ 2025 年 6 月 MBSD-SOC 検知傾向（ScanNetSecurity）,https://news.yahoo.co.jp/articles/49c8440b2743c5dda18a606fcfc3091e4989e684,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-24T08:00:03+09:00,2025-07-24T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,634,"三井物産セキュアディレクション株式会社（MBSD）は7月11日、2025年6月度 MBSD-SOCの検知傾向トピックスについて同社ブログで発表した。
+同ブログによると、4月25日に公開されたオープンソースのコンテンツ管理システム「CraftCMS」の脆弱性（CVE-2025-32432）を狙った攻撃を新たに観測しており、同脆弱性が攻撃者に悪用された場合、認証を回避されて任意のコードを実行されてしまう恐れがあるという。
+同脆弱性の影響対象は下記の通り。
+Craft CMS 3.0.0 以上 3.9.15 未満
+Craft CMS 4.0.0 以上 4.14.15 未満
+Craft CMS 5.0.0 以上 5.6.17 未満
+同脆弱性のCVSS値は10.0（Critical）と評価とされ、深刻な脆弱性に位置づけられており、既にPoC（概念実証コード）が公開され、悪用事例も報告されているため、MBSDでは当該製品を使用している場合は、早急に最新のバージョンにアップデートすることを推奨している。
+MBSD-SOCでは、同脆弱性を狙った攻撃を6月4日に初観測しており、攻撃元国ではオランダからの攻撃を多数観測している。同脆弱性を狙った攻撃元国の上位5件は下記の通り。
+1：オランダ（97.9％）
+2：日本（1.7％）
+3：オーストラリア（0.2％）
+4：アメリカ（0.1％）
+5：ドイツ（0.1％）
+ScanNetSecurity ScanNetSecurity",[],[]
