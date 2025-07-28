@@ -1,0 +1,206 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Insta360が360度カメラドローンに進出、新ブランド名は“反重力”　249g以下、8K対応で簡単操作の新製品も予告（ITmedia PC USER）,https://news.yahoo.co.jp/articles/06549f69fad54b80ecb2410a2a0cae2772779afe,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000043-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T22:05:09+09:00,2025-07-28T22:05:09+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,770,"新ブランドのイメージ画像
+Insta360は7月28日、360度カメラを搭載したクリエイター向けドローンの新ブランド「Antigravity」（アンチグラビティ）を発表した。8月に8K映像を撮影できる約249g以下の新製品を発売する。
+【画像で見る】ティーザー画像ではドローン本体と、サングラス型のHMDのようなものが見える
+新製品の詳細については現時点で未発表だが、複数のパートナー企業との共同開発によるAntigravity製品の設計思想の中心にあるのは、「360度没入フライト」をうたう新体験だという。
+
+　つまり、飛行しているドローンの一人称視点で見られるHMD（ヘッドマウントプレイ）が付属するFPVドローンのような製品だと予想できる。「DJI Neo」や「DJI Avata 2」などが競合製品にあたるだろう。
+
+　ただし、同社は「単なる（ドローンの）新製品を投入することが目的ではない」とアピールしている。Antigravityは「操作が難しそう」「時間がない」「自分にできるか不安」といったドローンに対する障壁を排除することが使命であるとして、初心者から上級者まで、従来のドローン操作や360度映像の撮影に伴う技術的な複雑さを取り除き、誰もが楽しめる空撮体験を追求しているという。
+
+　Insta360は、360度カメラにおいてAIトラッキングや動画の自動編集といったソフトウェアを強みとしており、ドローンの新製品でもそうした技術を活用する見込みだ。
+
+　さらにAntigravityはユーザー参加型の開発を重視しているとして、共創プログラム「Antigravity Hub」も立ち上げる。ユーザーから寄せられたアイデアなどが、将来の新製品や新機能の開発に役立った場合は報酬も提供するという。
+ITmedia PC USER",[],[]
+デルが新「Dell Pro Max」モバイルワークステーションを発表　一部を除きNVIDIA RTX PRO Blackwellを搭載可能（ITmedia PC USER）,https://news.yahoo.co.jp/articles/77a3a9d3fce3195009c455968b7adefe1914a1c9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000054-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T21:18:54+09:00,2025-07-28T21:18:54+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,5468,"左から新製品の「Dell Pro Max 14 Premium」「Dell Pro Max 16 Premium」「Dell Pro Max 18 Plus」
+デル・テクノロジーズは7月28日、高性能ノートPC／モバイルワークステーション「Dell Pro Max」シリーズの新モデルを発表した。同日から順次販売を開始する。
+【画像】Dell Pro Max 14／16 Premiumの概要
+Dell Pro Maxシリーズの概要
+Dell Pro Maxシリーズは、1月に発表されたPC製品のリブランドに基づく、新しいハイスペックPC／ワークステーションPCのブランドだ。今までの「Precision」ブランドの後継に当たり、3月には第1弾製品としてデスクトップおよびノートPCのベースモデルが登場している。
+
+　今回の新製品は、ノートブックタイプのベースモデルにおける追加ラインアップの他、「Plus（拡張性重視モデル）」と「Premium（モバイル性を重視したプレミアムモデル）」が登場する。
+新モデル共通の特徴
+Dell Pro Max 14のAMDモデルを除き、今回の新モデルではカスタマイズ（CTO）オプションとしてNVIDIAの最新モバイル向けプロフェッショナルGPU「NVIDIA RTX PRO Blackwellシリーズ」を搭載できる。搭載できるGPUは、モデルや構成によって変動する。
+
+　その名の通り、NVIDIA RTX PRO Blackwellシリーズは「Blackwellアーキテクチャ」に基づくGPUだ。同一アーキテクチャの「GeForce RTX 50 Laptop GPUシリーズ」と同様にマルチフレーム生成の強化とAIベースの「ニューラルシェーダー」の導入が行われている。
+
+　プロフェッショナル向けということもあり、NVIDIA RTX PRO Blackwellシリーズは主要なISV（独立ソフトウェアベンダー）によるアプリの動作認証を取得している。ミッションクリティカルな用途に使われがちな上位モデルについては、ECC（エラー確認／訂正）機能付きグラフィックスメモリも備える。
+
+　一方で「CPUにパフォーマンスは必要だが、外部GPUは必要ない（CPU内蔵GPUで十分だ）」というニーズも存在するため、外部GPUレスモデルも引き続き提供される。
+Dell Pro Max 14／16（新モデル／構成追加）
+14型の「Dell Pro Max 14」と16型の「Dell Pro Max 16」では、既存のIntelモデル（MC14250／MC16250）において外部GPU搭載構成が追加された他、Ryzen AI PRO 300シリーズを搭載するAMDモデル（MC14255／MC16255）が新登場する。AMDモデルについては、Dell Pro Maxシリーズとしては初となる「Copilot+ PC」準拠製品となる。
+
+AMDモデル
+
+　AMDモデルのAPU（GPU統合型CPU）は、モデルによってRyzen AI 5 PRO 340（6コア12スレッド／最大4.8GHz）／Ryzen AI 7 PRO 350（8コア16スレッド／最大5GHz）／Ryzen AI 9 HX PRO 370（12コア24スレッド／最大5.1GHz）のいずれかを選択可能だ。
+
+　メモリはLPDDR5X-8000規格（増設／換装不可）で、容量は16GB／32GB／64GBから選べる（Ryzen AI 9 HX PRO 370構成は16GB、Ryzen AI 5 PRO 340構成は64GBを選べない）。ストレージは256GB／512GB／1TB／2TBのSSDを選択可能だ。
+
+　Dell Pro Max 16については、CTOオプションとしてNVIDIA RTX PRO 500 BlackwellまたはNVIDIA RTX PRO 1000 Blackwellを搭載可能だ。
+
+　ディスプレイのアスペクト比は16：10で、以下のオプションを用意している（画面サイズ以外のスペックは共通）。
+
+・1920×1200ピクセルWVA液晶（60Hz駆動／最大300ニト／NTSC 45％カバー）
+・2560×1600ピクセルWVA液晶（120Hz駆動／最大300ニト／sRGB 100％カバー／ComfortView Plus対応）
+
+Intelモデル（外部GPU構成追加）
+
+　Intelモデルについては「後日追加予定」とされていた、NVIDIA RTX PRO BlackwellシリーズのCTOオプションが登場した。追加可能なGPUは以下の通りだ。
+
+・Dell Pro Max 14／16共通
+・NVIDIA RTX PRO 500 Blackwell
+
+Dell Pro Max 16のみ
+
+・NVIDIA RTX PRO 1000 Blackwell
+・NVIDIA RTX PRO 2000 Blackwell
+
+　他の主要な仕様は、3月の発表時と変わりない。
+Dell Pro Max 16／18 Plus（新モデル）
+16型の「Dell Pro Max 16 Plus」と18型の「Dell Pro Max 18 Plus」は拡張性の高さを重視したモデルで、メモリは最大256GB、SSDは最大3基（16 Plus）または4基（18 Plus）搭載可能だ。
+
+　本製品についてはIntelモデル（MB16250／MB18250）のみとなり、AMDモデルは用意されない。
+
+　CPUはCore Ultra 200HXシリーズのIntel vPro Enterprise対応モデルで、Core Ultra 5 245HX（Pコア6基＋Eコア8基）／Core Ultra 7 265HX（Pコア8基＋Eコア12基）／Core Ultra 9 285HX（Pコア8基＋Eコア16基）から選択可能だ。
+
+　メモリはDDR5-6400規格のSO-DIMMか、DDR5-7200規格のCAMMとなる。選べる容量は以下の通りだ。
+
+・SO-DIMM構成（デュアルチャネル）：16GB／32GB／64GB／96GB
+・CAMM構成（デュアルチャネル）：64GB／128GB
+・CAMM構成（シングルチャネル）：256GB（※1）
+
+（※1）CPUをCore Ultra 9 285HXとした場合のみ選択可能
+
+　ストレージはPCI Express 4.0またはPCI Express 5.0接続対応のSSDとなる。選べる容量は以下の通りで、先述の通りモデルによって最大3基または4基搭載可能だ（注釈のない限り自己暗号化機能付きでType 2280サイズ）。
+
+・PCI Express 4.0接続：512GB（※2）／1TB／2TB
+・PCI Express 5.0接続：1TB／2TB／4TB
+
+（※2）自己暗号化機能なしのモジュール（Type2230）と、自己暗号化機能付きモジュール（Type2280）を選択可
+
+　外部GPUはCTOオプションとして追加可能で、以下の選択肢が用意されている。
+
+・NVIDIA RTX PRO 1000 Blackwell
+・NVIDIA RTX PRO 2000 Blackwell
+・NVIDIA RTX PRO 3000 Blackwell
+・NVIDIA RTX PRO 4000 Blackwell
+・NVIDIA RTX PRO 5000 Blackwell
+
+　ディスプレイのアスペクト比は16：10で、Dell Pro Max 18 Plusは2650×1600ピクセルの18型液晶パネル（最大500ニト／DCI-P3 100％カバー）のみとなる。16型のDell Pro Max 16 Plusについては、以下のいずれかのパネルを選択可能だ。
+
+・1920×1200ピクセル液晶（最大60Hz駆動／最大300ニト／NTSC 45％カバー）
+・1920×1200ピクセル液晶（最大120Hz駆動／最大500ニト／DCI-P3 100％カバー）
+・3840×2400ピクセル有機EL（タッチ対応／最大120Hz駆動／最大500ニト／DCI-P3 100％カバー／DisplayHDR TrueBlack 1000認証）
+
+　WebカメラはフルHD撮影対応のものか、約800万画素（顔認証対応）のものを選択できる。キーボードはテンキーとLEDバックライト付きで、日本語配列と米国英語（US）配列から選べる。電源ボタンと一体化された指紋センサーはCTOオプションだ。
+
+　ポート類は左側面に有線LAN（1000BASE-T）端子、HDMI出力端子、Thunderbolt 5（USB4 Version 2.0）端子×2、SDメモリーカードスロットとスマートカードリーダー（CTOオプション）を、右側面に3.5mmオーディオジャック、Thunderbolt 4（USB4 Version 1.0）端子とUSB 3.2 Gen 1 Standard-A端子×2を備える。Thunderbolt 4／5ポートはいずれもUSB PDによる電源入力と、DisplayPort Alternate Modeによる映像出力に対応する。
+
+　ワイヤレス通信はWi-Fi 7（IEEE 802.11be）に対応しており、Bluetooth 5.4対応の有無はCTOオプションで選択可能だ。また、CTOオプションでは5G通信モジュールの有無も選択できる。
+
+　バッテリーは6セルで、CTOオプションでロングライフサイクルモジュールに変更することもできる。定格容量はいずれのモジュールも96Whだ。
+Dell Pro Max 14／16 Premium（新モデル）
+14型の「Dell Pro Max 14」と16型の「Dell Pro Max 16 Premium」は、外部GPUを搭載しても持ち運びやすいサイズ感と重量を実現したというプレミアムモデルだ。先に登場した「Dell 14／16 Premium」でおなじみの「ゼロラティスキーボード」を搭載しているが、大きく明確に区別されたタッチパッドも備えている。キーボードは日本語配列とUS配列から選択可能だ。
+
+　本モデルについても、Intelモデル（MA14250／MA16250）のみ取りそろえる。
+
+　CPUはCore Ultra 200Hシリーズで、いずれもPコア6基＋Eコア8基構成のCore Ultra 7 255H（Pコア6基＋Eコア8基）／Core Ultra 7 265H（vPro Enterprise対応）／Core Ultra 9 285Hから選べる。メモリはLPDDR5X-7647規格で、容量は16GB／32GB／64GBから選択可能だ。CTOオプションの外部GPUは、NVIDIA RTX 1000 BlackwellとNVIDIA RTX 2000 Blackwellを選択可能で、ボディーサイズの大きいDell Pro Max 16 PremiumについてはNVIDIA RTX 3000 Blackwellも選べる。
+
+　なお「CPU」「メモリ容量」「外部GPUの有無（種類）」については、相互にCTOオプションの選択肢に影響するようになっている。選択肢によっては選べないオプションも出てくるので注意したい。
+
+　ストレージはPCI Express 4.0接続のSSDで、容量は256GB／512GB／1TB／2TBから選べる。256GBと512GBの場合は、自己暗号化機能の有無を選択可能だ（※3）。
+
+（※3）自己暗号化なしのモジュールはType2230、ありのモジュールはType2280となる
+
+　ディスプレイはアスペクト比16：10で、以下のオプションを用意している（画面サイズ以外のスペックは共通）。
+
+・1920×1200ピクセル液晶（最大60Hz駆動／最大400ニト／sRGB 100％カバー／ブルーライト軽減）
+・2880×1800ピクセルタンデム有機EL（最大60Hz駆動／最大400ニト／DisplayHDR TrueBlack 500認証取得／DCI-P3 100％カバー／ブルーライト軽減）
+
+　Webカメラは約800万画素で、HDR撮影や顔認証に対応している。電源ボタンと一体化された指紋センサーはCTOオプションだ。
+
+　ポート類は左側面にThunderbolt 5端子×2を、右側面にmicroSDメモリーカードスロット（14 Premium）またはSDメモリーカードスロット（16 Premium）、Thunderbolt 4端子×2とオーディオジャックを備える。
+
+　ワイヤレス通信はWi-Fi 7（IEEE 802.11be）に対応しており、Bluetooth 5.4対応の有無はCTOオプションで選択可能だ。
+
+　バッテリーは14 Premiumが4セルで定格容量72Wh、16 Premiumが6セルで定格容量96Whとなる。いずれも、CTOオプションでロングライフサイクルモジュールに変更することも可能だ。
+ITmedia PC USER",[],[]
+プラネックス、最大90Wの電力供給を行える10GbE対応のPoE＋＋インジェクター（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3075cbd21706865a16652edf19b5f6e59e3d4558,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000047-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T17:13:03+09:00,2025-07-28T17:13:03+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,340,"「INXG-BT90I」
+プラネックスコミュニケーションズは7月28日、10GbE接続に対応したPoE＋＋インジェクター「INXG-BT90I」を発表、7月下旬に販売を開始する。価格はオープン、Amazon.co.jp販売価格は1万7799円だ（税込み）。
+【画像】INXG-BT90Iは、10Gbpsの高速通信をサポートしたPoE＋＋（IEEE 802.3bt）対応のインジェクターだ
+PoE＋＋（IEEE 802.3bt）に対応したインジェクターで、最大90Wまでの電力供給を実現。合わせて10Gbpsの高速通信もサポートしている。
+
+　壁掛け固定にも対応、本体サイズは約 835（幅）×194（奥行き）×38（高さ）mm、重量は約678gだ。
+ITmedia PC USER",[],[]
+ASUS、プロクリエイター向けの6K表示対応32型液晶ディスプレイ「ProArt Display 6K PA32QCV」の国内発売を決定（ITmedia PC USER）,https://news.yahoo.co.jp/articles/901017df304f5666cb2ebe3f9626d9db5e4b4551,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000046-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T17:11:34+09:00,2025-07-28T17:11:34+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,460,"「ProArt Display 6K PA32QCV」
+ASUS JAPANは7月29日、Thunderbolt 4接続に対応したクリエイター向け32型6K液晶ディスプレイ「ProArt Display 6K PA32QCV」の国内発売決定を発表した。発売日および価格については後日改めて告知される予定だ。
+【画像】ProArt Display 6K PA32QCVを背面から
+6K（6016×3384ピクセル）の高解像度表示をサポートしたIPSパネル採用の32型液晶ディスプレイで、10bitカラー表示に対応しDCI-P3カバー率98％の広色域表示を実現した。またプリセット機能として、MacBookで一貫性のある色表現が行える“M Model-P3モード”が利用可能となっている。
+
+　映像入力はHDMI 2.1×1、DisplapyPort×1、Thunderbolt 4（最大96W給電対応）×2を装備。2台のPCをシームレスに切り替え利用できる“オートKVM”機能も利用できる。
+ITmedia PC USER",[],[]
+ASRock、AMD B850チップセットを採用したATXマザーボード　ホワイトカラーモデルも用意（ITmedia PC USER）,https://news.yahoo.co.jp/articles/2b21b4c2fb967321b2cb2526c06ece6f65c994dd,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000045-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T17:10:07+09:00,2025-07-28T17:10:07+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,420,"「B850 Challenger WiFi」
+ASRockはこのほど、AMD B850チップセット搭載ATXマザーボード「B850 Challenger WiFi」「B850 Challenger WiFi White」の2製品を発表した。
+【画像】こちらはホワイトモデルの「B850 Challenger WiFi White」
+ともにAMD B850チップセットを備えるSocket AM5対応のATXマザーボードで、12＋2＋1フェーズのVRM設計を採用。PCI Express 5.0対応のM.2スロットはボトム側にもヒートシンクを備えるサンドイッチ構造を採用し放熱効率を高めている。
+
+　2.5GbE対応有線LAN、Wi-Fi 7対応無線LAN、USB4ポートなども搭載。ゲーミングキーボード/マウスとの接続に高ポーリングレートを提供できる「Lightning Gaming Ports」も備えた。
+ITmedia PC USER",[],[]
+OSやデバイス（一部を除く）を問わずにセキュリティやコンプライアンス、PCのリプレースを管理できる「HP WXP」発表　7月31日から国内でも提供開始（ITmedia PC USER）,https://news.yahoo.co.jp/articles/7073749f9fbe30fd939bf67ee38e7200bb82e982,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000030-zdn_pc-000-2-view.jpg?exp=10800,2025-07-28T14:00:12+09:00,2025-07-28T16:08:34+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,928,"WXPの詳細を説明する、日本HP ワークフォースソリューション事業本部 サービスビジネス部 部長 中宏樹氏
+7月25日、日本HPがAIを活用して従業員のデジタル活用を促進する新プラットフォーム「Workforce Experience Platform」（WXP）を発表、31日から提供を開始する。3つのプランが用意され、それぞれStandardプラン（3190円）／Proプラン（3960円）／Eliteプラン（5390円）となっている。
+日本HPが新たに発表したサービス「Workforce Experience Platform」（WXP）
+マルチOS／マルチベンダーでPCからスマホも含めてサポート
+このWXPは、さまざまなデバイスやOSが利用されている企業環境において、各デバイスにエージェント（管理用ソフトウェア）を導入することで、企業内のPCやプリンタ、周辺機器などを包括的に可視化／管理するプラットフォームだ。
+
+　モジュール式を採用したクラウドベースのSaaSで、デバイスのパフォーマンスやアプリケーションの稼働状況、ネットワークの接続状況、セキュリティ、従業員のデジタルツールへの満足度といった多岐に渡る項目を数値化してダッシュボードで確認できる。
+
+　また、業務に影響を与えるような問題が起きる前に検知／予測し、プロアクティブな解決が行えるとしている。
+
+　さらにAIを活用することで、タスクの自動化やデバイスの異常検知、効率的なデバイスフリート（機器群）の計画、そしてデバイスフリートのパフォーマンス、利用傾向などを詳細な洞察を提供する。
+
+　AI活用の面では、自然言語処理（NLP）ツールによって効率的なデバイス管理を支援する「フリートエクスプローラー」機能がある。例えば、PCのメモリ使用率が高く、パフォーマンスが低下する事象が頻繁に見られる場合、IT管理者は「過去30日間にメモリの使用率が異常に高かったデバイスはどれか」と入力することで、対象のデバイスを把握でき、従業員への影響が生じる前に対処することが可能になる。
+
+　WXPの導入は1台から可能だが、推奨最小台数は50台からとなっている。
+ITmedia PC USER",[],[]
+ORICO、M.2 SSDを4基装着できるUSB4外付けエンクロージャー（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3932a7feee4e1318b36c35e3f589acf154e4cca9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000028-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T13:50:17+09:00,2025-07-28T13:50:17+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,310,"「8848U4」
+中国ORICOブランドはこのほど、USB4接続に対応した外付け型の4ベイ搭載外付けM.2 NVMe SSDケース「8848U4」を発表、販売を開始した。価格は2万9999円（7月31日まで割引コード“HDLZC9FT”が利用可能、税込み）。
+【画像】中国ORICOの4ベイ搭載外付けM.2 NVMe SSDケース「8848U4」
+USB4接続に対応する外付け型のSSDケースで、M.2 NVMe SSDを最大4基装着でき、最大容量32TB（8TB×4基）をサポートする。
+
+　本体背面にファンを内蔵。本体サイズは101（幅）×167（奥行き）×119.5（高さ）mmだ。
+ITmedia PC USER",[],[]
+キーボード一体型Raspberry Pi「Raspberry Pi 500」国内モデルの販売が開始（ITmedia PC USER）,https://news.yahoo.co.jp/articles/3744ded5c811d35bfcd882d60e88a0c5bc25d3ca,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000021-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T12:29:52+09:00,2025-07-28T12:29:52+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,390,"「Raspberry Pi 500」
+スイッチサイエンスはこのほど、キーボード一体型コンピュータ「Raspberry Pi 500」国内モデルの販売を開始した。販売価格は1万8480円（税込み）。
+【画像】ようやく技適の通った「Raspberry Pi 500」。日本語配列キーボードタイプなので、教育分野でも活躍しそうだ
+シングルボードコンピュータ「Raspberry Pi 5」をベースとしたキーボード一体型モデルで、日本語配列キーボードを採用。技適マークも表示済みとなっている。
+
+　基本仕様はRaspberry Pi 5に準じ、プロセッサとしてArm Cortex-A76を採用。メモリはLPDDR4X 8GBを内蔵、microSDスロット/ギガビット有線LAN、microHDMI映像出力×2、40ピンGPIOピンヘッダなどを利用できる。
+ITmedia PC USER",[],[]
+200万円超えの96コア192スレッドCPUが店頭に　ショップの反応は？（ITmedia PC USER）,https://news.yahoo.co.jp/articles/8dc4e2029a2c73648e554cf49b4b77917a9a58bf,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250728-00000017-zdn_pc-000-1-view.jpg?exp=10800,2025-07-28T12:00:12+09:00,2025-07-28T12:00:12+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,1926,"パソコンSHOPアークに貼られた告知ポスター
+7月25日、AMDからワークステーション向けの新CPU「Ryzen Threadripper PRO 9000WX」シリーズが売り出された。ラインアップは下記の4種類となる。
+【写真】底部に吸気口を備えた「Prime AP202」
+「既に注文が入っています」――上空に吹くThreadripper PROの風
+9000WXは、2023年11月に登場したZen 4アーキテクチャの「Ryzen Threadripper PRO 7995WX」シリーズ後継で、Zen 5アーキテクチャを採用している。ソケット形状は従来と同じSocket sTR5で、BIOS（UEFI）アップデートにより、既存のAMD TRX50搭載マザーボードに組み込める。
+
+　発売日は「高額なので、さすがにポンと買われる方は店頭ではまだいらっしゃいません」（パソコンSHOPアーク）とのことだったが、注目度はそれなりに高い様子だった。あるショップは「上空の方で風が吹いている感じで、普通の自作ユーザーは気にも留めていないのかなと。まぁ、自動車級の価格ですしね」と話していた。
+吸気専用口を備えたASUSのPCケース「Prime AP202」が好調
+PCケースの新製品が多数登場する中で、先々週末に売り出されたASUS JAPANのピラーレスモデル「Prime AP202」が注目を集めている。標準モデル「Prime AP202 TG」と、ARGBファンを採用した「Prime AP202 TG ARGB」があり、価格は1万6000円弱と2万円弱となる。カラーはブラックとホワイトがあり、価格差はない。
+
+　局面ガラスを採用し、ケース下部に吸気専用口となる特許取得済みの「スロットベント」機構を組み込んでいるのが特徴だ。スロットベントも、ARGB LEDでライティングできる仕様となっている。
+
+　入荷したドスパラ秋葉原本店は「底部からグラフィックスカードに直接エアを当てられる構造です。底部の吸気力を増すにはリバースファンなどを取り付けるのがベターでしょう。ケースで採用されている120mmファン『Prime MR120 ARGB』シリーズの単品もありますしね」と話していた。
+4基の160mmファンで拡張カードがよく冷える「OmnyX」の展示開始
+オリオスペックでも、GPUがよく冷えるPCケースを見かけた。COUGARの「OmnyX」で、8月1日の販売を前に先行展示中だ。ホワイトとブラックがあり、いずれも2万4980円で予約を受け付けている。
+
+　背面端子が底面に来るように、マザーボードを90度倒して固定する変則タイプのケースで、正面と上面の間に梁（ビーム）がない構造を採用している。ポイントは、前面と背面に160mmファンを2基ずつ装着済みで、指向性の高いエアフローを作り出せることだ。
+
+　同店は「グラフィックスカード全体を効率的に冷やせます。マザーボードの上に360mmラジエーターを組み込めるので、CPUはそちらに任せればいいですしね」と高く評価していた。
+80PLUS PLATINUM認証の850W電源も――中容量の新作×3
+ATX電源ユニットの新製品も多数登場している。darkFlashから登場したのは、定格650Wの「EMT650」だ。ケーブル固定式で、80PLUS BRONZE認証を取得している。価格は7000円弱だ。
+
+　ギガバイトからは、定格850Wでフルモジュラーの80PLUS GOLD認証モデル「UD850GM PG5 V2」が2万円弱で登場している。2025年1月に登場した「UD850GM PG5（rev.2.0）」はATX 3.0準拠だが、V2はATX 3.1準拠となり、PCIe 5.1接続のグラフィックスカードに対応した。保証期間も5年から10年と伸びている。
+
+　入荷したTSUKUMO eX.は「（特価で1万3800円となっている）rev.2.0の割安感が強いですが、いずれはV2に切り替わっていきます。奥行きが約140mmで扱いやすいので、安定して売れてくれるかなと期待しています」と話していた。
+
+　Segotepからは80PLUS PLATINUM認証を取得した850W電源「PM850W」が登場している。ブラックとホワイトがあり、価格は共に1万7500円前後だ。奥行き約140mmのフルモジュラー式で、ATX 3.1に対応している。同店は「定格850Wで80PLUS PLATINUMは数が少ないので、求める人は多いと思います」と話していた。
+ITmedia PC USER",[],[]
