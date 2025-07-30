@@ -1,0 +1,9 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+PowerDNS Recursor の脆弱性情報が公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/454ece506ab5650e4d42ae11dc360c86d12222fe,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-29T08:00:15+09:00,2025-07-29T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,260,"株式会社日本レジストリサービス（JPRS）は7月24日、Knot Resolverの脆弱性情報が公開されたと発表した。
+フルリゾルバー（キャッシュDNSサーバ）PowerDNS Recursorにおいて、EDNS Client Subnetが有効に設定されている場合にDNSキャッシュポイズニングが成功する可能性が高まる脆弱性（CVE-2025-30192）が中央ヨーロッパ夏時間7月21日に公開され、併せて当該脆弱性を修正したバージョンも公開されている。
+ScanNetSecurity ScanNetSecurity",[],[]
+バスロケーションシステムに数値の入力に対する不適切な検証の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ab3d94ed52ff2c08fcecae460b8777b07819dfc9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-29T08:00:11+09:00,2025-07-29T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,393,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月23日、バスロケーションシステムにおける数値の入力に対する不適切な検証の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。n3ddih氏が報告を行っている。影響を受けるシステムは以下の通り。
+バスロケーションシステム 1.1より前のバージョン
+シンクグラフィカが提供するバスロケーションシステムには、数値の入力に対する不適切な検証の脆弱性（CVE-2025-43881）が存在し、管理画面にログイン可能な第三者によって、サービス運用妨害（DoS）状態にされる可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
