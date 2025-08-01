@@ -1,0 +1,52 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+今後自動的に BCC にする機能実装 メール誤送信防止（ScanNetSecurity）,https://news.yahoo.co.jp/articles/509fe7c900943aacf78b0a044d809a0100985fa0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250731-00000007-scan-000-1-view.jpg?exp=10800,2025-07-31T08:05:08+09:00,2025-07-31T08:05:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,622,"トップページ
+山口県宇部市は6月25日、メール誤送信による個人情報等の漏えいについて発表した。
+【画像全3枚】
+これは6月4日午後2時21分に、同市産業政策課の職員が事業者等にイベントの出展案内をメール送信する際、宛先を「Bcc」に設定すべきことを失念し、全事業者のアドレスを「To」に設定して送信したため、受信者全員に送信先のメールアドレスが全て表示される状態となったというもの。職員が6月17日に送信済みメールを確認した際、発覚した。
+当該職員が宛先を「Bcc」に設定すべきことを失念していたことや、メールを送信前に複数人で送信設定を確認していなかったことが原因。
+漏えいしたのは、うべ元気ブランド認証事業者及びうべまるごと元気ネットワーク会員のメールアドレス122件（個人66件、法人56件）。
+同市では6月17日午後7時10分に、当該事業者等に対しメールにて謝罪と送付メールの削除を依頼している。
+同市産業経済部長は「今回の件を厳粛に受け止め、今後は、メール機能の変更により再発防止を徹底するとともに、職員に対して、個人情報の適正な取扱いや重要性に対する意識向上と管理徹底を図り、信頼回復に努めてまいります。」とコメントしている。
+同市では今後、全庁的に手動ミスによるメールの誤送信を防止するため、送信先が複数ある場合は自動的に「Bcc」へ設定する機能に変更するとのこと。
+ScanNetSecurity ScanNetSecurity",[],[]
+@niftyメール BIMI 対応（ScanNetSecurity）,https://news.yahoo.co.jp/articles/a5bf04d77b5d844ff1f0db976a122d73df6665e8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-31T08:00:30+09:00,2025-07-31T08:00:30+09:00,ScanNetSecurity,scan,ScanNetSecurity,407,"ニフティ株式会社は7月28日、@niftyメールの迷惑メールフィルター強化とブランドマーク表示機能の追加について発表した。
+同社では顧客のセキュリティ向上のため、8月20日から順次、@niftyメールで下記機能の強化と追加を行う。
+・迷惑メールフィルターを強化
+迷惑メールフィルターにメール認証機能（DMARC）の判定を追加することで、なりすましメールなどの不正なメールを自動的に検知し、受信を制限
+・Webメールサービスでの企業のブランドマーク表示機能を追加
+「BIMI」技術の導入で、メール受信時に送信元企業のロゴ（ブランドマーク）が表示されるようになり、@niftyからのメールや他の正規企業からのメールをより簡単に識別可能に。
+なりすましメールの可能性があるメールには警告アイコンを表示することで注意喚起し、フィッシング詐欺被害を未然に防止。
+ScanNetSecurity ScanNetSecurity",[],[]
+BIGLOBE、DMARCポリシーを「none」から「quarantine」に（ScanNetSecurity）,https://news.yahoo.co.jp/articles/beec2b3e676e160417ec2d37e0cf77d056b1b5d1,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-31T08:00:26+09:00,2025-07-31T08:00:26+09:00,ScanNetSecurity,scan,ScanNetSecurity,349,"ビッグローブ株式会社（BIGLOBE）は7月28日、フィッシング詐欺などの巧妙ななりすましメールから顧客を守るため、セキュリティ対策を強化すると発表した。
+同社では7月28日から、BIGLOBEから送信するメールドメイン（biglobe.ne.jp）のDMARCポリシーを「none（何もしない）」からより強固な設定である「quarantine（隔離）」へ変更する。
+また同社では、2025年内を目処に、BIGLOBEからの正規のメールにブランドロゴを表示する技術BIMIへの対応も予定しており、段階的にセキュリティを強化する。
+同社によると、今回の対策強化で、BIGLOBEになりすました不正なメールが顧客に届きにくくなるとのこと。
+ScanNetSecurity ScanNetSecurity",[],[]
+大手企業の 7 割が取引先企業のセキュリティに不安 ～ アシュアード調査（ScanNetSecurity）,https://news.yahoo.co.jp/articles/b5de908d5bfb156672f6beca1f1252a7edafdf03,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250731-00000004-scan-000-1-view.jpg?exp=10800,2025-07-31T08:00:21+09:00,2025-07-31T08:00:21+09:00,ScanNetSecurity,scan,ScanNetSecurity,909,"取引先企業に対するセキュリティ上の不安
+株式会社アシュアードは7月28日、「取引先企業のセキュリティ評価」に関する実態調査の結果を発表した。
+【画像全3枚】
+同調査は5月に、従業員数が1,000名以上の大手企業に務める情報システム・セキュリティ担当者300名を対象に取引先企業のセキュリティ評価に関する実態調査の結果をまとめたもの。
+同調査で、取引先企業に対するセキュリティ上の不安を尋ねたところ、「とても不安を感じる」が15.3％、「やや不安を感じる」が57.7％で合わせて73％に達し、多くの企業が取引先企業のセキュリティに懸念を抱いていることが明らかになった。実際に、64％の企業で取引先企業を起因とした情報漏えい、または漏えいの可能性があった事例が発生しており、最多は「取引先企業のシステムにおいてマルウェア感染（ランサムウェア含む）が発生した」の26.3％、次点は「取引先企業のシステム経由で自社のシステムにおけるサイバー攻撃やマルウェア感染が発生した」の25.3％であった。
+また、企業の55.3％で業務停止や遅延などの影響が発生した事例が発生しており、特に「取引先企業のシステムにおいてマルウェア感染（ランサムウェア含む）が発生し、システム停止に伴う自社の業務停止や遅延等の影響が発生した」が29.7％と最も多く挙げられている。
+取引先企業のセキュリティ評価について尋ねたところ、「新規契約時・契約後も定期的に行っている」企業は73.3％で、「新規契約時のみ行っている」企業も含め85.6％でセキュリティ評価を実施していることが判明した。リスク管理体制の強化または見直しについて、「直近で管理体制を強化した」企業は27.3％、「管理体制を強化していく予定」の企業は44.7％と、計72％の企業が強化に前向きであった。
+取引先企業のセキュリティ評価を実施する理由を尋ねたところ、「セキュリティリスクを低減/回避するため」が最多の72.4％で、次いで「社内規定として定められているから」が60.7％、「顧客からの信頼を保つため」が上位を占めた。
+ScanNetSecurity ScanNetSecurity",[],[]
+SBI証券、フィッシング詐欺等による不正アクセス被害の 50 ％を金銭補償（ScanNetSecurity）,https://news.yahoo.co.jp/articles/1a3a99e1db8f52564ed19a83956ebd5a52fe38a8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250731-00000003-scan-000-1-view.jpg?exp=10800,2025-07-31T08:00:17+09:00,2025-07-31T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,289,"トップページ
+SBIホールディングス株式会社は7月29日、連結子会社である株式会社SBI証券へのフィッシング詐欺等による不正取引の補償について発表した。
+【画像全2枚】
+SBI証券では、同社インターネット取引サービスでのフィッシング詐欺等による証券口座への不正アクセス等に起因した顧客の被害について、被害の50％を金銭補償すること等を予定している。
+当該補償の実施に伴い、SBIホールディングス連結業績では総額 約80億円の損失を計上する見込みだが、SBIホールディングス連結業績における影響は軽微であるとのこと。
+ScanNetSecurity ScanNetSecurity",[],[]
+スマートフォンアプリ「SwitchBot」にログファイルへの機微な情報の出力の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ba6840ffc1d056acab011b5fa2cfef9c6e0e894f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-31T08:00:13+09:00,2025-07-31T08:00:13+09:00,ScanNetSecurity,scan,ScanNetSecurity,539,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月29日、スマートフォンアプリ「SwitchBot」におけるログファイルへの機微な情報の出力の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。佐藤壮氏が報告を行っている。影響を受けるシステムは以下の通り。
+Androidアプリ「SwitchBot」V6.24からV9.12までのバージョン
+iOSアプリ「SwitchBot」V6.24からV9.12までのバージョン
+SwitchBotが提供するスマートフォンアプリ「SwitchBot」には、ログファイルへの機微な情報の出力の脆弱性（CVE-2025-53649）が存在し、アプリのログを取得可能な攻撃者によって、ユーザの機微な情報を取得される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版のアプリへアップデートするよう呼びかけている。本脆弱性は下記のバージョンで修正されている。
+Android アプリ「SwitchBot」V9.13
+iOS アプリ「SwitchBot」V9.13
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache HTTP Server に RewriteCond ディレクティブの実装不備（ScanNetSecurity）,https://news.yahoo.co.jp/articles/6b426bc0d3bb51660f53a802dc1be4eb4f2b0115,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-07-31T08:00:07+09:00,2025-07-31T08:00:07+09:00,ScanNetSecurity,scan,ScanNetSecurity,487,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月28日、Apache HTTP ServerにおけるRewriteCondディレクティブの実装不備について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+Apache HTTP Server 2.4.64
+The Apache Software Foundationが提供するApache HTTP Serverには、RewriteCondディレクティブの実装に不備があり、”RewriteCond expr ...”という形のテストが全てtrueとなる問題（CVE-2025-54090）があり、想定していない条件で書き換え処理が行われる可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。本脆弱性は「Apache HTTP Server 2.4.65」で修正されている。
+ScanNetSecurity ScanNetSecurity",[],[]
