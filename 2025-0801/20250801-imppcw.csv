@@ -1,0 +1,265 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「パソコン工房の日」「怒涛のスーパー中古の日」など開催。買うのも売るのもお得なセール期間（PC Watch）,https://news.yahoo.co.jp/articles/d2a6729adf0036fc752b8811545de65a46c44957,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000019-imppcw-000-1-view.jpg?exp=10800,2025-08-01T18:08:32+09:00,2025-08-01T18:08:32+09:00,PC Watch,imppcw,PC Watch,696,"写真：PC Watch
+パソコン工房を運営するユニットコムは、8月5日の「パソコン工房の日」を記念し、「超大感謝祭」「ゲーミングPC怒涛の大感謝祭」など、店舗/通販それぞれでキャンペーンを開催する。また中古商品の売り買いがお得になる「怒涛のスーパー中古の日」を開催する。
+【この記事に関する別の画像を見る】
+■ 超大感謝祭
+
+　「超大感謝祭」では、店舗限定で展開されているセールで、期間は8月2日から8月18日まで。ノートPCやデスクトップPCのほか、受注生産のゲーミングPC、モニターやキーボードマウスセットなども対象となっている。
+
+■ ゲーミングPC怒涛の大感謝祭
+
+　「ゲーミングPC怒涛の大感謝祭」は、通販サイト並びに店舗で開催される、ゲーミングPCを対象としたセール。通販サイトでのセール期間は8月1日16時から8月19日10時59分まで。
+
+■ 怒涛のスーパー中古の日
+
+　「怒涛のスーパー中古の日」は、これまで行なわれていた「中古の日」をパワーアップしたもので、対象中古商品の購入が最大20%オフに、対象商品の買取が最終査定額より最大15%アップになる。期間は4つの日程に分かれており、順に8月2日から8月11日まで、8月15日から8月17日まで、8月23日から8月25日まで、8月30日から8月31日まで。
+
+　ほか、「LEVEL∞ R-Class LED」の限定カラー販売や、パソコン組み立てキットのセット購入で値引きになるクーポンの配布など、複数の施策を実施している。
+
+　また、最大10万円分の還元が受けられる「超還元フェア」も開催中だ。
+PC Watch,上田 羽純",[],[]
+サードウェーブ、Threadripper 9000シリーズとRTX 6000 Ada搭載ワークステーション（PC Watch）,https://news.yahoo.co.jp/articles/2f4e3be645cf9f05015ab5017d50ce7aad1de5cb,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000018-imppcw-000-1-view.jpg?exp=10800,2025-08-01T17:17:27+09:00,2025-08-01T17:17:27+09:00,PC Watch,imppcw,PC Watch,779,"写真：PC Watch
+サードウェーブは、AMD Ryzen Threadripper 9000シリーズ搭載ワークステーション「THIRDWAVE Workstation N6632」をドスパラプラスにて受注開始した。価格は標準構成の概算で257万円。
+
+　THIRDWAVE Workstation N6632はZen 5アーキテクチャを採用したRyzen Threadripper 9000シリーズを搭載するワークステーション。前世代と同コア数ながら、IPC向上により高速かつ効率的な演算処理を実現する。AI推論、シミュレーション、BIM処理など、複雑かつ高負荷な業務に適しているという。
+
+　GPUには最大2基のNVIDIA RTX 6000 Ada 48GBを搭載可能。PCIe 5.0対応により、4K/8Kレンダリング、AI推論、CAEシミュレーション、映像制作など、高度な処理能力が求められるタスクに対応する。
+
+　筐体は従来比17%の容積削減を実現したコンパクトな4Cケースを採用。静音性、冷却効率、メンテナンス性を高めている。
+
+　標準構成では、CPUにRyzen Threadripper 9960X、GPUにRTX 6000 Ada 48GB、メモリにDDR5 64GB、ストレージにNVMe SSD 1TBなどを搭載。
+
+　インターフェイスはUSB 3.2 Gen 2x2 Type-C、USB 3.2 Gen 2 Type-C、USB 3.2 Gen 2 4基、USB 3.2 Gen 1 2基、10Gigabyte Ethernet、2.5Gigabyte Ethernet、音声入出力などを搭載する。
+
+　本体サイズは216×486×493mm、重量は約24kg。3年間のオンサイト保守を受けられる。
+PC Watch,上田 羽純",[],[]
+GeForce GTX 10シリーズ向けドライバは10月が最終更新に（PC Watch）,https://news.yahoo.co.jp/articles/b39f9ead1cf5e8b85c9b6ac2df25fcf6071e4350,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000017-imppcw-000-1-view.jpg?exp=10800,2025-08-01T16:53:04+09:00,2025-08-01T16:53:04+09:00,PC Watch,imppcw,PC Watch,756,"写真：PC Watch
+NVIDIAは7月31日、GeForce向け最新ドライバ「GeForce Game Ready Driver 580.88」を公開した。あわせて、旧世代GPUやWindows 10搭載PC向けのサポート計画について明らかにした。
+
+　同社の説明によると、Maxwell、Pascal、Voltaアーキテクチャを採用した旧世代GeForce GPUについては、2025年10月のリリースをもってGame Ready Driverの提供を終了。以降は、2028年10月までの3年間、四半期ごとにセキュリティ更新プログラムのみを提供していく予定だという。
+
+　具体的な製品としては、MaxwellアーキテクチャはGeForce GTX 750/900シリーズなど、PascalアーキテクチャはGeForce GTX 10シリーズなど、VoltaアーキテクチャはTITAN Vなどがそれぞれ該当する。
+
+　また、Windows 10搭載PC向けのGame Ready Driverについては、2026年10月までサポートを実施する予定とした。MicrosoftによるWindows 10サポート終了後も、GeForceドライバによる新しいゲームやアプリ向けのDay-0最適化は継続して提供されるかたち。
+
+　なお、今回の最新ドライバでは、アクションゲーム「Mafia: The Old Country」向けの最適化や「Clair Obscur: Expedition 33」におけるDLSS 4マルチフレーム生成、DLSSフレーム生成、NVIDIA Reflexのサポートを実施。加えて、G-SYNC Compatibleの対応モニターを新たに62機種追加している。
+PC Watch,宇都宮 充",[],[]
+週替わりでPCパーツや周辺機器が特価の「数量限定週替わりSALE」、ドスパラ通販で開催（PC Watch）,https://news.yahoo.co.jp/articles/b84887a56b23a5b5579f5775517a6df8fa788bcb,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000016-imppcw-000-1-view.jpg?exp=10800,2025-08-01T16:07:32+09:00,2025-08-01T16:07:32+09:00,PC Watch,imppcw,PC Watch,316,"写真：PC Watch
+サードウェーブが運営するドスパラは、通販サイト限定で「数量限定週替わりSALE」を開催している。期間は9月5日10時59分まで。
+
+　本セールでは、ドスパラスタッフおすすめのPCパーツや周辺機器を週替わりで紹介するとともに、紹介された製品の購入に使えるクーポンを数量限定で配布する。現在は1週目が実施中で、ASUSのゲームコントローラ「ROG Raikiri」が1,000円オフとなるなど、複数の製品向けにクーポンが用意されている。
+
+　以降、2週目は8月8日11時から、3週目は8月15日11時から、4週目は8月22日11時から、5週目は8月29日からセールが行なわれる予定。
+PC Watch,宇都宮 充",[],[]
+TSUKUMO、最大96コアのRyzen Threadripper 9000シリーズ搭載ワークステーション（PC Watch）,https://news.yahoo.co.jp/articles/6a2fd0dd0b35409bab01bc7ee85a0db99a36f391,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000015-imppcw-000-1-view.jpg?exp=10800,2025-08-01T15:59:13+09:00,2025-08-01T15:59:13+09:00,PC Watch,imppcw,PC Watch,793,"写真：PC Watch
+ヤマダデンキはTSUKUMOブランドから、Ryzen Threadripper 9000シリーズを搭載したワークステーションを複数発売した。
+
+　各モデルともに、Zen 5アーキテクチャ採用で最大96コアを実現する最新CPU Ryzen Threadripper 9000シリーズを搭載したワークステーション。AIや3Dレンダリング、シミュレーション、科学技術計算など、非常に高い並列処理能力を求められる用途に好適とする。
+
+　構成例として「WE9A-A255/WB」の場合、CPUにRyzen Threadripper 9970X、メモリに64GB DDR5、ストレージに1TB PCIe 4.0 SSD、GPUにGeForce RTX 5050、電源に1,000W 80PLUS Gold認証品、OSにWindows 11 Proなどを搭載。価格は94万9,800円。
+
+　「WE9A-H255/WBH」の場合、CPUにRyzen Threadripper 9980X、メモリに64GB DDR5、ストレージに1TB PCIe 4.0 SSD、GPUにGeForce RTX 5070 Ti、電源に1,000W 80PLUS Gold認証品、OSにWindows 11 Proなどを搭載。価格は154万9,800円。
+
+　「WE9A-U255/WBH」の場合、CPUにRyzen Threadripper PRO 9995WX、メモリに128GB DDR5、ストレージに1TB PCIe 4.0 SSD、GPUにGeForce RTX 5070 Ti、電源に1,000W 80PLUS Gold認証品、OSにWindows 11 Proなどを搭載。価格は319万9,800円。
+
+　本体サイズは共通で230×445×460mm。
+PC Watch,宇都宮 充",[],[]
+REJECT×LAMZUのゲーミングマウス、天の川モチーフの幻想デザイン（PC Watch）,https://news.yahoo.co.jp/articles/deac98fcfcafbf6d88cf120fdf518ddb915f75b8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000014-imppcw-000-1-view.jpg?exp=10800,2025-08-01T15:21:40+09:00,2025-08-01T15:21:40+09:00,PC Watch,imppcw,PC Watch,733,"写真：PC Watch
+eSportsプロチームのREJECTはLAMZUとコラボし、天の川モチーフで幻想的なデザインのワイヤレスゲーミングマウス「REJECT x LAMZU PARO 8K REJECT SPECIAL EDITION」を発売した。価格は1万9,800円。REJECT公式オンラインストア、Amazon、全国のPCショップなどで順次取り扱いを開始する。
+【この記事に関する別の画像を見る】
+REJECT x LAMZU PARO 8K REJECT SPECIAL EDITIONは、REJECTとゲーミングギアブランドLAMZUがコラボしたワイヤレスゲーミングマウス。彦星(アルタイル)と天の川をモチーフにしたデザインを採用し、ブルーグラデーションと星々を散りばめた幻想的なビジュアルに仕上がっている。
+
+　48gの軽量設計で長時間プレイの負担を軽減し、「まるで翼を得たかのような自由自在なマウス操作」を可能にするという。人間工学に基づいたエルゴノミックデザインを採用しており、右手にフィットし無駄な力みなどを解消する。
+
+　付属のワイヤレスドングルは8,000Hzのポーリングレートに対応。オプティカルスイッチの採用により、チャタリングを排除し、0.2ms以下の高速応答を実現した。センサーには最大30,000DPIのPixart 3950、MCUにはNordic 52840を採用している。
+
+　本体サイズは約120×65×40mm、重量は48g。電源は充電式で、バッテリ駆動時間はポーリングレート1,000Hz時で最大80時間。限定ステッカー、予備マウスソール、マウスグリップ、持ち運び用の巾着袋が付属する。
+PC Watch,上田 羽純",[],[]
+GIGABYTE、16万円台からのGeForce RTX 5050搭載ゲーミングノート（PC Watch）,https://news.yahoo.co.jp/articles/29612cf57a48948c9b80c0ad0e82076a16e4e702,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000013-imppcw-000-1-view.jpg?exp=10800,2025-08-01T15:00:47+09:00,2025-08-01T15:00:47+09:00,PC Watch,imppcw,PC Watch,792,"写真：PC Watch
+GIGABYTE Technologyは、GeForce RTX 50シリーズを搭載する16型ゲーミングノートPCを8月6日より、家電量販店またはGIGABYTEノートPC取扱店で発売する。
+
+　GAMING A16 GA63Hは3モデルが用意され、CPUはすべてRyzen 7 260を搭載する。それぞれの実売価格と販路は以下の通り。
+
+・GAMING A16 3VHK3JP864SH(26万円前後、家電量販店)
+GPU: GeForce RTX 5060 Laptop GPU、メモリ: 32GB、ストレージ: 1TB SSD
+
+・GAMING A16 3VHK3JP894SH(20万9,800円前後、GIGABYTEノートPC取扱店)
+GPU: GeForce RTX 5060 Laptop GPU、メモリ: 16GB、ストレージ: 1TB SSD
+
+・GAMING A16 3THK3JP893SH(16万9,800円前後、GIGABYTEノートPC取扱店)
+GPU: GeForce RTX 5050 Laptop GPU、メモリ: 16GB、ストレージ: 512GB SSD
+
+　ほかの共通する仕様については、ディスプレイが16型WUXGA(1,920×1,200ドット)液晶、OSがWindows 11 Homeを搭載。
+
+　インターフェイスは、USB 3.2 Gen 1 Type-C(DisplayPort+USB PD対応)、USB 3.2 Gen 1 2基、USB 2.0、HDMI 2.1、Gigabit Ethernet、Wi-Fi 6E、Bluetooth 5.2、フルHD Webカメラ、音声入出力などを装備。
+
+　本体サイズは358.3×262.5×19.4～22.9mm、重量は2.2kg。
+PC Watch,中村 真司",[],[]
+JAPANNEXT、27型WQHD/165HzゲーミングモニターをAmazon専売（PC Watch）,https://news.yahoo.co.jp/articles/49aad5a6148a96b9b182584396e9eb57a88c7e14,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000012-imppcw-000-1-view.jpg?exp=10800,2025-08-01T13:42:51+09:00,2025-08-01T13:42:51+09:00,PC Watch,imppcw,PC Watch,434,"写真：PC Watch
+JAPANNEXTは、27型WQHD(2,560×1,440ドット)/165Hz対応のTN液晶ゲーミングモニター「JN-T27G165Q-HSP」をAmazon限定で発売した。価格は2万6,480円。
+
+　JN-T27G165Q-HSPは、最大応答速度1ms(MPRT)、輝度400cd/平方m、sRGB比99%、HDR400相当のTN液晶を採用しており、FreeSyncに対応する。
+
+　インターフェイスはHDMI 2.0 2基、DisplayPort 1.4 2基、音声出力、2W+2Wのスピーカーを搭載する。ピクチャ・イン・ピクチャ/ピクチャ・バイ・ピクチャ機能も備える。
+
+　付属するスタンドは150mmの昇降、画面を90度回転させ縦画面にするピボット、左右45度のスイベルが可能。75×75mmのVESAマウントにも対応している。
+
+　本体サイズは615×211×410～560mm、重量は約5.3kg。
+PC Watch,上田 羽純",[],[]
+サンワサプライ、USBハブ一体型Type-Cケーブルに0.5m/1.5mモデル（PC Watch）,https://news.yahoo.co.jp/articles/ff9c380651ff356f2f0266f78074e358888aeee2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000011-imppcw-000-1-view.jpg?exp=10800,2025-08-01T13:33:32+09:00,2025-08-01T13:33:32+09:00,PC Watch,imppcw,PC Watch,429,"写真：PC Watch
+サンワサプライは、USBハブ一体型Type-Cケーブル「400-HUBC34」シリーズに、0.5mの「400-HUBC34SBK」と1.5mの「400-HUBC34LBK」を追加し、8月1日に発売した。直販価格は400-HUBC34SBKが2,080円、400-HUBC34LBKが2,480円。
+【画像】1本で充電とインターフェイスを兼用できる
+いずれもUSB 3.2 Gen 1対応のハブを備えたUSB Type-Cケーブル。1月に長さ1mのモデルを発売していたが、今回長さ違いの2モデルを追加した。
+
+　ハブはUSB Type-Cポートを2基備えており、コネクタ側はUSB 3.2 Gen 1、ケーブル側はUSB 2.0となっている。ケーブル部分は最大92Wの給電に対応する。
+
+　本体サイズは約15×8×63mm。重量は400-HUBC34SBKが約22g、400-HUBC34LBKが約44g。
+PC Watch,関根 慎一",[],[]
+JAPANNEXT、65W給電対応Type-C搭載の31.5型フルHDモニター（PC Watch）,https://news.yahoo.co.jp/articles/17d3ede3acb931cb919c8c47782e063bc1c01df8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000010-imppcw-000-1-view.jpg?exp=10800,2025-08-01T13:18:13+09:00,2025-08-01T13:18:13+09:00,PC Watch,imppcw,PC Watch,1113,"写真：PC Watch
+JAPANNEXTは、31.5型フルHD(1,920×1,080ドット)VA液晶モニター「JN-V315F2-C6」「JN-V315F2-HSP」「JN-V315F2」を発売した。
+【画像】JN-V315F2-HSP
+■ JN-V315F2-C6
+
+　JN-V315F2-C6は、最大65W給電および映像伝送対応のUSB Type-Cポートを備えた31.5型モニター。価格は3万980円。
+
+　パネルには4,000:1と高コントラスト比なVAパネルを採用し、色鮮やかな映像表示を実現。対応するノートPCなどとUSB Type-Cケーブル1本で接続できるほか、フリッカーフリーやブルーライト軽減機能も備える。
+
+　主な仕様は、表示色数が1,677万色、応答速度が8ms、輝度が300cd/平方m、コントラスト比が4,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 1.4、DisplayPort 1.2、USB 3.2 Type-C(Gen不明)、音声出力などを備える。
+
+　本体サイズは715×187×500mm、重量は約4.6kg。スタンドは-5から15度のチルトのみ調整できる。
+
+■ JN-V315F2-HSP
+
+　JN-V315F2-HSPは、映像入力端子としてミニD-Sub15ピンを装備し、さまざまな機器との接続に対応する液晶モニター。119mmの高さ、左右90度のスイベル、-5から15度のチルト、右90度のピボットが可能な昇降式多機能スタンドも備える。価格は2万5,980円。
+
+　主な仕様は、表示色数が1,677万色、応答速度が8ms、輝度が300cd/平方m、コントラスト比が4,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 1.4、ミニD-Sub15ピンを備える。
+
+　本体サイズは718×228×530～649mm、重量は約6kg。
+
+■ JN-V315F2
+
+　JN-V315F2は、上述のJN-V315F2-HSPと同様に、映像入力端子としてミニD-Sub15ピンを装備する31.5型液晶モニター。一方で、スタンドは-5から15度のチルトのみ調整できる。価格は2万3,980円。
+
+　主な仕様は、表示色数が1,677万色、応答速度が8ms、輝度が300cd/平方m、コントラスト比が4,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 1.4、ミニD-Sub15ピンを備える。
+
+　本体サイズは715×187×500mm、重量は約5.7kg。
+PC Watch,宇都宮 充",[],[]
+HHKB、Webから簡単に参加できるタイピング王決定戦を開催。1位には4万円分のアマギフ（PC Watch）,https://news.yahoo.co.jp/articles/dc09009f94ed1c73d68008f3f099d032250229dd,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000009-imppcw-000-1-view.jpg?exp=10800,2025-08-01T13:10:07+09:00,2025-08-01T13:10:07+09:00,PC Watch,imppcw,PC Watch,315,"写真：PC Watch
+PFUは、8月1日から17日まで、「第2回HHKBタイピング王決定戦」を開催すると発表した。Webから利用可能なインフォビジョンの「タイピング速度測定」で速度を競う。
+
+　HHKB(Happy Hacking Keyboard)は言わずと知れた高級コンパクトキーボード。第1回目の大会は昨年(2024年)8月に開催され、今年も引き続きの開催となった。ランキング1位になれば、4万円分のAmazonギフトカードがもらえるほか、抽選で「HHKBオリジナル付箋付きタイピングベッド(クリアー)ふせんポケット」が5名に当たる。
+
+　応募方法や条件については、特設サイトを参照されたい。
+PC Watch,中村 真司",[],[]
+ASUS、240Hz駆動の26.5型4Kゲーミング有機ELモニター（PC Watch）,https://news.yahoo.co.jp/articles/e58aba3acb9010a6bfa3bacbc9aed8840ad696b0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000008-imppcw-000-1-view.jpg?exp=10800,2025-08-01T12:21:21+09:00,2025-08-01T12:21:21+09:00,PC Watch,imppcw,PC Watch,935,"写真：PC Watch
+ASUS JAPANは、26.5型ゲーミング有機ELモニター「ROG Strix OLED XG27UCDMG」を8月8日に発売する。価格は16万9,920円。
+【この記事に関する別の画像を見る】
+ROG Strix OLED XG27UCDMGは、240Hz駆動の4K(3,840x2,160ドット)ゲーミングモニター。ASUSの第4世代量子ドット有機ELパネルを採用しており、ディテール表現の向上とモーションブラーの軽減、従来比20%のフリッカー軽減などを図っている。
+
+　主要なゲーミング機能としては、PC上でOSD設定を変更できる「DisplayWidget Center」のほか、アスペクト比4:3表示モードや24.5型(2,368×1,332ドット)表示モードに加えて、表示コンテンツにあわせて設定を調整する「AIビジュアル」、暗部補正機能「Dynamic Shadow Boost」、OSDレティクルの色を見やすい色に自動で切り替える「Dynamic Crosshair」などが利用できる。可変リフレッシュレート(VRR)、FreeSync Premium Pro、DisplayHDR 400対応。
+
+　画面保護機能では「OLED Care Pro」を装備。ユーザーがモニターから離れたことを検知して即座に黒画面に切り替える「Neo Proximity Sensor」を新たに搭載したほか、ピクセルクリーニング、画面移動、境界検出、グローバルディミングなど複数の焼付き防止機能を備えている。
+
+　主な仕様は、中間色応答速度が0.03ms、コントラスト比は150万:1、表示色数は10億7,370万色、色域はDCI-P3 99%、sRGB 145%、色精度はΔE＜2、視野角は上下/左右各178度。前後20～-5度、左右各45度の角度調整に加えて左右各90度のピボットが可能。
+
+　インターフェイスはHDMI 2.1 2基、DisplayPort 1.4、USB Type-C(90W給電対応)、音声入出力など。
+
+　本体サイズは613×509.4×168.7mm、重量は約7.44kg。VESA対応。
+PC Watch,関根 慎一",[],[]
+邪魔なケーブルが全然見えない！ホワイトベースのPCがGIGABYTEから（PC Watch）,https://news.yahoo.co.jp/articles/a2857aec3de7d8eb9bf50b6faa841c51ef06e7af,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000007-imppcw-000-1-view.jpg?exp=10800,2025-08-01T12:16:04+09:00,2025-08-01T12:16:04+09:00,PC Watch,imppcw,PC Watch,447,"写真：PC Watch
+GIGABYTEは、BTO PCを手掛ける RefT ComputerとコラボしたデスクトップPC「C500/GIGABYTE STEALTHモデル」を発売した。RefT Computerでの標準構成時の直販価格は87万5,000円。
+【この記事に関する別の画像を見る】
+C500 / GIGABYTE STEALTH モデルは、GIGABYTEの背面コネクタに対応するパーツ「STEALTH」シリーズを採用しており、ガラスパネル越しのケーブル露出を極限まで抑えながら、スムーズなエアフローで冷却と性能を最大限に引き出したとする製品。さらに、GIGABYTEのAORUSブランドのパーツが多数使用されており、PC本体はホワイトで統一されている。
+
+　標準構成時の主な仕様は、CPUがRyzen 7 9800X3D、GPUはGeForce RTX 5090、メモリは32GB、ストレージは1TB SSD、OSはWindows 11を搭載する。
+PC Watch,中村 真司",[],[]
+Galaxy Z Fold7/Flip7発売。各種キャンペーンも展開中（PC Watch）,https://news.yahoo.co.jp/articles/7269053b4206e380296d401ded3e28886c26ac40,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000006-imppcw-000-1-view.jpg?exp=10800,2025-08-01T12:15:40+09:00,2025-08-01T12:15:40+09:00,PC Watch,imppcw,PC Watch,278,"写真：PC Watch
+サムスン電子ジャパンは、「Galaxy Z Fold7」および「Galaxy Z Flip7」を発売した。Amazonや量販店、各ECサイトで展開するほか、au、ドコモ、ソフトバンクからも販売される。価格はそれぞれ26万5,750円から、16万4,800円から。
+【画像】サムスン電子ジャパン公式で実施中のキャンペーン
+また、専用ケースのプレゼントや、同じく発売されたGalaxy Watch8/Watch8 Clasic/Watch Ultraとの同時購入で値引きが受けられるキャンペーンも展開中だ。
+PC Watch,上田 羽純",[],[]
+"LG、5,120×1,440ドットNano IPS採用の49型ウルトラワイドモニター（PC Watch）",https://news.yahoo.co.jp/articles/8f8367175c10898fd74505aecc6429c0be09e678,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000005-imppcw-000-1-view.jpg?exp=10800,2025-08-01T12:12:06+09:00,2025-08-01T12:12:06+09:00,PC Watch,imppcw,PC Watch,1786,"写真：PC Watch
+LGエレクトロニクス・ジャパンは、49型湾曲ウルトラワイドモニター「49U950A-W」、29型ウルトラワイドモニター「29U531A-W」、27型スマートモニター「27U511SA-W」を8月7日より順次発売する。価格はすべてオープンプライス。
+【画像】29U531A-W
+■ 49U950A-W
+
+　49U950A-Wは、縦横比32:9で5,120×1,440ドットの湾曲Nano IPSパネルを採用した49型ウルトラワイドモニター。発売は8月7日で、実売予想価格は23万円前後の見込み。
+
+　WQHD 2枚分に相当する表示領域を持ち、複数のウィンドウも並べて表示が可能。パネルにはNano IPSを採用し、DCI-P3 98%やDisplayHDR 400に対応するほか、曲率3,800Rの湾曲仕様とすることで視認性や没入感も高めた。最大144Hzの高リフレッシュレート表示も行なえ、VRR(可変リフレッシュレート)もサポートしている。
+
+　そのほか、最大90Wの給電および映像入力に対応したUSB Type-C、KVMスイッチ、周囲の明るさに応じて画面の明るさを調整する自動輝度センサーなども搭載。FreeSyncやAdaptive-Sync、遅延を抑えるDASモード、暗部の視認性を高めるブラックスタビライザーなどゲーム向け機能も備える。
+
+　主な仕様は、表示色数が約1,677万色、中間色応答速度が5ms、輝度が400cd/平方m、コントラスト比が1,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2基、DisplayPort 1.4、USB Type-C、音声出力などを装備。2基のUSBハブも備える。
+
+　本体サイズは1,215×260×478～598mm、重量は17.3kg。
+
+■ 29U531A-W
+
+　29U531A-Wは、縦横比21:9で2,560×1,080ドットのIPSパネルを採用した29型ウルトラワイドモニター。発売は8月21日で、実売予想価格は3万7,000円前後の見込み。
+
+　通常のフルHDパネルより33%横長となっており、マルチタスク時の作業効率を高めることが可能。色域はsRGB 99%をカバーするほか、工場出荷時キャリブレーションを実施しており、HDR10にも対応。100Hzの高リフレッシュレート表示やブルーライト低減、フリッカーフリーといった機能も備える。
+
+　主な仕様は、表示色数が約1,677万色、中間色応答速度が5ms、輝度が250cd/平方m、コントラスト比が1,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI、DisplayPort 1.4、USB Type-C、音声出力などを備える。
+
+　本体サイズは689×224×407mm、重量は4.5kg。
+
+■ 27U511SA-W
+
+　27U511SA-Wは、独自のwebOSを搭載し、YouTubeなどの映像配信サービスを本機単体で視聴できる27型スマートモニター。発売は8月7日で、実売予想価格は3万8,000円前後の見込み。
+
+　webOSを使ってYouTubeをはじめとした動画配信サービスやWebブラウジングなどが楽しめるのが大きな特徴。iPhoneやiPadからはAirPlay 2、AndroidデバイスからはMiracastを通じて、スマートフォンやタブレット上のコンテンツをワイヤレスで本機に映し出すこともできる。
+
+　パネルはフルHD(1,920×1,080ドット)IPSで、色域はsRGB 99%をカバー。HDR10や100Hzの高リフレッシュレート表示にも対応する。そのほか、ブルーライトを抑えるアイケアモード、フリッカーセーフといった機能も装備。リモコンも付属する。
+
+　主な仕様は、表示色数が約1,677万色、中間色応答速度が5ms、輝度が250cd/平方m、コントラスト比が1,300:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2基、USB 2基、Wi-Fi 5、Bluetooth 5.0、音声出力などを備える。
+
+　本体サイズは612×210×451mm、重量は5.6kg。
+PC Watch,宇都宮 充",[],[]
+ホワイトで統一された映えまくるピラーレスゲーミングPC（PC Watch）,https://news.yahoo.co.jp/articles/c44ed8bbc47d99bec11db29553fb92ac21549b72,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000004-imppcw-000-1-view.jpg?exp=10800,2025-08-01T11:49:13+09:00,2025-08-01T11:49:13+09:00,PC Watch,imppcw,PC Watch,378,"写真：PC Watch
+ヤマダデンキは、TSUKUMOブランドから、ピラーレスのゲーミングPC「G-GEAR White Edition」を発売した。直販価格はGeForce RTX 5070搭載モデル(型番: GP7A-F253B/A/CP3)が24万9,980円、GeForce RTX 5060 Ti搭載モデル(型番: GP7A-E253B/A/CP2)が21万9,980円。
+
+　G-GEAR White Editionは、Thermaltake製のピラーレスケースを採用したゲーミングPCで、筐体および内部をホワイト基調とし、ケース内のLEDも視認可能にしたこだわりが特徴。
+
+　主な仕様は、CPUがRyzen 7 7700、メモリが32GB、ストレージが1TB SSD、OSはWindows 11 Homeを搭載。
+PC Watch,中村 真司",[],[]
+縦横どちらにも差せる超便利な電源タップ（PC Watch）,https://news.yahoo.co.jp/articles/3f5f188619a65e9a576ec0eb39bdd649a7f3924a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000003-imppcw-000-1-view.jpg?exp=10800,2025-08-01T11:24:58+09:00,2025-08-01T11:24:58+09:00,PC Watch,imppcw,PC Watch,502,"写真：PC Watch
+サンワサプライは、縦/横どちらの向きでも挿し込めるAC6口電源タップ「TAP-SLIM6UC-15」「TAP-SLIM6UC-3」を発売した。直販価格は前者が6,600円、後者が7,040円。カラーはブラックとホワイト。
+【画像】縦横と2つのコンセントの間にまたがって差すこともできる
+TAP-SLIM6UC-15およびTAP-SLIM6UC-3は、コンセントプラグを縦横方向に挿せる「車輪差し構造」を採用した電源タップ。並んでいるコンセントの間にもプラグが挿せることで、スペースを効率的に使える。両者の違いはケーブル長で、TAP-SLIM6UC-15は1.5m、TAP-SLIM6UC-3は3m。
+
+　また、いずれの製品もUSB Type-AとType-Cの急速充電ポートを1基ずつ備えている。最大出力はType-C単ポート使用時で33W、Type-A単ポート使用時で18W、両ポート同時使用時で合計15W。
+
+　本体サイズは共通で30.5×24×280mm。重量はTAP-SLIM6UC-15が約303g、TAP-SLIM6UC-3が約399g。
+PC Watch,関根 慎一",[],[]
+日本エイサー、広色域・高輝度・高速OLEDのGeForce RTX 5070/5060ゲーミングノート（PC Watch）,https://news.yahoo.co.jp/articles/e096a0c0119f8d16bc1381fbc5c89e53e8c8339b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000002-imppcw-000-1-view.jpg?exp=10800,2025-08-01T11:18:49+09:00,2025-08-01T11:18:49+09:00,PC Watch,imppcw,PC Watch,713,"写真：PC Watch
+日本エイサーは、16型ゲーミングノート「Predator Helios Neo 16S AI」を発売した。GeForce RTX 5070 Laptop GPU(型番: PHN16S-71-N73Z57/E)を搭載するモデルと、同5060(型番: PHN16S-71-N73Z56/E)搭載モデルの2機種を展開。記事掲載時点でのAmazonでの販売価格は、前者が31万9,320円、後者は30万5,820円となっている。
+【この記事に関する別の画像を見る】
+Predator Helios 16S AIは、CPUにCore Ultra 7 255HXを採用し、メモリが32GB、ストレージは1TB SSD、ディスプレイは16型WQXGA(2,560×1,600ドット)OLED、OSはWindows 11 Homeを搭載。
+
+　ディスプレイが、DCI-P3 100%で、なおかつDisplay HDR True Black 500認証を取得しており、広色域と高輝度を実現している。また、リフレッシュレートは240Hzで、応答速度は1msと高速。
+
+　このほか、冷却システムに第5世代AeroBlade 3Dファンを装備したことで、静音性を高めつつ、前世代よりも10%風量をアップ。さらに、液体金属熱グリスによるすぐれた熱伝導率で冷却効果を最大限に高めている。
+
+　インターフェイスは、Thunderbolt 4、USB 3.2 Gen 2 Type-C(DisplayPort対応)、USB 3.2 Gen 2 3基、HDMI、Wi-Fi 6E、音声入出力などを装備する。
+PC Watch,中村 真司",[],[]
+Anker、最大70W出力に対応した小型USB急速充電器（PC Watch）,https://news.yahoo.co.jp/articles/bc7e9ab3986b2804f03e934561d5eb24a340bba7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000001-imppcw-000-1-view.jpg?exp=10800,2025-08-01T11:00:00+09:00,2025-08-01T11:00:00+09:00,PC Watch,imppcw,PC Watch,480,"写真：PC Watch
+Ankerは、USB急速充電器「Anker Nano Charger (70W, 3 Ports)」を発売した。価格は6,990円。初回2,500個限定で20%オフクーポンを配布する。
+
+　Anker Nano Charger (70W, 3 Ports)は、GaN(窒化ガリウム)を採用したUSB急速充電器。小型ながらUSB PDに対応したUSB Type-Cを2基搭載し、単ポート最大70Wの出力に対応する。また、USB Type-Aを1基搭載し、合計で最大3台のデバイスを同時に充電できる。1秒間に約120回温度を検知し出⼒を制御する「ActiveShield 4.0」を搭載し、安全に充電できるという。
+
+　出力は、単ポート利用時にUSB Type-Cがいずれも最大70W、USB Type-Aが最大33W。2ポート利用時は合計最大67.5W、3ポート利用時は合計最大60Wとなる。
+
+　本体サイズは約53×43×32mm、重量は約120g。本体色はブラック、ホワイト、ブルー、パープルの4色展開。
+PC Watch,稲津 定晃",[],[]

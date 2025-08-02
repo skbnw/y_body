@@ -1,0 +1,19 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+"Edge, Chromeの最新ブラウザ環境に最適化 ～ 情報漏えい対策ソフト「パイレーツバスター AWP Ver.13.1」（ScanNetSecurity）",https://news.yahoo.co.jp/articles/120bb5ef4ab29e66020f0cc838cb165ee4157b6a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250801-00000002-scan-000-1-view.jpg?exp=10800,2025-08-01T08:00:17+09:00,2025-08-01T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,609,"「パイレーツバスター AWP」イメージ
+株式会社ティエスエスリンクは7月28日、情報漏えい対策ソフト「パイレーツバスター AWP Ver.13.1」を同日、発売すると発表した。
+「パイレーツバスター AWP」は、Webシステムで共有する機密情報の不正利用を防ぐセキュリティ対策ソフトで、ブラウザに表示されるPDFやMicrosoft Officeファイル（Word、Excel、PowerPoint）のダウンロード（保存）、印刷、コピー、画面キャプチャーを禁止する。Webシステムにフィルタ型サーバを組み合わせる構成のため、Webシステムの特別なカスタマイズが不要で、あらゆるWebシステムへの導入が可能。保護対象となるのは、ブラウザに表示されるHTML、PDF、TIFF、画像、動画などで、有償のオプションでMicrosoft Office、DocuWorks、XVLの保護にも対応する。
+最新版の Ver.13.1 では、Microsoft Edge、Google Chromeの最新ブラウザ環境に最適化しており、ユーザーはよりセキュアで安定した環境でAWPを利用できる。
+「パイレーツバスター AWP Ver.13.1」は100ユーザーの基本パッケージが100万円からで、別途、保守費（製品価格の25％）が必要となる。無償の評価版も提供されている。
+ScanNetSecurity ScanNetSecurity",[],[]
+「DEF CON 33」CTF に GMOインターネットグループのホワイトハッカーが参加（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c9b5cc8a3034478ab6c7c45300566c73888265c9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-01T08:00:04+09:00,2025-08-01T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,1230,"GMOインターネットグループ株式会社は7月22日、GMOインターネットグループのホワイトハッカーがセキュリティカンファレンス「DEF CON 33」CTFに参加すると発表した。
+1993年から毎年アメリカで開催されている「DEF CON」は、エンジニア、研究者、政府関係者などのセキュリティ専門家が集まる国際的なセキュリティイベントで、サイバーセキュリティに関する情報交換、ハッキング技術の発表、CTFなどを通じて、世界的なセキュリティコミュニティの成長と交流に貢献している。
+「DEF CON」のCTFには、予選を勝ち抜いてきたチームが出場する決勝戦「DEF CON CTF Finals」と、テーマごとに分かれたVillageの中で競うものがある。
+GMOインターネットグループからの参加チームは下記の通り。
+・「DEF CON CTF Finals」優勝を目指し各国から集結したホワイトハッカーチーム「Blue Water」
+　GMOサイバーセキュリティ byイエラエに所属するホワイトハッカー王瀚邦（Hanbang Wang）氏が共同キャプテンを務めるCTFチームで、GMOサイバーセキュリティ byイエラエ以外から様々な国籍のホワイトハッカーが参画。
+・「DEF CON Cloud Village CTF」世界3連覇を目指す GMOサイバーセキュリティ byイエラエの脆弱性調査研究チーム「GMOイエラエ」
+　GMOサイバーセキュリティ byイエラエに所属するホワイトハッカーがサイバーセキュリティに関する情報発信や、セキュリティ対策サービスやプロダクトの提供を通じて、社会に還元することを目的とした脆弱性調査・研究チームで、「DEF CON」には3年連続で参加、「Cloud Village CTF」では2023年と2024年に世界1位を獲得。
+・「DEFCON AppSec Village」2連覇に挑むチーム「GMO Flatt Security」
+　GMO Flatt Securityに所属するセキュリティエンジニアによる選抜メンバーで結成したCTFチームで、今回の「DEF CON 33」には、「AppSec Village CTF」に、昨年優勝経験を持つ梅内をはじめとしたセキュリティエンジニアが現地・オンラインの両方から参加予定。
+「DEF CON 33」CTFに参加するGMOサイバーセキュリティ byイエラエ 執行役員/CTOの小池悠生氏は「昨年に引き続き、「Blue Water」として「DEF CON CTF」の決勝戦に参加します。昨年は最終順位2位で、惜しくも優勝は逃してしまいました。長年、「DEF CON CTF」の決勝戦では、同一チームによる優勝が続いており、これを覆して優勝することが、我々や「Blue Water」の悲願です。」とコメントしている。
+ScanNetSecurity ScanNetSecurity",[],[]
