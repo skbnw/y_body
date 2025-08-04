@@ -1,0 +1,53 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「ALSOK ＆ GMO サイバー物理ペネトレーションテスト」開発、物理からサイバーまでリスクを可視化（ScanNetSecurity）,https://news.yahoo.co.jp/articles/730bbf46b6eaf5eb1c8ea512d054ada756eeb141,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250804-00000005-scan-000-1-view.jpg?exp=10800,2025-08-04T08:00:23+09:00,2025-08-04T08:00:23+09:00,ScanNetSecurity,scan,ScanNetSecurity,1025,"サービスイメージ
+GMOサイバーセキュリティ byイエラエ株式会社とALSOK株式会社は7月29日、セキュリティ診断サービス「ALSOK ＆ GMO サイバー物理ペネトレーションテスト」を開発したと発表した。GMOインターネットグループ横断プロジェクト「ネットのセキュリティもGMO」の第6弾となるサービスで、同日から提案を行っていくという。
+物理セキュリティに関する知見を有するALSOKと、サイバー空間のペネトレーションテストに関するノウハウを有するGMOサイバーセキュリティ byイエラエの連携で、物理侵入を足掛かりとしたサイバー攻撃に焦点を当てた新たなセキュリティ診断サービス「ALSOK 物理ペネトレーションテスト」と、物理空間からサイバー空間まで一気通貫で不正侵入リスクを可視化する新たなセキュリティ診断サービス「ALSOK ＆ GMO サイバー物理ペネトレーションテスト」を開発したとのこと。なお、同サービスの開発には、物理ペネトレーションテストの専門ベンダーBarrierCrack合同会社も参画し、技術を提供している。
+同サービスの特徴は下記の通り。
+1.物理セキュリティに関する実践的診断
+ALSOKが培ってきた物理セキュリティに関する知見を活用した、多面的な評価と改善提案を提供。
+2.現実的な攻撃シナリオでセキュリティ診断を実施
+物理空間における不正侵入からサイバー空間における情報窃取等までを想定し、顧客毎の脅威を反映した攻撃シナリオでセキュリティ診断を実施。
+3.サイバー空間の侵入リスクまで一気通貫で診断
+GMOサイバーセキュリティ byイエラエとの連携で、サイバー領域との統合的な診断が可能となり、物理・サイバー両面からの包括的なセキュリティ強化を実現。
+4.顧客のニーズに沿ったスコープの組み立て
+「ALSOK ＆ GMO サイバー物理ペネトレーションテスト」の対象は、建屋への侵入から内部ネットワークへのアクセス可能性の検証、ネットワーク侵入後の目的達成可能性の検証までを含むが、顧客環境の制限がある場合などは、テスト対象を物理侵入やネットワークに限定したセキュリティ診断も可能。
+5.不正侵入・サイバー攻撃対策状況の可視化
+「ALSOK ＆ GMO サイバー物理ペネトレーションテスト」を実施した顧客には、テスト実施の証となる「ステッカー」を発行。
+ScanNetSecurity ScanNetSecurity",[],[]
+SwitchBot アプリ（iOS/Android）に脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/aa1a28fadedd96a6a02da99834aac074cc7e77fa,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-04T08:00:19+09:00,2025-08-04T08:00:19+09:00,ScanNetSecurity,scan,ScanNetSecurity,564,"SWITCHBOT株式会社は7月、同社が提供する SwitchBot アプリ（iOS/Android）におけるセキュリティ脆弱性について発表した。影響を受けるシステムは以下の通り。
+SwitchBot アプリ（iOS / Android） V6.24からV9.12までのバージョン
+SwitchBot アプリには脆弱性が存在し、一部のユーザーデータがアプリのログファイルに保存される可能性がある。ログファイルは通常、ユーザーの端末内のみに保存され、外部からアクセスされることはない。本仕様はユーザー体験向上を目的としたものであったが、ごく稀な状況で情報漏えいのリスクが判明したという。
+同社では6月10日に外部のセキュリティ研究者からの報告を受領後、開発チームで詳細情報を確認し、6月12日付で V9.13 で該当のログ保存機構を削除・改善し、6月20日にApp StoreおよびGoogle Playで修正版を公開している。
+同社では顧客に、SwitchBotアプリを最新バージョン（V9.13以降）にアップデートするよう呼びかけている。
+なお、アップデート後、約4日以内に新しいログファイルが生成され、この問題に関連するセキュリティリスクは解消されるとのこと。
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache Jena Fuseki にパストラバーサルの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/7bead596674f936cc2be2be62f835c05898c4508,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-04T08:00:13+09:00,2025-08-04T08:00:13+09:00,ScanNetSecurity,scan,ScanNetSecurity,423,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月30日、Apache Jena Fusekiにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社サイバーディフェンス研究所の岩崎徳明氏が報告を行っている。影響を受けるシステムは以下の通り。
+Jena Fuseki 5.5.0より前のバージョン
+The Apache Software Foundationが提供するJena Fusekiには、パストラバーサルの脆弱性（CVE-2025-49656）が存在し、遠隔の第三者によって任意のディレクトリに任意の名前のttlファイルを作成される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+ZTEジャパンの ONU ZXHN-F660T および ZXHN-F660A に機器共通の認証情報が設定されている問題（ScanNetSecurity）,https://news.yahoo.co.jp/articles/309c1c396e77e0dcad00fa14e1567ae251360545,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-04T08:00:10+09:00,2025-08-04T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,533,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月31日、ZXHN-F660TおよびZXHN-F660Aに機器共通の認証情報が設定されている問題について「Japan Vulnerability Notes（JVN）」で発表した。ユウキジャパンテックの宮田祐希氏が報告を行っている。影響を受けるシステムは以下の通り。
+ZXHN-F660T ファームウェアバージョン V1.0.10P17N4より前のバージョン
+ZXHN-F660A ファームウェアバージョン V1.0.10P14N4より前のバージョン
+ZTEジャパン株式会社が提供するONU（光回線終端装置）ZXHN-F660TおよびZXHN-F660Aには、機器共通の認証情報が設定されている問題（CVE-2025-53558）が存在し、機器共通の認証情報を取得した攻撃者によって、当該製品にログインされる可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版にアップデートするよう呼びかけている。対策バージョンでは、機器共通の認証情報が廃止されている。
+ScanNetSecurity ScanNetSecurity",[],[]
+PowerCMS に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d5c6dcc79dc536b0e0043e496816344796ee3a9f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-04T08:00:04+09:00,2025-08-04T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,1030,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月31日、PowerCMSにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。VCSLabのViettel Cyber Security thanhtt74（Tran Thi Thanh）氏、namdi（Do Ich Nam）氏、quanlna2（Le Nguyen Anh Quan）氏が報告を行っている。影響を受けるシステムは以下の通り。
+PowerCMS 6.7およびそれ以前（PowerCMS 6.x系）
+PowerCMS 5.3およびそれ以前（PowerCMS 5.x系）
+PowerCMS 4.6およびそれ以前（PowerCMS 4.x系）
+アルファサード株式会社が提供するPowerCMSには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・反射型クロスサイトスクリプティング（CVE-2025-36563）
+→製品の管理者が細工されたURLにアクセスすると、管理者のブラウザ上で任意のスクリプトが実行される
+・格納型クロスサイトスクリプティング（CVE-2025-41391）
+→製品ユーザーが細工されたページにアクセスすると、当該ユーザーのブラウザ上で任意のスクリプトが実行される
+・ファイルアップロードにおけるパストラバーサル（CVE-2025-41396）
+→製品ユーザーによって、任意のファイルが上書きされる
+・バックアップリストアにおけるパストラバーサル（CVE-2025-46359）
+→製品の管理者によって、改ざんしたバックアップファイルをリストアされることにより任意のコードが実行される
+・CSVファイル中の数式要素の無害化不備（CVE-2025-54752）
+→製品ユーザーが不正に作成したエントリーを、別のユーザーがCSVファイルとしてダウンロードして自身の環境で開くとコードが実行される
+・アップロードするファイルの検証が不十分（CVE-2025-54757）
+→製品ユーザーがアップロードした不正なファイルに製品の管理者がアクセスすると、管理者のブラウザ上で任意のスクリプトが実行される
+JVNでは、開発者が提供する情報をもとに最新版にアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
