@@ -1,0 +1,64 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+OpenAIがローカルで実行可能な言語モデル「gpt-oss」シリーズを公開／Google DeepMindがリアルタイム生成可能なAIモデル「Genie 3」を発表（ITmedia PC USER）,https://news.yahoo.co.jp/articles/93c6c646c1ee5e1adf039d54995e47dd8e8a4cd2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250810-00000014-zdn_pc-000-1-view.jpg?exp=10800,2025-08-10T06:05:09+09:00,2025-08-10T06:05:09+09:00,ITmedia PC USER,zdn_pc,ITmedia PC USER,4087,"OpenAIがローカルで実行可能な言語モデル「gpt-oss」シリーズを公開した
+うっかり見逃していたけれど、ちょっと気になる――そんなニュースを週末に“一気読み”する連載。今回は、8月3日週を中心に公開された主なニュースを一気にチェックしましょう！
+【画像で見る】Google DeepMindが、リアルタイムにナビゲーションできる世界モデル「Genie 3」を発表した
+OpenAIがローカルで実行可能な言語モデル「gpt-oss」シリーズを公開
+OpenAIは8月5日、オープンウェイト（学習済みモデルを公開すること）の大規模言語モデル「gpt-oss」シリーズを発表した。117b（1170億）パラメーターを持つ「gpt-oss-120b」と、21b（210億）パラメーターを持つ「gpt-oss-20b」がリリースされており、Apache 2.0 ライセンスの下、Hugging Faceから無料でダウンロードできる。
+
+　gpt-oss-120bは80GBのメモリ内で実行でき、コア推論ベンチマークでOpenAIの「GPT-4o mini」とほぼ同等の性能を達成できる。
+
+　gpt-oss-20bは16GBのメモリで実行でき、一般的なベンチマークでOpenAI o3 miniと同様の結果を示した。エッジデバイスでの使用やローカル推論に適しているという。
+
+　両モデルはmixture-of-experts（MoE）アーキテクチャを活用し、入力処理に必要なアクティブパラメーター数を削減している。gpt-oss-120bはトークンあたり51億パラメーター、gpt-oss-20bは36億パラメーターをアクティブ化する。
+
+　OpenAIによると、gpt-ossシリーズのリリースの一環として、Microsoftはgpt-oss-20bモデルのGPU最適化バージョンをWindowsデバイスに導入するという。
+Google DeepMindがリアルタイム生成可能なAIモデル「Genie 3」を発表
+Google DeepMindは8月5日、テキストプロンプトからインタラクティブ環境を生成できる汎用（はんよう）のワールドモデル「Genie 3」を発表した。
+
+　Genie 3は、テキストプロンプトを与えると、ユーザーが720p／24fpsでリアルタイムに移動できる動的な世界（3Dのオープンワールドマップのようなもの）を生成する。従来のGenie 2と比較して一貫性とリアリティーが向上したという。同社は、Genie 3はリアルタイムインタラクションを可能にした初の世界モデルだとしている。
+
+　主な機能としては、水や照明などの自然現象、動物の行動から複雑な植物まで含む生態系のシミュレーション、アニメーションキャラクターを含むファンタジーシナリオの創造、地理的／時間的境界を超えた場所や過去の時代の探索が可能になる。また、「Promptable world events」と呼ばれる機能により、天候の変更や新しいオブジェクト・キャラクターの導入など、テキストベースでの世界変更も行える。
+
+　現在は限定的な研究プレビューとして、少数の学術研究者とクリエイターに早期アクセスを提供している。
+Googleが高性能AIモデル「Gemini 2.5 Deep Think」をGoogle AI Ultraプランのユーザーに対して順次提供開始
+Googleは8月1日、推論能力を大幅に強化したAIモデル「Gemini 2.5 Deep Think」の提供を開始した。Google AI Ultraサブスクライバー向けにGeminiアプリで利用可能となる。
+
+　Gemini 2.5 Deep Thinkは、5月に開催されたGoogle I/Oで発表されていたAIモデル。当時よりも大幅に改善されており、2025年の国際数学オリンピック（IMO）で金メダル水準を達成したモデルをベースとしている。そのモデルは複雑な数学問題の推論に数時間を要するが、今回リリースされたモデルは、より高速で日常的な使用が可能であり、社内評価では2025年のIMOベンチマークで銅メダルレベルのパフォーマンスを達成しているという。
+
+　人間が複雑な問題に取り組む際に潜在的な解決策を多角的に検討するのと同様に、並列思考技術を使用しているのが特徴だ。Geminiが多くのアイデアを同時に生成・検討し、時間をかけて異なるアイデアを修正・組み合わせて最適な答えに到達する。
+
+　また、推論時間を延長することで、Geminiがより多くの仮説を探索し、複雑な問題に対する創造的解決策に到達できるようになった。強化学習技術により、モデルがこれらの拡張推論経路を活用し、より直感的な問題解決能力を獲得している。
+
+　Googleによると、競技コーディングのパフォーマンスを測定するLiveCodeBench V6や、科学や数学を含む、さまざまな分野の専門知識を測定するHumanity's Last Examなどのベンチマークで、ツールを使用しない他のモデルを上回るパフォーマンスを達成したとしている。
+「Google Chrome」がアップデート　AIモードによる検索クエリの提案が拡充
+Googleは8月5日、デスクトップ向けChromeブラウザの安定チャネルをアップデートした。WindowsおよびmacOS向けに「139.0.7258.66／.67」、Linux向けに「139.0.7258.66」を展開している。
+
+　Chrome 139では、アドレスバーをクリックして何か入力しようとすると、最近の検索クエリに加えて、AIによるおすすめの検索クエリが表示されるようになる。なお、この機能は段階的に展開されるので、Chrome 139にアップデートしてもすぐに使えるとは限らない。
+
+　この他、今回のバージョンでは、12件の脆弱（ぜいじゃく）性が修正されており、CVE番号が公開されているのは、以下の8件。カッコ内は深刻度を表している。
+
+・CVE-2025-8576: Use after free in Extensions（Medium）
+・CVE-2025-8577: Inappropriate implementation in Picture In Picture（Medium）
+・CVE-2025-8578: Use after free in Cast（Medium）
+・CVE-2025-8579: Inappropriate implementation in Gemini Live in Chrome（Low）
+・CVE-2025-8580: Inappropriate implementation in Filesystems（Low）
+・CVE-2025-8581: Inappropriate implementation in Extensions（Low）
+・CVE-2025-8582: Insufficient validation of untrusted input in DOM（Low）
+・CVE-2025-8583: Inappropriate implementation in Permissions（Low）
+
+　この他、内部監査、ファジング、その他の取り組みによるさまざまな修正も行われているとのこと。
+GeForce RTXの「Game Ready」ドライバのWindows 10対応を2026年10月まで延長
+NVIDIAは7月31日、全ての「GeForce RTX」シリーズに対するWindows 10 Game Readyドライバーのサポートを、2026年10月まで延長すると発表した。
+
+　Microsoftは、Windows 10のサポートを2025年10月14日に終了するが、サポート期限を最大3年間延長する「拡張セキュリティ更新プログラム」（Extended Security Update：ESU）を有料で提供している。
+
+　個人向けには、年間30ドルで提供されるが、1年間は実質無料で利用できる。NVIDIAはサポート延長の理由を説明していないが、このESUの提供に合わせたものと考えられる。
+
+　この他、Maxwell／Pascal／VoltaアーキテクチャベースのGeForce GPUに対するサポート計画も発表された。2025年10月に最後のGame Readyドライバーがリリースされた後、2028年10月まで四半期ごとのセキュリティアップデートの提供に移行するとのことだ。なお、これらのGPUのサポート期間は、最長11年ということになる。
+AIがゲーム攻略を補助する「Gaming Copilot（Beta）」の早期プレビュー開始
+Microsoftは8月6日、PC Gaming Previewに登録しているXbox Insider向けにAIゲーム支援機能「Gaming Copilot（Beta）」の提供を開始した。Windows PC向けGame Barで利用できる。
+
+　Gaming Copilot（Beta）は、プレイ中のゲームを認識し、Xboxアクティビティーを把握してユーザー中心の体験を提供する。例えば、ゲームプレイ中に音声モードでCopilotを使用し、ゲームを中断することなく攻略のヒントなどを質問したり、スクリーンショットを使用して、より役立つアドバイスを受けたりできる。音声だけでなく、テキストチャットでも利用できる。
+
+　Game BarのGaming Copilotの早期プレビューは、米国、オーストラリア、ニュージーランド、日本、シンガポールなどで、18歳以上のXbox Insiderが利用できる。ただし、言語は英語のみとなっている。
+ITmedia PC USER",[],[]
