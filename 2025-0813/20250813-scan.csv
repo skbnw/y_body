@@ -1,0 +1,42 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+富士フイルムビジネスイノベーション製複合機（MFP）に境界外書き込みの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/cfa7ab1e9810f2d1ea07aad4266c04896d1a357e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-13T08:00:19+09:00,2025-08-13T08:00:19+09:00,ScanNetSecurity,scan,ScanNetSecurity,1035,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月4日、富士フイルムビジネスイノベーション製複合機（MFP）における境界外書き込みの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。School of Cyber Science and Technology of Beihang UniversityのJia-Ju Bai氏、Rui-Nan Hu氏、Dong Zhang氏、Zhen-Yu Guan氏が報告を行っている。影響を受けるシステムは以下の通り。
+DocuPrint CP225 w 01.23.02およびそれ以前
+DocuPrint CP228 w 01.23.02およびそれ以前
+DocuPrint CP115 w 01.09.00およびそれ以前
+DocuPrint CP118 w 01.09.00およびそれ以前
+DocuPrint CP116 w 01.09.00およびそれ以前
+DocuPrint CP119 w 01.09.00およびそれ以前
+DocuPrint CM225 fw 01.12.02およびそれ以前
+DocuPrint CM228 fw 01.12.02およびそれ以前
+DocuPrint CM115 w 01.09.01およびそれ以前
+DocuPrint CM118 w 01.09.01およびそれ以前
+Apeos 2150 N 01.00.47およびそれ以前
+Apeos 2350 NDA 01.00.47およびそれ以前
+Apeos 2150 ND 01.00.47およびそれ以前
+Apeos 2150 NDA 01.00.47およびそれ以前
+富士フイルムビジネスイノベーション製複合機（MFP）には境界外書き込みの脆弱性（CVE-2025-48499）が存在し、細工されたIPP（Internet Printing Protocol）またはLPD（Line Printer Daemon）パケットを処理した場合、サービス運用妨害（DoS）状態となる可能性がある。なお、サービス運用妨害（DoS）状態からの復旧には、当該製品をリセットする必要がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+サトー製ラベルプリンタ CL4/6NX-J Plus および CL4/6NX Plus シリーズに複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c6e75dbfdb80d9103e161884ac5e20985e8e0897,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-13T08:00:14+09:00,2025-08-13T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,643,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月6日、サトー製ラベルプリンタCL4/6NX-J PlusおよびCL4/6NX Plusシリーズにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ラックの飯田雅裕氏が報告を行っている。影響を受けるシステムは以下の通り。
+スキャントロニクスCL4/6NX-J Plusシリーズ ファームウェア1.15.5-r1より前のバージョン
+スキャントロニクスCL4/6NX Plusシリーズ（海外向けモデル）ファームウェア1.15.5-r1より前のバージョン
+株式会社サトーが提供するラベルプリンタCL4/6NX-J PlusおよびCL4/6NX Plusシリーズには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・OSコマンドインジェクション（CVE-2025-22469）
+→遠隔の第三者によって、システム上で特定の管理者でないユーザー権限を使用して任意のOSコマンドを実行される
+・アップロードするファイルの検証が不十分（CVE-2025-22470）
+→遠隔の第三者によって、システム上でroot権限を使用して任意のLuaスクリプトを実行される
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+トレンドマイクロ製企業向けエンドポイントセキュリティ製品に複数のOSコマンドインジェクションの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/1fa52bf5a1e4c7f57ca853ed2e3b50ff3854d58e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-13T08:00:10+09:00,2025-08-13T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,762,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月6日、トレンドマイクロ製企業向けエンドポイントセキュリティ製品における複数のOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+Trend Micro Apex One 2019 SP1
+Trend Micro Apex One SaaS
+Trend Vision One Endpoint Security - Standard Endpoint Protection
+トレンドマイクロ製企業向けエンドポイントセキュリティ製品には、管理コンソールにおけるOSコマンドインジェクション（CVE-2025-54948、CVE-2025-54987）の脆弱性が存在し、遠隔の攻撃者によって認証無しで任意のコードを実行される可能性がある。
+なおトレンドマイクロでは既に、「CVE-2025-54948」を悪用する攻撃を確認している。
+JVNでは、それぞれ下記の対策を紹介している。
+・Trend Micro Apex One 2019 SP1向け対策：
+　開発者が提供する情報をもとにFixtoolを適用。
+※2025年8月中旬に恒久対策としてCritical Patchのリリースを予定。
+・Trend Micro Apex One SaaSおよびTrend Vision One Endpoint Security - Standard Endpoint Protection向け対策：
+2025年7月31日のメンテナンスで修正済み。
+ScanNetSecurity ScanNetSecurity",[],[]
