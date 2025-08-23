@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+ウェルスナビがパスワードレス認証導入（ScanNetSecurity）,https://news.yahoo.co.jp/articles/3f0d65a549435dc3d53747d37b9a4a4581350123,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-21T08:00:20+09:00,2025-08-21T08:00:20+09:00,ScanNetSecurity,scan,ScanNetSecurity,553,"ウェルスナビ株式会社は8月19日、同社が提供する「WealthNavi」でパスキー（FIDO2）を用いたログイン時の多要素認証を9月上旬から導入すると発表した。金融庁と日本証券業協会では7月中旬に、今後はパスキーなどの安全性の高い認証を必須とする指針案を示していた。
+パスキーは、パスワードレス認証を実現するための国際規格である「FIDO2（Fast IDentity Online 2）」に基づく認証技術で、パスキーを利用することで、パスワードを使わず、顔・指紋などの認証でログインが可能となる。
+フィッシング詐欺を契機とした不正アクセスによる証券口座の乗っ取りや不正取引の被害が拡大し社会問題となる中で、多くの証券会社が多要素認証を必須化する方針を表明しており、ウェルスナビでもこれまでに認証アプリを用いた多要素認証の導入（2018年8月）、ログイン時の多要素認証の順次必須化（2025年6月）、なりすましメールへの対策強化（2025年7月）などのセキュリティ強化を進めてきた。
+ウェルスナビでは、パスワードで認証を行う場合に認証アプリまたはメールによる追加認証を必須としているが、今後パスキーによる認証を行う場合は追加認証が不要となる。
+ScanNetSecurity ScanNetSecurity",[],[]
+トレンドマイクロ製企業向けエンドポイントセキュリティ製品に複数の OSコマンドインジェクションの脆弱性、Critical Patch B14081 をリリース（ScanNetSecurity）,https://news.yahoo.co.jp/articles/8b630b10bd22a14f4f41612e2a602652ef846545,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-21T08:00:12+09:00,2025-08-21T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,727,"一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月18日、トレンドマイクロ製企業向けエンドポイントセキュリティ製品における複数のOSコマンドインジェクションの脆弱性について発表した。影響を受けるシステムは以下の通り。
+Trend Micro Apex One 2019 SP1
+Trend Micro Apex One SaaS
+Trend Vision One Endpoint Security - Standard Endpoint Protection
+トレンドマイクロ株式会社は8月6日に、Trend Micro ApexOne、Trend Micro ApexOne SaaS、Trend Vision One Endpoint Security -Standard Endpoint Protectionの管理コンソールにおける複数のOSコマンドインジェクションの脆弱性（CVE-2025-54948、CVE-2025-54987）に関する情報を公表しており、これらの脆弱性が悪用された場合、攻撃者が遠隔から認証なしで任意のコードを実行する可能性がある。
+なお、トレンドマイクロでは、CVE-2025-54948を悪用した攻撃を確認している。
+JPCERT/CCでは、Trend Micro Apex One 2019 SP1についてはトレンドマイクロが提供する情報をもとに、製品にFixtoolを適用するよう呼びかけている。トレンドマイクロは8月18日に、本脆弱性の恒久対策として、Critical Patch B14081をリリースしている。
+ScanNetSecurity ScanNetSecurity",[],[]
