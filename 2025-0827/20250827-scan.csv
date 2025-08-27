@@ -1,0 +1,7 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+エックスサーバーに DDoS 攻撃、一部環境からのアクセスフィルタリング実施（ScanNetSecurity）,https://news.yahoo.co.jp/articles/5ef62750f57714a5cd293f5d02cb439709d7a6f5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250827-00000001-scan-000-1-view.jpg?exp=10800,2025-08-27T08:00:14+09:00,2025-08-27T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,238,"トップページ
+エックスサーバー株式会社は8月25日、同社の「sv13279サーバー」へのDDoS攻撃の対応について発表した。
+【画像全2枚】
+これは8月25日午前6時20分頃から同社の「sv13279サーバー」にDDoS攻撃があり、同攻撃の影響を回避するために、同日午前6時33分頃より一部環境からのアクセスフィルタリングを実施したというもの。
+同社では攻撃の停止を確認次第、フィルタリングの解除を行うとのこと。
+ScanNetSecurity ScanNetSecurity",[],[]
