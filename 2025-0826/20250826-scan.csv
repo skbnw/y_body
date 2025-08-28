@@ -1,0 +1,6 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Western Digital Kitfox に引用符で囲まれていないファイルパスの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/3d56dc650f90de146afeb30003ddf0ebeb2de1eb,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-08-26T08:00:10+09:00,2025-08-26T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,524,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月22日、Western Digital Kitfoxにおける引用符で囲まれていないファイルパスの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+Western Digital Kitfox Software for Windows 1.1.1.1より前のバージョン
+Western Digital Corporationが提供するWestern Digital Kitfox for Windows は Windowsサービスを登録するが、登録されるプログラムのファイルパスは引用符で囲まれておらず、システムドライブ直下への書き込み権限を有するユーザによって、SYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
