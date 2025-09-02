@@ -1,6 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-ScanSnap Manager のインストーラに権限昇格につながる脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c0f3ad7074386860d1ff0863ccd3ae5473d8f4ab,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-09-01T08:00:03+09:00,2025-09-01T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,467,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月27日、ScanSnap Managerのインストーラにおける権限昇格につながる脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。縣和平氏、菅賢太郎氏、小林朝瑛氏、冨田貴之氏、山室良晃氏が報告を行っている。影響を受けるシステムは以下の通り。
-ScanSnap Managerインストーラ V6.5L61より前のバージョン
-株式会社PFUが提供するScanSnap Managerのインストーラには、権限昇格につながる不適切な権限の割り当ての脆弱性（CVE-2025-57797）が存在し、認証されたローカルの攻撃者によって権限を昇格され、任意のコマンドを実行される可能性がある。
-PFUでは当該製品のサポートを終了しており、該当製品の使用停止および後継製品ScanSnap Homeへの移行を推奨している。
-ScanNetSecurity ScanNetSecurity",[],[]
