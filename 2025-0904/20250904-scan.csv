@@ -1,0 +1,15 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+スマートフォンアプリ「グノシー」に送信データへの機微な情報の挿入の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/5dbce9548f625d3d9530a4a295b2ebf1c126c4d2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-09-04T08:00:08+09:00,2025-09-04T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,451,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月2日、スマートフォンアプリ「グノシー」における送信データへの機微な情報の挿入の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。ZHOU YUNAO氏が報告を行っている。影響を受けるシステムは以下の通り。
+Androidアプリ「グノシー」7.34.0より前のバージョン
+iOSアプリ「グノシー」7.34.0より前のバージョン
+株式会社Gunosyが提供するスマートフォンアプリ「グノシー」には、送信データへの機微な情報の挿入の脆弱性（CVE-2025-44017）が存在し、攻撃者によって細工されたURLにアクセスした場合、JWT（JSON Web Token）を窃取される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+メール配信事業者 14.3 ％「わからない」～ 貴社は DMARC を導入していますか？（ScanNetSecurity）,https://news.yahoo.co.jp/articles/069b3b70253e1d1a7d13e7e8bffd4912cc2aa6de,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250904-00000001-scan-000-1-view.jpg?exp=10800,2025-09-04T08:00:03+09:00,2025-09-04T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,681,"DMARC（なりすましメール対策設定）ポリシー
+GMOブランドセキュリティ株式会社は9月2日、なりすましメール対策に関するアンケート調査の結果を発表した。
+【画像全2枚】
+同調査では、メール受信者577名とメール配信事業者531名を対象になりすましメールに対する意識と対策状況について実施したアンケートの結果をまとめたもの。
+同調査で、メール受信者577名にメールを受信した際に怪しい・不審だと感じた経験はあるか尋ねたところ、88.9％が「はい」と回答し、73.9％が「メールを開封せず削除し」ていることが判明した。怪しい、不審だと感じるメールが多い業界を尋ねたところ、銀行・クレジットカード会社、宅配業者、ECサイト、通信会社、公的機関、SNSやWebサービスの順に回答数が多い結果となった。
+メール配信事業者531名にDMARC を導入しているか尋ねたところ、55.6％が「いいえ」と回答し、「はい」は30.1％であった。また、「わからない」の回答が14.3％あった。DMARCポリシーの設定について尋ねたところ、43.8％が「quarantine（隔離）」、43.1％が「none (監視のみ)」、8.8％が「reject（拒否）」と回答している。
+メールに企業ロゴを表示するBIMIを導入しているか尋ねたところ、「はい」は19.8％で、45.4％が「いいえ」であった。「検討中」は15.6％あったが、12.6％が「BIMIを知らない」、6.6％が「導入しているかわからない」と回答している。
+ScanNetSecurity ScanNetSecurity",[],[]
