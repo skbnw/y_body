@@ -1,6 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-Web Caster V130 に CSRF の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/195a9d5eac4bc13faa97d13acf90ab8019e08f98,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-09-08T08:00:14+09:00,2025-09-08T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,509,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月3日、Web Caster V130におけるクロスサイトリクエストフォージェリの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の石井健太郎氏が報告を行っている。影響を受けるシステムは以下の通り。
-Web Caster V130 ファームウェア Version 1.08およびそれ以前
-NTT東日本株式会社（NTT東日本）およびNTT西日本株式会社（NTT西日本）が提供する050IP電話対応ブロードバンドルータ Web Caster V130には、クロスサイトリクエストフォージェリの脆弱性が存在し、当該製品にログインした状態のユーザーが攻撃者によって細工されたページにアクセスした場合、意図せず当該製品の設定を変更される可能性がある。
-JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
-ScanNetSecurity ScanNetSecurity",[],[]
