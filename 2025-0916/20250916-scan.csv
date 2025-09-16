@@ -1,0 +1,39 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+GitHub Desktop を模したマルウェアダウンロードの誘導に GMOイエラエが注意呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c06a9ff7ffdbdb51b273fb0fe00d7a2f253a7a68,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-09-16T08:00:17+09:00,2025-09-16T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,608,"GMOサイバーセキュリティ byイエラエ株式会社は9月8日、GitHub Desktop を模したマルウェアダウンロードの誘導に関する注意喚起を同社セキュリティブログで発表した。
+同社SOCでは9月上旬から、GitHub Desktop をダウンロードするユーザをターゲットとして、正規リポジトリのREADME.mdに書いてあるダウンロードリンクを装って悪意のあるURLに誘導するテクニックを使った、開発エンジニアを狙ったと推測される攻撃を観測している。
+同社で観測した攻撃手法では、攻撃者がインストーラのダウンロードリンクを悪意のある配布元に書き換えたページを作成してユーザを誘導したと考えられ、書き換えたページも、リンクとしては「  」から始まるものとなるために、公式情報であると思い込んだまま、悪意のあるインストーラをダウンロードしてしまう危険性があるとのこと。具体的な手法としては、GitHubの特定commit IDを指定することで、指定したバージョンのファイルを開くことができる機能を悪用している。
+同社では対策として、GitHub上のドキュメントにアクセスする際は、Branch を公式が運用している default が付与されているものや、正式にリリースされたものとして Tag が付与されているものであるか確認するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+マイクロソフト 9 月のセキュリティ情報公開、セキュリティ更新プログラムの適用を呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/5244766950681bc26da87fd66671ef6f799bc8d0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-09-16T08:00:10+09:00,2025-09-16T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,881,"独立行政法人 情報処理推進機構（IPA）は9月10日、「Microsoft 製品の脆弱性対策について(2025年9月)」を発表した。一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）も「2025年9月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2025年9月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v24H2, v23H2
+Windows 10 v22H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019 , 2016 (Server Core installation を含む)
+Microsoft Office
+Microsoft SharePoint
+Microsoft SQL Server
+Microsoft Azure
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また、「Windows SMB の特権昇格の脆弱性（CVE-2025-55234）」「VulnCheck: CVE-2024-21907 Newtonsoft.Json での例外的な状態の不適切な処理（CVE-2024-21907）」については、Microsoft 社が更新プログラムを公開するよりも前に脆弱性の詳細が一般へ公開されていることを確認しており、更新プログラムの適用を早急に行よう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+Adobe Acrobat および Reader に脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c9090156234b2494f29acb6cf3b0f93f77fd9b31,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-09-16T08:00:06+09:00,2025-09-16T08:00:06+09:00,ScanNetSecurity,scan,ScanNetSecurity,1201,"一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月10日、Adobe AcrobatおよびReaderの脆弱性（APSB25-85）について発表した。影響を受けるシステムは以下の通り。
+Adobe Acrobat DC Continuous（25.001.20672）およびそれ以前（Windows）
+Adobe Acrobat DC Continuous（25.001.20668）およびそれ以前（macOS）
+Adobe Acrobat Reader DC Continuous（25.001.20672）およびそれ以前（Windows）
+Adobe Acrobat Reader DC Continuous（25.001.20668）およびそれ以前（macOS）
+Adobe Acrobat 2024 Classic 2024（24.001.30254）およびそれ以前（Windows、macOS）
+Adobe Acrobat 2020 Classic 2020（20.005.30774）およびそれ以前（Windows、macOS）
+Adobe Acrobat Reader 2020 Classic 2020（20.005.30774）およびそれ以前（Windows、macOS）
+アドビが提供するPDFファイル作成・変換ソフトウェアAdobe AcrobatおよびPDFファイル閲覧ソフトウェアAdobe Acrobat Readerには脆弱性が存在し、脆弱性を悪用したコンテンツをユーザーが開いた場合、任意のコードが実行されるなどの可能性がある。
+JPCERT/CCでは、Adobe AcrobatおよびReaderを下記の最新のバージョンに更新するよう呼びかけている。
+Adobe Acrobat DC Continuous（25.001.20693）（Windows、macOS）
+Adobe Acrobat Reader DC Continuous（25.001.20693）（Windows、macOS）
+Adobe Acrobat 2024 Classic 2024（24.001.30264）（Windows、macOS）
+Adobe Acrobat 2020 Classic 2020（20.005.30793）（Windows）
+Adobe Acrobat 2020 Classic 2020（20.005.30791）（macOS）
+Adobe Acrobat Reader 2020 Classic 2020（20.005.30793）（Windows）
+Adobe Acrobat Reader 2020 Classic 2020（20.005.30791）（macOS）
+ScanNetSecurity ScanNetSecurity",[],[]
