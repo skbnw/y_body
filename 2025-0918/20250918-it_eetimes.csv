@@ -1,0 +1,16 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+NVIDIAがIntelに50億ドル投資、AIインフラ／PC向け半導体を共同開発（EE Times Japan）,https://news.yahoo.co.jp/articles/31ea8ee82183062f664ba52fbe81116e31cf5f61,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20250918-00000069-it_eetimes-000-1-view.jpg?exp=10800,2025-09-18T23:39:49+09:00,2025-09-18T23:39:49+09:00,EE Times Japan,it_eetimes,EE Times Japan,1118,"出所：NVIDIA
+IntelとNVIDIAは2025年9月18日（米国時間）、NVIDIAがIntelに50億米ドルを投資するとともに、カスタムデータセンターおよびクライアント向けCPUを共同開発すると発表した。
+
+　両社はハイパースケール、エンタープライズ、民生市場におけるアプリケーションとワークロードを加速するカスタムデータセンターおよびPC向け製品を、複数世代にわたり共同開発する方針だ。NVIDIA NVLinkを活用したNVIDIAとIntelのアーキテクチャのシームレスな接続に注力し「NVIDIAのAIおよび高速コンピューティングの強みとIntelの先進的なCPU技術およびx86エコシステムを統合し、顧客に最先端のソリューションを提供する」としている。
+
+　データセンター向けには、IntelがNVIDIA専用x86 CPUを製造し、NVIDIAが自社のAIインフラストラクチャプラットフォームに統合して市場に提供する。
+
+　PC向けは、IntelがNVIDIA RTX GPUチップレットを統合したx86 SoC（System on Chip）を製造／提供する予定で「これらの新たなx86 RTX SOCは、世界クラスのCPUとGPUの統合を必要とする幅広いPCを駆動する」としている。
+
+　NVIDIAのCEOであるJensen Huang氏は「AIは新たな産業革命をけん引し、シリコンからシステム、ソフトウェアに至るコンピューティングスタックのあらゆるレイヤーを再構築している。この変革の中核がNVIDIAのCUDAアーキテクチャだ。この歴史的な提携によって、NVIDIAのAIおよび高速化コンピューティングスタックと、IntelのCPUおよび広大なx86エコシステムが緊密に連携する」と述べている。
+
+　IntelのCEOであるLip-Bu Tan氏は「Intelのx86アーキテクチャは数十年にわたり現代コンピューティングの基盤となってきた。当社は将来のワークロードを実現するためポートフォリオ全体で革新を推進している。Intelのデータセンター、クライアントコンピューティングプラットフォームは、プロセス技術、製造、先進パッケージング技術と相まって、NVIDIAのAIおよび高速コンピューティングにおけるリーダーシップを補完し、業界に新たなブレークスルーをもたらすだろう」とコメントしている。
+
+　NVIDIAはIntel普通株に対し、1株当たり23.28米ドルで50億米ドルを投資する予定。なお、この投資は、必要な規制当局の承認を含む慣例的なクロージング条件を条件とする。
+EE Times Japan",[],[]
