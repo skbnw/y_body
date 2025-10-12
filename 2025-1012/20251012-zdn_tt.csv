@@ -1,0 +1,28 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+いつでも気軽に相談できる“AIセラピスト”の危険性（TechTargetジャパン）,https://news.yahoo.co.jp/articles/b42aa81eee53cd5a3e950bdaebb46227b88c85d4,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251012-00000009-zdn_tt-000-1-view.jpg?exp=10800,2025-10-12T20:00:11+09:00,2025-10-12T20:00:11+09:00,TechTargetジャパン,zdn_tt,TechTargetジャパン,2039,"（写真：TechTargetジャパン）
+「ChatGPTを個人的な相談相手にする」といった使い方も登場する中、米イリノイ州は、心理相談や心理療法における人工知能（AI）の使用を禁止する法律を制定した。
+頼り過ぎは禁物？　“AIセラピスト”が規制される理由
+2025年8月、米イリノイ州知事のJ.B.プリツカー氏は、心理療法の業務提供に関する規制強化を目的とした法律「Wellness and Oversight for Psychological Resources Act」に署名した。同法により、心理療法の実施や臨床的意思決定にAIを使用することは禁止されることになった。ただし、業務補助の目的に限ってAIを使うことは認められている。
+
+　同法は、イリノイ州の州政府機関（IDFPR）が、州議会議員や全米ソーシャルワーカー協会イリノイ支部（NASW-IL）の協力を得て策定された。
+
+　「インターネット上の情報を寄せ集めて有害な回答を生成するコンピュータプログラムではなく、有資格の専門家による質の高い医療を受けるべきだ」。IDFPRの長官、マリオ・トレト・ジュニア氏はこう述べている。
+
+　イリノイ州以外の州でも、心理相談や心理療法におけるAIチャットbotの潜在的被害からユーザーを守るための法整備が進められている。ニュージャージー州では2025年6月、AIソリューションを有資格の精神保健専門家として宣伝することを禁止する法案が議会を通過した。ユタ州では、心理相談でAIチャットbotを利用するユーザーを守るため、AIチャットbotに特定の情報開示を義務付ける規定を設ける法案が2025年5月、正式に州法として登録され、施行される計画だ。
+
+　イリノイ州の動向をはじめとして、AIを活用した心理相談や心理療法に対する懸念は高まりつつある。
+
+　スタンフォード大学の研究によると、大規模言語モデル（LLM）を使って心理相談を受けるAIチャットbotが、特定の症状を持つ患者に否定的なメッセージを伝えたり、希死念慮や妄想を訴える患者の行動を煽ったりする反応を示すリスクがあることが明らかになった。研究結果を基にした論文は2025年8月、オープンアクセスリポジトリ「arXiv.org」に公開された。論文のタイトルは「Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers」だ。
+
+　AIが偏見に基づいたコンテンツを生成するリスクや、AIモデルの臨床的有用性に懸念を示す研究結果は、これだけではない。
+
+　中国の研究者らは2023年3月、アルゴリズムを用いて脳画像から精神疾患の有無や種類を判別、予測するAIシステムに関するバイアスの発生リスクを検証した。その結果、脳画像へのAIシステムの利用は臨床応用性が低く、AIシステムにバイアスを発生させるリスクがある可能性があることが分かった。
+
+　この結果は、2023年3月発行の医学雑誌『The Journal of the American Medical Association』の姉妹誌「JAMA Network Open」に掲載された論文「Evaluation of Risk of Bias in Neuroimaging-Based Artificial Intelligence Models for Psychiatric Diagnosis」に公開されている。
+
+　2025年1月、アメリカ心理学会（APA）は、セラピストを装ったAIチャットbotの無規制な開発と誤解を招く運用に対する懸念を表明した。さらに、米連邦取引委員会（FTC）に対し、規制がない中で運用されているAIチャットbotからユーザーを保護し、精神医療におけるAIの安全かつ倫理的な利用を促進するよう求めた。
+
+　2024年に公開された調査結果では、米国の成人が、精神医療におけるAIの利用について、誤診の発生や、不適切な治療法の適用、機密保持の問題といった懸念を示していることが明らかになった。論文の基となった調査結果は、同年9月に公開された雑誌『Journal of Medical Internet Research』に掲載された論文「Patient Perspectives on AI for Mental Health Care: Cross-Sectional Survey Study」で公開されている。
+
+本記事は米国Informa TechTargetの記事「Illinois 1st US state to ban AI in mental healthcare」を翻訳・編集したものです。一部、翻訳作業に生成AIを活用しています。
+TechTargetジャパン",[],[]
