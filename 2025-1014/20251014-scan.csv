@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+バッファロー製 NAS Navigator2 に引用符で囲まれていないファイルパスの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/5d289c75d44cf53663d4c3024fab2b0b83d6daca,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-14T08:00:13+09:00,2025-10-14T08:00:13+09:00,ScanNetSecurity,scan,ScanNetSecurity,464,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月10日、バッファロー製NAS Navigator2における引用符で囲まれていないファイルパスの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+NAS Navigator2（Windows版のみ）Ver.3.12.0より前のバージョン
+株式会社バッファローが提供するNAS Navigator2には、引用符で囲まれていない検索パスの脆弱性（CVE-2025-61871）が存在し、システムドライブ直下への書き込み権限を有するユーザによって、SYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+著作権侵害通知を装うメールでマルウェアを配布（ScanNetSecurity）,https://news.yahoo.co.jp/articles/483bf206ef3104dd26b39f31b50319bda7a59688,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251014-00000001-scan-000-1-view.jpg?exp=10800,2025-10-14T08:00:08+09:00,2025-10-14T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,1021,"IIJで受信した攻撃メール例（一部加工済み）
+株式会社インターネットイニシアティブ（IIJ）は10月7日、著作権侵害通知を装ったメールを用いた情報窃取型マルウェア配布キャンペーンについて、「wizSafe Security Signal」で発表した。
+同社SOCでは、PDFファイルやWordファイルを装った悪性ファイルのダウンロードを促す内容が含まれる著作権侵害通知を装った攻撃メールを複数観測しており、受信者が当該ファイルをダウンロード、実行することで最終的にPXA StealerやRhadamanthys Stealerに感染する。
+「wizSafe Security Signal」の記事では、IIJ広報のお問い合わせメールアドレスで受信した攻撃メールを例にマルウェア感染までの流れとマルウェアの挙動について紹介している。
+著作権侵害通知を装ったメールの送信元メールアドレスにはフリーメールサービスが利用され、マスメディアやアニメーションを扱うエンターテインメント企業を騙っていた。受信したメールの件名は「著作権で保護されたメディアの無許可使用の通知」や「知的財産所有権違反通知 Fanpage 株式会社インターネットイニシアティブ（IIJ）」などの恐怖心を煽る内容で、メール受信企業の名称が含まれるパターンも確認している。
+いずれのメールでもSNS広告に著作権保護されたコンテンツが含まれている趣旨の内容で、その資料として正規サービスを利用した短縮URLが提示されている点が共通している。著作権侵害の資料とされるメール内の短縮URL（tr[.]ee）にアクセスすると、更に別の短縮URLサービス（goo[.]su）のURLにリダイレクトされ、その後、ZIPファイルのダウンロードが行われる。ファイルの配布には攻撃者の用意したサーバのほか、正規のオンラインストレージサービスが用いられている場合もあり、複数の短縮URLサービスも含め正規サービスを用いることで検知回避を狙ったものと推測している。
+IIJが受信したメールからダウンロードされるZIPファイルは、「Rhadamanthys Stealer」と「PXA Stealer」に感染させる2パターンを確認しており、同記事ではSOCで確認した「PXA Stealer」の感染フローと感染時の影響について紹介している。
+ScanNetSecurity ScanNetSecurity",[],[]
