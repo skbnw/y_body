@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Phoenix Contact CHARX SEC-3xxx にコードインジェクションの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ed7c537add0142bd7bcedd0623776ae3894f2f6e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-20T08:00:15+09:00,2025-10-20T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,631,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月15日、Phoenix Contact CHARX SEC-3xxxにおけるコードインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。パナソニックホールディングス株式会社の加藤遼氏が報告を行っている。影響を受けるシステムは以下の通り。
+CHARX SEC-3150 Firmware 1.7.4より前のバージョン
+CHARX SEC-3100 Firmware 1.7.4より前のバージョン
+CHARX SEC-3050 Firmware 1.7.4より前のバージョン
+CHARX SEC-3000 Firmware 1.7.4より前のバージョン
+Phoenix Contactが提供するCHARX SEC-3xxxには、コードインジェクションの脆弱性（CVE-2025-41699）が存在し、Web管理画面へアクセス可能なユーザにシステム構成を変更されることにより、root権限でのコマンドインジェクションおよび不正なコード生成が引き起こされ、結果としてシステムの機密性、完全性、可用性が侵害される可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+バッファロー製 Wi-Fi ルータ WXR9300BE6P シリーズにパストラバーサルの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0245787b7618567a6f0485541daa37b1b5f17a83,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-20T08:00:10+09:00,2025-10-20T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,486,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月15日、バッファロー製Wi-FiルータWXR9300BE6Pシリーズにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏が報告を行っている。影響を受けるシステムは以下の通り。
+WXR9300BE6Pシリーズ ファームウェア Ver.1.10より前のバージョン
+株式会社バッファローが提供するWi-FiルータWXR9300BE6Pシリーズには、パストラバーサルの脆弱性（CVE-2025-61941）が存在し、当該製品の設定画面にログインした管理者ユーザーによって、任意のファイルを改ざんされる可能性があり、さらに、ファイルの改ざんを通じて任意のOSコマンドを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに、ファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
