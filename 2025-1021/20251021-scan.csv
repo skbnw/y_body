@@ -1,0 +1,65 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+ぷららメール、送信 DMARC ポリシー変更 12月頃には Reject（拒否）に（ScanNetSecurity）,https://news.yahoo.co.jp/articles/0af224f948a3ce4d378bbefd9c7bf1b993e5a405,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-21T08:00:17+09:00,2025-10-21T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,380,"株式会社NTTドコモは10月15日、ぷららメールにおける送信DMARCポリシーの変更について発表した。
+同社では、なりすましメールやフィッシング詐欺メールなどの増加を受け、ぷららメールの送信DMARCポリシーの変更を段階的に変更するという。
+ぷららメールのDMARCポリシー設定は、送信側ポリシーが「none（監視のみ）」だったものが、2025年10月15日以降順次「Quarantine（隔離）」となり、2025年12月頃は「Reject（拒否）」となり、ぷららを騙ったなりすましメールが迷惑メールとして判定される可能性が高くなるとのこと。
+ぷららメールでは2026年3月から、フィッシング詐欺などのなりすましメールを防ぐための新しいセキュリティ対策（受信DMARC・BIMI対応）を導入予定。
+ScanNetSecurity ScanNetSecurity",[],[]
+ChatLuck に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/29546195651cec2ad0bc2a1db8f50f917b7b7cd2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-21T08:00:12+09:00,2025-10-21T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,865,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月16日、ChatLuckにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の石井健太郎氏が報告を行っている。影響を受けるシステムは以下の通り。なお、クラウド版も脆弱性の影響を受ける。
+・CVE-2025-53858、CVE-2025-54461
+ChatLuck V6.6 R2.0およびそれ以前のバージョン
+・CVE-2025-58115
+ChatLuck V3.6 R1.0からV6.6 R1.0までのバージョン
+※クラウド版も脆弱性の影響を受ける。
+株式会社ネオジャパンが提供するChatLuckには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・「チャットルーム」におけるクロスサイトスクリプティング（CVE-2025-53858）
+→当該製品にアクセスしたユーザのウェブブラウザ上で任意のスクリプトを実行される
+・ゲストユーザ招待機能におけるアクセス制限不備（CVE-2025-54461）
+→本来ゲストユーザとして招待されていない第三者によって、ゲストユーザ登録をされる
+・「ゲストユーザ登録」におけるクロスサイトスクリプティング（CVE-2025-58115）
+→当該製品にアクセスしたユーザのウェブブラウザ上で任意のスクリプトを実行される
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。各脆弱性は、下記のバージョンで修正されている。また、クラウド版は2025年10月3日のメンテナンスで修正されている。
+・CVE-2025-53858、CVE-2025-54461
+ChatLuck V6.7 R1.0
+・CVE-2025-58115
+ChatLuck V6.6 R2.0
+ScanNetSecurity ScanNetSecurity",[],[]
+Ruijie Networks 製 RG-EST300 に SSH 機能が有効になっている問題（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ecad81a7433cca1ff62b2d2263550cfced24aead,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-21T08:00:08+09:00,2025-10-21T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,661,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月16日、Ruijie Networks製RG-EST300におけるSSH機能が有効になっている問題について「Japan Vulnerability Notes（JVN）」で発表した。横浜国立大学の九鬼琉氏と宮本岩麒氏と佐々木貴之氏と吉岡克成氏が報告を行っている。影響を受けるシステムは以下の通り。
+・RG-EST300
+AP_3.0(1)B2P18_EST300_06210514
+AP_3.0(1)B2P10_EST300_06151523
+AP_3.0(1)B2P10_EST300_05232216
+AP_3.0(1)B2P10_EST300_05220814
+※本製品は既にサポートを終了している
+Ruijie Networksが提供するRG-EST300には、SSHサーバ機能が実装されているがマニュアルには記載されておらず、さらに初期設定で有効になっており非公開機能を悪用される問題（CVE-2025-58778）が存在する。
+想定される影響としては、認証情報を知っていれば当該機器にログイン可能で、その結果、システム内の情報漏えい、システムの改ざん、サービス運用妨害（DoS）攻撃等が行われる可能性がある。
+開発者はすでに当該製品のサポートを終了しており、JVNでは後継製品への乗り換え等を検討するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+desknet’s NEO に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/3861e4a7115d3db44cc154936b406b7f6cab9136,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-10-21T08:00:04+09:00,2025-10-21T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,1300,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月16日、desknet’s NEOにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の小田切祥氏と石井健太郎氏、佐藤竜氏、小畑太治郎氏が報告を行っている。影響を受けるシステムは以下の通り。なお、クラウド版も脆弱性の影響を受ける。
+・CVE-2025-24833
+desknet’s NEO V4.0R1.0からV9.0R2.0まで
+・CVE-2025-52583
+desknet’s Web Server
+・CVE-2025-54760、CVE-2025-54859
+desknet’s NEO V9.0R2.0およびそれ以前
+・CVE-2025-55072
+desknet’s NEO V2.0R1.0からV9.0R2.0まで
+・CVE-2025-58079、CVE-2025-58426
+desknet’s NEO V4.0R1.0からV9.0R2.0まで
+株式会社ネオジャパンが提供するdesknet’s NEOには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・格納型クロスサイトスクリプティング（CVE-2025-24833、CVE-2025-54760、CVE-2025-55072）
+→当該製品にアクセスしている状態のユーザのウェブブラウザ上で任意のスクリプトを実行される
+・反射型クロスサイトスクリプティング（CVE-2025-52583）
+→当該製品にアクセスしている状態のユーザのウェブブラウザ上で任意のスクリプトを実行される
+・格納型クロスサイトスクリプティング（CVE-2025-54859）
+→当該製品にアクセスしている状態のユーザのウェブブラウザ上で任意のスクリプトを実行される
+・AppSuiteのアプリ作成機能における代替パスの不適切な保護（CVE-2025-58079）
+→当該製品にログイン可能な攻撃者によって、不正なAppSuiteアプリを作成される
+・ハードコードされた暗号鍵の使用（CVE-2025-58426）
+→当該製品にログイン可能な攻撃者によって、不正なAppSuiteアプリを作成される
+JVNでは、それぞれ下記の対策を実施するよう呼びかけている。
+・CVE-2025-24833、CVE-2025-54760、CVE-2025-54859、CVE-2025-55072、CVE-2025-58079、CVE-2025-58426向け対策
+→開発者が提供する情報をもとに、最新版にアップデート
+・CVE-2025-52583向け対策
+→desknet□s Web Serverの使用を中止し、Internet Information Services（IIS）に移行
+なお、クラウド版は2025年10月3日のメンテナンスで修正済みとなっている。
+ScanNetSecurity ScanNetSecurity",[],[]
