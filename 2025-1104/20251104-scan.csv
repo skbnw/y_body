@@ -1,0 +1,37 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Apache Tomcat に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/41bb62591a74fa3c5224efd56156ffa61b530ca8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-04T08:00:07+09:00,2025-11-04T19:01:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,1423,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月29日、Apache Tomcatにおける複数の脆弱性（CVE-2025-55752、CVE-2025-55754、CVE-2025-61795）について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+・CVE-2025-55752
+Apache Tomcat 11.0.0-M1から11.0.10まで
+Apache Tomcat 10.1.0-M1から10.1.44まで
+Apache Tomcat 9.0.0.M11から9.0.108まで
+・CVE-2025-55754
+Apache Tomcat 11.0.0-M1から11.0.10まで
+Apache Tomcat 10.1.0-M1から10.1.44まで
+Apache Tomcat 9.0.0.40から9.0.108まで
+・CVE-2025-61795
+Apache Tomcat 11.0.0-M1から11.0.11まで
+Apache Tomcat 10.1.0-M1から10.1.46まで
+Apache Tomcat 9.0.0.M1から9.0.109まで
+※ EOLとなっている古いバージョンも脆弱性の影響を受ける
+The Apache Software Foundationが提供するApache Tomcatには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・クエリパラメータをURLに書き換えるリライトルールを設定している環境において、攻撃者がリクエストURIを操作できる（CVE-2025-55752）
+→/WEB-INF/や/META-INF/ディレクトリを含めた、セキュリティ制約を回避され、PUTリクエストを有効にしている場合は、悪意のあるファイルをアップロードされ、リモートコードの実行につながる
+・Tomcatのログメッセージ内でANSIエスケープ・シーケンスを適切にエスケープ処理しておらず、Windowsのコンソール上で不正な操作が行われる（CVE-2025-55754）
+→特別に細工されたURLによるアクセスでANSIエスケープシーケンスをログに注入され、コンソールやクリップボードを不正に操作される
+・マルチパートアップロード処理中にエラーが発生した場合、一時コピーが即時に削除されずに残ってしまい、ディスクリソースを圧迫する（CVE-2025-61795）
+→サービス運用妨害（DoS）状態を引き起こされる
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお本脆弱性は、下記バージョンで修正されている。
+・CVE-2025-55752、CVE-2025-55754
+Apache Tomcat 11.0.11およびそれ以降
+Apache Tomcat 10.1.45およびそれ以降
+Apache Tomcat 9.0.109およびそれ以降
+・CVE-2025-61795
+Apache Tomcat 11.0.12およびそれ以降
+Apache Tomcat 10.1.47およびそれ以降
+Apache Tomcat 9.0.110およびそれ以降
+ScanNetSecurity ScanNetSecurity",[],[]
+WTW EAGLE（Windows版）のインストーラに DLL 読み込みに関する脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/18b97148075d41d67c983ec601ac639733aab8e2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-04T08:00:03+09:00,2025-11-04T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,501,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月29日、WTW EAGLE（Windows版）のインストーラにおけるDLL読み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+WTW EAGLE（Windows版）3.0.8.0
+株式会社塚本無線が提供するWTW EAGLE（Windows版）のインストーラには、DLLを読み込む際の検索パスに問題があり、同一ディレクトリに存在する特定のDLLを読み込んでしまうファイル検索パスの制御不備の脆弱性（CVE-2025-62776）が存在し、インストーラを実行している権限で、任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとにWTW EAGLE（Windows版）バージョン 1.7.6.4 の使用を呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
