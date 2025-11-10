@@ -1,0 +1,14 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+バッファロー製 Wi-Fiルータ「WSR-1800AX4シリーズ」に強度が不十分なパスワードハッシュの使用の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/7a42d6dc4b3e9282339f2677ad905ed20ce3b4b8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-10T08:00:15+09:00,2025-11-10T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,758,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月7日、バッファロー製Wi-Fiルータ「WSR-1800AX4シリーズ」における強度が不十分なパスワードハッシュの使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。高知工業高等専門学校の近森麗彰氏と立川崇之氏が報告を行っている。影響を受けるシステムは以下の通り。
+WSR-1800AX4 ファームウェア Ver.1.09より前のバージョン
+WSR-1800AX4S ファームウェア Ver.1.11より前のバージョン
+WSR-1800AX4B ファームウェア Ver.1.11より前のバージョン
+WSR-1800AX4-KH ファームウェア Ver.1.19より前のバージョン
+※WSR-1800AX4Pは本脆弱性の影響を受けない。
+株式会社バッファローが提供するWi-Fiルータ「WSR-1800AX4シリーズ」には、強度が不十分なパスワードハッシュの使用の脆弱性（CVE-2025-46413）が存在し、攻撃者によって、PINコードおよびWi-Fiパスワードを窃取される可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。なお本脆弱性は、下記のバージョンで修正されている。
+WSR-1800AX4 ファームウェア Ver.1.09
+WSR-1800AX4S ファームウェア Ver.1.11
+WSR-1800AX4B ファームウェア Ver.1.11
+WSR-1800AX4-KH ファームウェア Ver.1.19
+ScanNetSecurity ScanNetSecurity",[],[]
