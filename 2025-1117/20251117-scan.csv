@@ -1,0 +1,28 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+DMARC適用率 日本証券業協会が日経225上回る ～ TwoFive調査（ScanNetSecurity）,https://news.yahoo.co.jp/articles/13f7e80c187bf497c9cf8c6a163757c4b2a471ae,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251117-00000002-scan-000-1-view.jpg?exp=10800,2025-11-17T08:00:19+09:00,2025-11-17T08:00:19+09:00,ScanNetSecurity,scan,ScanNetSecurity,1106,"日経225企業 DMARC導入状況（n=225）
+株式会社TwoFiveは11月14日、なりすましメール対策実態調査の2025年11月版を発表した。
+【画像全4枚】
+同調査では、2025年11月時点で日経225企業が管理・運用する9,882ドメインを対象とした送信ドメイン認証技術DMARC導入実態の調査に加え、2025年上期に不正取引の被害が増加した証券会社のメールドメインについてのDMARC導入実態調査を行っている。
+調査結果によると、日経225企業は全225社のうち212社（94.2％）が少なくとも一つのドメインでDMARCを導入しており、半年前の2025年5月（92.4％）から1.8ポイントの増加となった。
+サブドメインの場合には、その組織ドメインでDMARCが設定されていればそのポリシーを継承するため、DMARC導入済みドメインとみなすことができ、今回の調査ドメイン9,882ドメインの内、サブドメインは7,808ドメインで、その組織ドメインで5,277ドメインのDMARC導入が確認されているため、実質的に88.9％がDMARC導入済みとみなすことができるとしている。
+DMARC導入済みドメインの内、強制力のあるポリシー「quarantine（隔離）」または「reject（拒否）」にポリシー設定されているドメイン数は773ドメイン確認され、日経225企業で、少なくとも1つのドメインで強制力のあるポリシーを設定した組織は143社（63.6％）となり、1年前の50.7％から進展が見られた。
+日本証券業協会会員の企業ドメイン（201企業、527ドメイン）を調査したところ、少なくとも1つのドメインでDMARCを導入している企業数は2025年5月から11月で12企業増加し、実質的にはDMARCが適用されるドメイン率は同期間で72.4％から91.3％へと18.9ポイント増加となった。日経225企業ドメインの実質的導入率88.9％と比較して高い適用率となっている。
+日本証券業協会は2025年10月に「インターネット取引における不正アクセス等防止に向けたガイドライン」を改正し、「顧客へ送信する電子メールのドメインを特定してDMARC 等を計画的に導入し、DMARC レポート等の確認等を行った上でポリシーは""reject""にする」という内容が盛り込まれており、今回の調査では強制力のあるポリシーが設定されているドメインの割合（DMARC保護対象ドメイン率）は36.4％だったが、今後この比率が高まることが期待されるとしている。
+ScanNetSecurity ScanNetSecurity",[],[]
+マイクロソフト 11 月のセキュリティ情報公開、悪用の事実を確認済みの脆弱性が 1 件（ScanNetSecurity）,https://news.yahoo.co.jp/articles/f5bb23b4fabdab167984ac921de2b9888c539561,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-17T08:00:07+09:00,2025-11-17T08:00:07+09:00,ScanNetSecurity,scan,ScanNetSecurity,832,"独立行政法人 情報処理推進機構（IPA）は11月12日、「Microsoft 製品の脆弱性対策について(2025年11月)」を発表した。一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）も「2025年11月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2025年11月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v25H2, v24H2, v23H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019 , 2016 (Server Core installation を含む)
+Microsoft Office
+Microsoft SharePoint
+Microsoft Visual Studio
+Microsoft Dynamics 365
+Microsoft SQL Server
+Microsoft Azure
+System Center
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また、「Windows カーネルの特権の昇格の脆弱性（CVE-2025-62215）」については、Microsoft 社が悪用の事実を確認しており、更新プログラムの適用を早急に行うよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
