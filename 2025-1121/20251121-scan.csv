@@ -1,0 +1,19 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+JPCERT/CC 、Sigma および YARA ルールを活用したリアルタイムクライアント監視ツール「YAMAGoya」公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/924f87b66b94b4cc3de5bf49b83f40ef1334f5a5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251121-00000002-scan-000-1-view.jpg?exp=10800,2025-11-21T08:00:09+09:00,2025-11-21T08:00:09+09:00,ScanNetSecurity,scan,ScanNetSecurity,792,"YAMAGoyaの起動画面
+一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月18日、SigmaおよびYARAルールを活用したリアルタイムクライアント監視ツール「YAMAGoya」を公開したと「JPCERT/CC Eyes」で発表した。朝長秀誠氏が執筆している。
+セキュリティ研究者やマルウェアアナリストは、SigmaやYARAなどのルールを積極的に作成し、公開しているが、既存のエンドポイントセキュリティツールでは独自の検知エンジンを用いているため、SigmaやYARAを直接活用できる製品が不足しており、この課題に対し、オープンソースのスレットハンティングツール「YAMAGoya」を公開したとのこと。「YAMAGoya」は、下記のGitHubレポジトリで公開している。
+GitHub JPCERTCC/YAMAGoya
+「YAMAGoya」は、ETW（Event Tracing for Windows）のイベント監視とメモリスキャンをあわせて脅威の検知を行えるように設計しており、下記の特徴がある。
+・ユーザーランドのみで動作：カーネルドライバー不要で導入容易
+・リアルタイム監視：ファイル/プロセス/レジストリ/DNS/ネットワーク/PowerShell/WMI等をETW経由でリアルタイム監視可能
+・複数のルール形式をサポート：Sigmaおよび相関分析に活用できるオリジナルYAMLルールをサポート
+・メモリスキャン：ファイルレスやパッキングされたマルウェアをYARAルールで検知
+・GUI/CLIサポート：GUIからの使用だけではなくコマンドラインによる自動化なども可能
+「JPCERT/CC Eyes」では、「YAMAGoya」の導入方法や使い方、FAQ等も紹介している。
+ScanNetSecurity ScanNetSecurity",[],[]
+iOSアプリ「デジラアプリ」にサーバ証明書の検証不備の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/87a00de391ec5af918c70fb3d759e884a36075c3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-21T08:00:04+09:00,2025-11-21T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,506,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月17日、iOSアプリ「デジラアプリ」におけるサーバ証明書の検証不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社エスアイイーの小川剛氏が報告を行っている。影響を受けるシステムは以下の通り。
+iOSアプリ「デジラアプリ」ver.80.10.00より前のバージョン
+KDDI株式会社が提供するiOSアプリ「デジラアプリ」には、サーバ証明書の検証不備の脆弱性（CVE-2025-60022）が存在し、中間者攻撃（man-in-the-middle attack）による暗号通信の盗聴や改ざんが行なわれる可能性がある。
+JPCERT/CCでは、無線LANのアクセスポイントを設置した第三者によって、中間者攻撃（man-in-the-middle attack）が行われることを想定している。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
