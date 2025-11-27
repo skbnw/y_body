@@ -1,0 +1,51 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+SNC-CX600W に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d466c9cb4cebf41ff096729dd59d0643198f306f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-27T08:00:34+09:00,2025-11-27T08:00:34+09:00,ScanNetSecurity,scan,ScanNetSecurity,728,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月25日、SNC-CX600Wにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。横浜国立大学の櫛引淳之介氏と本多凌大氏と竹内謙仁氏と上園大智氏と九鬼琉氏と佐々木貴之氏と吉岡克成氏が報告を行っている。影響を受けるシステムは以下の通り。
+・CVE-2025-62497
+SNC-CX600W Ver.2.8.0より前のバージョン
+・CVE-2025-64730
+SNC-CX600W すべてのバージョン
+ソニー株式会社が提供するSNC-CX600Wには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・クロスサイトリクエストフォージェリ（CVE-2025-62497）
+→ログイン中のユーザが細工されたページにアクセスした場合、意図しない操作をさせられる
+・クロスサイトスクリプティング（CVE-2025-64730）
+→当該製品にアクセスしたユーザのウェブブラウザ上で任意のスクリプトを実行される
+JVNでは、下記の対策を呼びかけている。
+・CVE-2025-62497
+開発者が提供する情報をもとにソフトウェアのアップデートを実施
+・CVE-2025-64730
+下記のワークアラウンドを実施することで、本脆弱性の影響を緩和することが可能
+管理者IDおよび管理者パスワードを初期値から変更し、適切に管理する
+　HTTPSを有効化し暗号化された通信を行う
+　作業終了の度にログアウトする（ブラウザを閉じる）
+ScanNetSecurity ScanNetSecurity",[],[]
+MaLion の端末エージェント（Windows）に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/b0d939f48d1a21c53170f62cc1aee227e3e6d64b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-11-27T08:00:31+09:00,2025-11-27T08:00:31+09:00,ScanNetSecurity,scan,ScanNetSecurity,1103,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月25日、MaLionの端末エージェント（Windows）における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社のデニス ファウストヴ氏とルスラン サイフィエフ氏が報告を行っている。影響を受けるシステムは以下の通り。
+・CVE-2025-59485
+MaLion Ver.5.3.4より前のバージョンの端末エージェント（Windows）
+・CVE-2025-62691、CVE-2025-64693
+MaLion Ver.7.1.1.9より前のバージョンの端末エージェント（Windows）
+MaLionCloud Ver.7.2.0.1より前のバージョンの端末エージェント（Windows）
+株式会社インターコムが提供するMaLionの端末エージェント（Windows）には、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・インストール時の不適切なファイルアクセス権設定（CVE-2025-59485）
+→任意のファイルを特定のフォルダに配置され、配置されたファイルが細工されたDLLファイルの場合、結果としてSYSTEM権限で任意のコードを実行される
+・HTTPヘッダ処理におけるスタックベースのバッファオーバーフロー（CVE-2025-62691）
+→遠隔の第三者によって細工されたリクエストを送信された場合、SYSTEM権限で任意のコードを実行される
+・Content-Length処理におけるヒープベースのバッファオーバーフロー（CVE-2025-64693）
+→遠隔の第三者によって細工されたリクエストを送信された場合、SYSTEM権限で任意のコードを実行される
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお各脆弱性は、下記のバージョンで修正されている。
+・CVE-2025-59485
+MaLion Ver.5.3.4およびそれ以降のバージョンの端末エージェント（Windows）
+・CVE-2025-62691、CVE-2025-64693
+MaLion Ver.7.1.1.9およびそれ以降のバージョンの端末エージェント（Windows）
+MaLionCloud Ver.7.2.0.1およびそれ以降のバージョンの端末エージェント（Windows）
+ScanNetSecurity ScanNetSecurity",[],[]
+SBT「セキュリティポスチャーレポート for Microsoft 365」提供開始、導入後のセキュリティ対策支援（ScanNetSecurity）,https://news.yahoo.co.jp/articles/f283648ced823b8df8c050ec3d334a049673eef2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251127-00000001-scan-000-1-view.jpg?exp=10800,2025-11-27T08:00:24+09:00,2025-11-27T08:00:24+09:00,ScanNetSecurity,scan,ScanNetSecurity,885,"「セキュリティポスチャーレポート for Microsoft 365」イメージ
+SBテクノロジー株式会社（SBT）は11月25日、Microsoft 365導入後のセキュリティ対策を支援する「セキュリティポスチャーレポート for Microsoft 365」を提供開始すると発表した。
+同サービスは、MicrosoftセキュアスコアとCISベンチマーク、SBTのこれまでのMicrosoft製品の導入・運用支援の知見をもとに、顧客のMicrosoft 365環境の診断を実施し、情報漏えいなどのセキュリティリスクにつながる脆弱な設定を特定し、レポート形式で適切な対策を提案することで、セキュリティ強化を支援する。レポートの重点ポイントを参照することで、複数の対処項目がある場合でも優先すべき項目が明確になり、改善計画におけるシステム管理者やセキュリティ担当者の負担を軽減する。
+同サービスの特徴は下記の通り。
+1.不適切な設定を検出する2つのプラン、「Basicプラン」と「Premiumプラン」
+・Basicプラン：CISベンチマーク（Microsoft 365）に基づき、アカウントや認証設定、データ共有など、基本的かつ重要な項目を診断
+・Premiumプラン：Basicプランの診断に加え、監査ログやMicrosoft Defender製品の詳細設定、DLP（情報漏えい対策）や情報保護など、より高度で多層的なセキュリティ設定を診断
+2.改善に向けたネクストアクションの提示と支援
+Microsoft セキュアスコアを見やすく集計・分析したレポートとして調査結果を提供。必要なアクションを分かりやすく提示することで、優先すべき対応を明確にする。報告会で結果を説明した後、5営業日のオフサイトサポート期間を設け、改善に向けたアクションを支援。
+同サービスは、「Basicプラン」が700,000円（税抜）から、「Premiumプラン」が1,000,000円（税抜）からの提供となる。
+ScanNetSecurity 高橋 潤哉（ Junya Takahashi ）",[],[]
