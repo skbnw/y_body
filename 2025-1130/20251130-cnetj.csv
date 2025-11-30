@@ -1,0 +1,25 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+「Sora」「Nano Banana Pro」の回数制限が強化--「GPUが悲鳴」と提供元（CNET Japan）,https://news.yahoo.co.jp/articles/d54edea4cadc293134a4a537d34214b4cb3a9a80,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251130-35241050-cnetj-000-2-view.jpg?exp=10800,2025-11-30T06:50:00+09:00,2025-11-30T08:02:05+09:00,CNET Japan,cnetj,CNET Japan,1025,"「Sora」「Nano Banana Pro」の回数制限が強化--「GPUが悲鳴」と提供元の画像
+OpenAIとGoogleが、最新のメディア生成サービスで無料ユーザーの動画・画像生成の回数制限を引き上げた──。
+
+　米国のホリデーシーズンの追い風もあってか、AI生成サービスへのアクセスが一気に膨らんでいる。
+
+　OpenAIの動画生成モデル「Sora」と、Googleの画像生成モデル「Nano Banana Pro」は、無料で生成できるコンテンツ数に新たな上限を設定した。Soraは動画、nano banana proは画像の生成回数がそれぞれ制限される。
+
+　米国では感謝祭の連休でユーザーが増え、たとえば「不機嫌な接客係になった猫」といった遊び心のある動画づくりが相次ぐなど、利用が一気に加速。結果として、サービスが処理能力の限界に近づいた可能性がある。
+
+　Soraを率いるOpenAIのBill Peebles氏はXで「GPUが悲鳴を上げている。できるだけ多くの人にSoraを使ってもらいたい」とコメント。GPUはAIの計算処理を担うチップだ。
+
+　Peebles氏によると、Soraの無料枠は1日6本まで。ChatGPT PlusおよびProの有料ユーザーに変更はない。「必要なら追加分を購入できる」とも説明している。
+
+Gemini側の制限
+
+　Googleが提供する画像生成サービスにも制限が広がっている。Geminiのサポートページによると、Google AIプランに未加入のユーザーは「nano banana pro」で生成・編集できる画像が1日2枚までとなった。9to5Googleは、従来の上限は3枚だったと報じている。
+
+　9to5Googleは、Gemini 3 Proにも新たな利用制限が導入されたことを確認。ただし上限値は固定ではなく、状況に応じて変動するという。サポートページには、Gemini 3 Pro Thinkingの無料利用に関し「1日あたりの上限は頻繁に変わる可能性がある」と明記されている。
+
+　一方、前バージョンの「Nano Banana」（2.5の非Pro版）は1日100枚まで無料で生成可能で、こちらの上限は据え置きとなる。
+
+　米Google広報にコメントを求めたが、記事公開時点までに回答は得られていない。
+
+この記事は海外Ziff Davis発の記事を4Xが日本向けに編集したものです。",[],[]
