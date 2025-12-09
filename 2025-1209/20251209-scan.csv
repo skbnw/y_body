@@ -1,0 +1,11 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Array Networks Array AGシリーズにコマンドインジェクションの脆弱性、国内での攻撃事例も確認（ScanNetSecurity）,https://news.yahoo.co.jp/articles/7eece8c3037e45f79aeda1ee1d743ef9b8e301c5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-09T08:00:03+09:00,2025-12-09T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,751,"一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月5日、Array Networks Array AGシリーズにおけるコマンドインジェクションの脆弱性について発表した。影響を受けるシステムは以下の通り。
+ArrayOS AG 9.4.5.8およびそれ以前のバージョン
+※リモートデスクトップアクセス環境を提供する機能「DesktopDirect」が有効な場合に本脆弱性の影響を受ける
+Array Networksが提供するArray AGシリーズのDesktopDirect機能には、コマンドインジェクションの脆弱性が存在し、攻撃者によって任意のコマンドを実行される可能性がある。なお現時点で、本脆弱性に対するCVE番号は採番されていない。
+Array Networksは2025年5月に本脆弱性を修正するバージョンをリリースしているが、JPCERT/CCでは2025年8月以降に、本脆弱性を悪用する攻撃が国内で発生し、当該製品にWebshellが設置されるなどの被害につながった事案を確認している。
+Array Networksでは、本脆弱性を修正したバージョン「ArrayOS AG 9.4.5.9」へのアップデートを推奨しており、JPCERT/CCでは十分なテストを実施の上で、修正済みバージョンの適用を検討するよう呼びかけている。
+また、Array Networksでは本脆弱性に対し、下記の回避策を提供している。
+・DesktopDirectの機能を使用していない場合は、すべてのDesktopDirectサービスを無効にする
+・URLフィルターを使用して”;”を含むURLでのアクセスを拒否する
+ScanNetSecurity ScanNetSecurity",[],[]
