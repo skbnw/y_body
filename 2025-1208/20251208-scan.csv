@@ -1,5 +1,0 @@
-headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
-卒業研究で未知の脆弱性を発見 ～ 高知高専の学生が発見したWi-Fiルータの脆弱性 JVNで公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/fb80e7ecc7232a0efb92eb6d646433414821ddbc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-08T08:00:07+09:00,2025-12-08T08:00:07+09:00,ScanNetSecurity,scan,ScanNetSecurity,378,"独立行政法人国立高等専門学校機構高知工業高等専門学校は12月1日、同校の学生（当時）が発見したWi-Fiルータの脆弱性がJVN（Japan Vulnerability Notes）で11月7日に公開されたと発表した。
-同校のソーシャルデザイン工学科 情報セキュリティコースの近森麗彰氏（当時5年生）と立川崇之教授（当時・現 滋賀県立大学）が、情報システムにおける様々な脆弱性を体験する教材開発という卒業研究のテーマを進めていた際に、未知の脆弱性を発見したという。
-近森麗彰氏は「セキュリティというとPCやスマートフォンばかりを想像しますが、ルータやIoT機器のようにインターネットへ接続する機器も同様に攻撃の対象になるので、それらの機器のセキュリティにも気を付けましょう」とコメントしている。
-ScanNetSecurity ScanNetSecurity",[],[]
