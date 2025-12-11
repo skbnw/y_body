@@ -1,0 +1,83 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+GroupSession に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/065717d8ca283d8f52c570c48e8461fca1cc578d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-11T08:00:21+09:00,2025-12-11T08:00:21+09:00,ScanNetSecurity,scan,ScanNetSecurity,1637,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月8日、GroupSessionにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。古川菜摘氏、佐藤竜氏、榎田小次郎氏、GMOサイバーセキュリティ byイエラエ株式会社の井餘田笙悟氏と石井健太郎氏、三井物産セキュアディレクション株式会社の望月岳氏と荒牧努氏と米山俊嗣氏と露木拓巳氏と山本健太氏、株式会社ブロードバンドセキュリティの志賀拓馬氏が報告を行っている。影響を受けるシステムは以下の通り。
+・CVE-2025-53523、CVE-2025-54407、CVE-2025-57883、CVE-2025-58576、CVE-2025-61950、CVE-2025-61987、CVE-2025-62192
+GroupSession 無料版 ver5.3.0より前のバージョン
+GroupSession byCloud ver5.3.3より前のバージョン
+GroupSession ZION ver5.3.2より前のバージョン
+・CVE-2025-64781、CVE-2025-65120、CVE-2025-66284
+GroupSession 無料版 ver5.7.1より前のバージョン
+GroupSession byCloud ver5.7.1より前のバージョン
+GroupSession ZION ver5.7.1より前のバージョン
+日本トータルシステム株式会社が提供するGroupSessionには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・格納型クロスサイトスクリプティング（CVE-2025-53523）
+→細工されたページやURLにアクセスした場合、ユーザのウェブブラウザ上で任意のスクリプトを実行される
+・格納型クロスサイトスクリプティング（CVE-2025-54407）
+→細工されたページやURLにアクセスした場合、ユーザのウェブブラウザ上で任意のスクリプトを実行される
+・反射型クロスサイトスクリプティング（CVE-2025-57883）
+→細工されたページやURLにアクセスした場合、ユーザのウェブブラウザ上で任意のスクリプトを実行される
+・クロスサイトリクエストフォージェリ（CVE-2025-58576）
+→細工されたページにアクセスした場合、意図していない操作をさせられる
+・ユーザ識別情報操作による権限チェック回避（CVE-2025-61950）
+→当該製品にログインしたユーザによって、回覧板のメモを改ざんされる
+・WebSocketにおけるオリジン検証不備（CVE-2025-61987）
+→細工されたページにアクセスした場合、ユーザ宛に送信されたチャットの情報が漏えいする
+・SQLインジェクション（CVE-2025-62192）
+→当該製品にログインしたユーザによって、データベース内の情報を取得されたり改ざんされたりする
+・安全ではない初期設定（CVE-2025-64781）
+※「外部ページ表示制限設定」が初期値の”制限しない”のままの場合、本脆弱性の影響を受ける
+→細工されたURLにアクセスすることで、任意のウェブサイトにリダイレクトされる
+・反射型クロスサイトスクリプティング（CVE-2025-65120）
+→細工されたページやURLにアクセスした場合、ユーザのウェブブラウザ上で任意のスクリプトを実行される
+・格納型クロスサイトスクリプティング（CVE-2025-66284）
+→細工されたページやURLにアクセスした場合、ユーザのウェブブラウザ上で任意のスクリプトを実行される
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+ランサムウェア対策ポッドキャスト「JC3ポッドキャスト ランサムウェア・ダイアログ」12 / 8 配信開始（ScanNetSecurity）,https://news.yahoo.co.jp/articles/77d4c4403405300b4210a29b2ffb9b44f37b9c0e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251211-00000003-scan-000-1-view.jpg?exp=10800,2025-12-11T08:00:18+09:00,2025-12-11T08:00:18+09:00,ScanNetSecurity,scan,ScanNetSecurity,600,"「JC3ポッドキャスト　ランサムウェア・ダイアログ」イメージ
+一般財団法人日本サイバー犯罪対策センター（JC3）は12月9日、ランサムウェア対策に関するポッドキャスト「JC3ポッドキャスト ランサムウェア・ダイアログ」の配信を12月8日から開始したと発表した。Spotify、Apple Podcasts、YouTubeで視聴可能となっている。
+【画像全2枚】
+同ポッドキャストは、2024年に立花書房から出版した『ランサムウェア攻撃に対する捜査ハンドブック（JC3編著）』の内容について、警察のサイバー捜査官、民間のセキュリティ技術者、検事、弁護士から専門家としての「声」を届けることで、ランサムウェア対策のリアルを伝え、今後ランサムウェアの被害者になり得る人々のセキュリティリテラシーの向上を目的としている。
+同ポッドキャストのコンテンツ内容は下記の通りで、『ランサムウェア攻撃に対する捜査ハンドブック』と併せて聴くことで、更にランサムウェア攻撃の実態や対処に関する知識、理解を深めることが可能。
+0. JC3 について
+ 1. サイバー犯罪捜査官から見たランサムウェア対策
+ 2. バックアップと復旧計画
+ 3. 刑罰法令から見るランサムウェア
+ 4. 最新動向とセキュリティ対策（仮）
+ 5. 医療機関におけるランサムウェア対策
+ScanNetSecurity ScanNetSecurity",[],[]
+Apache HTTP Server 2.4 に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/71785cfb4cc16bb052e760b130c419601ca417a7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-11T08:00:08+09:00,2025-12-11T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,1206,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月5日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+・CVE-2025-55753
+Apache HTTP Server 2.4.30から2.4.66より前のバージョン
+・CVE-2025-58098
+Apache HTTP Server 2.4.66より前のバージョン
+・CVE-2025-59775
+Apache HTTP Server 2.4.65より前のバージョン
+・CVE-2025-65082
+Apache HTTP Server 2.4.0から2.4.65までのバージョン
+・CVE-2025-66200
+Apache HTTP Server 2.4.7から2.4.65までのバージョン
+The Apache Software Foundationでは、Apache HTTP Server 2.4系における下記の影響を受ける可能性がある複数の脆弱性に対応したApache HTTP Server 2.4.66を公開している。
+・ACME証明書更新の失敗が繰り返された場合に、整数オーバーフローが起きる問題（CVE-2025-55753）
+→証明書の更新の試行が成功するまで繰り返されることでサービス運用妨害（DoS）状態にされる
+・Server Side Includes（SSI）が有効かつ、mod_cgidを利用している場合、シェルエスケープされたクエリ文字列を
+＃exec
+cmdディレクティブに渡してしまう問題（CVE-2025-58098）
+→意図しないクエリ文字列を挿入され、不正なコマンド実行につながる
+・Windows上のApache HTTPサーバーにおけるサーバサイドリクエストフォージェリ（CVE-2025-59775）
+→ AllowEncodedSlashesがOnかつMergeSlashesがOffの場合、悪意のあるサーバーにNTLMハッシュが漏えいする
+・Apache設定を介して設定された環境変数が、CGIプログラム用に計算した変数を予期せず上書きする問題（CVE-2025-65082）
+→CGIで予期しない処理が行われる
+・AllowOverride FileInfoの脆弱性により、mod_userdirおよびsuexecによる制御がバイパスされる問題（CVE-2025-66200）
+→ CGIスクリプトが予期しないユーザーIDで実行される
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+ABB 製 Terra AC wallbox に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/1dc83af325289435adedce5f628ec783d3d2828f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-11T08:00:04+09:00,2025-12-11T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,698,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月5日、ABB製Terra AC wallboxにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。パナソニックの加藤遼氏が報告を行っている。影響を受けるシステムは以下の通り。
+Terra AC wallbox（JP）1.8.33およびそれ以前のバージョン
+ABBが提供するTerra AC wallboxには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・ヒープベースのバッファオーバーフロー（CVE-2025-10504）
+→当該製品とBluetooth通信を行うことができる攻撃者によって細工されたリクエストを送信された場合、任意のコードを実行されたり、ファームウェアの挙動を変更されたりする
+・古典的バッファオーバーフロー（CVE-2025-12142）
+→当該製品とBluetooth通信を行うことができる攻撃者によって細工されたリクエストを送信された場合、任意のコードを実行されたり、ファームウェアの挙動を変更されたりする
+・スタックベースのバッファオーバーフロー（CVE-2025-12143）
+→攻撃者によってOCPPサーバから当該機器へ細工されたリクエストを送信された場合、任意のコードを実行されたり、ファームウェアの挙動を変更されたりする
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
