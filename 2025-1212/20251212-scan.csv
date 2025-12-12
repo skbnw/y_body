@@ -1,0 +1,71 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Adobe Acrobat および Reader に脆弱性、セキュリティ更新プログラムの適用を呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/9f7dc54041bcfe4a78bf53f0aa6d0e05bd186b3d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-12T08:00:17+09:00,2025-12-12T08:00:17+09:00,ScanNetSecurity,scan,ScanNetSecurity,918,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月10日、Adobe Acrobat および Reader の脆弱性対策について発表した。影響を受けるシステムは以下の通り。
+・Acrobat DC(Continuous)
+25.001.20982 およびそれ以前のバージョン (Windows)
+25.001.20982 およびそれ以前のバージョン (macOS)
+・Acrobat Reader DC(Continuous)
+25.001.20982 およびそれ以前のバージョン (Windows)
+25.001.20982 およびそれ以前のバージョン (macOS)
+・Acrobat 2024(Classic 2024)
+24.001.30264 およびそれ以前のバージョン (Windows)
+24.001.30273 およびそれ以前のバージョン (macOS)
+・Acrobat 2020(Classic 2020)
+20.005.30793 およびそれ以前のバージョン (Windows)
+20.005.30803 およびそれ以前のバージョン (macOS)
+・Acrobat Reader 2020(Classic 2020)
+20.005.30793 およびそれ以前のバージョン (Windows)
+20.005.30803 およびそれ以前のバージョン (macOS)
+アドビでは12月10日に、PDFファイル作成・変換ソフトウェアAdobe AcrobatおよびPDFファイル閲覧ソフトウェアAdobe Acrobat Readerに関するセキュリティ更新プログラムを公表している。これらの脆弱性を悪用された場合、アプリケーションプログラムが異常終了する、攻撃者によってパソコンを制御される、といった様々な被害が発生するおそれがあるという。
+IPAおよびJPCERT/CCでは、攻撃が行われた場合の影響が大きいため、早急にセキュリティ更新プログラムを適用するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+マイクロソフト 12 月のセキュリティ情報公開、悪用の事実を確認済みの脆弱性が 1 件（ScanNetSecurity）,https://news.yahoo.co.jp/articles/f8f80d91f10479abb098ce95eff5e4d68455350e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-12T08:00:14+09:00,2025-12-12T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,800,"独立行政法人 情報処理推進機構（IPA）は12月10日、「Microsoft 製品の脆弱性対策について(2025年12月)」を発表した。一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）も「2025年12月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2025年12月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v25H2, v24H2, v23H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019, 2016 (Server Core installation を含む)
+Microsoft Office
+Microsoft SharePoint
+Microsoft Exchange Server
+Microsoft Azure
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また、「Windows Cloud Files Mini Filter ドライバーの特権の昇格の脆弱性（CVE-2025-62221）」については、Microsoft 社が悪用の事実を確認しており、更新プログラムの適用を早急に行うよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+エレコム製クローン for Windows に引用符で囲まれていないファイルパスの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/52fb29a965dd5d198239d7260fc1818abff5347c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-12T08:00:12+09:00,2025-12-12T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,460,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月9日、エレコム製クローン for Windowsにおける引用符で囲まれていないファイルパスの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+クローン for Windows Ver.2.36より前のバージョン
+エレコム株式会社が提供するクローン for Windows は Windowsサービスを登録するが、登録されるプログラムのファイルパスは引用符で囲まれておらず、システムドライブ直下への書き込み権限を有するユーザによって、SYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+React Server Components に信頼できないデータをデシリアライズする脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/7e68f4fb789d8e3e45340c050afea9a88a8f31f5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-12T08:00:08+09:00,2025-12-12T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,1043,"独立行政法人情報処理推進機構（IPA）は12月9日、React Server Componentsにおける脆弱性について発表した。影響を受けるシステムは以下の通り。
+react-server-dom-webpack 19.0
+react-server-dom-webpack 19.1.0
+react-server-dom-webpack 19.1.1
+react-server-dom-webpack 19.2.0
+react-server-dom-parcel 19.0
+react-server-dom-parcel 19.1.0
+react-server-dom-parcel 19.1.1
+react-server-dom-parcel 19.2.0
+react-server-dom-turbopack 19.0
+react-server-dom-turbopack 19.1.0
+react-server-dom-turbopack 19.1.1
+react-server-dom-turbopack 19.2.0
+JavaScriptライブラリ「React」のサーバ機能に関するコンポーネント React Server Components には、信頼できないデータをデシリアライズする脆弱性（CVE-2025-55182）が存在し、脆弱性を悪用された場合、遠隔の攻撃者によって任意のコードを実行される可能性がある。
+なお、「Next.js」など他製品でも同様の影響を受ける。
+IPAでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。開発者は、本脆弱性を修正した下記バージョンをリリースしている。
+react-server-dom-webpack 19.0.1
+react-server-dom-webpack 19.1.2
+react-server-dom-webpack 19.2.1
+react-server-dom-parcel 19.0.1
+react-server-dom-parcel 19.1.2
+react-server-dom-parcel 19.2.1
+react-server-dom-turbopack 19.0.1
+react-server-dom-turbopack 19.1.2
+react-server-dom-turbopack 19.2.1
+ScanNetSecurity ScanNetSecurity",[],[]
+GSユアサ製 FULLBACK Manager Pro に引用符で囲まれていないファイルパスの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/aace392e97685fb3aae5727879e5de80c71a820c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-12T08:00:03+09:00,2025-12-12T08:00:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,555,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月8日、GSユアサ製FULLBACK Manager Proにおける引用符で囲まれていないファイルパスの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+FULLBACK Manager Pro (Windows版) Ver 4.00およびそれ以前
+FULLBACK Manager Pro for Network (Windows版) Ver 3.00およびそれ以前
+株式会社GSユアサが提供するFULLBACK Manager Pro は Windowsサービスを登録するが、登録されるプログラムのファイルパスは引用符で囲まれておらず、当該製品のインストールディレクトリに至るパスへの書き込み権限を有するユーザによって、SYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
