@@ -1,0 +1,4 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+PowerDNS Recursor に外部からのサービス不能（DoS）攻撃が可能になる脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/f651246101d71ef00ccf02ba70b11b3dae30a1c6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-18T08:00:14+09:00,2025-12-18T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,245,"株式会社日本レジストリサービス（JPRS）は12月11日、PowerDNS Recursorの脆弱性情報（CVE-2025-59029、CVE-2025-59030）が公開されたと発表した。
+フルリゾルバー（キャッシュDNSサーバ）PowerDNS Recursorにおいて、外部からのサービス不能（DoS）攻撃が可能になる脆弱性が中央ヨーロッパ時間12月8日に公開され、併せて当該脆弱性を修正したバージョンも公開されている。
+ScanNetSecurity ScanNetSecurity",[],[]
