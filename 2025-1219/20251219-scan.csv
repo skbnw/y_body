@@ -1,0 +1,58 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Fortinet 製品に認証回避の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/50603e9ce69b7342a8fe29afa9217567d1296c0b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-19T08:00:22+09:00,2025-12-19T08:00:22+09:00,ScanNetSecurity,scan,ScanNetSecurity,1045,"独立行政法人情報処理推進機構（IPA）は12月17日、Fortinet製品における認証回避の脆弱性について発表した。影響を受けるシステムは以下の通り。
+FortiOS 7.6.0 から 7.6.3
+FortiOS 7.4.0 から 7.4.8
+FortiOS 7.2.0 から 7.2.11
+FortiOS 7.0.0 から 7.0.17
+FortiProxy 7.6.0 から 7.6.3
+FortiProxy 7.4.0 から 7.4.10
+FortiProxy 7.2.0 から 7.2.14
+FortiProxy 7.0.0 から 7.0.21
+FortiSwitchManager 7.2.0 から 7.2.6
+FortiSwitchManager 7.0.0 から 7.0.5
+FortiWeb 8.0.0
+FortiWeb 7.6.0 から 7.6.4
+FortiWeb 7.4.0 から 7.4.9
+※FortiCloud SSOログイン機能が有効な場合、脆弱性の影響を受ける
+Fortinet社が提供するFortiOS、FortiWeb、FortiProxy、FortiSwitchManager、FortiWebには、デジタル署名の不適切な検証の脆弱性（CVE-2025-59718、CVE-2025-59719）が存在し、認証されていない遠隔の第三者によって、認証を回避される可能性がある。
+IPAでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお、開発者は、本脆弱性を修正した下記のバージョンをリリースしている。
+FortiOS 7.6.4 およびそれ以降
+FortiOS 7.4.9 およびそれ以降
+FortiOS 7.2.12 およびそれ以降
+FortiOS 7.0.18 およびそれ以降
+FortiProxy 7.6.4 およびそれ以降
+FortiProxy 7.4.11 およびそれ以降
+FortiProxy 7.2.15 およびそれ以降
+FortiProxy 7.0.22 およびそれ以降
+FortiSwitchManager 7.2.7 およびそれ以降
+FortiSwitchManager 7.0.6 およびそれ以降
+FortiWeb 8.0.1 およびそれ以降
+FortiWeb 7.6.5 およびそれ以降
+FortiWeb 7.4.10 およびそれ以降
+ScanNetSecurity ScanNetSecurity",[],[]
+複数のセイコーエプソン製プリンタの Web Config にスタックベースのバッファオーバーフローの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d47c5ff2432ae5e6416f8629b3d2d1c33b19d79b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-19T08:00:19+09:00,2025-12-19T08:00:19+09:00,ScanNetSecurity,scan,ScanNetSecurity,560,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月16日、複数のセイコーエプソン製プリンタのWeb Configにおけるスタックベースのバッファオーバーフローの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の井餘田笙悟氏が報告を行っている。影響を受けるシステムは以下の通り。
+Web Config
+セイコーエプソン株式会社が提供する複数のプリンタ製品に導入されている、Webブラウザ上で製品本体の状態を確認したり設定を変更したりするためのソフトウェアWeb Configには、スタックベースのバッファオーバーフローの脆弱性（CVE-2025-66635）が存在し、Web Configにログインしたユーザーによる細工した入力を処理することで、任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。また開発者は、対策ファームウェアの提供予定のない製品については、ワークアラウンドの適用を強く推奨している。
+ScanNetSecurity ScanNetSecurity",[],[]
+チョコ停ウォッチャーmini に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/cdac01b7475de9383c5dd83a70d4d013b7f4ce9a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-19T08:00:14+09:00,2025-12-19T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,720,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月16日、チョコ停ウォッチャーminiにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。ジェイテクトエレクトロニクス 品質保証課が報告を行っている。影響を受けるシステムは以下の通り。
+チョコ停ウォッチャーmini（IB-MCT001）すべてのバージョン
+因幡電機産業株式会社が提供するチョコ停ウォッチャーminiには、下記の影響を受ける可能性がある複数の脆弱性が存在する。
+・クリックジャッキング（CVE-2025-59479）
+→当該製品ログイン済みのユーザが細工されたページにアクセスし、画面上のコンテンツをクリックした場合、意図しない操作をさせられる
+・例外的状況に対する確認が不適切（CVE-2025-61976）
+→動画ダウンロード機能において、攻撃者により細工されたリクエストを送信されると、システムが停止する
+・例外的状況に対する確認が不適切（CVE-2025-66357）
+→動画ダウンロード機能において、特定の条件の通信状態に置かれると、リソースが異常に消費される
+JVNでは、下記のワークアラウンドを案内している。
+・当該製品はLAN内での使用に限定し、信頼できないネットワークやホストからのアクセスを制限する
+・当該製品をインターネットに接続する場合には、ファイアウォールや仮想プライベートネットワーク（VPN）などを使用し、不正アクセスを防止した上で、接続を必要最小限にする
+ScanNetSecurity ScanNetSecurity",[],[]
+PDF に eシールを自動付与 ～ キヤノンMJ とサイバートラスト、企業間取引の電子文書の安全性強化に向けて協業（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c2a701ea1b2e719a405dd8641462dd8e5b8080ed,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20251219-00000001-scan-000-1-view.jpg?exp=10800,2025-12-19T08:00:08+09:00,2025-12-19T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,913,"「DigitalWork Accelerator」eシール付与機能概要
+キヤノンマーケティングジャパン株式会社（キヤノンMJ）とサイバートラスト株式会社は12月16日、企業間取引における電子文書の安全性と信頼性の強化に向けトラスト分野での協業を開始すると発表した。
+キヤノンMJ が提供するデジタルドキュメントサービス「DigitalWork Accelerator」とサイバートラストの「iTrust リモート署名サービス」「iTrust eシール用証明書」が連携し、「DigitalWork Accelerator」で管理するPDF形式の電子文書にeシールを自動付与する機能を2026年1月下旬から提供する。
+「DigitalWork Accelerator」は、電子帳簿保存法に対応した電子取引管理サービスで、請求書受取サービスに加え、業務別アプリケーション・業種向けサービスを連携させることで、DX推進と業務変革の実現を支援する。
+「iTrust リモート署名サービス」は、書面の電子化や電子契約で求められる電子文書の長期間に渡る真正性を確保する長期署名に対応したクラウドサービスで、JIPDECの厳格な基準に基づく審査を実施し、厳格な規程をもって運用されているリモート署名（電子契約）サービス として、「JIPDEC トラステッド・サービス」に登録されている。
+「iTrust eシール用証明書」は、サイバートラストが厳格に審査した組織のみに向けて発行する「eシール用電子証明書」を活用し、組織が発行した電子文書にeシールを付与することで、発行元の証明と改ざん対策が可能で、電子文書に高い信頼性と真正性を確保することができる。
+同機能で、企業間取引における請求書や見積書などの取引関係書類や各業種・業務で発生する書類の発行で発行元の証明が担保され、なりすましや改ざんのリスクを軽減する。また、文書の真正性を保証することで、信頼性の高い取引環境が構築され、受領者の確認作業の負担を軽減し、企業間取引の透明性向上と業務の効率化に寄与する。
+ScanNetSecurity 高橋 潤哉（ Junya Takahashi ）",[],[]
