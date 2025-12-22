@@ -1,0 +1,34 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+海外での特殊詐欺に外務省が注意を呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/014805b3b75e60210107b4196f4dd25d81d08c17,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-22T08:00:15+09:00,2025-12-22T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,705,"外務省は12月16日、特殊詐欺についての注意喚起を発表した。
+同省によると、非対面の方法で相手に接触し金銭をだまし取る、いわゆる特殊詐欺が海外でも発生しており、日本国大使館職員や日本国総領事館職員、日本の警察官や税関職員等の日本政府の職員を騙るケースも確認されているという。また、日本の政府機関の制服を着用した姿を動画等で示して騙すケースも確認されている。
+日本国大使館、日本国総領事館、警察官や税関職員等といった日本の公的機関が正式な手続によらず送金を要求することはなく、同省では身に覚えのない不審な電話、メール、SNS等に安易に反応しないなどの対策を呼びかけている。
+同省では、特殊詐欺の主な手口として下記の例を紹介している。
+1.偽警官が架空の、または実在する名前と身分番号を名乗り、SNSの不正利用で容疑がかけられているとして相手に逮捕をほのめかせ、取消のための手続料を送金させようとする。
+2.日本国大使館職員を名乗り、相手に日本で●●の容疑で裁判所から逮捕状が出ているとして、相手の個人情報やSNSのアカウント情報を聞き出したり、取消のための手続料を送金させようとする。
+3.警察を含めた現地捜査機関と名乗る者から電話で「あなたの口座は犯罪者に利用された」「あなたの口座はテロリストによって使用された」などとして、個人情報の詳細を聞き出そうとする。
+4.現地銀行等の行員を名乗る者から、「必要なお金を入金しなければ口座は凍結される」等と言われ指定の口座への送金を要求される。公共機関等を名乗る者から料金未払い等により送金を要求される。
+ScanNetSecurity ScanNetSecurity",[],[]
+GT Designer3 に情報漏えいの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/95d7efa191baa37c3fbaf47e21d737eefe65892b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-22T08:00:10+09:00,2025-12-22T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,656,"三菱電機株式会社は12月16日、GT Designer3 における情報漏えいの脆弱性について発表した。影響を受けるシステムは以下の通り。
+GT Designer3 Version1 (GOT2000) 全バージョン
+GT Designer3 Version1 (GOT1000) 全バージョン
+GT Designer3 には、重要な情報の平文保存に起因する情報漏えいの脆弱性が存在し、攻撃者はGT Designer3 のプロジェクトデータから平文で保存された認証情報を取得することができ、取得した認証情報を用いて、GOT2000 シリーズ又は GOT1000 シリーズを不正に操作する可能性がある。
+三菱電機では対策版をリリースする予定はなく、下記の軽減策を推奨している。
+・該当製品を使用するPCをLAN内で使用し、信頼できないネットワークやホスト、ユーザからのリモートログインをブロックする。
+・該当製品をインストールされたPCをインターネットに接続する場合は、ファイアウォールや仮想プライベートネットワーク（VPN）等で不正アクセスを防止したうえで、信頼できるユーザのみにリモートログインを許可する。
+・該当製品がインストールされたPC並びに同PCと通信可能なPC及びネットワーク機器への物理的なアクセスを制限。
+・該当製品を使用するPCにウイルス対策ソフトを搭載する。
+・信頼できないファイルを開いたり、信頼できないリンクをクリックしない。
+ScanNetSecurity ScanNetSecurity",[],[]
+Ruijie Networks製AP180シリーズにOSコマンドインジェクションの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/041aaf7be4e0aec4e7acd4f528c4693f7951162b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2025-12-22T08:00:07+09:00,2025-12-22T08:00:07+09:00,ScanNetSecurity,scan,ScanNetSecurity,616,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月18日、Ruijie Networks製AP180シリーズにおけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏が報告を行っている。下記AP180シリーズのファームウェアバージョン AP_RGOS 11.9(4)B1P8およびそれ以前が本脆弱性の影響を受ける。
+AP180(JA) V1.xx
+AP180(JP) V1.xx
+AP180-AC V1.xx
+AP180-PE V1.xx
+AP180(JA) V2.xx
+AP180-AC V2.xx
+AP180-PE V2.xx
+AP180-AC V3.xx
+AP180-PE V3.xx
+Ruijie Networksが提供するRG - AP180、屋内壁面設置型ワイヤレスAP AP180シリーズには、OSコマンドインジェクションの脆弱性（CVE-2025-68459）が存在し、CLIサービスにログイン可能な攻撃者によって、当該製品上で任意のOSコマンドを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版にアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
