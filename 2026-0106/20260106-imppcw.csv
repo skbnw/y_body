@@ -1,0 +1,1074 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Razer、4台連結可能な小型AIアクセラレータ（PC Watch）,https://news.yahoo.co.jp/articles/5840fe752375e0f25aa8b67d63df837e540f56e2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000042-imppcw-000-1-view.jpg?exp=10800,2026-01-06T23:06:00+09:00,2026-01-06T23:06:00+09:00,PC Watch,imppcw,PC Watch,343,"写真：PC Watch
+RazerとTenstorrentは、小型AIアクセラレータデバイスを共同開発したと発表した。TenstorrentのWormhole技術を採用しており、Thunderbolt 5などを搭載するデバイスで利用できる。
+
+　Thunderbolt 5/4接続で利用できるモジュラー設計を採用し、幅広いPCで利用できるAIアクセラレータ。ノートPCなどでも使いやすいコンパクトな筐体を特徴とする。最大4台までデイジーチェーン接続でき、より大規模なAIモデルを取り扱う場合にはさらに性能を引き上げられる。
+
+　また、Tenstorrentの提供するオープンソースソフトウェアスタックを活用することで、より柔軟なAI開発が可能になるという。
+PC Watch,宇都宮 充",[],[]
+プロフェッショナル向けのQD-OLEDモニター「Dell UltraSharp 32 4K QD-OLED」（PC Watch）,https://news.yahoo.co.jp/articles/9b607b819e008e05d33ba58eaff73cb42d5cb92e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000041-imppcw-000-1-view.jpg?exp=10800,2026-01-06T23:00:00+09:00,2026-01-06T23:00:00+09:00,PC Watch,imppcw,PC Watch,983,"写真：PC Watch
+米Dell Technologiesは、1月6日(現地時間)に報道発表を行ない、QD-OLED(量子ドット有機EL)を採用した32型の「Dell UltraSharp 32 4K QD-OLED Monitor」(U3226Q、以下UltraSharp 32 4K QD-OLED)を発表した。
+【画像】背面と底面(写真提供: Dell)
+UltraSharp 32 4K QD-OLEDは、ビジネス向けのハイエンドモニターのUltraSharpシリーズとしては初めてのQD-OLEDを採用した製品となる。
+
+　QD-OLEDは、通常のOLEDに量子ドット(Quantum Dot)技術を加え、さらに鮮明さ、色純度などを増したOLEDパネルで、高輝度や広色域、鮮明な発色などの特徴を備えている。Dellはゲーミング向けの「Alienware 32 4K QD-OLED ゲーミング モニター」(AW3225QF)において採用してきたが、今回UltraSharpシリーズにも展開された形になる。Alienware 32 4K QD-OLEDでは湾曲モニターとなっていたが、UltraSharp 32 4K QD-OLEDではプロ向けということでフラットな32型になっていることが大きな違いになる。
+
+　解像度は4K(3,840×2,160ドット)で、120Hzのリフレッシュレートをサポートしている。色域はsRGBとBT709 100%、DCI-P3/Display P3が99%、Adobe RGB 94%。色差はDelta Eが1以下となっている。色セットのキャリブレーション機能が標準で搭載されており、3Dルックアップテーブル(LUTs)などの機能を使ってキャリブレーションを行なうことが可能だ。
+
+　インターフェイスとして、140WのPD給電に対応したUSB Type-C(Thunderbolt 4)ポートを備えるほか、27W給電が可能なUSB Type-C出力、10WのUSB端子、2.5Gigabit Ethernetなどを備えている。
+
+　UltraSharp 32 4K QD-OLEDは、グローバルに2月24日から販売が開始される予定で、米国での実売予想価格は2,599.99ドルとなっている。
+PC Watch,笠原 一輝",[],[]
+圧倒的。世界初の52型6K湾曲モニター「Dell UltraSharp 52 Thunderbolt Hub Monitor」（PC Watch）,https://news.yahoo.co.jp/articles/e7c9da507147524f00f0faa72aa09d8ee8c76409,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000040-imppcw-000-1-view.jpg?exp=10800,2026-01-06T23:00:00+09:00,2026-01-06T23:00:00+09:00,PC Watch,imppcw,PC Watch,1389,"写真：PC Watch
+米Dell Technologies(以下Dell)は、1月6日(現地時間)に報道発表を行ない、同社のハイエンド向けモニターブランド「UltraSharp」シリーズの新製品として「Dell UltraSharp 52 Thunderbolt Hub Monitor」(U5226KWおよびU5226KW without stand、以下UltraSharp 52)を発表した。
+【画像】ポート部
+UltraSharp 52は、Dellが「世界初の52型6K湾曲モニター」と呼んでいる52型で6K(6,144×2,560ドット)の解像度を持つ湾曲型のモニターで、従来モデルに相当する49型の「Dell UltraSharp 49 Curved USB-C Hub Monitor」(U4924DW)の解像度が5,120×1,440ドットであるのに対して、サイズが大きくなるのと同時に解像度も上がっていること、さらにはThunderbolt 4に対応したことが大きな進化となる。
+
+■ 圧倒的な作業領域を実現
+
+　UltraSharp 52は、「世界初の52型6K湾曲モニター」となっており、52型(より正確には51.5型)で6Kの解像度を持つ湾曲型のモニターとなる。
+
+　従来Dellはこのセグメントに、UltraSharp 49(U4920DWおよびその前のモデルとなるU4919DW)を販売してきたが、解像度はデュアルQHDになっていた。インチあたりのピクセルに換算すると、109dpiのIPSブラックパネルが採用されてきた。
+
+　それに対して今回のUltraSharp 52は解像度が6Kに引き上げられ、サイズも52型へと大型化されている。これにより129dpiと、より高精細なパネルになっており、かつ従来は60Hzまでの対応だったリフレッシュレートも最大120Hzに引き上げられている。
+
+　パネルは引き続きIPSブラックが採用されており、輝度は従来製品の350cd/平方mから400cd/平方mへと引き上げられている。色域はDCI-P3 99%、sRGB/Display P3/BT.709 100%で、色差はDelta E≦1.5となる。
+
+　PCとの接続に利用するUSB Type-CはThunderbolt 4に対応しており、DisplayPort Alt Modeと140WのUSB PD給電に対応している。ほかにも、2つのHDMI 2.1(HDCP 2.2対応)、2つのDisplayPort 1.4(HDCP 2.2対応)の入力を備えており、USB Type-Cの入力と合わせて最大4台までのPCを接続して、KVM的な使い方も可能になっている。
+
+　横幅は1,223.32mmと、従来モデルの1,214.9mmに比べて8.42mm大きくなっただけと、横幅はほとんど変わらないサイズになる。ただし重量は18.23kgと、従来の16.3kgから約2kg増えている。
+
+　UltraSharp 52は1月6日にグローバルに販売開始される予定で、米国での実売予想価格はスタンド込みのU5226KWが2,899.99ドル、スタンドなしのU5226KW without standは2,799.99ドルとなっている。
+PC Watch,笠原 一輝",[],[]
+「Hey Motoko!」で応答するRazerのAIヘッドセット。Snapdragonやカメラを搭載（PC Watch）,https://news.yahoo.co.jp/articles/39f30ff1150105968537ed0abd6c24f6172b9f12,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000039-imppcw-000-1-view.jpg?exp=10800,2026-01-06T23:00:00+09:00,2026-01-06T23:00:00+09:00,PC Watch,imppcw,PC Watch,677,"写真：PC Watch
+Razerは、Snapdragonプラットフォームを採用しカメラなどを内蔵したワイヤレスヘッドセット型のウェアラブルAIデバイスのコンセプトモデル「Project Motoko」を発表した。
+
+■ Project Motoko
+
+　Project Motokoは、Snapdragon SoCを内蔵したワイヤレスヘッドセットのコンセプトモデル。マイクに加え、左右のイヤーカップ部分には目線に近い位置にカメラを内蔵しており、AIを使った高度な機能も提供できる。既存のスマートグラスと比べ、レンズの調整が必要なく、バッテリ駆動時間などの面でも有利だと説明している。
+
+　カメラ部分は3K/60fpsの空間ビデオが撮影可能。ユーザーの目に近い位置にカメラを配置することで、周囲の環境を高精度かつ立体的に捉えられる。マイクも複数内蔵しており、ユーザーの声や周辺の環境音などを拾うことができる。
+
+　また、「Hey Motoko」のキーワードで内蔵のAIアシスタントを起動可能。カメラやマイクからのデータをリアルタイムで解釈しながら、ユーザーからの質問に対して即座に応答する。移動時やゲームのプレイ中、家事をしている最中などでも、手を止めることなく利用できる点も特徴。OpenAI、Gemini、Grokといった主要なAIプラットフォームとの連携も行なえる。
+
+　それ以外にも、人間の一人称視点に近い視覚データを得られることから、ロボティクス分野のAIモデル学習で用いるデータ収集などにも活用できるとしている。
+PC Watch,宇都宮 充",[],[]
+単体で使えて、ラックマウントでクラスタ化もできる“Razer”のAIワークステーション（PC Watch）,https://news.yahoo.co.jp/articles/43c014624a4261becd0b8b424e8ef984f5d5862b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000038-imppcw-000-1-view.jpg?exp=10800,2026-01-06T23:00:00+09:00,2026-01-06T23:00:00+09:00,PC Watch,imppcw,PC Watch,659,"写真：PC Watch
+Razerは、AI開発向けワークステーション「Razer Forge AI Dev Workstation」を発表した。最大4台のプロ向けGPUなどを搭載可能で、ラックマウントとの互換性も持つ。
+【画像】Razer AIKit
+Razer Forge AI Dev Workstationは、AIの開発や研究、AIモデルの学習や推論、シミュレーションなどといった高負荷なワークロードに対応するワークステーション。CPUにはRyzen Threadripper PROやXeon W、メモリには8チャネルのDDR5 RDIMM、GPUにはNVIDI RTX PROやRadeon PROといったプロ向けGPUなどを最大4基搭載可能となっている。
+
+　加えて、2基の10Gigabit Ethernetによる超高速ネットワーク通信にも対応。最大2,000Wの電源ユニットも搭載できる。また、Razer Forge自体がラックマウントとの互換性を持っており、標準的なラックにそのまま複数台設置して、クラスタを構築することも可能となっている。
+
+　さらに、AI開発向けのオープンソースソフトウェア「Razer AIKit」も発表。自動でのGPU構成やクラスタの構築、ローカルLLMの推論やファインチューニングに向けた設定の最適化など、ローカルハードウェアでのAI開発をエンドツーエンドで支援するツールとなる。Razer製ハードウェアであればよりシームレスに統合が行なえる。
+PC Watch,宇都宮 充",[],[]
+MSI、黒レベル40%向上の32型4K QD-OLED。表面硬度3Hで傷に強く（PC Watch）,https://news.yahoo.co.jp/articles/af721851f56de1b1237328d378c1b2a82d1d5a65,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000037-imppcw-000-1-view.jpg?exp=10800,2026-01-06T14:50:00+09:00,2026-01-06T14:50:00+09:00,PC Watch,imppcw,PC Watch,645,"写真：PC Watch
+MSIは、32型4K(3,840×2,160ドット)QD-OLEDゲーミングモニターの「MPG 322UR QD-OLED X24」および「MAG 321UP QD-OLED X24」を発表した。2026年の発売を予定。価格は未公表。
+【画像】DarkArmor Filmによる黒レベル向上
+両機種は、最新の5層タンデムOLED構造とEL Gen 3テクノロジーを導入した32型モニター。32型4Kモニター市場において、従来のQD-OLEDよりも高い輝度効率と優れた耐久性を実現したと謳う。
+
+　特殊なフィルム技術である「DarkArmor Film」を採用。光の吸収を強化し、周囲光によって画面が紫や赤みがかって見える現象を抑制する。これにより、純粋な黒レベルが最大40%向上し、コントラストも改善したという。また、表面硬度も従来の2Hから3Hへと引き上げられ、耐傷性が2.5倍に向上している。
+
+　加えて、HDR表示における急激な輝度変化を抑える「Uniform Luminance」機能を搭載。表示ウィンドウごとにHDR輝度カーブをカスタマイズでき、表示サイズにかかわらず安定した明るさを維持可能になる。
+
+　上位モデルのMPG 322UR QD-OLED X24には、さらに独自の「AI Care Sensor」を搭載。NPUベースのICがリアルタイムで人を検知、ユーザーの在席状況に合わせて電源管理/パネル保護を自動実行する。
+PC Watch,上田 羽純",[],[]
+待たされたけどようやく登場！NVIDIAのG-SYNC Pulsar対応モニター、しかも4機種同時（PC Watch）,https://news.yahoo.co.jp/articles/2dc12e7961e34c196d1d639f75ee253671556810,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000036-imppcw-000-2-view.jpg?exp=10800,2026-01-06T14:30:00+09:00,2026-01-06T14:35:33+09:00,PC Watch,imppcw,PC Watch,693,"写真：PC Watch
+NVIDIAは1月5日(現地時間)、CES 2026にあわせてオンラインイベント「GEFORCE ON」を開催し、G-SYNCの機能拡張版「G-SYNC Pulsar」に関する情報を更新。これまで技術デモに留まっており、実際には発売されていなかったG-SYNC Pulsarに対応したゲーミングモニターが、1月7日から販売されることを明らかにした。
+【画像】G-SYNC Pulsarの効果
+NVIDIAが2024年のCESで発表したG-SYNCの拡張機能が「G-SYNC Pulsar」だ。G-SYNC Pulsarは、従来の可変フレームレート技術に加え、モニターにアダプティブオーバードライブとパルス変調を導入することで、物体が高速に移動した際に発生する液晶パネルのモーションブラー(ブレ)を極限まで低減する技術。
+
+　NVIDIAは2024年後半にG-SYNC Pulsarに対応したゲーミングモニターが各社から提供されると説明していたが、実際のところは音沙汰がなかった。しかし、27型1440p(2,560×1,440ドット)/360HzのG-SYNC Pulsar対応モニターが1月7日より提供開始されることとなった。
+
+　具体的には、以下の4社から計4製品が販売される計画で、予想価格は599ドルだという。
+
+・Acer Predator(XB273U F5)
+・AOC AGON PRO(AG276QSG2)
+・ASUS ROG STRIX Pulsar(XG27AQNGV)
+・MSI MPG(272QRF X36)
+PC Watch,笠原 一輝",[],[]
+NVIDIAがDLSS 4.5発表。6倍動的マルチフレーム生成機能をGeForce RTX 50でサポート（PC Watch）,https://news.yahoo.co.jp/articles/075118c7d45e23002df47a800aa9f50093629845,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000035-imppcw-000-1-view.jpg?exp=10800,2026-01-06T14:30:00+09:00,2026-01-06T14:30:00+09:00,PC Watch,imppcw,PC Watch,1417,"写真：PC Watch
+米NVIDIAは1月5日(現地時間)にオンラインイベント「GEFORCE ON」を開催し、CESに合わせて発表する一般消費者向けの新技術などに関して説明を行なった。この中で、超解像技術「DLSS」の最新版となる「DLSS 4.5」を発表した。
+【画像】すでに250を超えるゲームがDLSS4に対応している
+DLSS 4.5ではトランスフォーマーエンジンを利用した第2世代の超解像エンジンがサポートされるほか、最大6倍の動的マルチフレーム生成機能がサポートされ、DLSS 4の4倍のものよりもフレームレートが向上することになる。
+
+■ GeForce RTX 50シリーズでサポートされる動的MFGが最大4倍(190FPS)から最大6倍(240FPS)に引き上げられる
+
+　NVIDIAのDLSSは、いわゆる超解像技術と呼ばれる、GPUがレンダリングするフレームは低解像度に抑えておき、超解像技術を利用して解像度を引き上げる技術になる。レンダリング時の解像度を下げることで、GPUのレンダリングエンジンへの負荷を減らすことができるため、フレームレートを引き上げることなどが可能になり、より快適にゲームをプレイできる。
+
+　利用するにはゲーム側の対応が必要だが、DLSSは多くのAAAタイトルのゲームでサポートされるようになってきており、人気の機能の1つといえる。
+
+　DLSS 4は、GeForce RTX 50シリーズ(Blackwell世代)と一緒に発表されたDLSSの新バージョンで、トランスフォーマーエンジンと呼ばれる最新の生成AIのモデルを利用した超解像エンジンに加え、動的マルチフレーム生成機能(動的MFG機能)が導入され、従来よりも超解像時のクオリティや画面表示の滑らかさなどが向上している。
+
+　このDLSS 4に対応したタイトルは増え続けており、NVIDIAによればすでに250を超えるゲームやアプリが対応。2025年にリリースされた上位20位までの人気ゲームのうち80%がDLSS 4をサポートしているという状況だ。
+
+　今回NVIDIAが発表したDLSS 4.5はそのDLSS 4の改良版という位置づけで、トランスフォーマーエンジンを利用した超解像エンジンが第2世代になり、より周囲の状況などを正確に理解したスムーズな超解像が行なえるようになっているという。
+
+　また、動的MFG機能が進化し、最大4倍(190FPS)まで中間フレームを生成できるようになっていたのが、最大6倍(240FPS)まで中間フレームを生成可能になった。これにより、DLSS 4に比べてフレームレートを引き上げることが可能になり、240Hzのゲーミングモニターなどでより滑らかなゲーム表示が可能になる。
+
+　ゲームタイトル側の対応が必要になるが、同時にNVIDIA Appsの中で有効にすることも可能で、その場合は400を超えるゲームタイトルでDLSS 4.5が利用できるようになるという。
+
+　なお、DLSS 4.5の機能を利用するには最新のNVIDIA GPUが必要になる。第2世代のトランスフォーマー超解像エンジンを利用するには、GeForce RTX 20シリーズ以降のRTX GPUが必要で、最大6倍のMFG機能を利用するにはGeForce RTX 50シリーズが必要になる。
+PC Watch,笠原 一輝",[],[]
+"キオクシア、リード性能7,000 MB/sのSSD（PC Watch）",https://news.yahoo.co.jp/articles/02250ec29dbc6ec73669a6f55ee57724a82596ce,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000034-imppcw-000-2-view.jpg?exp=10800,2026-01-06T14:05:00+09:00,2026-01-06T14:20:33+09:00,PC Watch,imppcw,PC Watch,443,"写真：PC Watch
+キオクシアはCES 2026にて、クライアント向けSSD「KIOXIA BG7」シリーズ(以下BG7)を発表した。
+
+　BG7は、第8世代BiCS FLASH3次元フラッシュメモリを採用したSSD。最大リード速度7,000MB/s、ランダム性能は最大100万IOPSと、前世代のKIOXIA BG6シリーズ比でそれぞれ約16%/約10%向上したという。また、シーケンシャルライト時の電力効率は約67%改善している。
+
+　コストパフォーマンスを重視したDRAM非搭載モデルであり、ホストマシンのメモリを利用するホストメモリバッファをサポートする。
+
+　インターフェイスはPCIe 4.0、NVMe 2.0dに準拠。フォームファクタはM.2 Type 2230/2242/2280に対応し、容量は256/512/1,024/2,048GBを用意する。なお、256GBモデルのみ第6世代BiCS FLASHフラッシュメモリを採用している。
+PC Watch,上田 羽純",[],[]
+さよなら「WD_BLACK」「WD Blue」。新SSDブランド「SANDISK Optimus」が発表（PC Watch）,https://news.yahoo.co.jp/articles/403303f2c0d75c66c4c4dbb485c3cc760de9511f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000033-imppcw-000-1-view.jpg?exp=10800,2026-01-06T14:01:00+09:00,2026-01-06T14:01:00+09:00,PC Watch,imppcw,PC Watch,607,"写真：PC Watch
+サンディスクは1月6日、内蔵SSDの新ブランド「SANDISK Optimus」を発表した。既存の「WD Blue」「WD_BLACK」に替わるリブランドであり、2026年上半期から販売/先行受注を開始する予定。現行製品に関してはスペックの変更はない。
+【画像】現行機種についてはブランド名のみ変更して型番の数字部分を据え置く
+新たに発表されたOptimusブランドには「Optimus」「Optimus GX」「Optimus GX Pro」の3ラインが含まれる。Optimusは一般向けのWD Blue、Optimus GX/GX ProはこれまでWD_BLACKがカバーしていたゲーミングやクリエイティブ、ワークステーション用途をそれぞれ置き換える。
+
+　なお型番については「WD_BLACK SN 8100 NVMe SSD」を「SANDISK Optimus GX PRO 8100 NVMe SSD」のような形で数字部分を新ブランド名でも据え置く。
+
+　新ブランド投入に合わせて、M.2 2230フォームファクタの「SANDISK Optimus GX 7100M NVMe SSD」を発表した。こちらはリード7,250MB/s、ライト6,900MB/sの速度を実現したPCIe 4.0対応のSSDとなる。容量は1TBの2TBの2種類が用意される。
+PC Watch,関根 慎一",[],[]
+"MSI、""ノートの限界を超える性能""謳うゲーミングPCや約899gの軽量ノートなど、CES 2026で一挙公開（PC Watch）",https://news.yahoo.co.jp/articles/cea49d8808229076d0f65b0b4cb36dd058247267,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000032-imppcw-000-1-view.jpg?exp=10800,2026-01-06T13:13:00+09:00,2026-01-06T13:13:00+09:00,PC Watch,imppcw,PC Watch,1301,"写真：PC Watch
+MSIは、CES 2026においてビジネスノートPC「Prestige」および「Modern」、ゲーミングノートPC「Raider」シリーズなどの新モデルを発表した。
+【画像】Prestigeシリーズ
+■ Prestigeシリーズ
+
+　Prestigeシリーズからは、「Prestige 13 AI+」「Prestige 14」「Prestige 16」の新モデルが公開された。いずれも最新CPUであるCore Ultraシリーズ3を搭載し、大幅な性能向上を謳う。
+
+　筐体も薄型化/軽量化を行なった。重量はそれぞれ暫定で約899g、約1.32kg、約1.59kgと、シリーズトップクラスの軽さを実現したという。
+
+　また、2in1タイプの「Prestige Flip」も公開された。専用スタイラスペン「MSI Nano Pen」が付属する。
+
+■ Modernシリーズ
+
+　Modernシリーズからは、「Modern 14S」「Modern 16S」の2機種が発表された。金属素材を増やし、丸みを帯びたラインを採用することでより高級感のあるデザインに仕上がっているという。
+
+　Core Ultraシリーズ3を採用し、豊富なインターフェイスを備えるなど、外出先での快適な作業環境を提供するとしている。重量は暫定値で約1.4kg。
+
+■ Raiderシリーズ
+
+　Raiderシリーズからは新モデル「Raider 16 Max HX」が公開。従来よりもコンパクトな筐体を採用しつつ、システム全体の総消費電力300Wという「ゲーミングノートの限界を超える性能」を謳う。
+
+　CPUにCore Ultra 200HX、GPUにGeForce RTX 5090/5080 Laptop GPUを搭載し、それぞれ最大125W、175Wの電力で駆動。これらを冷却するために新設計の「Cooler Boost Trinity + Intra Flow」を採用し、3基のファンや6本のヒートパイプなどで静音性との両立を実現するという。
+
+■ Stealthシリーズ
+
+　薄型ゲーミングノートPCの「Stealth」シリーズからは、厚さ19.9mm、重量暫定2kg未満の「Stealth 16 AI+」が発表された。前世代からより薄型化と軽量化を行ないつつ、新しい「Cooler Boost + Intra Flow」冷却システムにより、GeForce RTX 50シリーズGPUへ最大20W多く電力を供給、性能を底上げできるという。
+
+　Thunderbolt 4端子を2基搭載するなど接続性を確保したほか、メモリスロット2基やSSDスロットを備え、アップグレードにも対応する。
+
+■ Clawシリーズ
+
+　ハンドヘルドゲーミングPCである「Claw」シリーズからは、「Claw 8 AI+」の新色として「Glacier Blue Edition」の追加が発表された。氷の層をイメージした色合いと曲線的な筐体が、躍動感あるゲーミングスタイルを表現しているという。
+PC Watch,上田 羽純",[],[]
+サードウェーブ、Core Ultraシリーズ3搭載ノートを1月28日発売（PC Watch）,https://news.yahoo.co.jp/articles/97388fa1a9371bc3c8b8ee2d7eeafb23ef6a75a1,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000030-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:33:00+09:00,2026-01-06T12:33:00+09:00,PC Watch,imppcw,PC Watch,789,"写真：PC Watch
+サードウェーブは、Core Ultraシリーズ3搭載のノートPC「DX-16PN7A」「F-14PN7A」「F-14PN5A」を1月28日にドスパラで発売する。1月7日の午前5時より予約を受け付ける予定。BTOには非対応。
+
+　いずれもPanther LakeことCore Ultraシリーズ3を搭載し、Copilot+ PC対応。第5世代NPUの搭載によるAIの性能向上/低消費電力化が謳われている。また、アルミニウム合金製の天板を用いた薄型軽量筐体を採用し、MIL-STD 810H準拠の堅牢性を備える。
+
+　DX-16PN7Aは、Core Ultra 7 355搭載の16型ノートPCで、価格は25万9,980円。メモリは32GB、ストレージは1TB M.2 NVMe SSD、ディスプレイは1,920×1,200ドット/165Hz表示対応の16型非光沢液晶、OSはWindows 11 Home。
+
+　インターフェイスはThunderbolt 4、HDMI 2.1、USB 3.2 Gen 2 Type-C、USB 3.2 Gen 2、USB 3.2 Gen 1、Wi-Fi 7、Windows Hello対応赤外線カメラ、音声入出力など。本体サイズは約359×254×23mm、重量は約1.42kg。
+
+　F-14PN7Aは、Core Ultra 7 355搭載の14型モバイルノートPC。価格は25万9,980円。メモリは32GB、ストレージはM.2 NVMe SSD。本体サイズは約313×224×22mm、重量は約1.15kg。F-14PN5Aは、Core Ultra 5 325を搭載した14型モバイルノートPC。価格は21万9,980円。メモリは16GB。それ以外の主な仕様はF-14PN7Aとほぼ共通。
+PC Watch,関根 慎一",[],[]
+AMD、ゲーマー向けCPU「Ryzen 7 9850X3D」発表（PC Watch）,https://news.yahoo.co.jp/articles/c0c5cc85ce86ccf0917bfa08b0c2b5e4b935523e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000029-imppcw-000-2-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T16:00:34+09:00,PC Watch,imppcw,PC Watch,977,"写真：PC Watch
+米AMDのリサ・スーCEOは1月5日(現地時間)、CESの前日基調講演に登壇し、デスクトップPC向け「Ryzen 9000 X3D」シリーズの新しいSKUとなる「Ryzen 7 9850X3D」の提供開始を発表した。
+【画像】Ryzen 7 9850X3Dが発表される(出典: LEADING THE AI PC AND GAMING、AMD)
+Ryzen 9000シリーズは、Zen 5コアを搭載したデスクトップPC向けのSocket AM5に対応したCPUで、自作PC市場やゲーミングPC向けとして人気を集めている。2024年5月のCOMPUTEX 2024で発表され、2024年7月から販売されている。
+
+　今回発表されたのは、そのRyzen 9000シリーズのうち、3D V-Cacheと呼ばれる縦方向に追加のL3キャッシュを搭載しているRyzen 9000 X3Dシリーズの新しいSKUになるRyzen 7 9850X3D。Ryzen 7 9800X3Dと、3D V-CacheなしのRyzen 7 9900Xの中間に設置された新しいSKUになる。
+
+　下位グレードになるRyzen 7 9800X3Dとの違いはブースト時のクロックで、Ryzen 7 9800X3Dが最大5.2GHzまでとなっているのに対して、Ryzen 7 9850X3Dは5.6GHzまで引き上げられる。
+
+　ブースト時のクロックは、アプリケーション起動時やゲームロードなどに効いてくるので、ゲーマーなどにとって体験が改善される可能性がある。それ以外の仕様(CPUコア数が8コア/16スレッド、L2+L3のキャッシュ容量が104MB、120WのTDP)は基本的にRyzen 7 9800X3Dと同じだ。
+
+　なお、同日にはDellがRyzen 7 9850X3Dを搭載したAlienware Area-51ゲーミング デスクトップを発表している。Alienware Area-51ゲーミング デスクトップは、従来はIntel CPUのみを採用していたが、昨年(2025年)の暮れにAMD Ryzen 9000シリーズを搭載したバージョンが追加されていた。今回のCESでは、早速AMD CPU搭載モデルが発表された形だ。
+PC Watch,笠原 一輝",[],[]
+Ryzen AI 400シリーズ搭載ノートがAcerから。16型ゲーミングも（PC Watch）,https://news.yahoo.co.jp/articles/0c0779cb61d8a8efd86e9996db406705c489d028,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000031-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,1441,"写真：PC Watch
+Acerは、新型CPU「Ryzen AI 400」シリーズを搭載するノートPC 4機種を発表した。
+【この記事に関する別の画像を見る】
+■ Swift Go 16 AI
+
+　Swift Go 16 AIは、OLEDディスプレイなども選択可能な16型高性能ノートPC。北米では2026年第1四半期の発売を予定している。
+
+　主な仕様は、CPUが最大Ryzen AI 9 465、メモリが最大32GB、ストレージが最大1TB SSD、ディスプレイが16型1,920×1,200ドットOLED/2,048×1,280ドットOLED/1,920×1,200ドットIPS、OSがWindows 11 Homeなど。
+
+　インターフェイスは、USB Type-C 2基、USB 3.2(Gen不明) 2基、Wi-Fi 7、Bluetooth 5.4、HDMI 2.1、500万画素Webカメラ、microSDカードスロット、音声入出力などを備える。
+
+　本体サイズは355.5×251.22×11.5～15.9mm、重量は1.6kg。
+
+■ Aspire 14 AI/16 AI
+
+　「Aspire 16 AI」および「Aspire 14 AI」は、メインストリーム向けの16型/14型ノートPC。いずれも北米では2026年第2四半期の発売を予定している。
+
+　主な仕様はAspire 16 AIの場合、CPUが最大Ryzen AI 9 465、メモリが最大32GB、ストレージが最大1TB SSD、ディスプレイが120Hz表示対応16型1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　Aspire 14 AIの場合、CPUが最大Ryzen AI 7 445、メモリが最大32GB、ストレージが最大1TB SSD、ディスプレイが120Hz表示対応14型1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　インターフェイスはともに、USB Type-C 2基、USB 2基、Wi-Fi 6E、Bluetooth 5.3、HDMI 2.1、フルHD Webカメラ、microSDカードスロット、音声入出力などを備える。
+
+　本体サイズおよび重量は、Aspire 16 AIが354.9×250.1×11.5～15.9mmで1.55kg、Aspire 14 AIが312×225.9×11.5～15.9mmで1.27kg。
+
+■ Nitro V 16 AI
+
+　「Nitro V 16 AI」は、GeForce RTX 5070 Laptop GPUを搭載した16型ゲーミングノートPC。北米では2026年第3四半期の発売を予定している。
+
+　主な仕様は、CPUが最大Ryzen AI 9 465、メモリが最大32GB、ストレージが最大2TB SSD、ディスプレイが180Hz表示対応16型1,920×1,200ドットパネル、OSがWindows 11 Homeなど。
+
+　インターフェイスは、USB4、USB 3.2 Gen 2、USB 3.2(Gen不明) 2基、有線LAN、Wi-Fi 6E、Bluetooth 5.4、HDMI 2.1、フルHD Webカメラ、音声入出力などを備える。
+
+　本体サイズは356.5×260×11.37～19.9mm、重量は2.1kg。
+PC Watch,宇都宮 充",[],[]
+AMD、Ryzen AI Max 300シリーズにGPU重視版追加（PC Watch）,https://news.yahoo.co.jp/articles/fbb65b3393f02fe0d1a3e60eefd5bba525964c4b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000028-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,971,"写真：PC Watch
+米AMDのリサ・スーCEOは1月5日(現地時間)、CESの前日基調講演に登壇し、最新製品などに関しての発表を行なった。この中で昨年(2025年)のCESで発表されたRyzen AI Max 300シリーズ(開発コードネーム: Strix Halo)の追加SKUを発表した。
+【画像】Ryzen AI Max 300シリーズの特徴(出典: LEADING THE AI PC AND GAMING、AMD)
+Ryzen AI Max 300シリーズは、Ryzen AI 300/400シリーズと同じZen 5アーキテクチャのCPUを採用。CU(Compute Unit)が最大40コアのGPUを内蔵することで、dGPUにも匹敵するようなスペックを実現しているのが特徴となる。
+
+　Strix Haloの開発コードネームで知られてきたRyzen AI Max 300シリーズは、2025年のCESで発表され、多くの搭載製品が登場した。最大16コアのZen 5 CPUコア、最大40CUのRadeon GPUという強力なスペックでありながら、1つのSoCとして提供されている。これにより、薄型ノートPCやミニPCといったフォームファクタでもワークステーションに匹敵する性能を実現した。
+
+　こうした小型ワークステーションPCは、3D CAD/CAMといった従来型のワークステーションアプリだけでなく、生成AIのLLMを動かす、あるいは生成AIアプリケーションを作成する環境としても人気を集めており、Ryzen AI Max 300シリーズを搭載したノートPCやミニPCなどが多数発表された。
+
+　AMDとしてはこうした動きに乗り、新たに「Ryzen AI Max+ 392」と「Ryzen AI Max+ 388」を追加することを発表した。CPUコアは、前者が12コア/24スレッド、後者が8コア/16スレッドとなる。いずれも50TOPSのNPU、40CUのGPU(60TFLOPS)を搭載する。
+
+　Ryzen AI Max+ 395に比べてCPUコアを減らしているが、GPUは同じ40CUになっている。つまり、ワークステーションPCのアプリケーションやAI推論向けを意識したモデルと言える。
+PC Watch,笠原 一輝",[],[]
+"AMD、""Core Ultra 9に勝る""Ryzen AI 400発表（PC Watch）",https://news.yahoo.co.jp/articles/f4680a7c90da71dc135191b30e8eaec6d123f395,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000027-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,1551,"写真：PC Watch
+AMDのリサ・スー CEOは1月5日(現地時間)、CESの前日基調講演に登壇し、、開発コードネーム「Gorgon Point」で知られてきた製品を「Ryzen AI 400シリーズ」として発表した。
+【画像】AMDが発表したRyzen AI 400シリーズ(出典: LEADING THE AI PC AND GAMING、AMD)
+Ryzen AI 400シリーズの基本的なアーキテクチャは前世代となるRyzen AI 300シリーズ(開発コードネーム: Strix Point/Kraken Point)と共通。いわゆる“リフレッシュ”で性能を引き上げたバージョンに相当する。
+
+　CPUコアはZen 5およびZen 5cで、内蔵GPUはRDNA 3.5、NPUはXDNA2と基本的には従来のStrix Point/Kraken Pointと同じだ。それぞれのアーキテクチャに関しては以下の記事が詳しいのでご参照いただきたい。
+
+　Strix Point/Kraken Pointと同じように、CPUはZen 5が4コア、Zen 5cが8コアの最大12コア構成、内蔵GPUのRDNAは最大16CU(Compute Unit)、XDNA2のNPUは最大32タイル構成、L2+L3キャッシュは最大36MBとなる。
+
+　ただし、Ryzen AI 300時代には開発コードネームがStrix Point(Ryzen AI 9 HX 375、Ryzen AI 9 HX 370、Ryzen AI 9 365)と、Kraken Point(Ryzen AI 7 350、Ryzen AI 5 340、Ryzen AI 5 330)に分かれており、発表時期も前者が2024年5月、後者が2025年1月と分かれていたが、Ryzen AI 400シリーズでは上から下まで同時に今回発表され、開発コードネームもGorgon Pointと1つだけになる。
+
+　プロセスノードはStrix Point/Kraken Pointと同じTSMC 4nmだが、最新の最適化されたノードとなるほか、ダイ設計も最適化が進んだことでRyzen AI 300シリーズに比べて性能が向上している。具体的にはCPU/GPU/NPUなどのクロック周波数と、LPDDR5xのデータ転送レートが引き上げられた。
+
+　最上SKUとなるRyzen AI 9 HX 475はブースト時の最大クロックは5.2GHz、GPUのブーストクロックは3.1GHz、LPDDR5x-8533に対応、NPUは60TOPSとなっており、Ryzen AI 300シリーズの最上位SKUとなる「Ryzen AI 9 HX 375」(CPU最大5.1GHz/GPU最大2.9GHz/LPDDR5x-8000/55TOPS)に比べて高い性能を発揮する。
+
+　なお、Ryzen AI 400シリーズには以下のようなSKUが用意されている。
+
+　こうした強化により、Ryzen AI 9 HX 475(TDP 28W)は競合メーカーの製品(Core Ultra 9 288V/TDP 30W)と比較してマルチスレッドの性能で1.3倍、コンテンツクリエーションで1.7倍、ゲームで1.1倍、NPU TOPSで1.25倍、Cinebenchマルチスレッドで1.7倍などの性能を発揮するという。
+
+　Ryzen AI 400シリーズを搭載した製品は第1四半期(2026年1月～3月期)に提供が開始され、Acer、ASUS、Dell、HP、LenovoなどのグローバルOEMメーカーに加えて、日本のNEC PCからも提供される予定だ。
+PC Watch,笠原 一輝",[],[]
+キーボードに見えて実はPC！Ryzen+バッテリ搭載の「HP EliteBoard G1a」（PC Watch）,https://news.yahoo.co.jp/articles/5ebc88d3c6223acdfa024e896ec4b010776f02df,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000026-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,1471,"写真：PC Watch
+HPは1月5日(現地時間)に報道発表を行ない、同社の新規カテゴリのPC製品となる「HP EliteBoard G1a」を発表した。
+【画像】USB給電が可能なディスプレイと組み合わせると本体に給電(バッテリ内蔵モデルは充電)しながら使える
+EliteBoard G1aは、非常にざっくりいうと、ノートPCのディスプレイを切り離して、いわゆるC面カバーとD面カバーだけにしたような製品。本体の内部にはキーボード、SoC、ストレージ、バッテリ、Wi-Fi/Bluetoothなどが内蔵されており、ディスプレイとマウス以外はすべて内蔵されている。
+
+　この製品を会社のフリーアドレスや自宅に設置してある外付けモニターに接続して利用する使い方が可能で、自宅と会社の両方で仕事をしているような「ハイブリッドワーク」と呼ばれる形で働いているビジネスパーソンをターゲットにした製品になる。
+
+■ モニターがある拠点間を移動しているハイブリッドワーカー向けの製品
+
+　HP EliteBoard G1aは非常に乱暴な表現をすると、ノートPCからディスプレイを取り外して、さらにタッチパッドも取り払って、いわゆるC面とD面だけにしたようなキーボード型のPCとなる。
+
+　中には、CPU、メモリ、ストレージ、バッテリ(オプションでバッテリレスも選択できる)などのPCを構成する要素とキーボードはすべて入っており、バッテリ内蔵モデルではモダンスタンバイにも対応するなど、機能そのものはディスプレイとタッチパッドがないノートPCといって差し支えがない。
+
+　このため、たとえば会社と自宅にモニターとマウスを置いておけば、2拠点を行き来して働くようなハイブリッドワークのユーザーにとって、通勤時には必要のないモニターを持って歩かなくて済むことになる。出先でノートPCを使う必要がないユーザーであれば、これで十分といえるだろう。
+
+　バッテリを内蔵したモデルでは、ノートPCと同じようにモダンスタンバイで利用することが可能であるので、一般的なキーボード型PCのように、いちいちOSをシャットダウンする必要がない。使い終わったらディスプレイから切り離せば、一定期間後にスタンバイになり、会社なり自宅なりについたら、USB PD給電に対応した外付けディスプレイなどに接続すれば、すぐに仕事を再開できる。
+
+■ Ryzen AI 300を採用し、USB Type-Cでモニターと接続する仕組み
+
+　CPUはRyzen AI 300シリーズ(AMD PRO対応版と未対応版が用意される)で、メモリは最大64GB、ストレージはM.2の形になっており、最大で2TBまで対応可能、バッテリはオプションで32Whの容量を選択できる。
+
+　インターフェイスはUSB4、USB 3.2 Gen 2 Type-Cがあるため、USB PD給電に対応していない外付けモニターと接続する場合でも、1ポートをモニターに、1ポートをUSB PDのACアダプタに接続することで、給電しながら利用できる。
+
+　なお、HDMIなどの物理的な端子は用意されていないため、ディスプレイ側にUSB Type-C入力がない場合には、USB Type-C(USB4)をHDMIやDisplayPortに変換するハブやアダプタなどを利用する必要がある。
+
+　HPによれば米国では3月から販売開始する予定で、価格は発売時期が近くなった頃にアナウンスされると説明された。
+PC Watch,笠原 一輝",[],[]
+もはやデスクトップ級。新開発「クライオ・チャンバー」が実現したAlienware史上最強ノート（PC Watch）,https://news.yahoo.co.jp/articles/a41eaf3f6029908b4cc07c1ade060b0cb4b5a3f5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000025-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,3410,"写真：PC Watch
+Dell Technologies(以下Dell)は1月5日(現地時間)、ゲーミングブランド「Alienware」のハイエンドゲーミングノートPC「Alienware 16 Area-51」「Alienware 16X Aurora」「Alienware 18 Area-51」を発表した。
+【画像】底面から半透明で確認できるサーマル
+■ 175W TGPなGeForceと65W TDPなCore Ultra 200HX構成が可能なAlienware 16 Area-51
+
+　DellのAlienwareは言わずと知れたゲーミングPCのブランドだが、その中でも「Area-51」はプレミアム向けの製品につけられる製品名となる。つまり、Alienware 16 Area-51は、16型のディスプレイを搭載したAlienwareブランドのプレミアム向け製品となる。
+
+　CPUにCore Ultraシリーズ2(200HX)を採用しており、dGPUにはGeForce RTX 50シリーズが採用されており、GeForce RTX 5090 Laptop GPU 24GB、GeForce RTX 5080 Laptop GPU 16GB、GeForce RTX 5070 Ti Laptop GPU 12GBの3つから選択することが可能だ。
+
+　Dellによれば、GPUには175W TGP、CPUには65W TDPで、合計240Wの熱設計の枠が設定されており、その枠内で性能を引き上げて利用することが可能になっている。こうした消費電力をカバーするため、ACアダプタは360W定格のSFF GaN FETを採用したアダプタになっている。
+
+　こうした熱設計枠を実現できたのも、新しい「クライオ・チャンバー」と呼ばれる新しい放熱機構が採用されていることが貢献している。従来モデルに比べて空気流量が35%アップし、ノイズは逆に15%削減されている。さらにヒートパイプとベイパーチャンバーに銅素材を利用することで熱伝導効率も高められている(ベイパーチャンバーなどは5070 Ti以上の構成に装備される)。
+
+　メモリは最大64GB(DDR5-6400)に対応、ストレージは最大で12TB RAID構成などに対応している。
+
+　また、同社が「Alienware 30(AW30)」と呼んでいるAlienwareブランド製品の30周年を記念するデザイン言語に基づいたデザインを採用している。「Liquid Teal」と呼ばれるカラーを採用したアルミニウム素材のボディ、近年のAlienwareノートPCで採用されているゼロヒンジデザイン、改良されたVレールエッジにより人間工学的な快適さを実現していること、プログラマブルにカラーを変化できるAlienFXイルミネーションやタッチパッドなどが特徴となっている。
+
+　ディスプレイは非光沢OLEDの、16型WQXGA(2,560×1,600ドット、240Hz、0.2ms、620cd/平方m)で、色域はDCI-P3 120%と広い色域に対応しており、高輝度であることも特徴だ。NVIDIAのG-SYNCおよび、Advanced Optimusに対応しており、必要に応じて内蔵GPUに切り替えることで、バッテリ駆動時の消費電力を抑えることが可能になる。バッテリは96Whで、重量は3.4kgからとなる。
+
+　DellによればAlienware 16 Area-51は第1四半期に提供開始予定で、価格などは現時点では未定。リリースが近づいてきた時に発表される予定と説明されている。
+
+■ 同じ非光沢OLEDを採用した廉価版ゲーミングノートPC「Alienware 16X Aurora」
+
+　Alienware 16X Auroraは、比較的エントリークラスに位置する製品となる。高品質だが安価なゲーミングノートPCを購入したいユーザー向けの選択肢となっている。
+
+　その特徴は、上位モデルとなるAlienware 16 Area-51と同じ16型非光沢OLEDのディスプレイを採用していることだ。解像度はWQXGA(2,560×1,600ドット)、リフレッシュレートは240Hz、応答速度は0.2ms、620cd/平方mの輝度とハイエンドのAlienware 16 Area-51に採用されているものとまったく同等のスペックで、DCI-P3の色域が120%(HDR時)などのスペックとなっている。
+
+　また、G-SYNCとAdvanced Optimusに対応しており、G-SYNCに対応したゲームで安定してフレームレートを維持し、不必要な時は内蔵GPUで描画することでバッテリ駆動時間を延ばすことが可能になっている。
+
+　GPUはGeForce RTX 5070 Laptop GPU(8GB)ないしはGeForce RTX 5060 Laptop GPU(8GB)から選択することが可能になっており、この点でAlienware 16 Area-51と差別化されている。CPUはCore Ultra 200HX。熱設計では、上位モデルと同じクライオ・チャンバーが採用されており、2つのファンと3本の銅製ヒートパイプで熱設計の最適化が行なわれている。
+
+　Dellによれば、Alienware 16X Auroraは第1四半期中に提供開始予定で、価格は発売が近くなってきた頃に明らかにされる見通しだ。
+
+■ 18型液晶ディスプレイを採用したAlienware 18 Area-51
+
+　Alienware 18 Area-51は18型のハイエンドゲーミングノート。
+
+　CPUにCore Ultraシリーズ2(200HX)を搭載しているほか、dGPUにはNVIDIA GeForce RTX 50 Laptop GPUが採用されており、GeForce RTX 5090 Laptop GPU 24GB、GeForce RTX 5080 Laptop GPU(16GB)、GeForce RTX 5070 Ti Laptop GPU(12GB)の3つのdGPUから選択することが可能だ。
+
+　GPUには175W TGP、CPUには105W TDPで合計280Wの熱設計の枠が設定されており、その枠内で性能を引き上げて利用することが可能になっている。こうした消費電力をカバーするため、ACアダプタは360W定格のSFF GaN FET型のアダプタになっている。
+
+　Alienware 16 Area-51と同様、新しいクライオ・チャンバーと呼ばれる新しい放熱機構が採用されている。さらにヒートパイプとベイパーチャンバーに銅素材を利用することで熱伝導効率も高められている(ベイパーチャンバーなどは5070 Ti以上の構成に装備される)。
+
+　メモリは最大64GB(DDR5-6400)に対応、ストレージは最大で12TB RAID構成などに対応している。
+
+　また、Alienware 30(AW30)という30周年記念デザインを採用している。Liquid Tealカラーを採用したアルミニウム素材のボディ、近年のAlienwareノートPCで採用されているゼロヒンジデザイン、改良されたVレールエッジに、プログラマブルにカラーを変化できるAlienFXイルミネーションやタッチパッドなどが特徴。
+
+　ディスプレイは、16型になるAlienware 16 Area-51が16型の非光沢OLEDを採用しているのに対して、Alienware 18 Area-51は18型の液晶を採用。解像度はWQXGA(2,560×1,600ドット)で、リフレッシュレートは300Hz、応答速度3ms、輝度は500cd/平方m、色域はDCI-P3 100%となっている。また、G-SYNC+Advanced Optimusに対応している。バッテリ容量は96Whで、重量は4.34kgになっている。
+
+　Alienware 18 Area-51は第1四半期に提供開始予定で、価格などは現時点では未定。リリースが近づいてきた時に発表される予定と説明されている。
+PC Watch,笠原 一輝",[],[]
+Alienware Area-51ゲーミング デスクトップにRyzen 7 9850X3D搭載モデル（PC Watch）,https://news.yahoo.co.jp/articles/3c42ef193fadeaec121b7b1fb94609bcd315370e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000024-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,1418,"写真：PC Watch
+Dellが販売している「Alienware Area-51ゲーミング デスクトップ」は、DellのAlienwareブランドのゲーミング・デスクトップPCの最高峰製品だ。これまではIntel CPUのみの提供だったが、昨年(2025年)の暮れにRyzen 9000/9000X3Dを搭載したAMD CPU版が販売開始された。
+【画像】AMDが発表したRyzen 7 9850X3D(スライド提供: Dell)
+アナウンス時点ではRyzen 7 9700X、Ryzen 7 9800X3D、Ryzen 9 9950X3Dという3つのSKUが選択可能だったが、このたびCESにおいて、AMDのリサ・スーCEOの基調講演で発表された新SKU「Ryzen 7 9850X3D」搭載モデルが追加発表された。
+
+　Ryzen 7 9850X3Dは、8コア/16スレッドのZen 5 CPU(ブースト時最大5.6GHz)、104MBのキャッシュ(L2+L3)、120WのTDPというスペックで、Alienware Area-51ゲーミング デスクトップに搭載されて販売されることになる。
+
+■ Ryzen 7 9850X3Dを搭載したAlienware Area-51ゲーミング デスクトップは2月発売
+
+　DellのAlienware Area-51ゲーミング デスクトップは、“Area-51”というブランド名を冠されていることからも分かるように、AlienwareブランドのデスクトップPCの中ではハイエンドに位置する製品となっている。
+
+　従来、Alienware Area-51ゲーミング デスクトップのCPUはCore Ultraシリーズ2(200HX)だけで、昨年の末にひっそり発表されたAlienware Area-51ゲーミング デスクトップ(AAT2265)で、Ryzen 9000/9000X3DシリーズのCPUを搭載した製品が追加された。
+
+　それ以外のスペックは基本的に従来のAlienware Area-51ゲーミング デスクトップと同じで、標準的なATXケース、電源、マザーボードなどが利用されており、将来的にそれらも含めて自作PC用として販売されているパーツに交換できる拡張性などの特徴も引き継いでいる。
+
+　今回のCESで発表されたのは、1月5日(米国時間)の夕刻に行なわれたAMD リサ・スーCEOの基調講演で発表されたばかりの新SKU「Ryzen 7 9850X3D」を搭載したモデル。Ryzen 7 9850X3Dは、Ryzen 9 9900X3DとRyzen 7 9800X3Dの中間モデルとして設定された新SKUで、Ryzen 7 9800X3Dと同じ8コア/16スレッドのZen 5コア、3D方向に積層されている3D V-Cacheによる104MBのキャッシュ(L2+L3)は同等ながら、ブースト時の最高クロックがRyzen 7 9800X3Dの5.2GHzから5.6GHzに引き上げられていることが特徴になる(TDPは同じ120W)。
+
+　Dellによれば、Ryzen 7 9850X3Dを搭載したAlienware Area-51ゲーミング デスクトップは2月から提供開始予定で、価格は現時点では未定。発売が近づいた頃に発表される予定とのことだ。
+PC Watch,笠原 一輝",[],[]
+厚さが17mmしかないAlienwareゲーミングノートが公開（PC Watch）,https://news.yahoo.co.jp/articles/f10e398f5522f6c379fe7393d04d3c9407b28fca,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000023-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:30:00+09:00,2026-01-06T12:30:00+09:00,PC Watch,imppcw,PC Watch,1110,"写真：PC Watch
+Dell Technologies(以下Dell)は、1月5日(米国時間)に報道発表を行ない、開発中のAlienwareブランドのゲーミングノートPC「ultra-slim gaming laptop」(超薄型ゲーミングノートPC)と「entry-level laptop」(エントリー向けノートPC)を公開した。
+【画像】Dell Technologies Alienware製品責任者 マット・マクゴーワン氏が手に持つのが開発中の「ultra-slim gaming laptop」(超薄型ゲーミングノートPC)を公開し、その薄さを強調
+ultra-slim gaming laptopは、14型および16型の薄型ゲーミングノートPCで、17mm以下の薄さを実現している。
+
+　16型のモデルに関しては、昨年(2025年)発表された「Alienware 16 Area-51」と比較して、容積では50%小さくなっていると説明している。しかし、ゲームをプレイするには十分な性能を実現するため、高効率なCPUとNVIDIAのdGPUは搭載されており、それを実現することが可能なだけの熱設計が施されている。
+
+　デザインとバッテリ駆動時間も重要なポイントで、薄型デザインを実現するために「高級な素材」が利用されているとのことで、Dellの記者説明会で公開されたデバイスは、ポートなどの大きさから想像するにかなり薄型になっていることが確認できた。
+
+　もう1つのentry-level laptopは、Alienwareブランドをより広範囲なユーザーに届ける製品となる。
+
+　かつてのDellのノートPCは、プレミアムゲーミングブランドのAlienwareとエントリー向けのDell Gシリーズという2つのシリーズに分かれていた。しかし、昨年のCESでゲーミングブランドをAlienwareに統一する意向が示されて以降、Dell Gシリーズの新製品は発表されておらず、Alienware Auroraシリーズがその役割を果たすようになっていた。
+
+　今回公表されたエントリー向け製品が、Alienware Auroraシリーズの製品なのか、それともそれよりもさらに安価な製品向けなのかは明白ではないが、Dellは「Alienwareがまだ到達していない価格帯向けの新規設計」と説明しており、Alienware Auroraシリーズよりも低価格帯を狙った製品である可能性もある。
+
+　Dellによれば、いずれの製品も現在開発中で、今春により詳細などが明らかにされる予定だ。
+PC Watch,笠原 一輝",[],[]
+印刷したいファイルはCopilotに聞け――HP、Microsoft 365 Copilotを複合機に統合（PC Watch）,https://news.yahoo.co.jp/articles/782a6dd072da6488b54639332b9779a5381f5d62,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000022-imppcw-000-1-view.jpg?exp=10800,2026-01-06T12:00:00+09:00,2026-01-06T12:00:00+09:00,PC Watch,imppcw,PC Watch,936,"写真：PC Watch
+HPは1月5日(現地時間)に報道発表を行ない、同社の複合機(MFP)に、Microsoft 365 Copilotの機能を統合すると発表した。
+【画像】HPのオフィス向けプリンタソリューションに、HP for Microsoft 365 Copilotが加わる
+MFPを利用しているユーザーが、Microsoft 365 Copilotのアプリをインストールすると、PC上でMicrosoft 365 Copilotを利用している時と同じように、オンラインストレージからファイルを探して目的のファイルを印刷し、プリンタ上で翻訳の機能を利用できるようになる。
+
+■ HP Workpath appに対応したMFPで利用可能なHP for Microsoft 365 Copilotを今春提供開始
+
+　今回HPが発表したのは、MFP向けに提供している「HP Workpath app」と呼ばれるマイクロアプリで、「HP for Microsoft 365 Copilot」というアプリをプリンタにインストールすると利用できるようになる。
+
+　このアプリをインストールすると、プリンタの操作画面にMicrosoft 365 Copilotのアイコンが表示され、PCやスマートフォンでMicrosoft 365 Copilotを利用するのと同じようなLLMの応答機能をプリンタ上で利用することが可能になる。
+
+　たとえばオンラインストレージ(OneDriveやSharePoint)からCopilotにファイルを探してそれを印刷し、その逆にMFPでスキャンした文書をオンラインストレージに保存できる。
+
+　エンタープライズグレードのセキュリティが実現されているため、大企業などでMicrosoft 365 Copilotを利用している場合でも、PCやスマートフォンで利用するのと同じセキュリティレベルで利用できる。
+
+　HP for Microsoft 365 Copilotは、対応するHPのMFPで活用できる。提供予定は今春からとなっており、Microsoft 365 Copilotの利便性が1つ増えることになりそうだ。
+PC Watch,笠原 一輝",[],[]
+今年のCESはフィジカルAIとロボティックスに注目だ！（PC Watch）,https://news.yahoo.co.jp/articles/a589ef1fb47ba3b6c00dd2c099b42c7e5ca1903c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000021-imppcw-000-1-view.jpg?exp=10800,2026-01-06T10:48:00+09:00,2026-01-06T10:48:00+09:00,PC Watch,imppcw,PC Watch,2552,"写真：PC Watch
+CESは、例年1月の上旬に米国ネバダ州ラスベガス市の各会場(LVCC=Las Vegas Convention CenterやThe Venetian Expoなど)において開催されている、デジタル産業における世界最大の展示会だ。本年は1月6日～1月9日(現地時間)の4日間に渡って開催される予定で、1月4日からは報道関係者に向けたイベントなどがスタートしている。
+【画像】CTA 上席副会長 兼 CEOのゲアリー・シャピーロ氏
+この中で、CTA(Consumer Technology Association)会長キンゼー・ファブリツィオ氏は「フィジカルAIやロボティックス関連の展示が増えている」と述べ、今年(2026年)の見どころの1つはフィジカルAIやヒューマノイドロボットなどになる可能性が高いと説明した。
+
+■ フィジカルAIやヒューマノイドロボットなどが大きな注目を集めている本年のCES
+
+　CESは1967年に初回が行なわれた歴史ある展示会で、かつてはConsumer Electronics Showという正式名称の略称ということで、CES(セス)という愛称で呼ばれていた。しかし近年は主催者であるCTA自身が、もはやConsumer Electronics Showの略称ではなく、CES(シーイーエス)が正式名称だと説明している。
+
+　そのCESの主催者であるCTAは、報道関係者向けのプログラムが始まった1月4日に記者会見を行ない、見どころなどを説明した。CTAの会見に参加したのは、CTA上席副会長兼CEOのゲアリー・シャピーロ氏、CTA会長キンゼー・ファブリツィオ氏、CTA副会長兼展示会担当事業部長ジョン・ケリー氏の3名。それぞれが本年のCESなどの見どころなどを語った。
+
+　CTAやCESの顔ともいってよいCTA CEOのシャピーロ氏は「CESは我々にとっても、産業にとっても特別なイベントだ。なぜなら、ここではイノベーションが生み出され、発表され、そして試され、議論され、進展が明らかにされる場所だから。
+
+　そうした新しいイノベーションを持つスタートアップが、グローバルにブランドを展開するような大企業に見つけられ、そして皆さんのような報道関係者に発見される場でもある。まさにこれからの数日でそうした新しいブレイクスルーを多く発見していただけるだろう」と述べ、CESがイノベーションを発信し、それを来場者が見つけて、未来のApple、Amazon、Google、Microsoftなどを見つける場にしていきたいと語った。
+
+　ファブリツィオ氏は「AMD、BMW、ジョンディア、Lenovo、LG、Qualcomm、Samsungのような世界的なブランドも多数参加していただいているほか、Eureka Parkと呼ばれるThe Venetian Expoの展示会場では40カ国からのスタートアップが集まり、AIやロボティックスなどに関して多数のイノベーションを展示している。
+
+　今年のCESではそうしたフィジカルAI、ヘルスケア、XR、自動車関連、スマート工場、エンタープライズテック、そしてエネルギーといった多数の分野で新しいイノベーションが示される。CES Foundryというイベントでは、量子コンピュータなど、これからの新しいトレンドについても議論する。
+
+　また、我々自身のイノベーションも推進しており、新しいCESアプリには翻訳サービスも用意しているなどしており、英語圏ではない国から来た来場者の皆さまにはぜひ活用してほしい」と述べ、CESのイノベーションも進化しているとアピールした。
+
+　今年のCES基調講演は、開幕前日(1月5日、現地時間、以下同)の夕刻にAMD CEOリサ・スー氏、初日(1月6日)朝に行なわれる開幕基調講演に独シーメンスAGのローランド・ブッシュ氏、そして初日夕刻にラスベガスの新名所となっている球体劇場SphereにおいてLenovo CEOヤン・ヤンチン氏、2日目(1月7日)朝に米キャタピラーCEOジョー・クリード氏などが登壇する計画になっている。本誌ではこうした講演に関しても順次リポートしていく計画だ。
+
+■ スタートアップ優遇施策は大企業も歓迎しているとCTA、規模は例年並みになる見通し
+
+　なお、今回のCESでは、これまでの常連といってよい企業が撤退するなど、いくつかの大企業が不参加を決めている。
+
+　たとえば、日本のソニーはその代表例で、同じく韓国のSamsungは昨年までのLVCCセントラルホールの巨大ブースがなくなり、その代わりに近隣のホテルでプライベート展示や記者会見などを行なう形に変えている。
+
+　なお、ソニーに関しては、ホンダとの合弁会社になるソニー・ホンダ・モビリティーは出展しており、引き続き同社が販売するSDV「AFEELA」の展示などを行なう計画だ。
+
+　このため、今回の記者会見でもシャピーロCEOは「スタートアップ重視は大事だが、同時に大企業に対する対策は？」という質問が記者から飛んだ。CTA副会長のケリー氏は「CTAのメンバーはいずれも大企業だが、CESにEureka Parkのようなスタートアップを優遇する展示会場を作ると決めたときに真っ先に賛成してくれたのは彼らだ。今ではEureka Parkには千社を超えるスタートアップを集めているが、その結果大企業にとっても、それらの企業との商談を行なう場になっている」と述べ、大企業にとってもスタートアップを優遇することが魅力になっているのだと強調した。
+
+　なお、今年のCESの規模に関しては、「約4,000社の出展社、1,300人のスピーカーが参加するカンファレンスセッション、そして本年に関してはまだ正式な数字が出ていないので具体的にいえないが、2025年には参加者の40%が米国外から来ており、それは今年も同じだろう。そして6,500以上のメディア関係者が参加してくれている」(シャピーロ氏)と述べ、例年並みの規模、出展社数に関しては例年以上の規模で開催されていると説明した。
+PC Watch,",[],[]
+TSUKUMOのBTO PC、1月7日から一部モデル受注再開（PC Watch）,https://news.yahoo.co.jp/articles/a5707e9a20a9e7c42ac97125966b8feafa4da9df,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000020-imppcw-000-1-view.jpg?exp=10800,2026-01-06T10:33:00+09:00,2026-01-06T10:33:00+09:00,PC Watch,imppcw,PC Watch,201,"写真：PC Watch
+TSUKUMOは1月5日、公式X(旧Twitter)アカウントにおいて、現在受注停止しているBTO PCの一部モデルの受注を、1月7日16時以降に順次再開すると発表した。
+
+　各モデルの受注再開状況についてはWebサイトで順次知らせるとしている。
+
+　TSUKUMOは12月19日、想定以上の注文が入ったためBTO PC全製品の受注を一時停止していた。
+PC Watch,劉 尭",[],[]
+アニメや画像をケース前面/側面に映せるゲーミングPC「ROG G1000」（PC Watch）,https://news.yahoo.co.jp/articles/2b84ca4af50c2747cbd65cf1eb68fc4bd7968774,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000019-imppcw-000-1-view.jpg?exp=10800,2026-01-06T09:00:00+09:00,2026-01-06T09:00:00+09:00,PC Watch,imppcw,PC Watch,656,"写真：PC Watch
+ASUSは、前面や側面パネルにアニメーションなどを表示できる「AniMe Holo」を搭載したゲーミングPC「ROG G1000」を発表した。国内では5月以降の発売を予定している。
+【画像】中でLED付きのファンが回転し、アニメーションなどを表示している
+ROG G1000は、RGB LED内蔵のホログラムファンを使ったイルミネーション機能であるAniMe Holoを搭載したゲーミングPC。側面パネル部分には680個のLEDを備えた380mmファン、前面には384個のLEDを備えた2基の215mmファンを装備しており、回転しながらLEDを点灯させることで、アニメーションや画像などを自在に映し出せる。
+
+　主な仕様は、CPUが最大Ryzen 9 9950X3D、メモリが最大128GB、ストレージが最大4TB PCIe 5.0 SSD、GPUが最大GeForce RTX 5090(ROG Astral GeForce RTX 5090)、電源が1,000W 80PLUS Gold認証品などとなっている。CPUクーラーは420mmラジエータの水冷式で、外気を直接取り込める独立チャンバー「ROG Thermal Atrium」内に配置される。
+
+　ケース内部は電源部、マザーボードおよびGPU部、CPUクーラー部の3つでエアフローを分けるTri-Zone Airflow Designを採用。発熱量の大きいパーツを使用しながら、冷却効率を高めている。
+PC Watch,宇都宮 充",[],[]
+コジプロとコラボしたゲーミングタブレット登場。ROGブランド20周年記念モデル（PC Watch）,https://news.yahoo.co.jp/articles/4eb6521947c5fc4a7d1a56d4a3e5b2bccb3344ed,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000018-imppcw-000-1-view.jpg?exp=10800,2026-01-06T09:00:00+09:00,2026-01-06T09:00:00+09:00,PC Watch,imppcw,PC Watch,937,"写真：PC Watch
+ASUSは、小島秀夫氏が率いるゲームスタジオ「コジマプロダクション」とコラボレーションしたゲーミングタブレット「ROG Flow Z13-JP」、ワイヤレスヘッドセット「ROG Delta II-KJP」、ワイヤレスマウス「ROG Keris II ORIGIN-KJP」、マウスパッド「Scabbard II XXL-KJP」を発表した。いずれも2026年上半期の発売を予定している。
+【画像】コラボデザインが施された外装
+4製品ともに、2026年でROGブランドが20周年を迎えることを記念して制作されたコラボモデル。コジマプロダクション所属のデザイナー新川洋司氏が手がけており、コジマプロダクションのシンボルであるルーデンス(LUDENS)をモチーフとしたデザインが各所にあしらわれている。
+
+　ROG Flow Z13-JPでは、ROGのゲーミングノートとしては初となるカーボンファイバーを筐体に使用している点も特徴。本機の持ち運びに便利な専用スーツケースも付属する。
+
+　主な仕様はベースモデルのROG Flow Z13と同様で、CPUにRyzen AI Max+ 305、ユニファイドメモリに最大128GB LPDDR5X、ストレージに最大1TB SSD、ディスプレイに180Hz対応の2.5K ROG Nebula Displayなどを搭載する。
+
+　ROG Delta II-KJPは、50mmのダイアフラムドライバや10mmのスーパーワイドバンドブームマイクなどを搭載するワイヤレスヘッドセット。PCとスマートフォンなど2つ機器と同時に接続できるDualFlow Audioにも対応する。
+
+　ROG Keris II ORIGIN-KJPは、1億回の押下耐久性を謳う独自のROG Micro Switch IIを搭載するワイヤレスマウス。AimPoint Pro光学センサーや無線技術のSpeedNovaを備え、RGB LEDも内蔵している。
+
+　Scabbard II XXL-KJPは、900×400mmの大型マウスパッド。標準的な布製マウスパッドと比べて1.5倍スムーズな表面を実現したとする。
+PC Watch,宇都宮 充",[],[]
+真の2画面ゲーミングノートとなった新型「ROG Zephyrus DUO」（PC Watch）,https://news.yahoo.co.jp/articles/4945232c94513307c71ed9d4cd8e8cf328fc163f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000017-imppcw-000-1-view.jpg?exp=10800,2026-01-06T09:00:00+09:00,2026-01-06T09:00:00+09:00,PC Watch,imppcw,PC Watch,1710,"写真：PC Watch
+ASUSは、世界初を謳う16型2画面ゲーミングノート「ROG Zephyrus DUO」や、薄型軽量ゲーミングノート「Zephyrus G14」「Zephyrus G16」の新型を発表した。
+【この記事に関する別の画像を見る】
+■ ROG Zephyrus DUO
+
+　ROG Zephyrus DUOは、120Hz表示対応の2,880×1,800ドットROG Nebula OLEDディスプレイを上下に2枚搭載したゲーミングノート。国内では3月下旬以降の発売を予定している。
+
+　CPUには次世代のCore Ultraシリーズ3、GPUにはフラグシップのGeForce RTX 5090 Laptop GPUを内蔵し、重量級のゲームやプロレベルのクリエイティブワークにも使える高い性能を確保した。
+
+　これまでのROG Zephyrus DUOシリーズでは、キーボード奥のスペースに横長のセカンドディスプレイを配置するデザインが採用されていたが、今回の新型では両方の画面に16型2,880×1,800ドットOLEDパネルを採用。キーボードはセカンドディスプレイの上に置ける着脱式の設計とすることで、クラムシェルや2画面利用など、形態変化によってさまざまな使い方ができるようになった。
+
+　ディスプレイは同社独自のROG Nebula HDR OLEDパネルで、120Hz駆動やG-SYNC、DisplayHDR 1000に対応。応答速度は0.2ms、輝度は1,100cd/平方m、色域はDCI-P3 100%などとなっている。
+
+　着脱式のキーボードはBluetoothの無線接続に対応し、RGB LEDバックライトを内蔵。タッチパッドは従来のキー右側からキー下側へと移動し、一般的なノートPCと同様のレイアウトとなった。これに伴い、タッチパッドは約2.7倍大型化した。キーストロークは1.7mm。
+
+　そのほか、メモリは最大64GB、ストレージは最大2TB SSDを内蔵。本体厚は1.95cm、重量は2.85kg。バッテリ容量は90Wh。
+
+■ ROG Zephyrus G16/G14
+
+　ROG Zephyrus G16およびG14は、薄型軽量設計を特徴とする14型/16型ゲーミングノート。国内では4月以降の発売を予定している。
+
+　CPUは、G16がCore Ultraシリーズ3、G14がCore Ultraシリーズ3または次世代のRyzen AIプロセッサを搭載。従来モデルをベースとしながら、CPUの刷新に加え、底面通気孔のデザイン変更、天板イルミネーションであるSlash Lightingの強化といった改良を実施。ディスプレイには新たにROG Nebula HDR OLEDを採用し、輝度は従来の2倍となる最大1,000cd/平方mまで引き上がった。
+
+　ROG Zephyrus G16の主な仕様は、CPUがCore Ultraシリーズ3、メモリが最大64GB、GPUが最大GeForce RTX 5090 Laptop GPUなどを搭載。ディスプレイは最大240Hz表示対応の16型2.5K OLEDパネル。本体厚は1.49cm、重量は1.85kg。バッテリ容量は90Wh。
+
+　ROG Zephyrus G14は、Intelモデルの場合、CPUがCore Ultraシリーズ3、メモリが最大64GB、ストレージが最大2TB SSD、GPUが最大GeForce RTX 5080 Laptop GPUなどを搭載。ディスプレイは最大120Hzの14型3K OLEDパネル。
+
+　AMDモデルの場合、CPUが次世代Ryzen AIプロセッサ、メモリが最大32GB、ストレージが最大2TB SSD、GPUが最大GeForce RTX 5060 Laptop GPUなどを搭載。ディスプレイは120Hz対応の14型3K OLEDパネル。
+
+　ROG Zephyrus G14はどちらも本体厚が1.59cm、重量が1.5kg。バッテリ容量は73Wh。
+PC Watch,宇都宮 充",[],[]
+Intel、Panther LakeことCore Ultraシリーズ3を正式発表（PC Watch）,https://news.yahoo.co.jp/articles/cbd7c50d4a86e375206f1988888ec03663a17f09,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000016-imppcw-000-2-view.jpg?exp=10800,2026-01-06T08:21:00+09:00,2026-01-06T09:55:32+09:00,PC Watch,imppcw,PC Watch,1486,"写真：PC Watch
+Intelは1月5日(現地時間)にCES会場で記者発表会を開催し、「Panther Lake」のコードネームで開発してきた新CPUを「Core Ultra シリーズ3」として正式発表した。
+【画像】Intel 18Aのウェハ上に構成されているCore Ultraシリーズ3のコンピュートタイル
+Core Ultraシリーズ3は、既報の通り、新しいCPUコアとしてCougar Cove(Pコア)、Darkmont(Eコア)という新しいCPUデザイン、Xe3と呼ばれる第3世代のGPU、さらに最大50TOPSの第5世代NPUを搭載する。HP、Dellなどから搭載システムが同時に発表されている。
+
+　Core Ultra シリーズ3は、2025年の10月にIntelから技術概要が発表済みとなっている。
+
+　Core Ultra シリーズ3では、Core Ultraシリーズ2で導入されたLion Cove(Pコア)およびSkymont(Eコア)の改良版となるCougar Cove(Pコア)/Darkmont(Eコア)を採用。Intelは前世代で、アイドル時の消費電力を大幅削減し、CPUアクティブ時の電力も削減した。これにより、Arm系プロセッサと比肩する長時間駆動のノートPCが設計可能になった。
+
+　GPUは前世代と比較して演算器が増やされている。12コアのXe3はIntel Arc B390/Pro B390、10コアはIntel Arc B370/Pro B370、4コアはIntel Graphicsというブランド名が与えられる。なお、Panther Lakeのダイバリエーションでは10コアXe3という構成はないので、これは12コア版の2コアを無効にしたモデルだと考えられる。
+
+　NPUはIntelの第5世代NPUとなり、内部デザインを見直すことで、電力効率が大きく改善されている。Core Ultraシリーズ2の最大48TOPSと比較すると2TOPS上がっただけだが、電力効率が大きく改善されているため、より少ない消費電力で同等の性能を発揮できるという。
+
+　Panther Lakeは、1つのパッケージの中に、コンピュートタイル(CPU)、グラフィックスタイル(GPU)、SOCタイル(NPUやメモリコントローラ、LLCなど)、IOタイルという4つのタイルがある。初代Core Ultra(Meteor Lake)で導入した3Dチップレット技術(Foveros)により、ベースタイル上に3D方向に4つのタイルが積層される。
+
+　タイル構成には、「18core 12Xe」「18core」「8Core」という3つのバリエーションがある。それぞれの詳細に関しては別記事で詳しく解説しているので、そちらをご参照いただきたい。
+
+　Core Ultraシリーズ3では、従来のようにPBP(Processor Base Power)の違いによるHシリーズ/Uシリーズなどの区分けはなくなり、すべての製品が25Wに統一された。
+
+　ただし、最上位SKUの「Core Ultra X9 388H」のように製品のブランド名の数字の前に「X」や、プロセッサーナンバーの後ろに「H」がつく場合がある。今回のモデル構成を見ると、12XeのGPUを搭載した製品に「X」、CPUコアが12コア以上(つまり18core 12Xe、18coreのタイル構成)の場合に「H」がついているので、そうした意味合いがあると考えられる。
+PC Watch,笠原 一輝",[],[]
+HP、「HyperX」をすべてのゲーミング向け製品のマスターブランドに（PC Watch）,https://news.yahoo.co.jp/articles/1c3d834c65c1a59b7577d0139af4fdca9a28d4ee,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000015-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,2319,"写真：PC Watch
+米HPは、1月5日(現地時間)に報道発表を行ない、2021年に買収して得たゲーミングブランド「HyperX」を、ゲーミングPCを含む同社のゲーミング向け製品すべてのマスターブランドにすると明らかにした。
+【画像】今後OMENブランドの製品は「HyperX OMEN」へとブランドが変更される
+現在HPのゲーミングPCのブランドは「OMEN」だが、今後OMENはHyperXのPC向けサブブランドとなり、同社のゲーミングPCは「HyperX OMEN」というブランドで呼ばれることになる。
+
+■ HyperXとOMENのブランドが合体
+
+　今回HPが明らかにしたのは、同社が2021年にKingston Technologyから買収して得たゲーミング周辺機器のブランド「HyperX」を、HPのゲーミング向け製品全体のマスターブランドにするということだ。
+
+　HyperXの買収後、HPはゲーミングPCのブランド自体は「OMEN」、キーボードやヘッドセット、マイクなどのゲーミング向け周辺機器のブランドは「HyperX」と2つのブランドを使い分けてきた。
+
+　しかし、Dellの「Alienware」、Lenovoの「LEGION」、ASUSの「ROG」、Acerの「Predator」など、他社では1つのブランドに統一されてきており、「Dell G」シリーズという廉価版のブランドを作ってみたDellも、結局はAlienwareに統合が進むなど、1つにするのが業界の流れになっている(Lenovoは未だLOQというブランドを使用してはいるが……)。
+
+　HPエクスペリエンスエンジニアリング 上級部長 ハヴァル・オスマン氏は「我々はHyperXをゲーマーのためのブランドと位置づけており、OMENとHyperXをHyperXブランドで統合し、単なる製品としてだけでなくエコシステムとしてゲーミングソリューションを一貫して提供していきたいと考えている」と述べ、HyperXとOMENのブランドを融合させることで、エンドユーザーにより分かりやすくゲーミング向け製品を提供していきたいと説明した。
+
+　今後HPが提供するゲーミングPCは「HyperX OMEN」となり、OMENがHyperXの中でゲーミングPCを示すサブブランドとして活用されていく。今回のCESでHPは「HyperX OMEN MAX 16」という16型のゲーミングノートを発表している。
+
+■ TMRセンサーを活用した新しいスティック型ボタンを採用したアケコン「HyperX Clutch Tachi」などが発表される
+
+　同時に、HyperXブランドの周辺機器に関しても新製品を発表している。発表されたのはアーケードコントローラの「HyperX Clutch Tachi」、34型ディスプレイ「HyperX OMEN OLED 34」やキーボードなどになる。
+
+□HyperX Clutch Tachi
+
+　HyperX Clutch Tachiは、磁気スイッチにTMRセンサーを統合した24mmのボタン(本体の中央に用意されているボタン)を活用。2.5mmのストローク、0.1msの応答時間、35～55gfの押下圧などにより、最小限の遅延で迅速で正確な操作を行なうことを可能にする。
+
+　この24mmのボタンはジョイスティックのような使い方が可能で、新しいゲーム操作を可能にするほか、RGBのカスタマイズも可能で、よりパーソナライズされた使い方を可能にする。
+
+　HPによれば、HyperX Clutch Tachiは今春から販売予定で、価格は販売時期が近づいてきた頃に公開される見通しだ。
+
+□HyperX OMEN OLED 34
+
+　HyperX OMEN OLED 34は、34型WQHD(3,440×1,440ドット)のQD-OLEDパネルを採用したゲーミングモニター。NVIDIAのG-SYNCおよびAMD FreeSync Premium Proに対応しており、リフレッシュレートは360Hzで、応答速度は0.3ms、色域はsRGB 100%、Display P3 99%、Adobe RGB 96%になる。HyperX OMEN OLED 34は今春から販売予定で、価格は販売時期が近づいてきた頃に公開される見通し。
+
+　ほかにも27型QHD(2,560×1,440ドット)/500HzのQD-OLEDを採用した「HyperX OMEN 27qs」、27型QHD/240HzのQD-OLEDを採用した「HyperX OMEN 27q」、23.5型フルHD(1,920×1,080ドット)/180HzのIPS液晶を採用した「HyperX OMEN 24 G2」も発表しているが、発売時期や価格などは未定だ。
+
+□HyperX Eve 1800 Gaming Keyboard
+
+　HyperX Eve 1800 Gaming Keyboardはフルサイズキーボードで、10個のゾーンに分けてRGBのカスタマイズが可能になっている。
+
+□HyperX Origins 2シリーズ
+
+　このほか、HyperX Originsブランドのキーボードで、「HyperX Origins 2 1800 Gaming Keyboard」「HyperX Origins 2 65 Gaming Keyboard」「HyperX Origins 2 Pro 65 Gaming Keyboard」などが発表されている。
+PC Watch,笠原 一輝",[],[]
+おかえり、6列目。物理キーに戻った新型「XPS 14/16」、しかも最大460gも軽量化！（PC Watch）,https://news.yahoo.co.jp/articles/97f159414acba07fcf59a742887078f0f4b45838,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000014-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,3279,"写真：PC Watch
+Dell Technologiesは1月5日(米国時間)、プレミアムブランド「XPS」を復活させ、その最新製品となる「XPS 14」と「XPS 16」を発表した。また、XPSブランドだけでなく、数年前になくなっていた6列目の物理キーも復活するなど、ユーザーの声を取り入れた新設計になっている。
+【画像】XPS 14のグラファイト、発売当初はこのカラーだけが提供される
+■ 従来モデルから280～360gほど軽量化されたXPS 14
+
+　今回発表されたXPS 14は、昨年発売されたDell 14 Premium(DA14250)の後継製品となる。シャシーの設計などが完全に見直されており、従来は1.66kg(液晶)/1.72kg(OLED)というやや重めの重量だったのに対して、今回は1.38kg(液晶)/1.36kg(OLED)と、280～360g近く軽量化されていることが大きな特徴になる。
+
+　SoCは、Core Ultraシリーズ3(開発コードネーム: Panther Lake)で、上位モデルとなるHシリーズのSoCを選択可能。また、HシリーズのTDP設定で発生する熱を効率よく排熱するためにデュアルファン構成になっており、ファンの効率などを改善することで、十分な排熱性能が実現されている。
+
+　SoCはCore Ultra X9 388H(16コア)、Core Ultra X7 358H(16コア)、Core Ultra 7 355(8コア)、Core Ultra 5 325(8コア)から選択できる。
+
+　なお、GPUはCore Ultraシリーズ3に内蔵されている内蔵GPUだけに対応しており、Dell 14 Premiumでは選択できたディスクリートGPUは選択できない。このあたりは内蔵GPUの性能が大幅に引き上げられており、それで十分だと判断されたということだ。
+
+　メモリは最大64GBまで選択可能で、64GBないしは32GBではLPDDR5x-9600、16GBではLPDDR5x-7467のLPDDR5xが採用されている。ストレージは4TBか2TB時はPCIe 5.0 のSSDが、1TBか512GBではPCIe 4.0を選択可能だ。
+
+■ 6列目の物理キーとタッチパッドの境界が復活
+
+　今回発表されたXPS 14では、以前のXPSと同じようにCNC削り出しのアルミニウム筐体が採用されており、パームレスト部分はコーニングのGorilla Glass 3のガラス素材が採用されている。
+
+　従来モデルでは、キーボードの6列目がタッチキーになっていたが、今回のモデルでは物理キーに戻されている。また、タッチパッドはパームレストとの境界がないシームレスデザインになっていたが、今回のモデルではシームレスデザインは維持しつつ、よく見るとうっすらと境界線が見えるようになっており、どこまでがタッチパッドでどこまでがパームレストなのかが分かるように配慮されている。
+
+　Dellによれば、いずれもユーザーからのフィードバックを元にこうしたデザインに変更したということだった。
+
+　ディスプレイは14型WUXGA(1,920×1,200ドット/液晶)ないしは14型QWXGA+(2,880×1,800ドット/OLED)が用意されている。
+
+　液晶の14型WUXGAは、1,920×1,200ドットで1～120Hzの可変リフレッシュレートの仕様になっている。Windowsのアダプティブリフレッシュレートの機能を利用してディスプレイのリフレッシュレートを切り替えながら動作する。
+
+　バッテリ駆動でのアイドル時などで画面がほとんど動いていない時には1Hzに落としてディスプレイが無駄な電力を消費するのを防ぎ、その逆にACアダプタを接続してゲームをしているときなどには120Hzのリフレッシュレートに引き上げられ、なめらかな画面表示を可能にする。色域はsRGB 100%で、最大輝度は500cd/平方m。
+
+　OLEDの14型QWXGA+は、20～120Hzの可変リフレッシュレートで、標準時に400cd/平方mの輝度、ピーク時には500cd/平方mの輝度を実現している。色域はDCI-P3 100%で、VESA DisplayHDR TrueBlack 500のHDRにも対応している。
+
+　今回のモデルではOLEDが同じサイズの液晶パネルに比べて薄く、軽量になっており、OLEDを選択した場合には14.62 mm(液晶モデルは15.20mm)、1.36kg(液晶モデルは1.38kg)となっている。
+
+　バッテリは70Whで、液晶を選択した場合には最大27時間のバッテリ駆動時間(ビデオ再生時)を実現しているとデルでは説明している。
+
+　デルによればXPS 14は、米国で1月6日より販売開始される予定で、価格などは未定。なお、2月にはよりエントリー向けの構成が提供開始されるほか、当初はグラファイトのカラバリのみが提供されるが、今年中にはシマー(Shimmer)というホワイト系のカラバリ製品も投入される計画。OSにUbuntu 24.04を搭載した製品も投入するという。
+
+■ 新XPS 16は最大460gの軽量化を実現
+
+　「XPS 16」は、Dell 16 Premiumの後継製品となる。以前はCore Ultraシリーズ2(Hプロセッサ、Arrow Lake)が採用されていたが、今回の新XPS 16ではCore Ultraシリーズ3(Hプロセッサ、Panther Lake)へと強化されている。
+
+　Core Ultraシリーズ3ではGPUが強化されていることもあり、ディスクリートGPUのモデルは廃止され、Intelの内蔵GPU(ArcないしはIntel Graphics)のみの選択肢に変更されていることが従来モデルとの大きな違いになる。
+
+　その代わり、軽量化が実現されており、従来モデル(2.06kg～2.11kg)に比べて360～460gほど軽量化されており1.7kg(液晶)/1.65kg(OLED)と16型ノートPCとしては標準的な重量になっている。
+
+　メモリは上位モデルが64GB/32GB(LPDDR5x-9600)で、下位モデルは16GB(LPDDR5x-7467)となっており、ストレージは4TB/2TB(PCIe 5.0)ないしは1TB/512GB(PCI Express 4.0)となっている。
+
+　バッテリは70Whのバッテリを搭載しており、液晶モデルではビデオ再生時に27時間のバッテリ駆動が可能になっている。
+
+■ シームレスデザインや6列目のタッチキーなどは調整され、使い勝手に配慮したデザインに
+
+　従来のXPS 16、Dell 16 Premiumは、タッチパッドとパームレストの境界がないシームレスデザイン、キーボードの6列目(ファンクションキー)がタッチキーになっていることがデザイン上の特徴だった。ただ、こちらもXPS 14と同様に前の状態に戻ることになった。
+
+　ディスプレイは16型で、16型WUXGA(1,920×1,200ドット、1～120Hz、500cd/平方m)の液晶と、16型 WQXGA+(3,200×2,200ドット、20～120Hz、ピーク時500cd/平方m)のOLEDという2つの選択肢が用意される。前者の色域はsRGB 100%、後者はDCI-P3 100%に対応している。
+
+　XPS 16は米国時間の1月6日より販売が開始される計画で、現時点では価格は未定。まずはグラファイトのカラバリとハイエンド構成のモデルが販売開始され、エントリーレベルのスペックは2月以降に販売開始される予定だ。また、本年のどこかのタイミングでホワイト系のシマー(Shimmer)のカラバリが追加される計画になっている。
+PC Watch,笠原 一輝",[],[]
+人気モバイルノート「XPS 13」復活。Dellが開発機をチラ見せ（PC Watch）,https://news.yahoo.co.jp/articles/e64c8456ea4318a3bd18c6dcab406c5fdeab52b0,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000013-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,1087,"写真：PC Watch
+Dell Technologiesは、1月5日(米国時間)にXPSブランドとともに、「XPS 14」と「XPS 16」の最新ノートPCを発表。さらに、開発中の13インチ級ディスプレイを搭載した「XPS 13」に関しても実機を公開した。
+【画像】Dell Technologies 副会長 兼 COO ジェフ・クラーク氏が新XPS 13をチラ見せ
+■ 左右にUSB Type-Cポートというデザインを継承している新XPS 13
+
+　Dellは一般消費者向けのプレミアムブランドとして「XPS」ブランドの復活を決めたのは別記事で紹介した通りだが、今回のCESでは14型のXPS 14、16型のXPS 16という2製品もリリースされている。そして、今回Dellは説明会の中で、本年投入予定のもう1つのXPSブランド製品を文字通り「チラ見せ」した。
+
+　Dell Technologies 副会長 兼 COO ジェフ・クラーク氏は「2026年にXPS 13が帰ってくる」と述べ、ステージ上限定でXPS 13を公開している。
+
+　そのチラ見せされたXPS 13は、筆者の位置から確認できた限りでは、USB Type-Cポートが左右それぞれに1基ずつあるという従来のXPS 13のデザインを継承しているように見えた(XPS 14などでは左に2基、右に1基と合計で3基のUSB Type-Cポートがある)。ディスプレイも明るめで、引き続きOLEDパネルを採用していることも確実だと考えられる。
+
+　また、従来のXPS 13ではシームレスタッチパッドと呼ばれるパームレストとの境界がないデザインが採用されていたが、この新XPS 13ではそうではないことが分かる。
+
+　従来のXPS 13は1.2kg弱という重量だったが、XPS 14はDell 14 Premiumの1.66kg以上に比べて軽量(1.36kg以上)になっていることを考えると、XPS 13も軽量になっている可能性は高い。
+
+　なお、それ以外のスペックなどに関しては特に明らかにはされていないが、従来のXPS 13(2024モデル)ではCore Ultra 200V(Lunar Lake)と、Snapdragon Xシリーズの2種類のSoCから選べるようになっていた。その後継となるCore Ultraシリーズ3(Panther Lake)とSnapdragon X2シリーズの両方、ないしはいずれかが搭載されている可能性は高く、今後のDellの発表を待ちたいところだ。
+PC Watch,笠原 一輝",[],[]
+Acer、Ryzen AI Max+ 395搭載の小型ワークステーション（PC Watch）,https://news.yahoo.co.jp/articles/231ca96c00440a30652f2a3b435806d59e83a9a4,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000011-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,1840,"写真：PC Watch
+Acerは、Ryzen AI Max+ 395搭載の小型ワークステーション「Veriton RA100 AI Mini Workstation」をはじめとするデスクトップPCの新製品を複数発表した。
+【この記事に関する別の画像を見る】
+■ Veriton RA100 AI Mini Workstation
+
+　「Veriton RA100 AI Mini Workstation」は、CPUにRyzen AI Max+ 395を搭載したコンパクトなワークステーション。北米では2026年第1四半期の発売を予定している。
+
+　CPU内蔵GPUのRadeon 8060Sや最大128GBの大容量メモリなどにより、1,200億パラメータのAIモデルもローカルで実行可能。大規模言語モデルや生成AIアプリの開発や展開のほか、高解像度アセットの編集やレンダリングといったクリエイティブ用途、AAAタイトルのゲームプレイにも活用できる。
+
+　そのほか主な仕様は、ストレージが最大4TB SSD、OSがWindows 11 Proなど。インターフェイスは、USB4 2基、USB 3.2 Gen 2 3基、USB 2.0 2基、2.5Gigabit Ethernet、Wi-Fi 7、Bluetooth 5.4、HDMI 2.1、DisplayPort、音声入出力などを備える。
+
+　本体サイズは203×192×70mm。
+
+■ Veriton 2000 Large Tower
+
+　Veriton 2000 Large Towerは、Core Ultra 9シリーズ2とGeForce RTX 5080を搭載可能な高性能デスクトップPC。欧州では2026年第1四半期の発売を予定している。
+
+　主な仕様は、CPUが最大Core Ultra 9 285、メモリが最大64GB、ストレージが2TB SSD、GPUが最大GeForce RTX 5080、OSがWindows 11 Proなど。
+
+　インターフェイスは、USB 3.2 Gen 1 Type-C、USB 3.2 Gen 1 4基、USB 2.0 4基、有線LAN、Wi-Fi 7、Bluetooth 5.4、音声入出力などを備える。
+
+　本体サイズは190×438×378mm。
+
+■ 一体型PCの最新モデルも
+
+　一体型PCの最新モデルでは、「Veriton Vero 6000 All-In-One Desktop」「Veriton Vero 4000 All-In-One Desktop」「Veriton 2000 All-In-One Desktop」の3種類を発表。欧州では2026年第1四半期の発売を予定している。
+
+　3機種ともに23.8型フルHD(1,920×1,080ドット)ディスプレイを搭載する一体型PC。Veriton Vero 6000および4000では144Hz表示/タッチ対応パネルとなっている。
+
+　主な仕様はVeriton Vero 6000および4000はほぼ共通で、CPUが最大Core Ultra 9 285、メモリが最大64GB、ストレージが最大2TB SSD、OSがWindows 11 Proなど。DVDドライブも搭載する。Veriton Vero 6000ではIntel vProにも対応する。
+
+　インターフェイスはともに、USB 3.2 Gen 2x2 Type-C、USB 3.2 Gen 2 4基、USB 2.0 2基、有線LAN、Wi-Fi 7、Bluetooth 5.4、HDMI 1.4b、DisplayPort、500万画素Webカメラ、音声入出力などを備える。
+
+　本体サイズは540×52.5×344.2mm(スタンド含まず)。
+
+　Veriton 2000の場合、CPUが最大Core Ultra 7 255U、メモリが最大64GB、ストレージが最大1TB SSD、OSがWindows 11 Proなど。
+
+　インターフェイスは、USB 3.2 Gen 2 2基、USB 2.0 Type-C、USB 2.0 3基、有線LAN、Wi-Fi 6、Bluetooth 5.2、HDMI 1.4b、DisplayPort、音声入出力などを備える。
+
+　本体サイズは540.4×163.22×415.51mm。
+PC Watch,宇都宮 充",[],[]
+5K/165Hz対応27型ゲーミングモニターがAcerから登場。クリエイター向け6Kも（PC Watch）,https://news.yahoo.co.jp/articles/f5dce9c7b65e31acea1f62121110f008452e3e8c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000010-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,1901,"写真：PC Watch
+Acerは、ゲーマー向けの27型5K/165Hzやクリエイター向けの31.5型6Kなど、モニターの新製品を複数発表した。
+【画像】ProDesigner PE320QX
+■ Nitro XV270X P
+
+　「Nitro XV270X P」は、165Hz表示対応の5K(5,120×2,880ドット)IPSパネルを搭載した27型ゲーミングモニター。北米では2026年第2四半期の発売を予定しており、価格は799.99ドル。
+
+　5K/165HzとWQHD(2,560×1,440ドット)/330Hzの2つの表示モードを切り替えられるDFR(Dynamic Frequency and Resolution)機能に対応。ゲームタイトルなどに応じて自由に変更できる。FreeSync Premiumをサポートしており、色域はDCI-P3 95%をカバーする。
+
+　そのほか主な仕様は、表示色数が10億7,000万色、中間色応答速度が0.5ms、輝度が350cd/平方m、コントラスト比が1億:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2.1 2基、DisplayPort 1.4、音声出力などを備える。
+
+■ ProDesigner PE320QX
+
+　「ProDesigner PE320QX」は、6K(6,016×3,384ドット)のIPSパネルを搭載した31.5型クリエイター向けモニター。北米では2026年第2四半期の発売を予定しており、価格は1,499.99ドル。
+
+　色域はAdobe RGB 99%、DCI-P3 98%をカバーし、輝度は400cd/平方mで、HDR600モードではピーク時で600cd/平方mを発揮する。表面は反射防止仕様となっており、環境を問わずシャープで鮮やかな映像を表示できる。
+
+　最大100W給電および映像入力が可能なUSB4入力、最大15W給電が可能なUSB4出力ポートも装備。人感検知センサーを活用し、自動的にスリープモードで消費電力を抑える機能も搭載している。
+
+　そのほか主な仕様は、表示色数が10億7,000万色、中間色応答速度が4ms、コントラスト比が1億:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2.1、DisplayPort 2.1、USB4 2基、音声出力など。USBハブ機能も備える。
+
+■ Predator XB273U F6
+
+　「Predator XB273U F6」は、WQHD解像度で500Hzの高リフレッシュレート表示が可能な27型ゲーミングモニター。北米では2026年第2四半期の発売を予定しており、価格は799.99ドル。
+
+　本機もDFRに対応しており、WQHD/500Hzに加え、1,280×720ドット/1,000Hzの超高リフレッシュレート表示が可能。FreeSync Premiumをサポートし、色域はDCI-P3 95%、sRGB 99%をカバーする。
+
+　そのほか主な仕様は、表示色数が10億7,000万色、中間色応答速度が0.5ms、輝度が350cd/平方m、コントラスト比が2,000:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2.1 2基、DisplayPort 1.4、音声出力などを備える。
+
+■ Predator X34 F3
+
+　「Predator X34 F3」は、360Hz表示対応の3,440×1,440ドットQD-OLEDパネルを搭載した34型湾曲ゲーミングモニター。北米では2026年2月の発売を予定しており、価格は1,199.99ドル。
+
+　QD-OLEDパネルの採用により、深い黒色表現や色鮮やかな表示が可能。中間色応答速度は最短0.03msとなっており、映像のぶれも抑えている。FreeSync Premium Proをサポートし、色域はDCI-P3 99%をカバーする。
+
+　そのほか主な仕様は、表示色数が10億7,000万色、輝度が300cd/平方m、コントラスト比が10億:1、視野角が上下/左右ともに178度。
+
+　インターフェイスは、HDMI 2.1 2基、DisplayPort 1.4、音声出力などを備える。
+
+　それ以外に、4Kレーザープロジェクタ「Vero HL1820」も発表。赤、緑、青で独立したダイオードを使うことで、より正確な色を表現できるという。欧州で2026年3月に発売予定で、価格は1,499ユーロ。
+PC Watch,宇都宮 充",[],[]
+Core Ultra 9 386HとGeForce RTX 5070搭載の16型ゲーミングノート。Acerから（PC Watch）,https://news.yahoo.co.jp/articles/9a1fb56aae6a11c9d242cc099978ad6347a82a71,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000009-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,1438,"写真：PC Watch
+Acerは、Core Ultraシリーズ3を搭載するゲーミングノートの新製品を複数発表した。
+【この記事に関する別の画像を見る】
+■ Predator Helios Neo 16S AI
+
+　「Predator Helios Neo 16S AI」は、最大でCore Ultra 9 386HとGeForce RTX 5070 Laptop GPUを搭載可能な16型ゲーミングノート。北米では2026年第3四半期の発売を予定している。
+
+　液体金属グリスや独自の第5世代AeroBlade 3Dファンなどの冷却機構を備え、高性能パーツを厚さ18.9mmのスリムな金属筐体に収めた。最大64GBのメモリを搭載可能で、ディスプレイには165Hz表示対応の16型WQXGA(2,560×1,600ドット)OLEDパネルを採用している。
+
+　そのほか主な仕様は、ストレージが最大2TB SSD、OSがWindows 11 Homeなど。インターフェイスは、Thunderbolt 4、USB 3.2 Gen 2 Type-C、USB 3.2 Gen 2 2基、USB 3.2 Gen 1、Wi-Fi 6E、有線LAN、Bluetooth 5.3、HDMI 2.1、フルHD Webカメラ、microSDカードスロット、音声入出力などを備える。
+
+　本体サイズは356.78×275.5×12～18.9mm、重量は2.3kg。
+
+■ Nitro V 16 AI/16S AI
+
+　「Nitro V 16 AI」および「Nitro V 16S AI」は、最大でCore Ultra 7 355とGeForce RTX 5070 Laptop GPUを搭載可能なカジュアルゲーマー向け16型ゲーミングノート。北米では、前者が2026年第2四半期、後者が2026年第3四半期の発売を予定している。
+
+　どちらも価格重視のカジュアルゲーマーに向けた製品。Nitro V 16S AIは厚さ17.9mmの薄型設計も特徴とする。
+
+　そのほか共通の仕様として、メモリが最大32GB、ストレージが最大2TB SSD、ディスプレイが180Hz表示対応の16型WUXGA(1,920×1,200ドット)パネル、OSがWindows 11 Homeなど。
+
+　インターフェイスはともに、Thunderbolt 4、USB 3.2 Gen 2、USB 3.2(Gen不明) 2基、有線LAN、Wi-Fi 6E、Bluetooth 5.2、HDMI 2.1、フルHD Webカメラ、音声入出力などを備える。
+
+　本体サイズおよび重量は、Nitro V 16 AIが356.5×260×11.37～19.9mmで2.1kg、Nitro V 16S AIが356.5×260×10.3～17.9mmで2.3kg。
+
+　このほか、50mm径ドライバを使用したゲーミングヘッドセット「Predator Galea 570 Gaming Headset」や、PixArt PAW3395センサーを搭載したゲーミングマウス「Predator Cestus 530 Gaming Mouse」を発表。どちらも接続方式は2.4GHz無線、Bluetooth、有線に対応する。
+
+　北米ではいずれも2026年第1四半期に発売する予定で、価格はそれぞれ149ドル、109ドル。
+PC Watch,宇都宮 充",[],[]
+「XPS」が帰ってきたぞ！Dellがわずか1年で方針転換した理由に納得（PC Watch）,https://news.yahoo.co.jp/articles/faa62bb856ce040a3f755e0b279f880bab19e392,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000012-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,1605,"写真：PC Watch
+Dell Technologiesは、1月5日(米国時間)に報道発表を行ない、昨年のブランド改変で消え去ったはずのコンシューマ向けブランド「XPS」が復活すると明らかにした。
+【画像】XPSブランドの復活を説明するDell Technologies 副会長 兼 COO ジェフ・クラーク氏
+■ 昨年XPSを廃止したDellだが……
+
+　DellのPC事業を率いているDell Technologies 副会長 兼 COO ジェフ・クラーク氏は、Dellが開催した説明会の中で次のように述べた。
+
+　「昨年我々はよりシンプルな仕組みを導入しようとして、Dell、Dell Pro、Dell Pro Maxのブランドスキームを導入した。しかし、結果的により複雑になってしまい、同時にXPSのようなブランドが持っていたプレミアム性を失う結果になった。このため、我々はXPSブランドを復活させることを決断した」。
+
+　つまり、「XPS」を捨てたのは間違いだったと認め、方針転換を行なうということだ。
+
+　昨年Dellは、一般消費者向けの「Dell」、法人向けの「Dell Pro」、ワークステーション向けの「Dell Pro Max」という3つの大きなブランドを設定した。
+
+　そしてそこに「Premium」「Plus」、それに“無印”という3段階のサブブランドをつけることで、ブランド名を見るだけで製品のグレードがすぐ分かるようなブランドスキームを導入した。
+
+　それまで一般消費者向けのDell製品は、プレミアム向けの「XPS」、メインストリーム向けの「Inspiron Plus」、バリュー向けの「Inspiron」となっていた。
+
+　しかし、このスキームが導入された後はプレミアム向けが「Dell Premium」、メインストリーム向けが「Dell Plus」、バリュー向けが「Dell」というブランド名に取って代わり、1年をかけて製品が展開されてきた。
+
+■ 一般消費者向け上位がXPS、下位がDellに
+
+　今回Dellはそうしたブランド再編に、さらに再編を加えることを明らかにした。
+
+　前述の通り、昨年の発表ではDell、Dell Pro、Dell Pro Maxに、Premium、Plus、無印の3つのサブブランドを付けることで、製品グレードを分かりやすくしたと述べていた。
+
+　しかし、その弊害として最上位モデルの「Dell Premium」と「Dell Plus」「Dell」の差異が小さくなってしまい、本来プレミアム向けのブランドと位置づけたはずの「Dell Premium」のプレミアム感がなくなってしまったという。
+
+　また、XPSの消滅を惜しむ声も多く、今回DellはXPSの復活を決めたのだという。XPSは今後、Dellのプレミアムブランドからメインストリームまでをカバーするブランドになる。
+
+　なお、一般消費者向けのメインストリームからバリュー向けには引き続き「Dell」ブランドが展開され、法人向けは引き続きDell Proが利用される。
+
+　ワークステーション向けは「Dell Pro Max」から「Dell Pro Precision」に変更され、特殊用途向けの製品は「Dell Pro Rugged」「Dell Pro Essential」「Dell Pro Education」というブランドが展開されることになる。
+
+　ただし、今回のCESではXPS製品は発表されたものの、ほかのブランドの製品はまだ出てきていない。今後の展開として、Dell Pro Precision、Dell Pro Rugged、Dell Pro Essential、Dell Pro Educationなどの製品が順次発表される見込みだ。
+PC Watch,笠原 一輝",[],[]
+Acer、Core Ultraシリーズ3搭載のプレミアム/メインストリームノート（PC Watch）,https://news.yahoo.co.jp/articles/51d32aa2b13ad71c9b39541875fbcfd6798106f8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000008-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,2473,"写真：PC Watch
+Acerは、次世代CPUのCore Ultraシリーズ3を搭載する新型「Swift AI」シリーズおよび「Aspire AI」シリーズを発表した。
+【この記事に関する別の画像を見る】
+■ Swift 16 AI
+
+　「Swift 16 AI」は、最大でCore Ultra X9 388Hを搭載する16型フラグシップノートPC。北米では2026年第1四半期の発売を予定している。
+
+　CPUにCore Ultra X9 388Hを搭載し、CPU内蔵GPUとしてIntel Arc B390を備えており、大容量のファイルを取り扱うようなクリエイティブ用途にも活用できるとする。ディスプレイには120Hz表示/タッチ対応の2,880×1,800ドット16型OLEDを搭載。DisplayHDR True Black 500認証を取得し、色域はDCI-P3 100%をカバーしている。
+
+　また、175.5×109.7mmの大型ハプティックタッチパッドを装備。MPP 2.5対応スタイラスペンを使えばタッチパッド上でペン入力ができ、スケッチや編集などの作業に活用できる。強化ガラスのCorning Gorilla Glassを採用し、耐久性も確保した。
+
+　主な仕様は、CPUが最大Core Ultra X9 388H、メモリが最大32GB、ストレージが最大2TB SSD、ディスプレイが16型2,880×1,800ドットOLED/1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　インターフェイスは、Thunderbolt 4 2基、USB 3.2(Gen不明) 2基、Wi-Fi 7、Bluetooth 5.4、HDMI 2.1、フルHD Webカメラ、microSDカードスロット、音声入出力など。
+
+　本体サイズは355.25×245.4×10.61～14.85mm、重量は1.55kg。
+
+■ Swift Edge 14 AI/16 AI
+
+　14型「Swift Edge 14 AI」および16型「Swift Edge 16 AI」は、軽量設計とMIL-STD 810H準拠の高耐久性を両立したノートPC。北米ではともに2026年第2四半期の発売を予定している。
+
+　どちらもCPUに最大でCore Ultra 9 386Hを搭載。筐体にはステンレススチールマグネシウム合金を使用し、14型モデルで0.99kg、16型モデルで1.25kgの軽量設計としつつ、MIL-STD 810H準拠の高い耐久性も確保した。
+
+　主な仕様はほぼ共通で、CPUが最大Core Ultra 9 386H、メモリが最大32GB、ストレージが最大1TB SSD、ディスプレイが14型または16型の2,880×1,800ドットOLED/1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　インターフェイスはともに、Thunderbolt 4 2基、USB 3.2(Gen不明) 2基、Wi-Fi 7、Bluetooth 5.4、HDMI 2.1、フルHD Webカメラ、音声入出力などを備える。
+
+　本体サイズおよび重量は、14型モデルが315×218.6×7.4～13.9mmで0.99kg、16型モデルが357.15×244.64×7.6～14.6mmで1.25kg。
+
+■ Swift Go 14 AI/16 AI
+
+　14型「Swift Go 14 AI」および16型「Swift Go 16 AI」は、携帯性やコストパフォーマンスのバランスを重視したノートPC。北米では2026年第2四半期の発売を予定している。
+
+　主な仕様はほぼ共通で、CPUが最大Core Ultra X9 388H、メモリが最大32GB、ストレージが最大1TB SSD、ディスプレイが14型または16型の2,880×1,800ドットOLED/1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　インターフェイスはともに、Thunderbolt 4 2基、USB 3.2(Gen不明) 2基、Wi-Fi 7、Bluetooth 5.4、HDMI 2.1、500万画素Webカメラ、音声入出力などを備える。
+
+　本体サイズおよび重量は、14型モデルが310.5×218.9×10.4～15.6mmで1.12kg、16型モデルが354.95×245.3×10.4～15.7mmで1.36kg。
+
+■ Aspire 14 AI/16 AI
+
+　14型「Aspire 14 AI」および16型「Aspire 16 AI」は、Core Ultraシリーズ3搭載のメインストリーム向けノートPC。北米では14型モデルが2026年第3四半期、16型モデルが2026年第2四半期の発売を予定している。
+
+　主な仕様は14型モデルの場合、CPUが最大Core Ultra 9 386H、メモリが最大32GB、ストレージが最大1TB SSD、ディスプレイが14型1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　16型モデルの場合、CPUが最大Core Ultra 9 386H、メモリが最大32GB、ストレージが最大2TB SSD、ディスプレイが16型1,920×1,200ドットOLED、OSがWindows 11 Homeなど。
+
+　インターフェイスはともに、Thunderbolt 4 2基、USB 2基、Wi-Fi 6E、Bluetooth 5.3、HDMI 2.1、フルHD Webカメラ、音声入出力などを備える。
+
+　本体サイズおよび重量は、14型モデルが312.4×225.9×11.6～15.8mmで1.25kg、16型モデルが354.9×250.1×11.5～15.8mmで1.52kg。
+PC Watch,宇都宮 充",[],[]
+Intel、AMD、Qualcommから選べるモバイルノート「HP EliteBook X G2」発表、1kg切りも（PC Watch）,https://news.yahoo.co.jp/articles/5d0d5442c7889588e8e0741a8c2fba7aa355b6c2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000007-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,2642,"写真：PC Watch
+HPは、1月5日に報道発表を行ない、法人向けフラグシップノートPC「HP EliteBook X G2シリーズ」を発表した。
+【画像】2in1型のHP EliteBook X Flip G2i、ペンを本体内部に格納して充電でき、30秒で2時間使える
+HP EliteBook Xは、Lenovoで言えば「ThinkPad X1 Carbon」、Dellで言えば「Dell Pro Premium」に相当する法人向けノートPCのフラグシップ製品。以前は「Dragonfly」のブランドで販売されていた製品に相当する。
+
+　今回発表された「HP EliteBook X G2シリーズ」はその第2世代製品で、クラムシェル型には、AMD版、Intel版、Qualcomm版といった3つのメーカーのプロセッサを搭載したモデルが用意されており、ユーザーが好みに応じて選択することが可能。2in1型にはIntel版のみが用意される。
+
+■ 1kg切りの軽量モデルも用意されるHP EliteBook X G2シリーズ
+
+　HPは一般消費者向けPCの「OmniBook」シリーズ、一般法人向けの「EliteBook」シリーズという一般用途のノートPC向けには2つのブランドで展開している。このうち、EliteBookの最上位機種が「HP EliteBook X」で、以前はDragonflyのブランドで販売されていた一般法人向けノートPCのフラグシップ製品に相当する。昨年(2025年)のCESで発表されたのが「HP EliteBook X G1」シリーズで、今回発表されたのが第2世代のHP EliteBook X G2シリーズとなる。
+
+　HP EliteBook X G2シリーズには、クラムシェル型と2in1型(フリップ型ないしは回転ヒンジ型)が用意されており、クラムシェル型にはAMD、Intel、Qualcommという3メーカーそれぞれのSoCが用意されており、ユーザーが好みのSoCを選択することが可能になっている。
+
+　2in1型に関してはIntelのみの提供となり、かつクラムシェル型のIntel版には軽量版と呼ばれる1kgを切る999gの重量を実現した製品が用意される。
+
+　なお、世代を示す「G2」の後に、「a」がつく「G2a」はAMD搭載版であることを示し、「i」がつく「G2i」はIntel搭載版、「q」がつく「G2q」はQualcomm搭載版であることを意味している。
+
+　いずれの製品も40TOPSを超えるNPUを搭載しているため、Copilot+ PCに相当し、重量はクラムシェル版が1.099kg(Intel版、AMD版は1.119kg、Qualcomm版は1.109kg)と約1.1kgになっており、2in1型は1.299kg、軽量版が999gとなっている。
+
+　ディスプレイの選択肢が多いのが特徴で、大きくいうと14型WUXGA(1,920×1,200ドット)のOLEDとWLEDの液晶、Sure View(のぞき見防止機能)付きの液晶と、14型QXGA+ OLED(2,880×1,800ドット、120Hz、500cd/平方m)から選択できる。またそれぞれにタッチあり、タッチなし版が用意されており、注文時などに選択することが可能だ(2in1型はタッチのみ)。
+
+　近年、HPはワイヤレスWANに力を入れており、日本ではKDDIが提供するConnectINなどの購入時に5年分の通信費を込みで購入できるサービスをバンドルして販売しているが、今回のEliteBook X G2でもワイヤレスWANをオプションで選択することが可能だ。なお、AMD版とIntel版はHPのWANモジュールを搭載するが、Qualcomm版に関してはSnapdragon X72とQualcommのモデムが利用される。また、NFCに関してもオプションで選べる。
+
+　HPによれば、EliteBook X G2aは春頃からHPのストアなどで販売される予定で、EliteBook X G2i、EliteBook X Flip G2iは2月からHPのストアなどで販売される予定。また、EliteBook X G2qは春頃からHPのストアなどで販売される予定で、いずれも価格は発売が近づいた時点でアナウンスされる。
+
+□HP EliteBook X G2a
+
+　現時点では未発表のRyzen AI 400シリーズを搭載しているのがEliteBook X G2aとなる。HPによればRyzen AI 9 HX PRO 470、Ryzen AI 7 PRO 450、Ryzen AI 5 PRO 440、Ryzen AI 5 435というCPUから選択することが可能で、最上位モデルとなるRyzen AI 9 HX PRO 470は55TOPSのNPUを搭載し、それ以外は50TOPSのNPUを搭載している。
+
+□HP EliteBook X G2i/HP EliteBook X Flip G2i
+
+　HP EliteBook X G2iおよびHP EliteBook X Flip G2iは、Intelから発表されたばかりのCore Ultraシリーズ3(Panther Lake)を採用している。具体的なSKU構成などは不明ながら、Ultra 5とUltra 7の製品が選択可能で、vPro版と非vPro版がラインアップされている。また、999gという軽量版が用意されており、その場合メモリのデータレートは8,533MT/秒に設定される。
+
+　2in1型のEliteBook X Flip G2iでは、新しいペンが用意されており、本体に内蔵して30秒充電するだけで2時間程度利用することが可能になっている
+
+■ EliteBook X G2q
+
+　HP EliteBook X G2qは、Qualcommが昨年の9月に発表したSnapdragon X2シリーズを採用した製品。Snapdragon X2 EliteとSnapdragon X2 Plusという2つのSKUから選択できる。前者は18コアと12コア、後者は6コアになる。NPUに関しては85TOPSとQualcommの標準スペックである80TOPSよりも高くなっているという。
+PC Watch,笠原 一輝",[],[]
+HP、300Wを放熱できる驚異のゲーミングノート「HyperX OMEN MAX 16」（PC Watch）,https://news.yahoo.co.jp/articles/134274627e48a0e493cd073019772957e859ed92,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000006-imppcw-000-1-view.jpg?exp=10800,2026-01-06T08:00:00+09:00,2026-01-06T08:00:00+09:00,PC Watch,imppcw,PC Watch,2210,"写真：PC Watch
+米HPは1月5日に報道発表を行ない、同社の新しいゲーミング向けマスターブランド「HyperX」を冠した新しいゲーミングPC「HyperX OMEN MAX 16」などを発表した。
+【画像】新しいHyperXブランドのロゴが天板に入っている
+■ CPUとGPUの熱設計の枠を300Wに引き上げたHyperX OMEN MAX 16
+
+　HyperX OMEN MAX 16は、従来「OMEN MAX 16」として販売されていた、フラグシップゲーミングノートPCの後継製品となる。TPPが300Wに設定されており、GeForce RTX 5090 Laptop GPUのような、ブースト時により高い消費電力を発するようなGPUであっても確実に放熱することが可能になる。
+
+　TPPの300Wという数字は、OMEN MAX 16に比べて50Wほど引き上げられており、同じCPU、GPUを利用した場合でもより高い性能を発揮できる。こうした熱設計が実現できたのは、「OMEN Tempest Cooling Pro system」と呼ばれる3つのファンを採用した冷却機構で、より高い放熱性能が実現されているためだ。
+
+　CPUに関しては従来と同じようにRyzen AI 300シリーズ/8000/9000シリーズ、Core Ultraシリーズ2、第14世代CoreなどのAMDおよびIntelのCPUに対応しているほか、今回のCESで発表された(あるいはこれから発表される)次世代AMDプロセッサおよび次世代Intelプロセッサも選択肢として発表されている。また、具体的なことは何も発表されていないが、次世代のIntelプロセッサという謎のCPUにも対応すると明らかにされている。
+
+　GPUはGeForce RTX 50 Laptop GPUのシリーズとなる(5090 24GB/5080 16GB/5070 Ti 12GB)。
+
+　ディスプレイは16型WQXGA OLED(2,560×1,600、240Hz、0.2ms、500cd/平方m)および16型3.2K IPS(3,200×2,000ドット、240Hz、3ms、500cd/平方m)という2つのパネルから選択できる。
+
+　HyperX OMEN MAX 16は春頃に販売開始される予定で、価格に関しては発売が近くなってきた時期に公開される。
+
+■ TPPが200WになっているHyperX OMEN 16と170WのHyperX OMEN 15も
+
+　また、HPは同時に、従来「OMEN 16」「OMEN 15」の名称で販売されてきたゲーミングノートPCの後継として、それぞれ「HyperX OMEN 16」「HyperX OMEN 15」にブランドを変更し、内部構造などを見直した新製品も発表した。
+
+　HyperX OMEN 16、HyperX OMEN 15は、メインストリーム向けの製品となる。
+
+　いずれの製品も、Ryzen AI 300シリーズ/8000/9000シリーズ、Core Ultraシリーズ2、第14世代CoreなどのCPUに対応しているほか、CESで発表された(あるいはこれから発表される)次世代AMDプロセッサおよびCore Ultra シリーズ3も選択肢として発表されている。加えて、“次世代Intelプロセッサ”にも対応すると明らかにされている。
+
+　GPUはHyperX OMEN 16がGeForce RTX 50 Laptop GPU(5070 8GB/5060 8GB)、HyperX OMEN 15がGeForce RTX 50 Laptop GPU(5070 8GB/5060 8GB/5050 8GB)となっている。
+
+　こちらも熱設計枠(TPP)が引き上げられている。HyperX OMEN 16は従来製品に比べて30W上乗せされて200W、HyperX OMEN 15は170W(下位モデルのVictus 15に比べて65Wの上乗せ)となっており、それぞれCPUとGPUをフルパワーで使った場合でも放熱に余裕が生まれ、ターボモードはより長時間、高いクロック周波数で動かすことが可能になる。
+
+　ディスプレイはHyperX OMEN 16が16型WQXGA OLED(2,560×1,600ドット、165Hz、0.2ms、500cd/平方m)、16型WQXGA IPS(240Hz、3ms、500cd/平方m)、16型WUXGA IPS(1,920×1,200ドット、165Hz、3ms、400cd/平方m、AMDのみ)、16型WUXGA IPS(165Hz、6.5ms、400cd/平方m、Intelのみ)。
+
+　一方、HyperX OMEN 15は15.3型WQXGA+ OLED(2,880×1,800ドット、120Hz、0.2ms、500cd/平方m)、15.3型WQXGA IPS(180Hz、3ms、500cd/平方m)、15.3型WUXGA IPS(165Hz、6.5ms、400cd/平方m)、15.3型WUXGA IPS(165Hz、6.5ms、300cd/平方m)となっている。
+
+　なお、現時点では発売日や価格などに関してはアナウンスはない。
+PC Watch,笠原 一輝",[],[]
+NVIDIA、従来比性能5倍のAI GPU「Rubin」正式発表。2026年後半に登場（PC Watch）,https://news.yahoo.co.jp/articles/1f058c14058439f5bd337b83a620dc74c38b99d6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000005-imppcw-000-3-view.jpg?exp=10800,2026-01-06T07:50:00+09:00,2026-01-06T09:00:33+09:00,PC Watch,imppcw,PC Watch,2522,"写真：PC Watch
+NVIDIAは、AIデータセンター向けの新型CPUおよびGPUになる「Vera」と「Rubin」を正式発表した。以前から計画は明かしていたが、1月5日にラスベガスで開催した同社CEO ジェンスン・フアン氏の基調講演の中で正式にお披露目となったかたちだ。
+【画像】左がRubin、右がVera
+さらにVeraとRubinなどを利用してラック内でスケールアップするための「NVLink 6 Switch」、データセンター内でそうしたラックをスケールアウトするための「ConnectX-9 SuperNIC」「BlueField-4 DPU」「Spectrum-6 Ethernet Switch」といった高速ネットワーク製品を発表した。
+
+　現行世代GPU「Blackwell」(NVIDIA B300/B200/B100)の後継となるRubinは、新しいGPUアーキテクチャとHBM4メモリを採用していることが特徴だ。NVFP4で演算した場合、BlackwellではAI推論性能、学習性能のいずれも10PFLOPSだが、Rubinでは推論時が5倍の50PFLOPS、学習時には3.5倍の35PFLOPSに達する。
+
+■ 従来と比べてトークンあたりのコストは推論で10分の1、学習で4分の1に
+
+　今回NVIDIAが正式に発表したVeraは、NVIDIAがカスタム設計したOlympusコアを88基搭載するArmアーキテクチャCPU。Rubinは現行製品であるBlackwell(B300/B200/B100)の後継となるAIデータセンター向けのGPUだ。
+
+　GPUのRubinは、米国の有名な科学者クーパー・ルービンの名前からとったコードネームで、Rubin世代のGPUアーキテクチャを採用している。Blackwell世代よりも高効率にAI演算が可能。また、新しいメモリ技術であるHBM4を採用し、第6世代のNVLink、Confidential Computing、RASエンジンに対応するなど、プラットフォームレベルでの性能やセキュリティも強化している。
+
+　そうした改良により、NVIDIAが提供しているエージェンティックAIを実現する先進的な推論モデルやMoE(Mixture of experts)モデルなどを利用した場合、推論でのトークンあたりのコストが最大10分の1、学習でのトークンあたりのコストが4分の1になるという。
+
+　Rubinと従来世代のBlackwell(GB200に搭載されているB200のことだと思われる)を比較すると、NVFP4で推論した場合は5倍の50PFLOPS、NVFP4で学習した場合は3.5倍の35PFLOPSという性能を実現する(いずれもBlackwell世代では10PFLOPS)。HBM4のメモリ帯域幅は22TB/sでBlackwellの2.8倍、GPUあたりのNVLinkによる帯域幅は3.6TB/sで同2倍の性能を発揮する。
+
+　Veraは、NVIDIAがカスタム設計したOlympusコアを88基搭載。独自開発した仮想マルチスレッディング(SMT)技術「NVIDIA Spatial Multi-threading」に対応しており、有効にした場合は176スレッドのCPUとして利用できる。データセンター向けのメモリモジュール規格「SOCAMM」のLPDDR5Xのメモリを1.5TB(従来のGraceと比べて3倍の容量)搭載でき、メモリ帯域幅は1.2TB/sに達する。
+
+　なお、今回もBlackwell世代と同じように、1つのモジュールにVera 1基とRubin 2基を搭載した「Vera Rubin」、そして36枚のVera Rubinを1つのラックに集約したスケールアップソリューション「Vera Rubin NVL72」も用意される。Vera Rubin NVL72では、第6世代のNVLinkに対応した「NVLink 6 Switch」が組み合わされて、36基のVera CPU、72基のRubin GPUが1つのラックに搭載される。
+
+　x86プロセッサ向けのデザインとしてOEMメーカー向けに、8枚のRubinを1つのサーバー機器に収めた「HGX Rubin NVL8」や、NVIDIA自身のサーバーとして「DGX Rubin NVL8」も提供される計画だ。顧客はNVIDIAのArm CPUでも、x86 CPUでも好みのCPUを選択して、Rubinを利用できる。
+
+■ Vera Rubinは2026年後半に登場。4大CSPやOEMメーカーなどから提供予定
+
+　NVIDIAは、今回同時にスケールアウト向けの高速ネットワークに関しても新製品を発表した。ConnectX-9 SuperNIC、BlueField-4 DPU、Spectrum-6 Ethernet Switchなどがそれで、前述のVera Rubin NVL72、HGX Rubin NVL8などと組み合わせてスケールアウトできる。
+
+　今回同社では、AIスーパーコンピュータのレファレンスデザインとなる、Vera Rubin NVL72を8つスケールアウトした「DGX SuperPOD With DGX Vera Rubin NVL72」も発表。CUDAなどのソフトウェアソリューションを活用することで、256基のVera CPUと512基のRubin GPUを1つのスーパーコンピュータとして活用できる。
+
+　同社によれば、今回の新製品は2026年の後半に登場する予定で、4大CSP(AWS、Google Cloud、Microsoft Azure、Oracle Cloud Infrastructure)や、Dell Technologies、HPE、Lenovo、SupermicroなどのOEMメーカーなどを経由して提供される。OpenAIやAnthropic、MetaといったAIモデルを開発している企業などが採用計画を明らかにしている。
+PC Watch,笠原 一輝",[],[]
+こだわりはないが、結果的にUbuntu的に便利なロジクール製を使用している理由（PC Watch）,https://news.yahoo.co.jp/articles/bb36cfed687ed2d0f73ccefceab40b5bae7dcfe2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000004-imppcw-000-1-view.jpg?exp=10800,2026-01-06T06:11:00+09:00,2026-01-06T06:11:00+09:00,PC Watch,imppcw,PC Watch,1398,"写真：PC Watch
+このコーナーは、ライターや編集者愛用のキーボードについて語る短期リレーコラムです。
+【画像】電池の状態が取得できて嬉しい
+ライターたるものキーボードに一家言あるものだと思っていたが、本連載を読む限りでは特にそういうわけでもなさそうでちょっぴり安心している。
+
+　一時期はHHKB Lite2を使っていたこともあるが、キーの少なさに辟易して、今は廃番になってしまった(かなり気に入っていた)キーボードに移行した。その後無線化したくなって選択したのが「MK245nBK」である。
+
+　コンパクトな割には適切なキーピッチが確保されていること、キーの配置も変態的ではないこと、特にEnterキーの右側にキーがないこと、USBドングルがマウスと共用であること、キーボードマウス共に単4電池2本なので充電池(エネループ)の取り回しがいいこと、故障しても代替品の入手が容易であったことなどが気に入っている。
+
+　特にキーボードとマウスともに単4電池で動くものというのは、少なくともロジクール製品ではほかにないように思う。一時期MK470を使用していたこともあったが、テンキーがあってもさして便利にはならなかったこと、キーの1つが早々に故障してしまったこと、その割に容易に買い替えができる価格ではないこと、マウスが単3電池で動作することなど不便に思うことがあり、MK245nBKに回帰した。それが2025年8月のことであった。
+
+　程なくしてMK245nBKが廃番になったらしく、とたんに入手性が悪くなってしまった。12月のとある日に大阪日本橋の電気街を徘徊中、パソコン工房にて残っている最後の1つ(と思われる)を運よく確保できた。しかも価格は2,180円であり、在庫処分価格(推定)でラッキーであった。これで5年は戦えそうだ。
+
+　ロジクール(日本国外ではLogitechでロジテックとは無関係)は世界的になブランドで、Ubuntu的にも便利な機能がいくつかある。
+
+　「電源管理」で電池の状態が取得できるのはそのうちの1つで、当然電池残量が低下したら警告が表示される。使っているうちにいきなり電池が切れてしまうという問題が防げる。これはほかのメーカーで独自のUSBドングルを採用している場合にはなかなか難しいことだったりするが、なにぶん昔の記憶(しばらくロジクール製品しか使用していない)なので今はまた話が変わっているかもしれない。
+
+　「電源管理」で状態が取得できるようになる前は、Solaarというアプリを別途インストールすれば同じく電池の状態が取得できていた。ほかにも便利な機能があり、ファンクションキーとメディアキーのデフォルトを入れ替えたりもできる。ファンクションキーがデフォルトのほうが望ましいため、特にこの機能は使用していないが。
+
+　以上の理由によりUbuntuユーザーはロジクール製品を使用すると便利なことがあるが、電池の状態が取得できるのは完全にものによる。MK245nBKは両方ともに対応していたが、MK470はどちらか(確かマウス)が取得できてなかった。
+
+　できることであればMK245nBKの存続を強く希望するものである。無理なら似たようなコンセプトのモデルの新発売を期待したい。
+PC Watch,Ubuntu Japanese Team あわしろいくや",[],[]
+一体型PCなのに広色域。HP、世界初Neo:LED液晶採用「OmniStudio X 27」（PC Watch）,https://news.yahoo.co.jp/articles/b58229126f84d4b668f0147a92bd5ef7d624d3ff,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000003-imppcw-000-1-view.jpg?exp=10800,2026-01-06T02:00:00+09:00,2026-01-06T02:00:00+09:00,PC Watch,imppcw,PC Watch,984,"写真：PC Watch
+米HPは1月5日(現地時間)に報道発表を行ない、同社の一般消費者向け液晶一体型PCとなる「OmniStudio X 27」を発表した。
+【画像】HP OmniStudio X 27の背面ポート
+OmniStudio X 27は、ディスプレイに世界で初めてNeo:LED液晶パネルを搭載した液晶一体型PCで、27型QHD(2,560×1,440ドット/120Hz)のパネルを内蔵している。SoCはIntel次世代プロセッサとされており、Panther Lakeだと考えられる。
+
+■ 新しいバックライト「Neo:LED」を採用した27型IPS液晶を採用したOmniStudio X 27
+
+　OmniStudio X 27は、27型のディスプレイが本体に内蔵されているPCだ。最大の特徴はこのディスプレイにあり、HPによれば世界で初めてNeo:LED液晶パネルを搭載した一体型PCだという。
+
+　いわゆるIPS液晶だが、バックライトのLEDとして「Neo:LED」へと進化している。Neo:LEDは、従来のLEDに比べて低消費電力でかつより明るく、それを利用することでIPS液晶の特徴である広色域をさらに拡張できる。
+
+　実際、色域はAdobe RGB 100%、DCI-P3 100%で、色差もDelta E＜1未満となっており、クリエイターでも使えそうな広色域になっている。これまでの一般消費者向けの液晶一体型PCのディスプレイでは考えられなかったような色表現が可能だ。
+
+　プロセッサはIntel次世代プロセッサとだけ明らかにされており、おそらくIntelが昨年(2025年)技術概要を明らかにしたPanther Lakeだと考えられる。また、オプションでGeForce RTX 5050 8GBをdGPUとして選択することが可能だ。このほか、メモリは最大32GB、ストレージも最大2TBまで選択できる。
+
+　OmniStudio X 27は既に米国では今週から予約が開始される計画で、市場想定価格は1,499.99ドルからとなっている。また、スペックなどは不明ながら24型版となる「OmniStudio X 24」も計画されており、こちらは春頃提供開始予定で、599.99ドルからという市場想定価格になっている。
+PC Watch,劉 尭",[],[]
+HP、85TOPSの特別版Snapdragon X2 Eliteを搭載した「HP OmniBook Ultra 14」（PC Watch）,https://news.yahoo.co.jp/articles/001f2305a9a2d17e8b8980d51970608e1eaa6a6f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000002-imppcw-000-1-view.jpg?exp=10800,2026-01-06T02:00:00+09:00,2026-01-06T02:00:00+09:00,PC Watch,imppcw,PC Watch,3444,"写真：PC Watch
+HPは1月5日(現地時間)に報道発表を行ない、同社の一般消費者向けノートPC「OmniBook」シリーズの新モデルを発表した。
+【画像】OmniBook Ultraは2色展開、左はIntel版で、右がQualcomm版
+■ 85TOPSという特別版Snapdragon X2 Eliteを搭載したHP OmniBook Ultra 14
+
+　HP OmniBook Ultra 14は、一般消費者向けノートPC「OmniBook」シリーズの中で最上位のフラグシップ製品と位置づけられるノートPC。従来製品では2in1型の「OmniBook Ultra Flip 14」にCore Ultraシリーズ2、クラムシェル型の「OmniBook Ultra 14」にRyzen AI 300シリーズが搭載されていた。今回はクラムシェル型のOmniBook Ultra 14だけが発表されている。
+
+　OmniBook Ultra 14は、2つのプロセッサを搭載したモデルを用意している。1つはHPが「Intel次世代AIプロセッサ」と呼んでいるIntelのプロセッサで、おそらくPanther Lakeのことだと思われる(実機ではCore Ultra X9 388Hと表示されていた)。このあたりは今後Intelなどからの正式発表を待つ必要がある。
+
+　もう1つが昨年(2025年)Qualcommから発表された「Snapdragon X2」で、昨年の9月に発表されたSnapdragon X2 Eliteと今回のCESでQualcommが発表した廉価版「Snapdragon X2 Plus」を採用している。中でもSnapdragon X2 EliteのSKUは、X2E-90-100およびX2E-84-100になっており、これは昨年の9月にQualcommが発表したSnapdragon X2 EliteのSKUリストには入っていないのがポイントだ。
+
+　というのも、HPによれば、この2つのSKUは、NPUのAI推論性能が85TOPSとなっており、Qualcommが発表したSnapdragon X2 Eliteの標準SKU「X2E-88-100」(18コアCPU/最大4.7GHz、X2-90 GPU、80TOPS NPU)、「X2E-80-100」(12コアCPU/最大4.7GHz、X2-85 GPU、80TOPS NPU)よりも高いNPU性能が実現されているのだ。
+
+　また、X2E-90-100はCPUが18コアで最大5GHz、X2E-84-100はCPUが12コアで最大4.7GHzとなっており、X2E-90-100はX2E-88-100のCPUの最高クロックとNPUの性能を引き上げたバージョン、X2E-84-100はX2E-80-100のNPU性能を引き上げたバージョンと考えられる(なお、GPUに関しては何も明らかにされていないので、それぞれX2-90、X2-85である可能性が高い)。
+
+■ ディスプレイは14型QXGA+のOLEDを搭載、MIL-STD-810テストを20項目パス
+
+　いずれもメモリは最大64GB、ストレージは最大2TB(PCI Express Gen 5)などのスペックになっており、詳細なスペックは以下のスペック表をご参照いただきたい。
+
+　ディスプレイは14型QWXGA+(2,880×1,800ドット/120Hz/0.2ms/500cd/平方m)で、OLEDパネルのタッチパネルとなる。筐体には再生素材の金属素材が採用されており、A面(天板)、C面(キーボード面)、D面(底面)に使われている。また、MIL-STD-810テストのうち20のテストをパスするなど堅牢性も確保されている。バッテリ容量は70Whで、重量は1.27kgからとなっている。
+
+　HP OmniBook Ultra 14は1月からHPのサイトなどで販売開始される予定で、米国での実売予想価格は1,549.99ドルとなっている。
+
+■ 14、16、17のパネルサイズが用意されているハイエンド向けOmniBook Xシリーズ
+
+　3つのサイズで展開するハイエンドノートPC「OmniBook X」シリーズとして、14型クラムシェルの「HP OmniBook X 14」、14型2in1の「HP OmniBook X Flip 14」、16型クラムシェルの「HP OmniBook X 16」、16型2in1の「HP OmniBook X Flip 16」、17型クラムシェルの「HP OmniBook X 17」を発表した。
+
+　14型のHP OmniBook X 14はクラムシェル型と2in1型が用意されており、クラムシェル型はIntelの次世代プロセッサ(Panther Lakeのことだと考えられる)が採用され、14型QWXGA+(2,880×1,800ドット)OLED、14型WUXGA(1,920×1,200ドット)OLED、14型WUXGA(1,920×1,200ドット)IPSの三つのパネルから選択できる。
+
+　2in1型のHP OmniBook X Flip 14では、Intelの次世代プロセッサに加えてAMDの次世代プロセッサから選択できる。
+
+　バッテリ容量は59Whないしは70Whで、重量は1.3kg(クラムシェル型)と14型を搭載したメタル筐体のノートPCとしては比較的軽量になっている。
+
+　このほか、16型クラムシェルのHP OmniBook X 16、16型2in1のHP OmniBook X Flip 16、17型クラムシェルのHP OmniBook X 17が用意されており、こちらもクラムシェル型はIntelの次世代プロセッサ、2in1型はAMD、Intel両社の次世代プロセッサから選択することが可能だ。
+
+　OmniBook Xシリーズは春頃に販売が始まる予定で、価格は販売開始が近くなってきた時期に公開されるとしている。
+
+■ ミドルレンジのOmniBook 7はAMD、Intelの次世代プロセッサを搭載
+
+　ミドルレンジ向けの製品となるOmniBook 7は14型のOmniBook 7 14、16型のOmniBook 7 16という2つディスプレイサイズが用意されている。OmniBook 7 14にはAMDとIntel、OmniBook 7 16にはIntelの次世代プロセッサが搭載されており、新しいプロセッサを搭載したミドルレンジの製品というのがOmniBook 7の位置づけとなる。
+
+　14型にはQWXGA+(2,880×1,800ドット)のOLED、WUXGA(1,920×1,200ドット)OLED、WQHD+(2,240×1,400ドット)のIPS、WUXGA(1,920×1,200ドット)のIPSという4つのパネルが用意されており、ニーズやコストに応じて選べる。16型は、WQHD+(2,240×1,400ドット)のOLED、WQXGA(2,560×1,600ドット)とWUXGAのIPSという3種類が用意される。
+
+　重量は14型が1.44kg(Intel版)、16型の1.95kgとなっており、ハイエンド製品になるOmniBook Xなどに比べるとやや重めになっているが、その分低コストで提供される。春頃から提供開始される予定で、価格などは発売時期が近づいてきた時に明らかにされる見通し。
+
+■ 低価格帯製品をカバーするOmniBook 5とOmniBook 3
+
+　OmniBook 5、OmniBook 3はミドルレンジからローエンドをカバーする製品で、プロセッサも最新のプロセッサ(AMD、Intelの次世代プロセッサ)だけでなく、AMDのRyzen 200シリーズやIntelのCore シリーズ2/シリーズ1や第13世代Coreなどのより低価格なプロセッサを採用した製品がラインアップされている。各製品のスペックなどは以下の表の通りだ。
+
+　HPによればOmniBook 5は2月から販売開始予定で実売予想価格は849.99ドルから、OmniBook 3も2月から販売開始予定で、実売予想価格は499.99ドルからとなっている。
+PC Watch,笠原 一輝",[],[]
+Snapdragon X2 Plusが来た！Eliteとは異なる小型ダイで登場。性能も明らかに（PC Watch）,https://news.yahoo.co.jp/articles/b3cf6d9fb604e161e3850dbe97b667657e8caf59,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260106-00000001-imppcw-000-1-view.jpg?exp=10800,2026-01-06T02:00:00+09:00,2026-01-06T02:00:00+09:00,PC Watch,imppcw,PC Watch,3309,"写真：PC Watch
+Qualcommは1月5日(現地時間)、「Snapdragon X2 Plus」を発表した。昨年9月に登場したSnapdragon X2シリーズのミドルレンジ版となる。
+【画像】左がSnapdragon X2 Eliteのロゴ、右がSnapdragon X2 Plusのロゴ
+Snapdragon X2 Plusには、CPUが10コアのX2P-64-100と、6コアのX2P-42-100の2種類のSKUが用意されており、すでに発表済みのSnapdragon X2 Elite Extreme/X2 Eliteの2SKUと合わせて4つが揃ったことになる。
+
+■ Snapdragon X2シリーズのミドルレンジとなる10コア、6コア版が早くも登場
+
+　Qualcommが2023年に発表した「Snapdragon Xシリーズ」には、最上位のSnapdragon X Elite、ミドルレンジのSnapdragon X Plus、ローエンドのSnapdragon Xという3つのサブブランドが用意されており、価格帯を分けることでより幅広い市場のノートPCに対応できるようになっていた。
+
+　昨年9月のSnapdragon Summit 2025で発表された「Snapdragon X2シリーズ」では、Snapdragon X2 Elite Extreme、Snapdragon X2 Eliteという最上位の「Elite」は発表されていたが、今回になってミドルレンジのX2 Plusが出てきたかたちとなる。
+
+　上位モデルとの大きな違いはCPUコアの構成とGPUだ。10コアとなるX2P-64-100は、プライムコアが6コア、パフォーマンスコアが4コアとなっており、X2 Eliteの「X2E-80-100」の12コア(6プライムコア、6パフォーマンスコア)と差別化されている。X2P-42-100はプライムコアが6コアになっており、パフォーマンスコアは搭載されていない。
+
+　GPU(Adreno X2)は、X2 Elite Extreme/X2 EliteがX2-90/85となっているのに対して、X2 PlusではX2-45だ。Adreno X2ではスライスと呼ばれるGPUの演算器などが1つのブロックにまとめられており、そのスライス単位で増減できるようなアーキテクチャになっている。
+
+　Qualcommによれば、今回のX2 PlusのX2-45ではスライスが2スライスになっており、X2-90/85の3スライスと比較して、演算器などがざっくり3分の2になっていることが違いとなる。
+
+　10コアのSnapdragon X2 Plus(X2P-64-100)は、従来世代となるSnapdragon X Plus(X1P-64-100)と比較して、CPUのシングルスレッド性能が35%、マルチスレッド性能が17%、GPU性能が29%、NPU性能が78%向上しており、電力効率は43%向上しているという。
+
+　6コアのSnapdragon X2 Plus(X2P-42-100)は、Snapdragon X Plus(比較対象のSKUは不明)と比較してシングルスレッドが35%、マルチスレッドが10%、GPU性能は29%、NPUは78%性能が向上していると説明されている。
+
+　Qualcommによれば、Snapdragon X2 Plusを搭載したノートPCは、2026年の前半中にOEMメーカーなどから出荷が開始される見通しであるという。
+
+■ HP OmniBook Ultra 14に特別版Snapdragon X2 Eliteを提供
+
+　今回のCESでは、Snapdragon X2シリーズを搭載したデバイスが多数発表される予定になっているが、そのパートナーとして選ばれたのがHPだ。
+
+　HPはQualcommの発表に合わせて、Snapdragon X2 Eliteを搭載した「HP OmniBook Ultra 14」を発表している。特徴的なのはNPUの性能が85TOPSに高められた特別なSKUが採用されていることだ。
+
+　HPによれば、85TOPSのSnapdragon X2 Eliteは、18コアのX2E-90-100、12コアのX2E-84-100で、いずれもNPUが85TOPSになっている。HPが発表したスペックとQualcommが発表した標準スペックの違いを表にすると以下のようになる。
+
+　HPは以前にもRyzen AI 300シリーズを採用するときに、NPUの性能を55TOPSに引き上げたHP向けの特別SKUを提供してもらった例がある。また、Qualcomm自身も、Surfaceに採用されたMicrosoftブランドのSQ1/SQ2で、クロック周波数を高めたバージョンをMicrosoftに提供した例がある。今回の両者の提携はそうした過去の延長線上にある取り組みと言えるだろう。
+
+■ Snapdragon X2 EliteとPlusでの実機ベンチマークデータが公開される
+
+　前述の通り、Snapdragon X2 Plusは、2つのSKUから構成されており、10コア(6プライムコア、4パフォーマンスコア)のX2P-64-100、6コア(プライムコアのみ)のX2P-42-100がある。
+
+　そして今回、10コア版のX2P-64-100を搭載したQualcommのリファレンスデザイン機を利用したベンチマーク結果が公開された。
+
+　Cinebench 2024のシングルスレッドはSnapdragon X2 Elite ExtremeのX2E-96-100が161～162であるのに対して、Snapdragon X2 PlusのX2P-64-100は134となっており、このあたりはクロック周波数の差と考えられる。
+
+　マルチスレッドのほうはX2E-96-100が1842～1956で、X2P-64-100は半分程度の993-1015になっている。このあたりはコア数の違いだと理解できる。
+
+　GPUテストの3DMarkの結果も同様で、Solar Bayも、3DMarkのSteel Nomad LightもSnapdragon X2 Eliteに比べて、Snapdragon X2 Plusはおおむね3分の2程度になっており、こちらはシンプルにスライス数が減ったためだと考えられる。
+
+　なお、Microsoft Officeを利用したProcyon/Office Productivityではあまり性能は落ちていない。こちらはどちらかと言うと、シングルスレッド時の性能とメモリレイテンシが効いているテストであるため、Cinebenchのシングルスレッドの結果と同じような結果になっていると考えられる。
+
+■ 公開されたSnapdragon X2 Plusのパッケージで、別ダイであることが判明
+
+　なお、QualcommはSnapdragon X2 Plusのダイが、Snapdragon X2 Eliteのダイとは別のダイかどうかについて「ノーコメント」と述べたが、ベンチマークを公開した場ではSnapdragon X2 Plusのリアルなダイを公開している。同所にはSnapdragon X2 Elite Extremeのパッケージも用意されており、直接大きさを比較可能だった。
+
+　それを見る限り、Snapdragon X2 Elite Extreme(X2E-96-100)に搭載されているダイ(パッケージの違いはあるがほかのSnapdragon X2 EliteのSKUでも同じダイだと考えられる)は、Snapdragon X2 Plus(X2P-64-100)のダイに比べて大きかった。このため、Snapdragon X2 Plusのダイは、ミドルレンジ用に開発されたより小型のダイだと考えて良いだろう。
+PC Watch,笠原 一輝",[],[]
