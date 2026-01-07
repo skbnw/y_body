@@ -1,0 +1,424 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Macでロジクール製品に問題発生。Logi Options+とG HUBの障害でカスタマイズ機能が全停止（PC Watch）,https://news.yahoo.co.jp/articles/e363d6ccb17af46da8bf5e0859bc3c33585a40e6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000024-imppcw-000-1-view.jpg?exp=10800,2026-01-07T18:46:00+09:00,2026-01-07T18:46:00+09:00,PC Watch,imppcw,PC Watch,540,"写真：PC Watch
+ロジクール(Logitech)製品を愛用するMacユーザーの間で悲鳴が上がっている。高機能のマウスやキーボードを制御する純正アプリ「Logi Options+」および「G HUB」が正常に動作しなくなり、カスタマイズした機能が利用できない大規模障害が発生しているからだ。
+
+　記事執筆時点の1月7日において、「Logi Options+」および「G HUB」をMacで起動してもログイン画面から先に進めない。ロジクール製品のマウスやキーボードの基本動作は可能だが、ユーザーが設定したショートカットキーやジェスチャー操作、ボタンの割り当てなどはすべて無効化され、デフォルト設定でしか動作しない。
+
+　原因についてLogitechは、macOS版アプリの「開発者証明書の期限切れ」であることを認めた。macOSのセキュリティ機構が、期限切れの証明書を持つプロセスの実行をブロックしたため、アプリが機能不全に陥ったとみられる。また、「修正に取り組んでおり、まもなく利用可能になる」としている。
+
+　なお、今回の障害は、Windows環境での発生は報告されていない。Macユーザーにとっては、一刻も早い修正版アプリの配布が待たれる。
+PC Watch,竹元 かつみ",[],[]
+小型、5ボタン、無線/有線両用など、機能盛りだくさんなモバイルマウス（PC Watch）,https://news.yahoo.co.jp/articles/49faea59005f35de2cc4683db87447e539f0b6d9,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000023-imppcw-000-1-view.jpg?exp=10800,2026-01-07T15:27:00+09:00,2026-01-07T15:27:00+09:00,PC Watch,imppcw,PC Watch,675,"写真：PC Watch
+サンワサプライは、多機能な小型ワイヤレスマウス「400-MAWB229BK」を発売した。価格は3,980円。本体カラーはブラックとホワイトの2色を用意する。
+【この記事に関する別の画像を見る】
+400-MAWB229BKは、「クレジットカードより小さい」サイズのワイヤレスマウス。コンパクトさと操作性を両立した設計で、快適な作業環境を実現するとうたう。
+
+　左右クリック、分解能切替ボタン、ペアリングボタンに加え、持ち運び用小型マウスでは省かれがちな進む/戻るボタンを備える。スクロールホイールの代わりに「マジックホイール」と称するボタンを搭載しており、押しながらマウスを動かすことで画面スクロールを行なえる。また、左利きモードを搭載しており、ボタン配置を左右反転して使える。
+
+　本体内蔵のUSBレシーバで1台、Bluetoothで2台の計3台と無線ペアリングが可能。電源オフ状態で充電用USB Type-CポートでPCなどにつなぐことで有線接続でも使用できる。
+
+　本体後部にはリング部分が設けられており、指を通しての持ち運びや、カラビナなどにぶら提げて携帯するといった活用が可能。
+
+　インターフェイスは、無線がBluetooth 5.2および2.4GHz、有線がUSB 1.1。分解能は1,000/1,600/2,400/4,000dpiの4通りに切り替え可能。
+
+　本体サイズは約48×80×13mm、重量は約30g。バッテリ駆動時間は連続動作で約36時間、連続待機で約8,760時間。
+PC Watch,上田 羽純",[],[]
+"Stream Deck内蔵ゲーミングキーボード、8,000Hzポーリングで性能も十分（PC Watch）",https://news.yahoo.co.jp/articles/c1b171cd6bff8ca031912f9103c86006b91e4e5a,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000022-imppcw-000-1-view.jpg?exp=10800,2026-01-07T14:38:00+09:00,2026-01-07T14:38:00+09:00,PC Watch,imppcw,PC Watch,851,"写真：PC Watch
+CORSAIRは、「Stream Deck」を内蔵したメカニカルゲーミングキーボード「GALLEON 100 SD」を発表した。国内での販売時期および価格は不明、米国向けページでの予約価格は349.99ドル(約5万4,830円)。
+【画像】GALLEON 100 SD
+GALLEON 100 SDは、同社がElgatoブランドで展開するショートカットキーデバイスであるStream Deckのインターフェイスを標準搭載したゲーミングキーボード。本体右側、テンキーに相当する位置に12個の液晶付きボタンを搭載し、その上部には2基のダイヤル、および小型液晶を備える。
+
+　液晶付きボタンとダイヤルは、Stream Deck用の専用ソフトウェアでアイコンや機能をカスタマイズ可能。プロファイルを複数作成して切り替えながら使うことで、物理的な数以上のアクションを設定できる。また、ダイヤルはボタンとして押し込むこともでき、機能の割り当てや長押しでのダイヤル機能切り替えなどに対応する。
+
+　小型液晶はスピーカーやマイクの音量、現在時刻、天気などの情報を表示できるほか、背景画像を設定可能。
+
+　キーボードは英語配列を採用した。キースイッチには、同社製の「潤滑済みMLXパルス・リニア・スイッチ」を搭載。ホットスワップに対応し、3/5ピンメカニカルスイッチに交換可能だ。内部は6層の消音フォームとガスケットマウントにより、打鍵音を抑える設計となっている。
+
+　独自の「AXONテクノロジー」により8,000Hzのポーリングレートに対応。また、FPSなどで威力を発揮する、入力キーを素早く切り替える機能「FlashTap(SOCD)」も搭載する。
+
+　対応OSはWindows 10以降、macOS 10.15以降。設定用ソフトウェアが検出されない場合、デフォルトのプロファイルが有効になる。インターフェイスはUSB 2.0。
+
+　本体重量は2.706kg。
+PC Watch,上田 羽純",[],[]
+Broadcom、AI推論専用コア搭載のWi-Fi 8ルーター向けSoC（PC Watch）,https://news.yahoo.co.jp/articles/a0dc85e451c2f123a472e756f5a0fdc4288b9751,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000021-imppcw-000-1-view.jpg?exp=10800,2026-01-07T14:21:00+09:00,2026-01-07T14:21:00+09:00,PC Watch,imppcw,PC Watch,842,"写真：PC Watch
+米Broadcomは1月6日(現地時間)、Wi-Fi 8(IEEE 802.11bn)プラットフォームのSoC「BCM4918」およびデュアルバンド通信チップ「BCM6719」「BCM6714」を発表した。早期アクセス顧客とパートナーに対して提供を始めている。
+
+　Wi-Fi 8は、通信の安定性と信頼性を重視した「Ultra High Reliability(超高信頼性)」を念頭に開発された次世代Wi-Fi規格。新機能として、DSO(ダイナミックサブバンド操作)やNPCA(非プライマリチャネルアクセス)による輻輳回避、DRU(分散リソースユニット)やELR(拡張長距離)による通信範囲拡大、AP間調整によるスループット向上、シームレスローミングなどをサポートしている。
+
+　BCM4918は、クアッドコアのARMv8互換CPUと、AI/ML(機械学習)推論専用のコアを統合したAPU(Accelerated Processing Unit)。一般住宅用のWi-Fiルーターやアクセスポイントなどへの搭載を主な用途としている。
+
+　デバイス上でAI/ML推論を行なうコアは「Broadcom Neural Engine(BNE)」と名付けられており、後述のBCM6719/BCM6714と組み合わせることで、Wi-Fi 8のシームレスローミング、輻輳回避、AP間調整などを安全なエッジAI処理で実現。また、専用のネットワークオフロードエンジンとデュアルイシューランナーパケットプロセッサを搭載し、有線/無線のトラフィックをCPUから完全に切り離して処理できる。
+
+　BCM6719/BCM6714は、5GHz帯と2.4GHz帯の通信をサポートするデュアルバンド通信チップ。BCM6719は両周波数帯で各4ストリーム、BCM6714は各3ストリームが利用可能。パワーアンプを搭載しており、デバイスの小型化や省電力化を図っている。
+PC Watch,関根 慎一",[],[]
+ドスパラ、BTO PCの納期が短縮。ノートなら5日（PC Watch）,https://news.yahoo.co.jp/articles/2958a88f9467e94cf7ae719bb08220bc4df90ffd,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000020-imppcw-000-1-view.jpg?exp=10800,2026-01-07T12:31:00+09:00,2026-01-07T12:31:00+09:00,PC Watch,imppcw,PC Watch,309,"写真：PC Watch
+サードウェーブが運営するドスパラは1月6日、BTO PCの納期短縮を発表した。
+
+　ドスパラでは、想定を上回るBTO PCの注文の影響により、2025年12月26日に納期延長を発表。具体的には、注文確定後の納期がノートPCでは約10日程度、デスクトップPCでは約3～7週間程度となっていた。しかし今回、生産体制と出荷体制の強化により納期を短縮したとし、現在の納期目安は、ノートPCが約5日程度、デスクトップPCが約3週間程度になっている。
+
+　ただ、現状では最短翌日出荷に至っていないため、生産および出荷体制のさらなる最適化を進め、より安定した供給を目指すとしている。
+PC Watch,劉 尭",[],[]
+マウス、MousePro初の有機EL搭載モバイルノート（PC Watch）,https://news.yahoo.co.jp/articles/1afe51303ba0ab4d6930a0ffc58d89a3363f7dce,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000019-imppcw-000-1-view.jpg?exp=10800,2026-01-07T12:06:00+09:00,2026-01-07T12:06:00+09:00,PC Watch,imppcw,PC Watch,571,"写真：PC Watch
+マウスコンピューターは、法人向けブランドMousePro初となる13.3型有機ELディスプレイ搭載のモバイルノート「MousePro C3」を発売した。
+【この記事に関する別の画像を見る】
+MousePro C3は、MouseProブランド初となる有機ELディスプレイ搭載モデルで、あざやかな発色が特徴。また、MIL-STD-810Hに準拠した8項目の耐久試験をクリアした堅牢性がうたわれている。
+
+　構成の一例として、CPUにCore i7-13620H、メモリに8GB、ストレージに256GB NVMe SSD、ディスプレイに1,920×1,080ドット表示対応13.3型光沢有機EL、OSにWindows 11 Proを搭載し、価格は16万4,780円。
+
+　インターフェイスは、USB 3.2 Gen 2 Type-C 2基、USB 3.2 Gen 2、USB 3.2 Gen 1、HDMI出力、Wi-Fi 6E、Bluetooth 5、Gigabit Ethernet、Windows Hello対応500万画素Webカメラ、音声入出力などを備える。
+
+　バッテリは50Whリチウムポリマーで、駆動時間は約3.5時間。本体サイズは305.8×211×21mm、重量は約1.14kg。
+PC Watch,劉 尭",[],[]
+"Lenovo、16型が24型に伸びるディスプレイを備えた「Legion Pro Rollable Concept 16""」（PC Watch）",https://news.yahoo.co.jp/articles/f8c3c3b02ccdc2a6026ec272d291cad73e210bcc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000018-imppcw-000-2-view.jpg?exp=10800,2026-01-07T11:24:00+09:00,2026-01-07T17:35:33+09:00,PC Watch,imppcw,PC Watch,857,"写真：PC Watch
+Lenovoは1月6日(米国時間)、新製品群を発表した。この中で、16型のOLEDパネルを24型に拡張することを可能にするPoC(Proof of Concept、実証試作)「Legion Pro Rollable Concept 16""」を公開した。伸縮可能なOLEDを採用することで、持ち運び時の底面積は16型だが、ゲームプレイ時は24型のゲーミングノートPCとして利用することが可能になっている。
+【画像】16型の状態を後ろから
+■ ディスプレイが左右に開く形で16型を24型に拡張するユニークなゲーミングノート
+
+　Legion Pro Rollable Concept 16""は、ディスプレイにサイズ可変のPureSight OLEDディスプレイを採用している。標準のサイズは16型だが、左右にディスプレイが展開することで、24型のサイズへと広げることが可能だ。これにより、持ち歩く時やメールに返事をするといった軽作業時には16型の状態にしてカバンにいれて持ち歩くことができ、一方でホテルの部屋などでゲームの練習をしたい時などには24型に拡張して利用することができる。
+
+　Legion Pro Rollable Concept 16""は、CPUやGPUなどのスペックは「Legion Pro 7i」に基づいている。CPUはCore Ultraで、GPUはGeForce RTX 5090 Laptop GPUで、ゲーミングノートPCとしてはかなりハイエンドになっている。つまりディスプレイ部のみPoCのために開発されたが、下はLegion Pro 7iそのものだと考えることができる。
+
+　このLegion Pro Rollable Concept 16""は、あくまでPoCのために開発されたもので、このまま製品化される予定はないが、今回のCESでの発表などから得たフィードバックなどを元に将来の製品開発に役立てて行くとLenovoは説明している。
+PC Watch,笠原 一輝",[],[]
+Lenovo、個人用環境知能を実現する「Qira」。motorolaからはフラグシップスマホも（PC Watch）,https://news.yahoo.co.jp/articles/398d3b869273ed160ba6ab966a2806e1c10c6f29,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000017-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:28:00+09:00,2026-01-07T10:28:00+09:00,PC Watch,imppcw,PC Watch,1951,"写真：PC Watch
+Lenovoは1月6日(米国時間)にCESの基調講演を、ラスベガスの新名所となる球体劇場Sphereで開催している。それに先だち、多くの新製品を発表した。
+【画像】Lenovoが発表した個人用アンビエント・インテリジェンスとなるQira、アスランはないようだ……
+この中で、「Lenovo Qira」(レノボ・キラ)と呼ぶPersonal Ambient Intelligence(パーソナル・アンビエント・インテリジェンス、個人用環境知能)を、PC、スマートフォン、タブレット、ウェアラブルなどの複数のプラットフォーム(Windows、Android、IoTなどの各種プラットフォーム)にまたがって提供すると明らかにした。
+
+　また、Lenovo傘下のmotorolaは「motorola Signature」と呼ばれる新しいフラグシップスマートフォンの提供を開始することを明らかにした。
+
+■ 前後の文脈を読み取ってユーザーのやることを支援する「Qira」はローカルで動作する
+
+　Lenovoが発表したQiraは、Lenovoが提供するPC、スマートフォン、タブレット、ウェアラブルデバイスなどの各種デバイスでOSなどのプラットフォームをまたがって動作するPersonal Ambient Intelligenceだ。
+
+　Personal Ambient Intelligenceとは、日本語にすると“個人用環境知能”となるが、シンプルにまとめると、前後の文脈などからユーザーの意図を読み取って、ユーザーが次にやりたいことをサポートする、より進化したAIチャットボットのようなもの。
+
+　Qiraの特徴は、クロスプラットフォームで動作すること、そしてデータがローカルで処理されることの2つだ。前者に関しては、PC(Windows)、スマートフォン/タブレット(Android)、ウェアラブル(Wear OSなど)、異なるプラットフォームをまたいでも利用できることで、Lenovoが提供するそうした製品でQiraは同じように動作する。
+
+　また、Qiraはユーザーのデータはユーザーの許可なくクラウドへ出て行かないように設計されている。これにより、現行のクラウドベースのLLMチャットボットなどのようにデータがクラウドに上がってしまうことを懸念するユーザーも安心して利用することができる。
+
+　また、コンテキストを読み取る機能などはユーザーの設定に基づいて動作させることができるため、意図しないような情報の流出などを防ぐ仕組みが用意されている(原稿執筆時点では詳細は不明)。
+
+　Lenovoによれば、Qiraには以下のような機能が用意されている。
+
+・次のアクション提案: ユーザーの行動に基づき、次に何をすべきかを提案する
+・執筆支援: メールや文書の作成をサポートし、ユーザーのトーンに合わせた文章を生成する
+・リアルタイムインタラクション: 画面共有中にAIとの流れるような対話を可能にする
+・要約機能: 離席後に重要な情報を要約し、スムーズに作業に戻れるようにする
+
+　Lenovoによれば、Qiraは今四半期からLenovo(ないしはその子会社のMotorola)が提供するPC、スマートフォン、タブレットなどに展開される計画だ。
+
+■ motorolaはmotorola signatureやmotorola razr foldなどの新型スマートフォンを発表
+
+　一方、傘下のmotorolaは、新しいフラグシップスマートフォンとなる「motorola signature」と新型折りたたみ「motorola razr fold」を発表した。
+
+　motorola signatureは、Snapdragon 8 Elite Gen 5を採用し、5,000万画素のカメラを装着したモデル。「signature」という英語は日本語にすると「サイン」の意味だが、もう1つの意味としてブランドを象徴する意味があるため、motorola signatureはmotorolaを象徴するという意味合いになる。また、7年分のOSとセキュリティーアップデートの提供が保証される。
+
+　もう1つのmotorola razr foldは折りたたみ可能な8.1型のディスプレイを持ち、前出のQiraの機能のうち、次のアクションの提案などが利用可能になっている。
+
+　また、LenovoとFIFAが提携したことを受けて「motorola razr FIFA World Cup 26 Edition」を今後提供する計画だと明らかにして実機を公開した。
+PC Watch,笠原 一輝",[],[]
+何その魔法。コンコンと叩くと画面が開く「ThinkBook Plus Gen 7 Auto Twist」（PC Watch）,https://news.yahoo.co.jp/articles/77831fba1ba24a964247bc7ae92a672ed1c53527,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000016-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:17:00+09:00,2026-01-07T10:17:00+09:00,PC Watch,imppcw,PC Watch,625,"写真：PC Watch
+Lenovoは1月6日(米国時間)、ThinkBook Plus Gen 7 Auto Twist」を発表した。中小規模法人向けのブランドとなる「ThinkBook」ブランドの製品。電動ヒンジを備えており、ディスプレイが閉じた状態でカメラ部分を叩くとディスプレイが開き、音声コマンドで閉じることができる。6月から提供開始予定で、米国での実売予想価格は1,649ドルから。
+【画像】スマートフォンからリモート操作でディスプレイを回すこともできる
+カメラ部分付近にセンサーがあり、そこの部分をコンコンと叩くと、センサーが検知して電動ヒンジがディスプレイを開く機構となっている。閉じたい時は音声で「Close Lid」(ディスプレイを閉じて)と命令できる。
+
+　ヒンジは回転機構もあり、AI利用して、人や物体の動きを追随できる。これにより、ビデオ会議などで動きながら話しても、カメラ(パネル)がユーザーを追いかけてくれる。スマートフォンからヒンジの角度を変えることも可能だ。ただ、電動ヒンジを内蔵したことで1.4kgと、14型のモバイルノートPCとしては重めとなる。
+
+　PCとしての機能も十分で、プロセッサはCore Ultraシリーズ3、メモリは最大32GB、ストレージは最大2TB。ディスプレイは14型の2.8K OLEDを採用しており、リフレッシュレートは120Hz、輝度は500cd/平方m。
+PC Watch,笠原 一輝",[],[]
+Lenovo、横でも縦でも使える一体型PCとデュアルGPU AIワークステーション（PC Watch）,https://news.yahoo.co.jp/articles/e093bb0d856340a083ed7be3d27fcd9752979ed8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000015-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:05:00+09:00,2026-01-07T10:05:00+09:00,PC Watch,imppcw,PC Watch,964,"写真：PC Watch
+Lenovoは1月6日(米国時間)、ビジネス向けデスクトップPC「ThinkCentre」の新製品として、「ThinkCentre X AIO Aura Edition」と「ThinkCentre X Tower」を発表した。価格や提供開始時期は未定。
+【画像】ThinkCentre X AIO Aura Edition
+ThinkCentre X AIO Aura Edition(以下ThinkCentre X AIO)は27.6型QHDディスプレイを採用した一体型PCで、ディスプレイ回転させて縦向きでも利用できるのが特徴。ThinkCentre X Towerはミニタワー型のデスクトップPCで、2枚までのビデオカードを内蔵できる。
+
+■ 27.6型QHDパネルを縦でも使えるThinkCentre X AIO Aura Edition
+
+　ThinkCentre X AIOは、27.6型QHD(2,560×2,880ドット300cd/平方m)のIPS液晶を内蔵。通常一体型PCのパネルは横向き固定だが、ThinkCentre X AIOはパネル部を回転させられる。
+
+　ThinkCentre X AIOにはユニークなソフトがいくつか提供されており、「AI Turbo Zone」ではカメラで撮影した物体をAIを利用して生成拡張できる。「Share Zone」では別のノートPCの画面を本製品上に表示し、ノートPCのファイルを編集するなどの使い方が可能だ。
+
+■ 2枚のGPUを本体に内蔵できるThinkCentre X Tower
+
+　ThinkCentre X Towerはミニタワー型のワークステーションPCで、最大で2枚の拡張カードを内蔵できる。実機で確認したところ、正確には本体の構造としては4スロット分が用意されており、2スロットのGPUが2枚となる。AIアプリケーションやAIモデルの開発向けのワークステーションとなる。
+
+　デザイン上の特徴として、背面にポートなどがない。電源端子や各種インターフェイス、ビデオ出力などは、いずれも底面にある。ケーブルを底面に集めることで、机の脇においてもケーブルが見えないすっきりしたデザインが実現されている。
+PC Watch,笠原 一輝",[],[]
+Lenovo、透明スタンドが目を引く一体型PC。タッチパッドをペン操作できるノートも（PC Watch）,https://news.yahoo.co.jp/articles/b4e1bcfdfd7f1d995d229134de1fd359f98edb60,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000014-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:00:00+09:00,2026-01-07T10:00:00+09:00,PC Watch,imppcw,PC Watch,1836,"写真：PC Watch
+Lenovoは1月6日(米国時間)、ノートPCと一体型PC(AIO)のフラグシップ製品として「Lenovo Yoga Pro 9i Aura Edition(16"", 11)」「Lenovo Yoga Pro 7i Aura Edition(15"", 11)」「Lenovo Yoga Slim 7i Ultra Aura Edition(14"", 11)」「Lenovo Yoga AIO i Aura Edition(32"", 11)」を発表した。いずれもLenovoとIntelの共同開発で、高いユーザー体験を提供する「Aura Edition」の冠が与えられている。
+【画像】透明スタンドのカラーを変えることができる
+■ 透明スタンドが映えるLenovo Yoga AIO i Aura Edition(32"", 11)
+
+　Lenovo Yoga AIO i Aura Edition(32"", 11)は、32型4K(3,840×2,160ドット)のOLEDパネルを搭載した一体型PC。最大の特徴は、ディスプレイの下部にあるスタンドが、透明になっており、ディスプレイが浮いたようなデザインとなっている点。スタンド内部にはLEDが入っていて、ツールで色を変更したり、ディスプレイ表示色に近い色に合わせて自動的に変えたりできる。
+
+　CPUはCore Ultraシリーズ3(最大Core Ultra X7 358H)で、メモリは最大32GB、ストレージは最大2TBになる。第2四半期から提供開始予定で、米国での実売予想価格は2,399.99ドル。
+
+■ タッチパッドをペン操作できるThe Yoga Pro 9i Aura Edition(16”, 11)
+
+　The Yoga Pro 9i Aura Edition(16”, 11)は、16型WSXGA)3,200×2,000ドット)のOLEDパネルを採用したノートPC。Core Ultraシリーズ3)最大Core Ultra 9 386H)、GeForce RTX 5070 Laptop GPU、64GBメモリ、2TB SSDというかなりのハイスペックになっている。バッテリは92.5Whと大容量で、重量は1.8kg。
+
+　最大の特徴は、タッチパッド上でデジタイザペン(Yoga Pen Gen 2)を利用できることで、タッチパッドをペンタブレット代わりにできる。もちろん普通のタッチパッドとして利用することもできる。ペンは充電式でUSB Type-Cで充電できる。
+
+■ Aura Edition以外にも多数のノートPCが発表
+
+　Yoga Pro 7i Aura Edition(15”, 11)は、15.3型WQXGA(2,560×1,600ドット)のOLEDパネルを採用した2-in-1型デバイス。360度回転ヒンジで、クラムシェル、タブレット、テントモード、ビューモードの4形態に変形して利用することができる。CPUは最大Core Ultraシリーズ3(最大Core Ultra 9 386H)、GeForce RTX 5070 Laptop GPU、64GBメモリ、最大2TB SSDというスペックで、92.5Whのバッテリを搭載して重量は1.65kg。
+
+　Lenovo Yoga Slim 7i Ultra Aura Edition(14"", 11)は、14型 QWXGA+(2,880×1,800ドット)のPOLEDを採用した薄型ノートPC。Core Ultraシリーズ3(最大Core Ultra 9 388H)、最大32GBメモリ、最大2TB SSDというスペック。75Whのバッテリを搭載し、975gと比較的軽量を実現していることが特徴となる。
+
+　Yoga Pro 9i Aura Edition(16”, 11)、Yoga Pro 7i Aura Edition(15”, 11)、Yoga Slim 7i Ultra Aura Edition(14”, 11)は第2四半期から提供開始予定で、米国での実売予想価格は順に1,899.99ドル、1,799.99ドル、1,499.99ドルとなる。
+
+　ほかにも、Yogaブランド、IdeaPadブランドなどで各種製品が発表されており、詳しくは以下のスペック表を参照いただきたい。
+PC Watch,笠原 一輝",[],[]
+"Lenovo、ミニサイズの""おひつPC""「Yoga Mini i」（PC Watch）",https://news.yahoo.co.jp/articles/7fe1e2c66b6a3f105a0db9e7a14e232557d01410,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000013-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:00:00+09:00,2026-01-07T10:00:00+09:00,PC Watch,imppcw,PC Watch,785,"写真：PC Watch
+Lenovoは1月6日(米国時間)、「Yoga」ブランドを冠したミニPC「Lenovo Yoga Mini i (1L,11)」を発表した。小さなおひつのようなデザインで、容積1L程度と非常にコンパクトながらCore Ultraシリーズ3を採用するなど、強力なスペックになっている。6月から提供開始予定で、米国での実売予想価格は699.99ドルからとなっている。
+【この記事に関する別の画像を見る】
+Lenovo Yoga Mini i (1L,11)は、ミニPCに分類される小型筐体のデスクトップPCだ。一般的なミニPCが直方体に近い形状をしているのに対し、Lenovo Yoga Mini i (1L,11)は円柱の形状をしていることが大きな特徴だ。
+
+　そのデザインを見たときに思いだされたのは、かつてソニーが発売した「VAIO VGX-TP1」だ。VGX-TP1は270×91mmの大きさだったが、Yoga Mini i (1L,11)は直径が130mmに高さが48.6mmとかなり小さく、「ミニおひつPC」と呼びたくなる。重量は600gだ。
+
+　主な仕様としては、CPUがCore Ultraシリーズ3(最大でCore Ultra X7 358H)、メモリは32GB、SSDは2TBとなっている。Thunderbolt 4が背面と側面に1つずつあり、HDMI 2.1端子とあわせて、3画面出力が可能となっている。
+
+　このほか、Wi-Fi 7、Bluetooth 6、USB 3.2 Gen 2 Type-C 2基、USB 3.2 Gen 2、Ethernet、音声端子などを装備。OSはWindows 11。
+
+　本体下部にはイルミネーションライトが装備されており、電子メールが到着通知などに利用できる。
+PC Watch,笠原 一輝",[],[]
+Lenovo、13.3型筐体で16型に伸びるパネルを搭載したThinkPadコンセプトモデル（PC Watch）,https://news.yahoo.co.jp/articles/f43babbb27b820c8e47e1d7db45351ca791fbee8,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000012-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:00:00+09:00,2026-01-07T10:00:00+09:00,PC Watch,imppcw,PC Watch,823,"写真：PC Watch
+Lenovoは1月6日(現地時間)、ThinkPadのコンセプトモデルとして「ThinkPad Rollable XD Concept」を公開した。ThinkPad Rollable XD Conceptは、巻取可能なディスプレイを採用し、13.3型の底面積で縦長16型のディスプレイを実現する。
+【画像】OLEDディスプレイが伸縮する仕組みになっている
+Lenovoは近年、新しいフォームファクターに積極的に取り組んでおり、ディスプレイ折り曲げ型ノートPC「ThinkPad X1 Fold」を発売。また、ディスプレイ巻取型としても「ThinkBook Plus Gen 6 Rollable」を実際に販売している。
+
+　ThinkBook Plus Gen 6 Rollableでは、ディスプレイの伸縮はスイッチで行なっていたが、ThinkPad Rollable XD Conceptはディスプレイ上部を1秒間程度押すとガイドが表示され、それに従ってスワイプすると、伸縮が行なわれる。また、音声でも伸縮できる。
+
+　また、ThinkBook Plus Gen 6 Rollableと異なり、天板にディスプレイのあまりが来る構造になっているので、そこに予定や付箋機能などを表示させることが可能。伸縮する機構部分は透明になっているのも目を引く。
+
+　なお、ThinkPad Rollable XD Conceptはあくまでコンセプトモデルであって、製品化されるかは決まっていない。ただし、ThinkBook Plus Gen 6 Rollableが実際に販売されていることから、ThinkPad Rollable XD Concept製品化の可能性は低くないだろう。Lenovoによれば、反響などを見極めながら製品化、あるいは、将来もっと洗練された構造にしたりなどを検討しているとのことだ。
+PC Watch,笠原 一輝",[],[]
+例の赤ぽっちがないThinkPad、新型が登場したぞ！（PC Watch）,https://news.yahoo.co.jp/articles/383302560d4c069b2a9807bc1f1d283dead27186,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000011-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:00:00+09:00,2026-01-07T10:00:00+09:00,PC Watch,imppcw,PC Watch,1536,"写真：PC Watch
+Lenovoは1月6日(米国時間)に、CEOのヤン・ヤンチン氏を始め、幹部や半導体メーカーCEOなどゲストが多彩な顔ぶれが登壇するCESの基調講演を、ラスベガスの新名所となる球体劇場Sphereで開催している。それに先だって新製品が発表された。
+【画像】ThinkPad X9 15p Aura Editionのキーボードとタッチパッド
+その中で「ThinkPad X9 15p Aura Edition」は、X1シリーズと並ぶThinkPadのフラグシップ製品に位置づけられているX9シリーズの最新製品となる。従来のThinkPadユーザー向けのフラグシップ製品がX1、これからThinkPadを購入するユーザー向けのフラグシップ製品がX9と位置づけており、トラックポイント(TrackPoint)のような従来ユーザーが好むデバイスがない代わりに、かなり大型のクリックパッドが用意されるなどの特徴を備えている。今回発表されたThinkPad X9 15p Aura Editionはその最新モデルだ。
+
+■ トラックポイントレスの新規ユーザー向けのThinkPad X9に新製品となる15pが発表
+
+　Lenovoは昨年(2025年)のCESで、14型の「ThinkPad X9 14 Aura Edition」と15.3型の「ThinkPad X9 15 Aura Edition」の2製品を発表した。その詳細に関しては昨年のCESリポートをご参照いただきたい。
+
+　シリーズ最大の特徴は、ThinkPadのアイデンティティといってもよい、スティック型のポインティングデバイスであるトラックポイントが装着されていないことで、その代わりに大きなクリックパッドが用意されている形になっていた。
+
+　確かに一度慣れてしまうと便利なデバイスであるトラックポイントだが、現状ではThinkPad以外の製品で採用されていない。ほとんどのノートPCユーザーがタッチパッドに慣れ親しんでいるため、むしろ大型のタッチパッドが必要とされているという現実に、Lenovo流に対処した結果だ。X9シリーズは、他社製品のユーザーがThinkPadに移行する際のハードルを下げる位置づけの製品だ。
+
+　今回LenovoはそうしたX9シリーズの新製品として、ThinkPad X9 15p Aura Editionを発表した。昨年のX9シリーズには、14型と15型の2つのモデルが用意されていたが、今年のモデルに関してはX1シリーズにはない15型に特化した形にシフトしたことになる。
+
+　プロセッサはCore Ultraシリーズ3、メモリは最大64GB、ストレージは2TB SSD(PCIe 5.0)というハイエンドにふさわしいスペックになっている。また、LenovoとIntelが共同開発したユーザー体験を実現するソフトウェアなどが実装されており、それが「Aura Edition」の製品名がついている理由となる。
+
+　ディスプレイは15.3型QWXGA+ OLEDタッチ(2,880×1,800ドット、120Hz VRR、ピーク時1,000cd/平方m)の選択肢が1つで、どちらかというとハイエンド向けのスペックに絞った形になる。また、ThinkPad X1シリーズと同じ1,000万画素のMIPIカメラを選択できる。
+
+　バッテリは88Whで、重量は1.5kgとなる。Lenovoによれば、ThinkPad X9 15p Aura Editionは今四半期から提供開始予定で、米国での実売予想価格は1,999ドルからと明らかにされている。
+PC Watch,笠原 一輝",[],[]
+Lenovo、Core Ultraシリーズ3を搭載した「ThinkPad X1」（PC Watch）,https://news.yahoo.co.jp/articles/e8eca358c5c17baf49110b079a92f71b38f7bf67,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000010-imppcw-000-1-view.jpg?exp=10800,2026-01-07T10:00:00+09:00,2026-01-07T10:00:00+09:00,PC Watch,imppcw,PC Watch,2301,"写真：PC Watch
+Lenovoは1月6日(米国時間)、CEO ヤン・ヤンチン氏などの同社幹部や半導体メーカーCEOなど、ゲスト多彩な顔ぶれが登壇するCESの基調講演を、ラスベガスの新名所となる球体劇場Sphereで開催している。それに先だって新製品を発表した。
+【画像】ThinkPad X1 Carbon Gen 14 Aura Edition
+この中で、Lenovoは同社の一般法人向けノートPCとなる「ThinkPadシリーズ」のフラグシップ製品となる「ThinkPad X1 Carbon Gen 14 Aura Edition」「ThinkPad X1 2-in-1 Gen 11 Aura Edition」を発表した。いずれもIntelが発表したばかりのCore Ultraシリーズ3(開発コードネーム: Panther Lake)を採用している。
+
+■ Core Ultraシリーズ3で1つのプラットフォームに統一されたThinkPad X1 Carbon/2-in-1
+
+　LenovoのThinkPad X1 Carbon Gen 14 Aura EditionおよびThinkPad X1 2-in-1 Gen 11 Aura Editionは、ThinkPadシリーズの中でもフラグシップ製品に位置づけられている製品。前者はクラムシェル型、後者は360度回転型ヒンジだが、基本的な構造は同じで、後者はディスプレイが360度回転して変形すること、デジタイザペンが利用できることが違いとなる。
+
+　なお、「Aura Edition」というのは、LenovoとIntelが共同開発したユーザー体験を向上させるソフトウェアなどが入っていることを意味している。
+
+　いずれの製品も、プロセッサにはCore Ultraシリーズ3を採用している。昨年(2025年)のモデル(ThinkPad X1 Carbon Gen 13、ThinkPad X1 2-in-1)では、Core Ultraシリーズ2のうち、Arrow Lake(Core Ultra 200H/U)とLunar Lake(Core Ultra 200V)の2つを搭載した製品の両方が用意されていたが、今回はPanther LakeのCore Ultraシリーズ3に統一された形になる。
+
+　なお、日本ではThinkPad X1 Carbon Gen 13がArrow Lake版の「ThinkPad X1 Carbon Gen 13 IAL(14型 Intel)」と、Lunar Lake版の「ThinkPad X1 Carbon Gen 13 Aura Edition (14型 Intel)」に分かれていたが、同様に統一されることになるだろう。
+
+　メモリは最大64GB(LPDDR5x-9600)、ストレージは最大構成で2TB SSD(PCIe 5.0)となっており、Wi-Fi 7/Bluetooth 5.4、NFCにオプションで対応しているほか、従来モデルと同じように5Gないしは4Gのセルラーモデムを選択できる。
+
+■ 構造改善で使い勝手も向上
+
+　ディスプレイは旧モデル同様でQWXGA+(2,880×1,800ドット)のOLEDパネルとWUXGA(1,920×1,200ドット)のLowPower液晶版とのぞき見防止機能版という選択肢が用意されている。ディスプレイにOLEDを選んだ場合には、液晶モデルよりも軽量、薄型になり、重量は996gからと1kgを切る構成が可能になる。
+
+　ポート構成は変更されており、旧モデルではThunderbolt 4 2基、USB 3.2 Gen 2 2基だったが、新モデルではThunderbolt 4 3基、USB 3.2 Gen 2と、USB Standard A端子が1つ減り代わりにThunderbolt 4が1つ増えた。
+
+　こうした基本的なスペックは従来モデルと同等だが、内部構造は大きく見直されている。特に、PCBと呼ばれる基板の実装方法は大きく変わっており、従来モデルでの片面実装から両面実装に変更されている。これにより、基板実装面積が減らされており、従来製品のPCBに比べると小さくなっている。
+
+　さらに、右側のThunderbolt 4はドーターボード形式で実装されている。メインのPCBとドーターボードは、キーボードの下という非常に限られたスペースを通るフレキケーブルで実現されるという、まるで3D方向を上手に使ったデザインになっているのが大きな特徴といえる。
+
+　また、近年のThinkPad X1 Carbon/X1 2-in-1は、TrackPointの物理ボタンが用意されているタッチパッドと、TrackPointのボタンがクリックパッドの一部を利用して実現されているクリックパッドの2種類が用意されているが、今回のモデルでも両方が用意され、選択できる。
+
+　タッチパッドにせよ、クリックパッドにせよ、旧型に比べて奥行き方向が大きくなっており、より大きなタッチパッドが好まれるというグローバルのトレンドをフォローした仕様になっていることも見逃せない。
+
+　Lenovoによれば、ThinkPad X1 Carbon Gen 14 Aura EditionとThinkPad X1 2-in-1 Gen 11は今四半期から提供開始予定で、米国での実売予想価格は前者が1,999ドル、後者が2,149ドルとなる。
+PC Watch,笠原 一輝",[],[]
+見た目がヤバい「AORUS GeForce RTX 5090 INFINITY」など、GIGABYTEの新製品一斉発表（PC Watch）,https://news.yahoo.co.jp/articles/1ff38a50d7a8c4dce2426c682dfd9efb98204346,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000009-imppcw-000-1-view.jpg?exp=10800,2026-01-07T09:39:00+09:00,2026-01-07T09:39:00+09:00,PC Watch,imppcw,PC Watch,1297,"写真：PC Watch
+GIGABYTEはCES 2026において、新たな理念「Refine & Define」とそれを実現する新製品群を発表した。
+【画像】X870E AORUS XTREME X3D AI TOP
+Refine & Defineとは、マザーボードやビデオカード、ゲーミングノート、ゲーミングモニターといった統合AIエコシステムのハードウェアとソフトウェア性能基盤を洗練させ、応答性や効率性、直感的操作性を向上させ、AIコンピューティングの未来を定義することを指すものだとしている。
+
+■ 自作PCパーツ系
+
+　自作PC用パーツとして、マザーボードとビデオカードを発表した。
+
+　マザーボードには、GIGABYTE独自の「X3D Turbo Mode 2.0」を搭載しリアルタイムのパフォーマンス最適化を行なえるフラグシップモデル「X870E AORUS XTREME X3D AI TOP」「X870E AERO X3D WOOD」などを発表した。
+
+　ビデオカードでは、冷却機構「WINDFORCE HYPERBURST Cooling」を搭載した「AORUS GeForce RTX 5090 INFINITY」を発表。分離型PCB設計と貫通するエアフローによる冷却性の強化で、AIコンピューティング性能を最大限に引き出すという。また、ノートPC向けのeGPUとして「AORUS RTX 5060 Ti AI BOX」を投入し、ComfyUIやLM Studioといった高負荷な生成AIツールの利用を支援する。
+
+■ ノートPC
+
+　次世代ノートPCとして、Ryzen 9 9955HX3Dを搭載する「AORUS MASTER 16」、Ryzen AI 9 465を搭載する「AERO X16」、Core 7 240Hを搭載する「GAMING A18 PRO」などを発表した。いずれもGeForce RTX 50シリーズを搭載し、生成AIやゲーミングのパフォーマンスをさらに向上させるとした。
+
+　併せて、GIGABYTEが独自に提供するAIエージェント「GiMATE」を改良。AIによるパフォーマンス設定のインターフェイス再設計に加え、生成AIモデル「Qwen-image」による画像生成機能の追加や、コーディング機能の拡張などを施したという。
+
+■ モニター
+
+　ハイライトを飛ばさずにHDRの明るさを最大30%向上させる「HyperNits」や、場面に応じてSDRの表示を自動的に調整する「AI Picture Mode」を搭載したモニター製品群を投入する。
+
+　ラインナップは、34型UWQHD(3,440×1,440ドット)QD-OLEDモニター「MO34WQC36」、32型4K(3,840×2,160ドット)QD-OLEDモニター「MO32U24」、27型WQHD(2,560×1,440ドット)光沢WOLEDモニター「MO27Q28GR」、白色デザインの27型WQHD QD-OLEDモニター「MO27Q2A ICE」など。
+PC Watch,上田 羽純",[],[]
+光と音と振動でゲームに没入できるゲーミングチェア。Razerが発表（PC Watch）,https://news.yahoo.co.jp/articles/d42f9fb82a426a964f915bc34d2c389ab41c1596,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000008-imppcw-000-1-view.jpg?exp=10800,2026-01-07T09:00:00+09:00,2026-01-07T09:00:00+09:00,PC Watch,imppcw,PC Watch,1207,"写真：PC Watch
+Razerは、RGBライティング、スピーカー、触覚フィードバック機能を備えたゲーミングチェアのコンセプトモデル「Project Madison」を発表した。
+【画像】Iskur V2 NewGen
+Project Madisonは、ゲームにあわせて視覚、聴覚、触覚へのフィードバックを提供することで、より没入感の高いゲーム体験を実現できるというゲーミングチェア。
+
+　視覚の面では、Razer Chrome RGBとダイナミックエフェクトにより、勝利や戦闘といったゲーム内のイベントに応じてリアルタイムでチェアが発光するReactive Game Lightingを搭載。Razer Chrome対応機器と連動したイルミネーションも可能となっている。
+
+　聴覚の面では、THX Spatial Audioにより没入感と定位に優れたスピーカーシステムを内蔵。単独でメインスピーカーとして使えるほか、別途フロントスピーカーと組み合わせるとことで、5.1chや7.1chのサラウンドサウンド環境も構築できる。
+
+　触覚の面では、独自のRazer Sensa HD Hapticsにより、ハプティックモーターアクチュエータを使って背中からユーザーに振動をフィードバック。強さや向きに応じたリアルなフィードバックにより、心臓の鼓動や衝撃、爆発といったゲーム内のイベントを体感できるという。
+
+■ フラグシップゲーミングチェアの新型も
+
+　また、フラグシップゲーミングチェアの新型となる「Iskur V2 NewGen」も発表。こちらはすでに予約受付を開始しており、米国価格はそれぞれ649.99ドル。
+
+　従来モデルと比べ、快適性、エルゴノミクス、調整機能を主に強化。快適性の面では新構造のクッション「Dual-Density Cold-Cured Form Seat Cushion」を採用。密度の異なるクッション材を組み合わせることで、放熱性の向上と圧力の軽減を両立した。
+
+　腰を支えるランバーサポート部分には「HyperFlex Lumber Support System」を採用。背もたれの下側が上下/左右/前後に動く構造となっており、ユーザーの姿勢の変化に追従してくれる。
+
+　加えて、表面の張地には、一般的なPUレザーと比べて13倍の耐久性を持つというRazer Gen-2 EPU Leather with CoolTouch Technologyを採用。長時間座り続けても熱を持ちにくいのも特徴としている。そのほか、形状記憶フォームを使ったヘッドクッション、4Dアームレスト、152度まで倒れるリクライニング機能なども備える。
+
+　さらに、廉価版にあたる「Iskur V2 X NewGen」も予約を受け付けており、米国価格はそれぞれ349.99ドル。
+PC Watch,宇都宮 充",[],[]
+"""レゴ史上最大の革新""遊びに反応して光って音が鳴る「レゴ スマートプレイ」（PC Watch）",https://news.yahoo.co.jp/articles/75e988805f22048370c195e804aaeecfff270f0c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000007-imppcw-000-1-view.jpg?exp=10800,2026-01-07T06:46:00+09:00,2026-01-07T06:46:00+09:00,PC Watch,imppcw,PC Watch,856,"写真：PC Watch
+「レゴブロック」などを販売するレゴグループはCES 2026において、レゴブロックが子どもの遊びに反応する「レゴ スマートプレイ」を発表した。レゴブロックが光や音を発し、作品世界への没入感を高められる。
+【画像】スマートブロックの充電には、コイルによるワイヤレス式を採用
+レゴ スマートプレイは、ブロックやミニフィギュアに内蔵されたチップで動作をリアルタイムに検知し、光や音で応答するシステム。同社はこれを「レゴグループ史上最大のイノベーション」としている。
+
+　システムは「スマートブロック」「スマートタグ」「スマートミニフィギュア」で構成される。スマートブロックは、標準的な2×4のブロックと同サイズで、加速度センサー、カラーセンサー、スピーカー、ライト、バッテリなどを内蔵し、検出した動きに合った反応を返す。
+
+　スマートタグとスマートミニフィギュアには、スマートブロックから検知可能なチップが内蔵されており、互いの位置関係をもとにスマートブロックがその場に適した光と音を発する。
+
+　レゴ スマートプレイの開発に当たり同社は、既存製品では補えない機能や小型化を実現するため、複数のコイルを用いた位置検知システムや、内蔵シリコンASICチップを独自に開発した。その過程で25件もの特許を出願したという。
+
+　レゴ スマートプレイ搭載製品第1弾として、「スター・ウォーズ」をモチーフとした3製品「LEGO Star Wars SMART Play: Luke’s Red Five X-wing building set」「LEGO Star Wars SMART Play: Darth Vader’s TIE Fighter building set」「LEGO Star Wars SMART Play: Throne Room Duel & A-Wing building set」を3月1日に発売予定。国内では1月10日より予約受付を開始する。
+PC Watch,上田 羽純",[],[]
+ASUS、16型ながら約1.2kgの軽量ノート。Snapdragon X2 Elite Extreme搭載（PC Watch）,https://news.yahoo.co.jp/articles/b13b72fa63823fac161bc7a024748b61b31cb4c5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000006-imppcw-000-1-view.jpg?exp=10800,2026-01-07T02:30:00+09:00,2026-01-07T02:30:00+09:00,PC Watch,imppcw,PC Watch,1327,"写真：PC Watch
+ASUSは、16型と大画面ながら約1.2kgの軽さを実現したSnapdragon X2 Elite Extreme搭載ノート「Zenbook A16」、および1kg切りの14型モバイルノート「Zenbook A14」を発表した。いずれも国内では日本特別モデルでの投入を予定している。
+【この記事に関する別の画像を見る】
+■ Zenbook A16
+
+　Zenbook A16は、CPUにSnapdragon X2 Elite Extremeを搭載した16型ノートPC。CPUコアは18基で、最大クロックは5GHzとなっており、従来比でピーク時最大でシングルコア性能が39%、マルチコア性能が50%向上した。NPUのAI性能は80TOPSに達する。
+
+　大画面ディスプレイを備えながら、約1.2kgの軽量ボディを実現した点も特徴。パネルは解像度が2,880×1,800ドットのOLEDパネルで、独自基準を満たす「Lumina OLED」となっている。ピーク時輝度は1,100cd/平方m、画面占有率は90%。
+
+　筐体には耐久性に優れるセラルミナムを採用。キーキャップには摩耗や汚れに強いExcimerコーティングを施した。バッテリ容量は70Whで、駆動時間は動画再生時で21時間以上。
+
+　Wi-Fi 7を内蔵するほか、6基のスピーカーを備え、Dolby AtmosやSnapdragon Soundに対応。MIL-STD 810H準拠の堅牢性も特徴とする。
+
+■ Zenbook A14
+
+　「Zenbook A14」は、1kg以下の軽量ボディを特徴とする14型モバイルノート。CPUにはSnapdragon X2 Eliteを搭載する。2025年に国内で「Zenbook SORA」として投入された14型ノートの後継機にあたる。
+
+　軽量設計ながら、28時間以上の長時間バッテリ駆動を実現。バッテリ容量は70Wh。ディスプレイは14型のLumina OLEDパネルを備える。上述のZenbook A16と同様に、筐体にはセラルミナムを使用している。最大80TOPSのAI性能を持つNPUも内蔵する。
+
+■ Zenbook S16/S14
+
+　16型ノート「Zenbook S16」および14型「Zenbook S14」は、厚さ1.1cmの薄型設計が特徴のノートPC。国内では1月下旬以降の発売を予定している。
+
+　CPUには、Core Ultraシリーズ3またはRyzen AI 400シリーズを搭載。どちらも120Hz表示対応の3K Lumina OLEDパネルを採用。セラルミナムを使った天板やCNC加工を利用した冷却用ベントのデザインなども特徴としている。
+
+　バッテリ容量と重量は、Zenbook S16が83Wh/1.5kg、Zenbook S14が77Wh/1.2kg。
+
+■ Zenbook 14
+
+　「Zenbook 14」は、Ryzen AI 400シリーズ搭載の14型ノートPC。ディスプレイには14型フルHD OLEDパネルを採用する。国内では1月下旬の発売を予定している。
+PC Watch,宇都宮 充",[],[]
+Core Ultraシリーズ3搭載で990gの軽量薄型ビジネスノート「ExpertBook Ultra」（PC Watch）,https://news.yahoo.co.jp/articles/fff33ca666ddd441da5e12cba6cba4da6e7b1109,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000005-imppcw-000-1-view.jpg?exp=10800,2026-01-07T02:30:00+09:00,2026-01-07T02:30:00+09:00,PC Watch,imppcw,PC Watch,567,"写真：PC Watch
+ASUSは、薄型軽量ボディを特徴とするビジネス向けノートPCの最上位モデル「ExpertBook Ultra」を発表した。国内では2026年第2四半期以降の発売を予定している。
+【画像】本体カラーは2色
+マグネシウム-アルミニウム合金とCNC削り出し加工により、本体厚は10.99mm、重量は約990gからという薄型軽量な筐体を実現。天板などにはナノセラミック技術を利用し、9Hの硬度に相当する耐久性を確保したほか、MIL-STD 810H準拠のテストをクリアするなど、高い堅牢性も特徴としている。
+
+　最大でCPUはCore Ultra X9 388H、メモリは64GB LPDDR5Xを内蔵。デュアルファンの冷却機構ExpertCool Proを備え、最大50WのTDPにも対応する。ディスプレイには3KのタンデムOLEDパネルを採用。30～120Hzの可変リフレッシュレート表示も可能で、反射防止コーティングのCorning Gorilla Matteも施されている。
+
+　バッテリ容量は70Whで、駆動時間は24時間。デュアルBIOSや生体認証などを組み合わせたセキュリティのExpertGuardian、AI機能が利用できるMyExpertといった独自機能も備えている。
+PC Watch,宇都宮 充",[],[]
+ASUS、Ryzen AI 400/Max 392+搭載14型ゲーミングノート（PC Watch）,https://news.yahoo.co.jp/articles/6856406b8f86558733bea2519fe697e77aefa40d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000004-imppcw-000-1-view.jpg?exp=10800,2026-01-07T02:30:00+09:00,2026-01-07T02:30:00+09:00,PC Watch,imppcw,PC Watch,629,"写真：PC Watch
+ASUSは、14型ゲーミングノート「TUF GAMING A14」から、Ryzen AI 400シリーズ搭載の「FA401GM」とRyzen AI Max+ 392搭載の「FA401EA」を発表した。国内では1月下旬以降の発売を予定している。
+【画像】TUF GAMING A14 FA401EA
+FA401GMは、CPUにRyzen AI 400シリーズ、GPUにGeForce RTX 5060 Laptop GPUを搭載。ファンのブレード数を従来の89から97へ増やすなど冷却面を強化しており、マニュアルモードであればシステム全体の電力を最大135Wまで引き上げられるとする。
+
+　ディスプレイは165Hz表示対応の14型2.5Kパネルを装備。G-SYNCもサポートする。Wi-Fi 6EやUSB4なども備えるほか、MIL-STD 810H準拠の堅牢性も確保している。本体厚は16.9mm、重量は1.46kg。
+
+　一方のFA401EAは、CPUにRyzen AI Max 392+を搭載。高速なユニファイドメモリを採用しており、ゲームだけでなくローカルLLMの実行といったAI用途にも活用できる。
+
+　ディスプレイは165Hz表示対応の14型2.5Kパネルを装備。Wi-Fi 6EやUSB4などを備え、MIL-STD 810H準拠の堅牢性も確保している。本体厚は16.9mm、重量は1.48kg。
+PC Watch,宇都宮 充",[],[]
+ASUS、次世代Snapdragon/Core Ultra/Ryzen AIから選べるノートPC（PC Watch）,https://news.yahoo.co.jp/articles/31c37ff97790379d780bc646dc3ee2eef0240740,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000003-imppcw-000-1-view.jpg?exp=10800,2026-01-07T02:30:00+09:00,2026-01-07T02:30:00+09:00,PC Watch,imppcw,PC Watch,1031,"写真：PC Watch
+ASUSは、ノートPC「Vivobook」シリーズの新製品を発表した。ともに最新CPUを採用しており、Snapdragon X2 Elite、次世代Core Ultra、次世代Ryzen AIのいずれかを搭載する。
+【画像】Vivobook S14
+■ Vivobook S16/S14
+
+　「Vivobook S16」は16型、「Vivobook S14」は14型のノートPC。CPUはSnapdragon X2 Elite(Vivobook S16のみ)、次世代Core Ultra、次世代Ryzen AIの3種類から選択できる。
+
+　Snapdragon X2 Eliteモデルの場合、メモリは最大32GB、ストレージは最大1TB SSD、ディスプレイは2.5KのIPSまたはWUXGA(1,920×1,200ドット)のOLEDパネルを搭載。NPU性能は最大80TOPS。Wi-Fi 7やDolby Atmos、Snapdragon Soundなどにも対応する。バッテリ容量は70Whで、駆動時間は最大25時間。
+
+　次世代Core Ultraモデルおよび次世代Ryzen AIモデルの場合、メモリは最大32GB(換装可能)、ストレージは最大1TB SSD、ディスプレイはWUXGAのOLEDパネルを搭載。NPU性能は最大50TOPS。Wi-Fi 6やDolby Atmosなどにも対応する。バッテリ容量は70Wh。
+
+■ Vivobook 16/14
+
+　「Vivobook 16」は16型、「Vivobook 14」は14型のベーシックなノートPC。CPUは次世代Core Ultraまたは次世代Ryzen AIから選択できる。
+
+　共通の仕様として、メモリは最大16GB、ストレージは最大1TB SSD、ディスプレイはWUXGA IPSパネルを搭載。NPU性能は最大50TOPS。Wi-Fi 6に対応し、DIRAC認証の音響システムも備える。
+
+■ Vivobook 18
+
+　「Vivobook 18」は、最大144Hz表示対応の18型WUXGA IPSパネルを搭載した大画面ノート。CPUは次世代Ryzen AIのみを用意する。
+
+　メモリは最大32GB、ストレージは最大1TB SSDを搭載。Wi-Fi 6に対応し、DIRAC認証の音響システムを内蔵するほか、軍事グレードの堅牢性も備える。
+PC Watch,宇都宮 充",[],[]
+ASUS、Snapdragon X2 Elite搭載クリエイター向け14型2in1（PC Watch）,https://news.yahoo.co.jp/articles/ec3273a0bb154e06d627704286f26de464a54b60,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000002-imppcw-000-1-view.jpg?exp=10800,2026-01-07T02:30:00+09:00,2026-01-07T02:30:00+09:00,PC Watch,imppcw,PC Watch,1315,"写真：PC Watch
+ASUSは、Snapdragon X2 Elite搭載の14型2in1「ProArt PZ14」など、クリエイター向けPCの新製品を発表した。
+【画像】軽量設計も特徴
+■ ProArt PZ14
+
+　ProArt PZ14は、最大18コアのSnapdragon X2 EliteをCPUに採用した14型着脱式2in1。国内では4月以降の発売を予定している。
+
+　最大32GBのLPDDR5Xメモリを内蔵し、NPUは最大80TOPSのAI性能を発揮する。ストレージは最大1TB SSD。
+
+　ディスプレイには144Hz表示対応の14型3K OLEDパネルを搭載。Delta E 1未満の色精度や1,000cd/平方m以上の輝度、120Hz以上の可変リフレッシュレート対応、反射防止仕様といった、同社独自の基準を満たした「Lumina Pro OLED」パネルとなっており、クリエイターに必要な性能を確保したとする。
+
+　スタイラスペンのASUS Pen 3.0によるペン入力にも対応。着脱式キーボードはストロークが従来の1.4mmから1.7mmと深くなり、打鍵感を改善した。Bluetooth接続をサポートし、自由に配置して使える。
+
+　厚さが9mm、重量が0.79kgの薄型軽量設計ながら、IP52に準拠するなど耐久性を確保。75Whの大容量バッテリも内蔵している。そのほか、Wi-Fi 7や1,300万画素背面カメラも備える。
+
+■ ProArt PX13
+
+　「ProArt PX13」は、Ryzen AI Max+ 395を搭載する13.3型コンバーチブル2in1。国内では1月下旬の発売を予定している。
+
+　最大128GBのLPDDR5Xユニファイドメモリを内蔵し、クリエイティブやAI用途に好適としており、LM Studioを使用したケースでは、GeForce RTX 4090と比べて最大87%低い電力で、2.2倍のAI性能を発揮できるとする。
+
+　ディスプレイは13.3型3K Lumina OLEDパネルを採用。輝度は最大500cd/平方m、色域はDCI-P3 100%をカバーする。MIL-STD 810H準拠の堅牢性も確保している。そのほか、Wi-Fi 7やDolby Atmosなどにも対応。
+
+　バッテリ容量は73Wh。本体厚は15.8mm、重量は1.39kg。
+
+　また、GoProとコラボレーションした「ProArt GoPro Edition」もあわせて用意。通常モデルと同様に、国内では1月下旬の発売を予定している。
+
+　筐体や付属アクセサリなどにGoProのデザインを施したコラボモデル。キーボードはバックライトに青色を使用したほか、GoPro Playerをすぐに起動できる「GoPro Hotkey」を用意している。
+
+　加えて、GoProの有料サービスである「GoPro Premium+」が12カ月分付属。PCが収納されているケースは、内部の緩衝材を外すことで、GoPro本体やアクセサリの収納ボックスとしても使える設計となっている。
+PC Watch,宇都宮 充",[],[]
+ベゼルもボディも小さくなった2画面ノートの新型「Zenbook DUO」（PC Watch）,https://news.yahoo.co.jp/articles/2c01e2753f72d0811ccedd51447e19bb7c0c0e17,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260107-00000001-imppcw-000-1-view.jpg?exp=10800,2026-01-07T02:30:00+09:00,2026-01-07T02:30:00+09:00,PC Watch,imppcw,PC Watch,534,"写真：PC Watch
+ASUSは、従来モデルから小型化を図り、CPUを最新のCore Ultraシリーズ3に刷新した14型2画面ノート「Zenbook DUO」を発表した。国内では1月中旬以降の発売を予定している。
+【画像】従来モデル(左)との比較。狭額縁化、小型化している
+従来モデルと比べ、ヒンジ部分の構造を改善し、ディスプレイ間の隙間を削減。狭額縁化することで、特に2つの画面を1画面として使う際の体験を改善するとともに、フットプリントを以前より5%縮小した。筐体には独自の特殊合金であるセラルミナムを用いるなど、耐久性も確保している。
+
+　ディスプレイは上下ともに、48～144Hzの可変リフレッシュレートに対応した14型3K OLEDパネルを搭載。Delta E 1未満の色精度や反射防止コーティングなど、同社が独自に定める基準を満たした「Lumina Pro OLED」パネルとなっている。
+
+　また、新たにデュアルバッテリシステムを採用し、99Whの容量を確保。2画面で最大18時間の動画再生を実現し、従来比で駆動時間を50%延長した。そのほか主な仕様は、最大32GBメモリ、最大2TB SSDなど。重量は約1.65kg。
+PC Watch,宇都宮 充",[],[]
