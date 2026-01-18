@@ -1,0 +1,38 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+X、「リプライスパムの時代は終わり」　対策強化し、収益還元拡大（Impress Watch）,https://news.yahoo.co.jp/articles/a909525a29136ec91eb9344c42cf12163d7ff991,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260118-00000001-impress-000-1-view.jpg?exp=10800,2026-01-18T19:32:48+09:00,2026-01-18T19:32:48+09:00,Impress Watch,impress,Impress Watch,1869,"写真：Impress Watch
+Xは15日(米国時間)、APIポリシーを改定し、特定のキーワードなどを含む投稿を行なうことでユーザーに報酬を与えるアプリ(InfoFi/インフォファイ)を禁止した。これによりスパムの削減を狙うほか、より有意義な投稿への報酬を増やしていく。
+
+あるキーワードを含む投稿を行なうことで、ユーザーに報酬を与える「infofi」などを禁止し、アクセスを停止した。Xのプラットフォーム上で、AI生成の低品質コンテンツと、リプライスパムが増えてきたことから、こうしたアプリを禁止する。
+
+当該アプリからは、APIアクセスを剥奪するため、Xのプロダクト責任者であるNikita Bier氏は、「ボットから報酬が得られなくなるため、Xの体験はまもなく改善し始めるはず」と説明。また、「開発者アカウントが終了された場合、お問い合わせください。ThreadsやBlueskyへのビジネスの移行をお手伝いします」との皮肉も交えて紹介している。
+
+We are revising our developer API policies:
+
+We will no longer allow apps that reward users for posting on X (aka “infofi”). This has led to a tremendous amount of AI slop & reply spam on the platform.
+
+We have revoked API access from these apps, so your X experience should…
+
+— Nikita Bier (@nikitabier) January 15, 2026
+
+あわせて、Xにおけるユーザーへの収益還元のルール変更も行なうことを発表している。26年には収益分配プールを2倍以上に拡大する一方で、従来のような「リプライ」ではなく、プレミアム(課金)ユーザーによる、「ホーム」のタイムラインインプレッションを、収益還元の基準とする。また、短いコンテンツより記事(Article)のような長文形式をより重く評価する可能性があるという。
+
+こうした変更を反映した収益ダッシュボードも、近日中にクリエイタースタジオに追加予定。
+
+We’ve also updated how payouts are calculated.
+
+Revenue Sharing payouts are now based on Verified Home Timeline impressions, meaning your earnings are driven by real views from Premium users who see your posts in their Home feed.
+
+This shift is about rewarding content that truly…
+
+— Creators (@XCreators) January 16, 2026
+
+Bier氏はまた、「リプライスパムの約半分は、Telegramグループでリワード(収益分配)プログラムを悪用する人々によるものだった」としており、「その時代は終わる。クリエイターは、タイムラインに表示される人気投稿(bangers)のみを報酬として受け取れる」と説明。「まだいくつかのスパム経路を塞ぐ必要がありますが、今週は2つの大きなインセンティブを排除し、進展を遂げている」としている。
+
+About half of reply spam came people gaming the rev share program in Telegram groups.
+
+Those days are now over: creators will only be rewarded for bangers that make it to Timeline.
+
+We still have a few spam vectors left to close up, but we've eliminated two big incentives this… https://t.co/uYoWFyhPqV
+
+— Nikita Bier (@nikitabier) January 17, 2026
+Impress Watch,臼田勤哉",[],[]
