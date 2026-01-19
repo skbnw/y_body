@@ -1,0 +1,16 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+ダークウェブ調査や侵害後シナリオ再現も ～ NTT-AT「VPNセキュリティ診断サービス」（ScanNetSecurity）,https://news.yahoo.co.jp/articles/29b2a366f3b6afba512fd2990ff71e45eadf5f4d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260119-00000002-scan-000-1-view.jpg?exp=10800,2026-01-19T08:00:14+09:00,2026-01-19T08:00:14+09:00,ScanNetSecurity,scan,ScanNetSecurity,576,"「VPNセキュリティ診断サービス」イメージ
+NTTアドバンステクノロジ株式会社は1月14日、企業ネットワークの入口であるVPN装置を標的としたサイバー攻撃の増加を受け、「VPNセキュリティ診断サービス」の提供を翌1月15日から開始すると発表した。
+同サービスは、VPN装置に特化した多層的セキュリティ診断サービスで、外部・内部診断、ダークウェブ調査、侵害後シナリオ再現までをワンストップで実施、ツールと専門技術者による診断でVPN装置特有のリスクを明確化する。また、診断結果は第三者による客観的なレポートとして、経営層への報告にも活用できる分かりやすい報告書として提供する。
+同サービスでは、顧客が利用中のVPN装置の侵害リスクを下記の手法で評価する。
+・外部診断（リモートからの脆弱性調査）・内部診断（オンサイトでの装置の設定確認）
+・セキュリティヒアリング（既知の脆弱性（CVE）の調査）
+・ダークウェブへのVPN利用者IDの漏えい有無の調査
+・侵害後シナリオ再現
+同サービスは「Remoteプラン」「Standardプラン」「Advancedプラン」があり、外部診断とダークウェブID調査、セキュリティヒアリングを行う「Remoteプラン」は107.8万円（税込）からの提供となる。
+ScanNetSecurity ScanNetSecurity",[],[]
+Chainlit にアクセス制限不備の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/49e478e8b6f2fa9223477a5eef694c8ae312f13d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-19T08:00:10+09:00,2026-01-19T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,406,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月14日、Chainlitにおけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。NRIセキュアテクノロジーズ株式会社の木村正太朗氏が報告を行っている。影響を受けるシステムは以下の通り。
+Chainlit 2.8.5より前のバージョン
+Chainlitが提供するChainlitには、ユーザ制御の鍵による認証回避の脆弱性（CVE-2025-68492）が存在し、当該製品にログイン可能な攻撃者により、スレッドを閲覧されたり、スレッドの所有権を取得される可能性がある。
+JVNでは、開発者が提供する情報をもとにソフトウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
