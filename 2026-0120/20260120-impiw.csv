@@ -1,0 +1,42 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+PoE+対応の5/8ポートスイッチングハブ「LAN-GIGAPOE」シリーズ、サンワサプライが発売（INTERNET Watch）,https://news.yahoo.co.jp/articles/b4a56f64f8ad6b048f3150ad2df719f48bedd600,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260120-00000004-impiw-000-2-view.jpg?exp=10800,2026-01-20T08:30:00+09:00,2026-01-20T22:55:32+09:00,INTERNET Watch,impiw,INTERNET Watcg16,692,"写真：INTERNET Watch
+サンワサプライ株式会社は1月19日、ギガビット・PoE+給電に対応したスイッチングハブ「LAN-GIGAPOE」シリーズ2製品を発売した。ラインアップと市場想定価格は、5ポートの「LAN-GIGAPOE55」が2万3100円、8ポートの「LAN-GIGAPOE85」が3万7400円。
+【画像】LAN-GIGAPOE85
+全ポートが1000BASE-Tに対応し、LAN-GIGAPOE55はアップリンク専用ポート以外の4ポート、LAN-GIGAPOE8は全ポートがPoE+（IEEE802.3at）による給電に対応する。1ポート最大30W、全ポート合計でLAN-GIGAPOE55は最大60W、LAN-GIGAPOE85は最大130Wの出力が可能。自動で判別して接続中のポートだけ電源供給する省電力機能を備える。そのほか、AUTO-MDIX、9kbytesのジャンボフレームにも対応。
+
+　ファンレスの金属筐体で、ACアダプターが付属する。底部にマグネットを備え、LAN-GIGAPOE85は壁面取り付け用の金具が付属する。
+
+　本体サイズおよび重量は、LAN-GIGAPOE55が130×86×29mm（幅×奥行×高さ）で約367g、LAN-GIGAPOE85が240×104×29mmで約697g。
+
+記事訂正
+記事初出時、2製品とも全ポートがPoE+対応と記載していましたが、LAN-GIGAPOE55はアップリンク専用ポートがPoE+非対応でした。記述を修正しております。申し訳ありませんでした。
+INTERNET Watch,松永 侑貴惠",[],[]
+バッファロー、「NumLock独立」設計を採用した有線テンキーボード「BSTK130BK」発売（INTERNET Watch）,https://news.yahoo.co.jp/articles/f3aeed3f8451ca539480048200e770ce30301233,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260120-00000003-impiw-000-1-view.jpg?exp=10800,2026-01-20T07:30:00+09:00,2026-01-20T07:30:00+09:00,INTERNET Watch,impiw,INTERNET Watcg16,374,"写真：INTERNET Watch
+株式会社バッファローは、USB Type-Aに対応した有線テンキーボード「BSTK130BK」を発売する。2月上旬出荷予定で、市場想定価格は1280円。
+
+　Tabキーと00キーも備えたUSB Type-A接続の有線テンキーボード。PC側のキーボードと本製品のNumLockキーを同期させない設計を採用し、「NumLockキーを押すと本体キーボードの文字入力が数字入力に切り替わってしまう」問題を解消する。
+
+　Windows対応。専用ドライバーなどのインストールは不要で、PCのUSB Type-Aポートに接続して使用する。
+
+　本体サイズは90×20×130mm、重量は約115g。本体上面に傾斜をつけた設計を採用。キーピッチは一般的なフルキーボードと同じ19mm。
+INTERNET Watch,木下 明音",[],[]
+TP-Link、法人向けWi-Fi 7アクセスポイント「EAP770」「EAP720」発売（INTERNET Watch）,https://news.yahoo.co.jp/articles/04e2a6ac2772ab6f3e1252898ea7f7dc0fde0bea,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260120-00000002-impiw-000-1-view.jpg?exp=10800,2026-01-20T06:30:00+09:00,2026-01-20T06:30:00+09:00,INTERNET Watch,impiw,INTERNET Watcg16,604,"写真：INTERNET Watch
+ティーピーリンクジャパン株式会社（TP-Link）は、法人向けWi-Fi 7アクセスポイント2製品を1月24日に発売する。Amazon.co.jpでの販売価格は、トライバンド対応の「EAP770」が7万2900円、デュアルバンド対応の「EAP720」が5万9900円。
+
+　「EAP770」はWi-Fi 7トライバンドの6ストリームに対応し、最大通信速度は6GHz帯が5765Mbps、5GHz帯が2882Mbps、2.4GHz帯が688Mbps。同時接続台数は最大380台で、1台で最大140㎡をカバー可能。本体サイズは220×220×32.5mm。
+
+　「EAP720」はWi-Fi 7デュアルバンドの4ストリームに対応し、最大通信速度は5GHz帯が2882Mbps、2.4GHz帯が688Mbps。同時接続台数は最大250台で、1台で最大140㎡をカバー可能。本体サイズは160×160×36.7mm。
+
+　両製品とも、有線ポートは2.5GbpsとPoE+（IEEE 802.3at）対応ポート×1を備える。また、付属のACアダプターによる給電も可能。
+
+　同社のクラウドソリューション「Omada」に対応し、設定や管理は専用アプリ「Omada SDN」から可能。天井／壁面／ジャンクションボックス用の取付キットが付属する。
+INTERNET Watch,木下 明音",[],[]
+「NURO 光 10ギガ」にWi-Fi 7対応のソニー製ONU「NSD-G3100T」提供開始（INTERNET Watch）,https://news.yahoo.co.jp/articles/5bf053c51a0817d801d95f99c66a7c17599c822e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260120-00000001-impiw-000-1-view.jpg?exp=10800,2026-01-20T06:00:00+09:00,2026-01-20T06:00:00+09:00,INTERNET Watch,impiw,INTERNET Watcg16,526,"写真：INTERNET Watch
+ソニーネットワークコミュニケーションズ株式会社は1月19日、同社が提供する高速光回線サービス「NURO 光 10ギガ」のONUとして、Wi-Fi 7に対応したソニー製ルーター一体型ONU「NSD-G3100T」の提供を開始した。
+
+　「NSD-G3100T」は有線接続に加えて、上り／下り最大10Gbpsの無線通信が可能であるとうたっており、Wi-Fi 7トライバンドに対応。取扱説明書のスペック情報によれば、最大通信速度は6GHz帯が11529Mbps、5GHz帯が5756Mbps、2.4GHz帯が1376Mbps。10Gbps対応のLANポート×1、ギガビット対応LANポート×3を備える。
+
+　引っ越し時などの設定を補助する機能として、使用していたSSIDやパスワードをコピーし、機器ごとに再設定する必要がない「無線LAN引越し機能」を搭載している。
+
+　本体サイズは、約221×200×33mm（高さ×幅×奥行）で、コンパクトな設計も特徴だとしている。なお、従来のソニー製ONU「NSD-G3000T」の提供も継続しており、ONUの機種指定や交換はできないという。
+INTERNET Watch,木下 明音",[],[]

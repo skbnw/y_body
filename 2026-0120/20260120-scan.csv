@@ -1,0 +1,13 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+通信インフラへのサイバー攻撃を想定 ～ ICT-ISAC「2025年度サイバー攻撃対応演習（CAE2025）」実施（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d4924d4d5b02f0b9c79efaf31d194c2466996727,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-20T08:00:11+09:00,2026-01-20T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,593,"一般社団法人ICT-ISACは1月15日、通信インフラへのサイバー攻撃を想定した「2025年度サイバー攻撃対応演習（CAE2025）」を実施すると発表した。
+同演習は、ICT-ISACの会員企業を中心に、大手通信事業者・ISP等の運用者が一堂に会し、高度化するサイバー攻撃の最新事例を踏まえ、実際の運用に即した演習を実施する。ICT-ISACの前身Telecom-ISAC Japanの2006年度から実施しており、今回で20回目となる。
+演習では、通信ネットワーク、DNSサーバ、Webサーバに対する事業者1社だけでは対処できないサイバー攻撃の発生を想定し、専用の演習ツールにて、発生事象（攻撃イベント）を演習プレイヤーに時々刻々と通知し、各組織の対応について評価検証を行う。
+同演習は、1月30日午後1時から東京都立産業貿易センター 浜松町館で開催し、アルテリア・ネットワークス、インターネットイニシアティブ、 エヌ・ティ・ティ エムイー、NTTドコモ、NTTドコモビジネス、NTT西日本、NTT東日本、オプテージ、QTnet、KDDI、コムシスホールディングス、JCOM、 シスコシステムズ、ソニーネットワークコミュニケーションズ、ソフトバンク、 ニフティ、富士通、他合計18組織250名程度が参加予定となっている。
+ScanNetSecurity ScanNetSecurity",[],[]
+Check Point CloudGuard Network Security が Google Cloud Network Security Integration に統合（ScanNetSecurity）,https://news.yahoo.co.jp/articles/22305d22c383feba5bfed742a0748254ff34c318,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260120-00000001-scan-000-1-view.jpg?exp=10800,2026-01-20T08:00:04+09:00,2026-01-20T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,1083,"ネットワークトラフィックの流れ
+チェック・ポイント・ソフトウェア・テクノロジーズ株式会社は1月15日、Google Cloud Network Security Integrationへの対応を発表した。
+Google Cloud Network Security Integrationでは、変化し続ける複雑なハイブリッドクラウドネットワークのネットワークセキュリティとパフォーマンスの管理の課題に対処するため、AI駆使による脅威防御や統一ログ、粒度の細かいアクセス制御を備えるチェック・ポイントのCloudGuard Network Securityのようなサードパーティのセキュリティソリューションとのシームレスな統合を提供している。
+今回の新たな統合で、データセンターやハイブリッドクラウド、マルチクラウドの各環境にわたってポリシーを適用でき、一貫したAny-to-Anyのネットワークセキュリティが実現可能となり、既存のルーティングポリシーやネットワークアーキテクチャに変更を加える必要はない。
+チェック・ポイントのCloudGuard Network SecurityとGoogle Cloudの統合では、新しいネットワーク仮想化標準であるGENEVE（Generic Network Virtualization Encapsulation）のトンネリング技術を活用することで、元のパケットの完全性を維持しながら、CloudGuard Network Securityのインバンドの検査ゲートウェイおよびファイアウォールにトラフィックを安全に届け、セキュリティとパフォーマンスの両方を保証している。
+チェック・ポイントのクラウドセキュリティ担当バイスプレジデント Paul Barbosa氏は「チェック・ポイントは、お客様がエンタープライズネットワークとGoogle Cloudの間で高度かつ多層的なセキュリティをシームレスに展開し、クラウドのアセットを守りながら、ハイブリッドネットワークおよびマルチクラウドネットワークのすべてで安全な接続を実現できるよう支援することを目的としています。Google Cloud上に統合された Check Point CloudGuard Network Securityによって、組織は、世界中のクラウド環境をより効率的に保護すると同時に、すべてのネットワークセキュリティを単一のコンソールでまとめて制御することが可能になります」とコメントしている。
+ScanNetSecurity ScanNetSecurity",[],[]
