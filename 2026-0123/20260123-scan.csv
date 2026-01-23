@@ -1,0 +1,46 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+セキュアイノベーション、TwoFive の「PHISHNET/25」の販売代理店契約締結（ScanNetSecurity）,https://news.yahoo.co.jp/articles/e17a0c48f831e0204aa0a343e893f33294a4ec3b,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-23T08:00:13+09:00,2026-01-23T08:00:13+09:00,ScanNetSecurity,scan,ScanNetSecurity,775,"株式会社TwoFiveは1月21日、株式会社セキュアイノベーションと「PHISHNET/25」の販売代理店契約を締結したと発表した。
+「PHISHNET/25」は、フィッシング、偽SNSプロファイル、認証情報窃取などのサイバー犯罪を、被害が発生する前に早期検出して早期対策を可能にし、テイクダウンまでを一括サポートするサービス。下記2つのサービスを提供している。
+・PHISHNET/25 Detector
+　日本語フィッシングサイトに特化し、攻撃者がフィッシングキャンペーンを実行するために、ドメイン確保やDNS設定、SSL証明書作成などのリソースを準備している段階で、様々なデータソースから収集した情報やWebクローリングにより得られた情報を独自ロジックで分析・判定し、フィッシングサイトが攻撃に使われる前に早期に検知する。
+・PHISHNET/25 Axur
+　Web/SNS/アプリなどのサーフェスウェブ、ディープウェブ/ダークウェブやサイバー犯罪者が暗躍するアンダーグラウンドのコミュニティなどを幅広く監視し、フィッシング、偽SNSプロファイル、偽アプリ、認証情報漏えいなどの幅広いサイバーリスクをAI技術で検知・分析する。
+セキュアイノベーションでは、「PHISHNET/25」を提供サービスに加え、被害の軽減化を支援する情報セキュリティソリューションをいっそう強化する。
+また両社では、3月4日に共同ウェビナー「なぜ今、フィッシング攻撃対策が必須なのかーPHISHNET/ 25で被害をおさえる仕組みづくり（仮）」を開催予定。
+・概要
+日時：3月4日11:00～12:00
+開催形式：オンラインZoom開催
+参加費：無料
+登壇者：株式会社TwoFive 加瀬正樹氏
+申込：
+ScanNetSecurity ScanNetSecurity",[],[]
+DevSecOps・脆弱性診断・バグバウンティをワンストップで提供「IssueHunt One」（ScanNetSecurity）,https://news.yahoo.co.jp/articles/78b034bd661a598c67386f1fad9c8c98742a8075,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260123-00000002-scan-000-1-view.jpg?exp=10800,2026-01-23T08:00:11+09:00,2026-01-23T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,931,"IssueHunt One
+IssueHunt株式会社は1月20日、バグバウンティ・プラットフォーム「IssueHunt」とコードからクラウドまでを総合サポートする「Baseline」を統合した「IssueHunt One」を提供開始すると発表した。
+「IssueHunt One」は、開発プロセスに安全性を取り込む「DevSecOps」、定点でリスクをあぶり出す「脆弱性診断」、ホワイトハッカーが未知の欠陥を見つける「バグバウンティ」という、プロダクトに必要なセキュリティ対策をひとつの場所で完結できるソリューション。同サービスの特長は下記の通り。
+1.【DevSecOps】開発の手を止めない「継続的なシフトレフト」
+　開発者がコードを書く段階からクラウド環境へのデプロイ、サプライチェーン攻撃までを一気通貫でサポート
+2. 【Intelligence】AIと専門家による「脆弱性対応運用の効率化支援」
+　検知された脆弱性が「実際に攻撃に使われているか」「自社環境で修正が必要か」をAIが世界中の情報源からリサーチし、トリアージを自動判別
+　検知された脆弱性の解説や誤検知排除の対応、具体的な改修アドバイザリを専門家が二人三脚で伴走
+3.【Offensive】AIとホワイトハッカーによる「攻めの防御」
+　自動の脆弱性スキャンでは対応しきれない、人の手による診断を組み合わせて提供
+IssueHunt株式会社は現代表の横溝一将が大学在学中の2014年に設立、2023年現社名へ商号変更。国内におけるバグバウンティの普及を牽引した。近年は次世代のセキュリティ人材を育成するための学生や若手エンジニア向けセキュリティカンファレンス「P3NFEST」を開催するなど、事業会社ながら積極的に日本の若手セキュリティ人材の底上げに貢献している。
+2025年4月にはHENNGE株式会社がリード投資家としてIssueHuntに出資、戦略的パートナーとして連携するだけでなく、HENNGE自身が自社SaaSサービスにIssueHuntのバグバウンティやVDP（脆弱性開示プログラム）を導入するユーザーでもある。
+ScanNetSecurity ScanNetSecurity",[],[]
+悪用する攻撃も確認 ～ Cisco Secure Email Gateway に任意のコマンド実行の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/fcea57632eef83d235fc14a3640eddfda23ce6a5,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-23T08:00:08+09:00,2026-01-23T08:00:08+09:00,ScanNetSecurity,scan,ScanNetSecurity,1154,"独立行政法人情報処理推進機構（IPA）は1月19日、Cisco Secure Email Gatewayの脆弱性について発表した。影響を受けるシステムは以下の通り。
+Cisco Email Security Gateway Cisco AsyncOS 14.2 以前
+Cisco Email Security Gateway Cisco AsyncOS 15.0
+Cisco Email Security Gateway Cisco AsyncOS 15.5
+Cisco Email Security Gateway Cisco AsyncOS 16
+Cisco Secure Email and Web Manager Cisco AsyncOS 15.0 以前
+Cisco Secure Email and Web Manager Cisco AsyncOS 15.5
+Cisco Secure Email and Web Manager Cisco AsyncOS 16.0
+シスコシステムズ合同会社のCisco Secure Email GatewayおよびSecure Email and Web Managerには、任意のコマンド実行の脆弱性（CVE-2025-20393）が存在し、認証されていないリモートの攻撃者によって、任意のコマンドをルート権限で実行される可能性がある。
+シスコシステムズでは、本脆弱性を悪用する攻撃を確認しており、今後被害が拡大するおそれがあるため、IPAでは開発者が提供する情報をもとに、最新版へアップデートするよう呼びかけている。なお、シスコシステムズでは本脆弱性を修正した下記のバージョンをリリースしている。
+Cisco Email Security Gateway Cisco AsyncOS 15.0.5-016 あるいはそれ以降
+Cisco Email Security Gateway Cisco AsyncOS 15.5.4-012 あるいはそれ以降
+Cisco Email Security Gateway Cisco AsyncOS 16.0.4-016 あるいはそれ以降
+Cisco Secure Email and Web Manager Cisco AsyncOS 15.0.2-007 あるいはそれ以降
+Cisco Secure Email and Web Manager Cisco AsyncOS 15.5.4-007 あるいはそれ以降
+Cisco Secure Email and Web Manager Cisco AsyncOS 16.0.4-010 あるいはそれ以降
+ScanNetSecurity ScanNetSecurity",[],[]
