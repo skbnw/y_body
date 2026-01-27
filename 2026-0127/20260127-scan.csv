@@ -1,0 +1,41 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Microsoft 365 の暗号化仕様変更に伴うリコー製品への影響、OAuth2.0 認証対応にかかわらず Exchange Online でのメール送受信を利用できず（ScanNetSecurity）,https://news.yahoo.co.jp/articles/3e38ba8bab91a99e35d28ef4e55360a556072127,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-27T08:00:11+09:00,2026-01-27T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,565,"株式会社リコーは1月21日、Microsoft 365の暗号化仕様変更に伴うリコー製品への影響について発表した。
+Microsoftが、Microsoft 365のTLSでサポートする暗号スイートの種類を変更し、暗号化規格を強化することに伴い、一部のリコー製複合機、プリンタ、ファクシミリ、プロダクションプリンタが影響を受ける。
+影響を受けるのは、下記URLの「3. Microsoft社指定のTLS暗号スイート対応済み製品」に記載のない製品で、OAuth2.0認証対応にかかわらず、下記機能のExchange Onlineでのメール送受信を利用できなくなる。
+・メール送信機能
+スキャナ（メール送信）
+インターネットファクス（送信）
+ファクスのメール転送
+要求時メール通知：機器状態をメールで確認する機能
+自動メール通知：設定された管理者メールアドレス宛にエラー情報を送信する機能
+Mail to Print利用時のエラーメール送信機能
+・メール受信機能
+インターネットファクス（受信）
+要求時メール通知：機器状態をメールで確認する機能
+Mail to Print
+同社では、Microsoft社指定のTLS暗号スイートに対応したファームウェアを順次リリース予定。
+ScanNetSecurity ScanNetSecurity",[],[]
+Trend Micro Apex Central に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/845da709f8777007d1bbd3bee36600a29c2b324f,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-27T08:00:09+09:00,2026-01-27T08:00:09+09:00,ScanNetSecurity,scan,ScanNetSecurity,659,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月22日、Trend Micro Apex Centralにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+Trend Micro Apex Central、Critical Patch Build 7190より前のバージョン
+トレンドマイクロ株式会社のTrend Micro Apex Centralには、下記の複数の脆弱性（CVE-2025-69258、CVE-2025-69259、CVE-2025-69260）が存在し、想定される影響は各脆弱性により異なるが、細工されたメッセージを処理することで、リモートコード実行やサービス運用妨害（DoS）攻撃を受ける可能性がある。
+・LoadLibraryEXにおけるリモートコード実行の脆弱性（CVE-2025-69258）
+・Denial of Service (DoS)攻撃につながるメッセージのNULL戻り値チェック不足の脆弱性（CVE-2025-69259）
+・Denial of Service (DoS)攻撃につながるメッセージの領域外読み取りの脆弱性（CVE-2025-69260）
+JVNでは、トレンドマイクロ株式会社が提供する情報をもとにパッチを適用するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+ISC BIND にサービス運用妨害（DoS）につながる脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/5e0bbc3bf6d84f69e229ee6adadc10f9dc8736d2,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-27T08:00:05+09:00,2026-01-27T08:00:05+09:00,ScanNetSecurity,scan,ScanNetSecurity,863,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月23日、ISC BINDにサービス運用妨害（DoS）につながる脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+BIND 9.18.40から9.18.43
+BIND 9.20.13から9.20.17
+BIND 9.21.12から9.21.16
+BIND 9.18.40-S1から9.18.43-S1（Supported Preview Edition）
+BIND 9.20.13-S1から9.20.17-S1（Supported Preview Edition）
+ISC（Internet Systems Consortium）が提供するISC BINDには、BRID/HHITレコードの処理に問題があり、意図的にアサーション違反を発生させられる脆弱性（CVE-2025-13878）が存在し、結果としてサービス運用妨害（DoS）を引き起こされる可能性がある。
+想定される影響としては、不正な形式のBRID/HHITレコードを処理した際にnamedが異常終了する可能性がある。
+JVNでは、開発者が提供する下記のバージョンにアップデートするよう呼びかけている。
+BIND 9.18.44
+BIND 9.20.18
+BIND 9.21.17
+BIND 9.18.44-S1（Supported Preview Edition）
+BIND 9.20.18-S1（Supported Preview Edition）
+株式会社日本レジストリサービス（JPRS）でも1月22日に、該当するBIND 9のパッケージを利用しているユーザーは、各ディストリビューションベンダーからリリースされる情報の収集やバージョンアップなど、適切な対応を速やかに取ることを強く推奨している。
+ScanNetSecurity ScanNetSecurity",[],[]
