@@ -1,0 +1,52 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+新たに 15 の役割を定義 ～ JNSA「セキュリティ知識分野（SecBoK）人材スキルマップ2025年度版」公開（ScanNetSecurity）,https://news.yahoo.co.jp/articles/745942b7b43e8ae1d24ddee21f0b8453632c0718,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-30T08:01:40+09:00,2026-01-30T08:01:40+09:00,ScanNetSecurity,scan,ScanNetSecurity,1203,"特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）は1月26日、「セキュリティ知識分野（SecBoK：Security Body of Knowledge）人材スキルマップ2025年度版」を公開した。
+現行のSecBoK2021は、セキュリティ関連業務に従事する人材に求められる1,000を超える知識項目の集合で、多くの人が利用できるよう、大項目・ 中項目といった構造化された構成となっている。
+SecBoK2025年度版は、DX with Cybersecurity時代におけるセキュリティ人材に求められる役割の変化や、参照している米国NISTのNICEフレームワークがバージョン2へ移行したことに伴い、現行版の役割（ロール）を統廃合し、新たに15の役割（ロール）を定義している。改定にあたっては有識者委員による改定委員会を組織しており、同メンバーには、弊誌編集長の上野宣も参加している。
+情報セキュリティ知識項目（SecBoK）2025年度版の特長は下記の通り。
+1.粒度について
+現行2021年度版については、「細かすぎる」や、逆に「粗くしない方がよい」など双方の意見があるため、スキル項目としては現状レベルのものでよいが、使い勝手を良くするために下記の点を中心に、SecBoK2025として見直しを行う。
+・ロールの再編成（数は現状以上は増やさない）
+・スキル項目の数は減らさないが、カテゴリーについては再編成
+2.役割（ロール）について（現状ベースの統合・分割）
+現行2021年度版は、CSIRTのロールを強く意識していた部分もあり、細かく分かれているロールもある一方で、大括りにまとめられてしまっているロールもあったため、より分かりやすくするために分割した方がよいロールも出てきたため、ロール（役割）の統廃合を実施。
+3.他のフレームワークや職業分類との連携
+下記等のセキュリティ人材フレームワークでの人材モデルやロールおよび職種分類などとも意識して、新たなSecBoKの役割（ロール）の作成を実施。
+・NICEフレームワークの新たなカテゴリーなどとの整合性も意識
+・ITSS+セキュリティで定義されている、特にセキュリティ区分の分野との連携を意識
+・職業サイトとの連携も意識
+・米国でのサイバーセキュリティ分野の主要な職種も参考に
+JNSAでは、下記資料をSecBoK2025として公開している。
+・公開資料1：SecBoK2025概要_Ver1.0
+SecBoK2025の改定目的や改定内容の概要と各ロール（役割）についての説明資料
+・公開資料2：SecBoK2025_Ver1.0
+SecBoK2025年度版の本体資料。SecBoKの15役割（ロール）とスキル項目（約1200のスキル項目）とのマッピングを実施。
+ScanNetSecurity ScanNetSecurity",[],[]
+Cloudbase、Windows 環境の脆弱性検出に対応（ScanNetSecurity）,https://news.yahoo.co.jp/articles/e61cf8de1633250cee9540aebdca55a95de579f7,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260130-00000004-scan-000-1-view.jpg?exp=10800,2026-01-30T08:01:03+09:00,2026-01-30T08:01:03+09:00,ScanNetSecurity,scan,ScanNetSecurity,600,"Cloudbase SensorがWindowsサービスとして稼働
+Cloudbase株式会社は1月26日、純国産CNAPP「Cloudbase」のオンプレ環境向け機能「Cloudbase Sensor」のWindows OSへの対応を発表した。
+「Cloudbase」は、AWS、Microsoft Azure、Google Cloud、Oracle Cloudといったパブリッククラウドを利用する際に発生する設定ミスや、サーバやコンテナの脆弱性といったクラウド上のリスクを統合的に可視化し、対策項目の優先順位付けと実施・管理までを一貫して行うセキュリティプラットフォーム。
+オンプレミス環境やプライベートクラウドにおける資産管理および脆弱性の検出・管理を実現する「Cloudbase Sensor」機能では今回、Windows Server に対応したセンサーが利用可能となり、MSIインストーラーによる簡単な導入とWindowsサービスとしての安定した稼働で、Windows環境の脆弱性を検出する。対応環境は下記の通り。
+Windows Server 2016
+Windows Server 2019
+Windows Server 2022
+Windows Server 2025
+※対応アーキテクチャ：x86_64（AMD64）
+ScanNetSecurity ScanNetSecurity",[],[]
+情報漏えい対策ソフト「コプリガード Ver.7.1」リリース、機密情報が表示されたウインドウのみの保護も可能に（ScanNetSecurity）,https://news.yahoo.co.jp/articles/68a5fbb04fb927dfbfa70001456b95575ce9123e,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260130-00000003-scan-000-1-view.jpg?exp=10800,2026-01-30T08:01:00+09:00,2026-01-30T08:01:00+09:00,ScanNetSecurity,scan,ScanNetSecurity,816,"「コプリガード」イメージ
+株式会社ティエスエスリンクは1月26日、ファイルサーバやパソコンの機密データ持ち出しを禁止する情報漏えい対策ソフト「コプリガード Ver.7.1」を1月26日に発売すると発表した。
+「コプリガード」は、社内業務やリモートワークで、サーバ上のファイル編集は可能にしつつ、ファイルのコピーや印刷を制限する情報漏えい対策ソフトで、メール添付やWebアップロード、画面情報のスクリーンショット（画面キャプチャ）も禁止し、内部不正による情報の持ち出しリスクを軽減する。
+最新版のVer.7.1では、新たな画面保護技術を採用することで、キャプチャソフトからの画面保護機能を強化、機密情報が表示されたウインドウだけの保護も可能となり、機密データをより確実に流出リスクから守りつつ、他の業務ウインドウの操作性を損なわない、安全性と利便性を両立させたセキュリティ環境を実現する。
+これまではセキュリティを優先し、全ての印刷ドライバを一律に使用禁止としていたが、最新版では特定の印刷ドライバを「例外」として登録できる機能を追加、業務上必要な専用プリンタなどを個別に利用許可でき、セキュリティ統制を維持しつつ、業務効率を損なわない柔軟な運用が可能となる。
+その他、従来のデスクトップアプリに加え、ストアアプリの制御にも対応、コピーや印刷、画面キ
+ャプチャーの禁止といった強力な保護を、より多様な環境に適用できる。
+同製品は、運用目的や規模に応じて、導入が小規模でシンプルな運用に適した「スタンダード版」、規模が大きく複数のポリシーを細やかに運用できる「サーバー管理版」の2タイプから選択可能。スタンダード版は基本パッケージ500,000円+1ライセンス10,000円、サーバー管理版は基本パッケージ1,500,000円+1ライセンス10,000円からの提供となる。
+ScanNetSecurity ScanNetSecurity",[],[]
+Archer MR600 に OS コマンドインジェクションの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ae4dddf82045edb646a903b2111f93f644563f92,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-30T08:00:10+09:00,2026-01-30T08:00:10+09:00,ScanNetSecurity,scan,ScanNetSecurity,479,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月27日、Archer MR600におけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの早川宙也氏が報告を行っている。影響を受けるシステムは以下の通り。
+Archer MR600 v5 ファームウェア 1.1.0 0.9.1 v0001.0 Build 250930 Rel.63611nより前のバージョン
+TP-Link Systems Inc.が提供するArcher MR600には、OSコマンドインジェクションの脆弱性（CVE-2025-14756）が存在し、管理インターフェースにログイン可能な攻撃者によって、当該製品上で任意のOSコマンドを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+beat-access Windows 版に DLL 読み込みに関する脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/19983a4516021fcd827bdbd968f04b20e98e1fef,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-01-30T08:00:05+09:00,2026-01-30T08:00:05+09:00,ScanNetSecurity,scan,ScanNetSecurity,498,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月27日、beat-access Windows版におけるDLL読み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+beat-access Windows版 バージョン 3.0.3およびそれ以前
+富士フイルムビジネスイノベーション株式会社が提供するbeat-access Windows版には、DLLを読み込む際の検索パスに問題があり、同一ディレクトリに存在する特定のDLLを読み込んでしまうファイル検索パスの制御不備の脆弱性（CVE-2026-21408）が存在し、SYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版（バージョン 4.0.0以降）へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
