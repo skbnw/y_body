@@ -1,0 +1,122 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+総理大臣が多要素認証ほかを呼びかけ（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ad8772a0c4c24810c9ad9dbbf668e1383224ee73,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-05T08:00:30+09:00,2026-02-05T08:00:30+09:00,ScanNetSecurity,scan,ScanNetSecurity,447,"首相官邸は2月2日、サイバーセキュリティ月間における高市総理ビデオメッセージを公開した。
+政府では2月1日から3月18日までを「サイバーセキュリティ月間」として、「サイバーはひとごとじゃない」をテーマに産学官民で連携して普及啓発活動を展開する。
+同メッセージでは、サイバー攻撃のニュースが毎日のように報じられ、ランサムウェア攻撃により医療機関や企業の活動が停止するなど、厳しさを増すサイバー攻撃への対処能力を強化するため、2025年に「能動的サイバー防禦」を可能とする新しい法律が成立し、新たな「サイバーセキュリティ戦略」が策定されたことに触れ、こうした法律や戦略のもと、政府は「自由 公正 かつ安全なサイバー空間」を守るための取り組みを進めるとのこと。
+また、テーマである「サイバーはひとごとじゃない」に触れ、「不審なメールのリンクは開かない」「パスワードだけに頼らず多要素認証を行う」といった対策を徹底するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+ワンビ、Dynabook 法人向け PC に遠隔データ消去ソリューション提供（ScanNetSecurity）,https://news.yahoo.co.jp/articles/c9ba6f6db5c976e7ff780591815e60271f11deb3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260205-00000004-scan-000-1-view.jpg?exp=10800,2026-02-05T08:00:26+09:00,2026-02-05T08:00:26+09:00,ScanNetSecurity,scan,ScanNetSecurity,510,"技術連携のイメージ
+ワンビ株式会社は1月30日、Dynabook株式会社の法人向けPC分野におけるセキュリティ強化に向けた技術連携について発表した。
+同提携で、Dynabookが提供する台帳管理システム「PCアセットモニタリングサービス」に、ワンビが独自開発した遠隔データ消去ソリューション「TRUST DELETE」のモバイルセキュリティ技術が採用され、法人向けPC運用におけるセキュリティ強化を支援する。
+「PCアセットモニタリングサービス」は、「だれ」が「どこ」で「どんな状態」のPCを使っているかポータル上でPCの情報がわかるDynabookオリジナルの台帳管理システム。
+今回、採用されたワンビの「TRUST DELETE」のモバイルセキュリティ技術は、PCの盗難・紛失時に、遠隔からデータ消去を実行できる機能「Dynabook リモートセキュア」の他、ワイヤレスWAN（nanoSIMカード/eSIM）搭載モデル向けに、電源オフの状態からも遠隔からデータ消去・ロックが可能な上位機能「Dynabook リモートセキュア Plus」に搭載される。
+ScanNetSecurity ScanNetSecurity",[],[]
+GMOサイバー攻撃 ネットde診断 ASM が「FortiSIEM」に存在する深刻な脆弱性「CVE-2025-64155」の検知に対応（ScanNetSecurity）,https://news.yahoo.co.jp/articles/9545a8e0c8e10ae4f422b8a34b6ff173eab5c0f1,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-05T08:00:21+09:00,2026-02-05T08:00:21+09:00,ScanNetSecurity,scan,ScanNetSecurity,775,"GMOサイバーセキュリティ byイエラエ株式会社は2月2日、「GMOサイバー攻撃 ネットde診断 ASM」を1月29日にアップデートし、Fortinet社の「FortiSIEM」に存在する深刻な脆弱性「CVE-2025-64155」の検知に対応したと発表した。
+「GMOサイバー攻撃 ネットde診断 ASM」は、直感的に使用が可能なセキュリティプラットフォームで、国産ASMツールとして培ってきた「IT資産の棚卸しとリスク可視化」の強みを活かしながら、ASMツールの枠にとどまらず「複雑化するセキュリティ運用をシンプルにし、""何から対策すべきか""を可視化する」というビジョンの実現を目指している。
+1月13日に公開された本脆弱性（CVE-2025-64155）は、Fortinet社が提供するセキュリティ情報管理・イベント管理（SIEM）製品「FortiSIEM」に存在する深刻な脆弱性で、CVSSスコアも9.8（Critical）と非常に危険性が高く、認証を必要とせず外部から任意のコードを実行される可能性があり、攻撃者に悪用された場合、対象システムの完全な制御を許し、システム環境や構成次第では多様な攻撃に悪用されるおそれがある。
+「GMOサイバー攻撃 ネットde診断 ASM」では、「FortiSIEM」の深刻な脆弱性「未認証リモートコード実行につながる深刻な脆弱性（CVE-2025-64155）」への対応として、新たに下記の診断項目を追加している。
+・「CVE-2025-64155」の検知（既知の脆弱性が存在するソフトウェアの利用）
+「FortiSIEM」の該当の脆弱性（CVE-2025-64155）が残存するバージョンの利用を検知した場合、指摘事項および対策を通知する。
+ScanNetSecurity ScanNetSecurity",[],[]
+OpenSSL に複数の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/77deb15524efcedd14c047b41078aa638d8ca035,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-05T08:00:12+09:00,2026-02-05T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,3667,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月3日、OpenSSLにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+・CVE-2025-11187
+OpenSSL 3.6.1より前の3.6系バージョン
+OpenSSL 3.5.5より前の3.5系バージョン
+OpenSSL 3.4.4より前の3.4系バージョン
+・CVE-2025-15467
+OpenSSL 3.6.1より前の3.6系バージョン
+OpenSSL 3.5.5より前の3.5系バージョン
+OpenSSL 3.4.4より前の3.4系バージョン
+OpenSSL 3.3.6より前の3.3系バージョン
+OpenSSL 3.0.19より前の3.0系バージョン
+・CVE-2025-15468、CVE-2025-66199
+OpenSSL 3.6.1より前の3.6系バージョン
+OpenSSL 3.5.5より前の3.5系バージョン
+OpenSSL 3.4.4より前の3.4系バージョン
+OpenSSL 3.3.6より前の3.3系バージョン
+・CVE-2025-15469
+OpenSSL 3.6.1より前の3.6系バージョン
+OpenSSL 3.5.5より前の3.5系バージョン
+・CVE-2025-68160、CVE-2025-69421、CVE-2026-22796
+OpenSSL 3.6.1より前の3.6系バージョン
+OpenSSL 3.5.5より前の3.5系バージョン
+OpenSSL 3.4.4より前の3.4系バージョン
+OpenSSL 3.3.6より前の3.3系バージョン
+OpenSSL 3.0.19より前の3.0系バージョン
+OpenSSL 1.1.1zeより前の1.1.1系バージョン
+OpenSSL 1.0.2znより前の1.0.2系バージョン
+・CVE-2025-69418、CVE-2025-69419、CVE-2025-69420、CVE-2026-22795
+OpenSSL 3.6.1より前の3.6系バージョン
+OpenSSL 3.5.5より前の3.5系バージョン
+OpenSSL 3.4.4より前の3.4系バージョン
+OpenSSL 3.3.6より前の3.3系バージョン
+OpenSSL 3.0.19より前の3.0系バージョン
+OpenSSL 1.1.1zeより前の1.1.1系バージョン
+※本アドバイザリで示されている各脆弱性はFIPSモジュール境界外の実装に起因するため、記載されている対象バージョンのFIPSモジュールは影響を受けない。
+OpenSSL ProjectよりOpenSSL Security Advisory [27th January 2026]が公開されている。想定される影響は各脆弱性により異なるが、下記のような影響を受ける可能性がある。
+【深刻度：高（Severity: High）】
+・CMS AuthEnvelopedDataの解析処理におけるスタックバッファオーバーフロー（CVE-2025-15467）
+細工されたAEADパラメータを含むCMS AuthEnvelopedDataメッセージの解析処理においてスタックバッファオーバーフローが発生する可能性がある。
+→システムがサービス運用妨害（DoS）状態にされたり、任意のコードを実行されたりする
+【深刻度：中（Severity: Moderate）】
+・PKCS
+＃12ファイルのMAC検証におけるPBMAC1パラメータの検証欠如
+（CVE-2025-11187）
+PKCS
+＃12ファイル内のPBMAC1パラメータの検証が欠如しているためMAC検証中にスタックベースのバッファオーバーフロー
+、不正なポインタ値の参照、またはNULLポインタ参照を引き起こす可能性がある。
+→システムがサービス運用妨害（DoS）状態にされたり、任意のコードを実行されたりする
+【深刻度：低（Severity: Low）】
+・SSL_CIPHER_find()関数におけるNULLポインタ参照（CVE-2025-15468）
+QUICプロトコルクライアントまたはサーバー機能を実装するアプリケーションがSSL_CIPHER_find()関数を呼び出す際、相手側から受けとった暗号スイートIDが未知または非対応の値だった場合、NULLポインタ参照を引き起こす可能性がある。
+→システムがサービス運用妨害（DoS）状態にされる
+・openssl dgstコマンドにおいて特定の署名アルゴリズムを利用した場合に入力データを切り詰める問題（VE-2025-15469）
+openssl dgstコマンドにおいてワンショット署名アルゴリズム（Ed25519、Ed448、ML-DSAなど）を利用し、16MBを超えるファイルを署名または検証した場合、入力データを16MBに切り詰めて処理を実施する。
+→本来はエラーとなるデータにおいて、署名や検証が成功する
+・CompressedCertificateにおける過剰なメモリの割り当て（CVE-2025-66199）
+証明書圧縮を使用する TLS 1.3接続において、設定された証明書サイズ制限に対するチェックが行われず、解凍前に大きなバッファの割り当てを強制される可能性がある。
+→システムがサービス運用妨害（DoS）状態にされる
+・BIO_f_linebufferにおける境界外書き込み（CVE-2025-68160）
+BIO_f_linebufferを使用したBIOチェーンにおいて、改行を含まない大量のデータを書き込み、かつ次のBIOが部分書き込みを行った場合、ヒープベースの境界外書き込みが発生する可能性がある。
+→システムがサービス運用妨害（DoS）状態にされる
+・低レベルOCB API呼び出し時における末尾バイト列が適切に処理されない問題（CVE-2025-69418）
+AES-NI またはその他のハードウェアアクセラレーション対応コードパスで低レベルOCB APIを直接使用する場合、メッセージの末尾1～15バイトが適切に処理されない可能性がある。
+→暗号化されていないデータを読み取られたり、改ざんされたりする
+・PKCS12_get_friendlyname()のUTF-8変換における範囲外書き込み（CVE-2025-69419）
+細工されたPKCS
+＃12ファイルに対してPKCS12
+_get_friendlyname()を使用した場合、境界外書き込みが発生する可能性がある。
+→システムがサービス運用妨害（DoS）状態にされる
+・TS_RESP_verify_response()におけるASN1_TYPE検証欠如（CVE-2025-69420）
+細工されたTimeStamp Responseファイル処理時に不正なポインタ値参照またはNULLポインタ参照を引き起こす可能性がある。
+→システムがサービス運用妨害（DoS）状態にされる
+・PKCS12_item_decrypt_d2i_ex()におけるNULLポインタ参照（CVE-2025-69421）
+細工されたPKCS
+＃12ファイルに対してPKCS12
+_item_decrypt_d2i_ex()を使用した場合、NULLポインタ参照を引き起こす可能性がある。
+→システムがサービス運用妨害（DoS）状態にされる
+・PKCS
+＃12解析におけるASN1
+_TYPE検証欠如（CVE-2026-22795）
+細工されたPKCS
+＃12ファイルを処理する際に不正なポインタ値参照またはNULLポインタ参照を引き起こす可能性がある
+。
+→システムがサービス運用妨害（DoS）状態にされる
+・PKCS7_digest_from_attributes()におけるASN1_TYPE検証欠如（CVE-2026-22796）
+細工されたPKCS
+＃7データを処理する際に不正なポインタ値参照またはNULLポインタの参照を引き起こす可能性がある
+。
+→システムがサービス運用妨害（DoS）状態にされる
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお開発者は、本脆弱性への対策版として下記のバージョンをリリースしている。
+OpenSSL 3.6.1
+OpenSSL 3.5.5
+OpenSSL 3.4.4
+OpenSSL 3.3.6
+OpenSSL 3.0.19
+OpenSSL 1.1.1ze（プレミアムサポートカスタマのみ）
+OpenSSL 1.0.2zn（プレミアムサポートカスタマのみ）
+ScanNetSecurity ScanNetSecurity",[],[]
+三菱小容量 UPS 用シャットダウンソフトウェア FREQSHIP-mini for Windows にインストール時の不適切なファイルアクセス権設定の脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/9ef35c82af82b04be978173fa11dcfc3a030ccb3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-05T08:00:09+09:00,2026-02-05T08:00:09+09:00,ScanNetSecurity,scan,ScanNetSecurity,584,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月3日、三菱小容量UPS用シャットダウンソフトウェア FREQSHIP-mini for Windowsにおけるインストール時の不適切なファイルアクセス権設定の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+三菱小容量UPS用シャットダウンソフトウェア FREQSHIP-mini for Windows 8.0.0から8.0.2までのバージョン
+三菱電機株式会社が提供する三菱小容量UPS用シャットダウンソフトウェア FREQSHIP-mini for Windowsには、インストール時の不適切なファイルアクセス権設定の脆弱性（CVE-2025-10314）が存在し、当該製品が動作するWindowsシステムにおいてサービス実行ファイルを不正なファイルに置き換えられ、結果としてSYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
