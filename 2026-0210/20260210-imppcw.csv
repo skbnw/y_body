@@ -1,0 +1,97 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+Discord、未成年保護機能を全ユーザーでデフォルト有効に（PC Watch）,https://news.yahoo.co.jp/articles/fbe876c0b5a4ec26b7f58de2cdcb3d2930dc3b4c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000010-imppcw-000-1-view.jpg?exp=10800,2026-02-10T20:17:00+09:00,2026-02-10T20:17:00+09:00,PC Watch,imppcw,PC Watch,800,"写真：PC Watch
+Discordは2月9日、未成年向け保護機能をデフォルトで有効化すると発表した。コンテンツフィルターやフレンド機能などに一部制限がかかるもので、すべての新規/既存ユーザーを対象に、3月上旬よりグローバルで順次適用する。
+
+　未成年向け保護機能のデフォルト有効化は、2025年に英国およびオーストラリアで先行導入されていた変更で、今回グローバルにも拡大されたかたち。具体的には以下の仕様がデフォルトで有効となり、機能利用や設定変更などにも制限が設けられる。
+
+・センシティブなコンテンツをぼかして表示する「コンテンツフィルタ」を外せない(未成年アカウントは設定変更も不可)
+・年齢制限のかかったチャンネル/サーバー/アプリコマンドへアクセスができない
+・知らないユーザーから届いたDMを専用の受信箱に振り分ける「メッセージリクエストインボックス」が有効になる(未成年アカウントは設定変更も不可)
+・知らないユーザーからのフレンドリクエストに警告を表示する「フレンドリクエストアラート」が有効になる
+・ステージチャンネル(スピーカーとオーディエンスに分かれて参加する音声チャット機能)にスピーカーとして参加できない
+
+　これらの制限はアカウントの年齢確認を済ませることで解除可能。年齢確認の方法は、現時点で顔年齢推定(オンデバイスで処理)または提携ベンダーへの身分証明書の提出の2種類を用意しており、今後も方法を追加する予定。加えて、バックグラウンドで動作する独自の年齢推論モデルを導入し、アカウントが成人かどうかの判断を支援する。
+
+　年齢確認が完了すると、Discordの公式アカウントからDMで通知が届く。割り当てられた年齢区分はマイアカウントから確認でき、いつでも再申請が可能。なお、年齢確認に関するステータスはほかのユーザーに表示されない。
+PC Watch,宇都宮 充",[],[]
+デル、Core Ultraシリーズ3搭載の23.8型/27型一体型PC（PC Watch）,https://news.yahoo.co.jp/articles/999750591e3fdbff8d3a21ab1510496733beafbc,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000009-imppcw-000-1-view.jpg?exp=10800,2026-02-10T16:51:00+09:00,2026-02-10T16:51:00+09:00,PC Watch,imppcw,PC Watch,734,"写真：PC Watch
+デル・テクノロジーズは、Core Ultraシリーズ3搭載の一体型PC 2機種の販売を開始した。基本構成時の価格は23.8型の「Dell 24 AIO EC24260」が20万2,900円、27型の「Dell 27 AIO EC27260」が21万2,900円。
+【画像】Dell 27 AIO EC27260
+どちらもCPUに最新のCore Ultraシリーズ3を搭載した一体型PC。Microsoftが定めるCopilot+ PCに準拠し、Recallをはじめとした高度なAI機能を利用できる。HDMI入力も備えており、ゲーム機などを接続すれば本機をモニターとして使用することも可能。VESAマウントにも対応し、モニターアームへの装着も行なえる。
+
+　基本構成時の共通の仕様として、CPUにCore Ultra 5 325、メモリに16GB DDR5、ストレージに512GB M.2 NVMe SSD、OSにWindows 11 Homeなどを搭載。ディスプレイには23.8型または27型のフルHD(1,920×1,080ドット)非光沢パネルを備える。
+
+　インターフェイスはともに、USB 3.2 Gen 2 Type-C、USB 3.2 Gen 2 2基、USB 2.0 2基、Gigabit Ethernet、Wi-Fi 7、Bluetooth 6.0、HDMI 2.1出力、HDMI 1.4入力、音声入出力などを装備する。
+
+　本体サイズおよび重量は、23.8型モデルが540×188×422.43mm/6.7～7.46kg、27型モデルが614.2×210×462.18mm/8.05～9.19kg。
+PC Watch,宇都宮 充",[],[]
+容量100TBのLTO-10に対応したUSB/SAS両対応磁気テープドライブ（PC Watch）,https://news.yahoo.co.jp/articles/af98e487b9b24e6959f34aa103ddd6e21f394aee,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000008-imppcw-000-1-view.jpg?exp=10800,2026-02-10T16:51:00+09:00,2026-02-10T16:51:00+09:00,PC Watch,imppcw,PC Watch,660,"写真：PC Watch
+ユニテックスは、最大100TBのLTO-10規格に対応した磁気テープドライブ「LT100FH USB/SAS」を4月に発売する。
+
+　LT100FH USB/SASは、最新世代のLTO-10カートリッジに対応し、スタンダードは圧縮時75TB/非圧縮時30TB、エンタープライズは圧縮時100TB/非圧縮時40TBの保存容量を実現。サーバー向けのインターフェイスの12GbpsのSASをサポートするほか、ノートPCにも対応できるUSB 3.2 Gen 2インターフェイスを備えるのが特徴。
+
+　LTO-10ではトラック数が従来の8,960本から15,104本に増加したことで記憶容量が向上している。また、トラッキング精度と安定性が向上した。さらにLTO-9で必要だった初回ロード時の最大2時間の初期処理が不要となり、運用効率が改善。アンロード時もテープテンション最適化の巻き戻し処理が不要となり、迅速なイジェクトを実現している。
+
+　本製品ではフルハイトドライブの採用により、転送速度が従来の300MB/sから400MB/sに向上。また、自社開発のアーカイブソフト「UNITEX ArchiveLT」に対応し、オフライン管理、メタデータ検索、自動アーカイブ、インクリメンタルアーカイブといった利便性を向上させる機能、ベリファイ、ハッシュ値による整合性チェック機能により高い安全性を実現している。
+
+　本体サイズは213×417×100mm、重量は7kg。消費電力は55W。
+PC Watch,劉 尭",[],[]
+CHUWI、Lunar Lake搭載で静音をうたうミニPC（PC Watch）,https://news.yahoo.co.jp/articles/e293d6ffa2324a72f41b2eb5758ca4931d557ea6,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000007-imppcw-000-1-view.jpg?exp=10800,2026-02-10T16:15:00+09:00,2026-02-10T16:15:00+09:00,PC Watch,imppcw,PC Watch,376,"写真：PC Watch
+CHUWIは、CPUにLunar LakeことCore Ultra 5 226Vを採用したミニPC「AuBox X1」を予告した。価格と発売日は未公開。
+
+　AuBox X1は、CPUにCore Ultra 5 226Vを採用し、容積0.67Lの小型筐体を採用したミニPC。Iris Xeと比較して最大2倍を実現したというIntel Arc 130V GPU、最大40TOPSのNPUを搭載している。また、静音設計の採用がうたわれている。
+
+　そのほかの仕様は、メモリは容量16GBのLPDDR5x-8533MHz(オンチップ)、ストレージは512GBのNVMe SSD。インターフェイスとして、USB4、2.5Gigabit Ethernetを搭載。また、3台までのディスプレイ出力が可能としている。
+PC Watch,劉 尭",[],[]
+MSI、GeForce RTX 4050搭載14型ゲーミングノート（PC Watch）,https://news.yahoo.co.jp/articles/d94d41b33a2398d905d1f0866ded8c50568562b4,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000006-imppcw-000-1-view.jpg?exp=10800,2026-02-10T15:20:00+09:00,2026-02-10T15:20:00+09:00,PC Watch,imppcw,PC Watch,539,"写真：PC Watch
+MSIは、Core i7-13620HとGeForce RTX 4050 Laptop GPUを搭載した14型ゲーミングノート「Cyborg-14-A13VE-3302JP」を発売した。価格は19万9,800円。
+
+　Cyborg-14-A13VE-3302JPは、14型で重量約1.6kgのコンパクトな筐体に、Core i7-13620HとGeForce RTX 4050 Laptop GPUを内蔵したゲーミングノート。DLSSやフレーム生成、レイトレーシングにも対応する。
+
+　メモリに32GB DDR5、ストレージに1TB NVMe SSD、OSにWindows 11 Homeを搭載。ディスプレイには144Hz駆動の1,920×1,200ドット非光沢パネルを装備する。
+
+　インターフェイスは、USB 3.2 Gen 2 Type-C、USB 3.2 Gen 1 2基、Gigabit Ethernet、Wi-Fi 6E、Bluetooth 5.3、HDMI、92万画素Webカメラ、音声入出力などを備える。
+
+　本体サイズは314.7×233.5×22.3mm、重量は約1.6kg。バッテリ駆動時間は最大6時間。
+PC Watch,宇都宮 充",[],[]
+HHKB/パームレスト/キーボードルーフのセットが期間限定販売。Classic Type-Sも追加（PC Watch）,https://news.yahoo.co.jp/articles/e5105e8afd2441d99ef6a48a75532eab1b92f474,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000005-imppcw-000-1-view.jpg?exp=10800,2026-02-10T13:37:00+09:00,2026-02-10T13:37:00+09:00,PC Watch,imppcw,PC Watch,788,"写真：PC Watch
+PFUは、HHKBシリーズのキーボード本体にパームレストとキーボードルーフをセットにした「HHKBスターターキット」を発売した。3月30日までの期間限定販売となる。価格はHHKB Professional Classic Type-Sセットが3万3,000円、HHKB Professional HYBRID Type-Sセットが4万円、HHKB Studioセットが4万5,000円。
+【画像】HHKB Professional Classic Type-S(白+クリアー+フリーザー)
+HHKBスターターキットは、キーボード本体とオプション2点のセットを通常価格より安価に購入できるセット。PFUは2025年にも同様の取り組みを行なっており、今回は2025年に対象だった「HHKB Professional HYBRID Type-S」と「HHKB Studio」に「HHKB Professional Classic Type-S」を加えた3製品でスターターキットを展開している。
+
+　単体購入との差額はHHKB Professional Classic Type-Sが8,580円、HHKB Professional Classic Type-Sが6,530円、HHKB Studioが8,680円。日本語配列と英語配列で価格差はない。
+
+　キーボード、パームレスト、キーボードルーフは各セットで色の組み合わせが決まっている。パームレストの「タイピングベッド」は、反りや捻れが生じにくいプライウッド素材を採用。キーボードルーフはポリカーボネート製。
+
+　また、HHKB購入者向けに、抽選で30名に最大4万円分のAmazonギフトカードが当たる「HHKB新生活応援キャンペーン」も実施している。期間は3月31日まで。
+PC Watch,関根 慎一",[],[]
+薄さ13.7mmでコンパクトな65%メカニカルキーボード（PC Watch）,https://news.yahoo.co.jp/articles/a7c8cbab3131137ef8e034f8b35641859393b867,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000004-imppcw-000-1-view.jpg?exp=10800,2026-02-10T12:47:00+09:00,2026-02-10T12:47:00+09:00,PC Watch,imppcw,PC Watch,427,"写真：PC Watch
+プリンストンは2月6日、薄型65%メカニカルキーボード「AirOne Pro」を3月13日に発売する。価格はオープンプライス。実売予想価格は3万1,880円前後の見込み。
+【この記事に関する別の画像を見る】
+AirOne Proは、台湾MISTEL製の72キー日本語配列キーボード。スイッチには従来のメカニカルスイッチと比べて約5分の1の薄型設計を実現したCherry MX ULPを採用しており、タクタイルとクリッキーのどちらかを選べる。VIAによるリマップに対応。今後QMKにも対応する予定としている。
+
+　筐体はアルミ削り出し。静音フォームを内蔵することで静粛性の向上を図っている。RGB LEDバックライト搭載。インターフェイスはUSB Type-C。ポーリングレートは1,000Hz。Nキーロールオーバーやマクロ機能に対応。
+
+　本体サイズは314×105×13.7mm、重量は約387g。
+PC Watch,関根 慎一",[],[]
+iPhone 17 Pro Maxに物理キーボードを追加できるケース（PC Watch）,https://news.yahoo.co.jp/articles/3bec275f68abb5c7480d883891e07721ccdb66dd,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000003-imppcw-000-1-view.jpg?exp=10800,2026-02-10T11:48:00+09:00,2026-02-10T11:48:00+09:00,PC Watch,imppcw,PC Watch,461,"写真：PC Watch
+キットカットは、Akko製キーボード一体型ケース「Akko iPhone 17 Pro Max MetaKey キーボード一体型ケース」を2月10日に発売した。直販価格は9,980円。カラーはSpace Black、Cloud White、Cosmic Orangeの3色。
+【画像】Cloud White
+Akko iPhone 17 Pro Max MetaKey キーボード一体型ケースは、画面下部にキーボードを配置したiPhone 17 Pro Max専用ケース。キー数は37。ケース裏面にマグネットを備え、ワイヤレスにも充電対応。底面にはUSB Type-C端子を装備。背面には着脱可能な9gのウェイトを装着可能で、好みの重さに調整できる。
+
+　主な機能としてビデオ閲覧モードを搭載。Fn+Spaceキーで切り替えられ、キーボード操作でスクロールできるようになる。白色LEDバックライトを内蔵する。
+
+　本体サイズは205×85×13mm、重量は78.9g。
+PC Watch,関根 慎一",[],[]
+ドコモ、スマホ衛星通信を2026年度初頭に開始（PC Watch）,https://news.yahoo.co.jp/articles/568d1bceb551a8a6da558e3f15ff4ab740519e12,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000002-imppcw-000-1-view.jpg?exp=10800,2026-02-10T11:29:00+09:00,2026-02-10T11:29:00+09:00,PC Watch,imppcw,PC Watch,259,"写真：PC Watch
+NTTドコモは2月9日、衛星とスマートフォンが直接通信できるサービスを2026年度初頭に提供開始すると発表した。
+
+　このサービスは、スマートフォンで利用できる衛星通信サービス。山間部や離島、海上など地上基地局による通信が利用できないエリアや、災害などで地上の通信設備が被災したエリアでも、テキストメッセージの送受信や対応アプリによるデータ通信が可能となる。
+
+　衛星通信にあたって専用機器は必要なく、ドコモのLTE対応スマートフォンであれば利用できるとしている。
+PC Watch,宇都宮 充",[],[]
+ガチくんに! 第403回 ガチ/ぷげらのスト6共通テスト（PC Watch）,https://news.yahoo.co.jp/articles/dac7d8515a35a84c652babebe1aba9b33c940af4,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260210-00000001-imppcw-000-1-view.jpg?exp=10800,2026-02-10T06:00:00+09:00,2026-02-10T06:00:00+09:00,PC Watch,imppcw,PC Watch,341,"写真：PC Watch
+※毎週木曜日にプロ格闘ゲームプレイヤーであるガチくんをパーソナリティに迎え、ストリートファイター6攻略企画「ガチくんに!」をTwitchとYouTubeで配信しています。レギュラー出演者はカワノ、ぷげら、奥村茉実。ここでは当日放送したおおまかな内容を紹介するとともに、YouTubeにアップロードしたアーカイブの動画を掲載しています。
+
+　1月22日の配信は、ガチくん、ぷげらさん、奥村さんのレギュラー陣3名でお届け。ガチくんとぷげらさんに、界隈で話題になっていた「2026年度 Street Fighter 6 共通テスト」に挑戦していただきました。プロ格ゲーマーのお2人は見事満点を取ることができるのでしょうか。
+PC Watch,PC Watch編集部",[],[]
