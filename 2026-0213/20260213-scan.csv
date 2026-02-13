@@ -1,0 +1,20 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+沖電気工業製品およびその OEM 製品に引用符で囲まれていないファイルパスの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/8f30f0b906c17679afd643c957ad7afd92140b54,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-13T08:00:04+09:00,2026-02-13T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,939,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月9日、沖電気工業製品およびそのOEM製品における引用符で囲まれていないファイルパスの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+・沖電気工業株式会社（全てWindows版）
+Configuration Tool　2.0.1以前/1.8.1以前（Pro3シリーズ用）
+smart Print Super Vision　2.0.2以前
+Print Job Accounting　4.4.13以前
+Print Job Accounting Lite　4.4.13.2以前
+Web Driver Installer　1.5.11以前
+Storage Device Manager　3.0.0.1～3.2.0.0
+PDF Print Direct　4.0.0～4.5.2
+Profile Assistant　2.1.0～2.2.1
+・株式会社リコー
+RICOH P C6000L Configuration Tool　1.6.53 以下
+RICOH SP C740　Configuration Tool　1.6.13 以下
+・村田機械株式会社
+MFX-C3400/MFX-C3400N　Configuration Tool　1.1.2 以前
+MFX-C3400/MFX-C3400N　Storage Device Manager　3.2.0.0
+沖電気工業株式会社が提供する製品およびそのOEM（株式会社リコー、村田機械株式会社）製品のConfiguration Toolには、引用符で囲まれていない検索パスの脆弱性（CVE-2026-24466）が存在し、システムドライブ直下への書き込み権限を有するユーザによって、SYSTEM権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報を確認するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
