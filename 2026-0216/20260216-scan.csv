@@ -1,0 +1,47 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+統合セキュリティプラットフォーム「Securify」に新オプション「パスワード漏洩調査サービス」（ScanNetSecurity）,https://news.yahoo.co.jp/articles/01f06b193059fd3759c0dd5a67b7845d4edceafe,https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260216-00000003-scan-000-1-view.jpg?exp=10800,2026-02-16T08:00:12+09:00,2026-02-16T08:00:12+09:00,ScanNetSecurity,scan,ScanNetSecurity,1132,"レポートイメージ
+株式会社スリーシェイクは2月12日、統合セキュリティプラットフォーム「Securify」で新オプション「パスワード漏洩調査サービス」を提供すると発表した。
+「Securify」は、IT資産の棚卸しと脆弱性診断を通じたリスク評価のサイクルを可能にし、持続可能なセキュリティ対策を実現する統合セキュリティプラットフォームで、「Securify ASM」「Securify Webアプリケーション診断」「Securify CSPM」「Securify SBOM」「Securify WordPress診断」機能を備えている。
+「Securify」では、ASMや脆弱性診断を通じてIT資産の可視化とリスク評価を支援してきたが、外部サービスに起因するアカウント情報のリスクを可視化する取り組みとして「パスワード漏洩調査サービス」を提供することで、Securifyの提供価値を拡張する。
+「パスワード漏洩調査サービス」は、企業ドメインを起点に、インターネット上に公開・登録されているメールアドレスの状況と、過去に発生したデータ侵害における漏えいの有無を調査・報告するサービスで、これまで把握が難しかった組織外に存在するアカウント起点のリスクの可視化が可能となる。
+主な調査とレポート内容は下記の通り。
+■公開メールアドレス調査
+・Web上に公開・登録されている指定ドメインのメールアドレスを一覧化
+・各メールアドレスが、どの外部サービス（GitHub、LinkedIn、PR TIMESなど）に関連付けて検出されたかを特定
+■パスワード漏洩調査
+・過去に発生したデータ侵害事件のリストを対象に、指定ドメインのメールアドレスが含まれていないかを確認
+・パスワード漏えいが確認されたアカウントについて、漏えい元となったサービス名（Adobe、Ashley Madison など）を特定し、悪用リスクのあるアカウントを可視化
+同サービスでは、調査実施時点での情報を整理し、下記の項目を含むレポートとして納品する。
+■調査サマリー
+・公開・登録が確認されたメールアドレスの件数
+・過去のデータ侵害リストに基づき、パスワード漏えいが確認されたアカウント件数
+■公開メールアドレス調査
+・Web上や外部サービス上で検出された、指定ドメインのメールアドレス一覧
+・各メールアドレスについて、関連が確認されたサービス名を整理
+■パスワード漏洩調査
+・過去のデータ侵害リストをもとに、指定ドメインのメールアドレスが含まれていた事例を整理
+・該当するメールアドレスについて、漏えい元として確認されたサービス名を明示
+ScanNetSecurity ScanNetSecurity",[],[]
+マイクロソフトが 2 月のセキュリティ情報公開、悪用の事実を確認済みの脆弱性が 6 件（ScanNetSecurity）,https://news.yahoo.co.jp/articles/932d47c1625f8b7c7e9c6cb1b0c86a767b21e97d,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-16T08:00:07+09:00,2026-02-16T08:00:07+09:00,ScanNetSecurity,scan,ScanNetSecurity,1155,"独立行政法人 情報処理推進機構（IPA）は2月12日、「Microsoft 製品の脆弱性対策について(2026年2月)」を発表した。一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）も「2026年2月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。これは、マイクロソフトが2026年2月度のセキュリティ更新プログラムを公開したことを受けたもの。
+対象となるソフトウェアは次の通り。
+Windows 11 v25H2, v24H2, v23H2
+Windows Server 2025 (Server Core installationを含む)
+Windows Server 2022,23H2 (Server Core installationを含む)
+Windows Server 2019, 2016 (Server Core installation を含む)
+Microsoft Office
+Microsoft SharePoint
+Microsoft Exchange Server
+Microsoft SQL Server
+Microsoft .NET
+Microsoft Visual Studio
+Microsoft Azure
+Microsoft Defender for Endpoint for Linux
+これらの脆弱性を悪用された場合、アプリケーションプログラムの異常終了や攻撃者によるパソコンの制御など、様々な被害が発生する可能性がある。
+IPAおよびJPCERT/CCでは、Microsoft Update、Windows Updateなどでセキュリティ更新プログラムを適用するよう呼びかけている。
+また、「Windows シェル セキュリティ機能のバイパスの脆弱性（CVE-2026-21510）」「MSHTML Framework Security Feature Bypass Vulnerability（CVE-2026-21513）」「Microsoft Word のセキュリティ機能のバイパスの脆弱性（CVE-2026-21514）」「デスクトップ ウィンドウ マネージャーの特権の昇格の脆弱性（CVE-2026-21519）」「Windows リモート アクセス接続マネージャーのサービス拒否の脆弱性（CVE-2026-21525）」「Windows リモート デスクトップ サービスの特権昇格の脆弱性（CVE-2026-21533）」については、Microsoft 社が悪用の事実を確認しており、更新プログラムの適用を早急に行うよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
+M-Audio 製 M-Track Duo HD インストーラに任意の DLL 読み込みの脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/d24840e2ecc746bec39c96f9f3203d9b08dd097c,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-16T08:00:04+09:00,2026-02-16T08:00:04+09:00,ScanNetSecurity,scan,ScanNetSecurity,459,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月12日、M-Audio製M-Track Duo HDインストーラにおける任意のDLL読み込みの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の松本一真氏が報告を行っている。影響を受けるシステムは以下の通り。
+M-Track Duo HD 1.0.0
+M-Audioが提供するM-Track Duo HDのインストーラには、DLLを読み込む際の検索パスに問題があり、同一ディレクトリに存在する特定のDLLを読み込んでしまうファイル検索パスの制御不備の脆弱性（CVE-2026-25676）が存在し、管理者権限で任意のコードを実行される可能性がある。
+JVNでは、開発者が提供する情報をもとに最新版のインストーラを使用するよう呼びかけている。
+ScanNetSecurity ScanNetSecurity",[],[]
