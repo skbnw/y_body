@@ -1,0 +1,13 @@
+headline,mainEntityOfPage,image,datePublished,dateModified,author,media_en,media_jp,str_count,body,images,external_links
+FileZen に OSコマンドインジェクションの脆弱性、悪用した攻撃を確認済み（ScanNetSecurity）,https://news.yahoo.co.jp/articles/1fcc66b2adaf58ca0eeec3271b214addeeb132fe,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-17T08:00:15+09:00,2026-02-17T08:00:15+09:00,ScanNetSecurity,scan,ScanNetSecurity,586,"独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月13日、FileZenにおけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。
+FileZen V5.0.0からV5.0.10までのバージョン
+FileZen V4.2.1からV4.2.8までのバージョン
+※FileZen Sは本脆弱性の影響を受けない
+株式会社ソリトンシステムズが提供するFileZenには、OSコマンドインジェクションの脆弱性（CVE-2026-25108）が存在し、FileZenウイルスチェックオプションが有効な場合、本脆弱性の影響を受ける。
+想定される影響としては、当該製品にログインしているユーザによって細工したHTTPリクエストを送信された場合、任意のOSコマンドを実行される可能性がある。
+開発者では既に、本脆弱性を悪用した攻撃を確認している。
+JVNでは、開発者が提供する情報をもとにファームウェアを最新版にアップデートするよう呼びかけている。なお開発者は、本脆弱性を修正したファームウェア「FileZen V5.0.11」をリリースしている。
+ScanNetSecurity ScanNetSecurity",[],[]
+PowerDNS Recursor に外部からのサービス不能（DoS）攻撃が可能になる脆弱性（ScanNetSecurity）,https://news.yahoo.co.jp/articles/ae7a0654bb22d240e8b5e1f6208a9550eb3324b3,https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800,2026-02-17T08:00:11+09:00,2026-02-17T08:00:11+09:00,ScanNetSecurity,scan,ScanNetSecurity,242,"株式会社日本レジストリサービス（JPRS）は2月13日、PowerDNS Recursorの脆弱性情報（CVE-2026-24027、CVE-2026-0398）が公開されたと発表した。
+フルリゾルバー（キャッシュDNSサーバ）PowerDNS Recursorにおいて、外部からのサービス不能（DoS）攻撃が可能になる脆弱性が中央ヨーロッパ時間2月9日に公開され、併せて当該脆弱性を修正したバージョンも公開されている。
+ScanNetSecurity ScanNetSecurity",[],[]
