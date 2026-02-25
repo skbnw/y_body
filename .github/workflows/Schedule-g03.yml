@@ -1,10 +1,8 @@
 name: Schedule g03
-
 on:
   schedule:
     - cron: '40 16 * * *' 
   workflow_dispatch:
-
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -36,5 +34,10 @@ jobs:
       - name: Commit and push csv files
         run: |
           git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update csv files - $(date +'%Y-%m-%d')" && git push)
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping."
+          else
+            git commit -m "Update csv files - $(date +'%Y-%m-%d')"
+            git push
+          fi
         working-directory: ${{ github.workspace }}
