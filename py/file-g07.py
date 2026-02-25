@@ -9,17 +9,17 @@ import re
 import time
 
 # 作業日（実行日）の前日を設定
-TARGET_DATE = datetime.now() - timedelta(days=1)
+TARGET_DATE = datetime.now()
 
 # スクレイピング対象グループを限定
 TARGET_GROUPS = ['g07']  # 必要に応じてグループを追加
 
 # HTML構造の定義
 EXPECTED_CLASSES = {
-    "news_link": "cDTGMJ",          # ニュースリンクのクラス
-    "content_div": "iiJVBF",        # コンテンツ全体を含むdivのクラス
-    "title_div": "dHAJpi",          # タイトルを含むdivのクラス
-    "time": "faCsgc",               # 時間表示のクラス
+    "news_link": "sc-1gg21n8-0",          # ニュースリンクのクラス
+    "content_div": "sc-278a0v-0",        # コンテンツ全体を含むdivのクラス
+    "title_div": "sc-3ls169-0",          # タイトルを含むdivのクラス
+    "time": "sc-16vsoxb-1",               # 時間表示のクラス
     "article_body": "article_body"   # 記事本文のクラス
 }
 

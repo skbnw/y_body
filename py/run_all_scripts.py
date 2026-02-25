@@ -1,5 +1,6 @@
 import time
 import subprocess
+import os
 
 # 実行するPythonスクリプトのリスト
 scripts = [
@@ -21,14 +22,20 @@ scripts = [
     "file-g16.py",
 ]
 
+# venvのpythonパス
+python_exe = r"C:\Users\user\Documents\Github\Project_NewsDB\venv\Scripts\python.exe"
+
 # 各スクリプトを順次実行
 for script in scripts:
     try:
         print(f"Running {script}...")
-        subprocess.run(["python", f"y_body/py/{script}"], check=True)
-        print(f"Finished {script}. Waiting for 5 minutes...")
-        time.sleep(300)  # 5分待機
+        # 2026-02-24を対象に実行 (引数が使えるスクリプトのみ)
+        # file-g04.pyなどは引数対応しているが、他は未確認のため引数なしで実行(デフォルトが前日なら2026-02-24になる)
+        subprocess.run([python_exe, f"py/{script}"], check=True)
+        print(f"Finished {script}. Waiting for 5 seconds...")
+        time.sleep(5)  # 5秒待機
     except subprocess.CalledProcessError as e:
         print(f"Error occurred while running {script}: {e}")
-        break
+        # 次のスクリプトに進む
+        continue
 
