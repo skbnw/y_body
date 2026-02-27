@@ -13,14 +13,11 @@ import pytz
 JST = pytz.timezone('Asia/Tokyo')
 
 # 作業日（実行日）の前日を日本時間で設定
-TARGET_DATE = datetime.now(JST)
+TARGET_DATE = datetime.now(JST) - timedelta(days=1)
 
 # スクレイピング対象グループ
 TARGET_GROUPS = [
-    'g01', 'g02', 'g03', 'g04',
-    # 'g05', 'g06', 'g07', 'g08',
-    # 'g09', 'g10', 'g11', 'g12',
-    # 'g13', 'g14', 'g15', 'g16'
+    'g01'
 ]
 
 # HTML構造の定義
@@ -240,4 +237,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

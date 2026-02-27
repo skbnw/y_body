@@ -1,6 +1,7 @@
 import random 
 import json
 from datetime import datetime, timedelta
+import pytz
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -8,8 +9,12 @@ from pathlib import Path
 import re
 import time
 
-# 作業日（実行日）の前日を設定
-TARGET_DATE = datetime.now()
+
+# 日本時間のタイムゾーンを指定
+JST = pytz.timezone('Asia/Tokyo')
+
+# 作業日（実行日）の前日を日本時間で設定
+TARGET_DATE = datetime.now(JST) - timedelta(days=1)
 
 # スクレイピング対象グループを限定
 TARGET_GROUPS = ['g14']  # 必要に応じてグループを追加
