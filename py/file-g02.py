@@ -12,8 +12,12 @@ import pytz
 # 日本時間のタイムゾーンを指定
 JST = pytz.timezone('Asia/Tokyo')
 
+# 日本時間のタイムゾーンを指定
+JST = pytz.timezone('Asia/Tokyo')
+
 # 作業日（実行日）の前日を日本時間で設定
 TARGET_DATE = datetime.now(JST) - timedelta(days=1)
+
 
 # スクレイピング対象グループ
 TARGET_GROUPS = [
@@ -72,7 +76,7 @@ def save_articles_to_csv(article_data, media_en, target_date):
     except Exception as e:
         print(f"Error saving articles for {media_en}: {e}")
 
-def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=10):
+def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=20):
     """
     記事の本文を複数ページに対応して取得する
     """
@@ -120,7 +124,7 @@ def fetch_full_article_with_pagination(base_url, timeout_duration=30, max_pages=
     return full_text.strip(), json_ld_data
 
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=20):
     """Yahooニュースから指定日付の記事リンクを取得する（ページ番号インクリメント方式）"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'

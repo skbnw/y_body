@@ -13,8 +13,12 @@ import time
 # 日本時間のタイムゾーンを指定
 JST = pytz.timezone('Asia/Tokyo')
 
+# 日本時間のタイムゾーンを指定
+JST = pytz.timezone('Asia/Tokyo')
+
 # 作業日（実行日）の前日を日本時間で設定
 TARGET_DATE = datetime.now(JST) - timedelta(days=1)
+
 
 # スクレイピング対象グループを限定
 TARGET_GROUPS = ['g14']  # 必要に応じてグループを追加
@@ -94,7 +98,7 @@ def fetch_full_article(url, timeout_duration=30):
         return None, None
 
 
-def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=10):
+def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=20):
     """Yahooニュースから複数ページの記事リンクを取得する"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -183,7 +187,7 @@ def process_group(group, urls_df, target_date):
         base_url = row['url']
 
         # target_date を明示的に渡す
-        article_links = get_yahoo_news_urls(base_url, target_date, max_pages=10)
+        article_links = get_yahoo_news_urls(base_url, target_date, max_pages=20)
         article_data = []
 
         for link in article_links:
