@@ -1,3 +1,4 @@
+import sys
 import random
 import json
 from datetime import datetime, timedelta
@@ -16,7 +17,16 @@ JST = pytz.timezone('Asia/Tokyo')
 JST = pytz.timezone('Asia/Tokyo')
 
 # 作業日（実行日）の前日を日本時間で設定
-TARGET_DATE = datetime.now(JST) - timedelta(days=1)
+# 引数から日付を取得
+def get_target_date():
+    if len(sys.argv) > 1:
+        try:
+            return datetime.strptime(sys.argv[1], '%Y-%m-%d')
+        except ValueError:
+            print(f"Invalid date format: {sys.argv[1]}. Use YYYY-MM-DD.")
+    return datetime.now(JST) - timedelta(days=1)
+
+TARGET_DATE = get_target_date()
 
 
 # スクレイピング対象グループ (g03)
