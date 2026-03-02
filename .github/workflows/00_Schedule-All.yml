@@ -1,39 +1,58 @@
 name: 00_Schedule-All
 
 on:
-  workflow_dispatch:  # 手動実行トリガー
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: 'Target date (YYYY-MM-DD)'
+        required: false
+        default: ''
 
 jobs:
   run-scripts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install -r ./y_body/py/requirements.txt
+        run: pip install -r ./py/requirements.txt
 
-      - name: Execute file-g01.py
-        run: python ./y_body/py/file-g01.py
+      - name: Execute scrapers
+        run: |
+          python py/file-g01.py ${{ github.event.inputs.target_date }}
+          python py/file-g02.py ${{ github.event.inputs.target_date }}
+          python py/file-g03.py ${{ github.event.inputs.target_date }}
+          python py/file-g04.py ${{ github.event.inputs.target_date }}
+          python py/file-g05.py ${{ github.event.inputs.target_date }}
+          python py/file-g06.py ${{ github.event.inputs.target_date }}
+          python py/file-g07.py ${{ github.event.inputs.target_date }}
+          python py/file-g08.py ${{ github.event.inputs.target_date }}
+          python py/file-g09.py ${{ github.event.inputs.target_date }}
+          python py/file-g10.py ${{ github.event.inputs.target_date }}
+          python py/file-g11.py ${{ github.event.inputs.target_date }}
+          python py/file-g12.py ${{ github.event.inputs.target_date }}
+          python py/file-g13.py ${{ github.event.inputs.target_date }}
+          python py/file-g14.py ${{ github.event.inputs.target_date }}
+          python py/file-g15.py ${{ github.event.inputs.target_date }}
+          python py/file-g16.py ${{ github.event.inputs.target_date }}
 
-      - name: Wait 5 minutes before file-g02.py
-        run: sleep 300
+      - name: Set Git Config
+        run: |
+          git config user.name "Automated"
+          git config user.email "actions@users.noreply.github.com"
 
-      - name: Execute file-g02.py
-        run: python ./y_body/py/file-g02.py
-
-      # 他のスクリプトも同様に続く
-
-        
-      # アーティファクトとして保存
-      - name: Upload generated files
-        uses: actions/upload-artifact@v4
-        with:
-          name: output-files
-          path: y_body/output/
-
+      - name: Commit and push changes
+        run: |
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Update collected data for ${{ github.event.inputs.target_date }}"
+            git push
+          else
+            echo "No changes to commit"
+          fi
