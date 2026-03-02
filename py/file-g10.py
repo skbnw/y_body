@@ -43,10 +43,17 @@ EXPECTED_CLASSES = {
 }
 
 def create_save_directory(target_date):
-    """保存ディレクトリを作成する"""
-    save_dir = Path(target_date.strftime('%Y-%m%d'))  # フォーマット例: 2024-1120
+    """
+    保存ディレクトリを作成する。
+    py フォルダの親ディレクトリに、指定した日付のフォルダを作成。
+    """
+    current_dir = Path(__file__).parent.parent  # py フォルダの親ディレクトリ
+    save_dir = current_dir / target_date.strftime('%Y-%m%d')  # 例: 2024-1231
     save_dir.mkdir(parents=True, exist_ok=True)
     return save_dir
+
+
+
 
 def save_articles_to_csv(article_data, media_en, target_date):
     """記事データをCSVに保存する"""
@@ -109,75 +116,48 @@ def fetch_full_article(url, timeout_duration=30):
 
 
 def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=20):
-    """Yahooニュースから複数ページの記事リンクを取得する"""
+    """Yahooニュースから指定日付の記事リンクを取得する（ページ番号インクリメント方式）"""
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     urls = []
-    page = 1
 
-    target_month = target_date.month
-    target_day = target_date.day
+    # ターゲット日付をURLパラメータに追加
+    year = target_date.year
+    month = target_date.month
+    day = target_date.day
 
-    print(f"\nLooking for articles from: {target_date.strftime('%Y-%m-%d')}")
-
+    page = 1  # 初期ページ番号
     while page <= max_pages:
-        current_url = f"{base_url}?page={page}"
+        current_url = f"{base_url}?year={year}&month={month}&day={day}&page={page}"
+        print(f"Fetching page {page} from URL: {current_url}")
         try:
-            # リクエストを送信
             response = requests.get(current_url, headers=headers, timeout=timeout_duration)
             response.raise_for_status()
 
-            # ページの解析
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # デバッグ情報の出力
-            print(f"\nChecking page {page}")
-
-            # 記事リンクの取得
+            # 記事リンクを取得
             news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
-
+            print(f"Found {len(news_items)} articles on page {page}.")
+            
             if not news_items:
-                print(f"No news items found on page {page}, checking HTML structure...")
+                print("No articles found on the current page. Stopping pagination.")
                 break
 
-            found_target_date = False
-            found_older_date = False
-
             for item in news_items:
-                time_element = item.find("time", recursive=True)
-                if not time_element:
-                    continue
+                article_url = item.get('href')
+                if article_url and article_url not in urls:
+                    urls.append(article_url)
+                    print(f"Found article URL: {article_url}")
 
-                date_text = time_element.text.strip()
-                print(f"Found date: {date_text}")  # デバッグ出力
-
-                match = re.match(r'(\d+)/(\d+)\(.\) (\d+):(\d+)', date_text)
-                if match:
-                    month, day, hour, minute = map(int, match.groups())
-
-                    if month == target_month and day == target_day:
-                        article_url = item.get('href')
-                        if article_url:
-                            print(f"Found article: {article_url}")
-                            urls.append(article_url)
-                            found_target_date = True
-                    elif month < target_month or (month == target_month and day < target_day):
-                        found_older_date = True
-                        print(f"Found older date: {month}/{day}")
-
-            if found_older_date and not found_target_date:
-                print("Found older articles, stopping search")
-                return urls
-
-            page += 1
-            time.sleep(random.uniform(2, 4))
-
+            page += 1  # 次のページへ進む
+            time.sleep(random.uniform(1, 2))  # ページ間のスリープ
         except Exception as e:
-            print(f"Error on page {page}: {str(e)}")
+            print(f"Error fetching page {page} from URL {current_url}: {e}")
             break
 
-    print(f"Total {len(urls)} URLs found for base URL: {base_url}")
+    print(f"Total {len(urls)} articles found for date {target_date.strftime('%Y-%m-%d')}.\n")
     return urls
 
 
