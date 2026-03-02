@@ -52,7 +52,8 @@ jobs:
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Update collected data for ${{ github.event.inputs.target_date }}"
-            git push
+            git pull origin main --rebase
+            git push origin main
           else
             echo "No changes to commit"
           fi
