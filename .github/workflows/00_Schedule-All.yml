@@ -32,7 +32,7 @@ jobs:
         
       # アーティファクトとして保存
       - name: Upload generated files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: output-files
           path: y_body/output/
