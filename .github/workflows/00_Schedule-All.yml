@@ -1,6 +1,8 @@
 name: 00_Schedule-All
 
 on:
+  schedule:
+    - cron: '0 17 * * *'  # 日本時間 午前2:00（毎日）
   workflow_dispatch:
     inputs:
       target_date:
@@ -47,13 +49,23 @@ jobs:
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
 
-      - name: Commit and push changes
+      - name: Commit and push changes (with retry)
         run: |
           git add .
           if ! git diff --cached --quiet; then
             git commit -m "Update collected data for ${{ github.event.inputs.target_date }}"
-            git pull origin main --rebase
-            git push origin main
+            for i in {1..5}; do
+              echo "Push attempt $i..."
+              git pull origin main --rebase
+              if git push origin main; then
+                echo "Push successful!"
+                exit 0
+              fi
+              echo "Push failed, retrying in 5 seconds..."
+              sleep 5
+            done
+            echo "Failed to push after 5 attempts."
+            exit 1
           else
             echo "No changes to commit"
           fi
