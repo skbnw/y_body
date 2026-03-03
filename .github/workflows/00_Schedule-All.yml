@@ -2,7 +2,7 @@ name: 00_Schedule-All
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # 日本時間 午前2:00（毎日）
+    - cron: '30 16 * * *'  # 日本時間の午前1時30分
   workflow_dispatch:
     inputs:
       target_date:
@@ -11,8 +11,12 @@ on:
         default: ''
 
 jobs:
-  run-scripts:
+  scrape:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [g01, g02, g03, g04, g05, g06, g07, g08, g09, g10, g11, g12, g13, g14, g15, g16]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,24 +29,30 @@ jobs:
       - name: Install dependencies
         run: pip install -r ./py/requirements.txt
 
-      - name: Execute scrapers
+      - name: Execute scraper ${{ matrix.group }}
         run: |
-          python py/file-g01.py ${{ github.event.inputs.target_date }}
-          python py/file-g02.py ${{ github.event.inputs.target_date }}
-          python py/file-g03.py ${{ github.event.inputs.target_date }}
-          python py/file-g04.py ${{ github.event.inputs.target_date }}
-          python py/file-g05.py ${{ github.event.inputs.target_date }}
-          python py/file-g06.py ${{ github.event.inputs.target_date }}
-          python py/file-g07.py ${{ github.event.inputs.target_date }}
-          python py/file-g08.py ${{ github.event.inputs.target_date }}
-          python py/file-g09.py ${{ github.event.inputs.target_date }}
-          python py/file-g10.py ${{ github.event.inputs.target_date }}
-          python py/file-g11.py ${{ github.event.inputs.target_date }}
-          python py/file-g12.py ${{ github.event.inputs.target_date }}
-          python py/file-g13.py ${{ github.event.inputs.target_date }}
-          python py/file-g14.py ${{ github.event.inputs.target_date }}
-          python py/file-g15.py ${{ github.event.inputs.target_date }}
-          python py/file-g16.py ${{ github.event.inputs.target_date }}
+          python py/file-${{ matrix.group }}.py ${{ github.event.inputs.target_date }}
+
+      - name: Upload results as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-results-${{ matrix.group }}
+          path: |
+            202*/*.csv
+          if-no-files-found: ignore
+
+  commit-results:
+    needs: scrape
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: scraper-results-*
+          merge-multiple: true
 
       - name: Set Git Config
         run: |
@@ -53,7 +63,7 @@ jobs:
         run: |
           git add .
           if ! git diff --cached --quiet; then
-            git commit -m "Update collected data for ${{ github.event.inputs.target_date }}"
+            git commit -m "Update collected data [Parallel] ${{ github.event.inputs.target_date }}"
             for i in {1..5}; do
               echo "Push attempt $i..."
               git pull origin main --rebase
