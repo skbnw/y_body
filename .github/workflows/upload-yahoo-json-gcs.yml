@@ -81,3 +81,22 @@ jobs:
           fi
           echo "Running: python py/csv_to_gcs_yahoo_json.py ${ARGS[*]}"
           python py/csv_to_gcs_yahoo_json.py "${ARGS[@]}"
+
+      - name: Notify Discord on scheduled success
+        if: ${{ success() && github.event_name == 'schedule' }}
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "${DISCORD_WEBHOOK_URL}" ]; then
+            echo "DISCORD_WEBHOOK_URL is not configured; skipping notification."
+            exit 0
+          fi
+
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          MESSAGE="✅ Upload Yahoo JSON to GCS #${GITHUB_RUN_NUMBER} (Scheduled) completed successfully.\n${RUN_URL}"
+          jq -n --arg content "${MESSAGE}" '{content: $content}' \
+            | curl --fail-with-body --retry 3 \
+                -H "Content-Type: application/json" \
+                --data-binary @- \
+                "${DISCORD_WEBHOOK_URL}"
