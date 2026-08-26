@@ -1,12 +1,13 @@
 """
 csv_to_gcs_yahoo_json.py
-v1.0.0 — Yahoo CSV → 記事単位 JSON → GCS アップロード（並列パス）
+v1.1.0 — Yahoo CSV → 記事単位 JSON → GCS アップロード（並列パス）
 
 追加機能:
   - y_body の日付フォルダ `{YYYY-MMDD}/{YYYYMMDD}-{media}.csv` を読み込み
   - 記事1件につき1 JSON（kyodo 風スキーマ、id は Yahoo 記事 ID）
   - gs://gcs-json-collector-raw/yahoo/YYYY/MM/{id}.json へアップロード
   - --dry-run / --skip-existing / --date / --limit
+  - v1.1.0: GitHub Actions 向けに件数サマリーを GITHUB_OUTPUT へ出力（Discord 通知用）
 
 既存のローカル CSV 保存・Schedule-g01..g16 には干渉しない。
 """
@@ -19,6 +20,7 @@ import csv
 import hashlib
 import json
 import logging
+import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
@@ -240,6 +242,24 @@ def upload_json(bucket, object_name: str, payload: dict, dry_run: bool) -> None:
     logger.debug("uploaded gs://%s/%s", bucket.name, object_name)
 
 
+def write_github_output(stats: dict[str, int], date_folder: str) -> None:
+    """GitHub Actions のステップ出力へ件数を書き出す。ローカル実行時は何もしない。"""
+    path = os.environ.get("GITHUB_OUTPUT")
+    if not path:
+        return
+    values = {
+        "date_folder": date_folder,
+        "files": stats["files"],
+        "rows": stats["rows"],
+        "uploaded": stats["uploaded"],
+        "skipped": stats["skipped"],
+        "errors": stats["errors"],
+    }
+    with open(path, "a", encoding="utf-8") as fh:
+        for key, value in values.items():
+            fh.write(f"{key}={value}\n")
+
+
 def process(
     *,
     repo_root: Path,
@@ -249,9 +269,10 @@ def process(
     skip_existing: bool,
     limit: int | None,
     local_out: Path | None,
-) -> dict[str, int]:
+) -> tuple[dict[str, int], str]:
     scraped_at = datetime.now(JST).strftime("%Y-%m-%dT%H:%M:%S+09:00")
     date_dirs = resolve_date_dirs(repo_root, date)
+    date_folder = ",".join(d.name for d in date_dirs)
     stats = {"files": 0, "rows": 0, "uploaded": 0, "skipped": 0, "errors": 0}
 
     bucket = None
@@ -330,12 +351,12 @@ def process(
                     done += 1
                     if limit is not None and done >= limit:
                         logger.info("Reached --limit %d", limit)
-                        return stats
+                        return stats, date_folder
             except Exception as e:
                 stats["errors"] += 1
                 logger.error("CSV failed %s: %s", csv_path, e)
 
-    return stats
+    return stats, date_folder
 
 
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
@@ -383,7 +404,7 @@ def main(argv: list[str] | None = None) -> int:
         args.bucket,
     )
     try:
-        stats = process(
+        stats, date_folder = process(
             repo_root=args.repo_root.resolve(),
             date=args.date,
             bucket_name=args.bucket,
@@ -397,13 +418,15 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     logger.info(
-        "done files=%d rows=%d uploaded=%d skipped=%d errors=%d",
+        "done date=%s files=%d rows=%d uploaded=%d skipped=%d errors=%d",
+        date_folder,
         stats["files"],
         stats["rows"],
         stats["uploaded"],
         stats["skipped"],
         stats["errors"],
     )
+    write_github_output(stats, date_folder)
     return 1 if stats["errors"] else 0
 
 
