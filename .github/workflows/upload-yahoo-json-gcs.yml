@@ -5,11 +5,16 @@
 # Discord: 成功時に対象日・アップロード件数・CSV数・スキップ/エラーを通知
 name: Upload Yahoo JSON to GCS
 
+# 収集の直後に複数日分が連続で走っても、GCS 書き込みを重ねない。
+concurrency:
+  group: y-body-gcs-upload
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Scrape date folder (YYYY-MM-DD or YYYY-MMDD). Empty = JST yesterday'
+        description: 'Scrape date folder (YYYY-MM-DD or YYYY-MMDD). Empty = every date folder in the repo'
         required: false
         default: ''
       dry_run:
@@ -41,6 +46,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 収集ワークフローが push した日付フォルダを読む。event SHA だと push 前のコミットになる。
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -74,7 +82,9 @@ jobs:
           if [ "${INPUT_DRY}" = "true" ]; then
             ARGS+=(--dry-run)
           fi
-          if [ "${INPUT_SKIP}" = "true" ]; then
+          # workflow_run はリポジトリに残っている日付フォルダをすべて対象にする。
+          # すでに GCS にある記事はスキップし、欠測日の再アップロードだけ進める。
+          if [ "${INPUT_SKIP}" = "true" ] || [ "${GITHUB_EVENT_NAME}" = "workflow_run" ]; then
             ARGS+=(--skip-existing)
           fi
           echo "Running: python py/csv_to_gcs_yahoo_json.py ${ARGS[*]}"

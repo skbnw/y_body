@@ -1,3 +1,6 @@
+# v1.1.0 (2026-10-05): 一覧の記事リンクを CSS クラスではなく
+# data-cl-params の _cl_link:article で取得する。
+# Yahoo が styled-components のクラス名を変えたため、旧クラスでは 0 件になっていた。
 import sys
 import random 
 import json
@@ -137,8 +140,11 @@ def get_yahoo_news_urls(base_url, target_date, timeout_duration=30, max_pages=20
 
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # 記事リンクを取得
-            news_items = soup.find_all("a", class_=re.compile(EXPECTED_CLASSES["news_link"]))
+            # 記事リンクを取得。クラス名（sc-*）は配信のたびに変わるため使わない。
+            news_items = soup.find_all(
+                "a",
+                attrs={"data-cl-params": re.compile(r"_cl_link:article")},
+            )
             print(f"Found {len(news_items)} articles on page {page}.")
             
             if not news_items:

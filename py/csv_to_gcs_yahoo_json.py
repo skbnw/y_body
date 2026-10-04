@@ -1,6 +1,6 @@
 """
 csv_to_gcs_yahoo_json.py
-v1.1.0 — Yahoo CSV → 記事単位 JSON → GCS アップロード（並列パス）
+v1.2.0 — Yahoo CSV → 記事単位 JSON → GCS アップロード（並列パス）
 
 追加機能:
   - y_body の日付フォルダ `{YYYY-MMDD}/{YYYYMMDD}-{media}.csv` を読み込み
@@ -8,6 +8,8 @@ v1.1.0 — Yahoo CSV → 記事単位 JSON → GCS アップロード（並列�
   - gs://gcs-json-collector-raw/yahoo/YYYY/MM/{id}.json へアップロード
   - --dry-run / --skip-existing / --date / --limit
   - v1.1.0: GitHub Actions 向けに件数サマリーを GITHUB_OUTPUT へ出力（Discord 通知用）
+  - v1.2.0: 日付未指定のときは YYYY-MMDD フォルダをすべて古い順にアップロードする
+    （欠測日がリポジトリに残っているとき、最新1日だけになって取りこぼすのを防ぐ）
 
 既存のローカル CSV 保存・Schedule-g01..g16 には干渉しない。
 """
@@ -199,27 +201,28 @@ def resolve_date_dirs(repo_root: Path, date: datetime | None) -> list[Path]:
             raise FileNotFoundError(f"Date folder not found: {folder}")
         return [folder]
 
-    # 明示日付なし: JST 昨日フォルダを優先。無ければ最新の YYYY-MMDD を使用。
+    # 明示日付なし: リポジトリにある YYYY-MMDD をすべて古い順に処理する。
+    # 欠測リカバリで複数日が残っていても、最新1日だけにならない。
     yesterday = folder_name_for_date(jst_yesterday())
-    preferred = repo_root / yesterday
-    if preferred.is_dir():
-        return [preferred]
-
     candidates = sorted(
         (p for p in repo_root.iterdir() if p.is_dir() and FOLDER_RE.match(p.name)),
         key=lambda p: p.name,
-        reverse=True,
     )
     if not candidates:
         raise FileNotFoundError(
             f"No date folders under {repo_root} (expected e.g. {yesterday})"
         )
-    logger.warning(
-        "JST yesterday folder %s missing; using latest folder %s",
-        yesterday,
-        candidates[0].name,
-    )
-    return [candidates[0]]
+    names = [p.name for p in candidates]
+    if yesterday not in names:
+        logger.warning(
+            "JST yesterday folder %s missing; uploading %d folder(s): %s",
+            yesterday,
+            len(names),
+            ", ".join(names),
+        )
+    else:
+        logger.info("Uploading %d date folder(s): %s", len(names), ", ".join(names))
+    return candidates
 
 
 def get_storage_client():
@@ -373,7 +376,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         "--date",
         type=parse_date_arg,
         default=None,
-        help="Scrape date folder (JST). Default: yesterday JST",
+        help="Scrape date folder (JST). Default: every YYYY-MMDD folder",
     )
     p.add_argument("--bucket", default=DEFAULT_BUCKET, help="GCS bucket name")
     p.add_argument("--dry-run", action="store_true", help="No GCS writes")
