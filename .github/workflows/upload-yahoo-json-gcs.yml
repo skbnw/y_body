@@ -5,11 +5,6 @@
 # Discord: 成功時に対象日・アップロード件数・CSV数・スキップ/エラーを通知
 name: Upload Yahoo JSON to GCS
 
-# 収集の直後に複数日分が連続で走っても、GCS 書き込みを重ねない。
-concurrency:
-  group: y-body-gcs-upload
-  cancel-in-progress: false
-
 on:
   workflow_dispatch:
     inputs:

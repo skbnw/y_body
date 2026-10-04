@@ -1,10 +1,5 @@
 name: 00_Schedule-All
 
-# 欠測日の再実行を重ねても、main への push が衝突しないように直列にする。
-concurrency:
-  group: y-body-schedule-all
-  cancel-in-progress: false
-
 on:
   schedule:
     - cron: '30 16 * * *'  # 日本時間の午前1時30分
