@@ -1,3 +1,4 @@
+# 2026-11-01: ubuntu-latest が Ubuntu 26.04 になり Python 3.8/3.9 が入らないため、runs-on を ubuntu-24.04 に固定
 name: Schedule g15
 
 on:
@@ -7,7 +8,7 @@ on:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
